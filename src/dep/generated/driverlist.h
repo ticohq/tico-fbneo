@@ -9521,6 +9521,7 @@ DRV		BurnDrvmd_long;
 DRV		BurnDrvLooper;
 DRV		BurnDrvcv_looping;
 DRV		BurnDrvLooptris;
+DRV		BurnDrvLooptrsp;
 DRV		BurnSpecLoopz;
 DRV		BurnDrvnes_loopz;
 DRV		BurnDrvmd_lordmone;
@@ -29939,6 +29940,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvLooper,				// Looper
 	&BurnDrvcv_looping,			// Looping
 	&BurnDrvLooptris,			// Looptris (v.2021-12-26)
+	&BurnDrvLooptrsp,			// Looptris Plus (v.2022-12-24)
 	&BurnSpecLoopz,				// Loopz (48K)
 	&BurnDrvnes_loopz,			// Loopz (USA)
 	&BurnDrvmd_lordmone,		// Lord Monarch - Legendary Battle Royale (Hack, English)
@@ -50269,6 +50271,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "looper", "pre90s/d_marineb.cpp"},
 	{ "cv_looping", "coleco/d_coleco.cpp"},
 	{ "looptris", "neogeo/d_neogeo.cpp"},
+	{ "looptrsp", "neogeo/d_neogeo.cpp"},
 	{ "spec_loopz", "spectrum/d_spectrum.cpp"},
 	{ "nes_loopz", "nes/d_nes.cpp"},
 	{ "md_lordmone", "megadrive/d_megadrive.cpp"},
