@@ -13,7 +13,7 @@
 		<clrmamepro forcenodump="ignore"/>
 	</header>
 	<game name="12in1" sourcefile="megadrive/d_megadrive.cpp">
-		<description>12 in 1 (Unl)</description>
+		<description>12 in 1 (Pirate)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="12-in-1 (unl).bin" size="2097152" crc="a98bf454"/>
@@ -2770,7 +2770,7 @@
 	<game name="bsteam3" cloneof="tecmocup" romof="tecmocup" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Boy Soccer Team III (Japan, Pirate)</description>
 		<year>199?</year>
-		<manufacturer>&lt;pirate&gt;</manufacturer>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="tecmo cup (jpn) (pirate).bin" size="524288" crc="e889e218"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -7284,22 +7284,6 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="fifa97" sourcefile="megadrive/d_megadrive.cpp">
-		<description>FIFA 97 Gold Edition (Euro, USA)</description>
-		<year>1996</year>
-		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="fifa_97_b1" size="2097152" crc="2bedb061"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="fifa98" sourcefile="megadrive/d_megadrive.cpp">
-		<description>FIFA 98 - Road to World Cup (Euro)</description>
-		<year>1997</year>
-		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="fifa 98 - road to world cup (euro).bin" size="2097152" crc="96947f57"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="fifa" sourcefile="megadrive/d_megadrive.cpp">
 		<description>FIFA International Soccer (Euro, USA)</description>
 		<year>1994</year>
@@ -7345,6 +7329,22 @@
 		<year>1995</year>
 		<manufacturer>Electronic Arts</manufacturer>
 		<rom name="fifa01.bin" size="2097152" crc="bad30ffa"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="fifa97" sourcefile="megadrive/d_megadrive.cpp">
+		<description>FIFA Soccer 97 Gold Edition (Euro, USA)</description>
+		<year>1996</year>
+		<manufacturer>Electronic Arts</manufacturer>
+		<rom name="fifa_97_b1" size="2097152" crc="2bedb061"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="fifa98" sourcefile="megadrive/d_megadrive.cpp">
+		<description>FIFA Soccer 98 - Road to World Cup (Euro)</description>
+		<year>1997</year>
+		<manufacturer>Electronic Arts</manufacturer>
+		<rom name="fifa 98 - road to world cup (euro).bin" size="2097152" crc="96947f57"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8992,6 +8992,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="huntergirls" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew</comment>
+		<description>Hunter Girls (HB)</description>
+		<year>2023</year>
+		<manufacturer>PSCD Games</manufacturer>
+		<rom name="Hunter Girls (2023)(PSCD Games).bin" size="3014656" crc="ad9c96d3"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="hurrican" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Hurricanes (Euro)</description>
 		<year>1994</year>
@@ -10085,22 +10094,6 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="kof2k" cloneof="kof98" romof="kof98" sourcefile="megadrive/d_megadrive.cpp">
-		<description>K.O.F 2000 (China) (Unl)</description>
-		<year>2000</year>
-		<manufacturer>X Boy</manufacturer>
-		<rom name="king of fighters 2000 (unl).bin" size="2097152" crc="34cbac5d"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="kof98a" cloneof="kof98" romof="kof98" sourcefile="megadrive/d_megadrive.cpp">
-		<description>K.O.F 98' (Unprotected?) (Unl)</description>
-		<year>1998</year>
-		<manufacturer>X Boy</manufacturer>
-		<rom name="king of fighters '98, the (unl) (pirate).bin" size="2097152" crc="c79e1074"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="kagekij" cloneof="kageki" romof="kageki" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Ka-Ge-Ki (Japan)</description>
 		<year>1991</year>
@@ -10184,6 +10177,14 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="killshow" cloneof="fatalrew" romof="fatalrew" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Killing Game Show, The (Japan)</description>
+		<year>1993</year>
+		<manufacturer>Electronic Arts Victor</manufacturer>
+		<rom name="killing game show, the (jpn).bin" size="1048576" crc="b8e7668a"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="kof98" sourcefile="megadrive/d_megadrive.cpp">
 		<description>King of Fighters '98, The (Taiwan) (Unl)</description>
 		<year>1998</year>
@@ -10191,6 +10192,14 @@
 		<rom name="king of fighters '98, the (unl).bin" size="2097152" crc="cbc38eea"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
+	</game>
+	<game name="kof98a" cloneof="kof98" romof="kof98" sourcefile="megadrive/d_megadrive.cpp">
+		<description>King of Fighters '98, The (Unprotected?) (Unl)</description>
+		<year>1998</year>
+		<manufacturer>X Boy</manufacturer>
+		<rom name="king of fighters '98, the (unl) (pirate).bin" size="2097152" crc="c79e1074"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
 	</game>
 	<game name="kof99" sourcefile="megadrive/d_megadrive.cpp">
 		<description>King of Fighters '99, The (Taiwan) (Unl)</description>
@@ -10205,6 +10214,14 @@
 		<year>1999</year>
 		<manufacturer>X Boy</manufacturer>
 		<rom name="king of fighters 99 (unl).bin" size="3145728" crc="ab82afbe"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="kof2k" cloneof="kof98" romof="kof98" sourcefile="megadrive/d_megadrive.cpp">
+		<description>King of Fighters 2000, The (China) (Unl)</description>
+		<year>2000</year>
+		<manufacturer>X Boy</manufacturer>
+		<rom name="king of fighters 2000 (unl).bin" size="2097152" crc="34cbac5d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10821,7 +10838,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3 (China) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (China) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
 		<rom name="shi zi wang 3 - the lion king 3 (chi) (unl).bin" size="2097152" crc="c004219d"/>
@@ -10829,7 +10846,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3b" cloneof="lionkin3" romof="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3 (China, Alt 2) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (China, Alt 2) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
 		<rom name="lion king 3 (unl).bin" size="2097152" crc="8e0555e4"/>
@@ -10837,10 +10854,26 @@
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3a" cloneof="lionkin3" romof="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3 (China, Alt) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (China, Alt) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
 		<rom name="lion_king_3.bin" size="2097152" crc="87e86943"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lionkin2" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Lion King II, The - Shi Zi Wang II (China) (Unl)</description>
+		<year>199?</year>
+		<manufacturer>Gamtec</manufacturer>
+		<rom name="shi zi wang ii - the lion king ii, the (chi) (unl).bin" size="2097152" crc="aff46765"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lionkin2a" cloneof="lionkin2" romof="lionkin2" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Lion King II, The - Shi Zi Wang II (China, Alt) (Unl)</description>
+		<year>199?</year>
+		<manufacturer>Gamtec</manufacturer>
+		<rom name="shi zi wang ii - the lion king ii, the (chi) (unl) (pirate).bin" size="2097152" crc="721b4981"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -15140,6 +15173,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="pstar3st" cloneof="pstar3" romof="pstar3" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>Phantasy Star III - Successors of Time (Hack, v1.2)</description>
+		<year>2020</year>
+		<manufacturer>Rebecca Capowski, lory1990, Peaches</manufacturer>
+		<rom name="Phantasy Star III - Successors of Time v1.2 (2020)(Hack).bin" size="828012" crc="4db28d1f"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="pstar3j" cloneof="pstar3" romof="pstar3" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Phantasy Star III - Toki no Keishousha (Japan)</description>
 		<year>1990</year>
@@ -17647,22 +17689,6 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="lionkin2" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Shi Zi Wang II - Lion King II (China) (Unl)</description>
-		<year>199?</year>
-		<manufacturer>Gamtec</manufacturer>
-		<rom name="shi zi wang ii - the lion king ii, the (chi) (unl).bin" size="2097152" crc="aff46765"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkin2a" cloneof="lionkin2" romof="lionkin2" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Shi Zi Wang II - Lion King II (China, Alt) (Unl)</description>
-		<year>199?</year>
-		<manufacturer>Gamtec</manufacturer>
-		<rom name="shi zi wang ii - the lion king ii, the (chi) (unl) (pirate).bin" size="2097152" crc="721b4981"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="sokoban" cloneof="shoveit" romof="shoveit" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Shijou Saidai no Soukoban (Japan)</description>
 		<year>1990</year>
@@ -19733,6 +19759,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="thorf" cloneof="thor" romof="thor" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Story of Thor, The (Euro, French)</description>
+		<year>1995</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="mpr-17720.ic1" size="2097152" crc="5385f970"/>
+		<rom name="mpr-17721.ic2" size="1048576" crc="158fa2aa"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="thorg" cloneof="thor" romof="thor" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Story of Thor, The (Euro, German)</description>
 		<year>1995</year>
@@ -19781,15 +19816,6 @@
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="story of thor, the (prototype - oct 17, 1994).bin" size="3145728" crc="aa43d34a"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="thorf" cloneof="thor" romof="thor" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Story of Thor, The - A Successor of The Light (Euro, French)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17720.ic1" size="2097152" crc="5385f970"/>
-		<rom name="mpr-17721.ic2" size="1048576" crc="158fa2aa"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -21862,14 +21888,6 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
-	<game name="killshow" cloneof="fatalrew" romof="fatalrew" sourcefile="megadrive/d_megadrive.cpp">
-		<description>The Killing Game Show (Japan)</description>
-		<year>1993</year>
-		<manufacturer>Electronic Arts Victor</manufacturer>
-		<rom name="killing game show, the (jpn).bin" size="1048576" crc="b8e7668a"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="themeprk" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Theme Park (Euro, USA)</description>
 		<year>1995</year>
@@ -23038,7 +23056,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="unknown2" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Unknown Game 2 (Rockman-related?)</description>
+		<description>Unknown Game 2 (Rockman-related?) (Pirate)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="xxx3.bin" size="2097152" crc="188da9f0"/>

@@ -4355,6 +4355,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="dimshift" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Dimension Shift (HB)</description>
+		<year>2020</year>
+		<manufacturer>Fix94, Mugi</manufacturer>
+		<rom name="Dimension Shift (2020)(Fix94, Mugi).nes" size="524304" crc="cfaf9acd"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="dinohockey" sourcefile="nes/d_nes.cpp">
 		<comment>Prototype</comment>
 		<description>Dino Hockey (Prototype)</description>
@@ -7394,6 +7403,15 @@
 		<year>1988</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="Gradius II (Japan).nes" size="262160" crc="d213aa0d"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="gradiusiiacd" cloneof="gradiusii" romof="gradiusii" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Gradius II - Arrangement Chronicle Death (Hack, v2.0)</description>
+		<year>2019</year>
+		<manufacturer>Messatu</manufacturer>
+		<rom name="Gradius II - Arrangement Chronicle Death v2.0 (2019)(Messatu).nes" size="524304" crc="e27f3192"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11071,6 +11089,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="mattockmike" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Mattock Mike - The Legend of Pete (HB)</description>
+		<year>2023</year>
+		<manufacturer>NESLurker</manufacturer>
+		<rom name="Mattock Mike - The Legend of Pete (2023)(NESLurker).nes" size="524304" crc="b0c8187a"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="maurimursu" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
 		<description>Mauri Mursu's Hangover (HB)</description>
@@ -12874,6 +12901,15 @@
 		<year>1989</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="Operation Wolf (USA).nes" size="262160" crc="80704705"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="oratorio" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Oratorio (HB)</description>
+		<year>2023</year>
+		<manufacturer>John Vanderhoef</manufacturer>
+		<rom name="Oratorio (2023)(John Vanderhoef).nes" size="524304" crc="54345913"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16729,10 +16765,10 @@
 	</game>
 	<game name="smbdx" cloneof="smb" romof="smb" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Super Mario Bros. DX - Anniversary Edition (Hack, v4.4)</description>
-		<year>2022-23</year>
+		<description>Super Mario Bros. DX - Anniversary Edition (Hack, v4.5)</description>
+		<year>2023</year>
 		<manufacturer>flamephanter</manufacturer>
-		<rom name="Super Mario Bros. DX - Anniversary Edition v4.4 (2023)(flamepanther).nes" size="40976" crc="448bd601"/>
+		<rom name="Super Mario Bros. DX - Anniversary Edition v4.5 (2023)(flamepanther).nes" size="40976" crc="01fa70ec"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17668,6 +17704,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="tenebra2" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Tenebra 2 (HB)</description>
+		<year>2024</year>
+		<manufacturer>Haplo</manufacturer>
+		<rom name="Tenebra 2 (2024)(Haplo).nes" size="40976" crc="ff47fb01"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="tenkanogoi" sourcefile="nes/d_nes.cpp">
 		<description>Tenka no Goikenban - Mito Koumon (Japan)</description>
 		<year>1987</year>
@@ -18251,6 +18296,15 @@
 		<year>1991</year>
 		<manufacturer>Jaleco</manufacturer>
 		<rom name="Totally Rad (USA).nes" size="262160" crc="9cbaddc7"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="totoro" sourcefile="nes/d_nes.cpp">
+		<comment>Hack, Homebrew</comment>
+		<description>Totoro - Mei is Missing (GlobalHack)</description>
+		<year>2024</year>
+		<manufacturer>Cakewarder</manufacturer>
+		<rom name="Totoro - Mei is Missing GlobalHack (2024)(Cakewarder).nes" size="40976" crc="44f5c8be"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
