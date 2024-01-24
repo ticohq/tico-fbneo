@@ -4,6 +4,7 @@
 #include "burn_gun.h"
 
 bool bStreetFighterLayout = false;
+INT32 nInputIntfMouseDivider = 1;
 
 retro_input_state_t input_cb;
 static retro_input_poll_t poll_cb;
@@ -3021,19 +3022,24 @@ void InputMake(void)
 
 				break;
 			}
-			case GIT_SPECIAL_SWITCH:
-				// used for special inputs like diag and reset, we are not "mapping" those,
-				// so we just want their state to be reset at every frame, nothing else
-				pgi->Input.nVal = 0;
-				*(pgi->Input.pVal) = pgi->Input.nVal;
-				break;
-			case GIT_MOUSEAXIS:						// Mouse axis
-				pgi->Input.nVal = (UINT16)(CinpMouseAxis(pgi->Input.MouseAxis.nMouse, pgi->Input.MouseAxis.nAxis) * nAnalogSpeed);
+			case GIT_MOUSEAXIS:	{					// Mouse axis
+				INT32 nMouse = CinpMouseAxis(pgi->Input.MouseAxis.nMouse, pgi->Input.MouseAxis.nAxis) * nAnalogSpeed;
+
+				if (pgi->Input.MouseAxis.nAxis != 2) { // X/Y axis only, exclude wheel
+					nMouse /= nInputIntfMouseDivider;
+				}
+
+				// Clip axis to 16 bits (signed)
+				if (nMouse < -32768) {
+					nMouse = -32768;
+				}
+				if (nMouse >  32767) {
+					nMouse =  32767;
+				}
+				pgi->Input.nVal = (UINT16)nMouse;
 				*(pgi->Input.pShortVal) = pgi->Input.nVal;
 				break;
-			case GIT_DIRECT_COORD:
-				CinpDirectCoord(pgi->Input.MouseAxis.nMouse, pgi->Input.MouseAxis.nAxis);
-				break;
+			}
 			case GIT_JOYAXIS_FULL:	{				// Joystick axis
 				INT32 nJoy = CinpJoyAxis(pgi->Input.JoyAxis.nJoy, pgi->Input.JoyAxis.nAxis);
 
@@ -3066,6 +3072,15 @@ void InputMake(void)
 
 				break;
 			}
+			case GIT_SPECIAL_SWITCH:
+				// used for special inputs like diag and reset, we are not "mapping" those,
+				// so we just want their state to be reset at every frame, nothing else
+				pgi->Input.nVal = 0;
+				*(pgi->Input.pVal) = pgi->Input.nVal;
+				break;
+			case GIT_DIRECT_COORD:
+				CinpDirectCoord(pgi->Input.MouseAxis.nMouse, pgi->Input.MouseAxis.nAxis);
+				break;
 		}
 	}
 

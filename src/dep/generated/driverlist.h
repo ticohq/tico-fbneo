@@ -14759,7 +14759,6 @@ DRV		BurnDrvsg1k_segagala;
 DRV		BurnDrvsg1k_segagala1;
 DRV		BurnDrvSsonicbr;
 DRV		BurnDrvSonicfgtj;
-DRV		BurnDrvSonicfgtu;
 DRV		BurnDrvSonicfgt;
 DRV		BurnDrvSonicp;
 DRV		BurnDrvSonic;
@@ -34924,7 +34923,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsamsh2jq,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (Infinite Power, Hack)
 	&BurnDrvSamsho2,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (NGM-063 ~ NGH-063)
 	&BurnDrvsamsho2t,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (Optimized, Hack)
-	&BurnDrvSamsho2pe,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (Perfect V. 1.8, Hack)
+	&BurnDrvSamsho2pe,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (Perfect V. 1.9, Hack)
 	&BurnDrvsamsh2sp,			// Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (Special 2017, Hack)
 	&BurnDrvsamsh3bs,			// Samurai Shodown III / Samurai Spirits - Zankurou Musouken (Boss, Hack)
 	&BurnDrvSamSho3h,			// Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGH-087)
@@ -35209,7 +35208,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsg1k_segagala1,		// Sega-Galaga (Japan, Alt)
 	&BurnDrvSsonicbr,			// SegaSonic Bros. (prototype, hack)
 	&BurnDrvSonicfgtj,			// SegaSonic Cosmo Fighter (Japan)
-	&BurnDrvSonicfgtu,			// SegaSonic Cosmo Fighter (US)
 	&BurnDrvSonicfgt,			// SegaSonic Cosmo Fighter (World)
 	&BurnDrvSonicp,				// SegaSonic The Hedgehog (Japan, prototype)
 	&BurnDrvSonic,				// SegaSonic The Hedgehog (Japan, rev. C)
@@ -38976,7 +38974,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_kingcole,		// Tougiou King Colossus (Hack, English)
 	&BurnDrvmd_kingcols,		// Tougiou King Colossus (Hack, Spanish)
 	&BurnDrvmd_kingcol,			// Tougiou King Colossus (Japan)
-	&BurnDrvnes_touhourououmu,	// Touhou Rououmu - Perfect Cherry Blossom (HB, v1.00a)
+	&BurnDrvnes_touhourououmu,	// Touhou Rououmu - Perfect Cherry Blossom (HB, v1.00 beta 2)
 	&BurnDrvTkdenshoa,			// Toukidenshou - Angel Eyes (VER. 960427)
 	&BurnDrvTkdensho,			// Toukidenshou - Angel Eyes (VER. 960614)
 	&BurnDrvnes_toukonclub,		// Toukon Club (Japan)
@@ -55525,7 +55523,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sg1k_segagala1", "sg1000/d_sg1000.cpp"},
 	{ "ssonicbr", "sega/d_segac2.cpp"},
 	{ "sonicfgtj", "sega/d_segac2.cpp"},
-	{ "sonicfgtu", "sega/d_segac2.cpp"},
 	{ "sonicfgt", "sega/d_segac2.cpp"},
 	{ "sonicp", "sega/d_segas32.cpp"},
 	{ "sonic", "sega/d_segas32.cpp"},
