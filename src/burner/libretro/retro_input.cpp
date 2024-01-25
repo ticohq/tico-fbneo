@@ -3025,9 +3025,7 @@ void InputMake(void)
 			case GIT_MOUSEAXIS:	{					// Mouse axis
 				INT32 nMouse = CinpMouseAxis(pgi->Input.MouseAxis.nMouse, pgi->Input.MouseAxis.nAxis) * nAnalogSpeed;
 
-				if (pgi->Input.MouseAxis.nAxis != 2) { // X/Y axis only, exclude wheel
-					nMouse /= nInputIntfMouseDivider;
-				}
+				nMouse /= nInputIntfMouseDivider;
 
 				// Clip axis to 16 bits (signed)
 				if (nMouse < -32768) {
