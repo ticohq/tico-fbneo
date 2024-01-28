@@ -1080,6 +1080,19 @@ static struct BurnDIPInfo BulletDIPList[]=
 	{0x22, 0xff, 0xff, 0xff, NULL                                 },
 
 	// Dip 1
+	{0   , 0xfe, 0   ,    2, "Players"							  },
+	{0x21, 0x01, 0x01, 0x01, "2"								  },
+	{0x21, 0x01, 0x01, 0x00, "3"								  },
+
+	{0   , 0xfe, 0   ,    2, "Demo Sounds"					      },
+	{0x21, 0x01, 0x02, 0x02, "Off"								  },
+	{0x21, 0x01, 0x02, 0x00, "On"								  },
+
+	{0   , 0xfe, 0   ,    4, "Lives"							  },
+	{0x21, 0x01, 0x0c, 0x00, "2"								  },
+	{0x21, 0x01, 0x0c, 0x0c, "3"								  },
+	{0x21, 0x01, 0x0c, 0x08, "4"								  },
+	{0x21, 0x01, 0x0c, 0x04, "5"								  },
 
 	// Dip 2
 	SYSTEM16B_COINAGE(0x22)
@@ -8307,6 +8320,18 @@ static INT32 Blox16bInit()
 	return System16Init();
 }
 
+void BulletInputRemap()
+{
+	System16Dip[2] = ~System16Input[3];
+}
+
+static INT32 BulletInit()
+{
+	System16MakeAnalogInputsDo = BulletInputRemap;
+
+	return System16Init();
+}
+
 static void DduxblMap68K()
 {
 	SekInit(0, 0x68000);
@@ -9413,7 +9438,7 @@ struct BurnDriver BurnDrvAfightere = {
 	"afightere", "afighter", NULL, NULL, "1986",
 	"Action Fighter (System 16B, unprotected, analog controls)\0", NULL, "Sega", "System 16B",
 	NULL, NULL, NULL, NULL,
-	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_5358_SMALL, GBF_HORSHOOT, 0,
+	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_5358_SMALL, GBF_VERSHOOT, 0,
 	NULL, AfightereRomInfo, AfightereRomName, NULL, NULL, NULL, NULL, Afighter_analogInputInfo, Afighter_analogDIPInfo,
 	AfighterAnalogInit, System16Exit, System16BFrame, System16BRender, System16Scan,
 	NULL, 0x1800, 224, 320, 3, 4
@@ -9423,7 +9448,7 @@ struct BurnDriver BurnDrvAfighterf = {
 	"afighterf", "afighter", NULL, NULL, "1986",
 	"Action Fighter (System 16B, FD1089B 317-unknown, analog controls)\0", NULL, "Sega", "System 16B",
 	NULL, NULL, NULL, NULL,
-	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089B_ENC | HARDWARE_SEGA_5358_SMALL, GBF_HORSHOOT, 0,
+	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089B_ENC | HARDWARE_SEGA_5358_SMALL, GBF_VERSHOOT, 0,
 	NULL, AfighterfRomInfo, AfighterfRomName, NULL, NULL, NULL, NULL, Afighter_analogInputInfo, Afighter_analogDIPInfo,
 	AfighterAnalogInit, System16Exit, System16BFrame, System16BRender, System16Scan,
 	NULL, 0x1800, 224, 320, 3, 4
@@ -9433,7 +9458,7 @@ struct BurnDriver BurnDrvAfighterg = {
 	"afighterg", "afighter", NULL, NULL, "1986",
 	"Action Fighter (System 16B, FD1089B 317-unknown)\0", NULL, "Sega", "System 16B",
 	NULL, NULL, NULL, NULL,
-	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089B_ENC | HARDWARE_SEGA_5358_SMALL, GBF_HORSHOOT, 0,
+	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089B_ENC | HARDWARE_SEGA_5358_SMALL, GBF_VERSHOOT, 0,
 	NULL, AfightergRomInfo, AfightergRomName, NULL, NULL, NULL, NULL, System16bInputInfo, AfighterDIPInfo,
 	AfighterInit, System16Exit, System16BFrame, System16BRender, System16Scan,
 	NULL, 0x1800, 224, 320, 3, 4
@@ -9443,7 +9468,7 @@ struct BurnDriver BurnDrvAfighterh = {
 	"afighterh", "afighter", NULL, NULL, "1986",
 	"Action Fighter (System 16B, FD1089A 317-0018)\0", NULL, "Sega", "System 16B",
 	NULL, NULL, NULL, NULL,
-	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089A_ENC | HARDWARE_SEGA_5358_SMALL, GBF_HORSHOOT, 0,
+	BDF_GAME_WORKING | BDF_ORIENTATION_VERTICAL | BDF_CLONE | BDF_HISCORE_SUPPORTED, 2, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1089A_ENC | HARDWARE_SEGA_5358_SMALL, GBF_VERSHOOT, 0,
 	NULL, AfighterhRomInfo, AfighterhRomName, NULL, NULL, NULL, NULL, System16bInputInfo, AfighterDIPInfo,
 	AfighterInit, System16Exit, System16BFrame, System16BRender, System16Scan,
 	NULL, 0x1800, 224, 320, 3, 4
@@ -9735,7 +9760,7 @@ struct BurnDriver BurnDrvBullet = {
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING, 3, HARDWARE_SEGA_SYSTEM16B | HARDWARE_SEGA_FD1094_ENC | HARDWARE_SEGA_5358_SMALL, GBF_RUNGUN, 0,
 	NULL, BulletRomInfo, BulletRomName, NULL, NULL, NULL, NULL, BulletInputInfo, BulletDIPInfo,
-	System16Init, System16Exit, System16BFrame, System16BRender, System16Scan,
+	BulletInit, System16Exit, System16BFrame, System16BRender, System16Scan,
 	NULL, 0x1800, 320, 224, 4, 3
 };
 
