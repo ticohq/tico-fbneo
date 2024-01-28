@@ -3033,6 +3033,15 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bomberun" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Bomberun (48K)</description>
+		<year>1984</year>
+		<manufacturer>DH Software</manufacturer>
+		<rom name="Bomberun 48K (1984)(DH Software).tap" size="18026" crc="5a32b070"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bombfusion" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Bombfusion (48K)</description>
 		<year>1989</year>
@@ -4892,6 +4901,15 @@
 		<rom name="Coloristic (2020)(Martin Borik).tap" size="16436" crc="1c824bfb"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="c4chess" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Colossus 4 Chess (48K)</description>
+		<year>1986</year>
+		<manufacturer>CDS Microsystems</manufacturer>
+		<rom name="Colossus 4 Chess 48K (1986)(CDS Microsystems).tap" size="43369" crc="e0f45f59"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10186,6 +10204,15 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="herbertdr" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Herbert's Dummy Run (48K)</description>
+		<year>1985</year>
+		<manufacturer>Mikro-Gen</manufacturer>
+		<rom name="Herbert's Dummy Run 48K (1985)(Mikro-Gen).tap" size="49402" crc="a9b3b9c5"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="hercules" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Hercules (48K)</description>
 		<year>1986</year>
@@ -11414,7 +11441,7 @@
 	</game>
 	<game name="jeffnotes" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Jeff &amp; The Blue Notes (128K) (HB)</description>
+		<description>Jeff &amp; the Blue Notes (128K) (HB)</description>
 		<year>2023</year>
 		<manufacturer>Deanysoft</manufacturer>
 		<rom name="Jeff &amp; The Blue Notes 128K (2023)(Deanysoft).tap" size="44152" crc="2484175f"/>
@@ -17434,6 +17461,16 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="realgb" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Real Ghostbusters, The (128K)</description>
+		<year>1989</year>
+		<manufacturer>Activision</manufacturer>
+		<rom name="Real Ghostbusters, The 128K (1989)(Activision).tap" size="233398" crc="ae6d542e"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="reaper" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Reaper (128K)</description>
 		<year>1990</year>
@@ -18196,6 +18233,16 @@
 		<year>2016</year>
 		<manufacturer>Ivan Gomez Marquez</manufacturer>
 		<rom name="Rompetechos ES (2016)(IvanBasic).tap" size="39786" crc="300392c7"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="rondure" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Rondure Sorcerer 48K (HB)</description>
+		<year>2023</year>
+		<manufacturer>Jason Taylor</manufacturer>
+		<rom name="Rondure Sorcerer 48K (2023)(Jason Taylor).tap" size="46528" crc="3444bd49"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -19945,6 +19992,16 @@
 		<rom name="Space Thunder (2021)(Isaiasdiaz).tap" size="47073" crc="a11f0963"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="spacewarr" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Press 'J' to use controller</comment>
+		<description>Space Warrior (48K)</description>
+		<year>1985</year>
+		<manufacturer>Automata UK</manufacturer>
+		<rom name="Space Warrior 48K (1985)(Automata UK).tap" size="26355" crc="f1bbd980"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22306,32 +22363,62 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="tc2en" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Transylvanian Castle 2 - The Eye of Velnor (English) (48K) (HB, v1.06)</description>
+		<year>2021</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="TC2 - The Eye of Velnor v1.06 EN 48K (2021)(Fitosoft).tap" size="46907" crc="a72cb028"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="tc2pt" cloneof="tc2en" romof="tc2en" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Transylvanian Castle 2 - The Eye of Velnor (Portuguese) (48K) (HB, v1.06)</description>
+		<year>2021</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="TC2 - The Eye of Velnor v1.06 PT 48K (2021)(Fitosoft).tap" size="47067" crc="a47da046"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="tc2es" cloneof="tc2en" romof="tc2en" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Transylvanian Castle 2 - The Eye of Velnor (Spanish) (48K) (HB, v1.06)</description>
+		<year>2021</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="TC2 - The Eye of Velnor v1.06 ES 48K (2021)(Fitosoft).tap" size="47034" crc="fb98d48b"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="tc3en" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Transylvania Castle 3 - The Queen of Sorcery (English) (48K) (HB, v1.2)</description>
+		<description>Transylvanian Castle 3 - The Queen of Sorcery (English) (48K) (HB, v1.2)</description>
 		<year>2022</year>
 		<manufacturer>Fitosoft</manufacturer>
-		<rom name="Transylvania Castle 3 EN 48K (2022)(Fitosoft).tap" size="47171" crc="f820a20b"/>
+		<rom name="Transylvanian Castle 3 EN 48K (2022)(Fitosoft).tap" size="47171" crc="f820a20b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="tc3pt" cloneof="tc3en" romof="tc3en" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Transylvania Castle 3 - The Queen of Sorcery (Portuguese) (48K) (HB, v1.2)</description>
+		<description>Transylvanian Castle 3 - The Queen of Sorcery (Portuguese) (48K) (HB, v1.2)</description>
 		<year>2022</year>
 		<manufacturer>Fitosoft</manufacturer>
-		<rom name="Transylvania Castle 3 PT 48K (2022)(Fitosoft).tap" size="47171" crc="fd8f0e09"/>
+		<rom name="Transylvanian Castle 3 PT 48K (2022)(Fitosoft).tap" size="47171" crc="fd8f0e09"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="tc3es" cloneof="tc3en" romof="tc3en" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Transylvania Castle 3 - The Queen of Sorcery (Spanish) (48K) (HB, v1.2)</description>
+		<description>Transylvanian Castle 3 - The Queen of Sorcery (Spanish) (48K) (HB, v1.2)</description>
 		<year>2022</year>
 		<manufacturer>Fitosoft</manufacturer>
-		<rom name="Transylvania Castle 3 ES 48K (2022)(Fitosoft).tap" size="47154" crc="a73d13c7"/>
+		<rom name="Transylvanian Castle 3 ES 48K (2022)(Fitosoft).tap" size="47154" crc="a73d13c7"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -23915,6 +24002,16 @@
 		<year>2014</year>
 		<manufacturer>Einar Saukas</manufacturer>
 		<rom name="ZEN 48K (2014)(Einar Saukas).tap" size="40412" crc="3a9f650e"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="zenii" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>ZEN II (48K) (HB)</description>
+		<year>2015</year>
+		<manufacturer>Einar Saukas</manufacturer>
+		<rom name="ZEN II 48K (2015)(Einar Saukas).tap" size="35732" crc="3e1fb513"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>

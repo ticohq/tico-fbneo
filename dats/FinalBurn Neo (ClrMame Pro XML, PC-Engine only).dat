@@ -224,7 +224,7 @@
 	</game>
 	<game name="aoiblinke" cloneof="aoiblink" romof="aoiblink" sourcefile="pce/d_pce.cpp">
 		<comment>Hack</comment>
-		<description>Blue Blink (Hack, English, v0.99b)</description>
+		<description>Blue Blink (Hack, English v0.99b)</description>
 		<year>2022</year>
 		<manufacturer>Gaijin Productions</manufacturer>
 		<rom name="Blue Blink (T-Eng v0.99b)(2022)(Gaijin Productions).pce" size="393216" crc="25d34a20"/>
@@ -386,6 +386,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bravomane" cloneof="bravoman" romof="bravoman" sourcefile="pce/d_pce.cpp">
+		<comment>Hack</comment>
+		<description>Chouzetsu Rinjin - Bravoman (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>Pennywise</manufacturer>
+		<rom name="Chouzetsu Rinjin Bravoman - T-Eng (2024)(Pennywise).pce" size="1048576" crc="7413aebd"/>
+		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bravoman" sourcefile="pce/d_pce.cpp">
 		<description>Chouzetsu Rinjin - Bravoman (Japan)</description>
 		<year>1990</year>
@@ -404,7 +413,7 @@
 	</game>
 	<game name="cityhunte" cloneof="cityhunt" romof="cityhunt" sourcefile="pce/d_pce.cpp">
 		<comment>Hack</comment>
-		<description>City Hunter (Hack, English, v1.1)</description>
+		<description>City Hunter (Hack, English v1.1)</description>
 		<year>2022</year>
 		<manufacturer>filler, cabbage</manufacturer>
 		<rom name="City Hunter (T-Eng v1.1)(2022)(filler, cabbage).pce" size="393216" crc="23f3df33"/>
@@ -863,7 +872,7 @@
 	</game>
 	<game name="gaiflamee" cloneof="gaiflame" romof="gaiflame" sourcefile="pce/d_pce.cpp">
 		<comment>Hack</comment>
-		<description>Gai Flame (Hack, English, v0.98)</description>
+		<description>Gai Flame (Hack, English v0.98)</description>
 		<year>2022</year>
 		<manufacturer>Nebulous Translations</manufacturer>
 		<rom name="Gai Flame T-Eng v0.98 (2022)(Nebulous Translations).pce" size="393216" crc="581164ce"/>
@@ -1754,7 +1763,7 @@
 	</game>
 	<game name="outlivee" cloneof="outlive" romof="outlive" sourcefile="pce/d_pce.cpp">
 		<comment>Hack</comment>
-		<description>Out Live (Hack, English, v1.1)</description>
+		<description>Out Live (Hack, English v1.1)</description>
 		<year>2016</year>
 		<manufacturer>Nebulous Translations</manufacturer>
 		<rom name="Out Live (T-Eng v1.1)(2016)(Nebulous Translations).pce" size="303104" crc="2f1cee20"/>
@@ -2588,6 +2597,15 @@
 		<year>1991</year>
 		<manufacturer>Naxat Soft</manufacturer>
 		<rom name="toshi tensou keikaku - eternal city (japan).pce" size="393216" crc="b18d102d"/>
+		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="druagae" cloneof="druaga" romof="druaga" sourcefile="pce/d_pce.cpp">
+		<comment>Hack</comment>
+		<description>Tower of Druaga, The (Hack, English v1.01)</description>
+		<year>2024</year>
+		<manufacturer>Pennywise</manufacturer>
+		<rom name="Tower of Druaga, The - T-Eng v1.01 (2024)(Pennywise).pce" size="1048576" crc="1914ad86"/>
 		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

@@ -518,6 +518,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="rtypeplus" cloneof="rtype" romof="rtype" sourcefile="pce/d_pce.cpp">
+		<comment>Hack</comment>
+		<description>R-Type Plus (Hack)</description>
+		<year>2024</year>
+		<manufacturer>Justin Gibbins</manufacturer>
+		<rom name="R-Type Plus (2024)(Justin Gibbins).pce" size="524288" crc="dc118e24"/>
+		<video type="raster" orientation="horizontal" width="512" height="240" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="raiden" sourcefile="pce/d_pce.cpp">
 		<description>Raiden (USA)</description>
 		<year>1990</year>
