@@ -835,6 +835,7 @@ DRV		BurnDrvcv_aquatacka;
 DRV		BurnDrvMSX_aquatack;
 DRV		BurnDrvcv_aquatack;
 DRV		BurnDrvarabiana;
+DRV		BurnDrvcv_arabian;
 DRV		BurnDrvArabfgtj;
 DRV		BurnDrvArabfgtu;
 DRV		BurnDrvArabfgt;
@@ -1720,6 +1721,7 @@ DRV		BurnDrvBermudat;
 DRV		BurnDrvnes_berserk;
 DRV		BurnDrvBerzerkf;
 DRV		BurnDrvBerzerkg;
+DRV		BurnDrvcv_berzerk;
 DRV		BurnDrvBerzerkb;
 DRV		BurnDrvBerzerka;
 DRV		BurnDrvBerzerk;
@@ -2846,6 +2848,7 @@ DRV		BurnDrvCninjau;
 DRV		BurnDrvCninja1;
 DRV		BurnDrvCninja;
 DRV		BurnSpecCavemania;
+DRV		BurnDrvcv_cavfight;
 DRV		BurnDrvMSX_Caverndeath;
 DRV		BurnDrvMSX_caverns;
 DRV		BurnDrvcv_caverns;
@@ -4658,6 +4661,7 @@ DRV		BurnDrvDkpace;
 DRV		BurnDrvDkongran1;
 DRV		BurnSpecDkreload;
 DRV		BurnDrvDkrdemo;
+DRV		BurnDrvDkremix;
 DRV		BurnDrvDkongrev;
 DRV		BurnDrvdkrndmzr;
 DRV		BurnDrvDkongss;
@@ -4678,6 +4682,7 @@ DRV		BurnDrvMSX_donpan;
 DRV		BurnDrvnes_donsol;
 DRV		BurnSpecDonume;
 DRV		BurnSpecDonums;
+DRV		BurnDrvcv_donuts;
 DRV		BurnDrvnes_doodleworld;
 DRV		BurnDrvnes_doodleworldrdw;
 DRV		BurnDrvnes_doolybravoland;
@@ -5299,6 +5304,7 @@ DRV		BurnDrvnes_elevatoractionc;
 DRV		BurnDrvcv_elevaction;
 DRV		BurnDrvMSX_elevator;
 DRV		BurnDrvsg1k_elevator;
+DRV		BurnDrvcv_elevactionsgm;
 DRV		BurnDrvnes_elevatoraction;
 DRV		BurnDrvElvact2u;
 DRV		BurnDrvElvactrj;
@@ -21308,6 +21314,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_aquatack,		// Aquattack (Japan)
 	&BurnDrvcv_aquatack,		// Aquattack
 	&BurnDrvarabiana,			// Arabian (Atari)
+	&BurnDrvcv_arabian,			// Arabian (HB)
 	&BurnDrvArabfgtj,			// Arabian Fight (Japan)
 	&BurnDrvArabfgtu,			// Arabian Fight (US)
 	&BurnDrvArabfgt,			// Arabian Fight (World)
@@ -22193,6 +22200,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_berserk,		// Berserk (HB)
 	&BurnDrvBerzerkf,			// Berzerk (French Speech, revision RC31)
 	&BurnDrvBerzerkg,			// Berzerk (German Speech, revision RC32)
+	&BurnDrvcv_berzerk,			// Berzerk (HB)
 	&BurnDrvBerzerkb,			// Berzerk (revision RC28)
 	&BurnDrvBerzerka,			// Berzerk (revision RC31)
 	&BurnDrvBerzerk,			// Berzerk (revision RC31A)
@@ -23319,6 +23327,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCninja1,			// Caveman Ninja (World ver 1)
 	&BurnDrvCninja,				// Caveman Ninja (World ver 4)
 	&BurnSpecCavemania,			// Cavemania (48K)
+	&BurnDrvcv_cavfight,		// Cavern Fighter (HB)
 	&BurnDrvMSX_Caverndeath,	// Cavern of Death (Euro, Spanish)
 	&BurnDrvMSX_caverns,		// Caverns of Titan (HB)
 	&BurnDrvcv_caverns,			// Caverns of Titan (SGM) (HB)
@@ -25131,6 +25140,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvDkongran1,			// Donkey Kong Randomized Edition v1.01
 	&BurnSpecDkreload,			// Donkey Kong Reloaded (48K) (HB)
 	&BurnDrvDkrdemo,			// Donkey Kong Remix (Demo)
+	&BurnDrvDkremix,			// Donkey Kong Remix (Hack)
 	&BurnDrvDkongrev,			// Donkey Kong Reverse (Hack)
 	&BurnDrvdkrndmzr,			// Donkey Kong RNDMZR
 	&BurnDrvDkongss,			// Donkey Kong Skip Start v1.00
@@ -25151,6 +25161,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_donsol,			// Donsol (HB, v15)
 	&BurnSpecDonume,			// Donum (English) (128K) (HB)
 	&BurnSpecDonums,			// Donum (Spanish) (128K) (HB)
+	&BurnDrvcv_donuts,			// Donuts Man (HB)
 	&BurnDrvnes_doodleworld,	// Doodle World (HB)
 	&BurnDrvnes_doodleworldrdw,	// Doodle World Redrawn (HB)
 	&BurnDrvnes_doolybravoland,	// Dooly Bravo Land (Korea)
@@ -25772,6 +25783,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_elevaction,		// Elevator Action (HB)
 	&BurnDrvMSX_elevator,		// Elevator Action (Japan)
 	&BurnDrvsg1k_elevator,		// Elevator Action (Japan)
+	&BurnDrvcv_elevactionsgm,	// Elevator Action (SGM) (HB)
 	&BurnDrvnes_elevatoraction,	// Elevator Action (USA)
 	&BurnDrvElvact2u,			// Elevator Action II (Ver 2.2A 1995/02/20)
 	&BurnDrvElvactrj,			// Elevator Action Returns (Ver 2.2J 1995/02/20)
@@ -41777,6 +41789,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_aquatack", "msx/d_msx.cpp"},
 	{ "cv_aquatack", "coleco/d_coleco.cpp"},
 	{ "arabiana", "pre90s/d_arabian.cpp"},
+	{ "cv_arabian", "coleco/d_coleco.cpp"},
 	{ "arabfgtj", "sega/d_segas32.cpp"},
 	{ "arabfgtu", "sega/d_segas32.cpp"},
 	{ "arabfgt", "sega/d_segas32.cpp"},
@@ -42656,6 +42669,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_berserk", "nes/d_nes.cpp"},
 	{ "berzerkf", "pre90s/d_berzerk.cpp"},
 	{ "berzerkg", "pre90s/d_berzerk.cpp"},
+	{ "cv_berzerk", "coleco/d_coleco.cpp"},
 	{ "berzerkb", "pre90s/d_berzerk.cpp"},
 	{ "berzerka", "pre90s/d_berzerk.cpp"},
 	{ "berzerk", "pre90s/d_berzerk.cpp"},
@@ -43768,6 +43782,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "cninja1", "dataeast/d_cninja.cpp"},
 	{ "cninja", "dataeast/d_cninja.cpp"},
 	{ "spec_cavemania", "spectrum/d_spectrum.cpp"},
+	{ "cv_cavfight", "coleco/d_coleco.cpp"},
 	{ "msx_caverndeath", "msx/d_msx.cpp"},
 	{ "msx_caverns", "msx/d_msx.cpp"},
 	{ "cv_caverns", "coleco/d_coleco.cpp"},
@@ -45560,6 +45575,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "dkongran1", "pre90s/d_dkong.cpp"},
 	{ "spec_dkreload", "spectrum/d_spectrum.cpp"},
 	{ "dkrdemo", "pre90s/d_dkong.cpp"},
+	{ "dkremix", "pre90s/d_dkong.cpp"},
 	{ "dkongrev", "pre90s/d_dkong.cpp"},
 	{ "dkrndmzr", "pre90s/d_dkong.cpp"},
 	{ "dkongss", "pre90s/d_dkong.cpp"},
@@ -45580,6 +45596,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_donsol", "nes/d_nes.cpp"},
 	{ "spec_donume", "spectrum/d_spectrum.cpp"},
 	{ "spec_donums", "spectrum/d_spectrum.cpp"},
+	{ "cv_donuts", "coleco/d_coleco.cpp"},
 	{ "nes_doodleworld", "nes/d_nes.cpp"},
 	{ "nes_doodleworldrdw", "nes/d_nes.cpp"},
 	{ "nes_doolybravoland", "nes/d_nes.cpp"},
@@ -46197,6 +46214,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "cv_elevaction", "coleco/d_coleco.cpp"},
 	{ "msx_elevator", "msx/d_msx.cpp"},
 	{ "sg1k_elevator", "sg1000/d_sg1000.cpp"},
+	{ "cv_elevactionsgm", "coleco/d_coleco.cpp"},
 	{ "nes_elevatoraction", "nes/d_nes.cpp"},
 	{ "elvact2u", "taito/d_taitof3.cpp"},
 	{ "elvactrj", "taito/d_taitof3.cpp"},
