@@ -24,7 +24,7 @@ Note: some of those "quality of life" hacks might be doable with programming ski
 
 It's distributed under a non-commercial license, see [LICENSE.md](https://github.com/finalburnneo/FBNeo/blob/master/LICENSE.md) and [whatsnew.html](https://github.com/finalburnneo/FBNeo/blob/master/whatsnew.html).
 
-Also, i see people claming this libretro port is breaking FBNeo's license from time to time, but it doesn't make much sense as far as i am aware :
+Also, i see people claiming this libretro port is breaking FBNeo's license from time to time, but it doesn't make much sense as far as i am aware :
 
 * **libretro is a commercial activity, so it breaks "Redistributions may not be sold, nor may they be used in a commercial product or activity."** : By definition, a commercial activity is an activity involving the sale of goods or services, and the libretro project is doing nothing of the sort. If simply receiving donations through a patreon was enough to be considered as a commercial activity, then i wonder why additional terms concerning donations were included in our license. Let's even suppose libretro is a commercial activity, it would still be unclear how it does affect this port just from implementing the libretro api, since there are alternative libretro frontends that aren't patreon-backed, and we are already using an api belonging to a commercial company in our standalone win32 emulator anyway (directx).
 * **libretro's patreon is a breach of "You may not ask for donations to support your work on any project that uses the FB Neo source code."** : FBNeo is using libretro code, not the other way around, and nobody involved in writing this libretro port is receiving money from libretro's patreon.
