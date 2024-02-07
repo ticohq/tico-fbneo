@@ -914,10 +914,20 @@
 		<driver status="good"/>
 	</game>
 	<game name="kikikai" romof="fdsbios" sourcefile="nes/d_nes.cpp">
-		<description>Kiki Kaikai - Dotou Hen (Japan)</description>
+		<comment>Hack, Mysterious Ghost World - The Turbulent Chapters</comment>
+		<description>Kiki Kaikai - Dotou Hen (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>BlackPaladin</manufacturer>
+		<rom name="Kiki Kaikai Dotou Hen T-Eng (2024)(BlackPaladin).fds" size="131000" crc="61d3af7e"/>
+		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="kikikaij" cloneof="kikikai" romof="kikikai" sourcefile="nes/d_nes.cpp">
+		<description>Kiki Kaikai - Dotou Hen (Japan) (Rev 1)</description>
 		<year>1987</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="Kiki Kaikai - Dotou Hen (Japan).fds" size="131000" crc="7f446c09"/>
+		<rom name="Kiki Kaikai Dotou Hen (J)(Rev 1)(1987)(Taito).fds" size="131000" crc="007aa4fd"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>

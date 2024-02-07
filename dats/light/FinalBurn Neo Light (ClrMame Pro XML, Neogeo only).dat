@@ -16177,7 +16177,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="samsho4k" cloneof="samsho4" romof="samsho4" sourcefile="neogeo/d_neogeo.cpp">
-		<description>Pae Wang Jeon Seol / Legend of a Warrior (Korean censored Samurai Shodown IV)</description>
+		<description>Paewang Jeonseol / Legend of a Warrior (Korean censored Samurai Shodown IV)</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
 		<rom name="222-p1k.p1" size="1048576" crc="06e0a25d"/>

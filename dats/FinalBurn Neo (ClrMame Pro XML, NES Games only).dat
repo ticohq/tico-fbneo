@@ -2426,8 +2426,8 @@
 		<driver status="good"/>
 	</game>
 	<game name="bubblebobbledx" cloneof="bubblebobble" romof="bubblebobble" sourcefile="nes/d_nes.cpp">
-		<comment>Hack, Homebrew</comment>
-		<description>Bubble Bobble Deluxe (Hack, HB)</description>
+		<comment>Hack</comment>
+		<description>Bubble Bobble Deluxe (Hack)</description>
 		<year>2018</year>
 		<manufacturer>Polar Hacker</manufacturer>
 		<rom name="Bubble Bobble Deluxe (2021)(Polar Hacker).nes" size="163856" crc="198125ce"/>
