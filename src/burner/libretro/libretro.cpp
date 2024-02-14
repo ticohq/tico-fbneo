@@ -2564,9 +2564,3 @@ char* GameDecoration(UINT32 nBurnDrv)
 	nBurnDrvActive = nOldBurnDrv;
 	return szGameDecoration;
 }
-
-#ifdef NO_NES
-// stub those functions
-void nes_add_cheat(char *code) {}
-void nes_remove_cheat(char *code) {}
-#endif

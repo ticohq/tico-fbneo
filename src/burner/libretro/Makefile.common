@@ -313,7 +313,7 @@ ifeq ($(LIGHT), 1)
 		$(TAITO_DIR)/d_gunbuster.cpp \
 		$(TAITO_DIR)/d_undrfire.cpp \
 		$(TAITO_DIR)/d_galastrm.cpp
-	FBNEO_DEFINES += -DLIGHT -DNO_NES
+	FBNEO_DEFINES += -DLIGHT
 endif
 
 ifeq ($(AUTOGEN_DATS), 0)

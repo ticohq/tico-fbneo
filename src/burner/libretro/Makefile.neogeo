@@ -344,7 +344,7 @@ SOURCES_CXX += $(LIBRETRO_DIR)/libretro.cpp \
 SOURCES_C += $(UGUI_DIR)/ugui.c \
 	$(LIBRETRO_DIR)/ugui_tools.c
 
-CXXFLAGS += -DNO_NES -DSUBSET=\"$(subset)\"
+CXXFLAGS += -DSUBSET=\"$(subset)\"
 
 # GIT HASH
 GIT_VERSION := " $(shell git rev-parse --short HEAD || echo unknown)"

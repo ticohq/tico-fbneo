@@ -12153,7 +12153,7 @@
 		<description>Metal Slug 5 (Fully Decrypted)</description>
 		<year>2003</year>
 		<manufacturer>SNK Playmore</manufacturer>
-		<rom name="268-p1d.p1" size="1048576" crc="ca50afdf"/>
+		<rom name="268-p1d.p1" size="1048576" crc="24ae2e4d"/>
 		<rom name="268-p2d.sp2" size="4194304" crc="768ee64a"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>

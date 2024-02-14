@@ -2515,6 +2515,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="bustina" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Bustina (HB, v1.04)</description>
+		<year>2022-24</year>
+		<manufacturer>Adam Holmes</manufacturer>
+		<rom name="Bustina v1.04 (2022-24)(Adam Holmes).nes" size="524304" crc="b82ed907"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="buzzwaldog" sourcefile="nes/d_nes.cpp">
 		<comment>Prototype</comment>
 		<description>Buzz &amp; Waldog (USA) (Prototype)</description>
@@ -3762,6 +3771,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="cursedcrown" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Cursed Crown (HB)</description>
+		<year>2024</year>
+		<manufacturer>Martin Reimer</manufacturer>
+		<rom name="Cursed Crown (2024)(Martin Reimer).nes" size="131088" crc="3b4f3b90"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="cyberstaser" sourcefile="nes/d_nes.cpp">
 		<description>Cyber Stadium Series - Base Wars (USA)</description>
 		<year>1991</year>
@@ -5002,6 +5020,32 @@
 		<year>2014</year>
 		<manufacturer>pacnsacdave</manufacturer>
 		<rom name="Dragon Knife (T-Eng).nes" size="524304" crc="142f21a6"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="dragninjae" cloneof="baddudes" romof="baddudes" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Dragon Ninja (Hack, English)</description>
+		<year>2010</year>
+		<manufacturer>Stardust Crusaders</manufacturer>
+		<rom name="Dragon Ninja (T-Eng)(2010)(Stardust Crusaders).nes" size="262160" crc="d4e941c6"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="dragninjas" cloneof="baddudes" romof="baddudes" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Dragon Ninja (Hack, Spanish v1.1)</description>
+		<year>2024</year>
+		<manufacturer>Stardust Crusaders</manufacturer>
+		<rom name="Dragon Ninja (T-Spa v1.1)(2024)(Koda).nes" size="262160" crc="b45529fa"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="dragninjaj" cloneof="baddudes" romof="baddudes" sourcefile="nes/d_nes.cpp">
+		<description>Dragon Ninja (Japan)</description>
+		<year>1989</year>
+		<manufacturer>Namco - Data East</manufacturer>
+		<rom name="Dragon Ninja (Japan)(1989)(Namco).nes" size="262160" crc="2cf535ca"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11759,6 +11803,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="miscastle" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Mischief Castle (HB)</description>
+		<year>2024</year>
+		<manufacturer>kn56k</manufacturer>
+		<rom name="Mischief Castle (2024)(kn56k).nes" size="524304" crc="73e3120b"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="missioncobra" sourcefile="nes/d_nes.cpp">
 		<description>Mission Cobra (USA) (Unl)</description>
 		<year>1990</year>
@@ -14651,10 +14704,10 @@
 	</game>
 	<game name="rockm5mp" cloneof="megaman5" romof="megaman5" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew</comment>
-		<description>Rockman 5 - Metropolis (Hack, HB)</description>
-		<year>2021</year>
-		<manufacturer>Stalkermaestro</manufacturer>
-		<rom name="Rockman 5 - Metropolis (2021)(Stalkermaestro).nes" size="524304" crc="0911f8bf"/>
+		<description>Rockman 5 - Metropolis (GlobalHack, v1.1a)</description>
+		<year>2021-22</year>
+		<manufacturer>StalkerMaestro</manufacturer>
+		<rom name="Rockman 5 - Metropolis v1.1a (2022)(StalkerMaestro).nes" size="524304" crc="f4e22701"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17003,12 +17056,21 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="supertiltbro" sourcefile="nes/d_nes.cpp">
+	<game name="supertiltbro" cloneof="supertiltbrorc3" romof="supertiltbrorc3" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>Super Tilt Bro (HB, v2 alpha1)</description>
+		<description>Super Tilt Bro. (HB, v2 alpha1)</description>
 		<year>2018</year>
 		<manufacturer>Broke Studio</manufacturer>
 		<rom name="Super Tilt Bro (HB).nes" size="524304" crc="58829008"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="supertiltbrorc3" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Super Tilt Bro. (HB, v2 RC3)</description>
+		<year>2023</year>
+		<manufacturer>Broke Studio</manufacturer>
+		<rom name="Super Tilt Bro. v2 RC3 (2023)(Broke Studio).nes" size="524304" crc="5802cf20"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
