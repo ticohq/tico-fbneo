@@ -10370,6 +10370,7 @@ DRV		BurnDrvngpc_mslug1st;
 DRV		BurnDrvngpc_mslug2ndd;
 DRV		BurnDrvngpc_mslug2nd;
 DRV		BurnDrvmslug1v2;
+DRV		BurnDrvmslugfs;
 DRV		BurnDrvmslugfc2;
 DRV		BurnDrvmslugfc1;
 DRV		BurnDrvmslugdg;
@@ -10429,6 +10430,7 @@ DRV		BurnDrvmslug5b;
 DRV		BurnDrvmslug5b2;
 DRV		BurnDrvmslug5bs;
 DRV		BurnDrvmslug5mg;
+DRV		BurnDrvms5esr;
 DRV		BurnDrvmslug5db;
 DRV		BurnDrvmslug5c;
 DRV		BurnDrvmslug5ex;
@@ -11631,6 +11633,7 @@ DRV		BurnDrvmd_tnzsac;
 DRV		BurnDrvmd_tnzss;
 DRV		BurnDrvmd_tnzs;
 DRV		BurnDrvpce_tnzs;
+DRV		BurnDrvNzteamp;
 DRV		BurnDrvNzeroteam;
 DRV		BurnDrvNzeroteamb;
 DRV		BurnDrvNzeroteama;
@@ -17965,6 +17968,7 @@ DRV		BurnDrvkof96rss;
 DRV		BurnDrvkof96r;
 DRV		BurnDrvkof97cn;
 DRV		BurnDrvkof97ae;
+DRV		BurnDrvkof97bt;
 DRV		BurnDrvkof97ts;
 DRV		BurnDrvkof97bs;
 DRV		BurnDrvkof97cbt;
@@ -20378,7 +20382,18 @@ DRV		BurnDrvZeroteamc;
 DRV		BurnDrvZerotm2k;
 DRV		BurnDrvZeroteams;
 DRV		BurnDrvZeroteamsr;
+DRV		BurnDrvZteam1v4;
+DRV		BurnDrvZteamym;
+DRV		BurnDrvZteamzs;
+DRV		BurnDrvZteamys;
+DRV		BurnDrvZteammm;
+DRV		BurnDrvZteamwxp;
+DRV		BurnDrvZteamem;
+DRV		BurnDrvZteampls;
+DRV		BurnDrvZteamdr;
+DRV		BurnDrvZteamwh;
 DRV		BurnDrvZeroteam;
+DRV		BurnDrvZteamdw;
 DRV		BurnDrvmd_zero;
 DRV		BurnDrvmd_zeros;
 DRV		BurnDrvmd_zerou;
@@ -30885,6 +30900,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvngpc_mslug2ndd,		// Metal Slug - 2nd Mission (Demo)
 	&BurnDrvngpc_mslug2nd,		// Metal Slug - 2nd Mission (World)
 	&BurnDrvmslug1v2,			// Metal Slug - Super Vehicle-001 (1v2 Mode, Hack)
+	&BurnDrvmslugfs,			// Metal Slug - Super Vehicle-001 (Firepower Showdown, Hack)
 	&BurnDrvmslugfc2,			// Metal Slug - Super Vehicle-001 (Item Random & Powerful Enemy Defense FC2, Hack)
 	&BurnDrvmslugfc1,			// Metal Slug - Super Vehicle-001 (Item Random FC2, Hack)
 	&BurnDrvmslugdg,			// Metal Slug - Super Vehicle-001 (Multifunction, Hack)
@@ -30944,6 +30960,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmslug5b2,			// Metal Slug 5 (bootleg, set 2)
 	&BurnDrvmslug5bs,			// Metal Slug 5 (Boss Battles, Hack)
 	&BurnDrvmslug5mg,			// Metal Slug 5 (Devil Enemy Remix, Hack)
+	&BurnDrvms5esr,				// Metal Slug 5 (Double Enemy, Hack)
 	&BurnDrvmslug5db,			// Metal Slug 5 (Enemy Enhance, Hack)
 	&BurnDrvmslug5c,			// Metal Slug 5 (Enemy Remix, Hack)
 	&BurnDrvmslug5ex,			// Metal Slug 5 (Extend v1.2, Hack)
@@ -32146,6 +32163,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_tnzss,			// New Zealand Story, The (Hack, Spanish)
 	&BurnDrvmd_tnzs,			// New Zealand Story, The (Japan)
 	&BurnDrvpce_tnzs,			// New Zealand Story, The (Japan)
+	&BurnDrvNzteamp,			// New Zero Team (Plus, Hack)
 	&BurnDrvNzeroteam,			// New Zero Team (V33 SYSTEM TYPE_B hardware)
 	&BurnDrvNzeroteamb,			// New Zero Team (V33 SYSTEM TYPE_B hardware, Haoyunlai Trading Company license)
 	&BurnDrvNzeroteama,			// New Zero Team (V33 SYSTEM TYPE_B hardware, Zhongguo Shantou Yihuang license)
@@ -38480,6 +38498,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvkof96r,				// The King of Fighters '96 (Revised, Hack)
 	&BurnDrvkof97cn,			// The King of Fighters '97 (10th Anniversary Chinese Edition, Hack)
 	&BurnDrvkof97ae,			// The King of Fighters '97 (Anniversary, Hack)
+	&BurnDrvkof97bt,			// The King of Fighters '97 (Balanced & Optimized, Hack)
 	&BurnDrvkof97ts,			// The King of Fighters '97 (Battle with Orochi, v1.2, Hack)
 	&BurnDrvkof97bs,			// The King of Fighters '97 (Boss, Hack)
 	&BurnDrvkof97cbt,			// The King of Fighters '97 (Combo Training, Hack, Ver. 2018)
@@ -40893,7 +40912,18 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvZerotm2k,			// Zero Team 2000
 	&BurnDrvZeroteams,			// Zero Team Selection
 	&BurnDrvZeroteamsr,			// Zero Team Suicide Revival Kit
+	&BurnDrvZteam1v4,			// Zero Team USA (1v4, Hack)
+	&BurnDrvZteamym,			// Zero Team USA (Devil, Hack)
+	&BurnDrvZteamzs,			// Zero Team USA (God of War, Hack)
+	&BurnDrvZteamys,			// Zero Team USA (God, Hack)
+	&BurnDrvZteammm,			// Zero Team USA (Incubus, Hack)
+	&BurnDrvZteamwxp,			// Zero Team USA (Infinite Cannon, Hack)
+	&BurnDrvZteamem,			// Zero Team USA (Nightmare, Hack)
+	&BurnDrvZteampls,			// Zero Team USA (Plus, Hack)
+	&BurnDrvZteamdr,			// Zero Team USA (Providence, Hack)
+	&BurnDrvZteamwh,			// Zero Team USA (Question Mark, Hack)
 	&BurnDrvZeroteam,			// Zero Team USA (US)
+	&BurnDrvZteamdw,			// Zero Team USA (Warriors, Hack)
 	&BurnDrvmd_zero,			// Zero the Kamikaze Squirrel (Euro)
 	&BurnDrvmd_zeros,			// Zero the Kamikaze Squirrel (Hack, Spanish)
 	&BurnDrvmd_zerou,			// Zero the Kamikaze Squirrel (USA)
@@ -51306,6 +51336,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "ngp_mslug2ndd", "pst90s/d_ngp.cpp"},
 	{ "ngp_mslug2nd", "pst90s/d_ngp.cpp"},
 	{ "mslug1v2", "neogeo/d_neogeo.cpp"},
+	{ "mslugfs", "neogeo/d_neogeo.cpp"},
 	{ "mslugfc2", "neogeo/d_neogeo.cpp"},
 	{ "mslugfc1", "neogeo/d_neogeo.cpp"},
 	{ "mslugdg", "neogeo/d_neogeo.cpp"},
@@ -51365,6 +51396,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "mslug5b2", "neogeo/d_neogeo.cpp"},
 	{ "mslug5bs", "neogeo/d_neogeo.cpp"},
 	{ "mslug5mg", "neogeo/d_neogeo.cpp"},
+	{ "ms5esr", "neogeo/d_neogeo.cpp"},
 	{ "mslug5db", "neogeo/d_neogeo.cpp"},
 	{ "mslug5c", "neogeo/d_neogeo.cpp"},
 	{ "mslug5ex", "neogeo/d_neogeo.cpp"},
@@ -52555,6 +52587,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_tnzss", "megadrive/d_megadrive.cpp"},
 	{ "md_tnzs", "megadrive/d_megadrive.cpp"},
 	{ "pce_tnzs", "pce/d_pce.cpp"},
+	{ "nzteamp", "pst90s/d_raiden2.cpp"},
 	{ "nzeroteam", "pst90s/d_raiden2.cpp"},
 	{ "nzeroteamb", "pst90s/d_raiden2.cpp"},
 	{ "nzeroteama", "pst90s/d_raiden2.cpp"},
@@ -58825,6 +58858,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "kof96r", "neogeo/d_neogeo.cpp"},
 	{ "kof97cn", "neogeo/d_neogeo.cpp"},
 	{ "kof97ae", "neogeo/d_neogeo.cpp"},
+	{ "kof97bt", "neogeo/d_neogeo.cpp"},
 	{ "kof97ts", "neogeo/d_neogeo.cpp"},
 	{ "kof97bs", "neogeo/d_neogeo.cpp"},
 	{ "kof97cbt", "neogeo/d_neogeo.cpp"},
@@ -61198,7 +61232,18 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "zerotm2k", "pst90s/d_raiden2.cpp"},
 	{ "zeroteams", "pst90s/d_raiden2.cpp"},
 	{ "zeroteamsr", "pst90s/d_raiden2.cpp"},
+	{ "zteam1v4", "pst90s/d_raiden2.cpp"},
+	{ "zteamym", "pst90s/d_raiden2.cpp"},
+	{ "zteamzs", "pst90s/d_raiden2.cpp"},
+	{ "zteamys", "pst90s/d_raiden2.cpp"},
+	{ "zteammm", "pst90s/d_raiden2.cpp"},
+	{ "zteamwxp", "pst90s/d_raiden2.cpp"},
+	{ "zteamem", "pst90s/d_raiden2.cpp"},
+	{ "zteampls", "pst90s/d_raiden2.cpp"},
+	{ "zteamdr", "pst90s/d_raiden2.cpp"},
+	{ "zteamwh", "pst90s/d_raiden2.cpp"},
 	{ "zeroteam", "pst90s/d_raiden2.cpp"},
+	{ "zteamdw", "pst90s/d_raiden2.cpp"},
 	{ "md_zero", "megadrive/d_megadrive.cpp"},
 	{ "md_zeros", "megadrive/d_megadrive.cpp"},
 	{ "md_zerou", "megadrive/d_megadrive.cpp"},

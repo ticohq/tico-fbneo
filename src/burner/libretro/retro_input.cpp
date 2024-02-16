@@ -2903,7 +2903,7 @@ static void BurnerHandlerKeyCallback()
 	INT32 i = 0;
 
 	// TODO : complete this list
-	INT32 keyMatrix[][2] = {
+	static INT32 keyMatrix[][2] = {
 		{'0', RETROK_0}, {'1', RETROK_1}, {'2', RETROK_2}, {'3', RETROK_3}, {'4', RETROK_4},
 		{'5', RETROK_5}, {'6', RETROK_6}, {'7', RETROK_7}, {'8', RETROK_8}, {'9', RETROK_9},
 		{'a', RETROK_a}, {'b', RETROK_b}, {'c', RETROK_c}, {'d', RETROK_d}, {'e', RETROK_e},
@@ -2913,8 +2913,9 @@ static void BurnerHandlerKeyCallback()
 		{'u', RETROK_u}, {'v', RETROK_v}, {'w', RETROK_w}, {'x', RETROK_x}, {'y', RETROK_y},
 		{'z', RETROK_z},
 		{0x0d, RETROK_RETURN}, {0x1b, RETROK_ESCAPE}, {' ', RETROK_SPACE},
-		{0xf1, RETROK_F1}, {0xf2, RETROK_F2}, {0xf3, RETROK_F3},
-		{0xf4, RETROK_F4}, {0xf5, RETROK_F5}, {0xf6, RETROK_F6},
+		{0xf1, RETROK_F1}, {0xf2, RETROK_F2}, {0xf3, RETROK_F3}, {0xf4, RETROK_F4}, {0xf5, RETROK_F5}, {0xf6, RETROK_F6},
+		{0x11, RETROK_RCTRL}, {0x09, RETROK_TAB}, {0x08, RETROK_BACKSPACE}, {0x2e, RETROK_DELETE},
+		{0xf8, RETROK_UP}, {0xf9, RETROK_DOWN}, {0xfa, RETROK_LEFT}, {0xfb, RETROK_RIGHT},
 		{'\0', 0}
 	};
 
