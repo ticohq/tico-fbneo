@@ -3955,6 +3955,7 @@ DRV		BurnSpecdatholch;
 DRV		BurnSpecDtsupertest128;
 DRV		BurnSpecDtsupertest48;
 DRV		BurnDrvsms_dallye;
+DRV		BurnSpecDambusters;
 DRV		BurnDrvMSX_dambustra;
 DRV		BurnDrvMSX_dambustr;
 DRV		BurnDrvcv_dambust;
@@ -7077,6 +7078,7 @@ DRV		BurnDrvnes_gradiusj;
 DRV		BurnDrvpce_gradius;
 DRV		BurnDrvGradius;
 DRV		BurnDrvpce_gradiusmini;
+DRV		BurnDrvcv_Gradius;
 DRV		BurnDrvnes_gradius;
 DRV		BurnDrvnes_gradiusii;
 DRV		BurnDrvnes_gradiusiiacd;
@@ -7565,6 +7567,7 @@ DRV		BurnDrvMSX_heavybox;
 DRV		BurnSpecHeavymetal;
 DRV		BurnDrvHvymetal;
 DRV		BurnDrvmd_heavynov;
+DRV		BurnSpecHeavymag;
 DRV		BurnDrvnes_heavyshreddin;
 DRV		BurnDrvHvysmsha;
 DRV		BurnDrvHvysmsh;
@@ -9348,6 +9351,7 @@ DRV		BurnDrvnes_legenkag;
 DRV		BurnDrvLomakai;
 DRV		BurnDrvLegendos;
 DRV		BurnDrvnes_legendsm;
+DRV		BurnSpecLegamawom;
 DRV		BurnSpecFrogprince;
 DRV		BurnSpectraxtor;
 DRV		BurnDrvnes_legwnsdx;
@@ -9444,6 +9448,7 @@ DRV		BurnDrvmd_lightcp;
 DRV		BurnDrvmd_lightcu;
 DRV		BurnDrvcv_lgracing;
 DRV		BurnDrvmd_lightfor;
+DRV		BurnSpecLightforce;
 DRV		BurnDrvLgtnfghta;
 DRV		BurnDrvLgtnfghtu;
 DRV		BurnDrvLgtnfght;
@@ -11106,6 +11111,7 @@ DRV		BurnDrvmrdofix;
 DRV		BurnDrvmrdofabr;
 DRV		BurnDrvmrdoy;
 DRV		BurnDrvmrdot;
+DRV		BurnDrvcv_mrdorunrun;
 DRV		BurnDrvMSX_mrdovsun;
 DRV		BurnDrvcv_docastle;
 DRV		BurnDrvcv_mrdo;
@@ -12273,6 +12279,7 @@ DRV		BurnDrvPacman25;
 DRV		BurnDrvmd_pacman2c;
 DRV		BurnDrvmd_pacman2;
 DRV		BurnSpecPmarcade;
+DRV		BurnSpecPacbegins;
 DRV		BurnDrvnes_pacmance;
 DRV		BurnDrvcv_pacmancol;
 DRV		BurnDrvpacplus;
@@ -12323,6 +12330,8 @@ DRV		BurnDrvMSX_pacobomb2s;
 DRV		BurnDrvMSX_pacobomb;
 DRV		BurnDrvMSX_pacobombr;
 DRV		BurnDrvMSX_pacotiatk;
+DRV		BurnSpecPacomanv2;
+DRV		BurnSpecPacoman;
 #if defined FBNEO_DEBUG
 DRV		BurnDrvPacominv;		// No sound
 #endif
@@ -12526,6 +12535,7 @@ DRV		BurnDrvnes_pengusea;
 DRV		BurnDrvPengadvb;
 DRV		BurnDrvMSX_pengadv;
 DRV		BurnDrvsms_pengadv;
+DRV		BurnDrvcv_Penguinadv;
 DRV		BurnDrvMSX_pengadvk2;
 DRV		BurnDrvMSX_pengadvk1;
 DRV		BurnDrvPenbros;
@@ -18231,6 +18241,7 @@ DRV		BurnDrvCps3wondersu;
 DRV		BurnDrvCps3wondersr1;
 DRV		BurnDrvCps3wonders;
 DRV		BurnDrvcv_threshld;
+DRV		BurnSpecThronefire;
 DRV		BurnDrvThunderl;
 DRV		BurnDrvThunderla;
 DRV		BurnDrvnes_thundlig;
@@ -24485,6 +24496,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecDtsupertest128,	// Daley Thompson's Super-Test (128K)
 	&BurnSpecDtsupertest48,		// Daley Thompson's Super-Test (48K)
 	&BurnDrvsms_dallye,			// Dallyeora Pigu-Wang (Korea)
+	&BurnSpecDambusters,		// Dam Busters, The (48K)
 	&BurnDrvMSX_dambustra,		// Dam Busters, The (Euro)
 	&BurnDrvMSX_dambustr,		// Dam Busters, The (Japan)
 	&BurnDrvcv_dambust,			// Dam Busters, The
@@ -27607,6 +27619,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvpce_gradius,		// Gradius (Japan)
 	&BurnDrvGradius,			// Gradius (Japan, ROM version)
 	&BurnDrvpce_gradiusmini,	// Gradius (PC-Engine Mini Ed.)
+	&BurnDrvcv_Gradius,			// Gradius (SGM) (HB)
 	&BurnDrvnes_gradius,		// Gradius (USA)
 	&BurnDrvnes_gradiusii,		// Gradius II (Japan)
 	&BurnDrvnes_gradiusiiacd,	// Gradius II - Arrangement Chronicle Death (Hack, v2.0)
@@ -28095,6 +28108,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecHeavymetal,		// Heavy Metal (128K)
 	&BurnDrvHvymetal,			// Heavy Metal (315-5135)
 	&BurnDrvmd_heavynov,		// Heavy Nova (USA)
+	&BurnSpecHeavymag,			// Heavy on the Magick (48K)
 	&BurnDrvnes_heavyshreddin,	// Heavy Shreddin' (USA)
 	&BurnDrvHvysmsha,			// Heavy Smash (Asia version -4)
 	&BurnDrvHvysmsh,			// Heavy Smash (Europe version -2)
@@ -29878,6 +29892,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvLomakai,			// Legend of Makai (World)
 	&BurnDrvLegendos,			// Legend of Success Joe / Ashita no Joe Densetsu
 	&BurnDrvnes_legendsm,		// Legend of Super Mario, The - Save Mushroom Kingdom (GlobalHack)
+	&BurnSpecLegamawom,			// Legend of the Amazon Women (48K)
 	&BurnSpecFrogprince,		// Legend of the Frog Prince, The (128K) (HB)
 	&BurnSpectraxtor,			// Legend of Traxtor (48K) (HB)
 	&BurnDrvnes_legwnsdx,		// Legend of Weed N' Stiff DX, The (HB)
@@ -29974,6 +29989,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_lightcu,			// Light Crusader (USA)
 	&BurnDrvcv_lgracing,		// Light Grid Racing (HB)
 	&BurnDrvmd_lightfor,		// Lightening Force - Quest for the Darkstar (USA)
+	&BurnSpecLightforce,		// Lightforce (48K)
 	&BurnDrvLgtnfghta,			// Lightning Fighters (Asia)
 	&BurnDrvLgtnfghtu,			// Lightning Fighters (US)
 	&BurnDrvLgtnfght,			// Lightning Fighters (World)
@@ -31636,6 +31652,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmrdofabr,			// Mr. Do! (Fabremar bootleg)
 	&BurnDrvmrdoy,				// Mr. Do! (prototype)
 	&BurnDrvmrdot,				// Mr. Do! (Taito)
+	&BurnDrvcv_mrdorunrun,		// Mr. Do! Run Run (SGM) (HB)
 	&BurnDrvMSX_mrdovsun,		// Mr. Do! vs Unicorns (Japan)
 	&BurnDrvcv_docastle,		// Mr. Do!'s Castle
 	&BurnDrvcv_mrdo,			// Mr. Do!
@@ -32803,6 +32820,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_pacman2c,		// Pac-Man 2 - The New Adventures (Hack, Chinese v1.1)
 	&BurnDrvmd_pacman2,			// Pac-Man 2 - The New Adventures (USA)
 	&BurnSpecPmarcade,			// Pac-Man Arcade (48K) (HB, v1.1)
+	&BurnSpecPacbegins,			// Pac-Man Begins (48K) (HB)
 	&BurnDrvnes_pacmance,		// Pac-Man Championship Edition
 	&BurnDrvcv_pacmancol,		// Pac-Man Collection (HB)
 	&BurnDrvpacplus,			// Pac-Man Plus
@@ -32853,6 +32871,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_pacobomb,		// Paco el Bombas (Spanish) (HB)
 	&BurnDrvMSX_pacobombr,		// Paco el Bombas REDUX (Spanish) (HB)
 	&BurnDrvMSX_pacotiatk,		// Paco Time Attack (HB, v1.1)
+	&BurnSpecPacomanv2,			// PACO-MAN (128K) (HB)
+	&BurnSpecPacoman,			// PACO-MAN (48K) (HB)
 #if defined FBNEO_DEBUG
 	&BurnDrvPacominv,			// Pacom Invader (set 1) [No sound]
 #endif
@@ -33056,6 +33076,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvPengadvb,			// Penguin Adventure (bootleg of MSX version, encrypted)
 	&BurnDrvMSX_pengadv,		// Penguin Adventure (Euro) ~ Yume Tairiku Adventure (Japan)
 	&BurnDrvsms_pengadv,		// Penguin Adventure (Korea)
+	&BurnDrvcv_Penguinadv,		// Penguin Adventure (SGM) (HB)
 	&BurnDrvMSX_pengadvk2,		// Penguin Adventure - Yume Tairiku Adventure (Korea, Screen Software) (Unl)
 	&BurnDrvMSX_pengadvk1,		// Penguin Adventure - Yume Tairiku Adventure (Korea, Zemina) (Unl)
 	&BurnDrvPenbros,			// Penguin Brothers (Japan)
@@ -38761,6 +38782,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCps3wondersr1,		// Three Wonders (World 910513)
 	&BurnDrvCps3wonders,		// Three Wonders (World 910520)
 	&BurnDrvcv_threshld,		// Threshold
+	&BurnSpecThronefire,		// Throne of Fire (48K)
 	&BurnDrvThunderl,			// Thunder & Lightning (set 1)
 	&BurnDrvThunderla,			// Thunder & Lightning (set 2)
 	&BurnDrvnes_thundlig,		// Thunder & Lightning (USA)
@@ -44983,6 +45005,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_dtsupertest128", "spectrum/d_spectrum.cpp"},
 	{ "spec_dtsupertest48", "spectrum/d_spectrum.cpp"},
 	{ "sms_dallye", "sms/d_sms.cpp"},
+	{ "spec_dambusters", "spectrum/d_spectrum.cpp"},
 	{ "msx_dambustra", "msx/d_msx.cpp"},
 	{ "msx_dambustr", "msx/d_msx.cpp"},
 	{ "cv_dambust", "coleco/d_coleco.cpp"},
@@ -48077,6 +48100,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "pce_gradius", "pce/d_pce.cpp"},
 	{ "gradius", "konami/d_nemesis.cpp"},
 	{ "pce_gradiusmini", "pce/d_pce.cpp"},
+	{ "cv_gradius", "coleco/d_coleco.cpp"},
 	{ "nes_gradius", "nes/d_nes.cpp"},
 	{ "nes_gradiusii", "nes/d_nes.cpp"},
 	{ "nes_gradiusiiacd", "nes/d_nes.cpp"},
@@ -48561,6 +48585,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_heavymetal", "spectrum/d_spectrum.cpp"},
 	{ "hvymetal", "sega/d_sys1.cpp"},
 	{ "md_heavynov", "megadrive/d_megadrive.cpp"},
+	{ "spec_heavymag", "spectrum/d_spectrum.cpp"},
 	{ "nes_heavyshreddin", "nes/d_nes.cpp"},
 	{ "hvysmsha", "dataeast/d_deco156.cpp"},
 	{ "hvysmsh", "dataeast/d_deco156.cpp"},
@@ -50322,6 +50347,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "lomakai", "pre90s/d_megasys1.cpp"},
 	{ "legendos", "neogeo/d_neogeo.cpp"},
 	{ "nes_legendsm", "nes/d_nes.cpp"},
+	{ "spec_legamawom", "spectrum/d_spectrum.cpp"},
 	{ "spec_frogprince", "spectrum/d_spectrum.cpp"},
 	{ "spec_traxtor", "spectrum/d_spectrum.cpp"},
 	{ "nes_legwnsdx", "nes/d_nes.cpp"},
@@ -50416,6 +50442,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_lightcu", "megadrive/d_megadrive.cpp"},
 	{ "cv_lgracing", "coleco/d_coleco.cpp"},
 	{ "md_lightfor", "megadrive/d_megadrive.cpp"},
+	{ "spec_lightforce", "spectrum/d_spectrum.cpp"},
 	{ "lgtnfghta", "konami/d_tmnt.cpp"},
 	{ "lgtnfghtu", "konami/d_tmnt.cpp"},
 	{ "lgtnfght", "konami/d_tmnt.cpp"},
@@ -52066,6 +52093,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "mrdofabr", "pre90s/d_mrdo.cpp"},
 	{ "mrdoy", "pre90s/d_mrdo.cpp"},
 	{ "mrdot", "pre90s/d_mrdo.cpp"},
+	{ "cv_mrdorunrun", "coleco/d_coleco.cpp"},
 	{ "msx_mrdovsun", "msx/d_msx.cpp"},
 	{ "cv_docastle", "coleco/d_coleco.cpp"},
 	{ "cv_mrdo", "coleco/d_coleco.cpp"},
@@ -53223,6 +53251,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_pacman2c", "megadrive/d_megadrive.cpp"},
 	{ "md_pacman2", "megadrive/d_megadrive.cpp"},
 	{ "spec_pmarcade", "spectrum/d_spectrum.cpp"},
+	{ "spec_pacbegins", "spectrum/d_spectrum.cpp"},
 	{ "nes_pacmance", "nes/d_nes.cpp"},
 	{ "cv_pacmancol", "coleco/d_coleco.cpp"},
 	{ "pacplus", "pre90s/d_pacman.cpp"},
@@ -53273,6 +53302,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_pacobomb", "msx/d_msx.cpp"},
 	{ "msx_pacobombr", "msx/d_msx.cpp"},
 	{ "msx_pacotiatk", "msx/d_msx.cpp"},
+	{ "spec_pacomanv2", "spectrum/d_spectrum.cpp"},
+	{ "spec_pacoman", "spectrum/d_spectrum.cpp"},
 	{ "pacominv", "pre90s/d_beaminv.cpp"},
 	{ "pacuman", "pre90s/d_pacman.cpp"},
 	{ "paddle2", "taito/d_arkanoid.cpp"},
@@ -53470,6 +53501,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "pengadvb", "pre90s/d_pengadvb.cpp"},
 	{ "msx_pengadv", "msx/d_msx.cpp"},
 	{ "sms_pengadv", "sms/d_sms.cpp"},
+	{ "cv_penguinadv", "coleco/d_coleco.cpp"},
 	{ "msx_pengadvk2", "msx/d_msx.cpp"},
 	{ "msx_pengadvk1", "msx/d_msx.cpp"},
 	{ "penbros", "pst90s/d_seta2.cpp"},
@@ -59117,6 +59149,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "3wondersr1", "capcom/d_cps1.cpp"},
 	{ "3wonders", "capcom/d_cps1.cpp"},
 	{ "cv_threshld", "coleco/d_coleco.cpp"},
+	{ "spec_thronefire", "spectrum/d_spectrum.cpp"},
 	{ "thunderl", "pst90s/d_seta.cpp"},
 	{ "thunderla", "pst90s/d_seta.cpp"},
 	{ "nes_thundlig", "nes/d_nes.cpp"},

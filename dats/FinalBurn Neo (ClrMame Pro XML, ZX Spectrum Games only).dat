@@ -5823,6 +5823,15 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="dambusters" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Dam Busters, The (48K)</description>
+		<year>1985</year>
+		<manufacturer>U.S. Gold</manufacturer>
+		<rom name="Dam Busters, The 48K (1985)(U.S. Gold).tap" size="48993" crc="c43163e6"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="dandare" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Dan Dare - Pilot of the Future (48K)</description>
 		<year>1986</year>
@@ -10204,6 +10213,15 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="heavymag" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Heavy on the Magick (48K)</description>
+		<year>1986</year>
+		<manufacturer>Gargoyle Games</manufacturer>
+		<rom name="Heavy on the Magick 48K (1986)(Gargoyle Games).tap" size="42787" crc="77ccf39c"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="hellyeah" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>HELL YEAH! (48K) (HB)</description>
@@ -12587,6 +12605,15 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="legamawom" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Legend of the Amazon Women (48K)</description>
+		<year>1986</year>
+		<manufacturer>U.S. Gold</manufacturer>
+		<rom name="Legend of the Amazon Women 48K (1986)(U.S. Gold).tap" size="58363" crc="d5cc16d2"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="frogprince" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Legend of the Frog Prince, The (128K) (HB)</description>
@@ -12613,6 +12640,15 @@
 		<year>1991</year>
 		<manufacturer>Psygnosis</manufacturer>
 		<rom name="Lemmings (1991)(Psygnosis).tap" size="544963" crc="3a5fa27a"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lightforce" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Lightforce (48K)</description>
+		<year>1986</year>
+		<manufacturer>Faster Than Light</manufacturer>
+		<rom name="Lightforce 48K (1986)(Faster Than Light).tap" size="35646" crc="f91ca147"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15912,6 +15948,16 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="pacbegins" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, One button game</comment>
+		<description>Pac-Man Begins (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Highriser</manufacturer>
+		<rom name="Pac-Man Begins 48K (2024)(Highriser).tap" size="12981" crc="4ce5c738"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="pacmania" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Pac-Mania (128K)</description>
 		<year>1988</year>
@@ -15929,6 +15975,27 @@
 		<manufacturer>DEFB Studio</manufacturer>
 		<rom name="Pacman the Curse of the Slimers v1.1 (2020)(DEFB Studio).z80" size="25176" crc="e554c91e"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="pacomanv2" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>PACO-MAN (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Tiranus Soft</manufacturer>
+		<rom name="PACO-MAN 128K (2024)(Tiranus Soft).tap" size="41864" crc="89aa3909"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="pacoman" cloneof="pacomanv2" romof="pacomanv2" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>PACO-MAN (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Tiranus Soft</manufacturer>
+		<rom name="PACO-MAN 48K (2024)(Tiranus Soft).tap" size="33970" crc="08da3ab4"/>
+		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22038,6 +22105,15 @@
 		<manufacturer>Mikro-Gen</manufacturer>
 		<rom name="Three Weeks In Paradise (1986)(Mikro-Gen).z80" size="42142" crc="3c7ac0a9"/>
 		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="thronefire" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Throne of Fire (48K)</description>
+		<year>1987</year>
+		<manufacturer>Melbourne House</manufacturer>
+		<rom name="Throne of Fire 48K (1987)(Melbourne House).tap" size="48101" crc="da030514"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
