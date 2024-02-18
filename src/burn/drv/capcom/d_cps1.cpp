@@ -17052,6 +17052,7 @@ static INT32 DrvExit()
 	if (NULL != szGameName) szGameName = NULL;
 	
 	BurnFree(CpsBootlegSpriteRam);
+	CpsBootlegSpriteRam = NULL;
 	
 	return 0;
 }
@@ -17072,7 +17073,7 @@ static INT32 MpumpkinInit()
 
 static INT32 CpsBootlegSpriteRamScanCallback(INT32 nAction, INT32*)
 {
-	if (nAction & ACB_MEMORY_RAM) {
+	if (nAction & ACB_MEMORY_RAM && CpsBootlegSpriteRam != NULL) {
 		struct BurnArea ba;
 		memset(&ba, 0, sizeof(ba));
 
@@ -17362,7 +17363,7 @@ static void Jurassic99PatchCallback()
 #ifdef LSB_FIRST
 		CpsRom[patch_fix_a[(i << 1) + 0]] = (UINT8)patch_fix_a[(i << 1) + 1];
 #else
-		CpsRom[patch_fix_a[(i << 1) + 0]] = (UINT8)patch_fix_a[(i << 1) + (i & 1 ? -1 : 3)];
+		CpsRom[patch_fix_a[(i << 1) + 0] ^ 1] = (UINT8)patch_fix_a[(i << 1) + 1];
 #endif
 	}
 
@@ -17390,9 +17391,29 @@ static void Jurassic99PatchCallback()
 #ifdef LSB_FIRST
 			CpsRom[patch_fix_b[(i << 1) + 0]] = (UINT8)patch_fix_b[(i << 1) + 1];
 #else
-			CpsRom[patch_fix_b[(i << 1) + 0]] = (UINT8)patch_fix_b[(i << 1) + (i & 1 ? -1 : 3)];
+			CpsRom[patch_fix_b[(i << 1) + 0] ^ 1] = (UINT8)patch_fix_b[(i << 1) + 1];
 #endif
 		}
+	}
+}
+
+static void DinotpicPatchCallback()
+{
+	// first add patch from jurassic99
+
+	Jurassic99PatchCallback();
+
+	UINT32 patch_fix_a[] = {
+		// Change character with start
+		0x1900da, 0x18, 0x1900f8, 0x18
+	};
+
+	for (INT32 i = 0; i < (sizeof(patch_fix_a) / sizeof(UINT32)) >> 1; i++) {
+#ifdef LSB_FIRST
+		CpsRom[patch_fix_a[(i << 1) + 0]] = (UINT8)patch_fix_a[(i << 1) + 1];
+#else
+		CpsRom[patch_fix_a[(i << 1) + 0] ^ 1] = (UINT8)patch_fix_a[(i << 1) + 1];
+#endif
 	}
 }
 
@@ -17562,7 +17583,7 @@ static INT32 DinotpicInit()
 	CpsBootlegEEPROM = 1;
 	Cps1GfxLoadCallbackFunction = CpsLoadTilesHack160;
 	if (Cps1QSDip & 1) {
-		AmendProgRomCallback = Jurassic99PatchCallback;
+		AmendProgRomCallback = DinotpicPatchCallback;
 	} else {
 		Cps1ObjGetCallbackFunction = DinopicObjGet;
 		Cps1ObjDrawCallbackFunction = FcrashObjDraw;
@@ -21862,7 +21883,7 @@ struct BurnDriver BurnDrvCpsDinotpic = {
 	"Cadillacs and Dinosaurs Turbo (bootleg set 2 (with PIC16c57), 930201 etc)\0", "No sound", "bootleg", "CPS1",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE | BDF_BOOTLEG, 3, HARDWARE_CAPCOM_CPS1, GBF_SCRFIGHT, 0,
-	NULL, DinotpicRomInfo, DinotpicRomName, NULL, NULL, NULL, NULL, DinoQSInputInfo, DinoQSDIPInfo,
+	NULL, DinotpicRomInfo, DinotpicRomName, NULL, NULL, NULL, NULL, DinohQSInputInfo, DinohQSDIPInfo,
 	DinotpicInit, DrvExit, Cps1Frame, CpsRedraw, CpsAreaScan,
 	&CpsRecalcPal, 0x1000, 384, 224, 4, 3
 };
