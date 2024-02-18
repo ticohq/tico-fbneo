@@ -2491,6 +2491,23 @@ static INT32 GameInpOtherOne(struct GameInp* pgi, char* szi, char *szn)
 		}
 	}
 
+	// "Service" is required to navigate service menu in ESD 16-bit hardware
+	if ((parentrom && strcmp(parentrom, "hedpanic") == 0) ||
+		(drvname && strcmp(drvname, "hedpanic") == 0) ||
+		(parentrom && strcmp(parentrom, "mchampdx") == 0) ||
+		(drvname && strcmp(drvname, "mchampdx") == 0) ||
+		(parentrom && strcmp(parentrom, "tangtang") == 0) ||
+		(drvname && strcmp(drvname, "tangtang") == 0) ||
+		(parentrom && strcmp(parentrom, "deluxe5") == 0) ||
+		(drvname && strcmp(drvname, "deluxe5") == 0) ||
+		(parentrom && strcmp(parentrom, "swatpolc") == 0) ||
+		(drvname && strcmp(drvname, "swatpolc") == 0)
+	) {
+		if (strcmp("Service", szn) == 0) {
+			GameInpDigital2RetroInpKey(pgi, 0, RETRO_DEVICE_ID_JOYPAD_R3, szn);
+		}
+	}
+
 	// Store the pgi that controls the reset input
 	if (strcmp(szi, "reset") == 0) {
 		pgi->nInput = GIT_SPECIAL_SWITCH;
