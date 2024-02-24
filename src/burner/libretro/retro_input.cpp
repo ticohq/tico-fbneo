@@ -1936,37 +1936,37 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_A, description);
 		}
 		if (strcmp("Key STOP", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_START, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_BREAK, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F1", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_SELECT, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F1, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F2", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_Y, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F2, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F3", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_X, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F3, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F4", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F4, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F5", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_L, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F5, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key F6", description) == 0) {
-			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R2, description);
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_F6, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key UP", description) == 0) {
-			GameInpDigital2RetroInpAnalogRight(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, JOY_NEG, "Key UP / Key DOWN");
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_UP, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key DOWN", description) == 0) {
-			GameInpDigital2RetroInpAnalogRight(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, JOY_POS, "Key UP / Key DOWN");
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_DOWN, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key LEFT", description) == 0) {
-			GameInpDigital2RetroInpAnalogRight(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, JOY_NEG, "Key LEFT / Key RIGHT");
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_LEFT, description, RETRO_DEVICE_KEYBOARD);
 		}
 		if (strcmp("Key RIGHT", description) == 0) {
-			GameInpDigital2RetroInpAnalogRight(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, JOY_POS, "Key LEFT / Key RIGHT");
+			GameInpDigital2RetroInpKey(pgi, 2, RETROK_RIGHT, description, RETRO_DEVICE_KEYBOARD);
 		}
 	}
 
@@ -2930,9 +2930,10 @@ static void BurnerHandlerKeyCallback()
 		{'u', RETROK_u}, {'v', RETROK_v}, {'w', RETROK_w}, {'x', RETROK_x}, {'y', RETROK_y},
 		{'z', RETROK_z},
 		{0x0d, RETROK_RETURN}, {0x1b, RETROK_ESCAPE}, {' ', RETROK_SPACE},
-		{0xf1, RETROK_F1}, {0xf2, RETROK_F2}, {0xf3, RETROK_F3}, {0xf4, RETROK_F4}, {0xf5, RETROK_F5}, {0xf6, RETROK_F6},
 		{0x11, RETROK_RCTRL}, {0x09, RETROK_TAB}, {0x08, RETROK_BACKSPACE}, {0x2e, RETROK_DELETE},
-		{0xf8, RETROK_UP}, {0xf9, RETROK_DOWN}, {0xfa, RETROK_LEFT}, {0xfb, RETROK_RIGHT},
+		//{0xf1, RETROK_F1}, {0xf2, RETROK_F2}, {0xf3, RETROK_F3}, {0xf4, RETROK_F4}, {0xf5, RETROK_F5}, {0xf6, RETROK_F6},
+		//{0xf8, RETROK_UP}, {0xf9, RETROK_DOWN}, {0xfa, RETROK_LEFT}, {0xfb, RETROK_RIGHT},
+		//{0x03, RETROK_BREAK},
 		{'\0', 0}
 	};
 
