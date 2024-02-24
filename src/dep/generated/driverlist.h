@@ -2569,6 +2569,7 @@ DRV		BurnDrvCpsdinosj;
 DRV		BurnDrvCpsDinohc;
 DRV		BurnDrvCpsdinoss;
 DRV		BurnDrvCpsdinojj;
+DRV		BurnDrvCpsdinokr;
 DRV		BurnDrvCpsdinoyz;
 DRV		BurnDrvCpsdinofw;
 DRV		BurnDrvCpsdinods;
@@ -17726,6 +17727,7 @@ DRV		BurnDrvCpsWofjh;
 DRV		BurnDrvCpsWofj;
 DRV		BurnDrvCpswofdr20;
 DRV		BurnDrvCpswofdr;
+DRV		BurnDrvCpswofkm3;
 DRV		BurnDrvCpswofsc;
 DRV		BurnDrvCpswofjwp;
 DRV		BurnDrvCpswofwp;
@@ -23126,6 +23128,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsDinohc,			// Cadillacs and Dinosaurs (Chinese bootleg, 930223 Asia TW)
 	&BurnDrvCpsdinoss,			// Cadillacs and Dinosaurs (Competition, Hack)
 	&BurnDrvCpsdinojj,			// Cadillacs and Dinosaurs (Contest, Hack)
+	&BurnDrvCpsdinokr,			// Cadillacs and Dinosaurs (Crazy BBQ, Hack)
 	&BurnDrvCpsdinoyz,			// Cadillacs and Dinosaurs (Dragon, Hack)
 	&BurnDrvCpsdinofw,			// Cadillacs and Dinosaurs (Framework 2022 Series, Hack)
 	&BurnDrvCpsdinods,			// Cadillacs and Dinosaurs (God of War, Hack)
@@ -38283,6 +38286,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsWofj,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Japan 921031)
 	&BurnDrvCpswofdr20,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Master 2020, Hack)
 	&BurnDrvCpswofdr,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Master, Hack)
+	&BurnDrvCpswofkm3,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Subject 3, Hack)
 	&BurnDrvCpswofsc,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Switchable Character, Hack)
 	&BurnDrvCpswofjwp,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Warriors Enhanced, Hack)
 	&BurnDrvCpswofwp,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Warriors Plus, Hack)
@@ -43667,6 +43671,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "dinohc", "capcom/d_cps1.cpp"},
 	{ "dinoss", "capcom/d_cps1.cpp"},
 	{ "dinojj", "capcom/d_cps1.cpp"},
+	{ "dinokr", "capcom/d_cps1.cpp"},
 	{ "dinoyz", "capcom/d_cps1.cpp"},
 	{ "dinofw", "capcom/d_cps1.cpp"},
 	{ "dinods", "capcom/d_cps1.cpp"},
@@ -58670,6 +58675,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "wofj", "capcom/d_cps1.cpp"},
 	{ "wofdr20", "capcom/d_cps1.cpp"},
 	{ "wofdr", "capcom/d_cps1.cpp"},
+	{ "wofkm3", "capcom/d_cps1.cpp"},
 	{ "wofsc", "capcom/d_cps1.cpp"},
 	{ "wofwjq", "capcom/d_cps1.cpp"},
 	{ "wofwp", "capcom/d_cps1.cpp"},
