@@ -1276,9 +1276,7 @@ DRV		BurnDrvmd_backtof3s;
 DRV		BurnDrvmd_backtof3u;
 DRV		BurnDrvMSX_gantan;
 DRV		BurnDrvBackfire;
-#if defined FBNEO_DEBUG
-DRV		BurnDrvBackfirea;		// Set inputs to \"Joystick\" in test mode [NOT WORKING]
-#endif
+DRV		BurnDrvBackfirea;
 DRV		BurnSpecBackgammon;
 DRV		BurnDrvCHF_backgamm;
 DRV		BurnDrvmd_badapple;
@@ -7736,8 +7734,9 @@ DRV		BurnDrvsms_hokutotw;
 DRV		BurnDrvmd_hokuto;
 DRV		BurnDrvnes_hokutonoken2c;
 DRV		BurnDrvnes_hokutonoken2;
-DRV		BurnDrvnes_hokutonoken3c;
 DRV		BurnDrvnes_hokutonoken3;
+DRV		BurnDrvnes_hokutonoken3c;
+DRV		BurnDrvnes_hokutonoken3j;
 DRV		BurnDrvnes_hokutonoken4;
 DRV		BurnDrvnes_hokutonokenop;
 DRV		BurnDrvMSX_holein1;
@@ -8297,6 +8296,7 @@ DRV		BurnDrvmd_jammits;
 DRV		BurnDrvmd_jammit;
 DRV		BurnDrvJjparad2;
 DRV		BurnDrvJjparads;
+DRV		BurnDrvnes_ja8bitadv;
 DRV		BurnDrvsms_jangpun3;
 DRV		BurnDrvgg_jangpun2;
 DRV		BurnDrvnes_janggunuiadeul;
@@ -10798,6 +10798,7 @@ DRV		BurnDrvMSX_moaihihok;
 DRV		BurnDrvMSX_moaihiho;
 DRV		BurnDrvMSX_moaihihoa;
 DRV		BurnDrvnes_moaikun;
+DRV		BurnDrvnes_moaikunj;
 DRV		BurnDrvcv_mobplansty;
 DRV		BurnDrvMSX_suthir;
 DRV		BurnDrvMsgundam1;
@@ -13859,6 +13860,8 @@ DRV		BurnSpecranarama;
 DRV		BurnDrvmd_rangerx;
 DRV		BurnDrvmd_rangerxs;
 DRV		BurnDrvmd_rangerxu;
+DRV		BurnDrvnes_ranmachan;
+DRV		BurnDrvnes_ranmakun;
 DRV		BurnDrvmd_ransei;
 DRV		BurnDrvnes_rapidcycling;
 DRV		BurnDrvRapheroa;
@@ -18922,6 +18925,7 @@ DRV		BurnDrvfds_twinbee;
 DRV		BurnDrvnes_twinbee;
 DRV		BurnDrvTwinbee;
 DRV		BurnDrvsg1k_sxpao;
+DRV		BurnDrvnes_twinb3j;
 DRV		BurnDrvnes_twinb3;
 DRV		BurnDrvTwinkle;
 DRV		BurnDrvTwinklea;
@@ -20308,13 +20312,16 @@ DRV		BurnDrvnes_ysc;
 DRV		BurnDrvnes_ysj;
 DRV		BurnDrvsms_ysj;
 DRV		BurnDrvsms_ysd;
+DRV		BurnDrvnes_ysde;
 DRV		BurnDrvsms_ys;
 DRV		BurnDrvsms_ysfm;
 DRV		BurnDrvmd_ys3j;
 DRV		BurnDrvnes_ysii;
 DRV		BurnDrvnes_ysiic;
 DRV		BurnDrvnes_ysiij;
+DRV		BurnDrvnes_ysiide;
 DRV		BurnDrvmd_ys3;
+DRV		BurnDrvnes_ysiiide;
 DRV		BurnDrvnes_ysiii;
 DRV		BurnDrvnes_ysiiij;
 DRV		BurnDrvgg_yuyu;
@@ -21835,9 +21842,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_backtof3u,		// Back to the Future Part III (USA)
 	&BurnDrvMSX_gantan,			// Back to the Gantan - Year of the Rat (HB)
 	&BurnDrvBackfire,			// Backfire! (Japan, set 1)
-#if defined FBNEO_DEBUG
-	&BurnDrvBackfirea,			// Backfire! (Japan, set 2) [Set inputs to \"Joystick\" in test mode, NOT WORKING]
-#endif
+	&BurnDrvBackfirea,			// Backfire! (Japan, set 2)
 	&BurnSpecBackgammon,		// Backgammon (48K)
 	&BurnDrvCHF_backgamm,		// Backgammon / Acey-Deucey
 	&BurnDrvmd_badapple,		// Bad Apple (HB, Tech-Demo)
@@ -23652,7 +23657,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvChimerab,			// Chimera Beast (Japan, prototype, set 1)
 	&BurnDrvChimeraba,			// Chimera Beast (Japan, prototype, set 2)
 	&BurnDrvChinagat,			// China Gate (US)
-	&BurnDrvnes_chinarabbab,	// China Rabbit Baby (Unl)
+	&BurnDrvnes_chinarabbab,	// China Rabbit Baby (China) (Unl)
 	&BurnDrvChinatwn,			// China Town (Japan)
 	&BurnDrvtg_chinawar,		// China Warrior (USA)
 	&BurnDrvmd_chinesec,		// Chinese Chess (Taiwan) (Unl)
@@ -28295,8 +28300,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_hokuto,			// Hokuto no Ken - Shin Seikimatsu Kyuuseishu Densetsu (Japan)
 	&BurnDrvnes_hokutonoken2c,	// Hokuto no Ken 2 (Hack, Spanish v1.1)
 	&BurnDrvnes_hokutonoken2,	// Hokuto no Ken 2 (Japan)
+	&BurnDrvnes_hokutonoken3,	// Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Hack, English)
 	&BurnDrvnes_hokutonoken3c,	// Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Hack, Spanish)
-	&BurnDrvnes_hokutonoken3,	// Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Japan)
+	&BurnDrvnes_hokutonoken3j,	// Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Japan)
 	&BurnDrvnes_hokutonoken4,	// Hokuto no Ken 4 - Shichisei Haken Den (Japan)
 	&BurnDrvnes_hokutonokenop,	// Hokuto no Ken OVERHAUL Patch (Hack)
 	&BurnDrvMSX_holein1,		// Hole in One (Japan)
@@ -28856,6 +28862,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_jammit,			// Jammit (USA)
 	&BurnDrvJjparad2,			// Jan Jan Paradise 2
 	&BurnDrvJjparads,			// Jan Jan Paradise
+	&BurnDrvnes_ja8bitadv,		// Jane Austen's 8-bit Adventure (HB, v1.0.538)
 	&BurnDrvsms_jangpun3,		// Jang Pung 3 (Korea)
 	&BurnDrvgg_jangpun2,		// Jang Pung II (Korea, SMS Mode)
 	&BurnDrvnes_janggunuiadeul,	// Janggun-ui Adeul (Korea) (Unl)
@@ -31356,7 +31363,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_moaihihok,		// Moai no Hihou - - Secret Treasure of Moai (Korea)
 	&BurnDrvMSX_moaihiho,		// Moai no Hihou - Secret Treasure of Moai (Japan)
 	&BurnDrvMSX_moaihihoa,		// Moai no Hihou - Secret Treasure of Moai (Japan, Alt)
-	&BurnDrvnes_moaikun,		// Moai-kun (Japan)
+	&BurnDrvnes_moaikun,		// Moai-kun (Hack, English)
+	&BurnDrvnes_moaikunj,		// Moai-kun (Japan)
 	&BurnDrvcv_mobplansty,		// Mobile Planet Styllus (SGM) (HB)
 	&BurnDrvMSX_suthir,			// Mobile Planet Suthirus - Approach from the Westgate (Japan)
 	&BurnDrvMsgundam1,			// Mobile Suit Gundam (Japan)
@@ -34418,6 +34426,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_rangerx,			// Ranger-X (Euro)
 	&BurnDrvmd_rangerxs,		// Ranger-X (Hack, Spanish)
 	&BurnDrvmd_rangerxu,		// Ranger-X (USA)
+	&BurnDrvnes_ranmachan,		// Ranma vs. Ranma! - Ranma-chan Edition (Hack, v2.2)
+	&BurnDrvnes_ranmakun,		// Ranma vs. Ranma! - Ranma-kun Edition (Hack, v2.2)
 	&BurnDrvmd_ransei,			// Ransei no Hasha (Japan)
 	&BurnDrvnes_rapidcycling,	// Rapid Cycling (HB)
 	&BurnDrvRapheroa,			// Rapid Hero (Media Trading)
@@ -38029,8 +38039,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvTankfrcej,			// Tank Force (Japan)
 	&BurnDrvTankfrce,			// Tank Force (US, 2 Players)
 	&BurnDrvTankfrce4,			// Tank Force (US, 4 Players)
-	&BurnDrvnes_tankh1990bm,	// Tank H 1990 (bedmoon)
-	&BurnDrvnes_tankh1990,		// Tank H 1990 (YS)
+	&BurnDrvnes_tankh1990bm,	// Tank H 1990 (bedmoon Hack)
+	&BurnDrvnes_tankh1990,		// Tank H 1990 (YS Hack)
 	&BurnDrvcv_tankmission,		// Tank Mission (HB)
 	&BurnDrvcv_tankwars,		// Tank Wars
 	&BurnDrvmd_tank2011,		// Tanki 2011 (Russia)
@@ -38799,7 +38809,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_thexdera,		// Thexder (Japan, Alt)
 	&BurnDrvcv_thexder,			// Thexder (SGM) (HB)
 	&BurnDrvnes_tctwh,			// They Came To Wreak Hell (HB, v0.3a)
-	&BurnDrvnes_thiefcob,		// Thief and the Cobbler (Hack)
+	&BurnDrvnes_thiefcob,		// Thief and the Cobbler (GlobalHack, v1.5)
 	&BurnDrvThief,				// Thief
 	&BurnDrvMSX_tbback,			// Thing Bounces Back (Euro)
 	&BurnDrvmd_thomas,			// Thomas the Tank Engine & Friends (USA)
@@ -39481,7 +39491,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_twinbee,		// TwinBee (Japan)
 	&BurnDrvTwinbee,			// TwinBee (ROM version)
 	&BurnDrvsg1k_sxpao,			// Twinbee (Taiwan)
-	&BurnDrvnes_twinb3,			// TwinBee 3 - Poko Poko Daimaou (Japan)
+	&BurnDrvnes_twinb3j,		// TwinBee 3 - Poko Poko Daimaou (Japan)
+	&BurnDrvnes_twinb3,			// TwinBee 3 - The Terror Trunk (Hack, English v1.02)
 	&BurnDrvTwinkle,			// Twinkle (set 1)
 	&BurnDrvTwinklea,			// Twinkle (set 2)
 	&BurnDrvtwinspri,			// Twinkle Star Sprites
@@ -40867,13 +40878,16 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_ysj,			// Ys (Japan)
 	&BurnDrvsms_ysj,			// Ys (Japan)
 	&BurnDrvsms_ysd,			// Ys (USA, Demo)
+	&BurnDrvnes_ysde,			// Ys - Definitive Edition (Hack, English)
 	&BurnDrvsms_ys,				// Ys - The Vanished Omens (Euro, USA, Brazil)
 	&BurnDrvsms_ysfm,			// Ys - The Vanished Omens (Hack, FM Mod v1.2)
 	&BurnDrvmd_ys3j,			// Ys - Wanderers from Ys (Japan)
 	&BurnDrvnes_ysii,			// Ys II - Ancient Ys Vanished - The Final Chapter (Hack, English)
 	&BurnDrvnes_ysiic,			// Ys II - Ancient Ys Vanished - The Final Chapter (Hack, Spanish)
 	&BurnDrvnes_ysiij,			// Ys II - Ancient Ys Vanished - The Final Chapter (Japan)
+	&BurnDrvnes_ysiide,			// Ys II - Definitive Edition (Hack, English)
 	&BurnDrvmd_ys3,				// Ys III (USA)
+	&BurnDrvnes_ysiiide,		// Ys III - Definitive Edition (Hack, English)
 	&BurnDrvnes_ysiii,			// Ys III - Wanderers from Ys (Hack, English)
 	&BurnDrvnes_ysiiij,			// Ys III - Wanderers from Ys (Japan)
 	&BurnDrvgg_yuyu,			// Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan)
@@ -48788,8 +48802,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_hokuto", "megadrive/d_megadrive.cpp"},
 	{ "nes_hokutonoken2c", "nes/d_nes.cpp"},
 	{ "nes_hokutonoken2", "nes/d_nes.cpp"},
-	{ "nes_hokutonoken3c", "nes/d_nes.cpp"},
 	{ "nes_hokutonoken3", "nes/d_nes.cpp"},
+	{ "nes_hokutonoken3c", "nes/d_nes.cpp"},
+	{ "nes_hokutonoken3j", "nes/d_nes.cpp"},
 	{ "nes_hokutonoken4", "nes/d_nes.cpp"},
 	{ "nes_hokutonokenop", "nes/d_nes.cpp"},
 	{ "msx_holein1", "msx/d_msx.cpp"},
@@ -49343,6 +49358,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_jammit", "megadrive/d_megadrive.cpp"},
 	{ "jjparad2", "pst90s/d_suprnova.cpp"},
 	{ "jjparads", "pst90s/d_suprnova.cpp"},
+	{ "nes_ja8bitadv", "nes/d_nes.cpp"},
 	{ "sms_jangpun3", "sms/d_sms.cpp"},
 	{ "gg_jangpun2", "sms/d_sms.cpp"},
 	{ "nes_janggunuiadeul", "nes/d_nes.cpp"},
@@ -51820,6 +51836,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_moaihiho", "msx/d_msx.cpp"},
 	{ "msx_moaihihoa", "msx/d_msx.cpp"},
 	{ "nes_moaikun", "nes/d_nes.cpp"},
+	{ "nes_moaikunj", "nes/d_nes.cpp"},
 	{ "cv_mobplansty", "coleco/d_coleco.cpp"},
 	{ "msx_suthir", "msx/d_msx.cpp"},
 	{ "msgundam1", "pst90s/d_seta.cpp"},
@@ -54853,6 +54870,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_rangerx", "megadrive/d_megadrive.cpp"},
 	{ "md_rangerxs", "megadrive/d_megadrive.cpp"},
 	{ "md_rangerxu", "megadrive/d_megadrive.cpp"},
+	{ "nes_ranmachan", "nes/d_nes.cpp"},
+	{ "nes_ranmakun", "nes/d_nes.cpp"},
 	{ "md_ransei", "megadrive/d_megadrive.cpp"},
 	{ "nes_rapidcycling", "nes/d_nes.cpp"},
 	{ "rapheroa", "pst90s/d_nmk16.cpp"},
@@ -59852,6 +59871,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_twinbee", "nes/d_nes.cpp"},
 	{ "twinbee", "konami/d_nemesis.cpp"},
 	{ "sg1k_sxpao", "sg1000/d_sg1000.cpp"},
+	{ "nes_twinb3j", "nes/d_nes.cpp"},
 	{ "nes_twinb3", "nes/d_nes.cpp"},
 	{ "twinkle", "pst90s/d_hyperpac.cpp"},
 	{ "twinklea", "pst90s/d_hyperpac.cpp"},
@@ -61218,13 +61238,16 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_ysj", "nes/d_nes.cpp"},
 	{ "sms_ysj", "sms/d_sms.cpp"},
 	{ "sms_ysd", "sms/d_sms.cpp"},
+	{ "nes_ysde", "nes/d_nes.cpp"},
 	{ "sms_ys", "sms/d_sms.cpp"},
 	{ "sms_ysfm", "sms/d_sms.cpp"},
 	{ "md_ys3j", "megadrive/d_megadrive.cpp"},
 	{ "nes_ysii", "nes/d_nes.cpp"},
 	{ "nes_ysiic", "nes/d_nes.cpp"},
 	{ "nes_ysiij", "nes/d_nes.cpp"},
+	{ "nes_ysiide", "nes/d_nes.cpp"},
 	{ "md_ys3", "megadrive/d_megadrive.cpp"},
+	{ "nes_ysiiide", "nes/d_nes.cpp"},
 	{ "nes_ysiii", "nes/d_nes.cpp"},
 	{ "nes_ysiiij", "nes/d_nes.cpp"},
 	{ "gg_yuyu", "sms/d_sms.cpp"},

@@ -1751,6 +1751,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="battletank" sourcefile="nes/d_nes.cpp">
+		<comment>Garry Kitchen's Battletank</comment>
 		<description>Battle Tank (USA)</description>
 		<year>1990</year>
 		<manufacturer>Absolute</manufacturer>
@@ -3090,7 +3091,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="chinarabbab" sourcefile="nes/d_nes.cpp">
-		<description>China Rabbit Baby (Unl)</description>
+		<description>China Rabbit Baby (China) (Unl)</description>
 		<year>1996</year>
 		<manufacturer>J.Y. Company</manufacturer>
 		<rom name="China Rabbit Baby (Unl).nes" size="524304" crc="6ab0db42"/>
@@ -3186,7 +3187,7 @@
 		<description>Choujin Sentai Jetman (Hack, English)</description>
 		<year>2019</year>
 		<manufacturer>chronix</manufacturer>
-		<rom name="Choujin Sentai Jetman (T-eng).nes" size="262160" crc="7649c688"/>
+		<rom name="Choujin Sentai Jetman T-Eng (2019)(chronix).nes" size="262160" crc="7649c688"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8229,6 +8230,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="hokutonoken3" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>BlackPaladin</manufacturer>
+		<rom name="Hokuto no Ken 3 - Shin Seiki Souzou Seiken Retsuden T-Eng (2024)(BlackPaladin).nes" size="524304" crc="8b1eb74a"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="hokutonoken3c" cloneof="hokutonoken3" romof="hokutonoken3" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
 		<description>Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Hack, Spanish)</description>
@@ -8238,7 +8248,7 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="hokutonoken3" sourcefile="nes/d_nes.cpp">
+	<game name="hokutonoken3j" cloneof="hokutonoken3" romof="hokutonoken3" sourcefile="nes/d_nes.cpp">
 		<description>Hokuto no Ken 3 - Shin Seiki Souzou Seiken Restuden (Japan)</description>
 		<year>1989</year>
 		<manufacturer>TOEI Animation</manufacturer>
@@ -8798,6 +8808,15 @@
 		<year>2018</year>
 		<manufacturer>OCDreproductions</manufacturer>
 		<rom name="JAMG - The Lost Coins (HB).nes" size="262160" crc="7a8877aa"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="ja8bitadv" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Jane Austen's 8-bit Adventure (HB, v1.0.538)</description>
+		<year>2023</year>
+		<manufacturer>Bitwise Reprise</manufacturer>
+		<rom name="Jane Austen's 8-bit Adventure v1.0.538 (2023)(Bitwise Reprise).nes" size="262160" crc="d7ea1034"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9810,7 +9829,7 @@
 	<game name="kungfu" sourcefile="nes/d_nes.cpp">
 		<description>Kung Fu (Japan, USA)</description>
 		<year>1985</year>
-		<manufacturer>Nintendo</manufacturer>
+		<manufacturer>Nintendo - Irem Corp.</manufacturer>
 		<rom name="Kung Fu (Japan, USA).nes" size="40976" crc="32b45889"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -11889,6 +11908,15 @@
 		<driver status="good"/>
 	</game>
 	<game name="moaikun" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Moai-kun (Hack, English)</description>
+		<year>2014</year>
+		<manufacturer>Stardust Crusaders</manufacturer>
+		<rom name="Moai-kun T-Eng (2014)(Stardust Crusaders).nes" size="65552" crc="95f8b436"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="moaikunj" cloneof="moaikun" romof="moaikun" sourcefile="nes/d_nes.cpp">
 		<description>Moai-kun (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Konami</manufacturer>
@@ -14252,6 +14280,24 @@
 		<year>1992</year>
 		<manufacturer>Jaleco</manufacturer>
 		<rom name="Rampart (USA).nes" size="262160" crc="0cea6fca"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="ranmachan" cloneof="kungfu" romof="kungfu" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Ranma vs. Ranma! - Ranma-chan Edition (Hack, v2.2)</description>
+		<year>2023</year>
+		<manufacturer>Crying Onion</manufacturer>
+		<rom name="Ranma vs. Ranma! v2.2 Ranma-chan Ed. (2023)(Crying Onion).nes" size="40976" crc="cdfbe3f9"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="ranmakun" cloneof="kungfu" romof="kungfu" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Ranma vs. Ranma! - Ranma-kun Edition (Hack, v2.2)</description>
+		<year>2023</year>
+		<manufacturer>Crying Onion</manufacturer>
+		<rom name="Ranma vs. Ranma! v2.2 Ranma-kun Ed. (2023)(Crying Onion).nes" size="40976" crc="1f3ad591"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17370,7 +17416,7 @@
 	</game>
 	<game name="tankh1990bm" cloneof="battlecity" romof="battlecity" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Tank H 1990 (bedmoon)</description>
+		<description>Tank H 1990 (bedmoon Hack)</description>
 		<year>2023</year>
 		<manufacturer>bedmoon</manufacturer>
 		<rom name="Tank H 1990bm (bedmoon).nes" size="40976" crc="3e7577ce"/>
@@ -17379,7 +17425,7 @@
 	</game>
 	<game name="tankh1990" cloneof="battlecity" romof="battlecity" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Tank H 1990 (YS)</description>
+		<description>Tank H 1990 (YS Hack)</description>
 		<year>1990</year>
 		<manufacturer>YS</manufacturer>
 		<rom name="Tank H 1990 (YS).nes" size="40976" crc="86d9aa5d"/>
@@ -17960,10 +18006,10 @@
 	</game>
 	<game name="thiefcob" cloneof="smb2" romof="smb2" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew</comment>
-		<description>Thief and the Cobbler (Hack)</description>
+		<description>Thief and the Cobbler (GlobalHack, v1.5)</description>
 		<year>2022</year>
 		<manufacturer>Garrett Gilchrist</manufacturer>
-		<rom name="Thief and the Cobbler (GlobHack)(2022)(Garrett Gilchrist).nes" size="262160" crc="64cf1223"/>
+		<rom name="Thief and the Cobbler v1.5 (GlobalHack)(2022)(Garrett Gilchrist).nes" size="262160" crc="bb8339c0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -18554,11 +18600,20 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="twinb3" sourcefile="nes/d_nes.cpp">
+	<game name="twinb3j" cloneof="twinb3" romof="twinb3" sourcefile="nes/d_nes.cpp">
 		<description>TwinBee 3 - Poko Poko Daimaou (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="TwinBee 3 - Poko Poko Daimaou (Japan).nes" size="262160" crc="96529c68"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="twinb3" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>TwinBee 3 - The Terror Trunk (Hack, English v1.02)</description>
+		<year>2024</year>
+		<manufacturer>Pennywise</manufacturer>
+		<rom name="TwinBee 3 - The Terror Trunk T-Eng v1.02 (2024)(Pennywise).nes" size="262160" crc="427e3892"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19645,6 +19700,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="ysde" cloneof="ys" romof="ys" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Ys - Definitive Edition (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>darthvaderx</manufacturer>
+		<rom name="Ys Definitive Edition (2024)(darthvaderx).nes" size="262160" crc="b1bd75b0"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="ysii" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
 		<description>Ys II - Ancient Ys Vanished - The Final Chapter (Hack, English)</description>
@@ -19668,6 +19732,24 @@
 		<year>1990</year>
 		<manufacturer>Victor</manufacturer>
 		<rom name="Ys II - Ancient Ys Vanished - The Final Chapter (Japan).nes" size="393232" crc="52e20fc4"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="ysiide" cloneof="ysii" romof="ysii" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Ys II - Definitive Edition (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>darthvaderx</manufacturer>
+		<rom name="Ys II Definitive Edition (2024)(darthvaderx).nes" size="393232" crc="d8235dfa"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="ysiiide" cloneof="ysiii" romof="ysiii" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Ys III - Definitive Edition (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>darthvaderx</manufacturer>
+		<rom name="Ys III Definitive Edition (2024)(darthvaderx).nes" size="393232" crc="cbfaba05"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
