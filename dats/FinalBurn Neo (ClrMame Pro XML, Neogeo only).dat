@@ -8458,10 +8458,10 @@
 	<game name="mslugfc2" cloneof="mslug" romof="mslug" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Hack</comment>
 		<description>Metal Slug - Super Vehicle-001 (Item Random &amp; Powerful Enemy Defense FC2, Hack)</description>
-		<year>2023</year>
+		<year>2024</year>
 		<manufacturer>hack</manufacturer>
 		<rom name="201-p1fc2.p1" size="1048576" crc="b079dd40"/>
-		<rom name="201-p2fc2.sp2" size="1048576" crc="dce6a2de"/>
+		<rom name="201-p2fc2.sp2" size="1048576" crc="8211a964"/>
 		<rom name="201-s1.s1" merge="201-s1.s1" size="131072" crc="2f55958d"/>
 		<rom name="201-c1.c1" merge="201-c1.c1" size="4194304" crc="72813676"/>
 		<rom name="201-c2.c2" merge="201-c2.c2" size="4194304" crc="96f62574"/>
@@ -8514,10 +8514,10 @@
 	<game name="mslugfc1" cloneof="mslug" romof="mslug" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Hack</comment>
 		<description>Metal Slug - Super Vehicle-001 (Item Random FC2, Hack)</description>
-		<year>2023</year>
+		<year>2024</year>
 		<manufacturer>hack</manufacturer>
 		<rom name="201-p1fc1.p1" size="1048576" crc="db8f7d81"/>
-		<rom name="201-p2fc1.sp2" size="1048576" crc="ad244b93"/>
+		<rom name="201-p2fc1.sp2" size="1048576" crc="f3d34029"/>
 		<rom name="201-s1.s1" merge="201-s1.s1" size="131072" crc="2f55958d"/>
 		<rom name="201-c1.c1" merge="201-c1.c1" size="4194304" crc="72813676"/>
 		<rom name="201-c2.c2" merge="201-c2.c2" size="4194304" crc="96f62574"/>
