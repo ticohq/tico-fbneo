@@ -5788,10 +5788,10 @@
 	</game>
 	<game name="wingwarriors" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Wing Warriors (HB)</description>
-		<year>2020</year>
+		<description>Wing Warriors (HB, v1.00 fix)</description>
+		<year>2020-24</year>
 		<manufacturer>Kitmaker</manufacturer>
-		<rom name="Wing Warriors (2020)(Kitmaker Ent.).sms" size="131072" crc="8c384703"/>
+		<rom name="Wing Warriors v1.00 fix (2020-24)(Kitmaker Ent.).sms" size="131072" crc="11d3d834"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

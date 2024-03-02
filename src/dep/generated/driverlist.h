@@ -19677,9 +19677,9 @@ DRV		BurnDrvWschampa;
 DRV		BurnDrvWschamp;
 DRV		BurnDrvcv_wingwar;
 DRV		BurnDrvMSX_wingwarrdx;
-DRV		BurnDrvgg_wingwarriors;
 DRV		BurnDrvMSX_wingwarr;
 DRV		BurnDrvsms_wingwarriors;
+DRV		BurnDrvgg_wingwarriors;
 DRV		BurnSpecWingave;
 DRV		BurnSpecWingwar;
 DRV		BurnDrvmd_wingswor;
@@ -40243,9 +40243,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvWschamp,			// Wing Shooting Championship V2.00
 	&BurnDrvcv_wingwar,			// Wing War
 	&BurnDrvMSX_wingwarrdx,		// Wing Warriors (2020 Version) (HB)
-	&BurnDrvgg_wingwarriors,	// Wing Warriors (HB)
 	&BurnDrvMSX_wingwarr,		// Wing Warriors (HB)
-	&BurnDrvsms_wingwarriors,	// Wing Warriors (HB)
+	&BurnDrvsms_wingwarriors,	// Wing Warriors (HB, v1.00 fix)
+	&BurnDrvgg_wingwarriors,	// Wing Warriors GG (HB, v1.00 fix)
 	&BurnSpecWingave,			// Winged Avenger, The (16K)
 	&BurnSpecWingwar,			// Winged Warlords (16K)
 	&BurnDrvmd_wingswor,		// Wings of Wor (USA)
@@ -60611,9 +60611,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "wschamp", "pst90s/d_seta2.cpp"},
 	{ "cv_wingwar", "coleco/d_coleco.cpp"},
 	{ "msx_wingwarrdx", "msx/d_msx.cpp"},
-	{ "gg_wingwarriors", "sms/d_sms.cpp"},
 	{ "msx_wingwarr", "msx/d_msx.cpp"},
 	{ "sms_wingwarriors", "sms/d_sms.cpp"},
+	{ "gg_wingwarriors", "sms/d_sms.cpp"},
 	{ "spec_wingave", "spectrum/d_spectrum.cpp"},
 	{ "spec_wingwar", "spectrum/d_spectrum.cpp"},
 	{ "md_wingswor", "megadrive/d_megadrive.cpp"},
