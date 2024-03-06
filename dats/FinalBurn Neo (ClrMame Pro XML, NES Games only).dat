@@ -2751,7 +2751,7 @@
 		<comment>Hack</comment>
 		<description>Castle Quest (Hack, English v2.01)</description>
 		<year>2012</year>
-		<manufacturer>Stardust Crusaders</manufacturer>
+		<manufacturer>Stardust Crusaders, Hubz</manufacturer>
 		<rom name="Castle Quest T-Eng (2012)(Stardust Crusaders).nes" size="262160" crc="faabff04"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -2818,10 +2818,10 @@
 	</game>
 	<game name="castliih" cloneof="castlii" romof="castlii" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Castlevania II - Simon's Quest (Hack, Re-translation+Map)</description>
+		<description>Castlevania II - Simon's Quest (Hack, Re-translation + Map)</description>
 		<year>2020</year>
 		<manufacturer>Bisqwit</manufacturer>
-		<rom name="Castlevania II - Simon's Quest (Hack, ReTrans+Map).nes" size="262160" crc="153143e9"/>
+		<rom name="Castlevania II - Simon's Quest (English Re-translation + Map)(2020)(Bisqwit).nes" size="262160" crc="153143e9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -2853,9 +2853,9 @@
 	<game name="castlsim" cloneof="castlevania" romof="castlevania" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
 		<description>Castlevania Simplified (Hack)</description>
-		<year>2013</year>
+		<year>2014</year>
 		<manufacturer>Megafield64</manufacturer>
-		<rom name="Castlevania Simplified (Hack).nes" size="131088" crc="451a0c75"/>
+		<rom name="Castlevania Simplified (2014)(Megafield64).nes" size="131088" crc="451a0c75"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5638,7 +5638,7 @@
 	</game>
 	<game name="evildead" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew</comment>
-		<description>Evil Dead - Ash lives! (Hack)</description>
+		<description>Evil Dead - Ash lives! (GlobalHack)</description>
 		<year>2020</year>
 		<manufacturer>Crying Onion</manufacturer>
 		<rom name="Evil Dead Ash lives! (2020)(Crying Onion).nes" size="262160" crc="2ce2ead0"/>
@@ -10767,6 +10767,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="magictrl" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Magical Control (HB)</description>
+		<year>2020</year>
+		<manufacturer>Closet</manufacturer>
+		<rom name="Magical Control (2020)(Closet).nes" size="40976" crc="b456441b"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="magickidsdor" cloneof="krioncon" romof="krioncon" sourcefile="nes/d_nes.cpp">
 		<description>Magical Kid's Doropie (Japan)</description>
 		<year>1990</year>
@@ -11493,7 +11502,7 @@
 	</game>
 	<game name="metroorienh" cloneof="metroid" romof="metroid" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Metroid - Origin Enhanced (Hack, v2.1.2)</description>
+		<description>Metroid - Origin Enhanced (GlobalHack, v2.1.2)</description>
 		<year>2016</year>
 		<manufacturer>JoQualian</manufacturer>
 		<rom name="Metroid - Origin Enhanced (USA).nes" size="393232" crc="a81055ab"/>
@@ -11502,16 +11511,16 @@
 	</game>
 	<game name="metrorogdaw" cloneof="metroid" romof="metroid" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Metroid - Rogue Dawn (Hack, v1.21)</description>
+		<description>Metroid - Rogue Dawn (GlobalHack, v1.21)</description>
 		<year>2022</year>
-		<manufacturer>snarfblam</manufacturer>
+		<manufacturer>snarfblam, Optomon, Grimlock</manufacturer>
 		<rom name="Metroid - Rogue Dawn (Hack, v1.21)(2022)(snarfblam).nes" size="786448" crc="5cc08cb1"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="metroidmother" cloneof="metroid" romof="metroid" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Metroid mOTHER (Hack)</description>
+		<description>Metroid mOTHER (GlobalHack)</description>
 		<year>2014</year>
 		<manufacturer>dACE</manufacturer>
 		<rom name="Metroid Mother (Hack).nes" size="393232" crc="04819e27"/>
@@ -13009,6 +13018,15 @@
 		<year>2022</year>
 		<manufacturer>Orebody Inc.</manufacturer>
 		<rom name="Orebody - Sand Ripples (2022)(Orebody Inc.).nes" size="40976" crc="b7917a5f"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="orphanmoon" cloneof="metroid" romof="metroid" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Orphan Moon (GlobalHack)</description>
+		<year>2024</year>
+		<manufacturer>Doc Remedy</manufacturer>
+		<rom name="Orphan Moon (2024)(Doc Remedy).nes" size="393232" crc="bab230fa"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -15278,6 +15296,23 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="shancaraj" cloneof="shancara" romof="shancara" sourcefile="nes/d_nes.cpp">
+		<description>Seiryaku Simulation - Inbou no Wakusei - Shancara (Japan)</description>
+		<year>1992</year>
+		<manufacturer>IGS Corporation</manufacturer>
+		<rom name="Seiryaku Simulation - Inbou no Wakusei - Shancara (J)(1992)(IGS).nes" size="262160" crc="dcfe4112"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="shancara" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Seiryaku Simulation - Planet of Conspiracy - Shancara (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>BlackPaladin</manufacturer>
+		<rom name="Seiryaku Simulation - Planet of Conspiracy - Shancara T-Eng (2024)(BlackPaladin).nes" size="262160" crc="8d87c1e4"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="senjounoookami" sourcefile="nes/d_nes.cpp">
 		<description>Senjou no Ookami (Japan)</description>
 		<year>1986</year>
@@ -16732,7 +16767,7 @@
 	</game>
 	<game name="smb8en" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew</comment>
-		<description>Super Mario Bros 8 (English) (Hack)</description>
+		<description>Super Mario Bros 8 (GlobalHack, English)</description>
 		<year>2021</year>
 		<manufacturer>Crying Onion</manufacturer>
 		<rom name="Super Mario Bros 8 hack eng (2021)(Crying Onion).nes" size="393232" crc="1f5d9f05"/>
@@ -16741,7 +16776,7 @@
 	</game>
 	<game name="smb8es" cloneof="smb8en" romof="smb8en" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew</comment>
-		<description>Super Mario Bros 8 (Spanish) (Hack)</description>
+		<description>Super Mario Bros 8 (GlobalHack, Spanish)</description>
 		<year>2021</year>
 		<manufacturer>Crying Onion</manufacturer>
 		<rom name="Super Mario Bros 8 hack spa (2021)(Crying Onion).nes" size="393232" crc="ef9c0a4f"/>
@@ -16750,7 +16785,7 @@
 	</game>
 	<game name="smb8se" cloneof="smb8en" romof="smb8en" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, Homebrew, Don Doko Don 2 tribute edition</comment>
-		<description>Super Mario Bros 8 Special Edition (Hack)</description>
+		<description>Super Mario Bros 8 Special Edition (GlobalHack, English)</description>
 		<year>2021</year>
 		<manufacturer>Crying Onion</manufacturer>
 		<rom name="Super Mario Bros 8 SE hack (2021)(Crying Onion).nes" size="393232" crc="aa5822c0"/>
@@ -16982,7 +17017,7 @@
 		<description>Super Painter (HB)</description>
 		<year>2015</year>
 		<manufacturer>RetroSouls</manufacturer>
-		<rom name="Super Painter (HB).nes" size="40976" crc="5d483272"/>
+		<rom name="Super Painter (2015)(RetroSouls).nes" size="40976" crc="5d483272"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17049,7 +17084,7 @@
 		<description>Super Russian Roulette (HB)</description>
 		<year>2017</year>
 		<manufacturer>Andrew Reitano</manufacturer>
-		<rom name="Super Russian Roulette (HB).nes" size="8912912" crc="dde4cf55"/>
+		<rom name="Super Russian Roulette (2017)(Andrew Reitano).nes" size="8912912" crc="dde4cf55"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17107,7 +17142,7 @@
 		<description>Super Tilt Bro. (HB, v2 alpha1)</description>
 		<year>2018</year>
 		<manufacturer>Broke Studio</manufacturer>
-		<rom name="Super Tilt Bro (HB).nes" size="524304" crc="58829008"/>
+		<rom name="Super Tilt Bro v2 alpha1 (2018)(Broke Studio).nes" size="524304" crc="58829008"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17133,7 +17168,7 @@
 		<description>Super UWOL (HB)</description>
 		<year>2015</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Super UWOL (HB).nes" size="40976" crc="9fbb9e1d"/>
+		<rom name="Super UWOL (2015)(The Mojon Twins).nes" size="40976" crc="9fbb9e1d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19972,7 +20007,7 @@
 		<description>Zooming Secretary (HB)</description>
 		<year>2011</year>
 		<manufacturer>Pinwizz &amp; Shiru</manufacturer>
-		<rom name="Zooming Secretary (HB).nes" size="40976" crc="947972d0"/>
+		<rom name="Zooming Secretary (2021)(Pinwizz &amp; Shiru).nes" size="40976" crc="947972d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

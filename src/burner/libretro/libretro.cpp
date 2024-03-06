@@ -147,6 +147,7 @@ INT32 UnfreezeInput(const UINT8* buf, INT32 size) { return 0; }
 static struct RomDataInfo RDI = { 0 };
 RomDataInfo* pRDI = &RDI;
 struct BurnRomInfo* pDataRomDesc = NULL;
+bool bWithEEPROM = false;
 
 TCHAR szAppEEPROMPath[MAX_PATH];
 TCHAR szAppHiscorePath[MAX_PATH];
