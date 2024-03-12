@@ -1463,6 +1463,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="area51rie128" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Area 51 - Roswell Incident (English) (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Furillo Productions</manufacturer>
+		<rom name="Area 51 - Roswell Incident EN 128K (2024)(Furillo Productions).tap" size="53546" crc="f0f39715"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="area51rie" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Area 51 - Roswell Incident (English) (48K) (HB)</description>
@@ -1470,6 +1481,17 @@
 		<manufacturer>Furillo Productions</manufacturer>
 		<rom name="Area 51 - Roswell Incident EN 48K (2023)(Furillo Productions).tap" size="39669" crc="2f51d9b7"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="area51ris128" cloneof="area51rie128" romof="area51rie128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Area 51 - Roswell Incident (Spanish) (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Furillo Productions</manufacturer>
+		<rom name="Area 51 - Roswell Incident ES 128K (2024)(Furillo Productions).tap" size="55556" crc="c0ef665b"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1510,6 +1532,28 @@
 		<manufacturer>Imagine Software</manufacturer>
 		<rom name="Arkanoid - Revenge of Doh 48K (1988)(Imagine).tap" size="40118" crc="cb8aa807"/>
 		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="arloe" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Arlo (English) (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Packobilly</manufacturer>
+		<rom name="Arlo EN 128K (2024)(Packobilly).tap" size="49621" crc="fff44368"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="arlos" cloneof="arloe" romof="arloe" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Arlo (Spanish) (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Packobilly</manufacturer>
+		<rom name="Arlo ES 128K (2024)(Packobilly).tap" size="49620" crc="6b6de6c5"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7765,6 +7809,36 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="escalerae" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Escalera, La (English) (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="Escalera, La EN 48K (2024)(Fitosoft).tap" size="39788" crc="2e6a5f01"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="escalerap" cloneof="escalerae" romof="escalerae" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Escalera, La (Portuguese) (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="Escalera, La PT 48K (2024)(Fitosoft).tap" size="39833" crc="d93a0fc4"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="escaleras" cloneof="escalerae" romof="escalerae" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Escalera, La (Spanish) (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Fitosoft</manufacturer>
+		<rom name="Escalera, La ES 48K (2024)(Fitosoft).tap" size="39839" crc="af366258"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="escalderon" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Escape From Alderon (48K)</description>
 		<year>1986</year>
@@ -8383,7 +8457,7 @@
 		<comment>Homebrew, 'S': sound on/off - 'M': music on/off</comment>
 		<description>Fitris (128K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>FitoSoft</manufacturer>
+		<manufacturer>Fitosoft</manufacturer>
 		<rom name="Fitris 128K (2023)(FitoSoft).tap" size="39006" crc="6e656131"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
@@ -14221,7 +14295,7 @@
 		<comment>Homebrew</comment>
 		<description>Misterio (English) (48K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>FitoSoft</manufacturer>
+		<manufacturer>Fitosoft</manufacturer>
 		<rom name="Misterio EN 48K (2023)(FitoSoft).tap" size="46476" crc="0b2bc46c"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -14231,7 +14305,7 @@
 		<comment>Homebrew</comment>
 		<description>Misterio (Portuguese) (48K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>FitoSoft</manufacturer>
+		<manufacturer>Fitosoft</manufacturer>
 		<rom name="Misterio PT 48K (2023)(FitoSoft).tap" size="46577" crc="f2b13a75"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -14241,7 +14315,7 @@
 		<comment>Homebrew</comment>
 		<description>Misterio (Spanish) (48K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>FitoSoft</manufacturer>
+		<manufacturer>Fitosoft</manufacturer>
 		<rom name="Misterio ES 48K (2023)(FitoSoft).tap" size="46639" crc="d6709e91"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>

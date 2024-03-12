@@ -1500,6 +1500,24 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		}
 	}
 
+	// Heavyweight Champ
+	if ((parentrom && strcmp(parentrom, "hwchamp") == 0) ||
+		(drvname && strcmp(drvname, "hwchamp") == 0)
+	) {
+		if (strcmp("Punch Left", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_L2, RETRO_DEVICE_INDEX_ANALOG_BUTTON, description);
+		}
+		if (strcmp("Punch Right", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R2, RETRO_DEVICE_INDEX_ANALOG_BUTTON, description);
+		}
+		if (strcmp("Block Left/Right", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+		if (strcmp("Block Up/Down", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+	}
+
 	// Buggy Challenge
 	if ((parentrom && strcmp(parentrom, "buggychl") == 0) ||
 		(drvname && strcmp(drvname, "buggychl") == 0)
