@@ -941,6 +941,16 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="kittentale" romof="fdsbios" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Kitten's Tale, A - The Adventures of Chatran (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>BlackPaladin</manufacturer>
+		<rom name="Kitten's Tale, A - The Adventures of Chatran T-Eng (2024)(BlackPaladin).fds" size="131000" crc="a05d0c22"/>
+		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="knighlor" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<description>Knight Lore - Majou no Ookami Otoko (Japan)</description>
 		<year>1986</year>
@@ -978,7 +988,7 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="konekmon" romof="fdsbios" sourcefile="nes/d_nes.cpp">
+	<game name="konekmon" cloneof="kittentale" romof="kittentale" sourcefile="nes/d_nes.cpp">
 		<description>Koneko Monogatari - The Adventures of Chatran (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Pony Canyon</manufacturer>
@@ -1138,7 +1148,7 @@
 	</game>
 	<game name="mystemurcas" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Mysterious Murasame Castle (Hack, English)</description>
+		<description>Mysterious Murasame Castle, The (Hack, English)</description>
 		<year>2011</year>
 		<manufacturer>Spinner 8 and friends</manufacturer>
 		<rom name="Mysterious Murasame Castle (T-Eng).fds" size="131000" crc="5da99951"/>

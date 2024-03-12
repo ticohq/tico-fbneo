@@ -8891,6 +8891,7 @@ DRV		BurnDrvgg_zenki;
 DRV		BurnDrvmd_kissshot;
 DRV		BurnDrvnes_kiterdai;
 DRV		BurnDrvKittenk;
+DRV		BurnDrvfds_kittentale;
 DRV		BurnDrvnes_kittyscatch;
 DRV		BurnDrvnes_kiwikra;
 DRV		BurnDrvKizuna;
@@ -29263,7 +29264,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvKamikazesp,			// Kamikaze (Euromatic S.A., Spanish bootleg of Scramble)
 	&BurnSpecKami16k,			// Kamikaze (French) (16K)
 	&BurnDrvKamikcab,			// Kamikaze Cabbie
-	&BurnDrvnes_kamimariodx,	// Kamikaze Mario DX+ (Hack, v1.9)
+	&BurnDrvnes_kamimariodx,	// Kamikaze Mario DX+ (GlobalHack, v1.9)
 	&BurnDrvKangarooa,			// Kangaroo (Atari)
 	&BurnDrvKangaroob,			// Kangaroo (bootleg)
 	&BurnDrvKangarool,			// Kangaroo (Loewen-Automaten)
@@ -29482,6 +29483,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_kissshot,		// Kiss Shot (Japan, SegaNet)
 	&BurnDrvnes_kiterdai,		// Kiteretsu Daihyakka (Japan)
 	&BurnDrvKittenk,			// Kitten Kaboodle
+	&BurnDrvfds_kittentale,		// Kitten's Tale, A - The Adventures of Chatran (Hack, English)
 	&BurnDrvnes_kittyscatch,	// Kitty's Catch (USA)
 	&BurnDrvnes_kiwikra,		// Kiwi Kraze - A Bird-Brained Adventure! (USA)
 	&BurnDrvKizuna,				// Kizuna Encounter - Super Tag Battle / Fu'un Super Tag Battle
@@ -30637,7 +30639,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_mario,			// Mario Brothers Final Edition (HB, Rev D)
 	&BurnDrvnes_mariokart,		// Mario Kart (GlobalHack)
 	&BurnDrvmd_mariolh,			// Mario Lemieux Hockey (Euro, USA)
-	&BurnDrvnes_marioquest,		// Mario Quest (Hack)
+	&BurnDrvnes_marioquest,		// Mario Quest (GlobalHack)
 	&BurnSpecmaritrini,			// Maritrini Freelance Monster Slayer (128K) (HB)
 	&BurnSpecMaritriadv,		// Maritrini Freelance Monster Slayer - Adventure (Spanish) (48K) (HB)
 	&BurnDrvMarkham,			// Markham
@@ -31915,7 +31917,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsms_myheroc,		// My Hero (Euro, USA, Brazil, Sega Card)
 	&BurnDrvMyhero,				// My Hero (US, not encrypted)
 	&BurnDrvMSX_sacredplace,	// My Sacred Place (HB)
-	&BurnDrvfds_mystemurcas,	// Mysterious Murasame Castle (Hack, English)
+	&BurnDrvfds_mystemurcas,	// Mysterious Murasame Castle, The (Hack, English)
 	&BurnDrvmystston,			// Mysterious Stones - Dr. John's Adventure
 	&BurnDrvmyststni,			// Mysterious Stones - Dr. Kick in Adventure (Itisa PCB)
 	&BurnDrvmyststno,			// Mysterious Stones - Dr. Kick in Adventure
@@ -34883,7 +34885,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_rockm3c,		// Rockman 3 - Dr. Wily no Saigo! (Hack, Chinese)
 	&BurnDrvnes_rockm3,			// Rockman 3 - Dr. Wily no Saigo! (Japan)
 	&BurnDrvnes_rockm4,			// Rockman 4 - Aratanaru Yabou!! (Japan)
-	&BurnDrvnes_rockm4mi,		// Rockman 4 - Minus Infinity (Hack)
+	&BurnDrvnes_rockm4mi,		// Rockman 4 - Minus Infinity (Hack, v1.01)
 	&BurnDrvnes_rockm5,			// Rockman 5 - Blues no Wana! (Japan)
 	&BurnDrvnes_rockm5mp,		// Rockman 5 - Metropolis (GlobalHack, v1.1a)
 	&BurnDrvnes_rockm6,			// Rockman 6 - Shijou Saidai no Tatakai!! (Japan)
@@ -37692,7 +37694,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_superpierrota,	// Super Pierrot (Japan, Alt)
 	&BurnDrvnes_superpinball,	// Super Pinball (Japan)
 	&BurnDrvnes_superpitfall,	// Super Pitfall (USA)
-	&BurnDrvnes_superpit30t,	// Super Pitfall 30th Anniversary Ed.(HB)
+	&BurnDrvnes_superpit30t,	// Super Pitfall 30th Anniversary Edition (HB)
 	&BurnDrvSpool3,				// Super Pool III (English)
 	&BurnDrvSpool3i,			// Super Pool III (I-Vics)
 	&BurnDrvSpnchoutj,			// Super Punch-Out!! (Japan)
@@ -49993,6 +49995,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_kissshot", "megadrive/d_megadrive.cpp"},
 	{ "nes_kiterdai", "nes/d_nes.cpp"},
 	{ "kittenk", "konami/d_nemesis.cpp"},
+	{ "fds_kittentale", "nes/d_nes.cpp"},
 	{ "nes_kittyscatch", "nes/d_nes.cpp"},
 	{ "nes_kiwikra", "nes/d_nes.cpp"},
 	{ "kizuna", "neogeo/d_neogeo.cpp"},

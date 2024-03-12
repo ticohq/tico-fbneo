@@ -9345,8 +9345,8 @@
 		<driver status="good"/>
 	</game>
 	<game name="kamimariodx" cloneof="smb" romof="smb" sourcefile="nes/d_nes.cpp">
-		<comment>Hack</comment>
-		<description>Kamikaze Mario DX+ (Hack, v1.9)</description>
+		<comment>Hack, Homebrew</comment>
+		<description>Kamikaze Mario DX+ (GlobalHack, v1.9)</description>
 		<year>2021</year>
 		<manufacturer>79</manufacturer>
 		<rom name="Kamikaze Mario DX+ v1.9 (2021)(79).nes" size="147472" crc="b7518c16"/>
@@ -11103,8 +11103,8 @@
 		<driver status="good"/>
 	</game>
 	<game name="marioquest" cloneof="smb" romof="smb" sourcefile="nes/d_nes.cpp">
-		<comment>Hack</comment>
-		<description>Mario Quest (Hack)</description>
+		<comment>Hack, Homebrew</comment>
+		<description>Mario Quest (GlobalHack)</description>
 		<year>2021</year>
 		<manufacturer>Kitsunefox</manufacturer>
 		<rom name="Mario Quest (2021)(Kitsunefox).nes" size="40976" crc="ed5be20d"/>
@@ -14751,10 +14751,10 @@
 	</game>
 	<game name="rockm4mi" cloneof="megaman4" romof="megaman4" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Rockman 4 - Minus Infinity (Hack)</description>
+		<description>Rockman 4 - Minus Infinity (Hack, v1.01)</description>
 		<year>2016</year>
 		<manufacturer>Puresabe</manufacturer>
-		<rom name="Rockman 4 - Minus Infinity (Hack).nes" size="1048592" crc="e9887ba6"/>
+		<rom name="Rockman 4 - Minus Infinity (Hack v1.01)(2016)(Puresabe).nes" size="1048592" crc="e9887ba6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -15628,7 +15628,7 @@
 		<description>Sir Ababol (HB)</description>
 		<year>2013</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Sir Ababol (HB).nes" size="40976" crc="5e7e4c60"/>
+		<rom name="Sir Ababol (2013)(The Mojon Twins).nes" size="40976" crc="5e7e4c60"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16235,7 +16235,7 @@
 		<description>Star Evil (HB)</description>
 		<year>2018</year>
 		<manufacturer>PDRoms</manufacturer>
-		<rom name="Star Evil (HB).nes" size="40976" crc="fbd4ce1c"/>
+		<rom name="Star Evil (2018)(PDRoms).nes" size="40976" crc="fbd4ce1c"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17055,10 +17055,10 @@
 	</game>
 	<game name="superpit30t" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>Super Pitfall 30th Anniversary Ed.(HB)</description>
+		<description>Super Pitfall 30th Anniversary Edition (HB)</description>
 		<year>2016</year>
 		<manufacturer>NESRocks</manufacturer>
-		<rom name="Super Pitfall 30th (HB).nes" size="131088" crc="e55ba70d"/>
+		<rom name="Super Pitfall 30th AE (2016)(NESRocks).nes" size="131088" crc="e55ba70d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
