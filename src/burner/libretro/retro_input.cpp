@@ -1889,6 +1889,30 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		}
 	}
 
+	// Forgotten Worlds
+	if ((parentrom && strcmp(parentrom, "forgottn") == 0) ||
+		(drvname && strcmp(drvname, "forgottn") == 0)
+	) {
+			if (strcmp("Turn (analog)", description) == 0) {
+					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+			}
+			if (strcmp("Attack", description) == 0) {
+					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R, description);
+			}
+			if (strcmp("Turn - (digital)", description) == 0) {
+					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_B, description);
+			}
+			if (strcmp("Turn + (digital)", description) == 0) {
+					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_A, description);
+			}
+			if (strcmp("Aim X", description) == 0) {
+					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+			}
+			if (strcmp("Aim Y", description) == 0) {
+					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+			}
+	}
+
 	if (bStreetFighterLayout) {
 		if (strncmp("Buttons 3x Punch", description, 16) == 0)
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_4TH_COL_TOP, description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
