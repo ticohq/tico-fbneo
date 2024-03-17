@@ -933,6 +933,8 @@ DRV		BurnDrvMSX_arkos1;
 DRV		BurnDrvMSX_arkos2;
 DRV		BurnDrvMSX_arkos3;
 DRV		BurnDrvgg_arliel;
+DRV		BurnDrvArlingtna;
+DRV		BurnDrvArlingtn;
 DRV		BurnSpecArloe;
 DRV		BurnSpecArlos;
 DRV		BurnDrvArmchmp2o;
@@ -6967,6 +6969,8 @@ DRV		BurnDrvGa2;
 DRV		BurnDrvGcastle;
 DRV		BurnDrvGfire2;
 DRV		BurnDrvnes_goldenfive;
+DRV		BurnDrvGpgolfa;
+DRV		BurnDrvGpgolf;
 DRV		BurnDrvGt97v120;
 DRV		BurnDrvGt97v121;
 DRV		BurnDrvGt97s121;
@@ -7003,6 +7007,14 @@ DRV		BurnDrvGtclasscp;
 DRV		BurnDrvGtclassc;
 DRV		BurnDrvGtclasscs;
 DRV		BurnDrvGtdiamond;
+DRV		BurnDrvGtgj31;
+DRV		BurnDrvGtg;
+DRV		BurnDrvGtgt10;
+DRV		BurnDrvGtgt20;
+DRV		BurnDrvGtgt21;
+DRV		BurnDrvGtg2j;
+DRV		BurnDrvGtg2;
+DRV		BurnDrvGtg2t;
 DRV		BurnDrvGtroyal;
 DRV		BurnDrvGtsupreme;
 DRV		BurnDrvfds_golf;
@@ -7228,6 +7240,7 @@ DRV		BurnDrvmd_growl;
 DRV		BurnDrvGrowla;
 DRV		BurnDrvGrowlp;
 DRV		BurnDrvGrowl;
+DRV		BurnDrvGrmatch;
 DRV		BurnDrvnes_gruni;
 DRV		BurnDrvnes_gruni2;
 DRV		BurnDrvnes_gruni3;
@@ -7839,6 +7852,8 @@ DRV		BurnDrvHotroda;
 DRV		BurnDrvHotshockb;
 DRV		BurnDrvHotshock;
 DRV		BurnDrvMSX_hotshoe;
+DRV		BurnDrvHstennis10;
+DRV		BurnDrvHstennis;
 DRV		BurnDrvhotdogst;
 DRV		BurnSpecHotshot;
 DRV		BurnDrvnes_hottanochitan;
@@ -11554,6 +11569,7 @@ DRV		BurnDrvNebulrayj;
 DRV		BurnDrvNebulray;
 DRV		BurnDrvNebulbee;
 DRV		BurnSpecnebulus;
+DRV		BurnDrvNeckneck;
 DRV		BurnSpecNecrisdome;
 DRV		BurnDrvpce_necromcr;
 DRV		BurnDrvpce_necros;
@@ -11845,6 +11861,7 @@ DRV		BurnSpecNinjacarnagfr;
 DRV		BurnSpecNinjacarnagge;
 DRV		BurnSpecNinjacarnagit;
 DRV		BurnSpecNinjacarnages;
+DRV		BurnDrvNinclown;
 DRV		BurnDrvncombath;
 DRV		BurnDrvncombat;
 DRV		BurnSpecNinjacom;
@@ -12547,6 +12564,8 @@ DRV		BurnDrvcv_pegged;
 DRV		BurnDrvgg_pegged;
 DRV		BurnDrvsg1k_pegged;
 DRV		BurnDrvsms_pegged;
+DRV		BurnDrvPeggle;
+DRV		BurnDrvPegglet;
 DRV		BurnDrvmd_pele;
 DRV		BurnDrvmd_pele2;
 DRV		BurnDrvnes_pelusaga;
@@ -12983,6 +13002,7 @@ DRV		BurnDrvPoitto;
 DRV		BurnDrvmd_pokecda;
 DRV		BurnDrvmd_pokecd;
 DRV		BurnDrvmd_pokestad;
+DRV		BurnDrvPokrdice;
 DRV		BurnDrvgg_pokerfbj;
 DRV		BurnDrvgg_pokerfp;
 DRV		BurnDrvgg_pokerfs;
@@ -14079,6 +14099,12 @@ DRV		BurnDrvRidingf;
 DRV		BurnDrvRidhero;
 DRV		BurnDrvRidheroh;
 DRV		BurnSpecRidrapids;
+DRV		BurnDrvRimrockn12;
+DRV		BurnDrvRimrockn12b;
+DRV		BurnDrvRimrockn15;
+DRV		BurnDrvRimrockn16;
+DRV		BurnDrvRimrockn20;
+DRV		BurnDrvRimrockn;
 DRV		BurnDrvRingfgt;
 DRV		BurnDrvRingfgt2;
 DRV		BurnDrvRingking;
@@ -16326,6 +16352,8 @@ DRV		BurnDrvStrfbomb;
 DRV		BurnSpecStranded;
 DRV		BurnSpecStranded25;
 DRV		BurnDrvMSX_stranglp;
+DRV		BurnDrvStratab1;
+DRV		BurnDrvStratab;
 DRV		BurnDrvpce_stratego;
 DRV		BurnDrvStratgys;
 DRV		BurnDrvStratgyx;
@@ -19623,6 +19651,8 @@ DRV		BurnDrvWexpressb3;
 DRV		BurnDrvWexpress;
 DRV		BurnDrvnes_whatremains;
 DRV		BurnSpecWhb;
+DRV		BurnDrvWfortune;
+DRV		BurnDrvWfortunea;
 DRV		BurnDrvgg_wheelof;
 DRV		BurnDrvmd_wheelfor;
 DRV		BurnDrvWheelrun;
@@ -21525,6 +21555,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_arkos2,			// Arkos - Part II (Euro, Spanish)
 	&BurnDrvMSX_arkos3,			// Arkos - Part III (Euro, Spanish)
 	&BurnDrvgg_arliel,			// Arliel - Crystal Densetsu (Japan)
+	&BurnDrvArlingtna,			// Arlington Horse Racing (v1.21-D)
+	&BurnDrvArlingtn,			// Arlington Horse Racing (v1.40-D)
 	&BurnSpecArloe,				// Arlo (English) (128K) (HB)
 	&BurnSpecArlos,				// Arlo (Spanish) (128K) (HB)
 	&BurnDrvArmchmp2o,			// Arm Champs II (ver 1.7) [no comment, NOT WORKING]
@@ -27559,6 +27591,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvGcastle,			// Golden Castle (prototype?)
 	&BurnDrvGfire2,				// Golden Fire II
 	&BurnDrvnes_goldenfive,		// Golden Five (Pegasus 5-in-1) (Unl)
+	&BurnDrvGpgolfa,			// Golden Par Golf (Joystick, V1.0)
+	&BurnDrvGpgolf,				// Golden Par Golf (Joystick, V1.1)
 	&BurnDrvGt97v120,			// Golden Tee '97 (v1.20)
 	&BurnDrvGt97v121,			// Golden Tee '97 (v1.21)
 	&BurnDrvGt97s121,			// Golden Tee '97 (v1.21S)
@@ -27595,6 +27629,14 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvGtclassc,			// Golden Tee Classic (v1.00)
 	&BurnDrvGtclasscs,			// Golden Tee Classic (v1.00S)
 	&BurnDrvGtdiamond,			// Golden Tee Diamond Edition Tournament (v3.05T ELC)
+	&BurnDrvGtgj31,				// Golden Tee Golf (Joystick, v3.1)
+	&BurnDrvGtg,				// Golden Tee Golf (Joystick, v3.3)
+	&BurnDrvGtgt10,				// Golden Tee Golf (Trackball, v1.0)
+	&BurnDrvGtgt20,				// Golden Tee Golf (Trackball, v2.0)
+	&BurnDrvGtgt21,				// Golden Tee Golf (Trackball, v2.1)
+	&BurnDrvGtg2j,				// Golden Tee Golf II (Joystick, V1.0)
+	&BurnDrvGtg2,				// Golden Tee Golf II (Trackball, V1.1)
+	&BurnDrvGtg2t,				// Golden Tee Golf II (Trackball, V1.1)
 	&BurnDrvGtroyal,			// Golden Tee Royal Edition Tournament (v4.02T EDM)
 	&BurnDrvGtsupreme,			// Golden Tee Supreme Edition Tournament (v5.10T ELC S)
 	&BurnDrvfds_golf,			// Golf (Japan)
@@ -27820,6 +27862,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvGrowla,				// Growl (World)
 	&BurnDrvGrowlp,				// Growl (World, prototype)
 	&BurnDrvGrowl,				// Growl (World, Rev 1)
+	&BurnDrvGrmatch,			// Grudge Match (Yankee Game Technology)
 	&BurnDrvnes_gruni,			// Gruniozerca (HB)
 	&BurnDrvnes_gruni2,			// Gruniozerca 2 - The Great Cavy Rescue! (HB)
 	&BurnDrvnes_gruni3,			// Gruniozerca 3 - The Great Cavy Clean-Up! (HB)
@@ -28431,6 +28474,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvHotshockb,			// Hot Shocker (early revision?)
 	&BurnDrvHotshock,			// Hot Shocker
 	&BurnDrvMSX_hotshoe,		// Hot Shoe (Euro)
+	&BurnDrvHstennis10,			// Hot Shots Tennis (V1.0)
+	&BurnDrvHstennis,			// Hot Shots Tennis (V1.1)
 	&BurnDrvhotdogst,			// Hotdog Storm - The First Supersonics (korea)
 	&BurnSpecHotshot,			// Hotshot (128K)
 	&BurnDrvnes_hottanochitan,	// Hottaaman no Chitei Tanken (Japan)
@@ -32146,6 +32191,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvNebulray,			// Nebulas Ray (World, NR2)
 	&BurnDrvNebulbee,			// Nebulous Bee
 	&BurnSpecnebulus,			// Nebulus (48K)
+	&BurnDrvNeckneck,			// Neck-n-Neck (v1.2)
 	&BurnSpecNecrisdome,		// Necris Dome (48K)
 	&BurnDrvpce_necromcr,		// Necromancer (Japan)
 	&BurnDrvpce_necros,			// Necros no Yousai (Japan)
@@ -32437,6 +32483,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecNinjacarnagge,		// Ninja Carnage (German) (128K) (HB)
 	&BurnSpecNinjacarnagit,		// Ninja Carnage (Italian) (128K) (HB)
 	&BurnSpecNinjacarnages,		// Ninja Carnage (Spanish) (128K) (HB)
+	&BurnDrvNinclown,			// Ninja Clowns (27 oct 91)
 	&BurnDrvncombath,			// Ninja Combat (NGH-009)
 	&BurnDrvncombat,			// Ninja Combat (NGM-009)
 	&BurnSpecNinjacom,			// Ninja Commando (48K)
@@ -33139,6 +33186,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvgg_pegged,			// Pegged (HB, v1.02)
 	&BurnDrvsg1k_pegged,		// Pegged (HB, v1.02)
 	&BurnDrvsms_pegged,			// Pegged (HB, v1.02)
+	&BurnDrvPeggle,				// Peggle (Joystick, v1.0)
+	&BurnDrvPegglet,			// Peggle (Trackball, v1.0)
 	&BurnDrvmd_pele,			// Pele! (Euro, USA)
 	&BurnDrvmd_pele2,			// Pele's World Tournament Soccer (Euro, USA)
 	&BurnDrvnes_pelusaga,		// Pelusa Saga - Kaji's Trials (HB)
@@ -33575,6 +33624,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_pokecda,			// Pokemon Crazy Drummer (Alt) (Unl)
 	&BurnDrvmd_pokecd,			// Pokemon Crazy Drummer (Unl)
 	&BurnDrvmd_pokestad,		// Pokemon Stadium (China) (Unl)
+	&BurnDrvPokrdice,			// Poker Dice (V1.7)
 	&BurnDrvgg_pokerfbj,		// Poker Face Paul's Blackjack (USA)
 	&BurnDrvgg_pokerfp,			// Poker Face Paul's Poker (USA)
 	&BurnDrvgg_pokerfs,			// Poker Face Paul's Solitaire (USA)
@@ -34671,6 +34721,12 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvRidhero,			// Riding Hero (NGM-006 ~ NGH-006)
 	&BurnDrvRidheroh,			// Riding Hero (set 2)
 	&BurnSpecRidrapids,			// Riding the Rapids (48K)
+	&BurnDrvRimrockn12,			// Rim Rockin' Basketball (V1.2)
+	&BurnDrvRimrockn12b,		// Rim Rockin' Basketball (V1.2, bootleg)
+	&BurnDrvRimrockn15,			// Rim Rockin' Basketball (V1.5)
+	&BurnDrvRimrockn16,			// Rim Rockin' Basketball (V1.6)
+	&BurnDrvRimrockn20,			// Rim Rockin' Basketball (V2.0)
+	&BurnDrvRimrockn,			// Rim Rockin' Basketball (V2.2)
 	&BurnDrvRingfgt,			// Ring Fighter (set 1)
 	&BurnDrvRingfgt2,			// Ring Fighter (set 2)
 	&BurnDrvRingking,			// Ring King (US set 1)
@@ -36918,6 +36974,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecStranded,			// Stranded (48K) (HB)
 	&BurnSpecStranded25,		// Stranded 2.5 (128K) (HB)
 	&BurnDrvMSX_stranglp,		// Strange Loop (Japan)
+	&BurnDrvStratab1,			// Strata Bowling (V1)
+	&BurnDrvStratab,			// Strata Bowling (V3)
 	&BurnDrvpce_stratego,		// Stratego (Japan)
 	&BurnDrvStratgys,			// Strategy X (Stern Electronics)
 	&BurnDrvStratgyx,			// Strategy X
@@ -40215,6 +40273,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvWexpress,			// Western Express (Japan, rev 4)
 	&BurnDrvnes_whatremains,	// What Remains (HB, v1.0.2)
 	&BurnSpecWhb,				// WHB (128K) (HB)
+	&BurnDrvWfortune,			// Wheel Of Fortune (set 1)
+	&BurnDrvWfortunea,			// Wheel Of Fortune (set 2)
 	&BurnDrvgg_wheelof,			// Wheel of Fortune (USA)
 	&BurnDrvmd_wheelfor,		// Wheel of Fortune (USA)
 	&BurnDrvWheelrun,			// Wheels Runner
@@ -42113,6 +42173,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_arkos2", "msx/d_msx.cpp"},
 	{ "msx_arkos3", "msx/d_msx.cpp"},
 	{ "gg_arliel", "sms/d_sms.cpp"},
+	{ "arlingtna", "pst90s/d_itech8.cpp"},
+	{ "arlingtn", "pst90s/d_itech8.cpp"},
 	{ "spec_arloe", "spectrum/d_spectrum.cpp"},
 	{ "spec_arlos", "spectrum/d_spectrum.cpp"},
 	{ "armchmp2o", "pst90s/d_cischeat.cpp"},
@@ -48093,6 +48155,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "gcastle", "taito/d_gladiatr.cpp"},
 	{ "gfire2", "pst90s/d_mosaic.cpp"},
 	{ "nes_goldenfive", "nes/d_nes.cpp"},
+	{ "gpgolfa", "pst90s/d_itech8.cpp"},
+	{ "gpgolf", "pst90s/d_itech8.cpp"},
 	{ "gt97v120", "pst90s/d_itech32.cpp"},
 	{ "gt97v121", "pst90s/d_itech32.cpp"},
 	{ "gt97s121", "pst90s/d_itech32.cpp"},
@@ -48129,6 +48193,14 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "gtclassc", "pst90s/d_itech32.cpp"},
 	{ "gtclasscs", "pst90s/d_itech32.cpp"},
 	{ "gtdiamond", "pst90s/d_itech32.cpp"},
+	{ "gtgj31", "pst90s/d_itech8.cpp"},
+	{ "gtg", "pst90s/d_itech8.cpp"},
+	{ "gtgt10", "pst90s/d_itech8.cpp"},
+	{ "gtgt20", "pst90s/d_itech8.cpp"},
+	{ "gtgt21", "pst90s/d_itech8.cpp"},
+	{ "gtg2j", "pst90s/d_itech8.cpp"},
+	{ "gtg2", "pst90s/d_itech8.cpp"},
+	{ "gtg2t", "pst90s/d_itech8.cpp"},
 	{ "gtroyal", "pst90s/d_itech32.cpp"},
 	{ "gtsupreme", "pst90s/d_itech32.cpp"},
 	{ "fds_golf", "nes/d_nes.cpp"},
@@ -48352,6 +48424,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "growla", "taito/d_taitof2.cpp"},
 	{ "growlp", "taito/d_taitof2.cpp"},
 	{ "growl", "taito/d_taitof2.cpp"},
+	{ "grmatch", "pst90s/d_itech8.cpp"},
 	{ "nes_gruni", "nes/d_nes.cpp"},
 	{ "nes_gruni2", "nes/d_nes.cpp"},
 	{ "nes_gruni3", "nes/d_nes.cpp"},
@@ -48959,6 +49032,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "hotshockb", "galaxian/d_galaxian.cpp"},
 	{ "hotshock", "galaxian/d_galaxian.cpp"},
 	{ "msx_hotshoe", "msx/d_msx.cpp"},
+	{ "hstennis10", "pst90s/d_itech8.cpp"},
+	{ "hstennis", "pst90s/d_itech8.cpp"},
 	{ "hotdogst", "cave/d_hotdogst.cpp"},
 	{ "spec_hotshot", "spectrum/d_spectrum.cpp"},
 	{ "nes_hottanochitan", "nes/d_nes.cpp"},
@@ -52634,6 +52709,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nebulray", "pst90s/d_namconb1.cpp"},
 	{ "nebulbee", "pre90s/d_galaga.cpp"},
 	{ "spec_nebulus", "spectrum/d_spectrum.cpp"},
+	{ "neckneck", "pst90s/d_itech8.cpp"},
 	{ "spec_necrisdome", "spectrum/d_spectrum.cpp"},
 	{ "pce_necromcr", "pce/d_pce.cpp"},
 	{ "pce_necros", "pce/d_pce.cpp"},
@@ -52923,6 +52999,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_ninjacarnagge", "spectrum/d_spectrum.cpp"},
 	{ "spec_ninjacarnagit", "spectrum/d_spectrum.cpp"},
 	{ "spec_ninjacarnages", "spectrum/d_spectrum.cpp"},
+	{ "ninclown", "pst90s/d_itech8.cpp"},
 	{ "ncombath", "neogeo/d_neogeo.cpp"},
 	{ "ncombat", "neogeo/d_neogeo.cpp"},
 	{ "spec_ninjacom", "spectrum/d_spectrum.cpp"},
@@ -53617,6 +53694,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "gg_pegged", "sms/d_sms.cpp"},
 	{ "sg1k_pegged", "sg1000/d_sg1000.cpp"},
 	{ "sms_pegged", "sms/d_sms.cpp"},
+	{ "peggle", "pst90s/d_itech8.cpp"},
+	{ "pegglet", "pst90s/d_itech8.cpp"},
 	{ "md_pele", "megadrive/d_megadrive.cpp"},
 	{ "md_pele2", "megadrive/d_megadrive.cpp"},
 	{ "nes_pelusaga", "nes/d_nes.cpp"},
@@ -54051,6 +54130,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_pokecda", "megadrive/d_megadrive.cpp"},
 	{ "md_pokecd", "megadrive/d_megadrive.cpp"},
 	{ "md_pokestad", "megadrive/d_megadrive.cpp"},
+	{ "pokrdice", "pst90s/d_itech8.cpp"},
 	{ "gg_pokerfbj", "sms/d_sms.cpp"},
 	{ "gg_pokerfp", "sms/d_sms.cpp"},
 	{ "gg_pokerfs", "sms/d_sms.cpp"},
@@ -55141,6 +55221,12 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "ridhero", "neogeo/d_neogeo.cpp"},
 	{ "ridheroh", "neogeo/d_neogeo.cpp"},
 	{ "spec_ridrapids", "spectrum/d_spectrum.cpp"},
+	{ "rimrockn12", "pst90s/d_itech8.cpp"},
+	{ "rimrockn12b", "pst90s/d_itech8.cpp"},
+	{ "rimrockn15", "pst90s/d_itech8.cpp"},
+	{ "rimrockn16", "pst90s/d_itech8.cpp"},
+	{ "rimrockn20", "pst90s/d_itech8.cpp"},
+	{ "rimrockn", "pst90s/d_itech8.cpp"},
 	{ "ringfgt", "pre90s/d_tsamurai.cpp"},
 	{ "ringfgt2", "pre90s/d_tsamurai.cpp"},
 	{ "ringking", "pre90s/d_kingofbox.cpp"},
@@ -57362,6 +57448,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_stranded", "spectrum/d_spectrum.cpp"},
 	{ "spec_stranded25", "spectrum/d_spectrum.cpp"},
 	{ "msx_stranglp", "msx/d_msx.cpp"},
+	{ "stratab1", "pst90s/d_itech8.cpp"},
+	{ "stratab", "pst90s/d_itech8.cpp"},
 	{ "pce_stratego", "pce/d_pce.cpp"},
 	{ "stratgys", "galaxian/d_galaxian.cpp"},
 	{ "stratgyx", "galaxian/d_galaxian.cpp"},
@@ -60611,6 +60699,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "wexpress", "pre90s/d_exprraid.cpp"},
 	{ "nes_whatremains", "nes/d_nes.cpp"},
 	{ "spec_whb", "spectrum/d_spectrum.cpp"},
+	{ "wfortune", "pst90s/d_itech8.cpp"},
+	{ "wfortunea", "pst90s/d_itech8.cpp"},
 	{ "gg_wheelof", "sms/d_sms.cpp"},
 	{ "md_wheelfor", "megadrive/d_megadrive.cpp"},
 	{ "wheelrun", "pre90s/d_fantland.cpp"},
