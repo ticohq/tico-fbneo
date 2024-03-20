@@ -242,6 +242,8 @@ This core widely supports the RetroArch input latency reduction features, with *
 
 Proper support for **runahead second instance** is not guaranteed because it doesn't exist in standalone FBNeo unlike the other methods.
 
+Note : There seems to be possible conflicts when rewind is active simultanneously, see https://github.com/libretro/RetroArch/issues/16374.
+
 ## RetroAchievements
 
 This core provides support for RetroAchievements, and some were added for popular games.
