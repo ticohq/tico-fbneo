@@ -2101,7 +2101,7 @@
 		<description>Blaster Master (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="blaster master (usa) - castellano v1.0.nes" size="262160" crc="b63123db"/>
+		<rom name="Blaster Master T-Spa v1.0 (2018)(Wave).nes" size="262160" crc="b63123db"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -2109,7 +2109,16 @@
 		<description>Blaster Master (USA)</description>
 		<year>1988</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Blaster Master (USA).nes" size="262160" crc="52bcf64a"/>
+		<rom name="Blaster Master (U)(1988)(Sunsoft).nes" size="262160" crc="52bcf64a"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="blastermasterlk" cloneof="blastermaster" romof="blastermaster" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Blaster Master - The Lost Key (Hack, v1.06)</description>
+		<year>2014-2024</year>
+		<manufacturer>climax, HalDanGhor</manufacturer>
+		<rom name="Blaster Master - The Lost Key v1.06 (2014-2024)(climax, HalDanGhor).nes" size="262160" crc="56935623"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -2547,7 +2556,7 @@
 		<description>Cadaverion (HB)</description>
 		<year>2018</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Cadaverion (2018)(Mojon Twins).nes" size="40976" crc="6a45c96a"/>
+		<rom name="Cadaverion (2018)(The Mojon Twins).nes" size="40976" crc="6a45c96a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -2890,7 +2899,7 @@
 		<description>Cave (HB)</description>
 		<year>2017</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="cave (2017)(mojon twins).nes" size="49168" crc="b86ce86b"/>
+		<rom name="Cave (2017)(The Mojon Twins).nes" size="49168" crc="b86ce86b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8841,7 +8850,7 @@
 		<description>Jay and Silent Bob Mall Brawl (HB)</description>
 		<year>2020</year>
 		<manufacturer>Interabang Entertainment</manufacturer>
-		<rom name="Jay and Silent Bob Mall Brawl.nes" size="393232" crc="f167590d"/>
+		<rom name="Jay and Silent Bob Mall Brawl (2020)(Interabang Entertainment).nes" size="393232" crc="f167590d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8990,7 +8999,7 @@
 		<description>Journey to the Center of the Alien (HB)</description>
 		<year>2019</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="journey to the center of the alien (2019)(mojon twins).nes" size="73744" crc="d4b8eaa5"/>
+		<rom name="Journey to the Center of the Alien (2019)(The Mojon Twins).nes" size="73744" crc="d4b8eaa5"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8998,7 +9007,7 @@
 		<description>Joust (USA)</description>
 		<year>1988</year>
 		<manufacturer>HAL Laboratory</manufacturer>
-		<rom name="Joust (USA).nes" size="32784" crc="cdd248a0"/>
+		<rom name="Joust (USA)(1988)(HAL Laboratory).nes" size="32784" crc="cdd248a0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9006,7 +9015,7 @@
 		<description>Jovial Race (Unl)</description>
 		<year>1989</year>
 		<manufacturer>Thin Chen</manufacturer>
-		<rom name="Jovial Race (Unl).nes" size="98320" crc="52c262b4"/>
+		<rom name="Jovial Race (Unl)(1989)(Thin Chen).nes" size="98320" crc="52c262b4"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9015,7 +9024,7 @@
 		<description>Joy Mech Fight (Hack, English)</description>
 		<year>2016</year>
 		<manufacturer>AlanMidas</manufacturer>
-		<rom name="Joy Mech Fight (T-eng).nes" size="524304" crc="8bb8bc54"/>
+		<rom name="Joy Mech Fight T-Eng (2016)(AlanMidas).nes" size="524304" crc="8bb8bc54"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9023,7 +9032,7 @@
 		<description>Joy Mech Fight (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Nintendo</manufacturer>
-		<rom name="Joy Mech Fight (Japan).nes" size="524304" crc="d6c81006"/>
+		<rom name="Joy Mech Fight (Japan)(1993)(Nintendo).nes" size="524304" crc="d6c81006"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9031,7 +9040,7 @@
 		<description>JuJu Densetsu (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="JuJu Densetsu (Japan).nes" size="393232" crc="138d2e4b"/>
+		<rom name="JuJu Densetsu (Japan)(1991)(Taito).nes" size="393232" crc="138d2e4b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9106,7 +9115,7 @@
 		<description>Jurassic Park (USA)</description>
 		<year>1993</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Jurassic Park (USA).nes" size="262160" crc="11ec53a9"/>
+		<rom name="Jurassic Park (USA)(1993)(Ocean).nes" size="262160" crc="11ec53a9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9115,7 +9124,7 @@
 		<description>Just Breed (Hack, English)</description>
 		<year>2004</year>
 		<manufacturer>Stealth Translations</manufacturer>
-		<rom name="Just Breed (T-Eng).nes" size="786448" crc="a4863269"/>
+		<rom name="Just Breed T-Eng (2004)(Stealth Translations).nes" size="786448" crc="a4863269"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9132,7 +9141,7 @@
 		<description>Just Breed (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Enix</manufacturer>
-		<rom name="Just Breed (Japan).nes" size="786448" crc="4b69c694"/>
+		<rom name="Just Breed (Japan)(1992)(Enix).nes" size="786448" crc="4b69c694"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9150,16 +9159,7 @@
 		<description>Justice Duel (HB)</description>
 		<year>2019</year>
 		<manufacturer>Mega Cat Studios</manufacturer>
-		<rom name="Justice Duel (HB).nes" size="196624" crc="ada8853b"/>
-		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
-		<driver status="good"/>
-	</game>
-	<game name="juuouki" sourcefile="nes/d_nes.cpp">
-		<comment>Hack</comment>
-		<description>Juuouki (Hack, English)</description>
-		<year>2005</year>
-		<manufacturer>aka translations</manufacturer>
-		<rom name="Juuouki (T-eng).nes" size="262160" crc="b6cf6cbc"/>
+		<rom name="Justice Duel (2019)(Mega Cat Studios).nes" size="196624" crc="ada8853b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9167,15 +9167,24 @@
 		<description>Juuouki (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Asmik</manufacturer>
-		<rom name="Juuouki (Japan).nes" size="262160" crc="4de1c214"/>
+		<rom name="Juuouki (Japan)(1990)(Asmik).nes" size="262160" crc="4de1c214"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="juuouki" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Juuouki ~ Altered Beast (Hack, English)</description>
+		<year>2005</year>
+		<manufacturer>aka translations</manufacturer>
+		<rom name="Juuouki T-Eng (2005)(aka translations).nes" size="262160" crc="b6cf6cbc"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="juurysoumetsto" sourcefile="nes/d_nes.cpp">
 		<description>Juuryoku Soukou Metal Storm (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Irem</manufacturer>
-		<rom name="Juuryoku Soukou Metal Storm (Japan).nes" size="393232" crc="984ef54b"/>
+		<manufacturer>Irem Corp.</manufacturer>
+		<rom name="Juuryoku Soukou Metal Storm (Japan)(1992)(Irem).nes" size="393232" crc="984ef54b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9184,7 +9193,7 @@
 		<description>Juvei Quest (Hack, English)</description>
 		<year>2013</year>
 		<manufacturer>Stardust Crusaders</manufacturer>
-		<rom name="Juvei Quest (T-Eng).nes" size="786448" crc="00a5b4f2"/>
+		<rom name="Juvei Quest T-Eng (2013)(Stardust Crusaders).nes" size="786448" crc="00a5b4f2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9192,7 +9201,7 @@
 		<description>Juvei Quest (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Namco</manufacturer>
-		<rom name="Juvei Quest (Japan).nes" size="524304" crc="2e937d80"/>
+		<rom name="Juvei Quest (Japan)(1991)(Namco).nes" size="524304" crc="2e937d80"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9208,7 +9217,7 @@
 		<description>Kabuki - Quantum Fighter (USA)</description>
 		<year>1991</year>
 		<manufacturer>HAL Laboratory</manufacturer>
-		<rom name="Kabuki - Quantum Fighter (USA).nes" size="262160" crc="5ee7a400"/>
+		<rom name="Kabuki - Quantum Fighter (USA)(1991)(HAL Laboratory).nes" size="262160" crc="5ee7a400"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9915,7 +9924,7 @@
 		<description>Lala the Magical (HB)</description>
 		<year>2016</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Lala the Magical (HB).nes" size="81936" crc="496c2e59"/>
+		<rom name="Lala the Magical (2016)(The Mojon Twins).nes" size="81936" crc="496c2e59"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9933,16 +9942,16 @@
 		<description>Larry (HB)</description>
 		<year>2014</year>
 		<manufacturer>Khan Games</manufacturer>
-		<rom name="Larry (HB).nes" size="524304" crc="96f31fb9"/>
+		<rom name="Larry (2014)(Khan Games).nes" size="524304" crc="96f31fb9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="larrya" cloneof="larry" romof="larry" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>Larry (HB, alt)</description>
+		<description>Larry (HB, Alt)</description>
 		<year>2014</year>
 		<manufacturer>Khan Games</manufacturer>
-		<rom name="Larry (HB, alt).nes" size="524304" crc="2c8d188e"/>
+		<rom name="Larry (Alt)(2014)(Khan Games).nes" size="524304" crc="2c8d188e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10360,7 +10369,7 @@
 		<description>Little Medusa (HB)</description>
 		<year>2018</year>
 		<manufacturer>Mega Cat Studios</manufacturer>
-		<rom name="Little Medusa (HB).nes" size="524304" crc="126b5927"/>
+		<rom name="Little Medusa (2018)(Mega Cat Studios).nes" size="524304" crc="126b5927"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10436,7 +10445,7 @@
 		<description>Lizard (HB)</description>
 		<year>2018</year>
 		<manufacturer>Brad Smith</manufacturer>
-		<rom name="Lizard (HB).nes" size="524304" crc="27a5348f"/>
+		<rom name="Lizard (2018)(Brad Smith).nes" size="524304" crc="27a5348f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10453,7 +10462,7 @@
 		<description>Log Jammers (HB)</description>
 		<year>2017</year>
 		<manufacturer>Mega Cat Studios</manufacturer>
-		<rom name="Log Jammers (HB).nes" size="393232" crc="451dd988"/>
+		<rom name="Log Jammers (2017)(Mega Cat Studios).nes" size="393232" crc="451dd988"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10503,7 +10512,7 @@
 		<description>Lunar Limit (HB)</description>
 		<year>2017</year>
 		<manufacturer>Pubby</manufacturer>
-		<rom name="Lunar Limit (HB).nes" size="40976" crc="eb26681e"/>
+		<rom name="Lunar Limit (2017)(Pubby).nes" size="40976" crc="eb26681e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10648,7 +10657,7 @@
 		<description>Mad Wizard, The - A Candelabra Chronicle (HB) (Sly Dog Studios)</description>
 		<year>2014</year>
 		<manufacturer>Sly Dog Studios</manufacturer>
-		<rom name="The Mad Wizard - a Candelabra Chronicle (2014)(Sly Dog Studios).nes" size="131088" crc="5481d022"/>
+		<rom name="Mad Wizard, The - A Candelabra Chronicle (2014)(Sly Dog Studios).nes" size="131088" crc="5481d022"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10657,7 +10666,7 @@
 		<description>Mad Wizard, The - A Candelabra Chronicle (HB)</description>
 		<year>2014</year>
 		<manufacturer>Robert L. Bryant</manufacturer>
-		<rom name="The Mad Wizard - A Candelabra Chronicle (HB).nes" size="131088" crc="7750dac6"/>
+		<rom name="Mad Wizard, The - A Candelabra Chronicle (2014)(Robert L. Bryant).nes" size="131088" crc="7750dac6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11523,7 +11532,7 @@
 		<description>Metroid mOTHER (GlobalHack)</description>
 		<year>2014</year>
 		<manufacturer>dACE</manufacturer>
-		<rom name="Metroid Mother (Hack).nes" size="393232" crc="04819e27"/>
+		<rom name="Metroid Mother (GlobalHack)(2014)(dACE).nes" size="393232" crc="04819e27"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -13844,7 +13853,7 @@
 		<description>Project Blue (HB)</description>
 		<year>2019</year>
 		<manufacturer>Toggle Switch</manufacturer>
-		<rom name="Project Blue (HB).nes" size="524304" crc="43b9e57e"/>
+		<rom name="Project Blue (2019)(Toggle Switch).nes" size="524304" crc="43b9e57e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -13877,7 +13886,7 @@
 		<description>Purple Cape Man (HB)</description>
 		<year>2015</year>
 		<manufacturer>Vigilante Ninja</manufacturer>
-		<rom name="Purple Cape Man (HB).nes" size="24592" crc="d8a7825b"/>
+		<rom name="Purple Cape Man (2015)(Vigilante Ninja).nes" size="24592" crc="d8a7825b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -14224,6 +14233,15 @@
 		<year>2017</year>
 		<manufacturer>Hallmark</manufacturer>
 		<rom name="Rainbow Brite - Journey to Rainbow Land (2017)(Hallmark).nes" size="524304" crc="8902cf08"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="rainbowcatcher" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Rainbow Catcher (HB)</description>
+		<year>2023</year>
+		<manufacturer>Sleepy Bits Games</manufacturer>
+		<rom name="Rainbow Catcher (2023)(Sleepy Bits Games).nes" size="40976" crc="8dc5267e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -18606,7 +18624,7 @@
 		<description>Twin Dragons (HB)</description>
 		<year>2018</year>
 		<manufacturer>Broke Studio</manufacturer>
-		<rom name="Twin Dragons (HB).nes" size="524304" crc="0d29351e"/>
+		<rom name="Twin Dragons (2018)(Broke Studio).nes" size="524304" crc="0d29351e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -18615,7 +18633,7 @@
 		<description>Twin Dragons Compo Edition (HB)</description>
 		<year>2016</year>
 		<manufacturer>Broke Studio</manufacturer>
-		<rom name="Twin Dragons Compo Edition (HB).nes" size="65552" crc="311cb660"/>
+		<rom name="Twin Dragons Compo Edition (2016)(Broke Studio).nes" size="65552" crc="311cb660"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

@@ -5006,6 +5006,18 @@
 		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="megamite" cloneof="megamit" romof="megamit" sourcefile="msx/d_msx.cpp">
+		<comment>Hack</comment>
+		<description>Digital Devil Monogatari - Megami Tensei (Hack, English)</description>
+		<year>2024</year>
+		<manufacturer>Kaisaan</manufacturer>
+		<rom name="Digital Devil Monogatari Megami Tensei T-Eng (2024)(Kaisaan).rom" size="139264" crc="91987fb2"/>
+		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
+		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
+		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
+		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="megamit" romof="msx" sourcefile="msx/d_msx.cpp">
 		<description>Digital Devil Monogatari - Megami Tensei (Japan)</description>
 		<year>1987</year>
@@ -10447,6 +10459,18 @@
 		<year>1989</year>
 		<manufacturer>Positive</manufacturer>
 		<rom name="Mambo (1989)(Positive)(es)[RUN'CAS-'].cas" size="54495" crc="d3cd5f8b"/>
+		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
+		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
+		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
+		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mandarin2" romof="msx" sourcefile="msx/d_msx.cpp">
+		<comment>Homebrew</comment>
+		<description>Mandarin 2, The - Limoncello's Revenge (HB)</description>
+		<year>2024</year>
+		<manufacturer>Mananuk</manufacturer>
+		<rom name="Mandarin 2, The - Limoncello's Revenge (2024)(Mananuk).rom" size="49152" crc="7b2419a5"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -16505,7 +16529,7 @@
 		<description>T-Virus (HB)</description>
 		<year>2004</year>
 		<manufacturer>Dioniso (Alfonso D.C.)</manufacturer>
-		<rom name="tvirus.rom" size="8192" crc="72b26927"/>
+		<rom name="T-Virus (2004)(Dioniso).rom" size="8192" crc="72b26927"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17385,7 +17409,7 @@
 		<description>Traffic Jam (HB)</description>
 		<year>2006</year>
 		<manufacturer>Imanok</manufacturer>
-		<rom name="traffic jam (2006)(imanok).rom" size="32768" crc="0c7929be"/>
+		<rom name="Traffic Jam (2006)(Imanok).rom" size="32768" crc="0c7929be"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17408,7 +17432,7 @@
 		<description>Transball (HB, v1.3.2)</description>
 		<year>2016</year>
 		<manufacturer>Brain Games</manufacturer>
-		<rom name="transball-en.rom" size="32768" crc="cbcf03c5"/>
+		<rom name="Transball v1.3.2 (2016)(Brain Games).rom" size="32768" crc="cbcf03c5"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17537,6 +17561,18 @@
 		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="tuttut" romof="msx" sourcefile="msx/d_msx.cpp">
+		<comment>Homebrew</comment>
+		<description>Tut Tut (HB)</description>
+		<year>2024</year>
+		<manufacturer>Shieladixon</manufacturer>
+		<rom name="Tut Tut (2024)(Shieladixon).rom" size="32768" crc="bc7329b6"/>
+		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
+		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
+		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
+		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="twinbee" romof="msx" sourcefile="msx/d_msx.cpp">
 		<description>Twin Bee (Japan)</description>
 		<year>1986</year>
@@ -17597,7 +17633,7 @@
 		<description>Twinlight (HB)</description>
 		<year>2019</year>
 		<manufacturer>RetroSouls</manufacturer>
-		<rom name="twinlight.rom" size="32768" crc="3b76ceef"/>
+		<rom name="Twinlight (2019)(RetroSouls).rom" size="32768" crc="3b76ceef"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17644,7 +17680,7 @@
 		<description>Uchusen Gamma (HB)</description>
 		<year>2019</year>
 		<manufacturer>usebox.net</manufacturer>
-		<rom name="uchusen gamma.rom" size="49152" crc="06a85e42"/>
+		<rom name="Uchusen Gamma (2019)(usebox.net).rom" size="49152" crc="06a85e42"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17689,7 +17725,7 @@
 		<description>Universe Unknown (HB)</description>
 		<year>2005</year>
 		<manufacturer>Infinite</manufacturer>
-		<rom name="UniverseUnknown.rom" size="49152" crc="a017f389"/>
+		<rom name="Universe Unknown (2005)(Infinite).rom" size="49152" crc="a017f389"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
@@ -17701,7 +17737,7 @@
 		<description>Uridium (HB)</description>
 		<year>2014</year>
 		<manufacturer>Trilobyte</manufacturer>
-		<rom name="URDIUM48.rom" size="49152" crc="c62d92da"/>
+		<rom name="Uridium (2014)(Trilobyte).rom" size="49152" crc="c62d92da"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
 		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
