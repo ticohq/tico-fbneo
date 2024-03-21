@@ -1914,7 +1914,7 @@ static INT32 DrvExit()
 	pia_exit();
 	timerExit();
 
-	sound_exit();
+	if (sound_exit) sound_exit();
 
 	BurnTrackballExit();
 
@@ -3201,10 +3201,18 @@ static struct BurnRomInfo gpgolfRomDesc[] = {
 STD_ROM_PICK(gpgolf)
 STD_ROM_FN(gpgolf)
 
-static INT32 Gtg2Init()
+static INT32 GpgolfInit()
 {
 	use_via = 1;
-	return CommonInit(MapGtg2, 1, ym3812SoundMap, screen_update_2layer, 0);
+
+	INT32 rc = CommonInit(MapGtg2, 0, ym3812SoundMap, screen_update_2layer, 0);
+
+	if (!rc) {
+		service_ptr = &DrvDips[0];
+		service_bit = 1;
+	}
+
+	return rc;
 }
 
 struct BurnDriver BurnDrvGpgolf = {
@@ -3213,7 +3221,7 @@ struct BurnDriver BurnDrvGpgolf = {
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING, 2, HARDWARE_MISC_POST90S, GBF_MISC, 0,
 	NULL, gpgolfRomInfo, gpgolfRomName, NULL, NULL, NULL, NULL, GpgolfInputInfo, GpgolfDIPInfo,
-	Gtg2Init, DrvExit, DrvFrame, DrvDraw, DrvScan, &BurnRecalc, 0x100,
+	GpgolfInit, DrvExit, DrvFrame, DrvDraw, DrvScan, &BurnRecalc, 0x100,
 	256, 240, 4, 3
 };
 
@@ -3241,12 +3249,17 @@ struct BurnDriver BurnDrvGpgolfa = {
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE, 2, HARDWARE_MISC_POST90S, GBF_MISC, 0,
 	NULL, gpgolfaRomInfo, gpgolfaRomName, NULL, NULL, NULL, NULL, GpgolfInputInfo, GpgolfDIPInfo,
-	Gtg2Init, DrvExit, DrvFrame, DrvDraw, DrvScan, &BurnRecalc, 0x100,
+	GpgolfInit, DrvExit, DrvFrame, DrvDraw, DrvScan, &BurnRecalc, 0x100,
 	256, 240, 4, 3
 };
 
+static INT32 Gtg2Init()
+{
+	use_via = 1;
+	return CommonInit(MapGtg2, 1, ym3812SoundMap, screen_update_2layer, 0);
+}
 
-// Golden Tee Golf II (Trackball, V1.1)
+// Golden Tee Golf II (Trackball, V2.2)
 
 static struct BurnRomInfo gtg2RomDesc[] = {
 	{ "gtg2_v2_2.u5",						0x10000, 0x4a61580f, 1 | BRF_PRG | BRF_ESS }, //  0 M6809 #0 Code
@@ -3270,7 +3283,7 @@ STD_ROM_FN(gtg2)
 
 struct BurnDriver BurnDrvGtg2 = {
 	"gtg2", NULL, NULL, NULL, "1989",
-	"Golden Tee Golf II (Trackball, V1.1)\0", NULL, "Strata/Incredible Technologies", "Miscellaneous",
+	"Golden Tee Golf II (Trackball, V2.2)\0", NULL, "Strata/Incredible Technologies", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING, 2, HARDWARE_MISC_PRE90S, GBF_MISC, 0,
 	NULL, gtg2RomInfo, gtg2RomName, NULL, NULL, NULL, NULL, Gtg2InputInfo, Gtg2DIPInfo,

@@ -137,6 +137,7 @@
     <ClCompile Include="..\..\src\burn\devices\nmk112.cpp" />
     <ClCompile Include="..\..\src\burn\devices\pandora.cpp" />
     <ClCompile Include="..\..\src\burn\devices\pic8259.cpp" />
+    <ClCompile Include="..\..\src\burn\devices\pit8253.cpp" />
     <ClCompile Include="..\..\src\burn\devices\poly.cpp" />
     <ClCompile Include="..\..\src\burn\devices\qs1000.cpp" />
     <ClCompile Include="..\..\src\burn\devices\resnet.cpp" />
@@ -231,6 +232,7 @@
     <ClCompile Include="..\..\src\burn\drv\pre90s\d_taxidriv.cpp" />
     <ClCompile Include="..\..\src\burn\drv\pre90s\d_tiamc1.cpp" />
     <ClCompile Include="..\..\src\burn\drv\pre90s\d_tubep.cpp" />
+    <ClCompile Include="..\..\src\burn\drv\pre90s\d_vampire.cpp" />
     <ClCompile Include="..\..\src\burn\drv\pre90s\d_zaccaria.cpp" />
     <ClCompile Include="..\..\src\burn\drv\pre90s\d_zwackery.cpp" />
     <ClCompile Include="..\..\src\burn\drv\pst90s\d_artmagic.cpp" />
@@ -299,6 +301,7 @@
     <ClCompile Include="..\..\src\cpu\i386\i386.cpp" />
     <ClCompile Include="..\..\src\cpu\i8x41\mcs48.cpp" />
     <ClCompile Include="..\..\src\cpu\m377\m37710.cpp" />
+    <ClCompile Include="..\..\src\cpu\mb88xx\mb88xx.cpp" />
     <ClCompile Include="..\..\src\cpu\mips3\x64\mips3_x64.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
