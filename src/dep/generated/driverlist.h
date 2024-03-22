@@ -37139,7 +37139,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_sf2p1,			// Street Fighter II' - Champion Edition (Prototype, 19930730)
 	&BurnDrvmd_sf2hce,			// Street Fighter II' - Hyper Champion Edition (Hack)
 	&BurnDrvmd_sf2hce2,			// Street Fighter II' - Hyper Champion Edition (Hack, v2)
-	&BurnDrvCpsSf2hfsce,		// Street Fighter II' - Hyper Fighting (Sr. SF Champion Edition v1.3, Hack)
+	&BurnDrvCpsSf2hfsce,		// Street Fighter II' - Hyper Fighting (Sr. SF Champion Edition v1.4, Hack)
 	&BurnDrvCpsSf2mdt,			// Street Fighter II' - Magic Delta Turbo (bootleg set 1 (with YM2151 + 2xMSM5205), 920313 etc)
 	&BurnDrvCpsSf2mdta,			// Street Fighter II' - Magic Delta Turbo (bootleg set 2 (with YM2151 + 2xMSM5205), 920313 etc)
 	&BurnDrvCpsSf2mdtb,			// Street Fighter II' - Magic Delta Turbo (bootleg set 3 (with YM2151 + 2xMSM5205), 920313 etc)

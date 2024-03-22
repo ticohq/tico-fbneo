@@ -29,7 +29,7 @@ There are controversies about whether libretro's patreon and retroarch's GPL lic
 * **"Redistributions may not be sold, nor may they be used in a commercial product or activity."** : By definition, a commercial activity is an activity involving the sale of goods or services. The libretro project does none of that, and it is unclear whether a patreon should be treated as a commercial activity or not when no goods or services are provided in exchange of the donations.
 * **"You may not ask for donations to support your work on any project that uses the FB Neo source code."** : This FBNeo port is using libretro code, not the other way around. This port is directly authored/maintained/supported by members of the FBNeo team, and none of them is receiving donations. Interestingly, if receiving donations was de facto a commercial activity, this term shouldn't be required.
 * *If* the libretro project was a commercial activity, it would still be unclear how it does affect this port. Our win32 standalone builds use the directx api, which belongs to a commercial company. Using the libretro api, which would belong to a commercial activity, wouldn't be any different. Furthermore, in all likeliness, there would still be alternative libretro frontends that don't belong to the libretro project and are not commercial. 
-* Actually, alternative commercial libretro frontends already exist, and we consider we are not concerned as long as this port is not distributed with/through them and they don't use its availability as some mean of advertisement. In this scenario, only a manual installation of the core by the user will be considered legal and supported.
+* Actually, alternative commercial libretro frontends already exist, and we consider we are not concerned as long as they neither redistribute FBNeo nor use it as some mean of advertisement. In this scenario, only a manual installation of the core by the user will be considered legal and supported.
 * While GPL code can't be mixed with non-commercial code, this is a non-issue since this port doesn't contain any GPL-licensed code.
 * Under european law, where the libretro buildbots are located, linking GPL and non-commercial softwares doesn't produce a derivative work, and doesn't extend the GPL license to the non-commercial work (source [here](https://joinup.ec.europa.eu/collection/eupl/licence-compatibility-permissivity-reciprocity-and-interoperability)). It is unclear whether the same applies in non-EU countries or not.
 
@@ -41,10 +41,11 @@ zip, 7z
 
 From the root of the repository, run
 ```
+make -j5 -C src/burner/libretro clean
 make -j5 -C src/burner/libretro generate-files
 make -j5 -C src/burner/libretro
 ```
-Note : `-j5` is to optimize build time on cpus with 4 cores, you can rise or reduce that value to match your own, however a value too high will increase ram usage and might even cause your system to become instable.
+Note : `-j5` is to optimize build time on cpus with 4 cores (X+1 cores), you can rise or reduce that value to match your own, however a value too high will increase ram usage and might even cause your system to become unstable.
 
 Note : if you need additional parameters, they must be added to both commands.
 
