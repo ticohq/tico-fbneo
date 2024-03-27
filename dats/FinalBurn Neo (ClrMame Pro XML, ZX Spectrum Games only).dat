@@ -1814,6 +1814,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="attributica" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Demo, Homebrew</comment>
+		<description>Attributica (128K) (HB, Tech-Demo)</description>
+		<year>2022</year>
+		<manufacturer>Speccy.pl</manufacturer>
+		<rom name="Attributica 128K (2022)(Speccy.pl).tap" size="214271" crc="cc5eee16"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="atvsim" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>ATV Simulator - All Terrain Vehicle (48K)</description>
 		<year>1987</year>
@@ -7439,6 +7450,17 @@
 		<manufacturer>Payndz</manufacturer>
 		<rom name="Dungeon Raiders (2018)(Payndz).tap" size="33635" crc="9bfd967b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="dndcfg" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, Q: Cursor - W: Attack - E: Move</comment>
+		<description>Dungeons &amp; Dragons Computer Fantasy Game (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>El Dr. Gusman</manufacturer>
+		<rom name="Dungeons &amp; Dragons Computer Fantasy Game 128K (2024)(El Dr. Gusman).tap" size="69627" crc="79e04513"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14927,12 +14949,12 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="mushromsoap" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+	<game name="mushromsoup" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Mushrom Soup (128K) (HB)</description>
 		<year>2024</year>
 		<manufacturer>Ottersoft</manufacturer>
-		<rom name="Mushrom Soup 128K (2024)(Ottersoft).tap" size="45637" crc="15f8aba6"/>
+		<rom name="Mushrom Soup 128K (2024)(Ottersoft).tap" size="45638" crc="8c755a93"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -14963,6 +14985,17 @@
 		<year>1989</year>
 		<manufacturer>Players Premier</manufacturer>
 		<rom name="Mutant Fortress 128K (1989)(Players Premier).tap" size="77979" crc="f82b3bcc"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mmushrooms" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Mutant Mushrooms (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>The Death Squad</manufacturer>
+		<rom name="Mutant Mushrooms 128K (2024)(The Death Squad).tap" size="47778" crc="eed300c9"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -18682,9 +18715,39 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="sabotur2" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Saboteur 2: Avenging Angel (128K)</description>
+		<year>1987</year>
+		<manufacturer>Durell Software</manufacturer>
+		<rom name="Saboteur 2 - Avenging Angel 128K (1987)(Durell).z80" size="46992" crc="7aad77db"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sabotur2std_48" cloneof="sabotur2" romof="sabotur2" sourcefile="spectrum/d_spectrum.cpp">
+		<description>Saboteur 2: Avenging Angel (48K)</description>
+		<year>1987</year>
+		<manufacturer>Durell Software</manufacturer>
+		<rom name="Saboteur 2 - Avenging Angel 48K (1987)(Durell).z80" size="39605" crc="8904b9ba"/>
+		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sabotur2speed" cloneof="sabotur2" romof="sabotur2" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Hack</comment>
+		<description>Saboteur 2: Avenging Angel - Speed-up (128K) (Hack)</description>
+		<year>2015</year>
+		<manufacturer>Alex Rider</manufacturer>
+		<rom name="Saboteur 2 - Avenging Angel - Speed-up 128K (2015)(Alex Rider).tap" size="60290" crc="468098f8"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="saboterdc1" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Saboteur Deep Cover - part 1 (128K) (HB)</description>
+		<description>Saboteur Deep Cover - Part 1 (128K) (HB)</description>
 		<year>2022</year>
 		<manufacturer>Retro Fusion Annual 2022</manufacturer>
 		<rom name="Saboteur Deep Cover - part 1 128K (2022)(Retro Fusion Annual 2022).tap" size="103189" crc="affc02c5"/>
@@ -18695,51 +18758,12 @@
 	</game>
 	<game name="saboterdc2" cloneof="saboterdc1" romof="saboterdc1" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Saboteur Deep Cover - part 2 (128K) (HB)</description>
+		<description>Saboteur Deep Cover - Part 2 (128K) (HB)</description>
 		<year>2022</year>
 		<manufacturer>Retro Fusion Annual 2022</manufacturer>
 		<rom name="Saboteur Deep Cover - part 2 128K (2022)(Retro Fusion Annual 2022).tap" size="116482" crc="4723ffec"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sabotur2speed" cloneof="sabotur2" romof="sabotur2" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Hack</comment>
-		<description>Saboteur II - Avenging Angel (128K) (Speed-up Hack)</description>
-		<year>2015</year>
-		<manufacturer>Alex Rider</manufacturer>
-		<rom name="Saboteur 2 128K Speed-up (2015)(Alex Rider).tap" size="60290" crc="468098f8"/>
-		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
-		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sabotur2" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Saboteur II - Avenging Angel (128K)</description>
-		<year>1987</year>
-		<manufacturer>Durell Software</manufacturer>
-		<rom name="Saboteur II - Avenging Angel (1987)(Durell)(128k).z80" size="46992" crc="7aad77db"/>
-		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
-		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sabotur2std_48" cloneof="sabotur2" romof="sabotur2" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Saboteur II - Avenging Angel (48K)</description>
-		<year>1987</year>
-		<manufacturer>Durell Software</manufacturer>
-		<rom name="Saboteur II - Avenging Angel (1987)(Durell)(Standard).z80" size="39605" crc="8904b9ba"/>
-		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sabotur2_48" cloneof="sabotur2" romof="sabotur2" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Saboteur II - Avenging Angel (Trainer) (48K)</description>
-		<year>1987</year>
-		<manufacturer>Durell Software</manufacturer>
-		<rom name="Saboteur II - Avenging Angel (1987)(Durell).z80" size="43414" crc="4f0d8f73"/>
-		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -18984,6 +19008,17 @@
 		<manufacturer>Bitmap Soft</manufacturer>
 		<rom name="Savage Princess 48K (2020)(BitmapSoft).tap" size="41563" crc="6edbd594"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="savageprincess2" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Savage Princess 2 (128K) (HB)</description>
+		<year>2023</year>
+		<manufacturer>Bitmap Soft</manufacturer>
+		<rom name="Savage Princess 2 128K (2023)(Bitmap Soft).tap" size="48393" crc="d3e5e547"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -23407,6 +23442,17 @@
 		<manufacturer>Firebird Software</manufacturer>
 		<rom name="Virus 48K (1988)(Firebird).tap" size="42183" crc="7a2c590b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="vixenev" cloneof="vixen1" romof="vixen1" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Hack</comment>
+		<description>Vixen 'Enhanced Version' (128K) (Hack)</description>
+		<year>2024</year>
+		<manufacturer>Rafal Miazga</manufacturer>
+		<rom name="Vixen Enhanced Version 128K (2024)(Rafal Miazga).tap" size="42263" crc="4d018fae"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
