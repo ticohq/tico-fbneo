@@ -12088,7 +12088,7 @@
 		<description>Metal Slug 5 (Boss Battles, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1bs.p1" size="6291456" crc="4d2aa270"/>
+		<rom name="268-p1bs.p1" size="6291456" crc="c83346b3"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
@@ -12620,7 +12620,7 @@
 		<description>Metal Slug 5 (Legend, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1cq.p1" size="10485760" crc="7a1b3a62"/>
+		<rom name="268-p1cq.p1" size="10485760" crc="b40727bd"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
@@ -13149,9 +13149,9 @@
 	<game name="mslug5sg" cloneof="mslug5" romof="mslug5" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Hack</comment>
 		<description>Metal Slug 5 (Stone Turtle, Hack)</description>
-		<year>2023</year>
+		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1sg.p1" size="6291456" crc="1b6a6163"/>
+		<rom name="268-p1sg.p1" size="6291456" crc="30834216"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
@@ -34132,7 +34132,7 @@
 		<description>Voltage Fighter - Gowcaizer / Choujin Gakuen Gowcaizer (Eternal, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="094-p1et.p1" size="2097152" crc="0cb07b54"/>
+		<rom name="094-p1et.p1" size="2097152" crc="6d7bd206"/>
 		<rom name="094-s1.s1" merge="094-s1.s1" size="131072" crc="2f8748a2"/>
 		<rom name="094-c1.c1" merge="094-c1.c1" size="2097152" crc="042f6af5"/>
 		<rom name="094-c2.c2" merge="094-c2.c2" size="2097152" crc="0fbcd046"/>
