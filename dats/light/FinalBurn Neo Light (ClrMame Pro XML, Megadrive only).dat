@@ -2477,6 +2477,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="blkemsckem" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew</comment>
+		<description>Block'em Sock'em (HB)</description>
+		<year>2022</year>
+		<manufacturer>Second Dimension</manufacturer>
+		<rom name="Block'em Sock'em (2022)(2nd Dimension).bin" size="237312" crc="2f1a1655"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="blockb" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Blockbuster World Video Game Championship II (USA)</description>
 		<year>1995</year>
@@ -2514,7 +2523,7 @@
 		<comment>Homebrew</comment>
 		<description>Blow'em Out (HB)</description>
 		<year>2017</year>
-		<manufacturer>2nd Dimension</manufacturer>
+		<manufacturer>Second Dimension</manufacturer>
 		<rom name="Blow'em Out (2017)(2nd Dimension).bin" size="227136" crc="26f26c34"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -4714,7 +4723,7 @@
 		<comment>Homebrew</comment>
 		<description>Curse of Illmoore Bay, the (HB)</description>
 		<year>2021</year>
-		<manufacturer>2nd Dimension</manufacturer>
+		<manufacturer>Second Dimension</manufacturer>
 		<rom name="Curse of Illmoore Bay, the (2021)(2nd Dimension).bin" size="4189440" crc="7ad106c0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -6949,7 +6958,7 @@
 		<comment>Homebrew</comment>
 		<description>Eyra the Crow Maiden (HB)</description>
 		<year>2021</year>
-		<manufacturer>2nd Dimension</manufacturer>
+		<manufacturer>Second Dimension</manufacturer>
 		<rom name="Eyra the Crow Maiden (2021)(2nd Dimension).bin" size="2083840" crc="d48289e3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8690,7 +8699,7 @@
 		<comment>Homebrew</comment>
 		<description>Handy Harvy (HB)</description>
 		<year>2018</year>
-		<manufacturer>2nd Dimension</manufacturer>
+		<manufacturer>Second Dimension</manufacturer>
 		<rom name="Handy Harvy (2018)(2nd Dimension).bin" size="932864" crc="ceb61752"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -10369,7 +10378,7 @@
 		<comment>Homebrew, Copyright 2017 CMC</comment>
 		<description>Kromasphere (HB)</description>
 		<year>2019</year>
-		<manufacturer>2nd Dimension</manufacturer>
+		<manufacturer>Second Dimension</manufacturer>
 		<rom name="Kromasphere (2019)(2nd Dimension).bin" size="944886" crc="9dab89e3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -13844,10 +13853,19 @@
 	</game>
 	<game name="nhl2023" cloneof="nhl94" romof="nhl94" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
-		<description>NHL '94: 2023 Edition (Hack, v1.1)</description>
+		<description>NHL '94: 2023 Edition (Hack, v4.4)</description>
 		<year>2023</year>
 		<manufacturer>Adam Catalyst</manufacturer>
-		<rom name="NHL 94 - 2023 Edition hack v1.1 (2023)(Adam Catalyst).bin" size="2097152" crc="ee39cee0"/>
+		<rom name="NHL '94 - 2023 Edition v4.4 (2023)(Adam Catalyst).bin" size="2097152" crc="29d2dbcf"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="nhl2024" cloneof="nhl94" romof="nhl94" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>NHL '94: 2024 Edition (Hack, v2.5)</description>
+		<year>2024</year>
+		<manufacturer>Adam Catalyst</manufacturer>
+		<rom name="NHL '94 - 2024 Edition v2.5 (2024)(Adam Catalyst).bin" size="2097152" crc="479e7006"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -18588,6 +18606,15 @@
 		<year>2017</year>
 		<manufacturer>GameHut</manufacturer>
 		<rom name="Sonic 3D Blast  - Directors Cut.bin" size="4191682" crc="9767e840"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sonic3ddxp" cloneof="sonic3d" romof="sonic3d" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>Sonic 3D Blast DX Plus (Hack)</description>
+		<year>2024</year>
+		<manufacturer>OlivusPrime</manufacturer>
+		<rom name="Sonic 3D Blast DX Plus (2024)(OlivusPrime).bin" size="4191682" crc="f720f152"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

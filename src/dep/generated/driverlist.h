@@ -1951,6 +1951,7 @@ DRV		BurnDrvBlockout;
 DRV		BurnDrvBlckout2;
 DRV		BurnDrvnes_blockout;
 DRV		BurnDrvMSX_blpuzzle;
+DRV		BurnDrvmd_blkemsckem;
 DRV		BurnSpecBlkdizzy;
 DRV		BurnDrvMSX_blockrun;
 DRV		BurnDrvcv_blockrun;
@@ -6109,6 +6110,7 @@ DRV		BurnDrvnes_flea;
 DRV		BurnDrvnes_fleademo;
 DRV		BurnDrvFlicky;
 DRV		BurnDrvFlickya;
+DRV		BurnDrvFlickyb;
 DRV		BurnDrvFlickys2;
 DRV		BurnDrvFlickyg;
 DRV		BurnDrvFlickys2g;
@@ -6496,6 +6498,7 @@ DRV		BurnDrvGforce2;
 DRV		BurnDrvmd_gforce2s;
 DRV		BurnDrvmd_gforce2a;
 DRV		BurnDrvmd_gforce2;
+DRV		BurnDrvGalaxygnh;
 DRV		BurnDrvGalaxygn;
 DRV		BurnDrvGalwars2;
 DRV		BurnDrvGalaxyx;
@@ -11795,6 +11798,7 @@ DRV		BurnDrvmd_nhktaidr;
 DRV		BurnDrvpce_nhktaidr;
 DRV		BurnDrvmd_nhl94;
 DRV		BurnDrvmd_nhl2023;
+DRV		BurnDrvmd_nhl2024;
 DRV		BurnDrvmd_nhl95;
 DRV		BurnDrvmd_nhl96;
 DRV		BurnDrvmd_nhl97;
@@ -12785,6 +12789,7 @@ DRV		BurnSpecPhileasfogg;
 DRV		BurnDrvPhoenix;
 DRV		BurnDrvPhoenix2;
 DRV		BurnDrvPhoenixass;
+DRV		BurnDrvPhoenixbl;
 DRV		BurnDrvPhoenixa;
 DRV		BurnDrvPhoenixb;
 DRV		BurnDrvPhoenixdal;
@@ -13857,6 +13862,7 @@ DRV		BurnDrvRaiders5;
 DRV		BurnDrvRaiga;
 DRV		BurnDrvStratof;
 DRV		BurnDrvRchasej;
+DRV		BurnDrvRchasejb;
 DRV		BurnDrvRchase;
 DRV		BurnDrvRaimaisj;
 DRV		BurnDrvRaimaisjo;
@@ -14489,6 +14495,7 @@ DRV		BurnDrvRugrats;
 DRV		BurnDrvmd_rugbywc;
 DRV		BurnDrvRumba;
 DRV		BurnDrvRundeep;
+DRV		BurnDrvRunrun;
 DRV		BurnSpecrungaunt;
 DRV		BurnSpecRun;
 DRV		BurnDrvRunark;
@@ -15655,6 +15662,7 @@ DRV		BurnDrvmd_sonic3dp3;
 DRV		BurnDrvmd_sonic3dp2;
 DRV		BurnDrvmd_sonic3dp1;
 DRV		BurnDrvmd_sonic3ddx;
+DRV		BurnDrvmd_sonic3ddxp;
 DRV		BurnDrvgg_sonictls;
 DRV		BurnDrvgg_sonictlss;
 DRV		BurnDrvgg_sonictl2;
@@ -19745,6 +19753,7 @@ DRV		BurnDrvMSX_whopper;
 DRV		BurnDrvnes_widget;
 DRV		BurnDrvWiggie;
 DRV		BurnDrvMSX_wildcat;
+DRV		BurnDrvWildfangh;
 DRV		BurnDrvWildfang;
 DRV		BurnDrvWildfangs;
 DRV		BurnDrvnes_wildgunman;
@@ -22638,6 +22647,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvBlckout2,			// Block Out (set 2)
 	&BurnDrvnes_blockout,		// Block Out (USA)
 	&BurnDrvMSX_blpuzzle,		// Block Puzzle (HB, v1.2)
+	&BurnDrvmd_blkemsckem,		// Block'em Sock'em (HB)
 	&BurnSpecBlkdizzy,			// Block-Dizzy (48K)
 	&BurnDrvMSX_blockrun,		// Blockade Runner (Japan)
 	&BurnDrvcv_blockrun,		// Blockade Runner
@@ -26795,7 +26805,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_flea,			// FLEA! (HB)
 	&BurnDrvnes_fleademo,		// FLEA! Demo (HB)
 	&BurnDrvFlicky,				// Flicky (128k Version, 315-5051)
-	&BurnDrvFlickya,			// Flicky (128k Version, 315-5051, larger roms)
+	&BurnDrvFlickya,			// Flicky (128k Version, 315-5051, larger ROMs)
+	&BurnDrvFlickyb,			// Flicky (128k Version, 315-5051, larger ROMs, newer)
 	&BurnDrvFlickys2,			// Flicky (128k Version, not encrypted)
 	&BurnDrvFlickyg,			// Flicky (128k Version, System 2, 315-5051, alt graphics)
 	&BurnDrvFlickys2g,			// Flicky (128k Version, System 2, not encrypted, alt graphics)
@@ -27183,6 +27194,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_gforce2s,		// Galaxy Force II (Hack, Spanish)
 	&BurnDrvmd_gforce2a,		// Galaxy Force II (World)
 	&BurnDrvmd_gforce2,			// Galaxy Force II (World, Rev. B)
+	&BurnDrvGalaxygnh,			// Galaxy Gunners (1990 year hack)
 	&BurnDrvGalaxygn,			// Galaxy Gunners
 	&BurnDrvGalwars2,			// Galaxy Wars II (bootleg of Defender)
 	&BurnDrvGalaxyx,			// Galaxy X (bootleg of Galaxian)
@@ -31405,7 +31417,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_mmprtmp3,		// Mighty Morphin Power Rangers - The Movie (USA, Prototype, 19950717)
 	&BurnDrvmd_mmprtmp2,		// Mighty Morphin Power Rangers - The Movie (USA, Prototype, 19950722)
 	&BurnDrvmd_mmprtmp1,		// Mighty Morphin Power Rangers - The Movie (USA, Prototype, 19950724)
-	&BurnDrvMwarr,				// Mighty Warriors
+	&BurnDrvMwarr,				// Mighty Warriors (24/1)
 	&BurnDrvCpsMPangr1,			// Mighty! Pang (000925 Euro)
 	&BurnDrvCpsMPanga,			// Mighty! Pang (001010 Asia)
 	&BurnDrvCpsMPang,			// Mighty! Pang (001010 Euro)
@@ -32481,7 +32493,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_nhktaidr,		// NHK Taiga Drama - Taiheiki (Japan)
 	&BurnDrvpce_nhktaidr,		// NHK Taiga Drama - Taiheiki (Japan)
 	&BurnDrvmd_nhl94,			// NHL '94 (Euro, USA)
-	&BurnDrvmd_nhl2023,			// NHL '94: 2023 Edition (Hack, v1.1)
+	&BurnDrvmd_nhl2023,			// NHL '94: 2023 Edition (Hack, v4.4)
+	&BurnDrvmd_nhl2024,			// NHL '94: 2024 Edition (Hack, v2.5)
 	&BurnDrvmd_nhl95,			// NHL 95 (Euro, USA)
 	&BurnDrvmd_nhl96,			// NHL 96 (Euro, USA)
 	&BurnDrvmd_nhl97,			// NHL 97 (Euro, USA)
@@ -33472,6 +33485,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvPhoenix,			// Phoenix (Amstar, set 1)
 	&BurnDrvPhoenix2,			// Phoenix (Amstar, set 2)
 	&BurnDrvPhoenixass,			// Phoenix (Assa, Spanish bootleg)
+	&BurnDrvPhoenixbl,			// Phoenix (bootleg)
 	&BurnDrvPhoenixa,			// Phoenix (Centuri, set 1)
 	&BurnDrvPhoenixb,			// Phoenix (Centuri, set 2)
 	&BurnDrvPhoenixdal,			// Phoenix (D&L bootleg)
@@ -34544,6 +34558,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvRaiga,				// Raiga - Strato Fighter (Japan)
 	&BurnDrvStratof,			// Raiga - Strato Fighter (US)
 	&BurnDrvRchasej,			// Rail Chase (Japan)
+	&BurnDrvRchasejb,			// Rail Chase (Japan, Rev B)
 	&BurnDrvRchase,				// Rail Chase (World)
 	&BurnDrvRaimaisj,			// Raimais (Japan)
 	&BurnDrvRaimaisjo,			// Raimais (Japan, first revision)
@@ -35176,6 +35191,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_rugbywc,			// Rugby World Cup 1995 (Euro, USA)
 	&BurnDrvRumba,				// Rumba Lumber
 	&BurnDrvRundeep,			// Run Deep
+	&BurnDrvRunrun,				// Run Run (Do! Run Run bootleg)
 	&BurnSpecrungaunt,			// Run the Gauntlet (128K)
 	&BurnSpecRun,				// Run! (128K) (HB)
 	&BurnDrvRunark,				// Runark (Japan)
@@ -36342,6 +36358,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_sonic3dp2,		// Sonic 3D Blast (Prototype 94, 19960904, 12.01)
 	&BurnDrvmd_sonic3dp1,		// Sonic 3D Blast (USA, Prototype)
 	&BurnDrvmd_sonic3ddx,		// Sonic 3D Blast Director's Cut (Hack)
+	&BurnDrvmd_sonic3ddxp,		// Sonic 3D Blast DX Plus (Hack)
 	&BurnDrvgg_sonictls,		// Sonic and Tails (Japan)
 	&BurnDrvgg_sonictlss,		// Sonic and Tails (Japan, Jitsuenyou Sample)
 	&BurnDrvgg_sonictl2,		// Sonic and Tails 2 (Japan)
@@ -40432,6 +40449,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_widget,			// Widget (USA)
 	&BurnDrvWiggie,				// Wiggie Waggie
 	&BurnDrvMSX_wildcat,		// Wild Cat (Japan)
+	&BurnDrvWildfangh,			// Wild Fang (year hack?)
 	&BurnDrvWildfang,			// Wild Fang / Tecmo Knight
 	&BurnDrvWildfangs,			// Wild Fang
 	&BurnDrvnes_wildgunman,		// Wild Gunman (World) (Rev A)
@@ -43315,6 +43333,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "blockout2", "pre90s/d_blockout.cpp"},
 	{ "nes_blockout", "nes/d_nes.cpp"},
 	{ "msx_blpuzzle", "msx/d_msx.cpp"},
+	{ "md_blkemsckem", "megadrive/d_megadrive.cpp"},
 	{ "spec_blkdizzy", "spectrum/d_spectrum.cpp"},
 	{ "msx_blockrun", "msx/d_msx.cpp"},
 	{ "cv_blockrun", "coleco/d_coleco.cpp"},
@@ -47433,6 +47452,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_fleademo", "nes/d_nes.cpp"},
 	{ "flicky", "sega/d_sys1.cpp"},
 	{ "flickya", "sega/d_sys1.cpp"},
+	{ "flickyb", "sega/d_sys1.cpp"},
 	{ "flickys2", "sega/d_sys1.cpp"},
 	{ "flickyg", "sega/d_sys1.cpp"},
 	{ "flickys2g", "sega/d_sys1.cpp"},
@@ -47816,6 +47836,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_gforce2s", "megadrive/d_megadrive.cpp"},
 	{ "md_gforce2a", "megadrive/d_megadrive.cpp"},
 	{ "md_gforce2", "megadrive/d_megadrive.cpp"},
+	{ "galaxygnh", "pre90s/d_fantland.cpp"},
 	{ "galaxygn", "pre90s/d_fantland.cpp"},
 	{ "galwars2", "pre90s/d_williams.cpp"},
 	{ "galaxyx", "galaxian/d_galaxian.cpp"},
@@ -53061,6 +53082,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "pce_nhktaidr", "pce/d_pce.cpp"},
 	{ "md_nhl94", "megadrive/d_megadrive.cpp"},
 	{ "md_nhl2023", "megadrive/d_megadrive.cpp"},
+	{ "md_nhl2024", "megadrive/d_megadrive.cpp"},
 	{ "md_nhl95", "megadrive/d_megadrive.cpp"},
 	{ "md_nhl96", "megadrive/d_megadrive.cpp"},
 	{ "md_nhl97", "megadrive/d_megadrive.cpp"},
@@ -54043,6 +54065,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "phoenix", "pre90s/d_phoenix.cpp"},
 	{ "phoenix2", "pre90s/d_phoenix.cpp"},
 	{ "phoenixass", "pre90s/d_phoenix.cpp"},
+	{ "phoenixbl", "pre90s/d_phoenix.cpp"},
 	{ "phoenixa", "pre90s/d_phoenix.cpp"},
 	{ "phoenixb", "pre90s/d_phoenix.cpp"},
 	{ "phoenixdal", "pre90s/d_phoenix.cpp"},
@@ -55107,6 +55130,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "raiga", "pst90s/d_gaiden.cpp"},
 	{ "stratof", "pst90s/d_gaiden.cpp"},
 	{ "rchasej", "sega/d_ybrd.cpp"},
+	{ "rchasejb", "sega/d_ybrd.cpp"},
 	{ "rchase", "sega/d_ybrd.cpp"},
 	{ "raimaisj", "taito/d_taitol.cpp"},
 	{ "raimaisjo", "taito/d_taitol.cpp"},
@@ -55735,6 +55759,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_rugbywc", "megadrive/d_megadrive.cpp"},
 	{ "rumba", "taito/d_flstory.cpp"},
 	{ "rundeep", "pre90s/d_thedeep.cpp"},
+	{ "runrun", "pre90s/d_docastle.cpp"},
 	{ "spec_rungaunt", "spectrum/d_spectrum.cpp"},
 	{ "spec_run", "spectrum/d_spectrum.cpp"},
 	{ "runark", "taito/d_taitof2.cpp"},
@@ -56885,6 +56910,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_sonic3dp2", "megadrive/d_megadrive.cpp"},
 	{ "md_sonic3dp1", "megadrive/d_megadrive.cpp"},
 	{ "md_sonic3ddx", "megadrive/d_megadrive.cpp"},
+	{ "md_sonic3ddxp", "megadrive/d_megadrive.cpp"},
 	{ "gg_sonictls", "sms/d_sms.cpp"},
 	{ "gg_sonictlss", "sms/d_sms.cpp"},
 	{ "gg_sonictl2", "sms/d_sms.cpp"},
@@ -60921,6 +60947,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_widget", "nes/d_nes.cpp"},
 	{ "wiggie", "pst90s/d_seta.cpp"},
 	{ "msx_wildcat", "msx/d_msx.cpp"},
+	{ "wildfangh", "pst90s/d_gaiden.cpp"},
 	{ "wildfang", "pst90s/d_gaiden.cpp"},
 	{ "wildfangs", "pst90s/d_gaiden.cpp"},
 	{ "nes_wildgunman", "nes/d_nes.cpp"},
