@@ -2822,6 +2822,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="mainursegg" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Mai Nurse (HB)</description>
+		<year>2024</year>
+		<manufacturer>Lunoka</manufacturer>
+		<rom name="Mai Nurse (2024)(Lunoka).gg" size="131072" crc="36a2da11"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="majors" sourcefile="sms/d_sms.cpp">
 		<comment>Game doesn't work</comment>
 		<description>Majors Pro Baseball, The (USA)</description>
@@ -5732,6 +5741,15 @@
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="surf ninjas (usa).bin" size="524288" crc="284482a8"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sushinightsgg" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Sushi Nights (HB, v1.01)</description>
+		<year>2021-24</year>
+		<manufacturer>MONIS GAMES</manufacturer>
+		<rom name="Sushi Nights v1.01 (2021-24)(MONIS GAMES).gg" size="131072" crc="bdc4c3c9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

@@ -789,6 +789,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bombjackr" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Bomb Jack Remake (HB)</description>
+		<year>2024</year>
+		<manufacturer>MikGames</manufacturer>
+		<rom name="Bomb Jack Remake (2024)(MikGames).sms" size="98304" crc="ec3b0ff2"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bombraid" sourcefile="sms/d_sms.cpp">
 		<description>Bomber Raid (World)</description>
 		<year>1989</year>
@@ -1173,6 +1182,15 @@
 		<year>1993</year>
 		<manufacturer>Codemasters</manufacturer>
 		<rom name="cosmic spacehead (europe) (en,fr,de,es).bin" size="262144" crc="29822980"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="crazypinball" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Crazy Pinball (HB)</description>
+		<year>2024</year>
+		<manufacturer>MikGames</manufacturer>
+		<rom name="Crazy Pinball (2024)(MikGames).sms" size="262144" crc="972d6a6f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2169,6 +2187,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="gkrescue" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Goblin Kart Rescue (HB, v0.9.8)</description>
+		<year>2024</year>
+		<manufacturer>raphnet</manufacturer>
+		<rom name="Goblin Kart Rescue v0.9.8 (2024)(raphnet).sms" size="458752" crc="cc782e28"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="dumpmats" cloneof="prowres" romof="prowres" sourcefile="sms/d_sms.cpp">
 		<description>Gokuaku Doumei Dump Matsumoto (Japan)</description>
 		<year>1986</year>
@@ -2273,10 +2300,10 @@
 	</game>
 	<game name="grailgods" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Grail of The Gods (HB, v0.46)</description>
-		<year>2023</year>
+		<description>Grail of The Gods (HB, v0.47)</description>
+		<year>2023-24</year>
 		<manufacturer>Guydebaville</manufacturer>
-		<rom name="Grail of The Gods v0.46 (2023)(Guydebaville).sms" size="65536" crc="8bf946b5"/>
+		<rom name="Grail of The Gods v0.47 (2023-24)(Guydebaville).sms" size="65536" crc="c1f4206f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3097,6 +3124,15 @@
 		<year>2023</year>
 		<manufacturer>Under4Mhz</manufacturer>
 		<rom name="Mahjong Solitaire v1.16 (2023)(Under4Mhz).sms" size="32768" crc="d4dc268e"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mainurse" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Mai Nurse (HB)</description>
+		<year>2024</year>
+		<manufacturer>Lunoka</manufacturer>
+		<rom name="Mai Nurse (2024)(Lunoka).sms" size="131072" crc="6b974d30"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4450,7 +4486,7 @@
 		<comment>Homebrew</comment>
 		<description>SKBN (HB, v1.3)</description>
 		<year>2021</year>
-		<manufacturer>Raphael Assenat</manufacturer>
+		<manufacturer>raphnet</manufacturer>
 		<rom name="SKBN v1.3 (2021)(raphnet).sms" size="131072" crc="1d811c2a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -4926,6 +4962,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="stygianquest" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Stygian Quest (HB)</description>
+		<year>2024</year>
+		<manufacturer>Naarshakta</manufacturer>
+		<rom name="Stygian Quest (2024)(Naarshakta).sms" size="573440" crc="3ac7a0c4"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="subrescue" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
 		<description>Sub Rescue (HB, v0.3)</description>
@@ -5180,6 +5225,15 @@
 		<year>1993</year>
 		<manufacturer>Virgin Interactive</manufacturer>
 		<rom name="mpr-15506.ic1" size="262144" crc="6f9ac98f"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sushinights" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Sushi Nights (HB, v1.03)</description>
+		<year>2021-24</year>
+		<manufacturer>MONIS GAMES</manufacturer>
+		<rom name="Sushi Nights v1.03 (2021-24)(MONIS GAMES).sms" size="131072" crc="2c03bb6e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
