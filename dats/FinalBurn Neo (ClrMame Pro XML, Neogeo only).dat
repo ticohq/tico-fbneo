@@ -3650,9 +3650,9 @@
 	</game>
 	<game name="cyborgforce" romof="neogeo" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Homebrew</comment>
-		<description>Cyborg Force</description>
+		<description>Cyborg Force!</description>
 		<year>2023</year>
-		<manufacturer>Neo Byte Force Ltd.</manufacturer>
+		<manufacturer>NEO.BYTE.FORCE</manufacturer>
 		<rom name="cyborg-p1.bin" size="1048576" crc="89e1c728"/>
 		<rom name="cyborg-p2.bin" size="3145728" crc="e4a8b27a"/>
 		<rom name="cyborg-s1.bin" size="131072" crc="5bd29810"/>
@@ -8915,7 +8915,7 @@
 		<description>Metal Slug - Super Vehicle-001 (Origins, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="201-p1qy.p1" size="1048576" crc="a054f7ba"/>
+		<rom name="201-p1qy.p1" size="1048576" crc="16068dc1"/>
 		<rom name="201-p2dg.sp2" size="1048576" crc="c3cb544c"/>
 		<rom name="201-s1.s1" merge="201-s1.s1" size="131072" crc="2f55958d"/>
 		<rom name="201-c1.c1" merge="201-c1.c1" size="4194304" crc="72813676"/>
@@ -12142,7 +12142,7 @@
 		<description>Metal Slug 5 (Boss Battles, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1bs.p1" size="6291456" crc="0e3615dc"/>
+		<rom name="268-p1bs.p1" size="6291456" crc="6ec9bb7e"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
@@ -13205,7 +13205,7 @@
 		<description>Metal Slug 5 (Stone Turtle, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1sg.p1" size="6291456" crc="ceada390"/>
+		<rom name="268-p1sg.p1" size="6291456" crc="b6cb640e"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
@@ -30049,8 +30049,8 @@
 		<description>The King of Fighters 2001 (Ultimate, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="262-p1ult.p1" size="1048576" crc="30a082d1"/>
-		<rom name="262-p2ult.sp2" size="5242880" crc="569e8cee"/>
+		<rom name="262-p1ult.p1" size="1048576" crc="3ca57684"/>
+		<rom name="262-p2ult.sp2" size="5242880" crc="a2466d70"/>
 		<rom name="262-s1ult.s1" size="131072" crc="e8cb20be"/>
 		<rom name="262-c1ult.c1" size="8388608" crc="4484a3c7"/>
 		<rom name="262-c2ult.c2" size="8388608" crc="bbcfb1dc"/>
@@ -30064,8 +30064,8 @@
 		<rom name="262-c10ult.c10" size="8388608" crc="457c7faf"/>
 		<rom name="265-c7d.c7" size="8388608" crc="8a5b561c"/>
 		<rom name="265-c8d.c8" size="8388608" crc="bef667a3"/>
-		<rom name="262-c13ult.c13" size="8388608" crc="40f7bd65"/>
-		<rom name="262-c14ult.c14" size="8388608" crc="2471c450"/>
+		<rom name="262-c13ult.c13" size="8388608" crc="0b316a58"/>
+		<rom name="262-c14ult.c14" size="8388608" crc="648e620b"/>
 		<rom name="262-m1ult.m1" size="131072" crc="e5dbafad"/>
 		<rom name="262-v1-08-e0.v1" merge="262-v1-08-e0.v1" size="4194304" crc="83d49ecf"/>
 		<rom name="262-v2-08-e0.v2" merge="262-v2-08-e0.v2" size="4194304" crc="003f1843"/>
@@ -34186,7 +34186,7 @@
 		<description>Voltage Fighter - Gowcaizer / Choujin Gakuen Gowcaizer (Eternal, Hack)</description>
 		<year>2024</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="094-p1et.p1" size="2097152" crc="6d7bd206"/>
+		<rom name="094-p1et.p1" size="2097152" crc="fe5df757"/>
 		<rom name="094-s1.s1" merge="094-s1.s1" size="131072" crc="2f8748a2"/>
 		<rom name="094-c1.c1" merge="094-c1.c1" size="2097152" crc="042f6af5"/>
 		<rom name="094-c2.c2" merge="094-c2.c2" size="2097152" crc="0fbcd046"/>

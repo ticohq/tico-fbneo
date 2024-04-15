@@ -7135,6 +7135,18 @@
 		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="godzillaballs" romof="msx" sourcefile="msx/d_msx.cpp">
+		<comment>Homebrew</comment>
+		<description>Godzilla Balls (HB)</description>
+		<year>2024</year>
+		<manufacturer>Paxanga Soft</manufacturer>
+		<rom name="Godzilla Balls (2024)(Paxanga Software).rom" size="65536" crc="8c3e2b27"/>
+		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
+		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
+		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
+		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="godzikun" romof="msx" sourcefile="msx/d_msx.cpp">
 		<description>Godzilla-kun (Japan)</description>
 		<year>1985</year>
@@ -7218,7 +7230,7 @@
 		<comment>Homebrew</comment>
 		<description>Gommy - Medieval Defender (English) (HB)</description>
 		<year>2013</year>
-		<manufacturer>Retroworks/Dimension Z/Nenefranz</manufacturer>
+		<manufacturer>Retroworks, Dimension Z, Nenefranz</manufacturer>
 		<rom name="Gommy - Medieval Defender EN (2013)(Retroworks).rom" size="16384" crc="66b27261"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
@@ -7230,7 +7242,7 @@
 		<comment>Homebrew</comment>
 		<description>Gommy - Medieval Defender (Spanish) (HB)</description>
 		<year>2013</year>
-		<manufacturer>Retroworks/Dimension Z/Nenefranz</manufacturer>
+		<manufacturer>Retroworks, Dimension Z, Nenefranz</manufacturer>
 		<rom name="Gommy - Medieval Defender ES (2013)(Retroworks).rom" size="16384" crc="cb628d7a"/>
 		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
 		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>

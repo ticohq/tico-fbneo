@@ -2574,6 +2574,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bigotudo" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, S+O/S+P: select an item from inventory - ENTER: using an item</comment>
+		<description>Bigotudo, El (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Red Triangle</manufacturer>
+		<rom name="Bigotudo, El 128K (2024)(Red Triangle).tap" size="55771" crc="17e546ce"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bilnighten" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Billie Night (English) (48K) (HB, v1.1)</description>
@@ -4189,6 +4200,17 @@
 		<manufacturer>Atlantis Software</manufacturer>
 		<rom name="Cerius 48K (1988)(Atlantis Software).tap" size="56277" crc="b5a41733"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="cesarets" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Cesare The Somnambule (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Team Moritz</manufacturer>
+		<rom name="Cesare The Somnambule 128K (2024)(Team Moritz).tap" size="123918" crc="b4c3289e"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7169,6 +7191,16 @@
 		<year>1991</year>
 		<manufacturer>Atlantis Software</manufacturer>
 		<rom name="Downtown 48K (1991)(Atlantis Software).tap" size="48188" crc="cfbbf2fb"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="dracula" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Dr.Acula (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Colin Stewart</manufacturer>
+		<rom name="Dr.Acula 48K (2024)(Colin Stewart).tap" size="46666" crc="c14a4558"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -14407,6 +14439,26 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="moneymouse1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Money Mouse in Full Barn House - Ep. 1 (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>KTB Productions</manufacturer>
+		<rom name="Money Mouse in Full Barn House - Ep 1 48K (2024)(KTB Productions).tap" size="73790" crc="26193881"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="moneymouse2" cloneof="moneymouse1" romof="moneymouse1" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Money Mouse in Full Barn House - Ep. 2 (48K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>KTB Productions</manufacturer>
+		<rom name="Money Mouse in Full Barn House - Ep 2 48K (2024)(KTB Productions).tap" size="64409" crc="14ffff53"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="monkeyj" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Monkey J - The Treasure Of The Gold Temple (128K) (HB)</description>
@@ -16377,6 +16429,27 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="pengatk128" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Penguin Attack (128K) (HB, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>Pat Morita Team</manufacturer>
+		<rom name="Penguin Attack v1.1 128K (2024)(Pat Morita Team).tap" size="56487" crc="b4b5626a"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="pengatk48" cloneof="pengatk128" romof="pengatk128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Penguin Attack (48K) (HB, v1.0)</description>
+		<year>2024</year>
+		<manufacturer>Pat Morita Team</manufacturer>
+		<rom name="Penguin Attack v1.0 48K (2024)(Pat Morita Team).tap" size="44423" crc="455ddf3d"/>
+		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="pentacornen" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Pentacorn Quest (English) (128K) (HB)</description>
@@ -16404,6 +16477,16 @@
 		<year>1986</year>
 		<manufacturer>Ultimate</manufacturer>
 		<rom name="Pentagram 48K (1986)(Ultimate).tap" size="38524" crc="4d43b15a"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="peplum" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Peplum (48K) (HB)</description>
+		<year>2019</year>
+		<manufacturer>Sequentia Soft</manufacturer>
+		<rom name="Peplum 48K (2019)(Sequentia Soft).tap" size="35094" crc="2e96abff"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -19412,6 +19495,17 @@
 		<year>1991</year>
 		<manufacturer>Zeppelin Games</manufacturer>
 		<rom name="Sharkey's Moll 128K (1991)(Zeppelin Games).tap" size="44068" crc="c831bf3f"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sheepish" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Sheepish (128K) (HB)</description>
+		<year>2024</year>
+		<manufacturer>Gabriele Amore</manufacturer>
+		<rom name="Sheepish 128K (2024)(Gabriele Amore).tap" size="56786" crc="86b831eb"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
