@@ -20298,11 +20298,11 @@ DRV		BurnDrvCpsXmcotar1;
 DRV		BurnDrvCpsXmcota;
 DRV		BurnDrvCpsXmcotahr1;
 DRV		BurnDrvCpsXmcotah;
+DRV		BurnDrvCpsXmcotajr;
 DRV		BurnDrvCpsXmcotaj3;
 DRV		BurnDrvCpsXmcotaj2;
 DRV		BurnDrvCpsXmcotaj1;
 DRV		BurnDrvCpsXmcotaj;
-DRV		BurnDrvCpsXmcotajr;
 DRV		BurnDrvCpsXmcotau;
 DRV		BurnDrvmd_xpertsp;
 DRV		BurnDrvmd_xperts;
@@ -21702,9 +21702,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsArmwarar1,		// Armored Warriors (Asia 940920)
 	&BurnDrvCpsArmwara,			// Armored Warriors (Asia 941024)
 	&BurnDrvCpsArmwarb,			// Armored Warriors (Brazil 941024)
-	&BurnDrvCpsArmwar1d,		// Armored Warriors (Europe 941011 Phoenix Edition) (bootleg)
-	&BurnDrvCpsArmwarr1,		// Armored Warriors (Europe 941011)
-	&BurnDrvCpsArmwar,			// Armored Warriors (Europe 941024)
+	&BurnDrvCpsArmwar1d,		// Armored Warriors (Euro 941011 Phoenix Edition) (bootleg)
+	&BurnDrvCpsArmwarr1,		// Armored Warriors (Euro 941011)
+	&BurnDrvCpsArmwar,			// Armored Warriors (Euro 941024)
 	&BurnDrvCpsArmwaru1,		// Armored Warriors (USA 940920)
 	&BurnDrvCpsArmwaru,			// Armored Warriors (USA 941024)
 	&BurnSpecarmymvs128,		// Army Moves (128K)
@@ -35138,7 +35138,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_rockmanfix,		// Rockman Mega World Fixer Upper (Hack, v1.0.5)
 	&BurnDrvmd_rockmnx3,		// Rockman X3 (Taiwan) (Unl)
 	&BurnDrvCpsRockmanj,		// Rockman: The Power Battle (CPS1, Japan 950922)
-	&BurnDrvCpsRmancp2j,		// Rockman: The Power Battle (Japan 950922)
+	&BurnDrvCpsRmancp2j,		// Rockman: The Power Battle (CPS2, Japan 950922)
 	&BurnSpecRocky,				// Rocky (48K)
 	&BurnDrvMSX_rocky,			// Rocky (Euro, Spanish)
 	&BurnDrvsms_rocky,			// Rocky (World)
@@ -41032,11 +41032,11 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsXmcota,			// X-Men: Children of the Atom (Euro 950331)
 	&BurnDrvCpsXmcotahr1,		// X-Men: Children of the Atom (Hispanic 950105)
 	&BurnDrvCpsXmcotah,			// X-Men: Children of the Atom (Hispanic 950331)
+	&BurnDrvCpsXmcotajr,		// X-Men: Children of the Atom (Japan 941208 rent version)
 	&BurnDrvCpsXmcotaj3,		// X-Men: Children of the Atom (Japan 941217)
 	&BurnDrvCpsXmcotaj2,		// X-Men: Children of the Atom (Japan 941219)
 	&BurnDrvCpsXmcotaj1,		// X-Men: Children of the Atom (Japan 941222)
 	&BurnDrvCpsXmcotaj,			// X-Men: Children of the Atom (Japan 950105)
-	&BurnDrvCpsXmcotajr,		// X-Men: Children of the Atom (Japan, rent version 941208)
 	&BurnDrvCpsXmcotau,			// X-Men: Children of the Atom (USA 950105)
 	&BurnDrvmd_xpertsp,			// X-perts (Prototype)
 	&BurnDrvmd_xperts,			// X-perts (USA)
@@ -61562,11 +61562,11 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "xmcota", "capcom/d_cps2.cpp"},
 	{ "xmcotahr1", "capcom/d_cps2.cpp"},
 	{ "xmcotah", "capcom/d_cps2.cpp"},
+	{ "xmcotajr", "capcom/d_cps2.cpp"},
 	{ "xmcotaj3", "capcom/d_cps2.cpp"},
 	{ "xmcotaj2", "capcom/d_cps2.cpp"},
 	{ "xmcotaj1", "capcom/d_cps2.cpp"},
 	{ "xmcotaj", "capcom/d_cps2.cpp"},
-	{ "xmcotajr", "capcom/d_cps2.cpp"},
 	{ "xmcotau", "capcom/d_cps2.cpp"},
 	{ "md_xpertsp", "megadrive/d_megadrive.cpp"},
 	{ "md_xperts", "megadrive/d_megadrive.cpp"},
