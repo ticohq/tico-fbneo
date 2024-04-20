@@ -1728,7 +1728,8 @@ static void mystwarr_tile_callback(INT32 layer, INT32 *code, INT32 *color, INT32
 		else if ((*code & 0xff00) + (*color) == 0xFC05) superblend++; // part 5.
 		else if ((*code & 0xff00) + (*color) == 0xD001) superblend++; // Title Screen
 		else if ((*code & 0xff00) + (*color) == 0xC700) superblendoff++; // End Boss death scene (anti superblend)
-
+		else if ((*code & 0xff00) + (*color) == 0x8910) superblendoff++; // Skull Boss, pink background layer
+		//extern int counter;
 		//if (counter) bprintf(0, _T("%X %X (%X), "), *code, *color, (*code & 0xff00) + (*color)); /* save this! -dink */
 	}
 	*color = layer_colorbase[layer] | ((*color >> 1) & 0x1e);
@@ -1761,7 +1762,7 @@ static void mystwarr_sprite_callback(INT32 */*code*/, INT32 *color, INT32 *prior
 {
 	INT32 c = *color;
 	*color = sprite_colorbase | (c & 0x001f);
-	*priority = c & 0x00f0;
+	*priority = c & 0x00e0; // was 0xf0, but that broke tv's @ endboss
 }
 
 static void metamrph_sprite_callback(INT32 *code, INT32 *color, INT32 *priority)
@@ -2062,7 +2063,7 @@ static INT32 MystwarrInit()
 	K056832SetLayerOffsets(2,  2-3, 0);
 	K056832SetLayerOffsets(3,  3-3, 0);
 
-	K053247Init(DrvGfxROM1, DrvGfxROMExp1, 0x7fffff, mystwarr_sprite_callback, 3);
+	K053247Init(DrvGfxROM1, DrvGfxROMExp1, 0x7fffff, mystwarr_sprite_callback, 1);
 	K053247SetSpriteOffset(-25-48, -15-24);
 	K053247SetBpp(5);
 
@@ -2867,7 +2868,7 @@ static INT32 DrvDraw()
 
 			superblendoff = 0; // frame-based.
 		}
-
+//		bprintf(0, _T("blend  %x\n"), blendmode);
 		sprite_colorbase = K055555GetPaletteIndex(4)<<5;
 	}
 
