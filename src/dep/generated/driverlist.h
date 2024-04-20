@@ -120,6 +120,7 @@ DRV		BurnDrvcv_2010p1;
 DRV		BurnDrvcv_2010p;
 DRV		BurnDrvcv_2010;
 DRV		BurnDrvmd_2020bb;
+DRV		BurnDrvBb2020cd;
 DRV		BurnDrvBb2020;
 DRV		BurnDrvBba2020;
 DRV		BurnDrvBbh2020;
@@ -232,6 +233,7 @@ DRV		BurnSpecabusimpr;
 DRV		BurnDrvMSX_abusimbel;
 DRV		BurnSpecabusimprd;
 DRV		BurnDrvmd_abyssal;
+DRV		BurnDrvAbyssali;
 DRV		BurnSpecAce;
 DRV		BurnSpecAce2;
 DRV		BurnSpecAce2088;
@@ -9975,6 +9977,7 @@ DRV		BurnDrvGunhohki;
 DRV		BurnDrvnes_minkymomo;
 DRV		BurnDrvnes_minkymomoj;
 DRV		BurnDrvgg_mainursegg;
+DRV		BurnDrvpce_mainurse;
 DRV		BurnDrvsms_mainurse;
 DRV		BurnSpecMaincourse;
 DRV		BurnDrvMainsnk;
@@ -10476,10 +10479,11 @@ DRV		BurnDrvngpc_mslug2ndd;
 DRV		BurnDrvngpc_mslug2nd;
 DRV		BurnDrvMslug1v2;
 DRV		BurnDrvMslugfs;
+DRV		BurnDrvMslugdg;
+DRV		BurnDrvMsqyfc1;
+DRV		BurnDrvMslugqy;
 DRV		BurnDrvMslugfc2;
 DRV		BurnDrvMslugfc1;
-DRV		BurnDrvMslugdg;
-DRV		BurnDrvMslugqy;
 DRV		BurnDrvMslug;
 DRV		BurnDrvMs21v2;
 DRV		BurnDrvMslug2r;
@@ -20854,6 +20858,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_2010p,			// 2010: The Graphic Action Game (Prototype v54)
 	&BurnDrvcv_2010,			// 2010: The Graphic Action Game
 	&BurnDrvmd_2020bb,			// 2020 Super Baseball (Euro, USA)
+	&BurnDrvBb2020cd,			// 2020 Super Baseball (Neo CD conversion)
 	&BurnDrvBb2020,				// 2020 Super Baseball (set 1)
 	&BurnDrvBba2020,			// 2020 Super Baseball (set 2)
 	&BurnDrvBbh2020,			// 2020 Super Baseball (set 3)
@@ -20966,6 +20971,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_abusimbel,		// Abu Simbel Profanation (Euro, Spanish)
 	&BurnSpecabusimprd,			// Abu Simbel Profanation (Spanish) (48K)
 	&BurnDrvmd_abyssal,			// Abyssal Infants (HB)
+	&BurnDrvAbyssali,			// Abyssal Infants
 	&BurnSpecAce,				// ACE - Air Combat Emulator (48K)
 	&BurnSpecAce2,				// ACE 2 - The Ultimate Head to Head Conflict (128K)
 	&BurnSpecAce2088,			// ACE 2088 (128K)
@@ -30709,6 +30715,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_minkymomo,		// Mahou no Princess Minky Momo - Remember Dream (Hack, English)
 	&BurnDrvnes_minkymomoj,		// Mahou no Princess Minky Momo - Remember Dream (Japan)
 	&BurnDrvgg_mainursegg,		// Mai Nurse (HB)
+	&BurnDrvpce_mainurse,		// Mai Nurse (HB)
 	&BurnDrvsms_mainurse,		// Mai Nurse (HB)
 	&BurnSpecMaincourse,		// Main Course - The Retro Cut (48K) (HB)
 	&BurnDrvMainsnk,			// Main Event (1984)
@@ -31210,10 +31217,11 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvngpc_mslug2nd,		// Metal Slug - 2nd Mission (World)
 	&BurnDrvMslug1v2,			// Metal Slug - Super Vehicle-001 (1v2 Mode, Hack)
 	&BurnDrvMslugfs,			// Metal Slug - Super Vehicle-001 (Firepower Showdown, Hack)
-	&BurnDrvMslugfc2,			// Metal Slug - Super Vehicle-001 (Item Random & Powerful Enemy Defense FC2, Hack)
-	&BurnDrvMslugfc1,			// Metal Slug - Super Vehicle-001 (Item Random FC2, Hack)
 	&BurnDrvMslugdg,			// Metal Slug - Super Vehicle-001 (Multifunction, Hack)
+	&BurnDrvMsqyfc1,			// Metal Slug - Super Vehicle-001 (Origins Item Random, Hack)
 	&BurnDrvMslugqy,			// Metal Slug - Super Vehicle-001 (Origins, Hack)
+	&BurnDrvMslugfc2,			// Metal Slug - Super Vehicle-001 (Random Item & Powerful Enemy Defense, Hack)
+	&BurnDrvMslugfc1,			// Metal Slug - Super Vehicle-001 (Random Item, Hack)
 	&BurnDrvMslug,				// Metal Slug - Super Vehicle-001
 	&BurnDrvMs21v2,				// Metal Slug 2 - Super Vehicle-001/II (1v2 Mode, Hack)
 	&BurnDrvMslug2r,			// Metal Slug 2 - Super Vehicle-001/II (Enemy Remix, Hack)
@@ -41588,6 +41596,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "cv_2010p", "coleco/d_coleco.cpp"},
 	{ "cv_2010", "coleco/d_coleco.cpp"},
 	{ "md_2020bb", "megadrive/d_megadrive.cpp"},
+	{ "2020bbcd", "neogeo/d_neogeo.cpp"},
 	{ "2020bb", "neogeo/d_neogeo.cpp"},
 	{ "2020bba", "neogeo/d_neogeo.cpp"},
 	{ "2020bbh", "neogeo/d_neogeo.cpp"},
@@ -41700,6 +41709,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_abusimbel", "msx/d_msx.cpp"},
 	{ "spec_abusimprd", "spectrum/d_spectrum.cpp"},
 	{ "md_abyssal", "megadrive/d_megadrive.cpp"},
+	{ "abyssali", "neogeo/d_neogeo.cpp"},
 	{ "spec_ace", "spectrum/d_spectrum.cpp"},
 	{ "spec_ace2", "spectrum/d_spectrum.cpp"},
 	{ "spec_ace2088", "spectrum/d_spectrum.cpp"},
@@ -51351,6 +51361,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_minkymomo", "nes/d_nes.cpp"},
 	{ "nes_minkymomoj", "nes/d_nes.cpp"},
 	{ "gg_mainursegg", "sms/d_sms.cpp"},
+	{ "pce_mainurse", "pce/d_pce.cpp"},
 	{ "sms_mainurse", "sms/d_sms.cpp"},
 	{ "spec_maincourse", "spectrum/d_spectrum.cpp"},
 	{ "mainsnk", "pre90s/d_mainsnk.cpp"},
@@ -51850,10 +51861,11 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "ngp_mslug2nd", "pst90s/d_ngp.cpp"},
 	{ "mslug1v2", "neogeo/d_neogeo.cpp"},
 	{ "mslugfs", "neogeo/d_neogeo.cpp"},
+	{ "mslugdg", "neogeo/d_neogeo.cpp"},
+	{ "msqyfc1", "neogeo/d_neogeo.cpp"},
+	{ "mslugqy", "neogeo/d_neogeo.cpp"},
 	{ "mslugfc2", "neogeo/d_neogeo.cpp"},
 	{ "mslugfc1", "neogeo/d_neogeo.cpp"},
-	{ "mslugdg", "neogeo/d_neogeo.cpp"},
-	{ "mslugqy", "neogeo/d_neogeo.cpp"},
 	{ "mslug", "neogeo/d_neogeo.cpp"},
 	{ "ms21v2", "neogeo/d_neogeo.cpp"},
 	{ "mslug2r", "neogeo/d_neogeo.cpp"},

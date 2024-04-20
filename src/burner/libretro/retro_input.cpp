@@ -450,10 +450,21 @@ static inline void CinpDirectCoord(int port, int axis)
 		INT32 width, height;
 		BurnDrvGetVisibleSize(&width, &height);
 		// Check whether this axis is X or Y, update pointerValues accordingly
-		if ((nDeviceType[port] == RETRO_DEVICE_LIGHTGUN && sAxiBinds[axis].id == RETRO_DEVICE_ID_LIGHTGUN_SCREEN_X) || (nDeviceType[port] == RETRO_DEVICE_POINTER && sAxiBinds[axis].id == RETRO_DEVICE_ID_POINTER_X))
-			pointerValues[port][0] = (INT32)(width * (double(val)/double(0x10000)));
-		else if ((nDeviceType[port] == RETRO_DEVICE_LIGHTGUN && sAxiBinds[axis].id == RETRO_DEVICE_ID_LIGHTGUN_SCREEN_Y) || (nDeviceType[port] == RETRO_DEVICE_POINTER && sAxiBinds[axis].id == RETRO_DEVICE_ID_POINTER_Y))
-			pointerValues[port][1] = (INT32)(height * (double(val)/double(0x10000)));
+		if (nDeviceType[port] == RETRO_DEVICE_LIGHTGUN)
+		{
+			if (sAxiBinds[axis].id == RETRO_DEVICE_ID_LIGHTGUN_SCREEN_X) pointerValues[port][0] = (INT32)(width * (double(val)/double(0x10000)));
+			else if (sAxiBinds[axis].id == RETRO_DEVICE_ID_LIGHTGUN_SCREEN_Y) pointerValues[port][1] = (INT32)(height * (double(val)/double(0x10000)));
+		}
+		else if (nDeviceType[port] == RETRO_DEVICE_POINTER)
+		{
+			if (sAxiBinds[axis].id == RETRO_DEVICE_ID_POINTER_X) pointerValues[port][0] = (INT32)(width * (double(val)/double(0x10000)));
+			else if (sAxiBinds[axis].id == RETRO_DEVICE_ID_POINTER_Y) pointerValues[port][1] = (INT32)(height * (double(val)/double(0x10000)));
+		}
+		else if (nDeviceType[port] == RETROARCADE_GUN)
+		{
+			if (sAxiBinds[axis].id == RETRO_DEVICE_ID_ANALOG_X) pointerValues[port][0] = (INT32)(width * (double(val)/double(0x10000)));
+			else if (sAxiBinds[axis].id == RETRO_DEVICE_ID_ANALOG_Y) pointerValues[port][1] = (INT32)(height * (double(val)/double(0x10000)));
+		}
 	}
 	int player = port;
 	if ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_NES || (strcmp(BurnDrvGetTextA(DRV_NAME), "cybertnk") == 0))
@@ -680,6 +691,15 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		}
 		if (strcmp("y-axis", szb) == 0) {
 			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_POINTER_Y, 0, description, GIT_DIRECT_COORD);
+		}
+	}
+
+	if (nDeviceType[nPlayer] == RETROARCADE_GUN && BurnGunIsActive()) {
+		if (strcmp("x-axis", szb) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, 0, description, GIT_DIRECT_COORD);
+		}
+		if (strcmp("y-axis", szb) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, 0, description, GIT_DIRECT_COORD);
 		}
 	}
 
@@ -2825,7 +2845,8 @@ void SetControllerInfo()
 			{ "Mouse (ball only)", RETROMOUSE_BALL },
 			{ "Mouse (full)", RETROMOUSE_FULL },
 			{ "Pointer", RETRO_DEVICE_POINTER },
-			{ "Lightgun", RETRO_DEVICE_LIGHTGUN }
+			{ "Lightgun", RETRO_DEVICE_LIGHTGUN },
+			{ "Analog Arcade Gun", RETROARCADE_GUN }
 		};
 
 		// kludge for nes (some 1p game want to use p2 controls)
@@ -3250,7 +3271,8 @@ void retro_set_controller_port_device(unsigned port, unsigned device)
 				device != RETROMOUSE_BALL &&
 				device != RETROMOUSE_FULL &&
 				device != RETRO_DEVICE_POINTER &&
-				device != RETRO_DEVICE_LIGHTGUN)
+				device != RETRO_DEVICE_LIGHTGUN &&
+				device != RETROARCADE_GUN)
 			{
 				device = RETROPAD_CLASSIC;
 				HandleMessage(RETRO_LOG_INFO, "[FBNeo] Unknown device type for port %d, forcing \"Classic\" instead\n", port);

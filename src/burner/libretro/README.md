@@ -105,6 +105,7 @@ The following "device type" also exist, but they won't be compatible with every 
 * **Mouse (full)** : same as above, but the buttons will be on the mouse
 * **Pointer** : it will use "pointer" device (can be a mouse/trackball) to determine coordinates on screen, buttons will stay on retropad
 * **Lightgun** : it will use lightgun to determine coordinates on screen, buttons will be on the lightgun too.
+* **Analog Arcade Gun** : it will use the analog stick for gun games but in a different way than "Classic" and "Modern", it is particularily useful if you have a "fixed arcade gun" (arcade gun mounted on an analog control).
 
 ## Emulating consoles and computers
 
