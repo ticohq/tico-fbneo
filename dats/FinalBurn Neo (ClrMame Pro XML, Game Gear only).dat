@@ -5746,10 +5746,10 @@
 	</game>
 	<game name="sushinightsgg" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Sushi Nights (HB, v1.01)</description>
+		<description>Sushi Nights GG (HB, v1.04)</description>
 		<year>2021-24</year>
 		<manufacturer>MONIS GAMES</manufacturer>
-		<rom name="Sushi Nights v1.01 (2021-24)(MONIS GAMES).gg" size="131072" crc="bdc4c3c9"/>
+		<rom name="Sushi Nights v1.04 (2021-24)(MONIS GAMES).gg" size="131072" crc="934523bb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

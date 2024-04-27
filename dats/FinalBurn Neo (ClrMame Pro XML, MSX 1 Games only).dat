@@ -17484,6 +17484,18 @@
 		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="trucho" romof="msx" sourcefile="msx/d_msx.cpp">
+		<comment>Homebrew</comment>
+		<description>Trucho (HB)</description>
+		<year>2024</year>
+		<manufacturer>Kamino</manufacturer>
+		<rom name="Trucho (2024)(Kamino).rom" size="49152" crc="fc5a0042"/>
+		<rom name="msx.rom" merge="msx.rom" size="32768" crc="a317e6b4"/>
+		<rom name="msxj.rom" merge="msxj.rom" size="32768" crc="071135e0"/>
+		<rom name="kanji.rom" merge="kanji.rom" size="262144" crc="1f6406fb"/>
+		<video type="raster" orientation="horizontal" width="272" height="228" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="ttracer" romof="msx" sourcefile="msx/d_msx.cpp">
 		<description>TT Racer (Euro)</description>
 		<year>1987</year>

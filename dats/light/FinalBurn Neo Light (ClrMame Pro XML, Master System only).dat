@@ -2189,10 +2189,10 @@
 	</game>
 	<game name="gkrescue" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Goblin Kart Rescue (HB, v0.9.8)</description>
+		<description>Goblin Kart Rescue (HB, v1.0.3)</description>
 		<year>2024</year>
 		<manufacturer>raphnet</manufacturer>
-		<rom name="Goblin Kart Rescue v0.9.8 (2024)(raphnet).sms" size="458752" crc="cc782e28"/>
+		<rom name="Goblin Kart Rescue v1.0.3 (2024)(raphnet).sms" size="393216" crc="db7b9954"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4964,10 +4964,10 @@
 	</game>
 	<game name="stygianquest" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Stygian Quest (HB)</description>
+		<description>Stygian Quest (HB, v1.2)</description>
 		<year>2024</year>
 		<manufacturer>Naarshakta</manufacturer>
-		<rom name="Stygian Quest (2024)(Naarshakta).sms" size="573440" crc="3ac7a0c4"/>
+		<rom name="Stygian Quest v1.2 (2024)(Naarshakta).sms" size="573440" crc="b6c9a3c5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5230,10 +5230,10 @@
 	</game>
 	<game name="sushinights" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Sushi Nights (HB, v1.03)</description>
+		<description>Sushi Nights (HB, v1.04)</description>
 		<year>2021-24</year>
 		<manufacturer>MONIS GAMES</manufacturer>
-		<rom name="Sushi Nights v1.03 (2021-24)(MONIS GAMES).sms" size="131072" crc="2c03bb6e"/>
+		<rom name="Sushi Nights v1.04 (2021-24)(MONIS GAMES).sms" size="131072" crc="723d4880"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
