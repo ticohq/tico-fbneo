@@ -4382,6 +4382,7 @@ DRV		BurnDrvMSX_digdug;
 DRV		BurnDrvnes_digdug;
 DRV		BurnDrvMSX_digduga;
 DRV		BurnDrvcv_digdug;
+DRV		BurnDrvDigdug1;
 DRV		BurnDrvDigdug;
 DRV		BurnSpecDigdugdoug;
 DRV		BurnDrvfds_digdugii;
@@ -25144,6 +25145,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_digdug,			// Dig Dug (Japan)
 	&BurnDrvMSX_digduga,		// Dig Dug (Japan, Alt)
 	&BurnDrvcv_digdug,			// Dig Dug (Prototype)
+	&BurnDrvDigdug1,			// Dig Dug (rev 1)
 	&BurnDrvDigdug,				// Dig Dug (rev 2)
 	&BurnSpecDigdugdoug,		// Dig Dug Doug (128K) (HB)
 	&BurnDrvfds_digdugii,		// Dig Dug II (Japan)
@@ -45872,6 +45874,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_digdug", "nes/d_nes.cpp"},
 	{ "msx_digduga", "msx/d_msx.cpp"},
 	{ "cv_digdug", "coleco/d_coleco.cpp"},
+	{ "digdug1", "pre90s/d_galaga.cpp"},
 	{ "digdug", "pre90s/d_galaga.cpp"},
 	{ "spec_digdugdoug", "spectrum/d_spectrum.cpp"},
 	{ "fds_digdugii", "nes/d_nes.cpp"},
