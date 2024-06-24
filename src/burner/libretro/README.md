@@ -293,12 +293,13 @@ Exceptionally there might be a false positive due to your file being unreadable 
 
 A lot of romhacks are supported natively, so your romhack might already be supported under a specific romset name.
 
-For the unsupported romhacks, there are 3 methods, but those 3 methods must be disabled by toggling off the `Allow patched romsets` core option if you intend to use RetroAchievements : 
+For the unsupported romhacks, there are 3 methods, but those romhacks are not allowed and must be disabled by toggling off the `Allow patched romsets` core option if you intend to use RetroAchievements : 
 
 #### Using the "patched" folder
 
-One of the methods is to put the already patched version of the romset into `SYSTEM_DIRECTORY/fbneo/patched` (NB: you can strip it of any file that don't differ from non-patched romset if you want), that method will only work if the sizes and names matches with the original romset. 
-**The romset you must launch is still the original non-patched romset (its content will be overrided at runtime by the content of the patched one)**.
+* Put the patched version of the romset into `SYSTEM_DIRECTORY/fbneo/patched`, this folder has special privileges allowing it to ignore crcs. Sizes and names still need to match the original romset though.
+* Optional : you could strip the patched version from any file that don't differ from the original romset.
+* Note : **The romset you must launch is still the original non-patched romset (its content will be overriden at runtime by the content of the patched one)**.
 
 #### Using IPS Patches
 
