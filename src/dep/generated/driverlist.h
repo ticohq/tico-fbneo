@@ -1605,6 +1605,7 @@ DRV		BurnDrvmd_battlesqp;
 DRV		BurnDrvnes_battletank;
 DRV		BurnSpecBtltank3d;
 DRV		BurnSpecBtlvalley;
+DRV		BurnDrvsms_battlewingsp;
 DRV		BurnDrvBatlzone;
 DRV		BurnDrvBzonec;
 DRV		BurnDrvBzonea;
@@ -22700,6 +22701,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_battletank,		// Battle Tank (USA)
 	&BurnSpecBtltank3d,			// Battle Tank 3D and some Crazy Aliens (128K) (HB)
 	&BurnSpecBtlvalley,			// Battle Valley (128K)
+	&BurnDrvsms_battlewingsp,	// Battle Wings (Prototype)
 	&BurnDrvBatlzone,			// Battle Zone (bootleg of Mayday)
 	&BurnDrvBzonec,				// Battle Zone (cocktail)
 	&BurnDrvBzonea,				// Battle Zone (rev 1)
@@ -31393,7 +31395,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_mario3,			// Mario 3 - Vokrug Sveta (Russia) (Unl)
 	&BurnDrvmd_mario4,			// Mario 4 - Kosmicheskaya Odissyeya (Russia) (Unl)
 	&BurnDrvnes_marioadventure,	// Mario Adventure (Hack)
-	&BurnDrvnes_marioadventure3,// Mario Adventure 3 (Hack, v1.6.8)
+	&BurnDrvnes_marioadventure3,// Mario Adventure 3 (Hack, v1.9.8)
 	&BurnDrvmd_andretti,		// Mario Andretti Racing (Euro, USA)
 	&BurnSpecmaribros,			// Mario Bros (48K)
 	&BurnSpecMbgw,				// Mario Bros Game & Watch (48K) (HB)
@@ -43789,6 +43791,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_battletank", "nes/d_nes.cpp"},
 	{ "spec_btltank3d", "spectrum/d_spectrum.cpp"},
 	{ "spec_btlvalley", "spectrum/d_spectrum.cpp"},
+	{ "sms_battlewingsp", "sms/d_sms.cpp"},
 	{ "batlzone", "pre90s/d_williams.cpp"},
 	{ "bzonec", "pre90s/d_bzone.cpp"},
 	{ "bzonea", "pre90s/d_bzone.cpp"},

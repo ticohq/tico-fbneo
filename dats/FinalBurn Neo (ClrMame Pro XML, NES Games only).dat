@@ -11577,10 +11577,10 @@
 	</game>
 	<game name="marioadventure3" cloneof="smb3" romof="smb3" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Mario Adventure 3 (Hack, v1.6.8)</description>
+		<description>Mario Adventure 3 (Hack, v1.9.8)</description>
 		<year>2024</year>
 		<manufacturer>ScarlettVixen</manufacturer>
-		<rom name="Mario Adventure 3 v1.6.8 (2024)(ScarlettVixen).nes" size="786448" crc="70b5aa2d"/>
+		<rom name="Mario Adventure 3 v1.9.8 (2024)(ScarlettVixen).nes" size="786448" crc="494115ef"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

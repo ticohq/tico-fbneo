@@ -712,6 +712,14 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="battlewingsp" cloneof="bombraid" romof="bombraid" sourcefile="sms/d_sms.cpp">
+		<description>Battle Wings (Prototype)</description>
+		<year>1989</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Battle Wings [Proto].sms" size="262144" crc="fae0ade7"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bmaniacs" sourcefile="sms/d_sms.cpp">
 		<description>Battlemaniacs (Brazil)</description>
 		<year>1994</year>
