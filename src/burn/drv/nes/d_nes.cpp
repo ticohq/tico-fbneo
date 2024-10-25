@@ -2563,6 +2563,38 @@ static void mapper193_map()
 #undef mapper193_chr
 #undef mapper193_mirror
 
+// ---[ mapper 72: Jaleco JF-17 (JF-19?), Pinball Quest Japan
+#define mapper72_prg		(mapper_regs[0])
+#define mapper72_prglatch	(mapper_regs[1])
+#define mapper72_chr		(mapper_regs[2])
+#define mapper72_chrlatch	(mapper_regs[3])
+
+static void mapper72_write(UINT16 address, UINT8 data)
+{
+	if (mapper72_prglatch == 0 && data & 0x80) {
+		mapper72_prg = data & 0x0f;
+	}
+	if (mapper72_chrlatch == 0 && data & 0x40) {
+		mapper72_chr = data & 0x0f;
+	}
+	mapper72_prglatch = data & 0x80;
+	mapper72_chrlatch = data & 0x40;
+
+	mapper_map();
+}
+
+static void mapper72_map()
+{
+	mapper_map_prg(16, 0, mapper72_prg);
+	mapper_map_prg(16, 1, -1);
+
+	mapper_map_chr( 8, 0, mapper72_chr);
+}
+
+#undef mapper72_prg
+#undef mapper72_chr
+#undef mapper72_mirror
+
 // ---[ mapper 15 Contra 168-in-1 Multicart
 #define mapper15_prg		(mapper_regs[0])
 #define mapper15_prgbit		(mapper_regs[1])
@@ -8580,6 +8612,14 @@ static INT32 mapper_init(INT32 mappernum)
 		case 193: { // NTDEC TC-112 (War in the Gulf, Fighting Hero, ..)
 			cart_exp_write = mapper193_write;
 			mapper_map   = mapper193_map;
+			mapper_map();
+			retval = 0;
+			break;
+		}
+
+		case 72: { // Jaleco JF-17, Pinball Quest Japan
+			mapper_write = mapper72_write;
+			mapper_map   = mapper72_map;
 			mapper_map();
 			retval = 0;
 			break;
@@ -27885,10 +27925,10 @@ struct BurnDriver BurnDrvnes_marioadventure = {
 	SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_WIDTH, SCREEN_HEIGHT
 };
 
-// Mario Adventure 3 (Hack, v1.6.8)
+// Mario Adventure 3 (Hack, v1.9.8)
 // https://marioadventure3.com/
 static struct BurnRomInfo nes_marioadventure3RomDesc[] = {
-	{ "Mario Adventure 3 v1.6.8 (2024)(ScarlettVixen).nes",          786448, 0x70b5aa2d, BRF_ESS | BRF_PRG },
+	{ "Mario Adventure 3 v1.9.8 (2024)(ScarlettVixen).nes",          786448, 0x494115ef, BRF_ESS | BRF_PRG },
 };
 
 STD_ROM_PICK(nes_marioadventure3)
@@ -27896,7 +27936,7 @@ STD_ROM_FN(nes_marioadventure3)
 
 struct BurnDriver BurnDrvnes_marioadventure3 = {
 	"nes_marioadventure3", "nes_smb3", NULL, NULL, "2024",
-	"Mario Adventure 3 (Hack, v1.6.8)\0", NULL, "ScarlettVixen", "Miscellaneous",
+	"Mario Adventure 3 (Hack, v1.9.8)\0", NULL, "ScarlettVixen", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE | BDF_HACK, 1, HARDWARE_NES, GBF_PLATFORM, 0,
 	NESGetZipName, nes_marioadventure3RomInfo, nes_marioadventure3RomName, NULL, NULL, NULL, NULL, NESInputInfo, NESDIPInfo,
