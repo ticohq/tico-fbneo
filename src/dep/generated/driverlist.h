@@ -8012,6 +8012,7 @@ DRV		BurnSpechoracesk;
 DRV		BurnDrvHorizon;
 DRV		BurnDrvnes_hosmiruhito;
 DRV		BurnDrvsms_hoshiw;
+DRV		BurnDrvsms_hoshiwe;
 DRV		BurnSpechostages;
 DRV		BurnDrvMSX_hostages;
 DRV		BurnDrvnes_hosta;
@@ -17183,6 +17184,7 @@ DRV		BurnDrvsms_suhocheo;
 DRV		BurnDrvMSX_suitemacabre;
 DRV		BurnDrvnes_sukebandeka3;
 DRV		BurnDrvnes_sukebandeka3j;
+DRV		BurnDrvsms_sukebane;
 DRV		BurnDrvsms_sukeban;
 DRV		BurnDrvSjryuko1;
 DRV		BurnDrvSjryuko;
@@ -29108,6 +29110,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvHorizon,			// Horizon (Irem)
 	&BurnDrvnes_hosmiruhito,	// Hoshi wo Miru Hito (Japan)
 	&BurnDrvsms_hoshiw,			// Hoshi wo Sagashite... (Japan)
+	&BurnDrvsms_hoshiwe,		// Hoshi wo Sagashite... ~ Story of Mio (Hack, English)
 	&BurnSpechostages,			// Hostages (128K)
 	&BurnDrvMSX_hostages,		// Hostages (Euro, Spanish)
 	&BurnDrvnes_hosta,			// Hostages - The Embassy Mission (Japan)
@@ -38279,6 +38282,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_suitemacabre,	// Suite Macabre (HB)
 	&BurnDrvnes_sukebandeka3,	// Sukeban Deka 3 (Hack, English)
 	&BurnDrvnes_sukebandeka3j,	// Sukeban Deka 3 (Japan)
+	&BurnDrvsms_sukebane,		// Sukeban Deka II (Hack, English)
 	&BurnDrvsms_sukeban,		// Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)
 	&BurnDrvSjryuko1,			// Sukeban Jansi Ryuko (set 1, System 16A, FD1089B 317-5021)
 	&BurnDrvSjryuko,			// Sukeban Jansi Ryuko (set 2, System 16B, FD1089B 317-5021)
@@ -50140,6 +50144,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "horizon", "irem/d_m62.cpp"},
 	{ "nes_hosmiruhito", "nes/d_nes.cpp"},
 	{ "sms_hoshiw", "sms/d_sms.cpp"},
+	{ "sms_hoshiwe", "sms/d_sms.cpp"},
 	{ "spec_hostages", "spectrum/d_spectrum.cpp"},
 	{ "msx_hostages", "msx/d_msx.cpp"},
 	{ "nes_hosta", "nes/d_nes.cpp"},
@@ -59219,6 +59224,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_suitemacabre", "msx/d_msx.cpp"},
 	{ "nes_sukebandeka3", "nes/d_nes.cpp"},
 	{ "nes_sukebandeka3j", "nes/d_nes.cpp"},
+	{ "sms_sukebane", "sms/d_sms.cpp"},
 	{ "sms_sukeban", "sms/d_sms.cpp"},
 	{ "sjryuko1", "sega/d_sys16a.cpp"},
 	{ "sjryuko", "sega/d_sys16b.cpp"},
