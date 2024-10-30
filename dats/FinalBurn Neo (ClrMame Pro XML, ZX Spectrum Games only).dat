@@ -4287,7 +4287,7 @@
 		<description>Castle Capers (128K) (HB)</description>
 		<year>2017</year>
 		<manufacturer>Gabriele Amore</manufacturer>
-		<rom name="CastleCapers (2017)(Gabriele Amore).tap" size="36751" crc="db772c7c"/>
+		<rom name="CastleCapers 128K (2017)(Gabriele Amore).tap" size="36751" crc="db772c7c"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -7010,7 +7010,7 @@
 		<description>Dirty Dozer (128K) (HB)</description>
 		<year>2019</year>
 		<manufacturer>Miguetelo</manufacturer>
-		<rom name="Dirty Dozer (2019)(Miguetelo).tap" size="41391" crc="af06dd37"/>
+		<rom name="Dirty Dozer 128K (2019)(Miguetelo).tap" size="41391" crc="af06dd37"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -7358,24 +7358,26 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="djpuff" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
-		<description>DJ Puff's Volcanic Capers (128K)</description>
+	<game name="djpuff" romof="spec1282a" sourcefile="spectrum/d_spectrum.cpp">
+		<description>DJ Puff's Volcanic Erruption (128K)</description>
 		<year>1992</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="DJ Puff (1992)(Codemasters).z80" size="66937" crc="38340567"/>
-		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
-		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<rom name="DJ Puff's Volcanic Erruption 128K2a (1992)(Codemasters).tap" size="58200" crc="c89e90ae"/>
+		<rom name="zx128_2a_0.rom" merge="zx128_2a_0.rom" size="16384" crc="30c9f490"/>
+		<rom name="zx128_2a_1.rom" merge="zx128_2a_1.rom" size="16384" crc="a7916b3f"/>
+		<rom name="zx128_2a_2.rom" merge="zx128_2a_2.rom" size="16384" crc="c9a0b748"/>
+		<rom name="zx128_2a_3.rom" merge="zx128_2a_3.rom" size="16384" crc="b88fd6e3"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="djpuff23" cloneof="djpuff" romof="djpuff" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Hack</comment>
-		<description>DJ Puff's Volcanic Capers Recoloured (128K) (Hack)</description>
+		<description>DJ Puff's Volcanic Erruption - Recoloured (128K) (Hack)</description>
 		<year>2023</year>
 		<manufacturer>Rafal Miazga</manufacturer>
-		<rom name="DJ Puff's Volcanic Capers 128K (Re-coloured MOD)(2023)(Rafal Miazga).tap" size="58200" crc="d26dc482"/>
-		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
-		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<rom name="DJ Puff's Volcanic Erruption 128K (Re-coloured MOD)(2023)(Rafal Miazga).tap" size="58200" crc="d26dc482"/>
+		<rom name="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8228,7 +8230,7 @@
 		<description>El Stompo (48K) (HB)</description>
 		<year>2014</year>
 		<manufacturer>Stonechat Productions</manufacturer>
-		<rom name="ElStompo (2014)(Stonechat Productions).tap" size="44449" crc="b2370ea9"/>
+		<rom name="El Stompo 48K (2014)(Stonechat Productions).tap" size="44449" crc="b2370ea9"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8337,7 +8339,7 @@
 		<description>Endless Forms Most Beautiful (48K) (HB)</description>
 		<year>2012</year>
 		<manufacturer>Stonechat Productions</manufacturer>
-		<rom name="Endless Forms Most Beautiful (2012)(Stonechat Productions).tap" size="31843" crc="4d866f79"/>
+		<rom name="Endless Forms Most Beautiful 48K (2012)(Stonechat Productions).tap" size="31843" crc="4d866f79"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8696,7 +8698,7 @@
 		<description>F-16 Fighting Falcon (128K)</description>
 		<year>1990</year>
 		<manufacturer>Virgin Mastertronic</manufacturer>
-		<rom name="F-16 Fighting Falcon (1990)(Virgin Mastertronic).tap" size="39117" crc="2071bb7c"/>
+		<rom name="F-16 Fighting Falcon 128K (1990)(Virgin Mastertronic).tap" size="39117" crc="2071bb7c"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -14521,16 +14523,16 @@
 		<description>Manic Miner (Bug-Byte Software) (48K)</description>
 		<year>1983</year>
 		<manufacturer>Bug-Byte Software</manufacturer>
-		<rom name="Manic Miner (1983)(Bug-Byte Software).z80" size="26676" crc="024b1971"/>
+		<rom name="Manic Miner 48K (1983)(Bug-Byte).tap" size="33689" crc="e6bac4e8"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="mminersp" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+	<game name="mminersp" cloneof="mminer" romof="mminer" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Manic Miner (Software Projects) (48K)</description>
 		<year>1983</year>
 		<manufacturer>Software Projects</manufacturer>
-		<rom name="Manic Miner (1983)(Software Projects).z80" size="24560" crc="2187b9dd"/>
+		<rom name="Manic Miner 48K (1983)(Software Projects).tap" size="33317" crc="eac88ad3"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -14556,9 +14558,9 @@
 	</game>
 	<game name="marblem" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Marble Madness - Deluxe Edition (48K)</description>
-		<year>1987</year>
+		<year>1986</year>
 		<manufacturer>Melbourne House</manufacturer>
-		<rom name="Marble Madness - Deluxe Edition (1987)(Melbourne House).z80" size="31037" crc="3d08e9ec"/>
+		<rom name="Marble Madness DeLuxe Edition - The Game 48K (1986)(Melbourne House).tap" size="69666" crc="15ae8ad3"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -14587,7 +14589,7 @@
 		<description>Mario Bros (48K)</description>
 		<year>1987</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Mario Bros (1987)(Ocean).z80" size="36664" crc="e42c245c"/>
+		<rom name="Mario Bros 48K (1987)(Ocean).z80" size="36664" crc="e42c245c"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15015,7 +15017,7 @@
 		<description>Metal Army (48K)</description>
 		<year>1988</year>
 		<manufacturer>Players Premier</manufacturer>
-		<rom name="Metal Army (1988)(Players).tap" size="40251" crc="dbced42f"/>
+		<rom name="Metal Army 48K (1988)(Players Premier).tap" size="40251" crc="dbced42f"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15239,21 +15241,21 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="mresist" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+	<game name="mresist128" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Midnight Resistance (128K)</description>
 		<year>1990</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Midnight Resistance (1990)(Ocean)[128K].z80" size="112193" crc="614f8f38"/>
+		<rom name="Midnight Resistance 128K (1990)(Ocean).tap" size="133058" crc="91ab3c61"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="mresist_48" cloneof="mresist" romof="mresist" sourcefile="spectrum/d_spectrum.cpp">
+	<game name="mresist48" cloneof="mresist128" romof="mresist128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Midnight Resistance (48K)</description>
 		<year>1990</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Midnight Resistance (1990)(Ocean).z80" size="41699" crc="70b26b8c"/>
+		<rom name="Midnight Resistance 48K (1990)(Ocean).z80" size="41699" crc="70b26b8c"/>
 		<rom name="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15764,7 +15766,7 @@
 		<description>MoonTorc (48K)</description>
 		<year>1991</year>
 		<manufacturer>Atlantis Software</manufacturer>
-		<rom name="Moontorc (1991)(Atlantis).tap" size="58279" crc="0fe238a1"/>
+		<rom name="Moontorc 48K (1991)(Atlantis).tap" size="58279" crc="0fe238a1"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15773,7 +15775,7 @@
 		<description>Moonwalker - The Computer Game (128K)</description>
 		<year>1989</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="Moonwalker - The Computer Game (1989)(U.S. Gold).tap" size="170496" crc="0c84679e"/>
+		<rom name="Moonwalker - The Computer Game 128K (1989)(U.S. Gold).tap" size="170496" crc="0c84679e"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15889,7 +15891,7 @@
 		<description>Mot - Part 1 (Spanish) (48K)</description>
 		<year>1989</year>
 		<manufacturer>Opera Soft</manufacturer>
-		<rom name="Mot (1989)(Opera Soft)(Sp)(48k)[Part 1 of 3].tap" size="49084" crc="66889cb5"/>
+		<rom name="Mot - Part 1 ES 48K (1989)(Opera Soft).tap" size="49084" crc="66889cb5"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15910,7 +15912,7 @@
 		<description>Mot - Part 2 (Spanish) (48K)</description>
 		<year>1989</year>
 		<manufacturer>Opera Soft</manufacturer>
-		<rom name="Mot (1989)(Opera Soft)(Sp)(48k)[Part 2 of 3].tap" size="49084" crc="9b20327d"/>
+		<rom name="Mot - Part 2 ES 48K (1989)(Opera Soft).tap" size="49084" crc="9b20327d"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15931,7 +15933,7 @@
 		<description>Mot - Part 3 (Spanish) (48K)</description>
 		<year>1989</year>
 		<manufacturer>Opera Soft</manufacturer>
-		<rom name="Mot (1989)(Opera Soft)(Sp)(48k)[Part 3 of 3].tap" size="49084" crc="0b659f33"/>
+		<rom name="Mot - Part 3 ES 48K (1989)(Opera Soft).tap" size="49084" crc="0b659f33"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -18909,30 +18911,60 @@
 	</game>
 	<game name="ramirer1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Ramire the Vampire Rewamp - Part 1 (48K) (HB)</description>
+		<description>Ramire the Vampire 'Rewamp' - Part 1 (English) (48K) (HB)</description>
 		<year>2016</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramire the Vampire Rewamp Part1 (2016)(Mojon Twins).tap" size="44159" crc="69c64f56"/>
+		<rom name="Ramire the Vampire Rewamp Part 1 EN 48K (2016)(The Mojon Twins).tap" size="44159" crc="69c64f56"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="ramirer2" cloneof="ramirer1" romof="ramirer1" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Ramire the Vampire Rewamp - Part 2 (48K) (HB)</description>
+		<description>Ramire the Vampire 'Rewamp' - Part 2 (English) (48K) (HB)</description>
 		<year>2016</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramire the Vampire Rewamp Part2 (2016)(Mojon Twins).tap" size="44509" crc="3ce3ae4c"/>
+		<rom name="Ramire the Vampire Rewamp Part 2 EN 48K (2016)(The Mojon Twins).tap" size="44509" crc="3ce3ae4c"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="ramirer3" cloneof="ramirer1" romof="ramirer1" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Ramire the Vampire Rewamp - Part 3 (48K) (HB)</description>
+		<description>Ramire the Vampire 'Rewamp' - Part 3 (English) (48K) (HB)</description>
 		<year>2016</year>
 		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramire the Vampire Rewamp Part3 (2016)(Mojon Twins).tap" size="44938" crc="a65f4290"/>
+		<rom name="Ramire the Vampire Rewamp Part 3 EN 48K (2016)(The Mojon Twins).tap" size="44938" crc="a65f4290"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ramiror1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Ramiro el Vampiro 'Rewamp' - Parte 1 (Spanish) (48K) (HB)</description>
+		<year>2016</year>
+		<manufacturer>The Mojon Twins</manufacturer>
+		<rom name="Ramiro el Vampiro Rewamp Part 1 ES 48K (2016)(The Mojon Twins).tap" size="44399" crc="9d9e0971"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ramiror2" cloneof="ramiror1" romof="ramiror1" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Ramiro el Vampiro 'Rewamp' - Parte 2 (Spanish) (48K) (HB)</description>
+		<year>2016</year>
+		<manufacturer>The Mojon Twins</manufacturer>
+		<rom name="Ramiro el Vampiro Rewamp Part 2 ES 48K (2016)(The Mojon Twins).tap" size="44601" crc="01ed38e9"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ramiror3" cloneof="ramiror1" romof="ramiror1" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Ramiro el Vampiro 'Rewamp' - Parte 3 (Spanish) (48K) (HB)</description>
+		<year>2016</year>
+		<manufacturer>The Mojon Twins</manufacturer>
+		<rom name="Ramiro el Vampiro Rewamp Part 3 ES 48K (2016)(The Mojon Twins).tap" size="45083" crc="ec94c119"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -18978,36 +19010,6 @@
 		<rom name="Ramiro el vampiro IV ES 128K (2023)(The Mojon Twins).tap" size="49233" crc="54c870f3"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ramiror1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Ramiro el Vampiro Rewamp - Parte 1 (48K) (HB)</description>
-		<year>2016</year>
-		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramiro el Vampiro Rewamp Part1 (2016)(Mojon Twins).tap" size="44399" crc="9d9e0971"/>
-		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ramiror2" cloneof="ramiror1" romof="ramiror1" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Ramiro el Vampiro Rewamp - Parte 2 (48K) (HB)</description>
-		<year>2016</year>
-		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramiro el Vampiro Rewamp Part2 (2016)(Mojon Twins).tap" size="44601" crc="01ed38e9"/>
-		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ramiror3" cloneof="ramiror1" romof="ramiror1" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Ramiro el Vampiro Rewamp - Parte 3 (48K) (HB)</description>
-		<year>2016</year>
-		<manufacturer>The Mojon Twins</manufacturer>
-		<rom name="Ramiro el Vampiro Rewamp Part3 (2016)(Mojon Twins).tap" size="45083" crc="ec94c119"/>
-		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -23549,7 +23551,7 @@
 		<description>Terrahawks (128K) (HB)</description>
 		<year>2014</year>
 		<manufacturer>Gary James</manufacturer>
-		<rom name="Terrahawks (2014)(Gary James).tap" size="24138" crc="d6f05303"/>
+		<rom name="Terrahawks 128K (2014)(Gary James).tap" size="24138" crc="d6f05303"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
