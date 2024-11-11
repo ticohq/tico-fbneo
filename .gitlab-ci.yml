@@ -208,29 +208,29 @@ libretro-build-tvos-arm64:
 
 ################################### CONSOLES #################################
 # Nintendo 3DS
-deps:ctr:neogeo:
-  extends:
-    - .libretro-ctr-static
-    - .build-deps-fbneo-neogeo
-  needs: []
-  allow_failure: true
-  variables:
-    PLATFORM_TARGET: ctr
+#deps:ctr:neogeo:
+#  extends:
+#    - .libretro-ctr-static
+#    - .build-deps-fbneo-neogeo
+#  needs: []
+#  allow_failure: true
+#  variables:
+#    PLATFORM_TARGET: ctr
 
-libretro-build-neogeo-ctr:
-  extends:
-    - .libretro-ctr-static-retroarch-master
-    - .core-defs
-  dependencies:
-    - deps:ctr:neogeo
-  needs:
-    - deps:ctr:neogeo
-    - project: libretro/RetroArch
-      job: ${STATIC_RETROARCH_JOB_NAME}
-      ref: ${STATIC_RETROARCH_BRANCH}
-      artifacts: true
-  variables:
-    CORENAME: fbneo_neogeo
+#libretro-build-neogeo-ctr:
+#  extends:
+#    - .libretro-ctr-static-retroarch-master
+#    - .core-defs
+#  dependencies:
+#    - deps:ctr:neogeo
+#  needs:
+#    - deps:ctr:neogeo
+#    - project: libretro/RetroArch
+#      job: ${STATIC_RETROARCH_JOB_NAME}
+#      ref: ${STATIC_RETROARCH_BRANCH}
+#      artifacts: true
+#  variables:
+#    CORENAME: fbneo_neogeo
 
 # Nintendo WiiU
 #libretro-build-wiiu:
