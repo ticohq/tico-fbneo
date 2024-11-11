@@ -80,41 +80,8 @@ include:
 # Stages for building
 stages:
   - build-prepare
-  - build-deps-fbneo
   - build-shared
   - build-static
-
-# Generate headers for standard build
-.build-deps-fbneo:
-  extends:
-    - .core-defs
-  stage: build-deps-fbneo
-  cache:
-    key: "fbneo-deps-$PLATFORM_TARGET"
-    paths:
-      - src/dep/generated/
-  artifacts:
-    paths:
-      - src/dep/generated/
-    expire_in: 1 hour
-  script:
-    - make -C ${MAKEFILE_PATH} platform=${PLATFORM_TARGET} generate-files
-
-# Generate headers for neogeo-only build
-.build-deps-fbneo-neogeo:
-  extends:
-    - .core-defs
-  stage: build-deps-fbneo-neogeo
-  cache:
-    key: "fbneo-deps-neogeo-$PLATFORM_TARGET"
-    paths:
-      - src/dep/generated/
-  artifacts:
-    paths:
-      - src/dep/generated/
-    expire_in: 1 hour
-  script:
-    - make -C ${MAKEFILE_PATH} platform=${PLATFORM_TARGET} subset=neogeo generate-files
 
 ################################### DESKTOPS #################################
 # Windows 64-bit
@@ -208,20 +175,12 @@ libretro-build-tvos-arm64:
 
 ################################### CONSOLES #################################
 # Nintendo 3DS
-#deps:ctr:neogeo:
-#  extends:
-#    - .libretro-ctr-static
-#    - .build-deps-fbneo-neogeo
-#  needs: []
-#  allow_failure: true
-#  variables:
-#    PLATFORM_TARGET: ctr
-
 libretro-build-neogeo-ctr:
   extends:
     - .libretro-ctr-static-retroarch-master
     - .core-defs
   variables:
+    PLATFORM_TARGET: ctr
     CORENAME: fbneo_neogeo
   script:
     - make -C ${MAKEFILE_PATH} platform=${PLATFORM_TARGET} subset=neogeo
