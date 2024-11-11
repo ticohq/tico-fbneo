@@ -84,7 +84,7 @@ stages:
   - build-shared
   - build-static
 
-# Rebuild headers, allowing a smaller version for platforms with heavy memory constraints (3ds, wii, gc ?)
+# Generate headers for standard build
 .build-deps-fbneo:
   extends:
     - .core-defs
@@ -99,6 +99,22 @@ stages:
     expire_in: 1 hour
   script:
     - make -C ${MAKEFILE_PATH} platform=${PLATFORM_TARGET} generate-files
+
+# Generate headers for neogeo-only build
+.build-deps-fbneo-neogeo:
+  extends:
+    - .core-defs
+  stage: build-deps-fbneo-neogeo
+  cache:
+    key: "fbneo-deps-neogeo-$PLATFORM_TARGET"
+    paths:
+      - src/dep/generated/
+  artifacts:
+    paths:
+      - src/dep/generated/
+    expire_in: 1 hour
+  script:
+    - make -C ${MAKEFILE_PATH} platform=${PLATFORM_TARGET} subset=neogeo generate-files
 
 ################################### DESKTOPS #################################
 # Windows 64-bit
@@ -192,27 +208,29 @@ libretro-build-tvos-arm64:
 
 ################################### CONSOLES #################################
 # Nintendo 3DS
-deps:ctr:
+deps-neogeo:ctr:
   extends:
     - .libretro-ctr-static
-    - .build-deps-fbneo
+    - .build-deps-fbneo-neogeo
   needs: []
   allow_failure: true
   variables:
     PLATFORM_TARGET: ctr
 
-libretro-build-ctr:
+libretro-build-neogeo-ctr:
   extends:
     - .libretro-ctr-static-retroarch-master
     - .core-defs
   dependencies:
-    - deps:ctr
+    - deps-neogeo:ctr
   needs:
-    - deps:ctr
+    - deps-neogeo:ctr
     - project: libretro/RetroArch
       job: ${STATIC_RETROARCH_JOB_NAME}
       ref: ${STATIC_RETROARCH_BRANCH}
       artifacts: true
+  variables:
+    CORENAME: fbneo_neogeo
 
 # Nintendo WiiU
 #libretro-build-wiiu:
