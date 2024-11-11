@@ -208,7 +208,7 @@ libretro-build-tvos-arm64:
 
 ################################### CONSOLES #################################
 # Nintendo 3DS
-deps:ctr-neogeo:
+deps:ctr:neogeo:
   extends:
     - .libretro-ctr-static
     - .build-deps-fbneo-neogeo
@@ -222,9 +222,9 @@ libretro-build-neogeo-ctr:
     - .libretro-ctr-static-retroarch-master
     - .core-defs
   dependencies:
-    - deps:ctr-neogeo
+    - deps:ctr:neogeo
   needs:
-    - deps:ctr-neogeo
+    - deps:ctr:neogeo
     - project: libretro/RetroArch
       job: ${STATIC_RETROARCH_JOB_NAME}
       ref: ${STATIC_RETROARCH_BRANCH}
