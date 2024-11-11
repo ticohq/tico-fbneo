@@ -166,8 +166,7 @@ SOURCES_CXX += $(FBNEO_BURN_DIR)/burn.cpp \
 	$(FBNEO_BURNER_DIR)/zipfn.cpp \
 	$(FBNEO_BURNER_DIR)/nvram.cpp \
 	$(FBNEO_INTERFACE_DIR)/audio/aud_dsp.cpp \
-	$(FBNEO_INTERFACE_DIR)/audio/lowpass2.cpp \
-	$(FBNEO_BURN_DEVICES_DIR)/joyprocess.cpp
+	$(FBNEO_INTERFACE_DIR)/audio/lowpass2.cpp
 
 ifneq ($(STATIC_LINKING), 1)
 	SOURCES_C += $(LIBRETRO_COMM_DIR)/file/file_path.c \
