@@ -3251,6 +3251,7 @@ DRV		BurnDrvCHF_multicrto;
 DRV		BurnDrvmd_cjfuweng;
 DRV		Burnmd_Chaojimah;
 DRV		Burnmd_Chaojipok;
+DRV		BurnSpecChaotrouble;
 DRV		BurnDrvsg1k_supertnkt;
 DRV		BurnDrvsg1k_bombjackt2;
 DRV		BurnDrvPgmdemo;
@@ -5130,6 +5131,7 @@ DRV		BurnDrvDkong3;
 DRV		BurnDrvnes_donkeykong3;
 DRV		BurnDrvdkaccel;
 DRV		BurnDrvdkong40y;
+DRV		BurnSpecDkarcade;
 DRV		BurnDrvcv_dkongarcade;
 DRV		BurnDrvDkongbp;
 DRV		BurnDrvDkongbp1;
@@ -9373,6 +9375,7 @@ DRV		BurnDrvmd_madden93;
 DRV		BurnDrvmd_madd93ce;
 DRV		BurnDrvmd_madden;
 DRV		BurnDrvmd_maddenj;
+DRV		BurnSpecJdtalifuego;
 DRV		BurnSpecJohnnyghost;
 DRV		BurnDrvJoinem;
 DRV		BurnDrvJojojr2;
@@ -10680,6 +10683,7 @@ DRV		BurnDrvmd_lotr;
 DRV		BurnDrvmd_lotrgs;
 DRV		BurnDrvsms_lordswrd;
 DRV		BurnDrvMSX_lordover;
+DRV		BurnSpecLordsmidnight;
 DRV		BurnDrvsms_loretta;
 DRV		BurnSpecLorna;
 DRV		BurnDrvMSX_lorna;
@@ -13501,7 +13505,9 @@ DRV		BurnDrvzerofxz;
 DRV		BurnDrvOrius;
 DRV		BurnDrvnes_orphanmoon;
 DRV		BurnDrvnes_orphea;
+DRV		BurnSpecOrvol128en;
 DRV		BurnSpecOrvolen;
+DRV		BurnSpecOrvol128es;
 DRV		BurnSpecOrvoles;
 DRV		BurnDrvsnes_Oscar;
 DRV		BurnDrvOsman;
@@ -13675,6 +13681,7 @@ DRV		BurnDrvnes_pacmance;
 DRV		BurnDrvcv_pacmancol;
 DRV		BurnDrvpacplus;
 DRV		BurnSpecPacmanrx;
+DRV		BurnSpecPmslimers;
 DRV		BurnDrvnes_pacmanx;
 DRV		BurnDrvPacmaniao;
 DRV		BurnSpecpacmania;
@@ -13719,7 +13726,6 @@ DRV		BurnDrvPackbangp;
 DRV		BurnDrvPackbang;
 DRV		BurnDrvpacketman;
 DRV		BurnDrvclubpacm;
-DRV		BurnSpecPmslimers;
 DRV		BurnDrvMSX_pacobomb2e;
 DRV		BurnDrvMSX_pacobomb2i;
 DRV		BurnDrvMSX_pacobomb2s;
@@ -26100,6 +26106,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_cjfuweng,		// Chao Ji Da Fu Weng (Taiwan) (Unl)
 	&Burnmd_Chaojimah,			// Chao Ji Mahjong Club (Taiwan) (Unl)
 	&Burnmd_Chaojipok,			// Chao Ji Poker (Taiwan) (Unl)
+	&BurnSpecChaotrouble,		// Chao Trouble (48K) (HB)
 	&BurnDrvsg1k_supertnkt,		// Chaoji Tanke (Taiwan)
 	&BurnDrvsg1k_bombjackt2,	// Chaoren (Taiwan)
 	&BurnDrvPgmdemo,			// Chaos (PGM Demo)
@@ -27979,6 +27986,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_donkeykong3,	// Donkey Kong 3 (USA)
 	&BurnDrvdkaccel,			// Donkey Kong Accelerate
 	&BurnDrvdkong40y,			// Donkey Kong Anniversary Edition
+	&BurnSpecDkarcade,			// Donkey Kong Arcade (48K) (HB)
 	&BurnDrvcv_dkongarcade,		// Donkey Kong Arcade (SGM) (HB)
 	&BurnDrvDkongbp,			// Donkey Kong Barrelpalooza v1.06
 	&BurnDrvDkongbp1,			// Donkey Kong Barrelpalooza v1.07
@@ -32222,6 +32230,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_madd93ce,		// John Madden Football '93 - Championship Edition (USA)
 	&BurnDrvmd_madden,			// John Madden Football (Euro, USA)
 	&BurnDrvmd_maddenj,			// John Madden Football - Pro Football (Japan)
+	&BurnSpecJdtalifuego,		// Johnny Danger y el Talisman de Fuego (Spanish) (48K) (HB)
 	&BurnSpecJohnnyghost,		// Johnny the Ghost (128K) (HB)
 	&BurnDrvJoinem,				// Joinem
 	&BurnDrvJojojr2,			// JoJo no Kimyou na Bouken (Japan 981202)
@@ -33529,6 +33538,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_lotrgs,			// Lord of the Rings - The Return of the King (Russia) (Unl)
 	&BurnDrvsms_lordswrd,		// Lord of the Sword (Euro, USA, Brazil)
 	&BurnDrvMSX_lordover,		// Lord Over (Japan)
+	&BurnSpecLordsmidnight,		// Lords of Midnight, The (48K) (HB)
 	&BurnDrvsms_loretta,		// Loretta no Shouzou - Sherlock Holmes (Japan)
 	&BurnSpecLorna,				// Lorna (128K)
 	&BurnDrvMSX_lorna,			// Lorna (Euro, Spanish)
@@ -36350,7 +36360,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvOrius,				// Orius (ver UAA)
 	&BurnDrvnes_orphanmoon,		// Orphan Moon (GlobalHack)
 	&BurnDrvnes_orphea,			// Orphea (HB, v1.1)
+	&BurnSpecOrvol128en,		// Orvol Voon (English) (128K) (HB, v1.2)
 	&BurnSpecOrvolen,			// Orvol Voon (English) (48K) (HB)
+	&BurnSpecOrvol128es,		// Orvol Voon (Spanish) (128K) (HB, v1.2)
 	&BurnSpecOrvoles,			// Orvol Voon (Spanish) (48K) (HB)
 	&BurnDrvsnes_Oscar,			// Oscar (USA)
 	&BurnDrvOsman,				// Osman (World)
@@ -36524,6 +36536,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_pacmancol,		// Pac-Man Collection (HB)
 	&BurnDrvpacplus,			// Pac-Man Plus
 	&BurnSpecPacmanrx,			// Pac-Man RX (48K) (HB)
+	&BurnSpecPmslimers,			// Pac-Man the Curse of the Slimers (48K) (HB, v1.1)
 	&BurnDrvnes_pacmanx,		// Pac-Man Xtreme (Hack)
 	&BurnDrvPacmaniao,			// Pac-Mania (111187 sound program)
 	&BurnSpecpacmania,			// Pac-Mania (128K)
@@ -36568,7 +36581,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvPackbang,			// Pack'n Bang Bang
 	&BurnDrvpacketman,			// Packetman (bootleg)
 	&BurnDrvclubpacm,			// Pacman Club / Club Lambada (Argentina)
-	&BurnSpecPmslimers,			// Pacman the Curse of the Slimers (48K) (HB, v1.1)
 	&BurnDrvMSX_pacobomb2e,		// Paco 2 - Paco El Bombas Again (English) (HB)
 	&BurnDrvMSX_pacobomb2i,		// Paco 2 - Paco El Bombas Again (Italian) (HB)
 	&BurnDrvMSX_pacobomb2s,		// Paco 2 - Paco El Bombas Again (Spanish) (HB)
@@ -48925,6 +48937,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_cjfuweng", "megadrive/d_megadrive.cpp"},
 	{ "md_chaojimah", "megadrive/d_megadrive.cpp"},
 	{ "md_chaojipok", "megadrive/d_megadrive.cpp"},
+	{ "spec_chaotrouble", "spectrum/d_spectrum.cpp"},
 	{ "sg1k_supertnkt", "sg1000/d_sg1000.cpp"},
 	{ "sg1k_bombjackt2", "sg1000/d_sg1000.cpp"},
 	{ "pgmdemo", "pgm/d_pgm.cpp"},
@@ -50790,6 +50803,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_donkeykong3", "nes/d_nes.cpp"},
 	{ "dkaccel", "pre90s/d_dkong.cpp"},
 	{ "dkong40y", "pre90s/d_dkong.cpp"},
+	{ "spec_dkarcade", "spectrum/d_spectrum.cpp"},
 	{ "cv_dkongarcade", "coleco/d_coleco.cpp"},
 	{ "dkongbp", "pre90s/d_dkong.cpp"},
 	{ "dkongbp1", "pre90s/d_dkong.cpp"},
@@ -54999,6 +55013,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_madd93ce", "megadrive/d_megadrive.cpp"},
 	{ "md_madden", "megadrive/d_megadrive.cpp"},
 	{ "md_maddenj", "megadrive/d_megadrive.cpp"},
+	{ "spec_jdtalifuego", "spectrum/d_spectrum.cpp"},
 	{ "spec_johnnyghost", "spectrum/d_spectrum.cpp"},
 	{ "joinem", "pre90s/d_jack.cpp"},
 	{ "jojojr2", "cps3/d_cps3.cpp"},
@@ -56292,6 +56307,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_lotrgs", "megadrive/d_megadrive.cpp"},
 	{ "sms_lordswrd", "sms/d_sms.cpp"},
 	{ "msx_lordover", "msx/d_msx.cpp"},
+	{ "spec_lordsmidnight", "spectrum/d_spectrum.cpp"},
 	{ "sms_loretta", "sms/d_sms.cpp"},
 	{ "spec_lorna", "spectrum/d_spectrum.cpp"},
 	{ "msx_lorna", "msx/d_msx.cpp"},
@@ -59089,7 +59105,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "orius", "konami/d_xexex.cpp"},
 	{ "nes_orphanmoon", "nes/d_nes.cpp"},
 	{ "nes_orphea", "nes/d_nes.cpp"},
+	{ "spec_orvol128en", "spectrum/d_spectrum.cpp"},
 	{ "spec_orvolen", "spectrum/d_spectrum.cpp"},
+	{ "spec_orvol128es", "spectrum/d_spectrum.cpp"},
 	{ "spec_orvoles", "spectrum/d_spectrum.cpp"},
 	{ "snes_oscar", "snes/d_snes.cpp"},
 	{ "osman", "dataeast/d_simpl156.cpp"},
@@ -59263,6 +59281,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "cv_pacmancol", "coleco/d_coleco.cpp"},
 	{ "pacplus", "pre90s/d_pacman.cpp"},
 	{ "spec_pacmanrx", "spectrum/d_spectrum.cpp"},
+	{ "spec_pmslimers", "spectrum/d_spectrum.cpp"},
 	{ "nes_pacmanx", "nes/d_nes.cpp"},
 	{ "pacmaniao", "pre90s/d_namcos1.cpp"},
 	{ "spec_pacmania", "spectrum/d_spectrum.cpp"},
@@ -59307,7 +59326,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "packbang", "pst90s/d_kaneko16.cpp"},
 	{ "packetman", "pre90s/d_pacman.cpp"},
 	{ "clubpacm", "pre90s/d_pacman.cpp"},
-	{ "spec_pmslimers", "spectrum/d_spectrum.cpp"},
 	{ "msx_pacobomb2e", "msx/d_msx.cpp"},
 	{ "msx_pacobomb2i", "msx/d_msx.cpp"},
 	{ "msx_pacobomb2s", "msx/d_msx.cpp"},
