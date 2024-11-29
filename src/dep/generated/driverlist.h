@@ -5652,8 +5652,8 @@ DRV		BurnDrvCpsDdsomr2;
 DRV		BurnDrvCpsDdsomr1;
 DRV		BurnDrvCpsDdsom;
 DRV		BurnDrvCpsDdsomh;
-DRV		BurnDrvCpsDdsomjr1;
 DRV		BurnDrvCpsDdsomjr2;
+DRV		BurnDrvCpsDdsomjr1;
 DRV		BurnDrvCpsDdsomj;
 DRV		BurnDrvCpsDdsomudp;
 DRV		BurnDrvCpsDdsomjc;
@@ -8560,6 +8560,7 @@ DRV		BurnSpecHobbit128;
 DRV		BurnSpechobbit2;
 DRV		BurnSpechobbit;
 DRV		BurnSpecHobgobl;
+DRV		BurnDrvnes_hoboalbo;
 DRV		BurnDrvHoccer2;
 DRV		BurnDrvHoccer;
 DRV		BurnDrvCHF_builtin;
@@ -28507,8 +28508,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsDdsomr1,			// Dungeons & Dragons: Shadow over Mystara (Europe 960223)
 	&BurnDrvCpsDdsom,			// Dungeons & Dragons: Shadow over Mystara (Europe 960619)
 	&BurnDrvCpsDdsomh,			// Dungeons & Dragons: Shadow over Mystara (Hispanic 960223)
-	&BurnDrvCpsDdsomjr1,		// Dungeons & Dragons: Shadow over Mystara (Japan 960206)
-	&BurnDrvCpsDdsomjr2,		// Dungeons & Dragons: Shadow over Mystara (Japan 960223)
+	&BurnDrvCpsDdsomjr2,		// Dungeons & Dragons: Shadow over Mystara (Japan 960206)
+	&BurnDrvCpsDdsomjr1,		// Dungeons & Dragons: Shadow over Mystara (Japan 960223)
 	&BurnDrvCpsDdsomj,			// Dungeons & Dragons: Shadow over Mystara (Japan 960619)
 	&BurnDrvCpsDdsomudp,		// Dungeons & Dragons: Shadow over Mystara (Plus, Hack)
 	&BurnDrvCpsDdsomjc,			// Dungeons & Dragons: Shadow over Mystara (T-Chi)
@@ -31415,6 +31416,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpechobbit2,			// Hobbit, The v1.0 (48K)
 	&BurnSpechobbit,			// Hobbit, The v1.2 (48K)
 	&BurnSpecHobgobl,			// Hobgoblin (48K)
+	&BurnDrvnes_hoboalbo,		// Hobo Albo's Big Adventure (HB)
 	&BurnDrvHoccer2,			// Hoccer (earlier)
 	&BurnDrvHoccer,				// Hoccer (newer)
 	&BurnDrvCHF_builtin,		// Hockey + Tennis
@@ -33237,8 +33239,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_legacwizc,		// Legacy of the Wizard (Hack, Spanish)
 	&BurnDrvnes_legacwiz,		// Legacy of the Wizard (USA)
 	&BurnDrvsnes_Legend,		// Legend (USA)
-	&BurnDrvnes_legenbal,		// Legend of Balubalouk (Hack, English)
-	&BurnDrvnes_legenbalj,		// Legend of Balubalouk (Japan)
+	&BurnDrvnes_legenbal,		// Legend of Balubalouk, The (Hack, English v1.1)
+	&BurnDrvnes_legenbalj,		// Legend of Balubalouk, The (Japan)
 	&BurnDrvnes_legenfum,		// Legend of Fuma, The (Hack, English)
 	&BurnDrvLoht_ms,			// Legend of Hero Tonma (Gaelco bootleg, Modular System) [no comment, NOT WORKING]
 	&BurnDrvLohtj,				// Legend of Hero Tonma (Japan)
@@ -33262,7 +33264,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_legenkag,		// Legend of Kage, The (USA)
 	&BurnDrvLomakai,			// Legend of Makai (World)
 	&BurnDrvLegendos,			// Legend of Success Joe / Ashita no Joe Densetsu
-	&BurnDrvnes_legendsm,		// Legend of Super Mario, The - Save Mushroom Kingdom (GlobalHack)
+	&BurnDrvnes_legendsm,		// Legend of Super Mario, The - Save Mushroom Kingdom (GlobalHack, v1.2)
 	&BurnSpecLegamawom,			// Legend of the Amazon Women (48K)
 	&BurnSpecFrogprince,		// Legend of the Frog Prince, The (128K) (HB)
 	&BurnDrvsnes_Legendmninjae,	// Legend of the Mystical Ninja, The (Euro, English)
@@ -33279,7 +33281,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_legenzeldx,		// Legend of Zelda DX, The (Graphics Hack)
 	&BurnDrvnes_legenzelrd,		// Legend of Zelda Redux, The (Hack, v3.1)
 	&BurnDrvnes_legenzeli,		// Legend of Zelda, The (Hack, Italian)
-	&BurnDrvnes_legenzel,		// Legend of Zelda, The (USA) (Rev A)
+	&BurnDrvnes_legenzel,		// Legend of Zelda, The (USA, Rev A)
 	&BurnDrvsnes_Legendofzelda18hp,// Legend of Zelda, The - 18 Hours Past (Hack, v1.12)
 	&BurnDrvsnes_Legendofzeldafr,// Legend of Zelda, The - A Link to the Past (Canada, French)
 	&BurnDrvsnes_Legendofzeldati,// Legend of Zelda, The - A Link to the Past (Hack, Italian v1.1)
@@ -51316,8 +51318,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "ddsomr1", "capcom/d_cps2.cpp"},
 	{ "ddsom", "capcom/d_cps2.cpp"},
 	{ "ddsomh", "capcom/d_cps2.cpp"},
-	{ "ddsomjr1", "capcom/d_cps2.cpp"},
 	{ "ddsomjr2", "capcom/d_cps2.cpp"},
+	{ "ddsomjr1", "capcom/d_cps2.cpp"},
 	{ "ddsomj", "capcom/d_cps2.cpp"},
 	{ "ddsomudp", "capcom/d_cps2.cpp"},
 	{ "ddsomjc", "capcom/d_cps2.cpp"},
@@ -54206,6 +54208,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_hobbit2", "spectrum/d_spectrum.cpp"},
 	{ "spec_hobbit", "spectrum/d_spectrum.cpp"},
 	{ "spec_hobgobl", "spectrum/d_spectrum.cpp"},
+	{ "nes_hoboalbo", "nes/d_nes.cpp"},
 	{ "hoccer2", "pre90s/d_marineb.cpp"},
 	{ "hoccer", "pre90s/d_marineb.cpp"},
 	{ "chf_builtin", "channelf/d_channelf.cpp"},
