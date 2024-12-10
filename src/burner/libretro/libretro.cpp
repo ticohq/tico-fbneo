@@ -1155,7 +1155,7 @@ static bool open_archive()
 
 					if (index >= 0)
 					{
-						if ((NULL == pDataRomDesc) && (-1 == pRDI->nDescCount))						// Not in romdata mode
+						if ((NULL == pDataRomDesc) && (pRDI->nDescCount <= 0))						// Not in romdata mode
 						{
 							if (unknown_crc)
 								HandleMessage(RETRO_LOG_WARN, "[FBNeo] Using ROM with unknown crc 0x%08x and name %s from archive %s\n", real_rom_crc, rom_name, g_find_list_path[z].path.c_str());
