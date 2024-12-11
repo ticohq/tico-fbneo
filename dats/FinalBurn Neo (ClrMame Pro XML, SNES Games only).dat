@@ -730,6 +730,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="arcadeatarih1e" sourcefile="snes/d_snes.cpp">
+		<description>Arcade's Greatest Hits - The Atari Collection (Euro)</description>
+		<year>1997</year>
+		<manufacturer>Midway</manufacturer>
+		<rom name="Arcade's Greatest Hits - The Atari Collection (E)(1997)(Midway).sfc" size="524288" crc="d562233e"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="arcana" sourcefile="snes/d_snes.cpp">
 		<description>Arcana (USA)</description>
 		<year>1992</year>
@@ -1509,6 +1517,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bsdraculae" sourcefile="snes/d_snes.cpp">
+		<description>Bram Stoker's Dracula (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Sony Imagesoft</manufacturer>
+		<rom name="Bram Stoker's Dracula (E)(1993)(Sony Imagesoft).sfc" size="1048576" crc="9ee3835d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="brandishj" cloneof="brandish" romof="brandish" sourcefile="snes/d_snes.cpp">
 		<description>Brandish (Japan)</description>
 		<year>1994</year>
@@ -1804,7 +1820,7 @@
 		<description>Captain Tsubasa IV - Pro no Rival Tachi (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Tecmo</manufacturer>
-		<rom name="Captain Tsubasa IV - Pro no Rival Tachi (Japan)(1993)(Tecmo).sfc" size="1572864" crc="3e04b246"/>
+		<rom name="Captain Tsubasa IV - Pro no Rival Tachi (J)(1993)(Tecmo).sfc" size="1572864" crc="3e04b246"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1812,7 +1828,7 @@
 		<description>Captain Tsubasa V - Hasha no Shougou Campione (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Tecmo</manufacturer>
-		<rom name="Captain Tsubasa V - Hasha no Shougou Canpione (Japan)(1994)(Tecmo).sfc" size="2097152" crc="e2b26d99"/>
+		<rom name="Captain Tsubasa V - Hasha no Shougou Canpione (J)(1994)(Tecmo).sfc" size="2097152" crc="e2b26d99"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4270,6 +4286,23 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="fmgunhazardte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Front Mission - Gun Hazard (Hack, English v1.01)</description>
+		<year>2004</year>
+		<manufacturer>Aeon Genesis</manufacturer>
+		<rom name="Front Mission - Gun Hazard T-Eng (2004)(Aeon Genesis).sfc" size="3145728" crc="e4628064"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="fmgunhazardj" cloneof="fmgunhazardte" romof="fmgunhazardte" sourcefile="snes/d_snes.cpp">
+		<description>Front Mission - Gun Hazard (Japan)</description>
+		<year>1996</year>
+		<manufacturer>Squaresoft</manufacturer>
+		<rom name="Front Mission - Gun Hazard (J)(1996)(Squaresoft).sfc" size="3145728" crc="fd3fdbac"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="fruelufia" cloneof="lufia2" romof="lufia2" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Frue Lufia (Hack, v7.0)</description>
@@ -4363,16 +4396,8 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="ganbgoemon" cloneof="legendmninja" romof="legendmninja" sourcefile="snes/d_snes.cpp">
-		<description>Ganbare Goemon - Yuki hime Kyuushuutsu emaki (Japan)</description>
-		<year>1992</year>
-		<manufacturer>Konami</manufacturer>
-		<rom name="Ganbare Goemon - Yuki hime Kyuushuutsu emaki (J)(1992)(Konami).sfc" size="1048576" crc="6cd62399"/>
-		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="ganbgoemon2" cloneof="ganbgoemon2te" romof="ganbgoemon2te" sourcefile="snes/d_snes.cpp">
-		<description>Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan)</description>
+		<description>Ganbare Goemon 2: Kiteretsu Shougun Magginesu (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (J)(1993(Konami).sfc" size="2097152" crc="ca4c0219"/>
@@ -4380,10 +4405,35 @@
 		<driver status="good"/>
 	</game>
 	<game name="ganbgoemon3" cloneof="ganbgoemon3te" romof="ganbgoemon3te" sourcefile="snes/d_snes.cpp">
-		<description>Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame (Japan)</description>
+		<description>Ganbare Goemon 3: Shishi Juuroku Hyoue no Karakuri Manjigatame (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="Ganbare Goemon 3 - Shishi Juuroku Hyoue no Karakuri Manjigatame (J)(1994)(Konami).sfc" size="2097152" crc="7e5929e8"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ganbgoemon4tp" cloneof="ganbgoemon4te" romof="ganbgoemon4te" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, Mini Game-in-Game Time Pilot standalone</comment>
+		<description>Ganbare Goemon 4 - Time Pilot</description>
+		<year>2022</year>
+		<manufacturer>Svambo, Nokia3310</manufacturer>
+		<rom name="Go for it! Goemon 4 - Time Pilot (2022)(Svambo, Nokia3310).smc" size="2097152" crc="eef6d15a"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ganbgoemon4j" cloneof="ganbgoemon4te" romof="ganbgoemon4te" sourcefile="snes/d_snes.cpp">
+		<description>Ganbare Goemon 4: Kirakira Douchuu (Japan)</description>
+		<year>1995</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="Ganbare Goemon - Kirakira Douchuu (J)(1995)(Konami).sfc" size="3145728" crc="bb9d8e56"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ganbgoemon" cloneof="legendmninja" romof="legendmninja" sourcefile="snes/d_snes.cpp">
+		<description>Ganbare Goemon: Yuki hime Kyuushuutsu emaki (Japan)</description>
+		<year>1992</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="Ganbare Goemon - Yuki hime Kyuushuutsu emaki (J)(1992)(Konami).sfc" size="1048576" crc="6cd62399"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4544,7 +4594,7 @@
 	</game>
 	<game name="ganbgoemon2te" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Go for it! Goemon 2 - The Strange General McGuinness (Hack, English v3.0)</description>
+		<description>Go for it! Goemon 2: The Strange General McGuinness (Hack, English v3.0)</description>
 		<year>2020</year>
 		<manufacturer>DDSTranslation</manufacturer>
 		<rom name="Go for it! Goemon 2 - The Strange General McGuinness T-Eng v3.0 (2020)(DDSTranslation).sfc" size="4194304" crc="87aa6548"/>
@@ -4553,10 +4603,19 @@
 	</game>
 	<game name="ganbgoemon3te" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Go for it! Goemon 3 - The Mecha Leg Hold of Jurokube Shishi (Hack, English v4.0)</description>
+		<description>Go for it! Goemon 3: The Mecha Leg Hold of Jurokube Shishi (Hack, English v4.0)</description>
 		<year>2020</year>
 		<manufacturer>DDSTranslation</manufacturer>
 		<rom name="Go for it! Goemon 3 - The Mecha Leg Hold of Jurokube Shishi T-Eng v4.0 (2020)(DDSTranslation).sfc" size="4194304" crc="74bbe6a0"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ganbgoemon4te" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Go for it! Goemon 4: The Twinkling Journey (Hack, English v3.0)</description>
+		<year>2020</year>
+		<manufacturer>DDSTranslation</manufacturer>
+		<rom name="Go for it! Goemon - The Twinkling Journey T-Eng v3.0 (2020)(DDSTranslation).sfc" size="4194304" crc="a3334a66"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5429,6 +5488,14 @@
 		<year>1995</year>
 		<manufacturer>Ocean - Probe</manufacturer>
 		<rom name="Jelly Boy (E)(1995)(Ocean).sfc" size="1048576" crc="f8c72a24"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="jellyboy2j" sourcefile="snes/d_snes.cpp">
+		<description>Jelly Boy 2 (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Epic/Sony Records</manufacturer>
+		<rom name="Jelly Boy 2 (J)(1994)(Epic-Sony Records).sfc" size="1572864" crc="f3a6c574"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8323,6 +8390,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="pitfallvcs" cloneof="pitfallmaya" romof="pitfallmaya" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, Included as hidden game in 'Pitfall - The Mayan Adventure'</comment>
+		<description>Pitfall - Atari VCS 2600 (Hack)</description>
+		<year>2022</year>
+		<manufacturer>Nokia3310</manufacturer>
+		<rom name="Pitfall - Atari VCS 2600 (2022)(Nokia3310).sfc" size="2097152" crc="12c81eda"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="pitfallmaya" sourcefile="snes/d_snes.cpp">
 		<description>Pitfall - The Mayan Adventure (USA)</description>
 		<year>1994</year>
@@ -8734,6 +8810,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="puttysquade" sourcefile="snes/d_snes.cpp">
+		<description>Putty Squad (Euro)</description>
+		<year>1994</year>
+		<manufacturer>Ocean</manufacturer>
+		<rom name="Putty Squad (E)(1994)(Ocean).sfc" size="1572864" crc="c061f0a8"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="puzzlebubble" cloneof="bustamove" romof="bustamove" sourcefile="snes/d_snes.cpp">
 		<description>Puzzle Bobble (Japan)</description>
 		<year>1995</year>
@@ -8760,10 +8844,10 @@
 	</game>
 	<game name="quinty" sourcefile="snes/d_snes.cpp">
 		<comment>Prototype</comment>
-		<description>Quinty (Japan, Prototype)</description>
+		<description>Quinty (Prototype)</description>
 		<year>1999</year>
 		<manufacturer>Game Freak</manufacturer>
-		<rom name="Quinty (1999)(Game Freak).sfc" size="2097152" crc="1225927b"/>
+		<rom name="Quinty (Proto)(1999)(Game Freak).sfc" size="2097152" crc="1225927b"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9472,7 +9556,7 @@
 		<description>Seiken Densetsu 3 (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Squaresoft</manufacturer>
-		<rom name="Seiken Densetsu 3 (Japan)(1995)(Squaresoft).sfc" size="4194304" crc="863ed0b8"/>
+		<rom name="Seiken Densetsu 3 (J)(1995)(Squaresoft).sfc" size="4194304" crc="863ed0b8"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9506,6 +9590,15 @@
 		<year>1992</year>
 		<manufacturer>Toho Co.</manufacturer>
 		<rom name="Serizawa Nobuo no Birdie Try (J)(1992)(Toho Co.).sfc" size="1048576" crc="987a96d0"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="shadowp" sourcefile="snes/d_snes.cpp">
+		<comment>Prototype, NB: there are glitches in some sprites</comment>
+		<description>Shadow, The (Prototype)</description>
+		<year>1994</year>
+		<manufacturer>Ocean</manufacturer>
+		<rom name="Shadow, The (Proto)(1994)(Ocean).sfc" size="2097152" crc="36894cc3"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10970,7 +11063,7 @@
 		<description>Super Conflict (USA)</description>
 		<year>1993</year>
 		<manufacturer>Vic Tokai</manufacturer>
-		<rom name="Super Conflict (USA)(1993)(Vic Tokai).sfc" size="1048576" crc="f254d5cf"/>
+		<rom name="Super Conflict (U)(1993)(Vic Tokai).sfc" size="1048576" crc="f254d5cf"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -12048,7 +12141,7 @@
 		<description>Super Variable Geo (Japan)</description>
 		<year>1995</year>
 		<manufacturer>TGL</manufacturer>
-		<rom name="Super Variable Geo (Japan)(1995)(TGL).sfc" size="3145728" crc="de3262e7"/>
+		<rom name="Super Variable Geo (J)(1995)(TGL).sfc" size="3145728" crc="de3262e7"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13618,8 +13711,8 @@
 	<game name="yuuyuuhak" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Namcot</manufacturer>
-		<rom name="Yuu Yuu Hakusho (1993)(Namcot).sfc" size="2097152" crc="ec96d517"/>
+		<manufacturer>Namco</manufacturer>
+		<rom name="Yuu Yuu Hakusho (J)(1993)(Namco).sfc" size="2097152" crc="ec96d517"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13642,8 +13735,8 @@
 	<game name="yuuyuufin" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (Japan)</description>
 		<year>1995</year>
-		<manufacturer>Namcot</manufacturer>
-		<rom name="Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (1995)(Namcot).sfc" size="3145728" crc="5617a42e"/>
+		<manufacturer>Namco</manufacturer>
+		<rom name="Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (J)(1995)(Namco).sfc" size="3145728" crc="5617a42e"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
