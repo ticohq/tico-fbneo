@@ -500,6 +500,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="albertods2j" sourcefile="snes/d_snes.cpp">
+		<description>Albert Odyssey 2: Jashin no Taidou (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Sunsoft</manufacturer>
+		<rom name="Albert Odyssey 2 - Jashin no Taidou (J)(1994)(Sunsoft).sfc" size="2097152" crc="1b6add7b"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="alcahestte" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Alcahest (Hack, English)</description>
@@ -964,6 +972,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="axelayff" cloneof="axelay" romof="axelay" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Axelay - FastROM Fix (Hack)</description>
+		<year>2021</year>
+		<manufacturer>Vitor Vilela</manufacturer>
+		<rom name="Axelay - FastROM Fix (2021)(Vitor Vilela).sfc" size="1048576" crc="4bb73534"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bob" sourcefile="snes/d_snes.cpp">
 		<description>B.O.B. (USA)</description>
 		<year>1993</year>
@@ -1264,6 +1281,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="battletoadseasy" cloneof="battletoads" romof="battletoads" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Battletoads in Battlemaniacs - Easier (Hack)</description>
+		<year>U</year>
+		<manufacturer>_Q_</manufacturer>
+		<rom name="Battletoads in Battlemaniacs - Easier (U)(2024)(_Q_).sfc" size="1048576" crc="cc1199dc"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bazooblitz" sourcefile="snes/d_snes.cpp">
 		<comment>'Super Scope' exclusive game</comment>
 		<description>Bazooka Blitzkrieg (USA)</description>
@@ -1538,6 +1564,23 @@
 		<year>1995</year>
 		<manufacturer>Koei</manufacturer>
 		<rom name="Brandish (U)(1995)(Koei).sfc" size="1572864" crc="74f70a0b"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="brandish2te" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Brandish 2: The Planet Buster (Hack, English)</description>
+		<year>2009</year>
+		<manufacturer>Synchronicity</manufacturer>
+		<rom name="Brandish 2 - The Planet Buster T-Eng (2009)(Synchronicity).sfc" size="3145728" crc="9db396ec"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="brandish2j" cloneof="brandish2te" romof="brandish2te" sourcefile="snes/d_snes.cpp">
+		<description>Brandish 2: The Planet Buster (Japan)</description>
+		<year>1995</year>
+		<manufacturer>Koei</manufacturer>
+		<rom name="Brandish 2 - The Planet Buster (J)(1995)(Koei).sfc" size="3145728" crc="bb89e67e"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4413,11 +4456,11 @@
 		<driver status="good"/>
 	</game>
 	<game name="ganbgoemon4tp" cloneof="ganbgoemon4te" romof="ganbgoemon4te" sourcefile="snes/d_snes.cpp">
-		<comment>Hack, Mini Game-in-Game Time Pilot standalone</comment>
-		<description>Ganbare Goemon 4 - Time Pilot</description>
+		<comment>Hack, Included as hidden game in 'Ganbare Goemon 4'</comment>
+		<description>Ganbare Goemon 4 - Time Pilot (Hack)</description>
 		<year>2022</year>
 		<manufacturer>Svambo, Nokia3310</manufacturer>
-		<rom name="Go for it! Goemon 4 - Time Pilot (2022)(Svambo, Nokia3310).smc" size="2097152" crc="eef6d15a"/>
+		<rom name="Go for it! Goemon 4 - Time Pilot (2022)(Svambo, Nokia3310).sfc" size="2097152" crc="eef6d15a"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6203,6 +6246,23 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="laplacej" cloneof="laplacete" romof="laplacete" sourcefile="snes/d_snes.cpp">
+		<description>Laplace no Ma (Japan)</description>
+		<year>1995</year>
+		<manufacturer>Vic Tokai</manufacturer>
+		<rom name="Laplace no Ma (J)(1995)(Vic Tokai).sfc" size="2097152" crc="49c4cc15"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="laplacete" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Laplace's Demon (Hack, English v2.00)</description>
+		<year>2018</year>
+		<manufacturer>Aeon Genesis</manufacturer>
+		<rom name="Laplace's Demon T-Eng v2.00 (2018)(Aeon Genesis).sfc" size="2097152" crc="6105876c"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="vegasdream" cloneof="vegasstakes" romof="vegasstakes" sourcefile="snes/d_snes.cpp">
 		<comment>'SNES Mouse' compatible game (Set Dipswitches)</comment>
 		<description>Las Vegas Dream in Golden Paradise (Japan)</description>
@@ -7046,6 +7106,15 @@
 		<year>1994</year>
 		<manufacturer>Capcom</manufacturer>
 		<rom name="Megaman's Soccer (U)(1994)(Capcom).sfc" size="1310720" crc="fa9ee2ce"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="megamansocrest" cloneof="megamansoccer" romof="megamansoccer" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Mega Man's Soccer Restoration (Hack, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>_Q_</manufacturer>
+		<rom name="Mega Man's Soccer Restoration v1.1 (U)(2024)(_Q_).sfc" size="1310720" crc="a45f64c0"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7932,6 +8001,24 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="onegaidlc" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, Homebrew, A complete overhaul of Super Mario World</comment>
+		<description>Onegai My Melody - Detour Land Conquest (GlobalHack)</description>
+		<year>2024</year>
+		<manufacturer>Big Brawler</manufacturer>
+		<rom name="Onegai My Melody - Detour Land Conquest (2024)(Big Brawler).sfc" size="3145728" crc="ca03c75c"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="onegaimma" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, Homebrew, A complete overhaul of Super Mario World</comment>
+		<description>Onegai My Melody - My Melody Adventure (GlobalHack, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>Big Brawler</manufacturer>
+		<rom name="Onegai My Melody - My Melody Adventure v1.1 (2024)(Big Brawler).sfc" size="4194304" crc="6c66776a"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="opeuro3945" sourcefile="snes/d_snes.cpp">
 		<description>Operation Europe - Path to Victory 1939-45 (USA)</description>
 		<year>1994</year>
@@ -8162,10 +8249,10 @@
 	</game>
 	<game name="parodiusjff" cloneof="parodiuse" romof="parodiuse" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Parodius Da!: Shinwa kara Owarai e - Fastrom Fix (Japan, Hack)</description>
+		<description>Parodius Da!: Shinwa kara Owarai e - FastROM Fix (Japan, Hack)</description>
 		<year>2021</year>
 		<manufacturer>MaxwelOlinda</manufacturer>
-		<rom name="Parodius Da! - Shinwa kara Owarai e - Fastrom Fix (J)(2021)(MaxwelOlinda).sfc" size="1048576" crc="9554dd02"/>
+		<rom name="Parodius Da! - Shinwa kara Owarai e - FastROM Fix (J)(2021)(MaxwelOlinda).sfc" size="1048576" crc="9554dd02"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8179,10 +8266,10 @@
 	</game>
 	<game name="parodiuseff" cloneof="parodiuse" romof="parodiuse" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Parodius: Non-Sense Fantasy - Fastrom Fix (Euro, Hack, v1.04)</description>
+		<description>Parodius: Non-Sense Fantasy - FastROM Fix (Euro, Hack, v1.04)</description>
 		<year>2023</year>
 		<manufacturer>kandowontu</manufacturer>
-		<rom name="Parodius - Non-Sense Fantasy - Fastrom Fix v1.04 (E)(2023)(kandowontu).sfc" size="1048576" crc="7fa02b26"/>
+		<rom name="Parodius - Non-Sense Fantasy - FastROM Fix v1.04 (E)(2023)(kandowontu).sfc" size="1048576" crc="7fa02b26"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9250,6 +9337,15 @@
 		<year>1994</year>
 		<manufacturer>Capcom</manufacturer>
 		<rom name="Rockman's Soccer (J)(1994)(Capcom).sfc" size="1310720" crc="a3277c10"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="rockmansocrest" cloneof="megamansoccer" romof="megamansoccer" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Rockman's Soccer Restoration (Hack, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>_Q_</manufacturer>
+		<rom name="Rockman's Soccer Restoration v1.1 (J)(2024)(_Q_).sfc" size="1310720" crc="3683897b"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10453,10 +10549,10 @@
 	</game>
 	<game name="steeltalonsff" cloneof="steeltalons" romof="steeltalons" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Steel Talons - Fastrom fix (Hack)</description>
+		<description>Steel Talons - FastROM Fix (Hack)</description>
 		<year>2023</year>
 		<manufacturer>ANONYMOUS</manufacturer>
-		<rom name="Steel Talons - Fastrom fix (2023)(ANONYMOUS).sfc" size="524288" crc="dc40be22"/>
+		<rom name="Steel Talons - FastROM Fix (2023)(ANONYMOUS).sfc" size="524288" crc="dc40be22"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13351,10 +13447,10 @@
 	</game>
 	<game name="wolfchildff" cloneof="wolfchild" romof="wolfchild" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Wolfchild - Fastrom Fix (Hack)</description>
+		<description>Wolfchild - FastROM Fix (Hack)</description>
 		<year>2024</year>
 		<manufacturer>kandowontu</manufacturer>
-		<rom name="Wolfchild - Fastrom Fix (2024)(kandowontu).sfc" size="1048576" crc="fe9deb64"/>
+		<rom name="Wolfchild - FastROM Fix (2024)(kandowontu).sfc" size="1048576" crc="fe9deb64"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
