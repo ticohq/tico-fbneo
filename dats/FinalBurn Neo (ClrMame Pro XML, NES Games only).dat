@@ -13600,6 +13600,22 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="ncc" sourcefile="nes/d_nes.cpp">
+		<description>Nintendo Campus Challenge 1991</description>
+		<year>1991</year>
+		<manufacturer>Nintendo</manufacturer>
+		<rom name="Nintendo Campus Challenge (1991)(Nintendo).nes" size="786448" crc="15c73c66"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="nwc" sourcefile="nes/d_nes.cpp">
+		<description>Nintendo World Championships 1990</description>
+		<year>1990</year>
+		<manufacturer>Nintendo</manufacturer>
+		<rom name="Nintendo World Championships (1990)(Nintendo).nes" size="262160" crc="f12f16a6"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="ninteworcup" sourcefile="nes/d_nes.cpp">
 		<description>Nintendo World Cup (USA)</description>
 		<year>1990</year>
