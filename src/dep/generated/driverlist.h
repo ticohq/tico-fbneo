@@ -1379,6 +1379,7 @@ DRV		BurnDrvmd_smgp2u;
 DRV		BurnDrvAztarac;
 DRV		BurnSpecAztec;
 DRV		BurnDrvsms_aztecadv;
+DRV		BurnDrvcv_Aztecchal;
 DRV		BurnDrvAzurian;
 DRV		BurnSpecA8bitjam;
 DRV		BurnDrvMSX_a8bitjam;
@@ -24282,6 +24283,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvAztarac,			// Aztarac
 	&BurnSpecAztec,				// Aztec (48K) (HB, pre-release)
 	&BurnDrvsms_aztecadv,		// Aztec Adventure - The Golden Road to Paradise (Euro, USA)
+	&BurnDrvcv_Aztecchal,		// Aztec Challenge (HB)
 	&BurnDrvAzurian,			// Azurian Attack
 	&BurnSpecA8bitjam,			// Azzurro 8bit Jam (128K) (HB, v1.1)
 	&BurnDrvMSX_a8bitjam,		// Azzurro 8bit Jam (HB, v1.1)
@@ -47181,6 +47183,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "aztarac", "pre90s/d_aztarac.cpp"},
 	{ "spec_aztec", "spectrum/d_spectrum.cpp"},
 	{ "sms_aztecadv", "sms/d_sms.cpp"},
+	{ "cv_aztecchal", "coleco/d_coleco.cpp"},
 	{ "azurian", "galaxian/d_galaxian.cpp"},
 	{ "spec_a8bitjam", "spectrum/d_spectrum.cpp"},
 	{ "msx_a8bitjam", "msx/d_msx.cpp"},
