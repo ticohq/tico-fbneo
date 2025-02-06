@@ -2836,15 +2836,15 @@ DRV		BurnDrvnes_cadaverion;
 DRV		BurnSpecCadaveriones;
 DRV		BurnDrvCpsDino1v3;
 DRV		BurnDrvCpsDinosyn;
-DRV		BurnDrvCpsDinoa;
 DRV		BurnDrvCpsDinoh;
+DRV		BurnDrvCpsDinohc;
+DRV		BurnDrvCpsDinoa;
 DRV		BurnDrvCpsDinopic;
 DRV		BurnDrvCpsDinopic2;
 DRV		BurnDrvCpsDinopic3;
 DRV		BurnDrvCpsDinopic4;
 DRV		BurnDrvCpsDinopic5;
 DRV		BurnDrvCpsDinosj;
-DRV		BurnDrvCpsDinohc;
 DRV		BurnDrvCpsDinoss;
 DRV		BurnDrvCpsDinojj;
 DRV		BurnDrvCpsDinokr;
@@ -2975,9 +2975,9 @@ DRV		BurnDrvmd_captainbarrel;
 DRV		BurnDrvMSX_captchef;
 DRV		BurnDrvnes_captacom;
 DRV		BurnDrvCpsCaptc1v4;
-DRV		BurnDrvCpsCaptcommb;
 DRV		BurnDrvCpsCaptcommb2;
 DRV		BurnDrvCpsCaptcommb3;
+DRV		BurnDrvCpsCaptcommb;
 DRV		BurnDrvCpsCaptcmsh;
 DRV		BurnDrvCpsCaptcmcr;
 DRV		BurnDrvCpsCaptcmjy;
@@ -4335,9 +4335,6 @@ DRV		BurnDrvmd_dahnagb;
 DRV		BurnDrvmd_dahnams;
 DRV		BurnDrvmd_dahnam;
 DRV		BurnDrvMSX_daidasso;
-DRV		BurnDrvCpsDaimakaib;
-DRV		BurnDrvCpsDaimakair;
-DRV		BurnDrvCpsDaimakai;
 DRV		BurnDrvmd_daimakai;
 DRV		BurnDrvnes_daimeiro;
 DRV		BurnDrvDairesya;
@@ -4364,6 +4361,9 @@ DRV		BurnDrvnes_daikunogensan2;
 DRV		BurnDrvDkgensanm72;
 DRV		BurnDrvDkgensanm82;
 DRV		BurnDrvDkgensan;
+DRV		BurnDrvCpsDaimakaib;
+DRV		BurnDrvCpsDaimakair;
+DRV		BurnDrvCpsDaimakai;
 DRV		BurnDrvsgx_daimakai1;
 DRV		BurnDrvsgx_daimakai;
 DRV		BurnDrvsgx_daimakaid;
@@ -6603,8 +6603,8 @@ DRV		BurnDrvnes_finalfanvii;
 DRV		BurnDrvnes_finalfanviiadvch;
 DRV		BurnSpecfinalfight;
 DRV		BurnDrvCpsFfigh1v2;
-DRV		BurnDrvCpsFfightbl;
 DRV		BurnDrvCpsFfightbla;
+DRV		BurnDrvCpsFfightbl;
 DRV		BurnDrvCpsFfightfw;
 DRV		BurnDrvCpsFfightj1;
 DRV		BurnDrvCpsFfightj2;
@@ -10035,21 +10035,21 @@ DRV		BurnDrvMSX_knightm3;
 DRV		BurnDrvsg1k_moyuchua;
 DRV		BurnSpecKnddx;
 DRV		BurnSpecKnights;
+DRV		BurnDrvCpsKnightsh2;
+DRV		BurnDrvCpsKnightsb5;
 DRV		BurnDrvCpsKnightsb;
 DRV		BurnDrvCpsKnightsb3;
 DRV		BurnDrvCpsKnightsb4;
-DRV		BurnDrvCpsKnightsb5;
-DRV		BurnDrvCpsKnightsb2;
 DRV		BurnDrvCpsKnightct;
 DRV		BurnDrvCpsKnightsh;
-DRV		BurnDrvCpsKnightsh2;
+DRV		BurnDrvCpsKnightsc;
 DRV		BurnDrvCpsKnightsja;
 DRV		BurnDrvCpsKnightsj;
 DRV		BurnDrvCpsKnightsp;
-DRV		BurnDrvCpsKnightsc;
 DRV		BurnDrvCpsKnightsu;
 DRV		BurnDrvsnes_Knightsround;
 DRV		BurnDrvCpsKnights;
+DRV		BurnDrvCpsKnightsb2;
 DRV		BurnDrvKov111;
 DRV		BurnDrvKov114;
 DRV		BurnDrvKov115;
@@ -16315,13 +16315,13 @@ DRV		BurnDrvKovshxsh;
 DRV		BurnDrvnes_sangokushi;
 DRV		BurnDrvsms_sangoku3;
 DRV		BurnDrvCpsWofa;
-DRV		BurnDrvCpsWofabl;
-DRV		BurnDrvCpsWofabla;
 DRV		BurnDrvCpsWofah;
 DRV		BurnDrvCpsWofaha;
 DRV		BurnDrvCpsWofahb;
-DRV		BurnDrvmd_sangoku2;
+DRV		BurnDrvCpsWofabl;
+DRV		BurnDrvCpsWofabla;
 DRV		BurnDrvCpsWofc;
+DRV		BurnDrvmd_sangoku2;
 DRV		BurnDrvnes_sangokushiiihanouc;
 DRV		BurnDrvnes_sangokushiiihanou;
 DRV		BurnDrvCpsWof3js;
@@ -16330,7 +16330,6 @@ DRV		BurnDrvCpsWof3sj;
 DRV		BurnDrvCpsWof3sja;
 DRV		BurnDrvCpsWofh;
 DRV		BurnDrvCpsWofha;
-DRV		BurnDrvCpsSgyxz;
 DRV		BurnDrvCpsWofsj;
 DRV		BurnDrvCpsWofsja;
 DRV		BurnDrvCpsWofsjb;
@@ -18283,36 +18282,17 @@ DRV		BurnSpecStreetfighter2;
 DRV		BurnDrvsms_sf2;
 DRV		BurnDrvsnes_Sf2j;
 DRV		BurnDrvsnes_Sf2;
-DRV		BurnDrvCpsSf2amf;
-DRV		BurnDrvCpsSf2amf4;
-DRV		BurnDrvCpsSf2amf5;
-DRV		BurnDrvCpsSf2amf6;
-DRV		BurnDrvCpsSf2amf7;
-DRV		BurnDrvCpsSf2amf8;
-DRV		BurnDrvCpsSf2amf9;
-DRV		BurnDrvCpsSf2amf11;
-DRV		BurnDrvCpsSf2amf2;
-DRV		BurnDrvCpsSf2amf3;
-DRV		BurnDrvCpsSf2amf10;
-DRV		BurnDrvCpsSf2amf12;
 DRV		BurnDrvnes_streefigiic;
 DRV		BurnDrvnes_streefigii;
 DRV		BurnDrvnes_streefigiihac;
 DRV		BurnDrvCpsSf2mix;
 DRV		BurnDrvsnes_Sf2turboj;
 DRV		BurnDrvsnes_Sf2turbo;
-DRV		BurnDrvCpsSf2cebr;
-DRV		BurnDrvCpsSf2gm;
 DRV		BurnDrvpce_sf2ce;
 DRV		BurnDrvmd_sf2p2;
 DRV		BurnDrvmd_sf2p1;
 DRV		BurnDrvmd_sf2hce;
 DRV		BurnDrvmd_sf2hce2;
-DRV		BurnDrvCpsSf2hfsce;
-DRV		BurnDrvCpsSf2mdt;
-DRV		BurnDrvCpsSf2mdta;
-DRV		BurnDrvCpsSf2mdtb;
-DRV		BurnDrvCpsSf2mdtc;
 DRV		BurnDrvmd_sf2re;
 DRV		BurnDrvmd_sf2;
 DRV		BurnDrvmd_sf2ics;
@@ -18325,11 +18305,10 @@ DRV		BurnDrvCpsSf2hfjb;
 DRV		BurnDrvCpsSf2hfjb2;
 DRV		BurnDrvCpsSf2hfj;
 DRV		BurnDrvCpsSf2cebltw;
+DRV		BurnDrvCpsSf2cebr;
 DRV		BurnDrvCpsSf2ceeabl;
 DRV		BurnDrvCpsSf2ceeab2;
 DRV		BurnDrvCpsSf2ceuabl;
-DRV		BurnDrvCpsSf2ceuab10;
-DRV		BurnDrvCpsSf2ceuab11;
 DRV		BurnDrvCpsSf2ceuab2;
 DRV		BurnDrvCpsSf2ceuab3;
 DRV		BurnDrvCpsSf2ceuab4;
@@ -18344,23 +18323,38 @@ DRV		BurnDrvCpsSf2ceucbl;
 DRV		BurnDrvCpsSf2accp2;
 DRV		BurnDrvCpsSf2acc;
 DRV		BurnDrvCpsSf2acca;
+DRV		BurnDrvCpsSf2amf;
+DRV		BurnDrvCpsSf2amf4;
+DRV		BurnDrvCpsSf2amf5;
+DRV		BurnDrvCpsSf2amf6;
+DRV		BurnDrvCpsSf2amf7;
+DRV		BurnDrvCpsSf2amf8;
+DRV		BurnDrvCpsSf2amf9;
 DRV		BurnDrvCpsSf2level;
-//		BurnDrvCpsSf2ceh;		// no comment
 DRV		BurnDrvCpsSf2ceb2;
 DRV		BurnDrvCpsSf2ceb3;
 DRV		BurnDrvCpsSf2dongb;
 DRV		BurnDrvCpsSf2dkot2;
+DRV		BurnDrvCpsSf2gm;
+//		BurnDrvCpsSf2ceh;		// no comment
 DRV		BurnDrvCpsSf2bhh;
 DRV		BurnDrvCpsSf2ceja;
 DRV		BurnDrvCpsSf2ceupl;
 DRV		BurnDrvCpsSf2cejb;
 DRV		BurnDrvCpsSf2cejc;
+DRV		BurnDrvCpsSf2amf11;
+DRV		BurnDrvCpsSf2amf2;
+DRV		BurnDrvCpsSf2amf3;
+DRV		BurnDrvCpsSf2amf10;
+DRV		BurnDrvCpsSf2amf12;
 DRV		BurnDrvCpsSf2md;
 DRV		BurnDrvCpsSf2mega;
 DRV		BurnDrvCpsSf2mega2;
+DRV		BurnDrvCpsSf2cems6a;
 DRV		BurnDrvCpsSf2ceb;
 DRV		BurnDrvCpsSf2ceb4;
 DRV		BurnDrvCpsSf2ceb5;
+DRV		BurnDrvCpsSf2ceblp;
 DRV		BurnDrvCpsSf2rb;
 DRV		BurnDrvCpsSf2rb2;
 DRV		BurnDrvCpsSf2rb3;
@@ -18368,10 +18362,10 @@ DRV		BurnDrvCpsSf2rb4;
 DRV		BurnDrvCpsSf2rb5;
 DRV		BurnDrvCpsSf2rb6;
 DRV		BurnDrvCpsSf2re;
+DRV		BurnDrvCpsSf2redp2;
 DRV		BurnDrvCpsSf2red;
 DRV		BurnDrvCpsSf2reda;
 DRV		BurnDrvCpsSf2red2;
-DRV		BurnDrvCpsSf2redp2;
 DRV		BurnDrvCpsSf2sl73a;
 DRV		BurnDrvCpsSf2cet;
 DRV		BurnDrvCpsSf2tlona;
@@ -18394,8 +18388,13 @@ DRV		BurnDrvCpsSf2yyc2;
 #if defined FBNEO_DEBUG
 DRV		BurnDrvCpsSf2hfub;		// no comment [NOT WORKING]
 #endif
+DRV		BurnDrvCpsSf2hfsce;
 DRV		BurnDrvCpsSf2hfu;
 DRV		BurnDrvCpsSf2hf;
+DRV		BurnDrvCpsSf2mdt;
+DRV		BurnDrvCpsSf2mdta;
+DRV		BurnDrvCpsSf2mdtb;
+DRV		BurnDrvCpsSf2mdtc;
 DRV		BurnDrvCpsSf2mkot;
 DRV		BurnDrvCpsSf2rules;
 DRV		BurnDrvCpsSf2b;
@@ -19894,7 +19893,6 @@ DRV		BurnDrvsnes_Tenchisouzou;
 DRV		BurnDrvCpsDynwarjr;
 DRV		BurnDrvCpsDynwarj;
 DRV		BurnDrvnes_tenchiwokurau;
-DRV		BurnDrvCpsWofchp;
 DRV		BurnDrvnes_tenchwokurii;
 DRV		BurnDrvnes_tenchwokuriij;
 DRV		BurnDrvCpsWof1v3p;
@@ -19907,6 +19905,7 @@ DRV		BurnDrvCpsWofjh;
 DRV		BurnDrvCpsWofj;
 DRV		BurnDrvCpsWofdr20;
 DRV		BurnDrvCpsWofdr;
+DRV		BurnDrvCpsWofchp;
 DRV		BurnDrvCpsWofkm3;
 DRV		BurnDrvCpsWofsc;
 DRV		BurnDrvCpsWofjwp;
@@ -20158,6 +20157,7 @@ DRV		BurnDrvKillbld106;
 DRV		BurnDrvKillbld;
 DRV		BurnDrvKillbldp;
 DRV		BurnDrvCpsKod1v3;
+DRV		BurnDrvCpsKodda;
 DRV		BurnDrvCpsKodb;
 DRV		BurnDrvCpsKodbs;
 DRV		BurnDrvCpsKodlys;
@@ -20165,7 +20165,6 @@ DRV		BurnDrvCpsKodyh;
 DRV		BurnDrvCpsKodh;
 DRV		BurnDrvCpsKodja;
 DRV		BurnDrvCpsKodj;
-DRV		BurnDrvCpsKodda;
 DRV		BurnDrvCpsKodsr;
 DRV		BurnDrvCpsKodly;
 DRV		BurnDrvCpsKodu;
@@ -20459,9 +20458,9 @@ DRV		BurnSpec3octopuses;
 DRV		BurnDrvnes_threestooges;
 DRV		BurnSpec3weekspr;
 DRV		BurnSpec3weekspr_48;
+DRV		BurnDrvCps3wondersb;
 DRV		BurnDrvCps3wondersh;
 DRV		BurnDrvCps3wondersha;
-DRV		BurnDrvCps3wondersb;
 DRV		BurnDrvCps3wondersu;
 DRV		BurnDrvCps3wondersr1;
 DRV		BurnDrvCps3wonders;
@@ -21849,6 +21848,7 @@ DRV		BurnDrvsnes_Warpspeed;
 DRV		BurnDrvWarriorb;
 DRV		BurnDrvmd_warrior;
 DRV		BurnDrvmd_warrior2;
+DRV		BurnDrvCpsSgyxz;
 DRV		BurnDrvCpsWofpic;
 DRV		BurnDrvCpsWofr1bl;
 //		BurnDrvCpsWoffr;		// no comment
@@ -21978,10 +21978,10 @@ DRV		BurnDrvWwestern1;
 DRV		BurnDrvgg_wildsnake;
 DRV		BurnDrvsnes_Wildsnake;
 DRV		BurnDrvmd_arcadeghu;
+DRV		BurnDrvCpsWillowbr;
 DRV		BurnDrvnes_willowj;
 DRV		BurnDrvCpsWillowj;
 DRV		BurnDrvnes_willownfh;
-DRV		BurnDrvCpsWillowbr;
 DRV		BurnDrvCpsWillowuo;
 DRV		BurnDrvnes_willow;
 DRV		BurnDrvCpsWillowu;
@@ -23994,7 +23994,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecArea51rie,			// Area 51 - Roswell Incident (English) (48K) (HB)
 	&BurnSpecArea51ris128,		// Area 51 - Roswell Incident (Spanish) (128K) (HB)
 	&BurnSpecArea51ris,			// Area 51 - Roswell Incident (Spanish) (48K) (HB)
-	&BurnDrvCpsArea88r,			// Area 88 (Japan Resale ver.)
+	&BurnDrvCpsArea88r,			// Area 88 (Japan Resale Ver.)
 	&BurnDrvCpsArea88,			// Area 88 (Japan)
 	&BurnDrvsnes_Area88,		// Area 88 (Japan)
 	&BurnDrvgg_arena,			// Arena (Euro, USA)
@@ -25831,15 +25831,15 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecCadaveriones,		// Cadaverion (Spanish) (48K) (HB)
 	&BurnDrvCpsDino1v3,			// Cadillacs and Dinosaurs (1v3, Hack)
 	&BurnDrvCpsDinosyn,			// Cadillacs and Dinosaurs (2020 Commemorative, Hack)
+	&BurnDrvCpsDinoh,			// Cadillacs and Dinosaurs (930223 Asia TW, bootleg)
+	&BurnDrvCpsDinohc,			// Cadillacs and Dinosaurs (930223 Asia TW, Chinese bootleg)
 	&BurnDrvCpsDinoa,			// Cadillacs and Dinosaurs (Asia TW 930223)
-	&BurnDrvCpsDinoh,			// Cadillacs and Dinosaurs (bootleg set 3, 930223 Asia TW)
 	&BurnDrvCpsDinopic,			// Cadillacs and Dinosaurs (bootleg with PIC16C57, set 1)
 	&BurnDrvCpsDinopic2,		// Cadillacs and Dinosaurs (bootleg with PIC16C57, set 2)
 	&BurnDrvCpsDinopic3,		// Cadillacs and Dinosaurs (bootleg with PIC16C57, set 3)
 	&BurnDrvCpsDinopic4,		// Cadillacs and Dinosaurs (bootleg with PIC16C57, set 4)
 	&BurnDrvCpsDinopic5,		// Cadillacs and Dinosaurs (bootleg with PIC16C57, set 5)
 	&BurnDrvCpsDinosj,			// Cadillacs and Dinosaurs (Century, Hack)
-	&BurnDrvCpsDinohc,			// Cadillacs and Dinosaurs (Chinese bootleg, 930223 Asia TW)
 	&BurnDrvCpsDinoss,			// Cadillacs and Dinosaurs (Competition, Hack)
 	&BurnDrvCpsDinojj,			// Cadillacs and Dinosaurs (Contest, Hack)
 	&BurnDrvCpsDinokr,			// Cadillacs and Dinosaurs (Crazy BBQ, Hack)
@@ -25855,12 +25855,12 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsDinowj,			// Cadillacs and Dinosaurs (Random Enemies, Hack)
 	&BurnDrvCpsDinoxz,			// Cadillacs and Dinosaurs (Scream, Hack)
 	&BurnDrvCpsDinosdj,			// Cadillacs and Dinosaurs (Triassic, Hack)
-	&BurnDrvCpsDinou,			// Cadillacs and Dinosaurs (USA 921209)
+	&BurnDrvCpsDinou,			// Cadillacs and Dinosaurs (USA 930201)
 	&BurnDrvCpsDinodw,			// Cadillacs and Dinosaurs (Warriors, Hack)
-	&BurnDrvCpsDino,			// Cadillacs and Dinosaurs (World 921209)
+	&BurnDrvCpsDino,			// Cadillacs and Dinosaurs (World 930201)
 	&BurnDrvCpsDinore,			// Cadillacs and Dinosaurs Readjusted (Hack, v1.4)
-	&BurnDrvCpsDinot,			// Cadillacs and Dinosaurs Turbo (bootleg set 1, 930223 Asia TW)
-	&BurnDrvCpsDinotpic,		// Cadillacs and Dinosaurs Turbo (bootleg set 2 (with PIC16c57), 930201 etc)
+	&BurnDrvCpsDinot,			// Cadillacs and Dinosaurs Turbo 97 (930223 Asia TW, bootleg, set 1)
+	&BurnDrvCpsDinotpic,		// Cadillacs and Dinosaurs Turbo 97 (930223 Asia TW, bootleg, set 2)
 	&BurnDrvCpsDinoj,			// Cadillacs: Kyouryuu Shin Seiki (Japan 930201)
 	&BurnDrvCpsDino3j,			// Cadillacs: Kyouryuu Shin Seiki (Three Prohibitions, Hack)
 	&BurnDrvmd_caesar,			// Caesar no Yabou (Japan)
@@ -25970,9 +25970,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_captchef,		// Captain Chef (Japan)
 	&BurnDrvnes_captacom,		// Captain Comic - The Adventure (USA)
 	&BurnDrvCpsCaptc1v4,		// Captain Commando (1v4, Hack)
-	&BurnDrvCpsCaptcommb,		// Captain Commando (bootleg set 1, 911014 other country)
-	&BurnDrvCpsCaptcommb2,		// Captain Commando (bootleg set 2 (with 2xMSM5205), 911014 other country) [unemulated graphics, NOT WORKING]
-	&BurnDrvCpsCaptcommb3,		// Captain Commando (bootleg set 3 (with YM2151 + 2xMSM5205), 911014 other country)
+	&BurnDrvCpsCaptcommb2,		// Captain Commando (bootleg with 2xMSM5205) [unemulated graphics, NOT WORKING]
+	&BurnDrvCpsCaptcommb3,		// Captain Commando (bootleg with YM2151 + 2xMSM5205)
+	&BurnDrvCpsCaptcommb,		// Captain Commando (bootleg)
 	&BurnDrvCpsCaptcmsh,		// Captain Commando (Contest, Hack)
 	&BurnDrvCpsCaptcmcr,		// Captain Commando (CR7 Elite, Hack)
 	&BurnDrvCpsCaptcmjy,		// Captain Commando (Elite Competition, Hack)
@@ -26051,8 +26051,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_carnival,		// Carnival
 	&BurnDrvnes_carpetshark,	// Carpet Shark (HB)
 	&BurnDrvsnes_Carrieraces,	// Carrier Aces (USA)
-	&BurnDrvCpsCawingbl,		// Carrier Air Wing (bootleg set 1 (with 2xYM2203 + 2xMSM5205), U.S. navy 901012 etc)
-	&BurnDrvCpsCawingb2,		// Carrier Air Wing (bootleg set 2 (with 2xYM2203 + 2xMSM5205), U.S. navy 901012 etc)
+	&BurnDrvCpsCawingbl,		// Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM5205, set 1)
+	&BurnDrvCpsCawingb2,		// Carrier Air Wing (bootleg with 2xYM2203 + 2xMSM5205, set 2)
 	&BurnDrvCpsCawingur1,		// Carrier Air Wing (USA 901012)
 	&BurnDrvCpsCawingu,			// Carrier Air Wing (USA 901130)
 	&BurnDrvCpsCawingr1,		// Carrier Air Wing (World 901009)
@@ -27330,9 +27330,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_dahnams,			// Dahna Megami Tanjou (Hack, Spanish)
 	&BurnDrvmd_dahnam,			// Dahna Megami Tanjou (Japan)
 	&BurnDrvMSX_daidasso,		// Dai Dassou (Japan)
-	&BurnDrvCpsDaimakaib,		// Dai Makai-Mura (bootleg, Japan)
-	&BurnDrvCpsDaimakair,		// Dai Makai-Mura (Japan Resale Ver.)
-	&BurnDrvCpsDaimakai,		// Dai Makai-Mura (Japan)
 	&BurnDrvmd_daimakai,		// Dai Makaimura (Japan)
 	&BurnDrvnes_daimeiro,		// Dai Meiro: Meikyuu no Tatsujin (Japan)
 	&BurnDrvDairesya,			// Dai Ressya Goutou (Japan, version K)
@@ -27359,6 +27356,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvDkgensanm72,		// Daiku no Gensan (Japan, M72 hardware)
 	&BurnDrvDkgensanm82,		// Daiku no Gensan (Japan, M82 hardware)
 	&BurnDrvDkgensan,			// Daiku no Gensan (Japan, M84 hardware)
+	&BurnDrvCpsDaimakaib,		// Daimakaimura (bootleg)
+	&BurnDrvCpsDaimakair,		// Daimakaimura (Japan Resale Ver.)
+	&BurnDrvCpsDaimakai,		// Daimakaimura (Japan)
 	&BurnDrvsgx_daimakai1,		// Daimakaimura (Japan, SGX) (Alt)
 	&BurnDrvsgx_daimakai,		// Daimakaimura (Japan, SGX)
 	&BurnDrvsgx_daimakaid,		// Daimakaimura - Debug Menu (Hack, SGX)
@@ -29569,7 +29569,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsms_finalbb,		// Final Bubble Bobble (Japan)
 	&BurnDrvnes_finalcombat,	// Final Combat (Unl) (Asia)
 	&BurnDrvfds_finalcom,		// Final Command - Akai Yousai (Japan)
-	&BurnDrvCpsFcrash,			// Final Crash (bootleg (with 2xYM2203 + 2xMSM5205))
+	&BurnDrvCpsFcrash,			// Final Crash (bootleg of Final Fight)
 	&BurnDrvnes_finalfantasyi,	// Final Fantasy (Hack, Italian)
 	&BurnDrvnes_finalfantasyc,	// Final Fantasy (Hack, Spanish)
 	&BurnDrvnes_finalfantasy,	// Final Fantasy (USA)
@@ -29598,8 +29598,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_finalfanviiadvch,// Final Fantasy VII - Advent Children (Hack, English)
 	&BurnSpecfinalfight,		// Final Fight (128K)
 	&BurnDrvCpsFfigh1v2,		// Final Fight (1v2, Hack)
-	&BurnDrvCpsFfightbl,		// Final Fight (bootleg set 1 (with 2xYM2203 + 2xMSM5205), World)
-	&BurnDrvCpsFfightbla,		// Final Fight (bootleg set 2 (with 2xYM2203 + 2xMSM5205), World))
+	&BurnDrvCpsFfightbla,		// Final Fight (bootleg on Final Crash PCB)
+	&BurnDrvCpsFfightbl,		// Final Fight (bootleg)
 	&BurnDrvCpsFfightfw,		// Final Fight (Framework, Hack)
 	&BurnDrvCpsFfightj1,		// Final Fight (Japan 900112)
 	&BurnDrvCpsFfightj2,		// Final Fight (Japan 900305)
@@ -30595,7 +30595,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_ghouls1,			// Ghouls'n Ghosts (Euro, USA, Rev. 1)
 	&BurnDrvmd_ghouls,			// Ghouls'n Ghosts (Euro, USA, Rev. 2)
 	&BurnDrvmd_ghoulss,			// Ghouls'n Ghosts (Hack, Spanish v1.1)
-	&BurnDrvCpsGhoulsu,			// Ghouls'n Ghosts (US)
+	&BurnDrvCpsGhoulsu,			// Ghouls'n Ghosts (USA)
 	&BurnDrvsms_ghoulsd,		// Ghouls'n Ghosts (USA, Demo)
 	&BurnDrvCpsGhouls,			// Ghouls'n Ghosts (World)
 	&BurnDrvGhoxj,				// Ghox (joystick)
@@ -32714,7 +32714,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_kamimariodx,	// Kamikaze Mario DX+ (GlobalHack, v1.9)
 	&BurnDrvKangarooa,			// Kangaroo (Atari)
 	&BurnDrvKangaroob,			// Kangaroo (bootleg)
-	&BurnDrvKangarool,			// Kangaroo (Loewen-Automaten)
+	&BurnDrvKangarool,			// Kangaroo (Löwen-Automaten)
 	&BurnDrvKangaroo,			// Kangaroo
 	&BurnDrvnes_kanshnagkannotogots,// Kanshakudama Nage Kantarou no Toukaidou Gojuusan-tsugi (Japan)
 	&BurnDrvnes_karakkendenmuslo,// Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan)
@@ -33030,21 +33030,21 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsg1k_moyuchua,		// Knightmare, Moyu Chuanqi (Taiwan)
 	&BurnSpecKnddx,				// Knights & Demons DX (128K) (HB)
 	&BurnSpecKnights,			// Knights (48K) (HB)
+	&BurnDrvCpsKnightsh2,		// Knights of the Round (911127 etc, bootleg)
+	&BurnDrvCpsKnightsb5,		// Knights of the Round (911127 Japan, bootleg)
 	&BurnDrvCpsKnightsb,		// Knights of the Round (bootleg with 2xMSM5205, set 1)
 	&BurnDrvCpsKnightsb3,		// Knights of the Round (bootleg with 2xMSM5205, set 2) [unemulated graphics, NOT WORKING]
-	&BurnDrvCpsKnightsb4,		// Knights of the Round (bootleg with YM2151 + 2xMSM5205, 911127 etc, set 4)
-	&BurnDrvCpsKnightsb5,		// Knights of the Round (bootleg, 911127 Japan, set 5)
-	&BurnDrvCpsKnightsb2,		// Knights of the Round (bootleg, World 911127)
+	&BurnDrvCpsKnightsb4,		// Knights of the Round (bootleg with YM2151 + 2xMSM5205)
 	&BurnDrvCpsKnightct,		// Knights of the Round (Count, Hack)
-	&BurnDrvCpsKnightsh,		// Knights of the Round (hack set 1)
-	&BurnDrvCpsKnightsh2,		// Knights of the Round (hack set 2, 911127 etc)
+	&BurnDrvCpsKnightsh,		// Knights of the Round (hack)
+	&BurnDrvCpsKnightsc,		// Knights of the Round (hack, Chinese Translation)
 	&BurnDrvCpsKnightsja,		// Knights of the Round (Japan 911127, B-Board 89625B-1)
 	&BurnDrvCpsKnightsj,		// Knights of the Round (Japan 911127, B-Board 91634B-2)
 	&BurnDrvCpsKnightsp,		// Knights of the Round (Plus, Hack)
-	&BurnDrvCpsKnightsc,		// Knights of the Round (T-Chi)
 	&BurnDrvCpsKnightsu,		// Knights of the Round (USA 911127)
 	&BurnDrvsnes_Knightsround,	// Knights of the Round (USA)
 	&BurnDrvCpsKnights,			// Knights of the Round (World 911127)
+	&BurnDrvCpsKnightsb2,		// Knights of the Round (World 911127, bootleg)
 	&BurnDrvKov111,				// Knights of Valour / Sanguo Zhan Ji / Sangoku Senki (ver. 111, Japanese Board)
 	&BurnDrvKov114,				// Knights of Valour / Sanguo Zhan Ji / Sangoku Senki (ver. 114, Hong Kong)
 	&BurnDrvKov115,				// Knights of Valour / Sanguo Zhan Ji / Sangoku Senki (ver. 115)
@@ -33781,7 +33781,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_lostwrld,		// Lost World, The - Jurassic Park (Euro, USA)
 	&BurnDrvmd_lostwrlds,		// Lost World, The - Jurassic Park (Hack, Spanish)
 	&BurnDrvgg_lostwrld,		// Lost World, The - Jurassic Park (USA)
-	&BurnDrvCpsLostwrldo,		// Lost Worlds (Japan Old ver.)
+	&BurnDrvCpsLostwrldo,		// Lost Worlds (Japan Old Ver.)
 	&BurnDrvCpsLostwrld,		// Lost Worlds (Japan)
 	&BurnDrvMSX_lotlot,			// Lot Lot (Japan)
 	&BurnDrvnes_lotlot,			// Lot Lot (Japan)
@@ -39310,25 +39310,24 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_sangokushi,		// Sangokushi - Chuugen no Hasha (Japan)
 	&BurnDrvsms_sangoku3,		// Sangokushi 3 (Korea)
 	&BurnDrvCpsWofa,			// Sangokushi II (Asia 921005)
-	&BurnDrvCpsWofabl,			// Sangokushi II (Asia, bootleg, set 1)
-	&BurnDrvCpsWofabla,			// Sangokushi II (Asia, bootleg, set 2)
-	&BurnDrvCpsWofah,			// Sangokushi II (hack set 1, Asia 921005)
-	&BurnDrvCpsWofaha,			// Sangokushi II (hack set 2, Asia 921005)
-	&BurnDrvCpsWofahb,			// Sangokushi II (hack set 3, Asia 921005)
+	&BurnDrvCpsWofah,			// Sangokushi II (Asia 921005, hack, set 1)
+	&BurnDrvCpsWofaha,			// Sangokushi II (Asia 921005, hack, set 2)
+	&BurnDrvCpsWofahb,			// Sangokushi II (Asia 921005, hack, set 3)
+	&BurnDrvCpsWofabl,			// Sangokushi II (bootleg, set 1)
+	&BurnDrvCpsWofabla,			// Sangokushi II (bootleg, set 2)
+	&BurnDrvCpsWofc,			// Sangokushi II (hack, Chinese Translation)
 	&BurnDrvmd_sangoku2,		// Sangokushi II (Japan)
-	&BurnDrvCpsWofc,			// Sangokushi II (T-Chi)
 	&BurnDrvnes_sangokushiiihanouc,// Sangokushi II - Haou no Tairiku (Hack, Chinese)
 	&BurnDrvnes_sangokushiiihanou,// Sangokushi II - Haou no Tairiku (Japan)
-	&BurnDrvCpsWof3js,			// Sangokushi II: San Jian Sheng (Chinese bootleg set 1)
-	&BurnDrvCpsWof3jsa,			// Sangokushi II: San Jian Sheng (Chinese bootleg set 2)
-	&BurnDrvCpsWof3sj,			// Sangokushi II: San Sheng Jian (Chinese bootleg set 1)
-	&BurnDrvCpsWof3sja,			// Sangokushi II: San Sheng Jian (Chinese bootleg set 2)
-	&BurnDrvCpsWofh,			// Sangokushi II: Sanguo Yingxiong Zhuan (Chinese bootleg set 1)
-	&BurnDrvCpsWofha,			// Sangokushi II: Sanguo Yingxiong Zhuan (Chinese bootleg set 2)
-	&BurnDrvCpsSgyxz,			// Sangokushi II: Sanguo Yingxiong Zhuan (Chinese bootleg set 3)
-	&BurnDrvCpsWofsj,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg set 1)
-	&BurnDrvCpsWofsja,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg set 2)
-	&BurnDrvCpsWofsjb,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg set 3)
+	&BurnDrvCpsWof3js,			// Sangokushi II: San Jian Sheng (Chinese bootleg, set 1)
+	&BurnDrvCpsWof3jsa,			// Sangokushi II: San Jian Sheng (Chinese bootleg, set 2)
+	&BurnDrvCpsWof3sj,			// Sangokushi II: San Sheng Jian (Chinese bootleg, set 1)
+	&BurnDrvCpsWof3sja,			// Sangokushi II: San Sheng Jian (Chinese bootleg, set 2)
+	&BurnDrvCpsWofh,			// Sangokushi II: Sanguo Yingxiong Zhuan (Chinese bootleg, set 1)
+	&BurnDrvCpsWofha,			// Sangokushi II: Sanguo Yingxiong Zhuan (Chinese bootleg, set 2)
+	&BurnDrvCpsWofsj,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg, set 1)
+	&BurnDrvCpsWofsja,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg, set 2)
+	&BurnDrvCpsWofsjb,			// Sangokushi II: Sheng Jian Sanguo (Chinese bootleg, set 3)
 	&BurnDrvmd_sangoku3,		// Sangokushi III (Japan)
 	&BurnDrvCpsWofchdx,			// Sangokushi III Gaiden: Kakou-On's Revenge DX (hack)
 	&BurnDrvmd_sangoret,		// Sangokushi Retsuden - Ransei no Eiyuutachi (Japan)
@@ -39628,7 +39627,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsnes_Sengokute,		// Sengoku Denshou (Hack, English)
 	&BurnDrvsnes_Sengokuj,		// Sengoku Denshou (Japan)
 	&BurnDrvpce_sengokmj,		// Sengoku Mahjong (Japan)
-	&BurnDrvCpsMercsc,			// Senjo no Ookami II (T-Chi)
+	&BurnDrvCpsMercsc,			// Senjo no Ookami II (hack, Chinese Translation)
 	&BurnDrvMSX_senjokam,		// Senjou no Ookami (Japan)
 	&BurnDrvnes_senjounoookami,	// Senjou no Ookami (Japan)
 	&BurnDrvCpsMercsj,			// Senjou no Ookami II (Japan 900302)
@@ -41278,36 +41277,17 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsms_sf2,			// Street Fighter II (Brazil)
 	&BurnDrvsnes_Sf2j,			// Street Fighter II (Japan)
 	&BurnDrvsnes_Sf2,			// Street Fighter II (USA)
-	&BurnDrvCpsSf2amf,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 1)
-	&BurnDrvCpsSf2amf4,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 2)
-	&BurnDrvCpsSf2amf5,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 3)
-	&BurnDrvCpsSf2amf6,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 4)
-	&BurnDrvCpsSf2amf7,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 5)
-	&BurnDrvCpsSf2amf8,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 6)
-	&BurnDrvCpsSf2amf9,			// Street Fighter II - Champion Edition (Alpha Magic-F bootleg set 7)
-	&BurnDrvCpsSf2amf11,		// Street Fighter II - Champion Edition (L735 Test Rom w/ Mega Co, bootleg, set 4)
-	&BurnDrvCpsSf2amf2,			// Street Fighter II - Champion Edition (L735 Test Rom, bootleg, set 1)
-	&BurnDrvCpsSf2amf3,			// Street Fighter II - Champion Edition (L735 Test Rom, bootleg, set 2)
-	&BurnDrvCpsSf2amf10,		// Street Fighter II - Champion Edition (L735 Test Rom, bootleg, set 3)
-	&BurnDrvCpsSf2amf12,		// Street Fighter II - Champion Edition (L735 Test Rom, bootleg, set ?)
 	&BurnDrvnes_streefigiic,	// Street Fighter II - The World Warrior (Hack, Spanish)
 	&BurnDrvnes_streefigii,		// Street Fighter II - The World Warrior (Unl)
 	&BurnDrvnes_streefigiihac,	// Street Fighter II Hack (Hack of SFIII)
 	&BurnDrvCpsSf2mix,			// Street Fighter II Mix (v1.3)
 	&BurnDrvsnes_Sf2turboj,		// Street Fighter II Turbo (Japan)
 	&BurnDrvsnes_Sf2turbo,		// Street Fighter II Turbo (USA)
-	&BurnDrvCpsSf2cebr,			// Street Fighter II' - Champion Edition (920313 Brasil, v1.0, Hack)
-	&BurnDrvCpsSf2gm,			// Street Fighter II' - Champion Edition (Golden Magic, Hack)
 	&BurnDrvpce_sf2ce,			// Street Fighter II' - Champion Edition (Japan)
 	&BurnDrvmd_sf2p2,			// Street Fighter II' - Champion Edition (Prototype, 19930325)
 	&BurnDrvmd_sf2p1,			// Street Fighter II' - Champion Edition (Prototype, 19930730)
 	&BurnDrvmd_sf2hce,			// Street Fighter II' - Hyper Champion Edition (Hack)
 	&BurnDrvmd_sf2hce2,			// Street Fighter II' - Hyper Champion Edition (Hack, v2)
-	&BurnDrvCpsSf2hfsce,		// Street Fighter II' - Hyper Fighting (Sr. SF Champion Edition v1.4, Hack)
-	&BurnDrvCpsSf2mdt,			// Street Fighter II' - Magic Delta Turbo (bootleg set 1 (with YM2151 + 2xMSM5205), 920313 etc)
-	&BurnDrvCpsSf2mdta,			// Street Fighter II' - Magic Delta Turbo (bootleg set 2 (with YM2151 + 2xMSM5205), 920313 etc)
-	&BurnDrvCpsSf2mdtb,			// Street Fighter II' - Magic Delta Turbo (bootleg set 3 (with YM2151 + 2xMSM5205), 920313 etc)
-	&BurnDrvCpsSf2mdtc,			// Street Fighter II' - Magic Delta Turbo (bootleg set 4 (with YM2151 + 2xMSM5205), 920313 etc)
 	&BurnDrvmd_sf2re,			// Street Fighter II' - Remastered Edition (Hack)
 	&BurnDrvmd_sf2,				// Street Fighter II' - Special Champion Edition (Euro)
 	&BurnDrvmd_sf2ics,			// Street Fighter II' - Special Champion Edition (Hack, Color and Sound)
@@ -41316,46 +41296,60 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_sf2wwp,			// Street Fighter II' - The World Warrior Plus (Hack)
 	&BurnDrvmd_sf2j,			// Street Fighter II' Plus (Japan, Asia, Korea)
 	&BurnDrvmd_sf2pir,			// Street Fighter II' Turbo (Pirate)
-	&BurnDrvCpsSf2hfjb,			// Street Fighter II' Turbo: Hyper Fighting (bootleg set 1)
-	&BurnDrvCpsSf2hfjb2,		// Street Fighter II' Turbo: Hyper Fighting (bootleg set 2)
+	&BurnDrvCpsSf2hfjb,			// Street Fighter II' Turbo: Hyper Fighting (bootleg, set 1)
+	&BurnDrvCpsSf2hfjb2,		// Street Fighter II' Turbo: Hyper Fighting (bootleg, set 2)
 	&BurnDrvCpsSf2hfj,			// Street Fighter II' Turbo: Hyper Fighting (Japan 921209)
 	&BurnDrvCpsSf2cebltw,		// Street Fighter II': Champion Edition ('Taiwan' bootleg with PAL)
-	&BurnDrvCpsSf2ceeabl,		// Street Fighter II': Champion Edition (920313 etc bootleg set 1)
-	&BurnDrvCpsSf2ceeab2,		// Street Fighter II': Champion Edition (920313 etc bootleg set 2)
-	&BurnDrvCpsSf2ceuabl,		// Street Fighter II': Champion Edition (920313 USA bootleg set 1)
-	&BurnDrvCpsSf2ceuab10,		// Street Fighter II': Champion Edition (920313 USA bootleg set 10)
-	&BurnDrvCpsSf2ceuab11,		// Street Fighter II': Champion Edition (920313 USA bootleg set 11)
-	&BurnDrvCpsSf2ceuab2,		// Street Fighter II': Champion Edition (920313 USA bootleg set 2)
-	&BurnDrvCpsSf2ceuab3,		// Street Fighter II': Champion Edition (920313 USA bootleg set 3)
-	&BurnDrvCpsSf2ceuab4,		// Street Fighter II': Champion Edition (920313 USA bootleg set 4)
-	&BurnDrvCpsSf2ceuab5,		// Street Fighter II': Champion Edition (920313 USA bootleg set 5)
-	&BurnDrvCpsSf2ceuab6,		// Street Fighter II': Champion Edition (920313 USA bootleg set 6)
-	&BurnDrvCpsSf2ceuab7,		// Street Fighter II': Champion Edition (920313 USA bootleg set 7)
-	&BurnDrvCpsSf2ceuab8,		// Street Fighter II': Champion Edition (920313 USA bootleg set 8)
-	&BurnDrvCpsSf2ceuab9,		// Street Fighter II': Champion Edition (920313 USA bootleg set 9)
-	&BurnDrvCpsSf2cejabl,		// Street Fighter II': Champion Edition (920322 Japan bootleg set 1)
-	&BurnDrvCpsSf2cejab2,		// Street Fighter II': Champion Edition (920322 Japan bootleg set 2)
-	&BurnDrvCpsSf2ceucbl,		// Street Fighter II': Champion Edition (920803 USA bootleg)
+	&BurnDrvCpsSf2cebr,			// Street Fighter II': Champion Edition (920313 Brasil, v1.0, Hack)
+	&BurnDrvCpsSf2ceeabl,		// Street Fighter II': Champion Edition (920313 etc, bootleg, set 1)
+	&BurnDrvCpsSf2ceeab2,		// Street Fighter II': Champion Edition (920313 etc, bootleg, set 2)
+	&BurnDrvCpsSf2ceuabl,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 1)
+	&BurnDrvCpsSf2ceuab2,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 2)
+	&BurnDrvCpsSf2ceuab3,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 3)
+	&BurnDrvCpsSf2ceuab4,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 4)
+	&BurnDrvCpsSf2ceuab5,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 5)
+	&BurnDrvCpsSf2ceuab6,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 6)
+	&BurnDrvCpsSf2ceuab7,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 7)
+	&BurnDrvCpsSf2ceuab8,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 8)
+	&BurnDrvCpsSf2ceuab9,		// Street Fighter II': Champion Edition (920313 USA, bootleg, set 9)
+	&BurnDrvCpsSf2cejabl,		// Street Fighter II': Champion Edition (920322 Japan, bootleg, set 1)
+	&BurnDrvCpsSf2cejab2,		// Street Fighter II': Champion Edition (920322 Japan, bootleg, set 2)
+	&BurnDrvCpsSf2ceucbl,		// Street Fighter II': Champion Edition (920803 USA, bootleg)
 	&BurnDrvCpsSf2accp2,		// Street Fighter II': Champion Edition (Accelerator Pt.II, bootleg)
 	&BurnDrvCpsSf2acc,			// Street Fighter II': Champion Edition (Accelerator!, bootleg, set 1)
 	&BurnDrvCpsSf2acca,			// Street Fighter II': Champion Edition (Accelerator!, bootleg, set 2)
+	&BurnDrvCpsSf2amf,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 1)
+	&BurnDrvCpsSf2amf4,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 2)
+	&BurnDrvCpsSf2amf5,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 3)
+	&BurnDrvCpsSf2amf6,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 4)
+	&BurnDrvCpsSf2amf7,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 5)
+	&BurnDrvCpsSf2amf8,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 6)
+	&BurnDrvCpsSf2amf9,			// Street Fighter II': Champion Edition (Alpha Magic-F, bootleg, set 7)
 	&BurnDrvCpsSf2level,		// Street Fighter II': Champion Edition (bootleg with level selection)
-//	&BurnDrvCpsSf2ceh,			// Street Fighter II': Champion Edition (bootleg, Hispanic) [no comment]
 	&BurnDrvCpsSf2ceb2,			// Street Fighter II': Champion Edition (bootleg, set 1)
 	&BurnDrvCpsSf2ceb3,			// Street Fighter II': Champion Edition (bootleg, set 2)
 	&BurnDrvCpsSf2dongb,		// Street Fighter II': Champion Edition (Dongfang Bubai protection, bootleg)
 	&BurnDrvCpsSf2dkot2,		// Street Fighter II': Champion Edition (Double K.O. Turbo II, bootleg)
+	&BurnDrvCpsSf2gm,			// Street Fighter II': Champion Edition (Golden Magic, Hack)
+//	&BurnDrvCpsSf2ceh,			// Street Fighter II': Champion Edition (Hispanic 990804, hack) [no comment]
 	&BurnDrvCpsSf2bhh,			// Street Fighter II': Champion Edition (Hung Hsi, bootleg)
 	&BurnDrvCpsSf2ceja,			// Street Fighter II': Champion Edition (Japan 920322)
 	&BurnDrvCpsSf2ceupl,		// Street Fighter II': Champion Edition (Japan 920322, UPL bootleg?)
 	&BurnDrvCpsSf2cejb,			// Street Fighter II': Champion Edition (Japan 920513)
 	&BurnDrvCpsSf2cejc,			// Street Fighter II': Champion Edition (Japan 920803)
+	&BurnDrvCpsSf2amf11,		// Street Fighter II': Champion Edition (L735 Test Rom w/ Mega Co, bootleg)
+	&BurnDrvCpsSf2amf2,			// Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set 1)
+	&BurnDrvCpsSf2amf3,			// Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set 2)
+	&BurnDrvCpsSf2amf10,		// Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set 3)
+	&BurnDrvCpsSf2amf12,		// Street Fighter II': Champion Edition (L735 Test Rom, bootleg, set ?)
 	&BurnDrvCpsSf2md,			// Street Fighter II': Champion Edition (Magic Delta, bootleg)
-	&BurnDrvCpsSf2mega,			// Street Fighter II': Champion Edition (Mega Co bootleg set 1)
-	&BurnDrvCpsSf2mega2,		// Street Fighter II': Champion Edition (Mega Co bootleg set 2)
+	&BurnDrvCpsSf2mega,			// Street Fighter II': Champion Edition (Mega Co, bootleg, set 1)
+	&BurnDrvCpsSf2mega2,		// Street Fighter II': Champion Edition (Mega Co, bootleg, set 2)
+	&BurnDrvCpsSf2cems6a,		// Street Fighter II': Champion Edition (Mstreet-6, bootleg, set 1)
 	&BurnDrvCpsSf2ceb,			// Street Fighter II': Champion Edition (Playmark bootleg, set 1)
 	&BurnDrvCpsSf2ceb4,			// Street Fighter II': Champion Edition (Playmark bootleg, set 2)
 	&BurnDrvCpsSf2ceb5,			// Street Fighter II': Champion Edition (Playmark bootleg, set 3)
+	&BurnDrvCpsSf2ceblp,		// Street Fighter II': Champion Edition (protected bootleg on non-dash board)
 	&BurnDrvCpsSf2rb,			// Street Fighter II': Champion Edition (Rainbow, bootleg, set 1)
 	&BurnDrvCpsSf2rb2,			// Street Fighter II': Champion Edition (Rainbow, bootleg, set 2)
 	&BurnDrvCpsSf2rb3,			// Street Fighter II': Champion Edition (Rainbow, bootleg, set 3)
@@ -41363,40 +41357,45 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsSf2rb5,			// Street Fighter II': Champion Edition (Rainbow, bootleg, set 5)
 	&BurnDrvCpsSf2rb6,			// Street Fighter II': Champion Edition (Rainbow, bootleg, set 6)
 	&BurnDrvCpsSf2re,			// Street Fighter II': Champion Edition (RE, bootleg)
-	&BurnDrvCpsSf2red,			// Street Fighter II': Champion Edition (Red Wave bootleg set 1)
-	&BurnDrvCpsSf2reda,			// Street Fighter II': Champion Edition (Red Wave bootleg set 2)
-	&BurnDrvCpsSf2red2,			// Street Fighter II': Champion Edition (Red Wave bootleg set 3)
 	&BurnDrvCpsSf2redp2,		// Street Fighter II': Champion Edition (Red Wave PtII, bootleg)
+	&BurnDrvCpsSf2red,			// Street Fighter II': Champion Edition (Red Wave, bootleg, set 1)
+	&BurnDrvCpsSf2reda,			// Street Fighter II': Champion Edition (Red Wave, bootleg, set 2)
+	&BurnDrvCpsSf2red2,			// Street Fighter II': Champion Edition (Red Wave, bootleg, set 3)
 	&BurnDrvCpsSf2sl73a,		// Street Fighter II': Champion Edition (Sheng Long v 7.3a)
 	&BurnDrvCpsSf2cet,			// Street Fighter II': Champion Edition (Taiwan 920313)
-	&BurnDrvCpsSf2tlona,		// Street Fighter II': Champion Edition (Tu Long bootleg set 1)
-	&BurnDrvCpsSf2tlonb,		// Street Fighter II': Champion Edition (Tu Long bootleg set 2)
-	&BurnDrvCpsSf2tlonc,		// Street Fighter II': Champion Edition (Tu Long bootleg set 3)
+	&BurnDrvCpsSf2tlona,		// Street Fighter II': Champion Edition (Tu Long, bootleg, set 1)
+	&BurnDrvCpsSf2tlonb,		// Street Fighter II': Champion Edition (Tu Long, bootleg, set 2)
+	&BurnDrvCpsSf2tlonc,		// Street Fighter II': Champion Edition (Tu Long, bootleg, set 3)
 	&BurnDrvCpsSf2ceua,			// Street Fighter II': Champion Edition (USA 920313)
 	&BurnDrvCpsSf2ceub,			// Street Fighter II': Champion Edition (USA 920513)
 	&BurnDrvCpsSf2ceuc,			// Street Fighter II': Champion Edition (USA 920803)
-	&BurnDrvCpsSf2v004,			// Street Fighter II': Champion Edition (V004 bootleg set 1)
-	&BurnDrvCpsSf2v0042,		// Street Fighter II': Champion Edition (V004 bootleg set 2)
-	&BurnDrvCpsSf2v0043,		// Street Fighter II': Champion Edition (V004 bootleg set 3)
+	&BurnDrvCpsSf2v004,			// Street Fighter II': Champion Edition (V004, bootleg, set 1)
+	&BurnDrvCpsSf2v0042,		// Street Fighter II': Champion Edition (V004, bootleg, set 2)
+	&BurnDrvCpsSf2v0043,		// Street Fighter II': Champion Edition (V004, bootleg, set 3)
 	&BurnDrvCpsSf2ceea,			// Street Fighter II': Champion Edition (World 920313)
 	&BurnDrvCpsSf2ce,			// Street Fighter II': Champion Edition (World 920513)
 	&BurnDrvCpsSf2ceec,			// Street Fighter II': Champion Edition (World 920803)
-	&BurnDrvCpsSf2koryu,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg set 1)
-	&BurnDrvCpsSf2koryu2,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg set 2)
-	&BurnDrvCpsSf2koryu3,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg set 3)
-	&BurnDrvCpsSf2yyc,			// Street Fighter II': Champion Edition (YYC bootleg set 1)
-	&BurnDrvCpsSf2yyc2,			// Street Fighter II': Champion Edition (YYC bootleg set 2)
+	&BurnDrvCpsSf2koryu,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg, set 1)
+	&BurnDrvCpsSf2koryu2,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg, set 2)
+	&BurnDrvCpsSf2koryu3,		// Street Fighter II': Champion Edition (Xiang Long, Chinese bootleg, set 3)
+	&BurnDrvCpsSf2yyc,			// Street Fighter II': Champion Edition (YYC, bootleg, set 1)
+	&BurnDrvCpsSf2yyc2,			// Street Fighter II': Champion Edition (YYC, bootleg, set 2)
 #if defined FBNEO_DEBUG
-	&BurnDrvCpsSf2hfub,			// Street Fighter II': Hyper Fighting (bootleg set 3) [no comment, NOT WORKING]
+	&BurnDrvCpsSf2hfub,			// Street Fighter II': Hyper Fighting (bootleg, set 3) [no comment, NOT WORKING]
 #endif
+	&BurnDrvCpsSf2hfsce,		// Street Fighter II': Hyper Fighting (Sr. SF Champion Edition v1.4, Hack)
 	&BurnDrvCpsSf2hfu,			// Street Fighter II': Hyper Fighting (USA 921209)
 	&BurnDrvCpsSf2hf,			// Street Fighter II': Hyper Fighting (World 921209)
+	&BurnDrvCpsSf2mdt,			// Street Fighter II': Magic Delta Turbo (bootleg, set 1)
+	&BurnDrvCpsSf2mdta,			// Street Fighter II': Magic Delta Turbo (bootleg, set 2)
+	&BurnDrvCpsSf2mdtb,			// Street Fighter II': Magic Delta Turbo (bootleg, set 3)
+	&BurnDrvCpsSf2mdtc,			// Street Fighter II': Magic Delta Turbo (bootleg, set 4)
 	&BurnDrvCpsSf2mkot,			// Street Fighter II': Magic KO Turbo!! - Nightmare Crack
 	&BurnDrvCpsSf2rules,		// Street Fighter II: The World Warrior (bootleg with rules screen)
-	&BurnDrvCpsSf2b,			// Street Fighter II: The World Warrior (bootleg with YM2151 + 2xMSM5205, set 1, 910214 etc)
-	&BurnDrvCpsSf2b2,			// Street Fighter II: The World Warrior (bootleg, 910214 etc, set 2)
-	&BurnDrvCpsSf2b3,			// Street Fighter II: The World Warrior (bootleg, 910214 etc, set 3)
-	&BurnDrvCpsSf2b4,			// Street Fighter II: The World Warrior (bootleg, 910214 etc, set 4)
+	&BurnDrvCpsSf2b,			// Street Fighter II: The World Warrior (bootleg, set 1)
+	&BurnDrvCpsSf2b2,			// Street Fighter II: The World Warrior (bootleg, set 2)
+	&BurnDrvCpsSf2b3,			// Street Fighter II: The World Warrior (bootleg, set 3)
+	&BurnDrvCpsSf2b4,			// Street Fighter II: The World Warrior (bootleg, set 4)
 	&BurnDrvCpsSf2ja,			// Street Fighter II: The World Warrior (Japan 910214)
 	&BurnDrvCpsSf2jc,			// Street Fighter II: The World Warrior (Japan 910306)
 	&BurnDrvCpsSf2jf,			// Street Fighter II: The World Warrior (Japan 910411)
@@ -41407,8 +41406,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsSf2jl,			// Street Fighter II: The World Warrior (Japan 920312)
 	&BurnDrvCpsSf2qp1,			// Street Fighter II: The World Warrior (Quicken Pt-I, bootleg)
 	&BurnDrvCpsSf2qp2,			// Street Fighter II: The World Warrior (Quicken, bootleg)
-	&BurnDrvCpsSf2rk,			// Street Fighter II: The World Warrior (RK, bootleg set 1)
-	&BurnDrvCpsSf2rk2,			// Street Fighter II: The World Warrior (RK, bootleg set 2)
+	&BurnDrvCpsSf2rk,			// Street Fighter II: The World Warrior (RK, bootleg, set 1)
+	&BurnDrvCpsSf2rk2,			// Street Fighter II: The World Warrior (RK, bootleg, set 2)
 	&BurnDrvCpsSf2ebbl,			// Street Fighter II: The World Warrior (TAB Austria, bootleg, set 1)
 	&BurnDrvCpsSf2stt,			// Street Fighter II: The World Warrior (TAB Austria, bootleg, set 2)
 	&BurnDrvCpsSf2ebbl2,		// Street Fighter II: The World Warrior (TAB Austria, bootleg, set 3)
@@ -42304,7 +42303,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsSsf2td,			// Super Street Fighter II Turbo (World 940223 Phoenix Edition) (bootleg)
 	&BurnDrvCpsSsf2t,			// Super Street Fighter II Turbo (World 940223)
 	&BurnDrvCpsSsf2tnl,			// Super Street Fighter II Turbo New Legacy v0.9 (Beta) (Hack by Born2SPD)
-	&BurnDrvCpsSsf2xjr1trn,		// Super Street Fighter II X - GMC Trainer (Japan 940223)
+	&BurnDrvCpsSsf2xjr1trn,		// Super Street Fighter II X: GMC Trainer (Japan 940223)
 	&BurnDrvCpsSsf2xjr1d,		// Super Street Fighter II X: Grand Master Challenge (Japan 940223 Phoenix Edition) (bootleg)
 	&BurnDrvCpsSsf2xjr1r,		// Super Street Fighter II X: Grand Master Challenge (Japan 940223 rent version)
 	&BurnDrvCpsSsf2xjr1,		// Super Street Fighter II X: Grand Master Challenge (Japan 940223)
@@ -42889,7 +42888,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsDynwarjr,		// Tenchi wo Kurau (Japan Resale Ver.)
 	&BurnDrvCpsDynwarj,			// Tenchi wo Kurau (Japan)
 	&BurnDrvnes_tenchiwokurau,	// Tenchi wo Kurau (Japan)
-	&BurnDrvCpsWofchp,			// Tenchi wo Kurau II - Sekiheki no Tatakai (PS/SS Version, Hack)
 	&BurnDrvnes_tenchwokurii,	// Tenchi wo Kurau II - Shokatsu Koumei Den (Hack, English v1.12)
 	&BurnDrvnes_tenchwokuriij,	// Tenchi wo Kurau II - Shokatsu Koumei Den (Japan)
 	&BurnDrvCpsWof1v3p,			// Tenchi wo Kurau II: Sekiheki no Tatakai (1v3 Plus, Hack)
@@ -42902,6 +42900,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsWofj,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Japan 921031)
 	&BurnDrvCpsWofdr20,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Master 2020, Hack)
 	&BurnDrvCpsWofdr,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Master, Hack)
+	&BurnDrvCpsWofchp,			// Tenchi wo Kurau II: Sekiheki no Tatakai (PS/SS Version, Hack)
 	&BurnDrvCpsWofkm3,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Subject 3, Hack)
 	&BurnDrvCpsWofsc,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Switchable Character, Hack)
 	&BurnDrvCpsWofjwp,			// Tenchi wo Kurau II: Sekiheki no Tatakai (Warriors Enhanced, Hack)
@@ -43153,14 +43152,14 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvKillbld,			// The Killing Blade / Ao Jian Kuang Dao (ver. 109, Chinese Board)
 	&BurnDrvKillbldp,			// The Killing Blade Plus / Ao Jian Kuang Dao Jiaqiang Ban (China, ver. 300)
 	&BurnDrvCpsKod1v3,			// The King of Dragons (1v3, Hack)
-	&BurnDrvCpsKodb,			// The King of Dragons (bootleg, 910731 etc)
+	&BurnDrvCpsKodda,			// The King of Dragons (910731 etc, Phoenix bootleg)
+	&BurnDrvCpsKodb,			// The King of Dragons (bootleg)
 	&BurnDrvCpsKodbs,			// The King of Dragons (Boss Battle, Hack)
 	&BurnDrvCpsKodlys,			// The King of Dragons (Dragonslayer, Hack)
 	&BurnDrvCpsKodyh,			// The King of Dragons (Fireworks, Hack)
 	&BurnDrvCpsKodh,			// The King of Dragons (hack)
 	&BurnDrvCpsKodja,			// The King of Dragons (Japan 910805, B-Board 89625B-1)
 	&BurnDrvCpsKodj,			// The King of Dragons (Japan 910805, B-Board 90629B-3)
-	&BurnDrvCpsKodda,			// The King of Dragons (Phoenix bootleg, 910731 etc)
 	&BurnDrvCpsKodsr,			// The King of Dragons (Remix Special, Hack)
 	&BurnDrvCpsKodly,			// The King of Dragons (Tough Plus, Hack)
 	&BurnDrvCpsKodu,			// The King of Dragons (USA 910910)
@@ -43454,9 +43453,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_threestooges,	// Three Stooges (USA)
 	&BurnSpec3weekspr,			// Three Weeks in Paradise (128K)
 	&BurnSpec3weekspr_48,		// Three Weeks in Paradise (48K)
-	&BurnDrvCps3wondersh,		// Three Wonders (bootleg set 1)
-	&BurnDrvCps3wondersha,		// Three Wonders (bootleg set 2)
-	&BurnDrvCps3wondersb,		// Three Wonders (hack)
+	&BurnDrvCps3wondersb,		// Three Wonders (bootleg)
+	&BurnDrvCps3wondersh,		// Three Wonders (hack, set 1)
+	&BurnDrvCps3wondersha,		// Three Wonders (hack, set 2)
 	&BurnDrvCps3wondersu,		// Three Wonders (USA 910520)
 	&BurnDrvCps3wondersr1,		// Three Wonders (World 910513)
 	&BurnDrvCps3wonders,		// Three Wonders (World 910520)
@@ -44464,7 +44463,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvVaportraw3,			// Vapor Trail - Hyper Offence Formation (World revision 3?)
 	&BurnDrvVmetaln,			// Varia Metal (New Ways Trading Co.)
 	&BurnDrvVmetal,				// Varia Metal
-	&BurnDrvCpsVarthb,			// Varth: Operation Thunderstorm (bootleg, 920612 etc)
+	&BurnDrvCpsVarthb,			// Varth: Operation Thunderstorm (bootleg, set 1)
 	&BurnDrvCpsVarthj,			// Varth: Operation Thunderstorm (Japan 920714)
 	&BurnDrvCpsVarthjr,			// Varth: Operation Thunderstorm (Japan Resale Ver. 920714)
 	&BurnDrvCpsVarthu,			// Varth: Operation Thunderstorm (USA 920612)
@@ -44844,9 +44843,10 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvWarriorb,			// Warrior Blade - Rastan Saga Episode III (Japan)
 	&BurnDrvmd_warrior,			// Warrior of Rome (USA)
 	&BurnDrvmd_warrior2,		// Warrior of Rome II (USA)
+	&BurnDrvCpsSgyxz,			// Warriors of Fate ('sgyxz' bootleg)
 	&BurnDrvCpsWofpic,			// Warriors of Fate (bootleg with PIC16C57)
-	&BurnDrvCpsWofr1bl,			// Warriors of Fate (bootleg, 921002 etc)
-//	&BurnDrvCpsWoffr,			// Warriors of Fate (French Translation) [no comment]
+	&BurnDrvCpsWofr1bl,			// Warriors of Fate (bootleg)
+//	&BurnDrvCpsWoffr,			// Warriors of Fate (hack, French Translation) [no comment]
 	&BurnDrvCpsWofu,			// Warriors of Fate (USA 921031)
 	&BurnDrvCpsWofr1,			// Warriors of Fate (World 921002)
 	&BurnDrvCpsWof,				// Warriors of Fate (World 921031)
@@ -44973,10 +44973,10 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvgg_wildsnake,		// WildSnake (Prototype)
 	&BurnDrvsnes_Wildsnake,		// WildSnake (USA)
 	&BurnDrvmd_arcadeghu,		// Williams Arcade's Greatest Hits (USA)
+	&BurnDrvCpsWillowbr,		// Willow (hack, Portuguese-BR Translation, v1.06)
 	&BurnDrvnes_willowj,		// Willow (Japan)
 	&BurnDrvCpsWillowj,			// Willow (Japan)
 	&BurnDrvnes_willownfh,		// Willow (No Flash ed.) (Hack, v1.1)
-	&BurnDrvCpsWillowbr,		// Willow (Portuguese-BR Translation v1.06, Hack)
 	&BurnDrvCpsWillowuo,		// Willow (USA Old Ver.)
 	&BurnDrvnes_willow,			// Willow (USA)
 	&BurnDrvCpsWillowu,			// Willow (USA)
@@ -48812,15 +48812,15 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_cadaveriones", "spectrum/d_spectrum.cpp"},
 	{ "dino1v3", "capcom/d_cps1.cpp"},
 	{ "dinosyn", "capcom/d_cps1.cpp"},
-	{ "dinoa", "capcom/d_cps1.cpp"},
 	{ "dinoh", "capcom/d_cps1.cpp"},
+	{ "dinohc", "capcom/d_cps1.cpp"},
+	{ "dinoa", "capcom/d_cps1.cpp"},
 	{ "dinopic", "capcom/d_cps1.cpp"},
 	{ "dinopic2", "capcom/d_cps1.cpp"},
 	{ "dinopic3", "capcom/d_cps1.cpp"},
 	{ "dinopic4", "capcom/d_cps1.cpp"},
 	{ "dinopic5", "capcom/d_cps1.cpp"},
 	{ "dinosj", "capcom/d_cps1.cpp"},
-	{ "dinohc", "capcom/d_cps1.cpp"},
 	{ "dinoss", "capcom/d_cps1.cpp"},
 	{ "dinojj", "capcom/d_cps1.cpp"},
 	{ "dinokr", "capcom/d_cps1.cpp"},
@@ -48951,9 +48951,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_captchef", "msx/d_msx.cpp"},
 	{ "nes_captacom", "nes/d_nes.cpp"},
 	{ "captc1v4", "capcom/d_cps1.cpp"},
-	{ "captcommb", "capcom/d_cps1.cpp"},
 	{ "captcommb2", "capcom/d_cps1.cpp"},
 	{ "captcommb3", "capcom/d_cps1.cpp"},
+	{ "captcommb", "capcom/d_cps1.cpp"},
 	{ "captcmsh", "capcom/d_cps1.cpp"},
 	{ "captcmcr", "capcom/d_cps1.cpp"},
 	{ "captcmjy", "capcom/d_cps1.cpp"},
@@ -50295,9 +50295,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_dahnams", "megadrive/d_megadrive.cpp"},
 	{ "md_dahnam", "megadrive/d_megadrive.cpp"},
 	{ "msx_daidasso", "msx/d_msx.cpp"},
-	{ "daimakaib", "capcom/d_cps1.cpp"},
-	{ "daimakair", "capcom/d_cps1.cpp"},
-	{ "daimakai", "capcom/d_cps1.cpp"},
 	{ "md_daimakai", "megadrive/d_megadrive.cpp"},
 	{ "nes_daimeiro", "nes/d_nes.cpp"},
 	{ "dairesya", "konami/d_ironhors.cpp"},
@@ -50324,6 +50321,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "dkgensanm72", "irem/d_m72.cpp"},
 	{ "dkgensanm82", "irem/d_m72.cpp"},
 	{ "dkgensan", "irem/d_m72.cpp"},
+	{ "daimakaib", "capcom/d_cps1.cpp"},
+	{ "daimakair", "capcom/d_cps1.cpp"},
+	{ "daimakai", "capcom/d_cps1.cpp"},
 	{ "sgx_daimakai1", "pce/d_pce.cpp"},
 	{ "sgx_daimakai", "pce/d_pce.cpp"},
 	{ "sgx_daimakaid", "pce/d_pce.cpp"},
@@ -52543,8 +52543,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_finalfanviiadvch", "nes/d_nes.cpp"},
 	{ "spec_finalfight", "spectrum/d_spectrum.cpp"},
 	{ "ffigh1v2", "capcom/d_cps1.cpp"},
-	{ "ffightbl", "capcom/d_cps1.cpp"},
 	{ "ffightbla", "capcom/d_cps1.cpp"},
+	{ "ffightbl", "capcom/d_cps1.cpp"},
 	{ "ffightfw", "capcom/d_cps1.cpp"},
 	{ "ffightj1", "capcom/d_cps1.cpp"},
 	{ "ffightj2", "capcom/d_cps1.cpp"},
@@ -55943,21 +55943,21 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sg1k_moyuchua", "sg1000/d_sg1000.cpp"},
 	{ "spec_knddx", "spectrum/d_spectrum.cpp"},
 	{ "spec_knights", "spectrum/d_spectrum.cpp"},
+	{ "knightsh2", "capcom/d_cps1.cpp"},
+	{ "knightsb5", "capcom/d_cps1.cpp"},
 	{ "knightsb", "capcom/d_cps1.cpp"},
 	{ "knightsb3", "capcom/d_cps1.cpp"},
 	{ "knightsb4", "capcom/d_cps1.cpp"},
-	{ "knightsb5", "capcom/d_cps1.cpp"},
-	{ "knightsb2", "capcom/d_cps1.cpp"},
 	{ "knightct", "capcom/d_cps1.cpp"},
 	{ "knightsh", "capcom/d_cps1.cpp"},
-	{ "knightsh2", "capcom/d_cps1.cpp"},
+	{ "knightsc", "capcom/d_cps1.cpp"},
 	{ "knightsja", "capcom/d_cps1.cpp"},
 	{ "knightsj", "capcom/d_cps1.cpp"},
 	{ "knightsp", "capcom/d_cps1.cpp"},
-	{ "knightsc", "capcom/d_cps1.cpp"},
 	{ "knightsu", "capcom/d_cps1.cpp"},
 	{ "snes_knightsround", "snes/d_snes.cpp"},
 	{ "knights", "capcom/d_cps1.cpp"},
+	{ "knightsb2", "capcom/d_cps1.cpp"},
 	{ "kov111", "pgm/d_pgm.cpp"},
 	{ "kov114", "pgm/d_pgm.cpp"},
 	{ "kov115", "pgm/d_pgm.cpp"},
@@ -62173,13 +62173,13 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_sangokushi", "nes/d_nes.cpp"},
 	{ "sms_sangoku3", "sms/d_sms.cpp"},
 	{ "wofa", "capcom/d_cps1.cpp"},
-	{ "wofabl", "capcom/d_cps1.cpp"},
-	{ "wofabla", "capcom/d_cps1.cpp"},
 	{ "wofah", "capcom/d_cps1.cpp"},
 	{ "wofaha", "capcom/d_cps1.cpp"},
 	{ "wofahb", "capcom/d_cps1.cpp"},
-	{ "md_sangoku2", "megadrive/d_megadrive.cpp"},
+	{ "wofabl", "capcom/d_cps1.cpp"},
+	{ "wofabla", "capcom/d_cps1.cpp"},
 	{ "wofc", "capcom/d_cps1.cpp"},
+	{ "md_sangoku2", "megadrive/d_megadrive.cpp"},
 	{ "nes_sangokushiiihanouc", "nes/d_nes.cpp"},
 	{ "nes_sangokushiiihanou", "nes/d_nes.cpp"},
 	{ "wof3js", "capcom/d_cps1.cpp"},
@@ -62188,7 +62188,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "wof3sja", "capcom/d_cps1.cpp"},
 	{ "wofh", "capcom/d_cps1.cpp"},
 	{ "wofha", "capcom/d_cps1.cpp"},
-	{ "sgyxz", "capcom/d_cps1.cpp"},
 	{ "wofsj", "capcom/d_cps1.cpp"},
 	{ "wofsja", "capcom/d_cps1.cpp"},
 	{ "wofsjb", "capcom/d_cps1.cpp"},
@@ -64123,36 +64122,17 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sms_sf2", "sms/d_sms.cpp"},
 	{ "snes_sf2j", "snes/d_snes.cpp"},
 	{ "snes_sf2", "snes/d_snes.cpp"},
-	{ "sf2amf", "capcom/d_cps1.cpp"},
-	{ "sf2amf4", "capcom/d_cps1.cpp"},
-	{ "sf2amf5", "capcom/d_cps1.cpp"},
-	{ "sf2amf6", "capcom/d_cps1.cpp"},
-	{ "sf2amf7", "capcom/d_cps1.cpp"},
-	{ "sf2amf8", "capcom/d_cps1.cpp"},
-	{ "sf2amf9", "capcom/d_cps1.cpp"},
-	{ "sf2amf11", "capcom/d_cps1.cpp"},
-	{ "sf2amf2", "capcom/d_cps1.cpp"},
-	{ "sf2amf3", "capcom/d_cps1.cpp"},
-	{ "sf2amf10", "capcom/d_cps1.cpp"},
-	{ "sf2amf12", "capcom/d_cps1.cpp"},
 	{ "nes_streefigiic", "nes/d_nes.cpp"},
 	{ "nes_streefigii", "nes/d_nes.cpp"},
 	{ "nes_streefigiihac", "nes/d_nes.cpp"},
 	{ "sf2mix", "capcom/d_cps1.cpp"},
 	{ "snes_sf2turboj", "snes/d_snes.cpp"},
 	{ "snes_sf2turbo", "snes/d_snes.cpp"},
-	{ "sf2cebr", "capcom/d_cps1.cpp"},
-	{ "sf2gm", "capcom/d_cps1.cpp"},
 	{ "pce_sf2ce", "pce/d_pce.cpp"},
 	{ "md_sf2p2", "megadrive/d_megadrive.cpp"},
 	{ "md_sf2p1", "megadrive/d_megadrive.cpp"},
 	{ "md_sf2hce", "megadrive/d_megadrive.cpp"},
 	{ "md_sf2hce2", "megadrive/d_megadrive.cpp"},
-	{ "sf2hfsce", "capcom/d_cps1.cpp"},
-	{ "sf2mdt", "capcom/d_cps1.cpp"},
-	{ "sf2mdta", "capcom/d_cps1.cpp"},
-	{ "sf2mdtb", "capcom/d_cps1.cpp"},
-	{ "sf2mdtc", "capcom/d_cps1.cpp"},
 	{ "md_sf2re", "megadrive/d_megadrive.cpp"},
 	{ "md_sf2", "megadrive/d_megadrive.cpp"},
 	{ "md_sf2ics", "megadrive/d_megadrive.cpp"},
@@ -64165,11 +64145,10 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sf2hfjb2", "capcom/d_cps1.cpp"},
 	{ "sf2hfj", "capcom/d_cps1.cpp"},
 	{ "sf2cebltw", "capcom/d_cps1.cpp"},
+	{ "sf2cebr", "capcom/d_cps1.cpp"},
 	{ "sf2ceeabl", "capcom/d_cps1.cpp"},
 	{ "sf2ceeab2", "capcom/d_cps1.cpp"},
 	{ "sf2ceuabl", "capcom/d_cps1.cpp"},
-	{ "sf2ceuab10", "capcom/d_cps1.cpp"},
-	{ "sf2ceuab11", "capcom/d_cps1.cpp"},
 	{ "sf2ceuab2", "capcom/d_cps1.cpp"},
 	{ "sf2ceuab3", "capcom/d_cps1.cpp"},
 	{ "sf2ceuab4", "capcom/d_cps1.cpp"},
@@ -64184,23 +64163,38 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sf2accp2", "capcom/d_cps1.cpp"},
 	{ "sf2acc", "capcom/d_cps1.cpp"},
 	{ "sf2acca", "capcom/d_cps1.cpp"},
+	{ "sf2amf", "capcom/d_cps1.cpp"},
+	{ "sf2amf4", "capcom/d_cps1.cpp"},
+	{ "sf2amf5", "capcom/d_cps1.cpp"},
+	{ "sf2amf6", "capcom/d_cps1.cpp"},
+	{ "sf2amf7", "capcom/d_cps1.cpp"},
+	{ "sf2amf8", "capcom/d_cps1.cpp"},
+	{ "sf2amf9", "capcom/d_cps1.cpp"},
 	{ "sf2level", "capcom/d_cps1.cpp"},
-	{ "sf2ceh", "capcom/d_cps1.cpp"},
 	{ "sf2ceb2", "capcom/d_cps1.cpp"},
 	{ "sf2ceb3", "capcom/d_cps1.cpp"},
 	{ "sf2dongb", "capcom/d_cps1.cpp"},
 	{ "sf2dkot2", "capcom/d_cps1.cpp"},
+	{ "sf2gm", "capcom/d_cps1.cpp"},
+	{ "sf2ceh", "capcom/d_cps1.cpp"},
 	{ "sf2bhh", "capcom/d_cps1.cpp"},
 	{ "sf2ceja", "capcom/d_cps1.cpp"},
 	{ "sf2ceupl", "capcom/d_cps1.cpp"},
 	{ "sf2cejb", "capcom/d_cps1.cpp"},
 	{ "sf2cejc", "capcom/d_cps1.cpp"},
+	{ "sf2amf11", "capcom/d_cps1.cpp"},
+	{ "sf2amf2", "capcom/d_cps1.cpp"},
+	{ "sf2amf3", "capcom/d_cps1.cpp"},
+	{ "sf2amf10", "capcom/d_cps1.cpp"},
+	{ "sf2amf12", "capcom/d_cps1.cpp"},
 	{ "sf2md", "capcom/d_cps1.cpp"},
 	{ "sf2mega", "capcom/d_cps1.cpp"},
 	{ "sf2mega2", "capcom/d_cps1.cpp"},
+	{ "sf2cems6a", "capcom/d_cps1.cpp"},
 	{ "sf2ceb", "capcom/d_cps1.cpp"},
 	{ "sf2ceb4", "capcom/d_cps1.cpp"},
 	{ "sf2ceb5", "capcom/d_cps1.cpp"},
+	{ "sf2ceblp", "capcom/d_cps1.cpp"},
 	{ "sf2rb", "capcom/d_cps1.cpp"},
 	{ "sf2rb2", "capcom/d_cps1.cpp"},
 	{ "sf2rb3", "capcom/d_cps1.cpp"},
@@ -64208,10 +64202,10 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sf2rb5", "capcom/d_cps1.cpp"},
 	{ "sf2rb6", "capcom/d_cps1.cpp"},
 	{ "sf2re", "capcom/d_cps1.cpp"},
+	{ "sf2redp2", "capcom/d_cps1.cpp"},
 	{ "sf2red", "capcom/d_cps1.cpp"},
 	{ "sf2reda", "capcom/d_cps1.cpp"},
 	{ "sf2red2", "capcom/d_cps1.cpp"},
-	{ "sf2redp2", "capcom/d_cps1.cpp"},
 	{ "sf2sl73a", "capcom/d_cps1.cpp"},
 	{ "sf2cet", "capcom/d_cps1.cpp"},
 	{ "sf2tlona", "capcom/d_cps1.cpp"},
@@ -64232,8 +64226,13 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sf2yyc", "capcom/d_cps1.cpp"},
 	{ "sf2yyc2", "capcom/d_cps1.cpp"},
 	{ "sf2hfub", "capcom/d_cps1.cpp"},
+	{ "sf2hfsce", "capcom/d_cps1.cpp"},
 	{ "sf2hfu", "capcom/d_cps1.cpp"},
 	{ "sf2hf", "capcom/d_cps1.cpp"},
+	{ "sf2mdt", "capcom/d_cps1.cpp"},
+	{ "sf2mdta", "capcom/d_cps1.cpp"},
+	{ "sf2mdtb", "capcom/d_cps1.cpp"},
+	{ "sf2mdtc", "capcom/d_cps1.cpp"},
 	{ "sf2mkot", "capcom/d_cps1.cpp"},
 	{ "sf2rules", "capcom/d_cps1.cpp"},
 	{ "sf2b", "capcom/d_cps1.cpp"},
@@ -65716,7 +65715,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "dynwarjr", "capcom/d_cps1.cpp"},
 	{ "dynwarj", "capcom/d_cps1.cpp"},
 	{ "nes_tenchiwokurau", "nes/d_nes.cpp"},
-	{ "wofchp", "capcom/d_cps1.cpp"},
 	{ "nes_tenchwokurii", "nes/d_nes.cpp"},
 	{ "nes_tenchwokuriij", "nes/d_nes.cpp"},
 	{ "wof1v3p", "capcom/d_cps1.cpp"},
@@ -65729,6 +65727,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "wofj", "capcom/d_cps1.cpp"},
 	{ "wofdr20", "capcom/d_cps1.cpp"},
 	{ "wofdr", "capcom/d_cps1.cpp"},
+	{ "wofchp", "capcom/d_cps1.cpp"},
 	{ "wofkm3", "capcom/d_cps1.cpp"},
 	{ "wofsc", "capcom/d_cps1.cpp"},
 	{ "wofwjq", "capcom/d_cps1.cpp"},
@@ -65980,6 +65979,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "killbld", "pgm/d_pgm.cpp"},
 	{ "killbldp", "pgm/d_pgm.cpp"},
 	{ "kod1v3", "capcom/d_cps1.cpp"},
+	{ "kodda", "capcom/d_cps1.cpp"},
 	{ "kodb", "capcom/d_cps1.cpp"},
 	{ "kodbs", "capcom/d_cps1.cpp"},
 	{ "kodlys", "capcom/d_cps1.cpp"},
@@ -65987,7 +65987,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "kodh", "capcom/d_cps1.cpp"},
 	{ "kodja", "capcom/d_cps1.cpp"},
 	{ "kodj", "capcom/d_cps1.cpp"},
-	{ "kodda", "capcom/d_cps1.cpp"},
 	{ "kodsr", "capcom/d_cps1.cpp"},
 	{ "kodly", "capcom/d_cps1.cpp"},
 	{ "kodu", "capcom/d_cps1.cpp"},
@@ -66277,9 +66276,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_threestooges", "nes/d_nes.cpp"},
 	{ "spec_3weekspr", "spectrum/d_spectrum.cpp"},
 	{ "spec_3weekspr_48", "spectrum/d_spectrum.cpp"},
+	{ "3wondersb", "capcom/d_cps1.cpp"},
 	{ "3wondersh", "capcom/d_cps1.cpp"},
 	{ "3wondersha", "capcom/d_cps1.cpp"},
-	{ "3wondersb", "capcom/d_cps1.cpp"},
 	{ "3wondersu", "capcom/d_cps1.cpp"},
 	{ "3wondersr1", "capcom/d_cps1.cpp"},
 	{ "3wonders", "capcom/d_cps1.cpp"},
@@ -67645,6 +67644,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "warriorb", "taito/d_darius2.cpp"},
 	{ "md_warrior", "megadrive/d_megadrive.cpp"},
 	{ "md_warrior2", "megadrive/d_megadrive.cpp"},
+	{ "sgyxz", "capcom/d_cps1.cpp"},
 	{ "wofpic", "capcom/d_cps1.cpp"},
 	{ "wofr1bl", "capcom/d_cps1.cpp"},
 	{ "woffr", "capcom/d_cps1.cpp"},
@@ -67770,10 +67770,10 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "gg_wildsnake", "sms/d_sms.cpp"},
 	{ "snes_wildsnake", "snes/d_snes.cpp"},
 	{ "md_arcadeghu", "megadrive/d_megadrive.cpp"},
+	{ "willowbr", "capcom/d_cps1.cpp"},
 	{ "nes_willowj", "nes/d_nes.cpp"},
 	{ "willowj", "capcom/d_cps1.cpp"},
 	{ "nes_willownfh", "nes/d_nes.cpp"},
-	{ "willowbr", "capcom/d_cps1.cpp"},
 	{ "willowuo", "capcom/d_cps1.cpp"},
 	{ "nes_willow", "nes/d_nes.cpp"},
 	{ "willowu", "capcom/d_cps1.cpp"},
