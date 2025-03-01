@@ -12136,8 +12136,8 @@
 		<description>Metal Slug 4 (Final, Hack)</description>
 		<year>2025</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="263-p1zj.p1" size="1048576" crc="521f944f"/>
-		<rom name="263-p2zj.sp2" size="6291456" crc="d886a760"/>
+		<rom name="263-p1zj.p1" size="1048576" crc="7ff2f18e"/>
+		<rom name="263-p2zj.sp2" size="6291456" crc="f6e65e5e"/>
 		<rom name="263-s1d.s1" size="131072" crc="a9446774"/>
 		<rom name="263-c1d.c1" size="8388608" crc="a75ffcde"/>
 		<rom name="263-c2d.c2" size="8388608" crc="5ab0d12b"/>
@@ -14321,7 +14321,7 @@
 		<description>Metal Slug 5 (The Longest Battle, Hack)</description>
 		<year>2023</year>
 		<manufacturer>hack</manufacturer>
-		<rom name="268-p1es.p1" size="6291456" crc="fc309b3d"/>
+		<rom name="268-p1es.p1" size="6291456" crc="8f8327a1"/>
 		<rom name="268-s1d.s1" size="131072" crc="64952683"/>
 		<rom name="268-c1d.c1" size="8388608" crc="e8239365"/>
 		<rom name="268-c2d.c2" size="8388608" crc="89b21d4c"/>
