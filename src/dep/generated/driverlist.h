@@ -15028,6 +15028,8 @@ DRV		BurnDrvsnes_Puttysquade;
 DRV		BurnDrvmd_puttysquadp2;
 DRV		BurnDrvngpc_puyopopa;
 DRV		BurnDrvngpc_puyopop;
+DRV		BurnDrvmd_puyopuyouk;
+DRV		BurnDrvmd_puyopuyous;
 DRV		BurnDrvnes_puyopuyoc;
 DRV		BurnDrvgg_puyopuyo;
 DRV		BurnDrvmd_puyopuyo;
@@ -38166,11 +38168,13 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvfds_puttputtgolf,	// Putt Putt Golf (Japan)
 	&BurnDrvmd_puttergnk,		// Putter Golf (Japan, Game no Kandume MegaCD Rip)
 	&BurnDrvmd_putter,			// Putter Golf (Japan, SegaNet)
-	&BurnDrvmd_puttysquadp1,	// Putty Squad (Early prototype)
+	&BurnDrvmd_puttysquadp1,	// Putty Squad (Early Prototype)
 	&BurnDrvsnes_Puttysquade,	// Putty Squad (Euro)
-	&BurnDrvmd_puttysquadp2,	// Putty Squad (Late prototype)
+	&BurnDrvmd_puttysquadp2,	// Putty Squad (Late Prototype)
 	&BurnDrvngpc_puyopopa,		// Puyo Pop (World, v5) ~ Puyo Pyuo Tsuu (Japan, v5)
 	&BurnDrvngpc_puyopop,		// Puyo Pop (World, v6) ~ Puyo Pyuo Tsuu (Japan, v6)
+	&BurnDrvmd_puyopuyouk,		// Puyo Puyo (Hack, English UK)
+	&BurnDrvmd_puyopuyous,		// Puyo Puyo (Hack, English US)
 	&BurnDrvnes_puyopuyoc,		// Puyo Puyo (Hack, Spanish v1.1)
 	&BurnDrvgg_puyopuyo,		// Puyo Puyo (Japan)
 	&BurnDrvmd_puyopuyo,		// Puyo Puyo (Japan)
@@ -38196,7 +38200,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsPzloop2jr1,		// Puzz Loop 2 (Japan 010205)
 	&BurnDrvCpsPzloop2jd,		// Puzz Loop 2 (Japan 010226 Phoenix Edition) (bootleg)
 	&BurnDrvCpsPzloop2j,		// Puzz Loop 2 (Japan 010226)
-	&BurnDrvmd_ichir,			// Puzzle & Action - Ichidant-R (Jpn)
+	&BurnDrvmd_ichir,			// Puzzle & Action - Ichidant-R (Japan)
 	&BurnDrvmd_tantr,			// Puzzle & Action - Tant-R (Japan)
 	&BurnDrvIchirjbl,			// Puzzle & Action: Ichidant-R (Japan) (bootleg)
 	&BurnDrvIchirj,				// Puzzle & Action: Ichidant-R (Japan)
@@ -38510,8 +38514,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvRadarscpc,			// Radar Scope (TRS02?, rev. C)
 	&BurnDrvnes_radiasen,		// Radia Senki - Reimei Hen (Hack, English)
 	&BurnDrvnes_radiasenj,		// Radia Senki - Reimei Hen (Japan)
-	&BurnDrvmd_radicasf,		// Radica: Street Fighter Pack (Euro)
-	&BurnDrvmd_radicav1,		// Radica: Volume 1 (USA)
+	&BurnDrvmd_radicasf,		// Radica: Street Fighter Pack (Euro) (Unl)
+	&BurnDrvmd_radicav1,		// Radica: Volume 1 (USA) (Unl)
 	&BurnDrvfds_radicbomjirkun,	// Radical Bomber!! Jirai-kun (Japan)
 	&BurnDrvsnes_Rpmracing,		// Radical Psycho Machine Racing (USA)
 	&BurnDrvRadradj,			// Radical Radial (Japan)
@@ -61192,6 +61196,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_puttysquadp2", "megadrive/d_megadrive.cpp"},
 	{ "ngp_puyopopa", "pst90s/d_ngp.cpp"},
 	{ "ngp_puyopop", "pst90s/d_ngp.cpp"},
+	{ "md_puyopuyouk", "megadrive/d_megadrive.cpp"},
+	{ "md_puyopuyous", "megadrive/d_megadrive.cpp"},
 	{ "nes_puyopuyoc", "nes/d_nes.cpp"},
 	{ "gg_puyopuyo", "sms/d_sms.cpp"},
 	{ "md_puyopuyo", "megadrive/d_megadrive.cpp"},
