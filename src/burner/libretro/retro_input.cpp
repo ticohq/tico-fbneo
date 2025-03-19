@@ -3,12 +3,16 @@
 #include "retro_input.h"
 #include "burn_gun.h"
 
+// TODO :
+// - implement RETROPAD_8PANEL for 8-buttons panels/fightsticks
+
 // extern from burner.h
 UINT32 nGameInpCount = 0;
 UINT32 nMacroCount = 0;
 UINT32 nMaxMacro = 0;
 INT32  nAnalogSpeed = 0x0100;
 INT32  nFireButtons = 0;
+INT32  nRealFireButtons = 0;
 bool   bStreetFighterLayout = false;
 
 // extern from burnint.h
@@ -44,6 +48,12 @@ static bool bLibretroSupportsBitmasks = false;
 static char* pDirections[MAX_PLAYERS][6];
 UINT32 nDiagInputHoldCounter = 0;
 
+// hardware macros
+#define HW_NEOGEO (((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_SNK_NEOGEO) || ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_SNK_NEOCD))
+#define HW_NES    (((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_NES) || ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_FDS))
+#define HW_MISC   ((!HW_NEOGEO) && (!HW_NES) && ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) != HARDWARE_SEGA_MEGADRIVE))
+
+// positional button macros (when position is considered important)
 #define RETRO_DEVICE_ID_1ST_COL_TOP    RETRO_DEVICE_ID_JOYPAD_Y
 #define RETRO_DEVICE_ID_1ST_COL_BOTTOM RETRO_DEVICE_ID_JOYPAD_B
 #define RETRO_DEVICE_ID_2ND_COL_TOP    RETRO_DEVICE_ID_JOYPAD_X
@@ -53,6 +63,12 @@ UINT32 nDiagInputHoldCounter = 0;
 #define RETRO_DEVICE_ID_4TH_COL_TOP    (nDeviceType[nPlayer] == RETROPAD_MODERN ? RETRO_DEVICE_ID_JOYPAD_L  : RETRO_DEVICE_ID_JOYPAD_L2)
 #define RETRO_DEVICE_ID_4TH_COL_BOTTOM (nDeviceType[nPlayer] == RETROPAD_MODERN ? RETRO_DEVICE_ID_JOYPAD_L2 : RETRO_DEVICE_ID_JOYPAD_R2)
 
+// more positional button macros (when we want 3-buttons in a "straight line")
+#define RETRO_DEVICE_ID_3LINE_LEFT   (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_Y : RETRO_DEVICE_ID_JOYPAD_Y)
+#define RETRO_DEVICE_ID_3LINE_MIDDLE (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_X : RETRO_DEVICE_ID_JOYPAD_B)
+#define RETRO_DEVICE_ID_3LINE_RIGHT  (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_L : RETRO_DEVICE_ID_JOYPAD_A)
+
+// numbered button macros (for generic usage)
 #define RETRO_DEVICE_ID_FIRE01 (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_Y : RETRO_DEVICE_ID_1ST_COL_BOTTOM)
 #define RETRO_DEVICE_ID_FIRE02 (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_X : RETRO_DEVICE_ID_2ND_COL_BOTTOM)
 #define RETRO_DEVICE_ID_FIRE03 (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_L : RETRO_DEVICE_ID_1ST_COL_TOP   )
@@ -63,10 +79,6 @@ UINT32 nDiagInputHoldCounter = 0;
 #define RETRO_DEVICE_ID_FIRE08 RETRO_DEVICE_ID_4TH_COL_TOP
 #define RETRO_DEVICE_ID_FIRE09 RETRO_DEVICE_ID_JOYPAD_R3
 #define RETRO_DEVICE_ID_FIRE10 RETRO_DEVICE_ID_JOYPAD_L3
-
-#define RETRO_DEVICE_ID_3LINE_LEFT   (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_Y : RETRO_DEVICE_ID_JOYPAD_Y)
-#define RETRO_DEVICE_ID_3LINE_MIDDLE (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_X : RETRO_DEVICE_ID_JOYPAD_B)
-#define RETRO_DEVICE_ID_3LINE_RIGHT  (nDeviceType[nPlayer] == RETROPAD_6PANEL ? RETRO_DEVICE_ID_JOYPAD_L : RETRO_DEVICE_ID_JOYPAD_A)
 
 void SetDiagInpHoldFrameDelay(unsigned val)
 {
@@ -187,7 +199,7 @@ static void AnalyzeGameLayout()
 				nKickInputs[nPlayer][2] = i;
 			}
 
-			if (bIsNeogeoCartGame || (nGameType == RETRO_GAME_TYPE_NEOCD)) {
+			if (HW_NEOGEO) {
 				if (_stricmp(" Button A", bii.szName + 2) == 0) {
 					nNeogeoButtons[nPlayer][0] = i;
 				}
@@ -218,6 +230,7 @@ static void AnalyzeGameLayout()
 	}
 
 	pgi = GameInp + nGameInpCount;
+	nRealFireButtons = bVolumeIsFireButton ? nFireButtons - 2 : nFireButtons;
 
 	// We only support macros deemed "most useful" for now
 	for (UINT32 nPlayer = 0; nPlayer < nMaxPlayers; nPlayer++) {
@@ -250,7 +263,7 @@ static void AnalyzeGameLayout()
 			pgi++;
 		}
 		// supposedly, those are the 4 most useful neogeo macros
-		if (bIsNeogeoCartGame || (nGameType == RETRO_GAME_TYPE_NEOCD)) {
+		if (HW_NEOGEO) {
 			pgi->nInput = GIT_MACRO_AUTO;
 			pgi->nType = BIT_DIGITAL;
 			pgi->Macro.nMode = 0;
@@ -309,15 +322,15 @@ static void AnalyzeGameLayout()
 			nMacroCount++;
 			pgi++;
 		}
-		if (nFireButtons <= 4)
+#if 0
+		if (nRealFireButtons <= 3)
 		{
-			if (nFireButtons >= 2)
+			if (nRealFireButtons >= 2 && (HW_MISC || HW_NES))
 			{
-				const char* pChar = (((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_NES) || ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_FDS) ) ? "BA" : "12";
 				pgi->nInput = GIT_MACRO_AUTO;
 				pgi->nType = BIT_DIGITAL;
 				pgi->Macro.nMode = 0;
-				sprintf(pgi->Macro.szName, "P%i Buttons %s", nPlayer + 1, pChar);
+				sprintf(pgi->Macro.szName, "P%i Buttons %s", nPlayer + 1, (HW_NES ? "BA" : "12"));
 				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][0]);
 				pgi->Macro.pVal[0] = bii.pVal;
 				pgi->Macro.nVal[0] = 1;
@@ -327,13 +340,58 @@ static void AnalyzeGameLayout()
 				nMacroCount++;
 				pgi++;
 			}
+			if (nRealFireButtons >= 3 && HW_MISC)
+			{
+				pgi->nInput = GIT_MACRO_AUTO;
+				pgi->nType = BIT_DIGITAL;
+				pgi->Macro.nMode = 0;
+				sprintf(pgi->Macro.szName, "P%i Buttons 13", nPlayer + 1);
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][0]);
+				pgi->Macro.pVal[0] = bii.pVal;
+				pgi->Macro.nVal[0] = 1;
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][2]);
+				pgi->Macro.pVal[1] = bii.pVal;
+				pgi->Macro.nVal[1] = 1;
+				nMacroCount++;
+				pgi++;
+
+				pgi->nInput = GIT_MACRO_AUTO;
+				pgi->nType = BIT_DIGITAL;
+				pgi->Macro.nMode = 0;
+				sprintf(pgi->Macro.szName, "P%i Buttons 23", nPlayer + 1);
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][1]);
+				pgi->Macro.pVal[0] = bii.pVal;
+				pgi->Macro.nVal[0] = 1;
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][2]);
+				pgi->Macro.pVal[1] = bii.pVal;
+				pgi->Macro.nVal[1] = 1;
+				nMacroCount++;
+				pgi++;
+
+				pgi->nInput = GIT_MACRO_AUTO;
+				pgi->nType = BIT_DIGITAL;
+				pgi->Macro.nMode = 0;
+				sprintf(pgi->Macro.szName, "P%i Buttons 123", nPlayer + 1);
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][0]);
+				pgi->Macro.pVal[0] = bii.pVal;
+				pgi->Macro.nVal[0] = 1;
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][1]);
+				pgi->Macro.pVal[1] = bii.pVal;
+				pgi->Macro.nVal[1] = 1;
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][2]);
+				pgi->Macro.pVal[2] = bii.pVal;
+				pgi->Macro.nVal[2] = 1;
+				nMacroCount++;
+				pgi++;
+			}
 		}
+#endif
 	}
 
 	if ((nPunchx3[0] == 7) && (nKickx3[0] == 7)) {
 		bStreetFighterLayout = true;
 	}
-	if (nFireButtons >= 5 && (BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_CAPCOM_CPS2 && !bVolumeIsFireButton) {
+	if (nRealFireButtons >= 5 && (BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_CAPCOM_CPS2) {
 		bStreetFighterLayout = true;
 	}
 }
@@ -2062,7 +2120,7 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		if (strncmp("Buttons 3x Kick", description, 15) == 0)
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_4TH_COL_BOTTOM, description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
 	}
-	if (bIsNeogeoCartGame || (nGameType == RETRO_GAME_TYPE_NEOCD)) {
+	if (HW_NEOGEO) {
 		if (strncmp("Buttons ABC", description, 11) == 0)
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_FIRE07, description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
 		if (strncmp("Buttons BCD", description, 11) == 0)
@@ -2073,12 +2131,10 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_FIRE06, description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
 	}
 #if 0
-	// Generic macros wip here, but is it really ok to just auto-assign this ?
-	// The code will assign a macro of 1st+2nd buttons to the next unmapped retropad button based on order preference from the device type
-	if (nFireButtons == 2 ||
-		(parentrom && strcmp(parentrom, "lightbr") == 0) ||
-		(drvname && strcmp(drvname, "lightbr") == 0)) {
-		if ((strncmp("Buttons 12", description, 10) == 0) || (strncmp("Buttons BA", description, 10) == 0)) {
+	// This code will assign macros to the next unmapped retropad buttons based on order preference from the device type
+	// However, is it really ok ? Disabled for now
+	if (nRealFireButtons == 2 || nRealFireButtons == 3) {
+		if (strncmp("Buttons ", description, 8) == 0) {
 			int list[10] = {RETRO_DEVICE_ID_FIRE01, RETRO_DEVICE_ID_FIRE02, RETRO_DEVICE_ID_FIRE03, RETRO_DEVICE_ID_FIRE04, RETRO_DEVICE_ID_FIRE05, RETRO_DEVICE_ID_FIRE06, RETRO_DEVICE_ID_FIRE07, RETRO_DEVICE_ID_FIRE08, RETRO_DEVICE_ID_FIRE09, RETRO_DEVICE_ID_FIRE10};
 			for (int i = 0; i < 10; i++) {
 				if (!bDigitalMappingDone[nPlayer][list[i]])
@@ -2313,7 +2369,7 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 	// Don't map neogeo select button anywhere
 	// See https://neo-source.com/index.php?topic=3490.0
 	// 2019-07-03 : actually, map it to L3, it allows access to a menu in last blade training mode
-	if (strncmp("select", szb, 6) == 0 && bIsNeogeoCartGame)
+	if (strncmp("select", szb, 6) == 0 && HW_NEOGEO)
 		GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_L3, description);
 
 	// map VS unisystem select button to L3
@@ -2357,7 +2413,7 @@ static INT32 GameInpStandardOne(struct GameInp* pgi, INT32 nPlayer, char* szb, c
 		char *szf = szb + 5;
 		INT32 nButton = strtol(szf, NULL, 0);
 		// "Modern" neogeo stick and gamepad are actually like this, see pictures of arcade stick pro and neogeo mini gamepad
-		if ((bIsNeogeoCartGame || (nGameType == RETRO_GAME_TYPE_NEOCD)) && nDeviceType[nPlayer] == RETROPAD_MODERN) {
+		if (HW_NEOGEO && nDeviceType[nPlayer] == RETROPAD_MODERN) {
 			switch (nButton) {
 				case 1:
 					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_Y, description);
