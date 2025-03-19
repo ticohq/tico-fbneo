@@ -526,6 +526,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="alcahesttp" cloneof="alcahestte" romof="alcahestte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Alcahest (Hack, Portuguese v1.2)</description>
+		<year>2024</year>
+		<manufacturer>Dindo, Taihen</manufacturer>
+		<rom name="Alcahest PT-BR v1.2 (2024)(Dindo, Taihen).sfc" size="1179648" crc="b3342bf6"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="alcahestj" cloneof="alcahestte" romof="alcahestte" sourcefile="snes/d_snes.cpp">
 		<description>Alcahest (Japan)</description>
 		<year>1993</year>
@@ -1007,6 +1016,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bahalagoontp" cloneof="bahalagoonte" romof="bahalagoonte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Bahamut Lagoon (Hack, Portuguese v1.01)</description>
+		<year>2023</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="Bahamut Lagoon PT-BR v1.01 (2023)(Dindo).sfc" size="8388608" crc="6b810c93"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bahalagoonts" cloneof="bahalagoonte" romof="bahalagoonte" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Bahamut Lagoon (Hack, Spanish v1.03c)</description>
@@ -1435,7 +1453,7 @@
 		<description>Blackthorne (Hack, Portuguese v1.02)</description>
 		<year>2024</year>
 		<manufacturer>Dindo, Rod Merida</manufacturer>
-		<rom name="Blackthorne T-Por v1.02 (2024)(Dindo, Rod Merida).sfc" size="1048576" crc="03cc4c7d"/>
+		<rom name="Blackthorne PT-BR v1.02 (2024)(Dindo, Rod Merida).sfc" size="1048576" crc="03cc4c7d"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1615,6 +1633,15 @@
 		<year>1994</year>
 		<manufacturer>Spectrum HoloByte</manufacturer>
 		<rom name="BreakThru! (U)(1994)(Spectrum HoloByte).sfc" size="524288" crc="e6c0b5da"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="boftp" cloneof="bof" romof="bof" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Breath of Fire (Hack, Portuguese v1.1)</description>
+		<year>2001</year>
+		<manufacturer>Hexagon</manufacturer>
+		<rom name="Breath of Fire PT-BR v1.1 (2001)(Hexagon).sfc" size="1572864" crc="08098770"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2218,7 +2245,7 @@
 		<description>Clock Tower (Hack, Portuguese)</description>
 		<year>2012</year>
 		<manufacturer>Denver</manufacturer>
-		<rom name="Clock Tower T-Por (2012)(Denver).sfc" size="3276800" crc="e7389adb"/>
+		<rom name="Clock Tower PT-BR (2012)(Denver).sfc" size="3276800" crc="e7389adb"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2556,6 +2583,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="478" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="dolls" sourcefile="snes/d_snes.cpp">
+		<comment>GlobalHack of Super Mario World</comment>
+		<description>D.O.L.L.S. (GlobalHack)</description>
+		<year>2025</year>
+		<manufacturer>Jordan</manufacturer>
+		<rom name="D.O.L.L.S. (2025)(Jordan).sfc" size="4194304" crc="53e0b93d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="daffyducktmm" sourcefile="snes/d_snes.cpp">
 		<description>Daffy Duck - The Marvin Missions (USA)</description>
 		<year>1993</year>
@@ -2737,11 +2773,20 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="demonblazon" cloneof="demonscrest" romof="demonscrest" sourcefile="snes/d_snes.cpp">
+	<game name="demonsblazon" cloneof="demonscrest" romof="demonscrest" sourcefile="snes/d_snes.cpp">
 		<description>Demon's Blazon - Makaimura Monshou Hen (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Capcom</manufacturer>
 		<rom name="Demon's Blazon - Makaimura Monshou Hen (J)(1994)(Capcom).sfc" size="2097152" crc="287f10cc"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="demonscresttp" cloneof="demonscrest" romof="demonscrest" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Demon's Crest (Hack, Portuguese v1.1)</description>
+		<year>2001</year>
+		<manufacturer>Hexagon</manufacturer>
+		<rom name="Demon's Crest PT-BR v1.1 (2001)(Hexagon).sfc" size="2097152" crc="f8ee6a77"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2759,6 +2804,15 @@
 		<year>2024</year>
 		<manufacturer>RyuHayabusa</manufacturer>
 		<rom name="Demon's Crest Retranslation v1.2 (2024)(RyuHayabusa).sfc" size="2097152" crc="97b9f3d6"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="demonioreitp" cloneof="kingdemons" romof="kingdemons" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Demonio Rei (Hack, Portuguese)</description>
+		<year>2024</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="Demonio Rei PT-BR (2024)(Dindo).sfc" size="1572864" crc="b39d5fd8"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3097,6 +3151,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="dkong4rr" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, GlobalHack of Super Mario World</comment>
+		<description>Donkey Kong 4: Rise and Repeat (GlobalHack)</description>
+		<year>2025</year>
+		<manufacturer>Big Brawler</manufacturer>
+		<rom name="Donkey Kong 4 - Rise and Repeat (2025)(Big Brawler).sfc" size="2097152" crc="46ee3ce0"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="dkongcntry" sourcefile="snes/d_snes.cpp">
 		<description>Donkey Kong Country (USA)</description>
 		<year>1994</year>
@@ -3353,6 +3416,15 @@
 		<year>2016</year>
 		<manufacturer>Kakkoii Translations</manufacturer>
 		<rom name="Dragon Ball Z - Chou Gokuuden - Totsugeki Hen T-Eng v0.98 (2016)(Kakkoii Translations).sfc" size="2097152" crc="3561ff9d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="dragballzrpgtp" cloneof="dragballzrpgte" romof="dragballzrpgte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Dragon Ball Z - Super Gokuuden - Totsugeki Hen (Hack, Portuguese)</description>
+		<year>2024</year>
+		<manufacturer>Nathan</manufacturer>
+		<rom name="Dragon Ball Z - Super Gokuuden - Totsugeki Hen PT-BR (2024)(Nathan).sfc" size="2097152" crc="6e20d7eb"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5988,10 +6060,19 @@
 		<driver status="good"/>
 	</game>
 	<game name="jpark2" sourcefile="snes/d_snes.cpp">
-		<description>Jurassic Park Part 2 - The Chaos Continues (USA)</description>
+		<description>Jurassic Park II - The Chaos Continues (USA)</description>
 		<year>1994</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Jurassic Park Part 2 - The Chaos Continues (U)(1994)(Ocean).sfc" size="2097152" crc="836ee990"/>
+		<rom name="Jurassic Park II - The Chaos Continues (U)(1994)(Ocean).sfc" size="2097152" crc="836ee990"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="jpark2redux" cloneof="jpark2" romof="jpark2" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Jurassic Park II - The Chaos Continues Redux (Hack)</description>
+		<year>2025</year>
+		<manufacturer>BillyTime! Games</manufacturer>
+		<rom name="Jurassic Park II - The Chaos Continues Redux (2025)(BillyTime! Games).sfc" size="2097152" crc="620de6a3"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6202,6 +6283,15 @@
 		<year>1993</year>
 		<manufacturer>Jaleco</manufacturer>
 		<rom name="King Arthur's World (U)(1993)(Jaleco).sfc" size="524288" crc="99bd1fe1"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="kingdemons" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>King of Demons (Hack, English v1.01)</description>
+		<year>2005</year>
+		<manufacturer>Aeon Genesis</manufacturer>
+		<rom name="Majuu Ou - King of Demons T-Eng v1.01 (2005)(Aeon Genesis).sfc" size="1572864" crc="14dcc20d"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6446,6 +6536,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="laplacetp" cloneof="laplacete" romof="laplacete" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Laplace's Demon (Hack, Portuguese)</description>
+		<year>2024</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="Laplace's Demon PT-BR (2024)(Dindo).sfc" size="2097152" crc="3d988965"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="vegasdream" cloneof="vegasstakes" romof="vegasstakes" sourcefile="snes/d_snes.cpp">
 		<comment>'SNES Mouse' compatible game (Set Dipswitches)</comment>
 		<description>Las Vegas Dream in Golden Paradise (Japan)</description>
@@ -6582,11 +6681,54 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="miniquest" sourcefile="snes/d_snes.cpp">
+		<comment>Hack, Homebrew, GlobalHack of Super Mario World</comment>
+		<description>Legend of Zelda, The - The Mini Quest (GlobalHack, v1.1)</description>
+		<year>2021-22</year>
+		<manufacturer>MaxwelHacks</manufacturer>
+		<rom name="Legend of Zelda, The - The Mini Quest v1.1 (2022)(MaxwelHacks).sfc" size="3145728" crc="caa6a1f3"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lemmingse" cloneof="lemmings" romof="lemmings" sourcefile="snes/d_snes.cpp">
+		<description>Lemmings (Euro)</description>
+		<year>1992</year>
+		<manufacturer>Sunsoft - Psygnosis</manufacturer>
+		<rom name="Lemmings (E)(1992)(Sunsoft - Psygnosis).sfc" size="1048576" crc="aebadcef"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lemmingsj" cloneof="lemmings" romof="lemmings" sourcefile="snes/d_snes.cpp">
+		<description>Lemmings (Japan)</description>
+		<year>1991</year>
+		<manufacturer>Sunsoft - Psygnosis</manufacturer>
+		<rom name="Lemmings (J)(1991)(Sunsoft - Psygnosis).sfc" size="1048576" crc="13027564"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="lemmings" sourcefile="snes/d_snes.cpp">
 		<description>Lemmings (USA)</description>
 		<year>1992</year>
 		<manufacturer>Sunsoft - Psygnosis</manufacturer>
 		<rom name="Lemmings (U)(1992)(Sunsoft - Psygnosis).sfc" size="1048576" crc="51e3d566"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lemmingseh" cloneof="lemmings" romof="lemmings" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Lemmings - Colour Palette &amp; Level Title Fix (Euro) (Hack, v1.2 FINAL)</description>
+		<year>2025</year>
+		<manufacturer>J.Russell</manufacturer>
+		<rom name="Lemmings - Colour Palette &amp; Level Title Fix v1.2 FINAL (E)(2025)(J.Russell).sfc" size="1048576" crc="07a1ab3d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lemmingsh" cloneof="lemmings" romof="lemmings" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Lemmings - Colour Palette &amp; Level Title Fix (USA) (Hack, v1.0 FINAL)</description>
+		<year>2025</year>
+		<manufacturer>J.Russell</manufacturer>
+		<rom name="Lemmings - Colour Palette &amp; Level Title Fix v1.0 FINAL (U)(2025)(J.Russell).sfc" size="1048576" crc="6e8f33b5"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7044,20 +7186,11 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="majuuou" cloneof="majuuout" romof="majuuout" sourcefile="snes/d_snes.cpp">
+	<game name="majuuou" cloneof="kingdemons" romof="kingdemons" sourcefile="snes/d_snes.cpp">
 		<description>Majuu Ou (Japan)</description>
 		<year>1995</year>
 		<manufacturer>KSS</manufacturer>
 		<rom name="Majuu Ou (J)(1995)(KSS).sfc" size="1572864" crc="4737370b"/>
-		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="majuuout" sourcefile="snes/d_snes.cpp">
-		<comment>Hack</comment>
-		<description>Majuu Ou - King of Demons (Hack, English v1.01)</description>
-		<year>2005</year>
-		<manufacturer>Aeon Genesis</manufacturer>
-		<rom name="Majuu Ou - King of Demons T-Eng v1.01 (2005)(Aeon Genesis).sfc" size="1572864" crc="14dcc20d"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7122,6 +7255,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="mshwargemse" cloneof="mshwargems" romof="mshwargems" sourcefile="snes/d_snes.cpp">
+		<description>Marvel Super Heroes - War of the Gems (Euro)</description>
+		<year>1996</year>
+		<manufacturer>Capcom</manufacturer>
+		<rom name="Marvel Super Heroes - War of the Gems (E)(1996)(Capcom).sfc" size="2097152" crc="ac0f2c23"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="mshwargemsj" cloneof="mshwargems" romof="mshwargems" sourcefile="snes/d_snes.cpp">
 		<description>Marvel Super Heroes - War of the Gems (Japan)</description>
 		<year>1996</year>
@@ -7131,10 +7272,19 @@
 		<driver status="good"/>
 	</game>
 	<game name="mshwargems" sourcefile="snes/d_snes.cpp">
-		<description>Marvel Super Heroes in War of the Gems (USA)</description>
+		<description>Marvel Super Heroes - War of the Gems (USA)</description>
 		<year>1996</year>
 		<manufacturer>Capcom</manufacturer>
-		<rom name="Marvel Super Heroes in War of the Gems (U)(1996)(Capcom).sfc" size="2097152" crc="00af56e8"/>
+		<rom name="Marvel Super Heroes - War of the Gems (U)(1996)(Capcom).sfc" size="2097152" crc="00af56e8"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mshwargemsr" cloneof="mshwargems" romof="mshwargems" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Marvel Super Heroes - War of the Gems Redux (Hack)</description>
+		<year>2025</year>
+		<manufacturer>BillyTime! Games</manufacturer>
+		<rom name="Marvel Super Heroes - War of the Gems Redux (2025)(BillyTime! Games).sfc" size="2097152" crc="2dc14312"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7162,6 +7312,14 @@
 		<year>1996</year>
 		<manufacturer>Nintendo</manufacturer>
 		<rom name="Marvelous - Mouhitotsu no Takarajima (J)(1996)(Nintendo).sfc" size="3145728" crc="cedf3ba7"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="msfranken" sourcefile="snes/d_snes.cpp">
+		<description>Mary Shelley's Frankenstein (USA)</description>
+		<year>1994</year>
+		<manufacturer>Sony Imagesoft</manufacturer>
+		<rom name="Mary Shelley's Frankenstein (U)(1994)(Sony Imagesoft).sfc" size="2097152" crc="91415d1e"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7410,6 +7568,23 @@
 		<year>1994</year>
 		<manufacturer>FCI Inc.</manufacturer>
 		<rom name="Metal Morph (U)(1994)(FCI).sfc" size="1572864" crc="0adaa9da"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="msglorydcte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Metal Slader Glory - Director's Cut (Hack, English)</description>
+		<year>2025</year>
+		<manufacturer>FCandChill</manufacturer>
+		<rom name="Metal Slader Glory - Director's Cut T-Eng (2025)(FCandChill).sfc" size="3145728" crc="2b41a062"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="msglorydcj" cloneof="msglorydcte" romof="msglorydcte" sourcefile="snes/d_snes.cpp">
+		<description>Metal Slader Glory - Director's Cut (Japan)</description>
+		<year>2000</year>
+		<manufacturer>HAL Laboratory</manufacturer>
+		<rom name="Metal Slader Glory - Director's Cut (J)(2000)(HAL Laboratory).sfc" size="3145728" crc="2cab2502"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -7949,6 +8124,41 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="neugiertp" cloneof="neugierte" romof="neugierte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Neugier: De Volta a Casa (Hack, Portuguese)</description>
+		<year>2023</year>
+		<manufacturer>Dindo, Taihen</manufacturer>
+		<rom name="Neugier - De Volta a Casa PT-BR (2023)(Dindo, Taihen).sfc" size="1572864" crc="df345666"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="neugierts" cloneof="neugierte" romof="neugierte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Neugier: La Vuelta a Casa (Hack, Spanish v1.1)</description>
+		<year>2023</year>
+		<manufacturer>semco</manufacturer>
+		<rom name="Neugier - La Vuelta a Casa T-Spa v1.1 (2023)(semco).sfc" size="1572864" crc="cc6a7cbb"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="neugierte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Neugier: The Journey Home (Hack, English v2.0)</description>
+		<year>2006</year>
+		<manufacturer>Haeleth, RPGONE</manufacturer>
+		<rom name="Neugier - The Journey Home T-Eng v2.0 (2006)(Haeleth, RPGONE).sfc" size="1572864" crc="5497df2a"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="neugierj" cloneof="neugierte" romof="neugierte" sourcefile="snes/d_snes.cpp">
+		<description>Neugier: Umi to Kaze no Kodou (Japan)</description>
+		<year>1993</year>
+		<manufacturer>Telenet Japan - Wolf Team</manufacturer>
+		<rom name="Neugier - Umi to Kaze no Kodou (J)(1993)(Telenet Japan).sfc" size="1048576" crc="7f0ddccf"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="devilscourse" cloneof="wicked18" romof="wicked18" sourcefile="snes/d_snes.cpp">
 		<description>New 3D Golf Simulation - Devil's Course (Japan)</description>
 		<year>1993</year>
@@ -8291,6 +8501,15 @@
 		<year>1992</year>
 		<manufacturer>Tsukuda Original</manufacturer>
 		<rom name="Othello World (J)(1992)(Tsukuda Original).sfc" size="1048576" crc="1345ed19"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="othercastle2" cloneof="supercastlevania4" romof="supercastlevania4" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Other Castle II (Hack, v0.9.2)</description>
+		<year>2023</year>
+		<manufacturer>bogaa</manufacturer>
+		<rom name="Other Castle II v0.9.2 (2023)(bogaa).sfc" size="4194304" crc="35b47398"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9751,6 +9970,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="sanrioshanghaij" sourcefile="snes/d_snes.cpp">
+		<description>Sanrio Shanghai (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Character Soft</manufacturer>
+		<rom name="Sanrio Shanghai (J)(1994)(Character Soft).sfc" size="524288" crc="4cbb22df"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="sanriowsbte" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Sanrio World Smash Ball! (Hack, English)</description>
@@ -9867,6 +10094,15 @@
 		<year>2021</year>
 		<manufacturer>Mumble Translations</manufacturer>
 		<rom name="Secret of Evermore T-Ita v1.2 (2021)(Mumble Translations).sfc" size="4194304" crc="14e2175a"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="secrevertp" cloneof="secrever" romof="secrever" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Secret of Evermore (Hack, Portuguese)</description>
+		<year>2023</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="Secret of Evermore PT-BR (2023)(Dindo).sfc" size="4194304" crc="c4c266fd"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10350,6 +10586,15 @@
 		<year>1992</year>
 		<manufacturer>Namco</manufacturer>
 		<rom name="Sky Mission (J)(1992)(Namco).sfc" size="524288" crc="0866a769"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="skyblazertp" cloneof="skyblazer" romof="skyblazer" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Skyblazer (Hack, Portuguese)</description>
+		<year>2023</year>
+		<manufacturer>Haharo Potato</manufacturer>
+		<rom name="Skyblazer PT-BR (2023)(Haharo Potato).sfc" size="1049088" crc="3d9b6ed9"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -11994,6 +12239,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="478" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="supermarioworldtp" cloneof="supermarioworld" romof="supermarioworld" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Super Mario World (Hack, Portuguese v2.0)</description>
+		<year>2022</year>
+		<manufacturer>bMatSantos</manufacturer>
+		<rom name="Super Mario World PT-BR v2.0 (2022)(bMatSantos).sfc" size="1048576" crc="cf28cbdc"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="supermarioworld" sourcefile="snes/d_snes.cpp">
 		<description>Super Mario World (USA)</description>
 		<year>1991</year>
@@ -12050,6 +12304,14 @@
 		<year>2019</year>
 		<manufacturer>Benox50</manufacturer>
 		<rom name="Super Metroid Ascent v1.12 (2019)(Benox50).sfc" size="4194304" crc="71b973ac"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="supermorph" sourcefile="snes/d_snes.cpp">
+		<description>Super Morph (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Sony Imagesoft</manufacturer>
+		<rom name="Super Morph (E)(1993)(Sony Imagesoft).sfc" size="1048576" crc="388f6daa"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -12929,6 +13191,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="terranigmatp" cloneof="terranigmae" romof="terranigmae" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Terranigma (Hack, Portuguese v1.01)</description>
+		<year>2024</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="Terranigma PT-BR v1.01 (2024)(Dindo).sfc" size="4194304" crc="66350def"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="tetrisdrmario" sourcefile="snes/d_snes.cpp">
 		<description>Tetris &amp; Dr. Mario (USA)</description>
 		<year>1994</year>
@@ -13157,6 +13428,15 @@
 		<year>2022</year>
 		<manufacturer>gallaux</manufacturer>
 		<rom name="Teenage Mutant Ninja Turtles - Tournament Fighters - Cowabunga Edition (2022)(gallaux).sfc" size="2097152" crc="ea03fbc9"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="tmntfightgme" cloneof="tmntfight" romof="tmntfight" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>TMNT: Tournament Fighters - Grandmasters Edition (Hack, v1.2)</description>
+		<year>2025</year>
+		<manufacturer>Allo</manufacturer>
+		<rom name="TMNT Tournament Fighters - Grandmasters Edition v1.2 (2025)(Allo).sfc" size="4194304" crc="ce1d413f"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13938,6 +14218,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="wprojectjtp" cloneof="wprojectjte" romof="wprojectjte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Wonder Project J - Kikai no Shounen Pino (Hack, Portuguese v0.99)</description>
+		<year>2005</year>
+		<manufacturer>RaphFS</manufacturer>
+		<rom name="Wonder Project J - Kikai no Shounen Pino PT-BR v0.99 (2005)(RaphFS).sfc" size="3211264" crc="f24b7cb2"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="wprojectjts" cloneof="wprojectjte" romof="wprojectjte" sourcefile="snes/d_snes.cpp">
 		<comment>Hack, 'SNES Mouse' compatible game (Set Dipswitches)</comment>
 		<description>Wonder Project J - Kikai no Shounen Pino (Hack, Spanish v1.2)</description>
@@ -14076,6 +14365,15 @@
 		<year>1992</year>
 		<manufacturer>Kemco</manufacturer>
 		<rom name="X Zone (U, J)(1992)(Kemco).sfc" size="524288" crc="99627bb0"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="xkaliber2097tp" cloneof="xkaliber2097" romof="xkaliber2097" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>X-Kaliber 2097 (Hack, Portuguese)</description>
+		<year>2024</year>
+		<manufacturer>Dindo</manufacturer>
+		<rom name="X-Kaliber 2097 PT-BR (2024)(Dindo).sfc" size="2097152" crc="23b9da3f"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14231,10 +14529,10 @@
 	</game>
 	<game name="yuuyuuhak2tp" cloneof="yuuyuuhak2j" romof="yuuyuuhak2j" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
-		<description>Yu Yu Hakusho 2 - The Fighting Chapter (Hack, Portuguese v1.0)</description>
+		<description>Yu Yu Hakusho 2 - The Fighting Chapter (Hack, Portuguese)</description>
 		<year>2024</year>
 		<manufacturer>Hextinkers</manufacturer>
-		<rom name="Yu Yu Hakusho 2 - The Fighting Chapter T-Por v1.0 (2024)(Hextinkers).sfc" size="2097152" crc="52ac1195"/>
+		<rom name="Yu Yu Hakusho 2 - The Fighting Chapter PT-BR v1.0 (2024)(Hextinkers).sfc" size="2097152" crc="52ac1195"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14307,6 +14605,15 @@
 		<year>1993</year>
 		<manufacturer>Konami - LucasArts</manufacturer>
 		<rom name="Zombies Ate My Neighbors (U)(1993)(Konami - LucasArts).sfc" size="1048576" crc="7cfc0c7c"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="zombiesue" cloneof="zombies" romof="zombies" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Zombies Ate My Neighbors: Ultimate Edition (Hack)</description>
+		<year>2024</year>
+		<manufacturer>RyuHayabusa</manufacturer>
+		<rom name="Zombies Ate My Neighbors - Ultimate Edition (2024)(RyuHayabusa).sfc" size="1057280" crc="42fd2a8b"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

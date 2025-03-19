@@ -31,6 +31,7 @@ static struct KeyBind sKeyBinds[MAX_KEYBINDS];
 static struct AxiBind sAxiBinds[MAX_PLAYERS*MAX_AXISES];
 static INT32 pointerValues[MAX_PLAYERS][2];
 static bool bAnalogRightMappingDone[MAX_PLAYERS][2][2];
+static bool bDigitalMappingDone[MAX_PLAYERS][16];
 static bool bButtonMapped = false;
 static bool bOneDiagInputPressed = false;
 static bool bAllDiagInputPressed = true;
@@ -115,6 +116,7 @@ static void AnalyzeGameLayout()
 	INT32 nKickx3[MAX_PLAYERS] = {0, };
 	INT32 nKickInputs[MAX_PLAYERS][3];
 	INT32 nNeogeoButtons[MAX_PLAYERS][4];
+	INT32 nMiscButtons[MAX_PLAYERS][4];
 
 	bStreetFighterLayout = false;
 	nMahjongKeyboards = 0;
@@ -122,6 +124,7 @@ static void AnalyzeGameLayout()
 	nFireButtons = 0;
 	nMacroCount = 0;
 	memset(&nNeogeoButtons, 0, sizeof(nNeogeoButtons));
+	memset(&nMiscButtons, 0, sizeof(nMiscButtons));
 	memset(&nPerPlayerAxises, 0, sizeof(nPerPlayerAxises));
 
 	for (UINT32 i = 0; i < nGameInpCount; i++) {
@@ -197,6 +200,19 @@ static void AnalyzeGameLayout()
 				if (_stricmp(" Button D", bii.szName + 2) == 0) {
 					nNeogeoButtons[nPlayer][3] = i;
 				}
+			}
+
+			if ((_stricmp(" Button 1", bii.szName + 2) == 0) || (_stricmp(" fire 1", bii.szInfo + 2) == 0)) {
+				nMiscButtons[nPlayer][0] = i;
+			}
+			if ((_stricmp(" Button 2", bii.szName + 2) == 0) || (_stricmp(" fire 2", bii.szInfo + 2) == 0)) {
+				nMiscButtons[nPlayer][1] = i;
+			}
+			if ((_stricmp(" Button 3", bii.szName + 2) == 0) || (_stricmp(" fire 3", bii.szInfo + 2) == 0)) {
+				nMiscButtons[nPlayer][2] = i;
+			}
+			if ((_stricmp(" Button 4", bii.szName + 2) == 0) || (_stricmp(" fire 4", bii.szInfo + 2) == 0)) {
+				nMiscButtons[nPlayer][3] = i;
 			}
 		}
 	}
@@ -292,6 +308,25 @@ static void AnalyzeGameLayout()
 			pgi->Macro.nVal[2] = 1;
 			nMacroCount++;
 			pgi++;
+		}
+		if (nFireButtons <= 4)
+		{
+			if (nFireButtons >= 2)
+			{
+				const char* pChar = (((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_NES) || ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_FDS) ) ? "BA" : "12";
+				pgi->nInput = GIT_MACRO_AUTO;
+				pgi->nType = BIT_DIGITAL;
+				pgi->Macro.nMode = 0;
+				sprintf(pgi->Macro.szName, "P%i Buttons %s", nPlayer + 1, pChar);
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][0]);
+				pgi->Macro.pVal[0] = bii.pVal;
+				pgi->Macro.nVal[0] = 1;
+				BurnDrvGetInputInfo(&bii, nMiscButtons[nPlayer][1]);
+				pgi->Macro.pVal[1] = bii.pVal;
+				pgi->Macro.nVal[1] = 1;
+				nMacroCount++;
+				pgi++;
+			}
 		}
 	}
 
@@ -622,6 +657,7 @@ static INT32 GameInpDigital2RetroInpKey(struct GameInp* pgi, unsigned port, unsi
 	descriptor.description = szn;
 	normal_input_descriptors.push_back(descriptor);
 	bButtonMapped = true;
+	bDigitalMappingDone[port][id] = true;
 	if (device == RETRO_DEVICE_JOYPAD)
 	{
 		switch (id)
@@ -1991,27 +2027,33 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 	}
 
 	// Forgotten Worlds
+	// Eco Fighters
 	if ((parentrom && strcmp(parentrom, "forgottn") == 0) ||
-		(drvname && strcmp(drvname, "forgottn") == 0)
+		(drvname && strcmp(drvname, "forgottn") == 0) ||
+		(parentrom && strcmp(parentrom, "ecofghtr") == 0) ||
+		(drvname && strcmp(drvname, "ecofghtr") == 0)
 	) {
-			if (strcmp("Turn (analog)", description) == 0) {
-					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
-			}
-			if (strcmp("Attack", description) == 0) {
-					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R, description);
-			}
-			if (strcmp("Turn - (digital)", description) == 0) {
-					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_B, description);
-			}
-			if (strcmp("Turn + (digital)", description) == 0) {
-					GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_A, description);
-			}
-			if (strcmp("Aim X", description) == 0) {
-					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
-			}
-			if (strcmp("Aim Y", description) == 0) {
-					GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
-			}
+		if (strcmp("Turn (analog)", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+		if (strcmp("Attack", description) == 0) {
+			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R, description);
+		}
+		if (strcmp("Shot Release", description) == 0) {
+			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_L, description);
+		}
+		if ((strcmp("Turn - (digital)", description) == 0) || (strcmp("Turn 1", description) == 0)) {
+			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_B, description);
+		}
+		if ((strcmp("Turn + (digital)", description) == 0) || (strcmp("Turn 2", description) == 0)) {
+			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_A, description);
+		}
+		if (strcmp("Aim X", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+		if (strcmp("Aim Y", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
 	}
 
 	if (bStreetFighterLayout) {
@@ -2030,6 +2072,21 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		if (strncmp("Buttons CD", description, 10) == 0)
 			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_FIRE06, description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
 	}
+#if 0
+	// Generic macros wip here, but is it really ok to just auto-assign this ?
+	// The code will assign a macro of 1st+2nd buttons to the next unmapped retropad button based on order preference from the device type
+	if (nFireButtons == 2 ||
+		(parentrom && strcmp(parentrom, "lightbr") == 0) ||
+		(drvname && strcmp(drvname, "lightbr") == 0)) {
+		if ((strncmp("Buttons 12", description, 10) == 0) || (strncmp("Buttons BA", description, 10) == 0)) {
+			int list[10] = {RETRO_DEVICE_ID_FIRE01, RETRO_DEVICE_ID_FIRE02, RETRO_DEVICE_ID_FIRE03, RETRO_DEVICE_ID_FIRE04, RETRO_DEVICE_ID_FIRE05, RETRO_DEVICE_ID_FIRE06, RETRO_DEVICE_ID_FIRE07, RETRO_DEVICE_ID_FIRE08, RETRO_DEVICE_ID_FIRE09, RETRO_DEVICE_ID_FIRE10};
+			for (int i = 0; i < 10; i++) {
+				if (!bDigitalMappingDone[nPlayer][list[i]])
+					GameInpDigital2RetroInpKey(pgi, nPlayer, list[i], description, RETRO_DEVICE_JOYPAD, GIT_MACRO_AUTO);
+			}
+		}
+	}
+#endif
 
 	// Handle megadrive
 	if ((nHardwareCode & HARDWARE_PUBLIC_MASK) == HARDWARE_SEGA_MEGADRIVE) {
@@ -2783,6 +2840,15 @@ static INT32 GameInpReassign()
 
 	normal_input_descriptors.clear();
 
+	// If we are gonna reassign, nothing is mapped yet
+	for (i = 0; i < MAX_PLAYERS; i++)
+		for (int j = 0; j < 2; j++)
+			for (int k = 0; k < 2; k++)
+				bAnalogRightMappingDone[i][j][k] = false;
+	for (i = 0; i < MAX_PLAYERS; i++)
+		for (int j = 0; j < 16; j++)
+			bDigitalMappingDone[i][j] = false;
+
 	for (i = 0, pgi = GameInp; i < nGameInpCount; i++, pgi++) {
 		BurnDrvGetInputInfo(&bii, i);
 		GameInpAutoOne(pgi, bii.szInfo, bii.szName);
@@ -3344,17 +3410,21 @@ void InputInit()
 	// make sure everything is clean before processing this games's inputs
 	nSwitchCode = 0;
 	nAxisNum = 0;
-	for (int i = 0; i < MAX_KEYBINDS; i++)
+	UINT32 i, j, k;
+	for (i = 0; i < MAX_KEYBINDS; i++)
 		sKeyBinds[i] = KeyBind();
-	for (int i = 0; i < MAX_PLAYERS*MAX_AXISES; i++)
+	for (i = 0; i < MAX_PLAYERS*MAX_AXISES; i++)
 		sAxiBinds[i] = AxiBind();
-	for (int i = 0; i < MAX_PLAYERS; i++)
-		for (int j = 0; j < 6; j++)
+	for (i = 0; i < MAX_PLAYERS; i++)
+		for (j = 0; j < 6; j++)
 			pDirections[i][j] = NULL;
-	for (int i = 0; i < MAX_PLAYERS; i++)
-		for (int j = 0; j < 2; j++)
-			for (int k = 0; k < 2; k++)
+	for (i = 0; i < MAX_PLAYERS; i++)
+		for (j = 0; j < 2; j++)
+			for (k = 0; k < 2; k++)
 				bAnalogRightMappingDone[i][j][k] = false;
+	for (i = 0; i < MAX_PLAYERS; i++)
+		for (j = 0; j < 16; j++)
+			bDigitalMappingDone[i][j] = false;
 	pgi_reset = NULL;
 	pgi_diag = NULL;
 	pgi_debug_dip_1 = NULL;

@@ -8504,7 +8504,7 @@
 		<rom name="019-v11.v11" size="524288" crc="0fb74872"/>
 		<rom name="019-v12.v12" size="524288" crc="029faa57"/>
 		<rom name="019-v21.v21" size="524288" crc="2efd5ada"/>
-		<rom name="hd6301v1p.com" size="4096" status="nodump"/>
+		<rom name="hd6301v1p_k78.com" size="4096" status="nodump"/>
 		<rom name="sp-s3.sp1" merge="sp-s3.sp1" size="131072" crc="91b64be3"/>
 		<rom name="sp-s2.sp1" merge="sp-s2.sp1" size="131072" crc="9036d879"/>
 		<rom name="sp-s.sp1" merge="sp-s.sp1" size="131072" crc="c7f2fa45"/>
@@ -20051,7 +20051,7 @@
 		<rom name="006-v22.v22" size="524288" crc="4e2cd7c3"/>
 		<rom name="006-v23.v23" size="524288" crc="069c71ed"/>
 		<rom name="006-v24.v24" size="524288" crc="89fbb825"/>
-		<rom name="rhcom.bin" size="8192" crc="e5cd6306"/>
+		<rom name="hd6301v1p_k78.com" size="8192" crc="e5cd6306"/>
 		<rom name="sp-s3.sp1" merge="sp-s3.sp1" size="131072" crc="91b64be3"/>
 		<rom name="sp-s2.sp1" merge="sp-s2.sp1" size="131072" crc="9036d879"/>
 		<rom name="sp-s.sp1" merge="sp-s.sp1" size="131072" crc="c7f2fa45"/>
@@ -20110,7 +20110,7 @@
 		<rom name="006-v22.v22" merge="006-v22.v22" size="524288" crc="4e2cd7c3"/>
 		<rom name="006-v23.v23" merge="006-v23.v23" size="524288" crc="069c71ed"/>
 		<rom name="006-v24.v24" merge="006-v24.v24" size="524288" crc="89fbb825"/>
-		<rom name="rhcom.bin" merge="rhcom.bin" size="8192" crc="e5cd6306"/>
+		<rom name="hd6301v1p_k78.com" merge="hd6301v1p_k78.com" size="8192" crc="e5cd6306"/>
 		<rom name="sp-s3.sp1" merge="sp-s3.sp1" size="131072" crc="91b64be3"/>
 		<rom name="sp-s2.sp1" merge="sp-s2.sp1" size="131072" crc="9036d879"/>
 		<rom name="sp-s.sp1" merge="sp-s.sp1" size="131072" crc="c7f2fa45"/>
@@ -35130,7 +35130,7 @@
 		<rom name="038-m1.m1" size="131072" crc="0908707e"/>
 		<rom name="038-v1.v1" size="1048576" crc="5ccd9fd5"/>
 		<rom name="038-v2.v2" size="524288" crc="ddd8d1e6"/>
-		<rom name="hd6301v1p.hd6301v1" size="4096" status="nodump"/>
+		<rom name="hd6301v1p_m58_neo-coma" size="4096" status="nodump"/>
 		<rom name="sp-s3.sp1" merge="sp-s3.sp1" size="131072" crc="91b64be3"/>
 		<rom name="sp-s2.sp1" merge="sp-s2.sp1" size="131072" crc="9036d879"/>
 		<rom name="sp-s.sp1" merge="sp-s.sp1" size="131072" crc="c7f2fa45"/>
