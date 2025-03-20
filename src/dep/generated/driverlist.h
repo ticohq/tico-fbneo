@@ -16634,7 +16634,6 @@ DRV		BurnDrvnes_sdgundgs4;
 DRV		BurnDrvnes_sdgachapon5;
 DRV		BurnDrvnes_sdgundgs2c;
 DRV		BurnDrvgg_sdgundam;
-DRV		BurnDrvnes_sdgunkgm;
 DRV		BurnDrvnes_sdgunkgmj;
 DRV		BurnDrvnes_sdgunkgm2;
 DRV		BurnDrvnes_sdgunkgm3;
@@ -16643,6 +16642,7 @@ DRV		BurnDrvNeobattl;
 DRV		BurnDrvSdgndmps;
 DRV		BurnDrvGrainbow;
 DRV		BurnDrvGrainbowk;
+DRV		BurnDrvnes_sdgunkgm;
 DRV		BurnDrvfds_sdgunworgacsescwac;
 DRV		BurnDrvfds_sdgunworgacsescwa;
 DRV		BurnDrvnes_sdhstangc;
@@ -19227,7 +19227,6 @@ DRV		BurnDrvsnes_Smrpgte;
 DRV		BurnDrvsnes_Smrpgts;
 DRV		BurnDrvsnes_Smrpg;
 DRV		BurnDrvnes_smunlimdx;
-DRV		BurnDrvnes_smbunldlx;
 DRV		BurnDrvsnes_Supermarioworlde;
 DRV		BurnDrvsnes_Supermarioworldtp;
 DRV		BurnDrvnes_supermarwor;
@@ -21147,6 +21146,7 @@ DRV		BurnDrvsms_treinam;
 DRV		BurnDrvTripool;
 DRV		BurnDrvTripoola;
 DRV		BurnDrvTrisport;
+DRV		BurnDrvnes_kharzoid;
 DRV		BurnDrvMSX_trialski;
 DRV		BurnDrvTricktrp;
 DRV		BurnDrvpce_tricky;
@@ -21558,6 +21558,7 @@ DRV		BurnSpecUroboros;
 DRV		BurnSpecUroken;
 DRV		BurnSpecUrokes;
 DRV		BurnDrvnes_uruseyat;
+DRV		BurnDrvnes_uruseyatoh;
 DRV		BurnDrvMustangs;
 DRV		BurnDrvMustang;
 DRV		BurnDrvMustangb;
@@ -22824,6 +22825,8 @@ DRV		BurnDrvmd_yangji;
 DRV		BurnSpecYangaplus;
 DRV		BurnDrvyankeedo;
 DRV		BurnDrvcv_yarsrevenge;
+DRV		BurnDrvnes_yarsrev;
+DRV		BurnDrvnes_yarsrevoh;
 DRV		BurnSpecYarsrevenge;
 DRV		BurnSpecyazzie;
 DRV		BurnDrvmd_yazzie;
@@ -39833,7 +39836,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_sdgachapon5,	// SD Gundam - Gachapon Senshi 5 - Battle of Universal Century (Japan)
 	&BurnDrvnes_sdgundgs2c,		// SD Gundam - Gachapon Soldier 2 - Capsule War (Hack, Spanish)
 	&BurnDrvgg_sdgundam,		// SD Gundam - Winner's History (Japan)
-	&BurnDrvnes_sdgunkgm,		// SD Gundam Gaiden - Knight Gundam Monogatari (Hack, English)
 	&BurnDrvnes_sdgunkgmj,		// SD Gundam Gaiden - Knight Gundam Monogatari (Japan, v1.1)
 	&BurnDrvnes_sdgunkgm2,		// SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan)
 	&BurnDrvnes_sdgunkgm3,		// SD Gundam Gaiden - Knight Gundam Monogatari 3 - Densetsu no Kishi Dan (Japan)
@@ -39842,6 +39844,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvSdgndmps,			// SD Gundam Psycho Salamander no Kyoui
 	&BurnDrvGrainbow,			// SD Gundam Sangokushi Rainbow Tairiku Senki (Japan)
 	&BurnDrvGrainbowk,			// SD Gundam Sangokushi Rainbow Tairiku Senki (Korea)
+	&BurnDrvnes_sdgunkgm,		// SD Gundam Story - Knight Gundam Legend (Hack, English v1.03)
 	&BurnDrvfds_sdgunworgacsescwac,// SD Gundam World - Gachapon Senshi - Scramble Wars (Hack, Spanish)
 	&BurnDrvfds_sdgunworgacsescwa,// SD Gundam World - Gachapon Senshi - Scramble Wars (Japan)
 	&BurnDrvnes_sdhstangc,		// SD Hero Soukessen - Taose! Aku no Gundan (Hack, Spanish)
@@ -40718,7 +40721,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_solstice,		// Solstice - Sanjigen Meikyuu no Kyoujuu (Japan)
 	&BurnDrvnes_solst,			// Solstice - The Quest for the Staff of Demnos (USA)
 	&BurnDrvsnes_Solsticeii,	// Solstice II (Japan)
-	&BurnDrvnes_somari,			// Somari (Unl)
+	&BurnDrvnes_somari,			// Somari (Taiwan) (Unl)
 	&BurnDrvmd_somarita,		// Somari the Adventurer (Hack, v1.1)
 	&BurnDrvtg_somerass,		// Somer Assault (USA)
 	&BurnSpecSomehell,			// Somewhere in Hell (128K) (HB)
@@ -42426,7 +42429,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsnes_Smrpgts,		// Super Mario RPG: La Leyenda de las 7 Estrellas (Hack, Spanish v1.10)
 	&BurnDrvsnes_Smrpg,			// Super Mario RPG: Legend of the Seven Stars (USA)
 	&BurnDrvnes_smunlimdx,		// Super Mario Unlimited Deluxe (GlobalHack, v2.4)
-	&BurnDrvnes_smbunldlx,		// Super Mario Unlimited Deluxe (Hack)
 	&BurnDrvsnes_Supermarioworlde,// Super Mario World (Euro)
 	&BurnDrvsnes_Supermarioworldtp,// Super Mario World (Hack, Portuguese v2.0)
 	&BurnDrvnes_supermarwor,	// Super Mario World (Taiwan) (Unl)
@@ -44346,6 +44348,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvTripool,			// Tri-Pool: 3-In-One (Casino Tech)
 	&BurnDrvTripoola,			// Tri-Pool: 3-In-One (Coastal Games)
 	&BurnDrvTrisport,			// Tri-Sports
+	&BurnDrvnes_kharzoid,		// Trial of Kharzoid, The (HB, v1.2)
 	&BurnDrvMSX_trialski,		// Trial Ski (Japan)
 	&BurnDrvTricktrp,			// Trick Trap (World?)
 	&BurnDrvpce_tricky,			// Tricky (Japan)
@@ -44756,7 +44759,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecUroboros,			// Uroboros (128K) (HB)
 	&BurnSpecUroken,			// Urok (English) (128K) (HB)
 	&BurnSpecUrokes,			// Urok (Spanish) (128K) (HB)
-	&BurnDrvnes_uruseyat,		// Urusei Yatsura - Lum no Wedding Bell (Japan)
+	&BurnDrvnes_uruseyat,		// Urusei Yatsura: Lum no Wedding Bell (Japan)
+	&BurnDrvnes_uruseyatoh,		// Urusei Yatsura: Lum's Wedding Bell - OVERHAUL (Hack)
 	&BurnDrvMustangs,			// US AAF Mustang (25th May. 1990 / Seoul Trading)
 	&BurnDrvMustang,			// US AAF Mustang (25th May. 1990)
 	&BurnDrvMustangb,			// US AAF Mustang (bootleg, set 1)
@@ -46023,6 +46027,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecYangaplus,			// Yanga Plus (128K) (HB)
 	&BurnDrvyankeedo,			// Yankee DO!
 	&BurnDrvcv_yarsrevenge,		// Yar's Revenge (HB)
+	&BurnDrvnes_yarsrev,		// Yars Revenge (Unl)
+	&BurnDrvnes_yarsrevoh,		// Yars Revenge - OVERHAUL (Hack)
 	&BurnSpecYarsrevenge,		// Yars Revenge ZX (48K) (HB)
 	&BurnSpecyazzie,			// Yazzie (128K) (HB)
 	&BurnDrvmd_yazzie,			// Yazzie (HB)
@@ -62900,7 +62906,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_sdgachapon5", "nes/d_nes.cpp"},
 	{ "nes_sdgundgs2c", "nes/d_nes.cpp"},
 	{ "gg_sdgundam", "sms/d_sms.cpp"},
-	{ "nes_sdgunkgm", "nes/d_nes.cpp"},
 	{ "nes_sdgunkgmj", "nes/d_nes.cpp"},
 	{ "nes_sdgunkgm2", "nes/d_nes.cpp"},
 	{ "nes_sdgunkgm3", "nes/d_nes.cpp"},
@@ -62909,6 +62914,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "sdgndmps", "pst90s/d_dcon.cpp"},
 	{ "grainbow", "pst90s/d_legionna.cpp"},
 	{ "grainbowk", "pst90s/d_legionna.cpp"},
+	{ "nes_sdgunkgm", "nes/d_nes.cpp"},
 	{ "fds_sdgunworgacsescwac", "nes/d_nes.cpp"},
 	{ "fds_sdgunworgacsescwa", "nes/d_nes.cpp"},
 	{ "nes_sdhstangc", "nes/d_nes.cpp"},
@@ -65461,7 +65467,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "snes_smrpgts", "snes/d_snes.cpp"},
 	{ "snes_smrpg", "snes/d_snes.cpp"},
 	{ "nes_smunlimdx", "nes/d_nes.cpp"},
-	{ "nes_smbunldlx", "nes/d_nes.cpp"},
 	{ "snes_supermarioworlde", "snes/d_snes.cpp"},
 	{ "snes_supermarioworldtp", "snes/d_snes.cpp"},
 	{ "nes_supermarwor", "nes/d_nes.cpp"},
@@ -67365,6 +67370,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "tripool", "pre90s/d_jack.cpp"},
 	{ "tripoola", "pre90s/d_jack.cpp"},
 	{ "trisport", "pre90s/d_mcr68.cpp"},
+	{ "nes_kharzoid", "nes/d_nes.cpp"},
 	{ "msx_trialski", "msx/d_msx.cpp"},
 	{ "tricktrp", "konami/d_labyrunr.cpp"},
 	{ "pce_tricky", "pce/d_pce.cpp"},
@@ -67768,6 +67774,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_uroken", "spectrum/d_spectrum.cpp"},
 	{ "spec_urokes", "spectrum/d_spectrum.cpp"},
 	{ "nes_uruseyat", "nes/d_nes.cpp"},
+	{ "nes_uruseyatoh", "nes/d_nes.cpp"},
 	{ "mustangs", "pst90s/d_nmk16.cpp"},
 	{ "mustang", "pst90s/d_nmk16.cpp"},
 	{ "mustangb", "pst90s/d_nmk16.cpp"},
@@ -69020,6 +69027,8 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_yangaplus", "spectrum/d_spectrum.cpp"},
 	{ "yankeedo", "pre90s/d_mrdo.cpp"},
 	{ "cv_yarsrevenge", "coleco/d_coleco.cpp"},
+	{ "nes_yarsrev", "nes/d_nes.cpp"},
+	{ "nes_yarsrevoh", "nes/d_nes.cpp"},
 	{ "spec_yarsrevenge", "spectrum/d_spectrum.cpp"},
 	{ "spec_yazzie", "spectrum/d_spectrum.cpp"},
 	{ "md_yazzie", "megadrive/d_megadrive.cpp"},

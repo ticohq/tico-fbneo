@@ -709,7 +709,7 @@
 		<description>Akuma no Shoutaijou (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Kemco</manufacturer>
-		<rom name="Akuma no Shoutaijou (J)(1989)(Kemco).nes" size="262160" crc="0c9dbb04"/>
+		<rom name="Akuma no Shoutaijou (Japan)(1989)(Kemco).nes" size="262160" crc="0c9dbb04"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5845,8 +5845,8 @@
 	<game name="echocamb" sourcefile="nes/d_nes.cpp">
 		<description>Echo Chamber (Unl)</description>
 		<year>200?</year>
-		<manufacturer>Nice Code</manufacturer>
-		<rom name="Echo Chamber (Unl)(200X)(Nice Code).nes" size="40976" crc="c2aa9dc8"/>
+		<manufacturer>Nice Code Software</manufacturer>
+		<rom name="Echo Chamber (Unl)(200x)(Nice Code).nes" size="40976" crc="c2aa9dc8"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5862,8 +5862,8 @@
 	<game name="eeeck" sourcefile="nes/d_nes.cpp">
 		<description>Eeeck! A Mouse! (Unl)</description>
 		<year>200?</year>
-		<manufacturer>Nice Code</manufacturer>
-		<rom name="Eeeck! A Mouse! (Unl)(200X)(Nice Code).nes" size="40976" crc="9efb7a7d"/>
+		<manufacturer>Nice Code Software</manufacturer>
+		<rom name="Eeeck! A Mouse! (Unl)(200x)(Nice Code).nes" size="40976" crc="9efb7a7d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16349,15 +16349,15 @@
 		<description>SD Battle Oozumou - Heisei Hero Basho (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Banpresto</manufacturer>
-		<rom name="sd battle oozumou - heisei hero basho (japan).nes" size="262160" crc="cd1931de"/>
+		<rom name="SD Battle Oozumou - Heisei Hero Basho (Japan)(1990)(Banpresto).nes" size="262160" crc="cd1931de"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="sdgundgs2" sourcefile="nes/d_nes.cpp">
 		<description>SD Gundam - Gachapon Senshi 2 - Capsule Senki (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Bandai Shinsei</manufacturer>
-		<rom name="sd gundam - gachapon senshi 2 - capsule senki (japan).nes" size="262160" crc="88641b52"/>
+		<manufacturer>Bandai</manufacturer>
+		<rom name="SD Gundam - Gachapon Senshi 2 - Capsule Senki (Japan)(1989)(Bandai).nes" size="262160" crc="88641b52"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16365,7 +16365,7 @@
 		<description>SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Yutaka</manufacturer>
-		<rom name="sd gundam - gachapon senshi 3 - eiyuu senki (japan).nes" size="262160" crc="3af5beff"/>
+		<rom name="SD Gundam - Gachapon Senshi 3 - Eiyuu Senki (Japan)(1990)(Yutaka).nes" size="262160" crc="3af5beff"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16373,7 +16373,7 @@
 		<description>SD Gundam - Gachapon Senshi 4 - New Type Story (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Yutaka</manufacturer>
-		<rom name="sd gundam - gachapon senshi 4 - new type story (japan).nes" size="524304" crc="078b916e"/>
+		<rom name="SD Gundam - Gachapon Senshi 4 - New Type Story (Japan)(1991)(Yutaka).nes" size="524304" crc="078b916e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16381,7 +16381,7 @@
 		<description>SD Gundam - Gachapon Senshi 5 - Battle of Universal Century (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Yutaka</manufacturer>
-		<rom name="sd gundam - gachapon senshi 5 - battle of universal century (japan).nes" size="262160" crc="971d0527"/>
+		<rom name="SD Gundam - Gachapon Senshi 5 - Battle of Universal Century (Japan)(1992)(Yutaka).nes" size="262160" crc="971d0527"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16394,20 +16394,11 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="sdgunkgm" sourcefile="nes/d_nes.cpp">
-		<comment>Hack</comment>
-		<description>SD Gundam Gaiden - Knight Gundam Monogatari (Hack, English)</description>
-		<year>2020</year>
-		<manufacturer>Bandai</manufacturer>
-		<rom name="sd gundam gaiden - knight gundam monogatari (japan) (v1.0) (t-eng).nes" size="393232" crc="2c91773e"/>
-		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
-		<driver status="good"/>
-	</game>
 	<game name="sdgunkgmj" cloneof="sdgunkgm" romof="sdgunkgm" sourcefile="nes/d_nes.cpp">
 		<description>SD Gundam Gaiden - Knight Gundam Monogatari (Japan, v1.1)</description>
 		<year>1990</year>
 		<manufacturer>Bandai</manufacturer>
-		<rom name="sd gundam gaiden - knight gundam monogatari (japan) (v1.1).nes" size="393232" crc="b6cafb31"/>
+		<rom name="SD Gundam Gaiden - Knight Gundam Monogatari (Japan, v1.1)(1990)(Bandai).nes" size="393232" crc="b6cafb31"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16415,7 +16406,7 @@
 		<description>SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Bandai</manufacturer>
-		<rom name="sd gundam gaiden - knight gundam monogatari 2 - hikari no kishi (japan).nes" size="524304" crc="0c1319dd"/>
+		<rom name="SD Gundam Gaiden - Knight Gundam Monogatari 2 - Hikari no Kishi (Japan)(1991)(Bandai).nes" size="524304" crc="0c1319dd"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16423,7 +16414,16 @@
 		<description>SD Gundam Gaiden - Knight Gundam Monogatari 3 - Densetsu no Kishi Dan (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Bandai</manufacturer>
-		<rom name="sd gundam gaiden - knight gundam monogatari 3 - densetsu no kishi dan (japan).nes" size="524304" crc="f02a0aab"/>
+		<rom name="SD Gundam Gaiden - Knight Gundam Monogatari 3 - Densetsu no Kishi Dan (Japan)(1992)(Bandai).nes" size="524304" crc="f02a0aab"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="sdgunkgm" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>SD Gundam Story - Knight Gundam Legend (Hack, English v1.03)</description>
+		<year>2020</year>
+		<manufacturer>Stardust Crusaders</manufacturer>
+		<rom name="SD Gundam Gaiden - Knight Gundam Monogatari T-Eng v1.03 (2020)(Stardust Crusaders).nes" size="655376" crc="313b4912"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16440,7 +16440,7 @@
 		<description>SD Hero Soukessen - Taose! Aku no Gundan (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Banpresto</manufacturer>
-		<rom name="SD Hero Soukessen - Taose! Aku no Gundan (Japan).nes" size="262160" crc="f17fefdd"/>
+		<rom name="SD Hero Soukessen - Taose! Aku no Gundan (Japan)(1990)(Banpresto).nes" size="262160" crc="f17fefdd"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16499,7 +16499,7 @@
 		<description>Seirei Densetsu Lickle (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Taito Corp.</manufacturer>
-		<rom name="Seirei Densetsu Lickle (Japan)(1992)(Taito Corp.).nes" size="393232" crc="2823a809"/>
+		<rom name="Seirei Densetsu Lickle (Japan)(1992)(Taito).nes" size="393232" crc="2823a809"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16507,7 +16507,7 @@
 		<description>Seiryaku Simulation - Inbou no Wakusei - Shancara (Japan)</description>
 		<year>1992</year>
 		<manufacturer>IGS Corporation</manufacturer>
-		<rom name="Seiryaku Simulation - Inbou no Wakusei - Shancara (J)(1992)(IGS).nes" size="262160" crc="dcfe4112"/>
+		<rom name="Seiryaku Simulation - Inbou no Wakusei - Shancara (Japan)(1992)(IGS).nes" size="262160" crc="dcfe4112"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16524,7 +16524,7 @@
 		<description>Senjou no Ookami (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Capcom</manufacturer>
-		<rom name="Senjou no Ookami (Japan).nes" size="131088" crc="982d11b5"/>
+		<rom name="Senjou no Ookami (Japan)(1986)(Capcom).nes" size="131088" crc="982d11b5"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16550,7 +16550,7 @@
 		<description>Shadow of the Ninja (USA)</description>
 		<year>1990</year>
 		<manufacturer>Natsume</manufacturer>
-		<rom name="Shadow of the Ninja (USA).nes" size="262160" crc="f74a04ab"/>
+		<rom name="Shadow of the Ninja (USA)(1990)(Natsume).nes" size="262160" crc="f74a04ab"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16558,7 +16558,7 @@
 		<description>Shadow Warriors (Euro)</description>
 		<year>1991</year>
 		<manufacturer>Tecmo</manufacturer>
-		<rom name="Shadow Warriors (Europe).nes" size="262160" crc="1d2fb2b7"/>
+		<rom name="Shadow Warriors (Euro)(1991)(Tecmo).nes" size="262160" crc="1d2fb2b7"/>
 		<video type="raster" orientation="horizontal" width="256" height="232" aspectx="256" aspecty="232"/>
 		<driver status="good"/>
 	</game>
@@ -16566,7 +16566,7 @@
 		<description>Shadow Warriors Episode II - The Dark Sword of Chaos (Euro)</description>
 		<year>1991</year>
 		<manufacturer>Tecmo</manufacturer>
-		<rom name="Shadow Warriors Episode II - The Dark Sword of Chaos (Europe).nes" size="262160" crc="96b6a919"/>
+		<rom name="Shadow Warriors Episode II - The Dark Sword of Chaos (Euro)(1991)(Tecmo).nes" size="262160" crc="96b6a919"/>
 		<video type="raster" orientation="horizontal" width="256" height="232" aspectx="256" aspecty="232"/>
 		<driver status="good"/>
 	</game>
@@ -16574,7 +16574,7 @@
 		<description>Shadowgate (USA)</description>
 		<year>1989</year>
 		<manufacturer>Kemco</manufacturer>
-		<rom name="Shadowgate (USA).nes" size="262160" crc="6287952c"/>
+		<rom name="Shadowgate (USA)(1989)(Kemco).nes" size="262160" crc="6287952c"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16582,7 +16582,7 @@
 		<description>Shanghai (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Shanghai (Japan).nes" size="131088" crc="8ff2acfe"/>
+		<rom name="Shanghai (Japan)(1987)(Sunsoft).nes" size="131088" crc="8ff2acfe"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16599,7 +16599,7 @@
 		<description>Shatterhand (USA)</description>
 		<year>1991</year>
 		<manufacturer>Jaleco</manufacturer>
-		<rom name="Shatterhand (USA).nes" size="262160" crc="80b3ffaf"/>
+		<rom name="Shatterhand (USA)(1991)(Jaleco).nes" size="262160" crc="80b3ffaf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16625,7 +16625,7 @@
 		<description>Shin 4 Nin Uchi Mahjong (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Nintendo</manufacturer>
-		<rom name="Shin 4 Nin Uchi Mahjong (Japan).nes" size="393232" crc="44df4a58"/>
+		<rom name="Shin 4 Nin Uchi Mahjong (Japan)(1991)(Nintendo).nes" size="393232" crc="44df4a58"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17192,10 +17192,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="somari" sourcefile="nes/d_nes.cpp">
-		<description>Somari (Unl)</description>
+		<description>Somari (Taiwan) (Unl)</description>
 		<year>1994</year>
-		<manufacturer>Hummer Team</manufacturer>
-		<rom name="Somari (Unl).nes" size="524304" crc="51589daf"/>
+		<manufacturer>Ge De Industry Co.</manufacturer>
+		<rom name="Somari (Taiwan)(Unl)(1994)(Ge De Industry Co.).nes" size="524304" crc="51589daf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17221,7 +17221,7 @@
 		<description>Sonic the Hedgehog (Hack)</description>
 		<year>2020</year>
 		<manufacturer>Terwilf</manufacturer>
-		<rom name="Sonic the Hedgehog (Hack).nes" size="786448" crc="b9ebd682"/>
+		<rom name="Sonic the Hedgehog (Hack)(2020)(Terwilf).nes" size="786448" crc="b9ebd682"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -18313,15 +18313,6 @@
 		<year>2021</year>
 		<manufacturer>Frantik</manufacturer>
 		<rom name="Super Mario Unlimited Deluxe v2.4 (2021)(Frantik).nes" size="196624" crc="e4198a92"/>
-		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
-		<driver status="good"/>
-	</game>
-	<game name="smbunldlx" cloneof="smb" romof="smb" sourcefile="nes/d_nes.cpp">
-		<comment>Hack</comment>
-		<description>Super Mario Unlimited Deluxe (Hack)</description>
-		<year>2020</year>
-		<manufacturer>Frantik</manufacturer>
-		<rom name="Super Mario Unlimited Deluxe (Hack).nes" size="196624" crc="716c9eb4"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19948,6 +19939,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="kharzoid" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Trial of Kharzoid, The (HB, v1.2)</description>
+		<year>2025</year>
+		<manufacturer>Pascal Belisle</manufacturer>
+		<rom name="Trial of Kharzoid, The v1.2 (2025)(Pascal Belisle).nes" size="393232" crc="0f824e08"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="trog" sourcefile="nes/d_nes.cpp">
 		<description>Trog (USA)</description>
 		<year>1991</year>
@@ -20154,7 +20154,7 @@
 		<description>Ultima - Warriors of Destiny (USA)</description>
 		<year>1993</year>
 		<manufacturer>FCI</manufacturer>
-		<rom name="Ultima - Warriors of Destiny (USA).nes" size="262160" crc="2d8c2829"/>
+		<rom name="Ultima - Warriors of Destiny (USA)(1993)(FCI).nes" size="262160" crc="2d8c2829"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20171,7 +20171,7 @@
 		<description>Ultimate League Soccer (Italy)</description>
 		<year>1991</year>
 		<manufacturer>American Video Entertainment</manufacturer>
-		<rom name="Ultimate League Soccer (Italy).nes" size="98320" crc="44197811"/>
+		<rom name="Ultimate League Soccer (Italy)(1991)(AVE).nes" size="98320" crc="44197811"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20179,7 +20179,7 @@
 		<description>Ultimate League Soccer (USA)</description>
 		<year>1991</year>
 		<manufacturer>American Video Entertainment</manufacturer>
-		<rom name="Ultimate League Soccer (USA).nes" size="98320" crc="38fb271b"/>
+		<rom name="Ultimate League Soccer (USA)(1991)(AVE).nes" size="98320" crc="38fb271b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20204,7 +20204,7 @@
 		<description>Ultimate Stuntman, The (USA)</description>
 		<year>1991</year>
 		<manufacturer>Camerica</manufacturer>
-		<rom name="Ultimate Stuntman, The (USA) (Unl).nes" size="262160" crc="e8ee7ddc"/>
+		<rom name="Ultimate Stuntman, The (USA)(1991)(Camerica).nes" size="262160" crc="e8ee7ddc"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20238,7 +20238,7 @@
 		<description>Uncanny X-Men, The (USA)</description>
 		<year>1989</year>
 		<manufacturer>Ljn</manufacturer>
-		<rom name="Uncanny X-Men, The (USA).nes" size="131088" crc="1e483ca6"/>
+		<rom name="Uncanny X-Men, The (USA)(1989)(Ljn).nes" size="131088" crc="1e483ca6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20246,7 +20246,7 @@
 		<description>Uncharted Waters (USA)</description>
 		<year>1991</year>
 		<manufacturer>Koei</manufacturer>
-		<rom name="Uncharted Waters (USA).nes" size="655376" crc="d6a0ce38"/>
+		<rom name="Uncharted Waters (USA)(1991)(Koei).nes" size="655376" crc="d6a0ce38"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20263,7 +20263,7 @@
 		<description>Uninvited (USA)</description>
 		<year>1991</year>
 		<manufacturer>Kemco</manufacturer>
-		<rom name="Uninvited (USA).nes" size="262160" crc="8579fa86"/>
+		<rom name="Uninvited (USA)(1991)(Kemco).nes" size="262160" crc="8579fa86"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20280,7 +20280,7 @@
 		<description>Universe Soldiers, The (China)</description>
 		<year>1993</year>
 		<manufacturer>Whirlwind Manu</manufacturer>
-		<rom name="Universe Soldiers, The (Ch).nes" size="65552" crc="74bbcb02"/>
+		<rom name="Universe Soldiers, The (China)(1993)(Whirlwind Manu).nes" size="65552" crc="74bbcb02"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20297,7 +20297,7 @@
 		<description>Urban Champion (World)</description>
 		<year>1984</year>
 		<manufacturer>Nintendo</manufacturer>
-		<rom name="Urban Champion (World).nes" size="24592" crc="0770cdaa"/>
+		<rom name="Urban Champion (World)(1984)(Nintendo).nes" size="24592" crc="0770cdaa"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20310,10 +20310,19 @@
 		<driver status="good"/>
 	</game>
 	<game name="uruseyat" sourcefile="nes/d_nes.cpp">
-		<description>Urusei Yatsura - Lum no Wedding Bell (Japan)</description>
+		<description>Urusei Yatsura: Lum no Wedding Bell (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Jaleco</manufacturer>
-		<rom name="Urusei Yatsura - Lum no Wedding Bell (Japan).nes" size="65552" crc="7516a5b4"/>
+		<rom name="Urusei Yatsura - Lum no Wedding Bell (Japan)(1986)(Jaleco).nes" size="65552" crc="7516a5b4"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="uruseyatoh" cloneof="uruseyat" romof="uruseyat" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Urusei Yatsura: Lum's Wedding Bell - OVERHAUL (Hack)</description>
+		<year>2022</year>
+		<manufacturer>Rani Baker</manufacturer>
+		<rom name="Urusei Yatsura - Lum No Wedding Bell - OVERHAUL (2022)(Rani Baker).nes" size="65552" crc="4fa35893"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20330,7 +20339,7 @@
 		<description>Ushio to Tora - Shinen no Taiyou (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Yutaka</manufacturer>
-		<rom name="Ushio to Tora - Shinen no Taiyou (J)(1993)(Yutaka).nes" size="393232" crc="7aa8f7d0"/>
+		<rom name="Ushio to Tora - Shinen no Taiyou (Japan)(1993)(Yutaka).nes" size="393232" crc="7aa8f7d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20338,7 +20347,7 @@
 		<description>Utsurun Desu (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="Utsurun Desu (Japan).nes" size="262160" crc="0a56d915"/>
+		<rom name="Utsurun Desu (Japan)(1991)(Takara).nes" size="262160" crc="0a56d915"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20451,7 +20460,7 @@
 		<description>Virus Cleaner (HB)</description>
 		<year>2011-2016</year>
 		<manufacturer>Second Dimension - Sly Dog Studios</manufacturer>
-		<rom name="NES Virus Cleaner (2016)(Second Dimension).nes" size="40976" crc="5f17cb98"/>
+		<rom name="Virus Cleaner (2016)(Second Dimension).nes" size="40976" crc="5f17cb98"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20758,7 +20767,7 @@
 		<description>What Remains (HB, v1.0.2)</description>
 		<year>2019-20</year>
 		<manufacturer>Iodine Dynamics</manufacturer>
-		<rom name="What Remains (HB).nes" size="524304" crc="2f2d03e5"/>
+		<rom name="What Remains (2020)(Iodine Dynamics).nes" size="524304" crc="2f2d03e5"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20889,7 +20898,7 @@
 		<description>Witch n' Wiz (HB)</description>
 		<year>2021</year>
 		<manufacturer>Matt Hughson</manufacturer>
-		<rom name="Witch n' Wiz (2021)(mhughson).nes" size="262160" crc="4ac76d3f"/>
+		<rom name="Witch n' Wiz (2021)(Matt Hughson).nes" size="262160" crc="4ac76d3f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20950,7 +20959,7 @@
 		<description>Wolfling (HB, v1.4)</description>
 		<year>2018</year>
 		<manufacturer>Lazy Cow</manufacturer>
-		<rom name="Wolfling (HB, v1.4).nes" size="65552" crc="f22ae9b8"/>
+		<rom name="Wolfling v1.4 (2018)(Lazy Cow).nes" size="65552" crc="f22ae9b8"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21118,6 +21127,24 @@
 		<year>1990</year>
 		<manufacturer>Tengen</manufacturer>
 		<rom name="Xybots (USA, Proto)(1990)(Tengen).nes" size="196624" crc="59dae478"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="yarsrev" sourcefile="nes/d_nes.cpp">
+		<comment>The Atari 2600 Yars Revenge on NES (conversion)</comment>
+		<description>Yars Revenge (Unl)</description>
+		<year>200?</year>
+		<manufacturer>Nice Code Software</manufacturer>
+		<rom name="Yars Revenge (Unl)(200x)(Nice Code).nes" size="16400" crc="70132549"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="yarsrevoh" cloneof="yarsrev" romof="yarsrev" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Yars Revenge - OVERHAUL (Hack)</description>
+		<year>2023</year>
+		<manufacturer>Rani Baker</manufacturer>
+		<rom name="Yars Revenge - OVERHAUL (2023)(Rani Baker).nes" size="24592" crc="f1790b64"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
