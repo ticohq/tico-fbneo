@@ -5139,8 +5139,8 @@
 	<game name="drchaos" sourcefile="nes/d_nes.cpp">
 		<description>Dr. Chaos (USA)</description>
 		<year>1988</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Dr. Chaos (USA)(1988)(FCI).nes" size="131088" crc="406bda35"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Dr. Chaos (USA)(1988)(FCI Inc.).nes" size="131088" crc="406bda35"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6250,11 +6250,20 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="famicjum" sourcefile="nes/d_nes.cpp">
+	<game name="famicjum" cloneof="famicjump" romof="famicjump" sourcefile="nes/d_nes.cpp">
 		<description>Famicom Jump - Eiyuu Retsuden (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Bandai</manufacturer>
 		<rom name="Famicom Jump - Eiyuu Retsuden (Japan)(1989)(Bandai).nes" size="393232" crc="b91afcaf"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="famicjump" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Famicom Jump - Heroes History (Hack, English v1.03)</description>
+		<year>2025</year>
+		<manufacturer>BlackPaladin</manufacturer>
+		<rom name="Famicom Jump - Heroes History T-Eng v1.03 (2025)(BlackPaladin).nes" size="393232" crc="cae47c21"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8390,7 +8399,7 @@
 		<description>Harlem Globetrotters (USA)</description>
 		<year>1991</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="Harlem Globetrotters (USA).nes" size="262160" crc="43ddc8a3"/>
+		<rom name="Harlem Globetrotters (USA)(1991)(GameTek).nes" size="262160" crc="43ddc8a3"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8405,9 +8414,9 @@
 	</game>
 	<game name="hatris" sourcefile="nes/d_nes.cpp">
 		<description>Hatris (USA)</description>
-		<year>1992</year>
+		<year>1991</year>
 		<manufacturer>Bullet-Proof Software</manufacturer>
-		<rom name="Hatris (USA).nes" size="131088" crc="56dbfd1f"/>
+		<rom name="Hatris (USA)(1991)(Bullet-Proof Software).nes" size="131088" crc="56dbfd1f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8469,7 +8478,7 @@
 		<description>Heavy Barrel (USA)</description>
 		<year>1990</year>
 		<manufacturer>Data East</manufacturer>
-		<rom name="Heavy Barrel (USA).nes" size="262160" crc="1e79b8a6"/>
+		<rom name="Heavy Barrel (USA)(1990)(Datya East).nes" size="262160" crc="1e79b8a6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8477,7 +8486,7 @@
 		<description>Heavy Shreddin' (USA)</description>
 		<year>1990</year>
 		<manufacturer>Parker Brothers</manufacturer>
-		<rom name="Heavy Shreddin' (USA).nes" size="262160" crc="86a637b0"/>
+		<rom name="Heavy Shreddin' (USA)(1990)(Parker Brothers).nes" size="262160" crc="86a637b0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8495,7 +8504,7 @@
 		<description>Hebereke (Hack, English)</description>
 		<year>2013</year>
 		<manufacturer>BMF54123</manufacturer>
-		<rom name="Hebereke (T-Eng).nes" size="393232" crc="ac2e16e9"/>
+		<rom name="Hebereke T-Eng (2013)(BMF54123).nes" size="393232" crc="ac2e16e9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8503,7 +8512,7 @@
 		<description>Hebereke (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Hebereke (Japan).nes" size="262160" crc="2a137974"/>
+		<rom name="Hebereke (Japan)(1991)(Sunsoft).nes" size="262160" crc="2a137974"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8511,7 +8520,7 @@
 		<description>Hector '87 (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Hudson Soft</manufacturer>
-		<rom name="Hector '87 (Japan).nes" size="131088" crc="4b4ba1c6"/>
+		<rom name="Hector '87 (Japan)(1987)(Hudson Soft).nes" size="131088" crc="4b4ba1c6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9892,7 +9901,7 @@
 		<description>Kage no Densetsu (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Taito Corp.</manufacturer>
-		<rom name="Kage no Densetsu (Japan)(1986)(Taito Corp.).nes" size="49168" crc="6e55f630"/>
+		<rom name="Kage no Densetsu (Japan)(1986)(Taito).nes" size="49168" crc="6e55f630"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9900,7 +9909,7 @@
 		<description>Kagerou Densetsu (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Pixel</manufacturer>
-		<rom name="Kagerou Densetsu (Japan).nes" size="262160" crc="205631f7"/>
+		<rom name="Kagerou Densetsu (Japan)(1990)(Pixel).nes" size="262160" crc="205631f7"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11181,7 +11190,7 @@
 		<description>Lode Runner (USA)</description>
 		<year>1987</year>
 		<manufacturer>Broderbund</manufacturer>
-		<rom name="Lode Runner (USA).nes" size="24592" crc="cd4bf911"/>
+		<rom name="Lode Runner (USA)(1987)(Broderbund).nes" size="24592" crc="cd4bf911"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11198,7 +11207,7 @@
 		<description>Lone Ranger, The (USA)</description>
 		<year>1991</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="Lone Ranger, The (USA).nes" size="393232" crc="06c65580"/>
+		<rom name="Lone Ranger, The (USA)(1991)(Konami).nes" size="393232" crc="06c65580"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11206,7 +11215,7 @@
 		<description>Loopz (USA)</description>
 		<year>1990</year>
 		<manufacturer>Mindscape</manufacturer>
-		<rom name="Loopz (USA).nes" size="131088" crc="3e7a06a7"/>
+		<rom name="Loopz (USA)(1990)(Mindscape).nes" size="131088" crc="3e7a06a7"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11214,7 +11223,7 @@
 		<description>Lot Lot (Japan)</description>
 		<year>1985</year>
 		<manufacturer>Tokuma Shoten</manufacturer>
-		<rom name="Lot Lot (Japan).nes" size="40976" crc="8b7ac605"/>
+		<rom name="Lot Lot (Japan)(1985)(Tokuma Shoten).nes" size="40976" crc="8b7ac605"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11222,7 +11231,7 @@
 		<description>Low G Man - The Low Gravity Man (USA)</description>
 		<year>1990</year>
 		<manufacturer>Taxan</manufacturer>
-		<rom name="Low G Man - The Low Gravity Man (USA).nes" size="262160" crc="b90a1ca1"/>
+		<rom name="Low G Man - The Low Gravity Man (USA)(1990)(Taxan).nes" size="262160" crc="b90a1ca1"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11256,8 +11265,8 @@
 	<game name="lunarpool" sourcefile="nes/d_nes.cpp">
 		<description>Lunar Pool (USA)</description>
 		<year>1987</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Lunar Pool (USA).nes" size="24592" crc="fa96cba2"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Lunar Pool (USA)(1987)(FCI Inc.).nes" size="24592" crc="fa96cba2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11557,8 +11566,8 @@
 	<game name="magmax" sourcefile="nes/d_nes.cpp">
 		<description>Magmax (USA)</description>
 		<year>1988</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Magmax (USA)(1988)(FCI).nes" size="40976" crc="7fe5b39b"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Magmax (USA)(1988)(FCI Inc.).nes" size="40976" crc="7fe5b39b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -14499,8 +14508,8 @@
 	<game name="phantomfighter" sourcefile="nes/d_nes.cpp">
 		<description>Phantom Fighter (USA)</description>
 		<year>1990</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Phantom Fighter (USA)(1990)(FCI).nes" size="262160" crc="9dde4e60"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Phantom Fighter (USA)(1990)(FCI Inc.).nes" size="262160" crc="9dde4e60"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20054,21 +20063,21 @@
 		<description>TwinBee (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="TwinBee (Japan).nes" size="49168" crc="4433ba0a"/>
+		<rom name="TwinBee (Japan)(1986)(Konami).nes" size="49168" crc="4433ba0a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="twinb3j" cloneof="twinb3" romof="twinb3" sourcefile="nes/d_nes.cpp">
-		<description>TwinBee 3 - Poko Poko Daimaou (Japan)</description>
+		<description>TwinBee 3: Poko Poko Daimaou (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="TwinBee 3 - Poko Poko Daimaou (Japan).nes" size="262160" crc="96529c68"/>
+		<rom name="TwinBee 3 - Poko Poko Daimaou (Japan)(1989)(Konami).nes" size="262160" crc="96529c68"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="twinb3" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>TwinBee 3 - The Terror Trunk (Hack, English v1.02)</description>
+		<description>TwinBee 3: The Terror Trunk (Hack, English v1.02)</description>
 		<year>2024</year>
 		<manufacturer>Pennywise</manufacturer>
 		<rom name="TwinBee 3 - The Terror Trunk T-Eng v1.02 (2024)(Pennywise).nes" size="262160" crc="427e3892"/>
@@ -20079,7 +20088,7 @@
 		<description>U.S. Championship V'Ball (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Technos</manufacturer>
-		<rom name="U.S. Championship V'Ball (Japan).nes" size="262160" crc="0bafbb69"/>
+		<rom name="U.S. Championship V'Ball (Japan)(1989)(Technos).nes" size="262160" crc="0bafbb69"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20105,7 +20114,7 @@
 		<description>Uchuu Keibitai SDF (Japan)</description>
 		<year>1990</year>
 		<manufacturer>HAL Laboratory</manufacturer>
-		<rom name="Uchuu Keibitai SDF (Japan).nes" size="262160" crc="e8a98391"/>
+		<rom name="Uchuu Keibitai SDF (Japan)(1990)(HAL Laboratory).nes" size="262160" crc="e8a98391"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20113,7 +20122,7 @@
 		<description>Uchuusen Cosmo Carrier (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Jaleco</manufacturer>
-		<rom name="Uchuusen Cosmo Carrier (Japan).nes" size="262160" crc="9298943a"/>
+		<rom name="Uchuusen Cosmo Carrier (Japan)(1987)(Jaleco).nes" size="262160" crc="9298943a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20121,15 +20130,15 @@
 		<description>Ufouria - The Saga (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Ufouria - The Saga (Europe).nes" size="262160" crc="6453f65e"/>
+		<rom name="Ufouria - The Saga (Euro)(1992)(Sunsoft).nes" size="262160" crc="6453f65e"/>
 		<video type="raster" orientation="horizontal" width="256" height="232" aspectx="256" aspecty="232"/>
 		<driver status="good"/>
 	</game>
 	<game name="ultimaexodus" sourcefile="nes/d_nes.cpp">
 		<description>Ultima - Exodus (USA)</description>
 		<year>1989</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Ultima - Exodus (USA).nes" size="262160" crc="c1a9e6c0"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Ultima - Exodus (USA)(1989)(FCI Inc.).nes" size="262160" crc="c1a9e6c0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20138,23 +20147,23 @@
 		<description>Ultima - Exodus Remastered (Hack)</description>
 		<year>2020</year>
 		<manufacturer>Fox Cunning</manufacturer>
-		<rom name="Ultima - Exodus Remastered (USA)(Hack).nes" size="262160" crc="8afe467a"/>
+		<rom name="Ultima - Exodus Remastered (2020)(Fox Cunning).nes" size="262160" crc="8afe467a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="ultimqueava" sourcefile="nes/d_nes.cpp">
 		<description>Ultima - Quest of the Avatar (USA)</description>
 		<year>1990</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Ultima - Quest of the Avatar (USA).nes" size="262160" crc="c7f5b3d8"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Ultima - Quest of the Avatar (USA)(1990)(FCI Inc.).nes" size="262160" crc="c7f5b3d8"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="ultimwardes" sourcefile="nes/d_nes.cpp">
 		<description>Ultima - Warriors of Destiny (USA)</description>
 		<year>1993</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Ultima - Warriors of Destiny (USA)(1993)(FCI).nes" size="262160" crc="2d8c2829"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Ultima - Warriors of Destiny (USA)(1993)(FCI Inc.).nes" size="262160" crc="2d8c2829"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20322,7 +20331,7 @@
 		<description>Urusei Yatsura: Lum's Wedding Bell - OVERHAUL (Hack)</description>
 		<year>2022</year>
 		<manufacturer>Rani Baker</manufacturer>
-		<rom name="Urusei Yatsura - Lum No Wedding Bell - OVERHAUL (2022)(Rani Baker).nes" size="65552" crc="4fa35893"/>
+		<rom name="Urusei Yatsura - Lum No Wedding Bell - OVERHAUL (2022)(Rani Baker).nes" size="65552" crc="1443e638"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20740,8 +20749,8 @@
 	<game name="wcwworchawre" sourcefile="nes/d_nes.cpp">
 		<description>WCW World Championship Wrestling (USA)</description>
 		<year>1990</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="WCW World Championship Wrestling (USA)(1990)(FCI).nes" size="262160" crc="7434dc82"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="WCW World Championship Wrestling (USA)(1990)(FCI Inc.).nes" size="262160" crc="7434dc82"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21381,8 +21390,8 @@
 	<game name="zanac" sourcefile="nes/d_nes.cpp">
 		<description>Zanac (USA)</description>
 		<year>1987</year>
-		<manufacturer>FCI</manufacturer>
-		<rom name="Zanac (USA)(1987)(FCI).nes" size="131088" crc="2165c0c2"/>
+		<manufacturer>FCI Inc.</manufacturer>
+		<rom name="Zanac (USA)(1987)(FCI Inc.).nes" size="131088" crc="2165c0c2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

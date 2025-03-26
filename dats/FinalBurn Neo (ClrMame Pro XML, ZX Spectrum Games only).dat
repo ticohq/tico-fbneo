@@ -1395,7 +1395,7 @@
 		<description>Androide (48K) (HB)</description>
 		<year>2014</year>
 		<manufacturer>PixelSoft</manufacturer>
-		<rom name="Androide (2014)(PixelSoft).tap" size="42884" crc="a0cce6d2"/>
+		<rom name="Androide 48K (2014)(PixelSoft).tap" size="42884" crc="a0cce6d2"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -1623,10 +1623,10 @@
 	</game>
 	<game name="archeomania" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Archeomania (128K) (HB)</description>
+		<description>Archeomania (48K-128K) (HB)</description>
 		<year>2014</year>
 		<manufacturer>Rafal Miazga</manufacturer>
-		<rom name="Archeomania (2014)(Rafal Miazga).tap" size="26567" crc="15340561"/>
+		<rom name="Archeomania 48K-128K (2014)(Rafal Miazga).tap" size="26567" crc="15340561"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -2182,7 +2182,7 @@
 		<description>B.C. Bill (48K)</description>
 		<year>1984</year>
 		<manufacturer>Imagine Software</manufacturer>
-		<rom name="B.C. Bill (1984)(Imagine).tap" size="30496" crc="61b2d9bf"/>
+		<rom name="B.C. Bill 48K (1984)(Imagine).tap" size="30496" crc="61b2d9bf"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -2636,11 +2636,11 @@
 		<driver status="good"/>
 	</game>
 	<game name="bcquesttires" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Press 'P' for control options</comment>
+		<comment>Press 'P' for controllers menu</comment>
 		<description>BC's Quest for Tires (48K)</description>
 		<year>1985</year>
 		<manufacturer>Software Projects</manufacturer>
-		<rom name="BC's Quest for Tires (1985)(Software Projects).tap" size="43450" crc="fcb53b87"/>
+		<rom name="BC's Quest for Tires 48K (1985)(Software Projects).tap" size="43450" crc="fcb53b87"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -9235,6 +9235,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="farwest" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Far West Tale's Guns (128K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Antrilles</manufacturer>
+		<rom name="Far West Tale's Guns 128K (2025)(Antrilles).tap" size="65327" crc="22a3eca4"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="fjtt" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Farmer Jack - Treasure Trove (128K) (HB)</description>
@@ -13505,7 +13516,7 @@
 		<description>Jurl (48K) (HB)</description>
 		<year>2025</year>
 		<manufacturer>Tonsomo Entertainment</manufacturer>
-		<rom name="Jurl 48K (2025)(Tonsomo Entertainment).tzx" size="34524" crc="08992836"/>
+		<rom name="Jurl 48K (2025)(Tonsomo Entertainment).tap" size="34891" crc="d8c5b97e"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -14390,6 +14401,16 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="liminal" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, AY Sound supported</comment>
+		<description>Liminal (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Red Triangle</manufacturer>
+		<rom name="Liminal 48K-AY (2025)(Red Triangle).tap" size="28435" crc="95e7c052"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="linefire" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Line of Fire (128K)</description>
 		<year>1990</year>
@@ -15107,7 +15128,7 @@
 		<description>Magical Tower Adventure - 2019 Version (48K) (HB)</description>
 		<year>2019</year>
 		<manufacturer>Timmy</manufacturer>
-		<rom name="Magical Tower Adventure 2019 Version (2019)(Timmy).tap" size="29119" crc="31340284"/>
+		<rom name="Magical Tower Adventure - 2019 Version 48K (2019)(Timmy).tap" size="29119" crc="31340284"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15117,7 +15138,7 @@
 		<description>Magical Tower Adventure - Mini Version (48K) (HB)</description>
 		<year>2016</year>
 		<manufacturer>Timmy</manufacturer>
-		<rom name="Magical Tower Adventure Mini Version (2016)(Timmy).tap" size="30281" crc="92b80407"/>
+		<rom name="Magical Tower Adventure - Mini Version 48K (2016)(Timmy).tap" size="30281" crc="92b80407"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15188,7 +15209,7 @@
 		<description>Malignant Gore, The (128K) (HB)</description>
 		<year>2019</year>
 		<manufacturer>Sanctum Gamers</manufacturer>
-		<rom name="Malignant Gore, The (2019)(Sanctum Gamers).tap" size="41830" crc="e4db2507"/>
+		<rom name="Malignant Gore, The 128K (2019)(Sanctum Gamers).tap" size="41830" crc="e4db2507"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15418,7 +15439,7 @@
 		<description>Marsmare - Alienation (128K) (HB)</description>
 		<year>2020</year>
 		<manufacturer>Drunk Fly</manufacturer>
-		<rom name="Marsmare - Alienation (2020)(Drunk Fly).tap" size="115080" crc="906f7098"/>
+		<rom name="Marsmare - Alienation 128K (2020)(Drunk Fly).tap" size="115080" crc="906f7098"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15437,7 +15458,7 @@
 		<description>MASK (48K-128K)</description>
 		<year>1987</year>
 		<manufacturer>Gremlin Graphics</manufacturer>
-		<rom name="Mask (1987)(Gremlin).z80" size="92283" crc="cdd8c4b1"/>
+		<rom name="MASK 48K-128K (1987)(Gremlin Graphics).z80" size="92283" crc="cdd8c4b1"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15467,7 +15488,27 @@
 		<description>Master Blaster (48K)</description>
 		<year>1990</year>
 		<manufacturer>Cybadyne</manufacturer>
-		<rom name="Master Blaster (1990)(Cybadyne).tap" size="49304" crc="83f104ce"/>
+		<rom name="Master Blaster 48K (1990)(Cybadyne).tap" size="49304" crc="83f104ce"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="masterpiecen" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Master Piece (English) (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Tartessos Games</manufacturer>
+		<rom name="Master Piece EN 48K (2025)(Tartessos Games).tap" size="43584" crc="199f2f68"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="masterpieces" cloneof="masterpiecen" romof="masterpiecen" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Master Piece (Spanish) (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Tartessos Games</manufacturer>
+		<rom name="Master Piece ES 48K (2025)(Tartessos Games).tap" size="43616" crc="8c79ddf2"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15656,7 +15697,7 @@
 		<description>Mean Streak (128K)</description>
 		<year>1987</year>
 		<manufacturer>Mirrorsoft</manufacturer>
-		<rom name="Mean Streak (1987)(Mirrorsoft).tap" size="66912" crc="eaa7cbc4"/>
+		<rom name="Mean Streak 128K (1987)(Mirrorsoft).tap" size="66912" crc="eaa7cbc4"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15714,10 +15755,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="megaapocalypse" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Mega Apocalypse (128K)</description>
+		<description>Mega Apocalypse (48K-128K)</description>
 		<year>1988</year>
-		<manufacturer>Martech</manufacturer>
-		<rom name="Mega Apocalypse (1988)(Martech).tap" size="45336" crc="989130c0"/>
+		<manufacturer>Martech Games</manufacturer>
+		<rom name="Mega Apocalypse 48K-128K (1988)(Martech Games).tap" size="45336" crc="989130c0"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -15746,7 +15787,7 @@
 		<description>Mega Phoenix (128K)</description>
 		<year>1991</year>
 		<manufacturer>Dinamic Software</manufacturer>
-		<rom name="Megaphoenix (1991)(Dinamic).tap" size="43229" crc="81937ff0"/>
+		<rom name="Mega Phoenix 128K (1991)(Dinamic Software).tap" size="43229" crc="81937ff0"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -16382,7 +16423,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="mithos128p2a" romof="spec1282a" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Mithos (128K+2A)</description>
+		<description>Mithos ~ Mythos (128K+2A)</description>
 		<year>1990</year>
 		<manufacturer>Opera Soft</manufacturer>
 		<rom name="Mithos 128K+2A (1990)(Opera Soft).tzx" size="49305" crc="879b5d8b"/>
@@ -16394,7 +16435,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="mithos48" cloneof="mithos128p2a" romof="mithos128p2a" sourcefile="spectrum/d_spectrum.cpp">
-		<description>Mithos (48K)</description>
+		<description>Mithos ~ Mythos (48K)</description>
 		<year>1990</year>
 		<manufacturer>Opera Soft</manufacturer>
 		<rom name="Mithos 48K (1990)(Opera Soft).tzx" size="49263" crc="142ddcce"/>
@@ -16640,11 +16681,11 @@
 		<driver status="good"/>
 	</game>
 	<game name="moonstrike" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Press Enter to skip intro screen</comment>
+		<comment>Press ENTER to skip intro screen</comment>
 		<description>Moon Strike (48K)</description>
 		<year>1987</year>
 		<manufacturer>Mirrorsoft</manufacturer>
-		<rom name="Moon Strike (1987)(Mirrorsoft).tap" size="49633" crc="bd0e5cbd"/>
+		<rom name="Moon Strike 48K (1987)(Mirrorsoft).tap" size="49633" crc="bd0e5cbd"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -19837,7 +19878,7 @@
 		<description>Ragnablock (128K) (HB)</description>
 		<year>2006</year>
 		<manufacturer>Computer Emuzone</manufacturer>
-		<rom name="Ragnablock (2006)(Computer Emuzone).tap" size="22209" crc="fc22a3a0"/>
+		<rom name="Ragnablock 128K (2006)(Computer Emuzone).tap" size="22209" crc="fc22a3a0"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -20219,26 +20260,6 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="redraidbeg1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Red Raid - The Beginning - Side A (48K) (HB)</description>
-		<year>2020</year>
-		<manufacturer>ZX Bitles</manufacturer>
-		<rom name="Red Raid The Beginning - Side A (2020)(ZX Bitles).tap" size="46030" crc="bb242173"/>
-		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="redraidbeg2" cloneof="redraidbeg1" romof="redraidbeg1" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Red Raid - The Beginning - Side B (48K) (HB)</description>
-		<year>2020</year>
-		<manufacturer>ZX Bitles</manufacturer>
-		<rom name="Red Raid The Beginning - Side B (2020)(ZX Bitles).tap" size="47114" crc="fa5b7f8d"/>
-		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
-		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="redraidsink1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Red Raid - The Sinking - Side A (48K) (HB)</description>
@@ -20259,22 +20280,42 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="redraidbeg1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Red Raid: The Beginning - Side A (48K) (HB)</description>
+		<year>2020</year>
+		<manufacturer>ZX Bitles</manufacturer>
+		<rom name="Red Raid - The Beginning - Side A 48K (2020)(ZX Bitles).tap" size="46030" crc="bb242173"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="redraidbeg2" cloneof="redraidbeg1" romof="redraidbeg1" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Red Raid: The Beginning - Side B (48K) (HB)</description>
+		<year>2020</year>
+		<manufacturer>ZX Bitles</manufacturer>
+		<rom name="Red Raid - The Beginning - Side B 48K (2020)(ZX Bitles).tap" size="47114" crc="fa5b7f8d"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="redraidinf1" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Red Raid The Infiltrating - Side A (48K) (HB)</description>
+		<description>Red Raid: The Infiltrating - Side A (48K) (HB)</description>
 		<year>2022</year>
 		<manufacturer>ZX Bitles</manufacturer>
-		<rom name="Red Raid The Infiltrating - Side A 48K (2022)(ZX Bitles).tap" size="47597" crc="fa7ac305"/>
+		<rom name="Red Raid The - Infiltrating - Side A 48K (2022)(ZX Bitles).tap" size="47597" crc="fa7ac305"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="redraidinf2" cloneof="redraidinf1" romof="redraidinf1" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Red Raid The Infiltrating - Side B (48K) (HB)</description>
+		<description>Red Raid: The Infiltrating - Side B (48K) (HB)</description>
 		<year>2022</year>
 		<manufacturer>ZX Bitles</manufacturer>
-		<rom name="Red Raid The Infiltrating - Side B 48K (2022)(ZX Bitles).tap" size="47554" crc="9524172b"/>
+		<rom name="Red Raid - The Infiltrating - Side B 48K (2022)(ZX Bitles).tap" size="47554" crc="9524172b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -22354,11 +22395,11 @@
 		<driver status="good"/>
 	</game>
 	<game name="sixsixsixsix" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
-		<comment>Homebrew</comment>
-		<description>Sixsixsixsix (Russian) (48K) (HB)</description>
+		<comment>Homebrew, 1: left - 2: right - 3: speed-up - 4: speed-down</comment>
+		<description>Sixsixsixsix ~ 6.6.6.6 (Russian) (48K) (HB)</description>
 		<year>2020</year>
 		<manufacturer>Anhot Studio</manufacturer>
-		<rom name="Sixsixsixsix (2020)(Anhot Studio).tap" size="42560" crc="aaae62a6"/>
+		<rom name="Sixsixsixsix RU 48K (2020)(Anhot Studio).tap" size="42560" crc="aaae62a6"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -27526,7 +27567,7 @@
 		<description>Zombo (48K) (HB)</description>
 		<year>2015</year>
 		<manufacturer>Monsterbytes</manufacturer>
-		<rom name="Zombo (2015)(Monsterbytes).tap" size="48937" crc="e5d51108"/>
+		<rom name="Zombo 48K (2015)(Monsterbytes).tap" size="48937" crc="e5d51108"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>

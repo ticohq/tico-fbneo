@@ -1571,7 +1571,7 @@
 	</game>
 	<game name="b2b" romof="neogeo" sourcefile="neogeo/d_neogeo.cpp">
 		<description>Bang Bang Busters (2010 NCI release)</description>
-		<year>2000</year>
+		<year>2010</year>
 		<manufacturer>Visco</manufacturer>
 		<rom name="071.p1" size="524288" crc="7687197d"/>
 		<rom name="071.s1" size="131072" crc="44e5f154"/>
@@ -4491,19 +4491,19 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="doubled" romof="neogeo" sourcefile="neogeo/d_neogeo.cpp">
+	<game name="doubled1" romof="neogeo" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Demo</comment>
 		<description>Double Dragon One (Demo)</description>
 		<year>2025</year>
-		<manufacturer>unknown</manufacturer>
-		<rom name="doubled-p1.bin" size="1048576" crc="1203e56d"/>
-		<rom name="doubled-p2.bin" size="4194304" crc="614c501e"/>
-		<rom name="doubled-s1.bin" size="131072" crc="2882cffd"/>
-		<rom name="doubled-c1.bin" size="16777216" crc="db1d77da"/>
-		<rom name="doubled-c2.bin" size="16777216" crc="340f0428"/>
-		<rom name="doubled-m1.bin" size="65536" crc="d20925ae"/>
-		<rom name="doubled-v1.bin" size="8388608" crc="197b6305"/>
-		<rom name="doubled-v2.bin" size="8388608" crc="8135d5a8"/>
+		<manufacturer>OzzyOuzo</manufacturer>
+		<rom name="doubled-p1.bin" size="1048576" crc="0dd47ea6"/>
+		<rom name="doubled-p2.bin" size="4194304" crc="719b98e6"/>
+		<rom name="doubled-s1.bin" size="131072" crc="bbb20072"/>
+		<rom name="doubled-c1.bin" size="16777216" crc="d4c50841"/>
+		<rom name="doubled-c2.bin" size="16777216" crc="728eb8ae"/>
+		<rom name="doubled-m1.bin" size="65536" crc="128a9f84"/>
+		<rom name="doubled-v1.bin" size="8388608" crc="5018b7a9"/>
+		<rom name="doubled-v2.bin" size="8388608" crc="f5c8192f"/>
 		<rom name="sp-s3.sp1" merge="sp-s3.sp1" size="131072" crc="91b64be3"/>
 		<rom name="sp-s2.sp1" merge="sp-s2.sp1" size="131072" crc="9036d879"/>
 		<rom name="sp-s.sp1" merge="sp-s.sp1" size="131072" crc="c7f2fa45"/>
@@ -29815,19 +29815,19 @@
 	<game name="kof99sk" cloneof="kof99" romof="kof99" sourcefile="neogeo/d_neogeo.cpp">
 		<comment>Hack</comment>
 		<description>The King of Fighters '99 - Millennium Battle (LC+SK, Hack)</description>
-		<year>2024</year>
-		<manufacturer>hack</manufacturer>
-		<rom name="152-p1sk.p1" size="1048576" crc="aeb43955"/>
-		<rom name="152-p2sk.sp2" size="4194304" crc="4ccdb015"/>
+		<year>2025</year>
+		<manufacturer>LIY</manufacturer>
+		<rom name="152-p1sk.p1" size="1048576" crc="ccfb323c"/>
+		<rom name="152-p2sk.sp2" size="4194304" crc="d322fb59"/>
 		<rom name="251-s1d.s1" size="131072" crc="1b0133fe"/>
-		<rom name="proto_251-c1.c1" size="8388608" crc="e5d8ffa4"/>
-		<rom name="proto_251-c2.c2" size="8388608" crc="d822778f"/>
-		<rom name="proto_251-c3.c3" size="8388608" crc="f20959e8"/>
-		<rom name="proto_251-c4.c4" size="8388608" crc="54ffbe9f"/>
-		<rom name="proto_251-c5.c5" size="8388608" crc="d87a3bbc"/>
-		<rom name="proto_251-c6.c6" size="8388608" crc="4d40a691"/>
-		<rom name="proto_251-c7.c7" size="8388608" crc="a4479a58"/>
-		<rom name="proto_251-c8.c8" size="8388608" crc="ead513ce"/>
+		<rom name="251-c1d.c1" size="8388608" crc="b3d88546"/>
+		<rom name="251-c2d.c2" size="8388608" crc="915c8634"/>
+		<rom name="251-c3d.c3" size="8388608" crc="b047c9d5"/>
+		<rom name="251-c4d.c4" size="8388608" crc="6bc8e4b1"/>
+		<rom name="251-c5d.c5" size="8388608" crc="9746268c"/>
+		<rom name="251-c6d.c6" size="8388608" crc="238b3e71"/>
+		<rom name="251-c7d.c7" size="8388608" crc="2f68fdeb"/>
+		<rom name="251-c8d.c8" size="8388608" crc="4c2fad1e"/>
 		<rom name="251-m1.m1" merge="251-m1.m1" size="131072" crc="5e74539c"/>
 		<rom name="251-v1.v1" merge="251-v1.v1" size="4194304" crc="ef2eecc8"/>
 		<rom name="251-v2.v2" merge="251-v2.v2" size="4194304" crc="73e211ca"/>

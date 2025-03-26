@@ -16,7 +16,7 @@
 		<description>12 in 1 (Pirate)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="12-in-1 (unl).bin" size="2097152" crc="a98bf454"/>
+		<rom name="12-in-1 (Unl)(199x).bin" size="2097152" crc="a98bf454"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -24,7 +24,7 @@
 		<description>13 Ma Jiang - 98 Mei Shao Nu Pian (China) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>BBD</manufacturer>
-		<rom name="13 mahjong 98 (unl).bin" size="655360" crc="68b372f6"/>
+		<rom name="13 Ma Jiang - 98 Mei Shao Nu Pian (China)(Unl)(1998)(BBD).bin" size="655360" crc="68b372f6"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -48,7 +48,7 @@
 		<description>16 Zhang Ma Jiang (China) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="16 zhang ma jiang (chi) (unl).bin" size="1048576" crc="36407c82"/>
+		<rom name="16 Zhang Ma Jiang (China)(Unl)(199x).bin" size="1048576" crc="36407c82"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -56,7 +56,7 @@
 		<description>16 Zhang Mahjong II (Taiwan) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="16 Zhang Mahjong II (Taiwan) (Unl).md" size="1048576" crc="b4f4249f"/>
+		<rom name="16 Zhang Mahjong II (Taiwan)(Unl)(199x).bin" size="1048576" crc="b4f4249f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -140,7 +140,7 @@
 		<description>4 in 1 (Pirate)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="4-in-1 (pirate).bin" size="2097152" crc="be72857b"/>
+		<rom name="4-in-1 (Pirate)(199x).bin" size="2097152" crc="be72857b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -157,22 +157,6 @@
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="688 Attack Sub (Euro, USA)(1991)(Sega).bin" size="1048576" crc="f2c58bf7"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bugslife" sourcefile="megadrive/d_megadrive.cpp">
-		<description>A Bug's Life (Taiwan) (Unl)</description>
-		<year>1999</year>
-		<manufacturer>X Boy</manufacturer>
-		<rom name="bug's life, a (unl).bin" size="1048576" crc="10458e09"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bugslifea" cloneof="bugslife" romof="bugslife" sourcefile="megadrive/d_megadrive.cpp">
-		<description>A Bug's Life (Taiwan, Alt?) (Unl)</description>
-		<year>1999</year>
-		<manufacturer>X Boy</manufacturer>
-		<rom name="bug's life (unl).bin" size="1048576" crc="ed1c1a67"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -472,7 +456,7 @@
 		<description>Adventurous Boy - Mao Xian Xiao Zi (China) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="adventurous boy - mao xian xiao zi (chi) (unl).bin" size="524288" crc="d4403913"/>
+		<rom name="Adventurous Boy - Mao Xian Xiao Zi (China)(Unl)(1998)(Gamtec).bin" size="524288" crc="d4403913"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -652,10 +636,10 @@
 	</game>
 	<game name="aladdin2" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
-		<description>Aladdin II (Unl)</description>
+		<description>Aladdin II (Taiwan) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="aladdin ii (unl).bin" size="2097152" crc="be5f9397"/>
+		<rom name="Aladdin II (Taiwan)(Unl)(1998)(X Boy).bin" size="2097152" crc="be5f9397"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -992,8 +976,8 @@
 	<game name="aqrenk" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Aq Renkan Awa (China) (Unl)</description>
 		<year>1995</year>
-		<manufacturer>C&amp;E</manufacturer>
-		<rom name="aq renkan awa (chi) (unl).bin" size="1048576" crc="2c6cbd77"/>
+		<manufacturer>C&amp;E Inc.</manufacturer>
+		<rom name="Aq Renkan Awa (China)(Unl)(1995)(C&amp;E Inc.).bin" size="1048576" crc="2c6cbd77"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1188,7 +1172,7 @@
 		<description>Assassins Creed (Russia) (Unl)</description>
 		<year>20??</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="assassins creed (unl).bin" size="1048576" crc="3f2d6ccc"/>
+		<rom name="Assassins Creed (Russia)(Unl)(20xx).bin" size="1048576" crc="3f2d6ccc"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1402,7 +1386,7 @@
 		<description>Avatar (Russia) (Unl)</description>
 		<year>201?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="avatar.bin" size="1114112" crc="d33e0ada"/>
+		<rom name="Avatar (Russia)(Unl)(201x).bin" size="1114112" crc="d33e0ada"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1623,7 +1607,7 @@
 		<description>Bao Xiao San Guo (Taiwan) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>C&amp;E Inc.</manufacturer>
-		<rom name="Bao Xiao San Guo.md" size="1048576" crc="496eb1d1"/>
+		<rom name="Bao Xiao San Guo (Taiwan)(Unl)(199x)(C&amp;E Inc.).bin" size="1048576" crc="496eb1d1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1956,7 +1940,7 @@
 		<description>Battle of Red Cliffs, The - Romance of the Three Kingdoms (Taiwan) (Unl) (Hacked out Protection)</description>
 		<year>1997</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="the battle of red cliffs (unl).bin" size="2097152" crc="63eca090"/>
+		<rom name="Battle of Red Cliffs, The - Romance of the Three Kingdoms (Taiwan, Alt)(Unl)(1997)(Gamtec).bin" size="2097152" crc="63eca090"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1964,7 +1948,7 @@
 		<description>Battle of Red Cliffs, The - Romance of the Three Kingdoms (Taiwan) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="the battle of red cliffs - romance of the three kingdoms (unl).bin" size="2097157" crc="44463492"/>
+		<rom name="Battle of Red Cliffs, The - Romance of the Three Kingdoms (Taiwan)(Unl)(1997)(Gamtec).bin" size="2097157" crc="44463492"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2124,7 +2108,7 @@
 		<description>Ben 10 (Russia) (Unl)</description>
 		<year>20??</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="ben 10 (unl)[rus].bin" size="1048576" crc="c8be0b26"/>
+		<rom name="Ben 10 (Russia)(Unl)(20xx).bin" size="1048576" crc="c8be0b26"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2841,7 +2825,7 @@
 		<description>Brave Battle Saga - Legend of the Magic Warrior (Hack, English)</description>
 		<year>2010</year>
 		<manufacturer>Djinn</manufacturer>
-		<rom name="Barver Battle Saga - Tai Kong Zhan Shi (Hack, English)(2010)(Djinn).bin" size="2097152" crc="34e5445f"/>
+		<rom name="Barver Battle Saga - Tai Kong Zhan Shi T-Eng (2010)(Djinn).bin" size="2097152" crc="34e5445f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3032,6 +3016,22 @@
 		<year>2015</year>
 		<manufacturer>The AfroMonkeys</manufacturer>
 		<rom name="Bug Hunt (2015)(The AfroMonkeys).bin" size="393216" crc="20175de8"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="bugslife" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Bug's Life, A (Taiwan) (Unl)</description>
+		<year>1999</year>
+		<manufacturer>X Boy</manufacturer>
+		<rom name="Bug's Life, A (Taiwan)(Unl)(1999)(X Boy).bin" size="1048576" crc="10458e09"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="bugslifea" cloneof="bugslife" romof="bugslife" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Bug's Life, A (Taiwan, Alt) (Unl)</description>
+		<year>1999</year>
+		<manufacturer>X Boy</manufacturer>
+		<rom name="Bug's Life, A (Taiwan, Alt)(Unl)(1999)(X Boy)" size="1048576" crc="ed1c1a67"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3520,7 +3520,7 @@
 		<description>Chao Ji Da Fu Weng (Taiwan) (Unl)</description>
 		<year>1994</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="chao ji da fu weng (chi) (unl).bin" size="1048576" crc="2e2ea687"/>
+		<rom name="Chao Ji Da Fu Weng (Taiwan)(Unl)(1994)(Gamtec).bin" size="1048576" crc="2e2ea687"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3528,7 +3528,7 @@
 		<description>Chao Ji Mahjong Club (Taiwan) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>C&amp;E Inc.</manufacturer>
-		<rom name="Chao Ji Mahjong Club.md" size="1048576" crc="2b4b40e3"/>
+		<rom name="Chao Ji Mahjong Club (Taiwan)(Unl)(199x)(C&amp;E Inc.).bin" size="1048576" crc="2b4b40e3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3536,7 +3536,7 @@
 		<description>Chao Ji Poker (Taiwan) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="Chao Ji Poker.md" size="4194304" crc="c37e6858"/>
+		<rom name="Chao Ji Poker (Taiwan)(Unl)(199x).bin" size="4194304" crc="c37e6858"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3611,7 +3611,7 @@
 		<description>Chess (Russia) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>BSComp</manufacturer>
-		<rom name="chess (unl).bin" size="524288" crc="47380edd"/>
+		<rom name="Chess (Russia)(Unl)(1998)(BSComp).bin" size="524288" crc="47380edd"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -3619,7 +3619,7 @@
 		<description>Chess (Russia, Alt) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>BSComp</manufacturer>
-		<rom name="chess (unl) [rus].bin" size="524288" crc="a5cef7b6"/>
+		<rom name="Chess (Russia, Alt)(Unl)(1998)(BSComp).bin" size="524288" crc="a5cef7b6"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3627,7 +3627,7 @@
 		<description>Chess (Russia, v1.05) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>BSComp</manufacturer>
-		<rom name="chess (unl) [rus v1.05].bin" size="1048576" crc="10683e83"/>
+		<rom name="Chess (Russia, v1.05)(Unl)(1998)(BSComp).bin" size="1048576" crc="10683e83"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -3701,7 +3701,7 @@
 		<description>Chinese Chess (Taiwan) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="chinese chess (unl).bin" size="524288" crc="475215a0"/>
+		<rom name="Chinese Chess (Taiwan)(Unl)(199x).bin" size="524288" crc="475215a0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3710,15 +3710,16 @@
 		<description>Chinese Fighter III (China) (Unl)</description>
 		<year>1996</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="chinese fighter iii (unl).bin" size="2097152" crc="e833bc6e"/>
+		<rom name="Chinese Fighter III (China)(Unl)(1996).bin" size="2097152" crc="e833bc6e"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
 	<game name="chinf3a" cloneof="chinf3" romof="chinf3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Chinese Fighter III (China, Unprotected?)</description>
-		<year>199?</year>
+		<comment>Unprotected version</comment>
+		<description>Chinese Fighter III (China, Alt) (Unl)</description>
+		<year>1996</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="chinese fighter iii (unl, alt).bin" size="2097152" crc="6f98247d"/>
+		<rom name="Chinese Fighter III (China, Alt)(Unl)(1996).bin" size="2097152" crc="6f98247d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4148,7 +4149,7 @@
 		<description>Columns (World)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13193.bin" size="131072" crc="03163d7a"/>
+		<rom name="Columns (World)(1990)(Sega).bin" size="131072" crc="03163d7a"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4156,15 +4157,15 @@
 		<description>Columns (World, v1.1)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="columns (world) (v1.1).bin" size="131072" crc="d783c244"/>
+		<rom name="Columns (World, v1.1)(1990)(Sega).bin" size="131072" crc="d783c244"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="columns3" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Columns III - Revenge of Columns (USA)</description>
-		<year>1993</year>
+		<year>1994</year>
 		<manufacturer>Vic Tokai</manufacturer>
-		<rom name="columns iii - revenge of columns (usa).bin" size="524288" crc="dc678f6d"/>
+		<rom name="Columns III - Revenge of Columns (USA)(1994)(Vic Tokai).bin" size="524288" crc="dc678f6d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4172,7 +4173,7 @@
 		<description>Columns III - Taiketsu! Columns World (Japan, Korea)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="columns iii - taiketsu! columns world (jpn, kor).bin" size="524288" crc="cd07462f"/>
+		<rom name="Columns III - Taiketsu! Columns World (Japan, Korea)(1993)(Sega).bin" size="524288" crc="cd07462f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4181,7 +4182,7 @@
 		<description>Combat Aces (Prototype)</description>
 		<year>199?</year>
 		<manufacturer>Chuck Peavey</manufacturer>
-		<rom name="combat aces (beta).bin" size="524288" crc="84560d5a"/>
+		<rom name="Combat Aces (Proto)(199x)(Chuck Peavey).bin" size="524288" crc="84560d5a"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4189,7 +4190,7 @@
 		<description>Combat Cars (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Accolade</manufacturer>
-		<rom name="combat cars (euro, usa).bin" size="1048576" crc="e439b101"/>
+		<rom name="Combat Cars (Euro, USA)(1994)(Accolade).bin" size="1048576" crc="e439b101"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4198,7 +4199,7 @@
 		<description>Combat Cars (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="combat cars (hack, spanish).bin" size="1048576" crc="ea3af06f"/>
+		<rom name="Combat Cars T-Spa (2019)(Wave).bin" size="1048576" crc="ea3af06f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4206,7 +4207,7 @@
 		<description>Comix Zone (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18301.bin" size="2097152" crc="1318e923"/>
+		<rom name="Comix Zone (Euro)(1995)(Sega).bin" size="2097152" crc="1318e923"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4215,7 +4216,7 @@
 		<description>Comix Zone (Euro, Prototype, 19950628)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (euro) (prototype - jun 28, 1995).bin" size="2097152" crc="939efd4c"/>
+		<rom name="Comix Zone (Euro, Proto, 19950628)(Sega).bin" size="2097152" crc="939efd4c"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4224,7 +4225,7 @@
 		<description>Comix Zone (Euro, Prototype, 19950712)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jul 12, 1995).bin" size="2097152" crc="e28c89c1"/>
+		<rom name="Comix Zone (Euro, Proto, 19950712)(Sega).bin" size="2097152" crc="e28c89c1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4233,7 +4234,7 @@
 		<description>Comix Zone (Hack, Italian)</description>
 		<year>2002</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="comix zone (italian translation).bin" size="2097152" crc="f2bba578"/>
+		<rom name="Comix Zone T-Ita (2002).bin" size="2097152" crc="f2bba578"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4242,7 +4243,7 @@
 		<description>Comix Zone (Hack, Spanish)</description>
 		<year>2014</year>
 		<manufacturer>Kale</manufacturer>
-		<rom name="comix zone (hack, spanish).bin" size="2097152" crc="9acaffc5"/>
+		<rom name="Comix Zone T-Spa (2014)(Kale).bin" size="2097152" crc="9acaffc5"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4250,7 +4251,7 @@
 		<description>Comix Zone (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (jpn).bin" size="2097152" crc="7a6027b8"/>
+		<rom name="Comix Zone (Japan)(1995)(Sega).bin" size="2097152" crc="7a6027b8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4259,7 +4260,7 @@
 		<description>Comix Zone (Korea, Prototype, 19950609)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (kor) (prototype - jun 09, 1995).bin" size="2097152" crc="e45a15f4"/>
+		<rom name="Comix Zone (Korea, Proto, 19950609)(Sega).bin" size="2097152" crc="e45a15f4"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4268,7 +4269,7 @@
 		<description>Comix Zone (Prototype, 19950526)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - may 26, 1995).bin" size="2097152" crc="36029a1f"/>
+		<rom name="Comix Zone (Proto, 19950526)(Sega).bin" size="2097152" crc="36029a1f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4277,7 +4278,7 @@
 		<description>Comix Zone (Prototype, 19950530)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - may 30, 1995).bin" size="2097152" crc="a72eca2c"/>
+		<rom name="Comix Zone (Proto, 19950530)(Sega).bin" size="2097152" crc="a72eca2c"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4286,7 +4287,7 @@
 		<description>Comix Zone (Sega Channel, Prototype, 19950612)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (sega channel) (prototype - jun 12, 1995).bin" size="2097152" crc="c77db9e1"/>
+		<rom name="Comix Zone (Sega Channel, Proto, 19950612)(Sega).bin" size="2097152" crc="c77db9e1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4294,7 +4295,7 @@
 		<description>Comix Zone (USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (usa).bin" size="2097152" crc="17da0354"/>
+		<rom name="Comix Zone (USA)(1995)(Sega).bin" size="2097152" crc="17da0354"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4303,7 +4304,7 @@
 		<description>Comix Zone (USA, Prototype)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (usa) (beta).bin" size="2097152" crc="2efcb6ee"/>
+		<rom name="Comix Zone (USA, Proto)(1995)(Sega).bin" size="2097152" crc="2efcb6ee"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4312,7 +4313,7 @@
 		<description>Comix Zone (USA, Prototype, 19950601)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 01, 1995).bin" size="2097152" crc="ba506835"/>
+		<rom name="Comix Zone (USA, Proto, 19950601)(Sega).bin" size="2097152" crc="ba506835"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4321,7 +4322,7 @@
 		<description>Comix Zone (USA, Prototype, 19950601-B)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 01, 1995 - b).bin" size="2097152" crc="bbe03cb6"/>
+		<rom name="Comix Zone (USA, Proto, 19950601-B)(Sega).bin" size="2097152" crc="bbe03cb6"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4330,7 +4331,7 @@
 		<description>Comix Zone (USA, Prototype, 19950601-C)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 01, 1995 - c).bin" size="2097152" crc="413b9a94"/>
+		<rom name="Comix Zone (USA, Proto, 19950601-C)(Sega).bin" size="2097152" crc="413b9a94"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4339,7 +4340,7 @@
 		<description>Comix Zone (USA, Prototype, 19950601-D)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 01, 1995 - d).bin" size="2097152" crc="9ae93c9d"/>
+		<rom name="Comix Zone (USA, Proto, 19950601-D)(Sega).bin" size="2097152" crc="9ae93c9d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4348,7 +4349,7 @@
 		<description>Comix Zone (USA, Prototype, 19950602)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 02, 1995).bin" size="2097152" crc="1a4abcf3"/>
+		<rom name="Comix Zone (USA, Proto, 19950602)(Sega).bin" size="2097152" crc="1a4abcf3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4357,7 +4358,7 @@
 		<description>Comix Zone (USA, Prototype, 19950602-B)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 02, 1995 - b).bin" size="2097152" crc="b5f0dae5"/>
+		<rom name="Comix Zone (USA, Proto, 19950602-B)(Sega).bin" size="2097152" crc="b5f0dae5"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4366,7 +4367,7 @@
 		<description>Comix Zone (USA, Prototype, 19950603)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="comix zone (prototype - jun 03, 1995).bin" size="2097152" crc="aff32614"/>
+		<rom name="Comix Zone (USA, Proto, 19950603)(Sega).bin" size="2097152" crc="aff32614"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4383,7 +4384,7 @@
 		<description>Commandos (Russia) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>Glorysun</manufacturer>
-		<rom name="commandos.bin" size="2097152" crc="28a88d6f"/>
+		<rom name="Commandos (Russia)(Unl)(200x)(Glorysun).bin" size="2097152" crc="28a88d6f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4392,30 +4393,39 @@
 		<description>Congo (Prototype)</description>
 		<year>199?</year>
 		<manufacturer>Visual Concepts</manufacturer>
-		<rom name="congo (unknown) (prototype).bin" size="1015094" crc="13746716"/>
+		<rom name="Congo (Proto)(199x)(Visual Concepts).bin" size="1015094" crc="13746716"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="contras" cloneof="contra" romof="contra" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
-		<description>Contra - Hard Corps (Hack, Spanish)</description>
+		<description>Contra: Hard Corps (Hack, Spanish)</description>
 		<year>2013</year>
 		<manufacturer>pepodmc</manufacturer>
-		<rom name="contra - hard corps (hack, spanish).bin" size="2097152" crc="d421f78d"/>
+		<rom name="Contra - Hard Corps T-Spa (2013)(pepodmc).bin" size="2097152" crc="d421f78d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="contra" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Contra - Hard Corps (USA, Korea)</description>
+		<description>Contra: Hard Corps (USA, Korea)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="Contra - Hard Corps (USA, Korea)(1994)(Konami).bin" size="2097152" crc="c579f45e"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="contrarest" cloneof="contra" romof="contra" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>Contra: Hard Corps - Fang Sprite Fix + Hit Points Restoration (Hack)</description>
+		<year>2024</year>
+		<manufacturer>MKZ</manufacturer>
+		<rom name="Contra - Hard Corps - Fang Sprite Fix + Hit Points Restoration (2024)(MKZ).bin" size="2097152" crc="80cf1b2b"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="contrainv" cloneof="contra" romof="contra" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
-		<description>Contra - Hard Corps Invasion (Hack v3.3)</description>
+		<description>Contra: Hard Corps Invasion (Hack v3.3)</description>
 		<year>2020</year>
 		<manufacturer>IT.GAMER</manufacturer>
 		<rom name="Contra - Hard Corps Invasion v3.3 (2020)(IT.GAMER).bin" size="4194304" crc="e1735c02"/>
@@ -4423,7 +4433,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="contraj" cloneof="contra" romof="contra" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Contra - The Hard Corps (Japan)</description>
+		<description>Contra: The Hard Corps (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="Contra - The Hard Corps (Japan)(1994)(Konami).bin" size="2097152" crc="2ab26380"/>
@@ -4434,7 +4444,7 @@
 		<description>Cool Spot (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="mpr-15477.bin" size="1048576" crc="5f09fa41"/>
+		<rom name="Cool Spot (Euro)(1994)(Virgin Games).bin" size="1048576" crc="5f09fa41"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4443,7 +4453,7 @@
 		<description>Cool Spot (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="cool spot (hack, spanish).bin" size="1048576" crc="40a18f52"/>
+		<rom name="Cool Spot T-Spa (2019)(Wave).bin" size="1048576" crc="40a18f52"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4451,7 +4461,7 @@
 		<description>Cool Spot (Japan, Korea)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="cool spot (jpn, kor).bin" size="1048576" crc="e869efb1"/>
+		<rom name="Cool Spot (Japan, Korea)(1994)(Virgin Games).bin" size="1048576" crc="e869efb1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4459,7 +4469,7 @@
 		<description>Cool Spot (USA)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="cool spot (usa).bin" size="1048576" crc="f024c1a1"/>
+		<rom name="Cool Spot (USA)(1994)(Virgin Games).bin" size="1048576" crc="f024c1a1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4468,7 +4478,7 @@
 		<description>Cool Spot (USA, Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="cool spot (usa) (beta).bin" size="1048576" crc="0ebaa4a8"/>
+		<rom name="Cool Spot (USA, Proto)(1994)(Virgin Games).bin" size="1048576" crc="0ebaa4a8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4476,7 +4486,7 @@
 		<description>Corporation (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="mpr-15065.bin" size="1048576" crc="a80d18aa"/>
+		<rom name="Corporation (Euro)(1992)(Virgin Games).bin" size="1048576" crc="a80d18aa"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4484,7 +4494,7 @@
 		<description>Cosmic Spacehead (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="cosmic spacehead (euro, usa).bin" size="1048576" crc="c593d31c"/>
+		<rom name="Cosmic Spacehead (Euro, USA)(1993)(Codemasters).bin" size="1048576" crc="c593d31c"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4493,7 +4503,7 @@
 		<description>Counter Strike (Russia) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>Glorysun</manufacturer>
-		<rom name="counter strike.bin" size="2097152" crc="9e7b83ba"/>
+		<rom name="Counter Strike (Russia)(Unl)(200x)(Glorysun).bin" size="2097152" crc="9e7b83ba"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4501,7 +4511,7 @@
 		<description>Crack Down (Euro, Japan)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="crack down (euro, jpn).bin" size="524288" crc="538aaa5d"/>
+		<rom name="Crack Down (Euro, Japan)(1990)(Sega).bin" size="524288" crc="538aaa5d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4509,15 +4519,15 @@
 		<description>Crack Down (Euro, Japan, Rev. A)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13578a.bin" size="524288" crc="d012a47a"/>
+		<rom name="Crack Down (Euro, Japan, Rev. A)(1990)(Sega).bin" size="524288" crc="d012a47a"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="crkdownu" cloneof="crkdown" romof="crkdown" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Crack Down (USA)</description>
-		<year>1991</year>
+		<year>1990</year>
 		<manufacturer>Sage's Creation</manufacturer>
-		<rom name="crack down (usa).bin" size="524288" crc="b9ce9051"/>
+		<rom name="Crack Down (USA)(1990)(Sage's Creation).bin" size="524288" crc="b9ce9051"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4526,7 +4536,7 @@
 		<description>Crash Bandicoot (Russia) (Unl)</description>
 		<year>2008</year>
 		<manufacturer>BMB</manufacturer>
-		<rom name="crash bandicoot.bin" size="4194304" crc="e06bd944"/>
+		<rom name="Crash Bandicoot (Russia)(Unl)(2008)(BMB).bin" size="4194304" crc="e06bd944"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4534,7 +4544,7 @@
 		<description>Crayon Shin-chan - Arashi o Yobu Enji (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Ma-Ba</manufacturer>
-		<rom name="crayon shin-chan - arashi o yobu enji (jpn).bin" size="2097152" crc="97fc42d2"/>
+		<rom name="Crayon Shin-chan - Arashi o Yobu Enji (Japan)(1994)(Ma-Ba).bin" size="2097152" crc="97fc42d2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4561,7 +4571,7 @@
 		<description>Cross Fire (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="cross fire (hack, spanish).bin" size="524288" crc="628b2c53"/>
+		<rom name="Cross Fire T-Spa (2019)(Wave).bin" size="524288" crc="628b2c53"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4569,7 +4579,7 @@
 		<description>Cross Fire (USA)</description>
 		<year>1991</year>
 		<manufacturer>Kyugo Boueki</manufacturer>
-		<rom name="cross fire (usa).bin" size="524288" crc="cc73f3a9"/>
+		<rom name="Cross Fire (USA)(1991)(Kyugo Boueki).bin" size="524288" crc="cc73f3a9"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4585,7 +4595,7 @@
 		<description>Crue Ball (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="crue06.bin" size="524288" crc="4b195fc0"/>
+		<rom name="Crue Ball (Euro, USA)(1992)(Electronic Arts).bin" size="524288" crc="4b195fc0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4593,7 +4603,7 @@
 		<description>Crue Ball (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Electronic Arts Victor</manufacturer>
-		<rom name="crue ball (jpn).bin" size="524288" crc="514c53e2"/>
+		<rom name="Crue Ball (Japan)(1992)(Electronic Arts Victor).bin" size="524288" crc="514c53e2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4855,7 +4865,7 @@
 		<description>Cyber-Cop (USA)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="cyber-cop (usa).bin" size="1048576" crc="01e719c8"/>
+		<rom name="Cyber-Cop (USA)(1992)(Virgin Games).bin" size="1048576" crc="01e719c8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5175,7 +5185,7 @@
 		<description>Death Caliber (Russia) (Unl)</description>
 		<year>2002</year>
 		<manufacturer>Glorysun</manufacturer>
-		<rom name="death caliber.bin" size="4194304" crc="3cd2c797"/>
+		<rom name="Death Caliber (Russia)(Unl)(2002)(Glorysun).bin" size="4194304" crc="3cd2c797"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5244,7 +5254,7 @@
 		<description>Deer Hunter (Russia) (Unl)</description>
 		<year>2002</year>
 		<manufacturer>Glorysun</manufacturer>
-		<rom name="deer hunter.bin" size="1048576" crc="da11978b"/>
+		<rom name="Deer Hunter (Russia)(Unl)(2002)(Glorysun).bin" size="1048576" crc="da11978b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5498,7 +5508,7 @@
 		<description>Diablo (Russia) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="diablo.bin" size="1048576" crc="bd642da0"/>
+		<rom name="Diablo (Russia)(Unl)(200x).bin" size="1048576" crc="bd642da0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5814,7 +5824,7 @@
 		<description>Domino (Russia) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="domino (unl).bin" size="1048576" crc="a64409be"/>
+		<rom name="Domino (Russia)(Unl)(199x).bin" size="1048576" crc="a64409be"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6059,7 +6069,7 @@
 		<description>Dragon Ball - Final Bout (Unl)</description>
 		<year>1998</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="Dragon Ball - Final Bout.md" size="2097152" crc="63847005"/>
+		<rom name="Dragon Ball - Final Bout (Unl)(1998).bin" size="2097152" crc="63847005"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -11792,8 +11802,8 @@
 		<comment>Network Tool</comment>
 		<description>Mega Anser (Japan)</description>
 		<year>1989</year>
-		<manufacturer>SEGA</manufacturer>
-		<rom name="mega anser (jpn).bin" size="524288" crc="08ece367"/>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Mega Anser (Japan)(1989)(Sega).bin" size="524288" crc="08ece367"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -12141,7 +12151,7 @@
 		<description>MegaNet (Brazil)</description>
 		<year>1995</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="meganet (bra).bin" size="262144" crc="fab33cc2"/>
+		<rom name="MegaNet (Brazil)(1995)(Tec Toy).bin" size="262144" crc="fab33cc2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -15965,7 +15975,7 @@
 		<description>Probotector (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="probotector (hack, spanish).bin" size="2097152" crc="47abdaa3"/>
+		<rom name="Probotector T-Spa (2017)(Wave).bin" size="2097152" crc="47abdaa3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17682,26 +17692,29 @@
 		<driver status="good"/>
 	</game>
 	<game name="segachnla" cloneof="segachnl" romof="segachnl" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Network Tool</comment>
 		<description>Sega Channel (General Instrument) (USA)</description>
 		<year>199?</year>
 		<manufacturer>Scientific Atlanta</manufacturer>
-		<rom name="sega channel (general instruments) (usa).bin" size="524288" crc="5df93f11"/>
+		<rom name="Sega Channel - General Instrument (USA)(199x)(Scientific Atlanta).bin" size="524288" crc="5df93f11"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
 	<game name="segachnl" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Network Tool</comment>
 		<description>Sega Channel (Scientific Atlanta) (USA)</description>
 		<year>199?</year>
 		<manufacturer>Scientific Atlanta</manufacturer>
-		<rom name="sega channel (usa).bin" size="262144" crc="bc79b6ed"/>
+		<rom name="Sega Channel - Scientific Atlanta (USA)(199x)(Scientific Atlanta).bin" size="262144" crc="bc79b6ed"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="segachd" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Network Tool</comment>
 		<description>Sega Channel Demo (USA)</description>
 		<year>199?</year>
 		<manufacturer>Scientific Atlanta</manufacturer>
-		<rom name="sega channel demo (usa).bin" size="524288" crc="2abae889"/>
+		<rom name="Sega Channel - Demo (USA)(199x)(Scientific Atlanta).bin" size="524288" crc="2abae889"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -20470,6 +20483,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="sor2sshiva" cloneof="sor2" romof="sor2" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>Streets of Rage 2 - Super Shiva Patch (Hack, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>Mega the Animator &amp; Gamer 421</manufacturer>
+		<rom name="Streets of Rage 2 - Super Shiva Patch v1.1 (2024)(Gamer 421).bin" size="2386772" crc="cfd3bc17"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="sor2tmnt" cloneof="sor2" romof="sor2" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
 		<description>Streets of Rage 2 - Teenage Mutant Ninja Turtles (Hack)</description>
@@ -20898,7 +20920,7 @@
 		<description>Super Airwolf (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Kyugo Boueki</manufacturer>
-		<rom name="mpr-13814.bin" size="524288" crc="fa451982"/>
+		<rom name="Super Airwolf (Japan)(1991)(Kyugo Boueki).bin" size="524288" crc="fa451982"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22313,6 +22335,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="threestooges" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew, The original Cinemaware's Three Stooges on MD (conversion)</comment>
+		<description>Three Stooges, The (HB, v1.02)</description>
+		<year>2025</year>
+		<manufacturer>fabiof17</manufacturer>
+		<rom name="Three Stooges, The v1.02 (2025)(fabiof17).bin" size="3407872" crc="7bb29ea9"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="tf2" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Thunder Force II (Euro, USA)</description>
 		<year>1989</year>
@@ -23470,6 +23501,15 @@
 		<year>1991</year>
 		<manufacturer>Palsoft</manufacturer>
 		<rom name="Undead Line (Japan)(1991)(Palsoft).bin" size="1048576" crc="fb3ca1e6"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="underground" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew</comment>
+		<description>Under-Ground (HB, v0.6)</description>
+		<year>2023</year>
+		<manufacturer>SpacePants Games</manufacturer>
+		<rom name="Under-Ground v0.6 (2023)(SpacePants Games).bin" size="4194304" crc="621098f0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -25952,7 +25992,7 @@
 		<description>Zombies (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="zombies (euro).bin" size="1048576" crc="179a1aa2"/>
+		<rom name="Zombies (Euro)(1993)(Konami).bin" size="1048576" crc="179a1aa2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -25960,7 +26000,7 @@
 		<description>Zombies Ate My Neighbors (USA)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="zombies ate my neighbors (usa).bin" size="1048576" crc="2bf3626f"/>
+		<rom name="Zombies Ate My Neighbors (USA)(1994)(Konami).bin" size="1048576" crc="2bf3626f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -25969,15 +26009,7 @@
 		<description>Zombies Ate My Neighbors - Wide Mode (Hack)</description>
 		<year>2023</year>
 		<manufacturer>paul_met</manufacturer>
-		<rom name="Zombies Ate My Neighbors Wide Mode Hack (2023)(paul_met).bin" size="1048576" crc="b05c5e95"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="zool" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Zool (Euro)</description>
-		<year>1993</year>
-		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="zool04.bin" size="1048576" crc="1ee58b03"/>
+		<rom name="Zombies Ate My Neighbors - Wide Mode Hack (2023)(paul_met).bin" size="1048576" crc="b05c5e95"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -25990,11 +26022,19 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="zool" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Zool: Ninja of the Nth Dimension (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Electronic Arts</manufacturer>
+		<rom name="Zool - Ninja of the Nth Dimension (Euro)(1993)(Electronic Arts).bin" size="1048576" crc="1ee58b03"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="zoolu" cloneof="zool" romof="zool" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Zool (USA)</description>
+		<description>Zool: Ninja of the Nth Dimension (USA)</description>
 		<year>1993</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="zool - ninja of the 'nth' dimension (usa).bin" size="1048576" crc="cb2939f1"/>
+		<rom name="Zool - Ninja of the Nth Dimension (USA)(1993)(GameTek).bin" size="1048576" crc="cb2939f1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -26019,7 +26059,7 @@
 		<description>Zoop (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="mpr-18564.bin" size="524288" crc="2fdac6ab"/>
+		<rom name="Zoop (Euro)(1995)(Viacom).bin" size="524288" crc="2fdac6ab"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -26027,7 +26067,7 @@
 		<description>Zoop (USA)</description>
 		<year>1995</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="zoop (usa).bin" size="524288" crc="a899befa"/>
+		<rom name="Zoop (USA)(1995)(Viacom).bin" size="524288" crc="a899befa"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
