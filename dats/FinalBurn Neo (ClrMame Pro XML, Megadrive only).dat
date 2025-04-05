@@ -2437,29 +2437,20 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="sailormne" cloneof="sailormn" romof="sailormn" sourcefile="megadrive/d_megadrive.cpp">
-		<comment>Hack</comment>
-		<description>Bishoujo Senshi Sailor Moon (Hack, English)</description>
-		<year>2018</year>
-		<manufacturer>Supper</manufacturer>
-		<rom name="bishoujo senshi sailor moon (english translation).md" size="4194304" crc="48778add"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="sailormn" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Bishoujo Senshi Sailor Moon (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Ma-Ba</manufacturer>
-		<rom name="bishoujo senshi sailor moon (jpn).bin" size="2097152" crc="5e246938"/>
+		<rom name="Bishoujo Senshi Sailor Moon (Japan)(1994)(Ma-Ba).bin" size="2097152" crc="5e246938"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="bssf2gq" cloneof="ssf2" romof="ssf2" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack, NB: also applied 'NoPause' patch.</comment>
-		<description>Bishoujo Super Street Fighter II: Glamor Queen (Hack, v2.1B)</description>
+		<description>Bishoujo Super Street Fighter II: Glamor Queen (Hack, v2.3)</description>
 		<year>2025</year>
 		<manufacturer>Yoni Arousement</manufacturer>
-		<rom name="Bishoujo Super Street Fighter II - Glamor Queen v2.1B (2025)(Yoni Arousement).bin" size="5242880" crc="344f0b43"/>
+		<rom name="Bishoujo Super Street Fighter II - Glamor Queen v2.3 (2025)(Yoni Arousement).bin" size="5242880" crc="4af99b83"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4989,8 +4980,8 @@
 	<game name="darius2" cloneof="sagaia" romof="sagaia" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Darius II (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="darius ii (jpn).bin" size="1048576" crc="25dfe62a"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Darius II (Japan)(1990)(Taito).bin" size="1048576" crc="25dfe62a"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6427,10 +6418,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="earthdef" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Earth Defense, The (USA)</description>
+		<description>Earth Defense, The (USA, Taiwan) (Unl)</description>
 		<year>1995</year>
 		<manufacturer>Realtec</manufacturer>
-		<rom name="earth defense (usa) (unl).bin" size="524288" crc="3519c422"/>
+		<rom name="Earth Defense, The (USA, Taiwan)(Unl)(1995)(Realtec).bin" size="524288" crc="3519c422"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6974,7 +6965,7 @@
 		<description>Europa Sensen (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Koei</manufacturer>
-		<rom name="europa sensen (jpn).bin" size="1048576" crc="b0416c60"/>
+		<rom name="Europa Sensen (Japan)(1993)(Koei).bin" size="1048576" crc="b0416c60"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8419,10 +8410,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="golden10" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Golden 10 in 1 (Incomplete Dump)</description>
+		<description>Golden 10 in 1 (Incomplete Dump) (Unl)</description>
 		<year>199?</year>
-		<manufacturer>&lt;unlicensed&gt;</manufacturer>
-		<rom name="golden 10-in-1 (bad dump).bin" size="1048576" crc="4fa3f82b"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Golden 10-in-1 (Bad Dump)(Unl)(199x).bin" size="1048576" crc="4fa3f82b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -8914,16 +8905,16 @@
 		<description>Harry Potter (Russia) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="harry potter.bin" size="2097152" crc="a184fc76"/>
+		<rom name="Harry Potter (Russia)(Unl)(200x).bin" size="2097152" crc="a184fc76"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="hpotter2" cloneof="mickmack" romof="mickmack" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
 		<description>Harry Potter and the Chamber of Secrets (Russia) (Unl)</description>
-		<year>199?</year>
+		<year>200?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="harry potter 2.bin" size="1048576" crc="1684479f"/>
+		<rom name="Harry Potter and the Chamber of Secrets (Russia)(Unl)(200x).bin" size="1048576" crc="1684479f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9046,10 +9037,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="herculs2" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Hercules 2 (China) (Unl)</description>
+		<description>Hercules 2 (Taiwan) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="hercules 2 (unl).bin" size="2097152" crc="292623db"/>
+		<rom name="Hercules 2 (Taiwan)(Unl)(1999)(X Boy).bin" size="2097152" crc="292623db"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9164,7 +9155,7 @@
 		<description>Hua Mu Lan - Mulan (Taiwan) (Unl)</description>
 		<year>2000</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="hua mu lan - mulan (chi) (unl).bin" size="2097152" crc="796882b8"/>
+		<rom name="Hua Mu Lan - Mulan (Taiwan)(Unl)(2000)(X Boy).bin" size="2097152" crc="796882b8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9172,7 +9163,7 @@
 		<description>Huan Le Tao Qi Shu - Smart Mouse (China) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>Ming Super Chip</manufacturer>
-		<rom name="Huan Le Tao Qi Shu - Smart Mouse (China) (Unl)(199x)(Ming Super Chip).bin" size="524288" crc="decdf740"/>
+		<rom name="Huan Le Tao Qi Shu - Smart Mouse (China)(Unl)(199x)(Ming Super Chip).bin" size="524288" crc="decdf740"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -11074,26 +11065,26 @@
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3, The - Shi Zi Wang 3 (China) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (Taiwan) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
-		<rom name="Lion King 3, The - Shi Zi Wang 3 (China)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="c004219d"/>
+		<rom name="Lion King 3, The - Shi Zi Wang 3 (Taiwan)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="c004219d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3b" cloneof="lionkin3" romof="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3, The - Shi Zi Wang 3 (China, Alt 2) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (Taiwan, Alt 2) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
-		<rom name="Lion King 3, The - Shi Zi Wang 3 (China, Alt 2)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="8e0555e4"/>
+		<rom name="Lion King 3, The - Shi Zi Wang 3 (Taiwan, Alt 2)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="8e0555e4"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="lionkin3a" cloneof="lionkin3" romof="lionkin3" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Lion King 3, The - Shi Zi Wang 3 (China, Alt) (Unl)</description>
+		<description>Lion King 3, The - Shi Zi Wang 3 (Taiwan, Alt) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>X Boy - Gamtec</manufacturer>
-		<rom name="Lion King 3, The - Shi Zi Wang 3 (China, Alt)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="87e86943"/>
+		<rom name="Lion King 3, The - Shi Zi Wang 3 (Taiwan, Alt)(Unl)(1997)(X Boy - Gamtec).bin" size="2097152" crc="87e86943"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -12963,10 +12954,10 @@
 	</game>
 	<game name="mkaee" cloneof="mk" romof="mk" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Hack</comment>
-		<description>Mortal Kombat Arcade Edition Enhanced (Hack, v2.1)</description>
-		<year>2024</year>
+		<description>Mortal Kombat Arcade Edition Enhanced (Hack, v2.2)</description>
+		<year>2025</year>
 		<manufacturer>Rael G.C.</manufacturer>
-		<rom name="Mortal Kombat Arcade Edition Enhanced v2.1 (2024)(Rael G.C.).bin" size="4194304" crc="486979c5"/>
+		<rom name="Mortal Kombat Arcade Edition Enhanced v2.2 (2025)(Rael G.C.).bin" size="4194304" crc="e0b10bf3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14485,7 +14476,7 @@
 		<description>Olympic Gold (USA)</description>
 		<year>1992</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="olympic gold (usa).bin" size="524288" crc="339594b4"/>
+		<rom name="Olympic Gold (USA)(1992)(U.S. Gold).bin" size="524288" crc="339594b4"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14493,15 +14484,15 @@
 		<description>Olympic Gold (USA, Alt)</description>
 		<year>1992</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="olympic gold (usa) (alt).bin" size="524288" crc="af639376"/>
+		<rom name="Olympic Gold (USA, Alt)(1992)(U.S. Gold).bin" size="524288" crc="af639376"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
 	<game name="olympsum" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Olympic Summer Games (Euro, USA)</description>
 		<year>1996</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="olympic summer games (euro, usa).bin" size="2097152" crc="9e470fb9"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Olympic Summer Games (Euro, USA)(1996)(Black Pearl).bin" size="2097152" crc="9e470fb9"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14526,7 +14517,7 @@
 		<description>Onslaught (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Ballistic</manufacturer>
-		<rom name="onslaught (euro, usa).bin" size="524288" crc="9f19d6df"/>
+		<rom name="Onslaught (Euro, USA)(1991)(Ballistic).bin" size="524288" crc="9f19d6df"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14543,7 +14534,7 @@
 		<description>Ooze, The (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (euro).bin" size="1048576" crc="e16b102c"/>
+		<rom name="Ooze, The (Euro)(1995)(Sega).bin" size="1048576" crc="e16b102c"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14552,7 +14543,7 @@
 		<description>Ooze, The (Euro, Prototype, 19950728)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (euro) (prototype - jul 28, 1995).bin" size="1048576" crc="7cf868e7"/>
+		<rom name="Ooze, The (Euro, Proto, 19950728)(Sega).bin" size="1048576" crc="7cf868e7"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14560,7 +14551,7 @@
 		<description>Ooze, The (Japan, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (usa, jpn).bin" size="1048576" crc="1c0dd42f"/>
+		<rom name="Ooze, The (Japan, USA)(1995)(Sega).bin" size="1048576" crc="1c0dd42f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14569,7 +14560,7 @@
 		<description>Ooze, The (Prototype 104, 19950622)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype 104 - jun 22, 1995).bin" size="966312" crc="ce1f139f"/>
+		<rom name="Ooze, The (Proto 104, 19950622)(Sega).bin" size="966312" crc="ce1f139f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14578,7 +14569,7 @@
 		<description>Ooze, The (Prototype 112, 19950626)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype 112 - jun 26, 1995).bin" size="968048" crc="70419442"/>
+		<rom name="Ooze, The (Proto 112, 19950626)(Sega).bin" size="968048" crc="70419442"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14587,7 +14578,7 @@
 		<description>Ooze, The (Prototype, 19950615)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype - jun 15, 1995).bin" size="931278" crc="921106fd"/>
+		<rom name="Ooze, The (Proto, 19950615)(Sega).bin" size="931278" crc="921106fd"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14596,7 +14587,7 @@
 		<description>Ooze, The (Prototype, 19950619)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype - jun 19, 1995).bin" size="1048576" crc="fa39281d"/>
+		<rom name="Ooze, The (Proto, 19950619)(Sega).bin" size="1048576" crc="fa39281d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14605,7 +14596,7 @@
 		<description>Ooze, The (Prototype, 19950629)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype - jun 29, 1995).bin" size="1048576" crc="1776763b"/>
+		<rom name="Ooze, The (Proto, 19950629)(Sega).bin" size="1048576" crc="1776763b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14614,7 +14605,7 @@
 		<description>Ooze, The (Prototype, 19950629-B)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ooze, the (prototype - jun 29, 1995 - b).bin" size="975958" crc="ca93e93b"/>
+		<rom name="Ooze, The (Proto, 19950629-B)(Sega).bin" size="975958" crc="ca93e93b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14622,7 +14613,7 @@
 		<description>Operation Europe - Path to Victory 1939-45 (USA)</description>
 		<year>1994</year>
 		<manufacturer>Koei</manufacturer>
-		<rom name="operation europe - path to victory 1939-45 (usa).bin" size="1048576" crc="e7cba1d8"/>
+		<rom name="Operation Europe - Path to Victory 1939-45 (USA)(1994)(Koei).bin" size="1048576" crc="e7cba1d8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -15091,7 +15082,7 @@
 		<description>Pete Sampras Tennis '96 (Euro, J-Cart)</description>
 		<year>1995</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="sampras tennis 96 (euro) (j-cart).bin" size="2097152" crc="14e3fb7b"/>
+		<rom name="Pete Sampras Tennis '96 (Euro, J-Cart)(1995)(Codemasters).bin" size="2097152" crc="14e3fb7b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -15807,6 +15798,15 @@
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Premier Manager 97 (Euro)(1996)(Sega).bin" size="1048576" crc="fccbf69b"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sailormne" cloneof="sailormn" romof="sailormn" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Hack</comment>
+		<description>Pretty Soldier Sailor Moon (Hack, English)</description>
+		<year>2018</year>
+		<manufacturer>Supper</manufacturer>
+		<rom name="Bishoujo Senshi Sailor Moon T-Eng (2018)(Supper).bin" size="4194304" crc="48778add"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17395,7 +17395,7 @@
 		<description>Sagaia (USA)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="sagaia (usa).bin" size="1048576" crc="f1e22f43"/>
+		<rom name="Sagaia (USA)(1991)(Taito).bin" size="1048576" crc="f1e22f43"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17411,8 +17411,8 @@
 	<game name="sswordj" cloneof="ssword" romof="ssword" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Saint Sword (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="saint sword (jpn).bin" size="524288" crc="3960a00f"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Saint Sword (Japan)(1991)(Taito).bin" size="524288" crc="3960a00f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17420,7 +17420,7 @@
 		<description>Saint Sword (USA)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="saint sword (usa).bin" size="524288" crc="44f66bff"/>
+		<rom name="Saint Sword (USA)(1991)(Taito).bin" size="524288" crc="44f66bff"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17436,7 +17436,7 @@
 		<description>Samurai Shodown (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="samurai shodown (euro).bin" size="3145728" crc="c972014f"/>
+		<rom name="Samurai Shodown (Euro)(1994)(Takara).bin" size="3145728" crc="c972014f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17462,7 +17462,7 @@
 		<description>Samurai Shodown (USA)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="samurai shodown (usa).bin" size="3145728" crc="5bb8b2d4"/>
+		<rom name="Samurai Shodown (USA)(1994)(Takara).bin" size="3145728" crc="5bb8b2d4"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17470,7 +17470,7 @@
 		<description>Samurai Spirits (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="samurai spirits (jpn).bin" size="3145728" crc="0ea2ae36"/>
+		<rom name="Samurai Spirits (Japan)(1994)(Sega).bin" size="3145728" crc="0ea2ae36"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17478,7 +17478,7 @@
 		<description>Samurai Spirits II (China) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="Samurai Spirits II.md" size="2097152" crc="2942f180"/>
+		<rom name="Samurai Spirits II (China)(Unl)(1998).bin" size="2097152" crc="2942f180"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17486,7 +17486,7 @@
 		<description>San Guo Yan Yi - Huo Shao Chi Bi (China) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="San Guo Yan Yi - Huo Shao Chi Bi.md" size="2097152" crc="3a71e961"/>
+		<rom name="San Guo Yan Yi - Huo Shao Chi Bi (China)(Unl)(199x).bin" size="2097152" crc="3a71e961"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17494,7 +17494,7 @@
 		<description>San Guo Zhi Lie Zhuan - Luan Shi Qun Ying (China)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="san guo zhi lie zhuan - luan shi qun ying (chi).bin" size="1048576" crc="3b5cc398"/>
+		<rom name="San Guo Zhi Lie Zhuan - Luan Shi Qun Ying (China)(Unl)(199x).bin" size="1048576" crc="3b5cc398"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17503,14 +17503,6 @@
 		<year>199?</year>
 		<manufacturer>SKOB</manufacturer>
 		<rom name="san guo zhi v (chi) (unl).bin" size="2097152" crc="cd7e53d0"/>
-		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sansan" sourcefile="megadrive/d_megadrive.cpp">
-		<description>San San (Japan)</description>
-		<year>1994</year>
-		<manufacturer>San San Co.</manufacturer>
-		<rom name="san san (japan).bin" size="1048576" crc="5b85deed"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17534,7 +17526,15 @@
 		<description>Sangokushi Retsuden - Ransei no Eiyuutachi (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sangokushi retsuden - ransei no eiyuutachi (jpn).bin" size="1048576" crc="0f56785a"/>
+		<rom name="Sangokushi Retsuden - Ransei no Eiyuutachi (Japan)(1991)(Sega).bin" size="1048576" crc="0f56785a"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="sansan" sourcefile="megadrive/d_megadrive.cpp">
+		<description>Sansan (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Sansan Co.</manufacturer>
+		<rom name="Sansan (Japan)(1994)(Sansan Co.).bin" size="1048576" crc="5b85deed"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17542,7 +17542,7 @@
 		<description>Saturday Night Slammasters (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Capcom</manufacturer>
-		<rom name="saturday night slammasters (euro).bin" size="4194304" crc="08fa5a3f"/>
+		<rom name="Saturday Night Slammasters (Euro)(1994)(Capcom).bin" size="4194304" crc="08fa5a3f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17559,7 +17559,7 @@
 		<description>Saturday Night Slammasters (USA)</description>
 		<year>1994</year>
 		<manufacturer>Capcom</manufacturer>
-		<rom name="saturday night slammasters (usa).bin" size="4194304" crc="2fb4eaba"/>
+		<rom name="Saturday Night Slammasters (USA)(1994)(Capcom).bin" size="4194304" crc="2fb4eaba"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17638,15 +17638,16 @@
 		<description>Scooby-Doo Mystery (USA)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="scooby doo mystery (usa).bin" size="2097152" crc="7bb9dd9b"/>
+		<rom name="Scooby-Doo Mystery (USA)(1995)(Acclaim).bin" size="2097152" crc="7bb9dd9b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="scrabble" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Prototype</comment>
 		<description>Scrabble (Euro, Prototype)</description>
-		<year>199?</year>
-		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="scrabble (euro) (prototype).bin" size="1048576" crc="360b2610"/>
+		<year>1994</year>
+		<manufacturer>SuperVision Entertainment</manufacturer>
+		<rom name="Scrabble (Euro, Proto)(1994)(SuperVision).bin" size="1048576" crc="360b2610"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -17661,16 +17662,16 @@
 	<game name="seaquest" sourcefile="megadrive/d_megadrive.cpp">
 		<description>SeaQuest DSV (Euro)</description>
 		<year>1994</year>
-		<manufacturer>THQ</manufacturer>
-		<rom name="seaquest dsv (euro).bin" size="2097152" crc="0bb511bd"/>
+		<manufacturer>THQ Inc.</manufacturer>
+		<rom name="SeaQuest DSV (Euro)(1994)(THQ).bin" size="2097152" crc="0bb511bd"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="seaquestu" cloneof="seaquest" romof="seaquest" sourcefile="megadrive/d_megadrive.cpp">
 		<description>SeaQuest DSV (USA)</description>
 		<year>1994</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="seaquest dsv (usa).bin" size="2097152" crc="25b05480"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="SeaQuest DSV (USA)(1994)(Black Pearl).bin" size="2097152" crc="25b05480"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -19409,7 +19410,7 @@
 		<description>Soul Blade Super (China) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="soul blade (unl).bin" size="4194304" crc="f26f88d1"/>
+		<rom name="Soul Blade Super (China)(Unl)(1997).bin" size="4194304" crc="f26f88d1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -19417,23 +19418,23 @@
 		<description>Soul Blade Super (China, Alt) (Unl)</description>
 		<year>1997</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="soul blade (unl)[p].bin" size="3145728" crc="dd1c7a79"/>
+		<rom name="Soul Blade Super (China, Alt)(Unl)(1997).bin" size="3145728" crc="dd1c7a79"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="souledge" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Soul Edge vs Samurai Spirits (Unl)</description>
+		<description>Soul Edge vs Samurai Spirits (Taiwan) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="soul edge vs samurai spirits (unl).bin" size="2097152" crc="b11bd611"/>
+		<rom name="Soul Edge vs Samurai Spirits (Taiwan)(Unl)(1998)(X Boy).bin" size="2097152" crc="b11bd611"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
 	<game name="souledgea" cloneof="souledge" romof="souledge" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Soul Edge vs Samurai Spirits (Unl, Cracked)</description>
+		<description>Soul Edge vs Samurai Spirits (Taiwan) (Unl, Cracked)</description>
 		<year>1998</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="soul edge vs samurai spirits (unl)[f1].bin" size="2097152" crc="74a6d7a7"/>
+		<rom name="Soul Edge vs Samurai Spirits (Taiwan)(Unl, Cracked)(1998)(X Boy).bin" size="2097152" crc="74a6d7a7"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -19818,7 +19819,7 @@
 		<description>Squirrel King (Taiwan) (Unl)</description>
 		<year>1995</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="squirrel king (chi) (unl).bin" size="1048576" crc="b8261ff5"/>
+		<rom name="Squirrel King (Taiwan)(Unl)(1995)(Gamtec).bin" size="1048576" crc="b8261ff5"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -20936,7 +20937,7 @@
 		<description>Super Bubble Bobble MD (Taiwan) (Unl)</description>
 		<year>1995</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super bubble bobble (chi) (unl).bin" size="1048576" crc="4820a161"/>
+		<rom name="Super Bubble Bobble MD (Taiwan)(Unl)(1995)(Gamtec).bin" size="1048576" crc="4820a161"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -20960,7 +20961,7 @@
 		<description>Super Donkey Kong '99 (Taiwan, Protected) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super donkey kong 99 (unl) (protected).bin" size="3145728" crc="43be4dd5"/>
+		<rom name="Super Donkey Kong '99 (Taiwan, Protected)(Unl)(1999)(Gamtec).bin" size="3145728" crc="43be4dd5"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -20968,7 +20969,7 @@
 		<description>Super Donkey Kong '99 (Taiwan, Unprotected) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super donkey kong 99 (unl).bin" size="2097152" crc="8e7d9177"/>
+		<rom name="Super Donkey Kong '99 (Taiwan, Unprotected)(Unl)(1999)(Gamtec).bin" size="2097152" crc="8e7d9177"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -21101,7 +21102,7 @@
 		<description>Super King Kong '99 (Taiwan) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super king kong 99 (unl).bin" size="2097152" crc="413dfee2"/>
+		<rom name="Super King Kong '99 (Taiwan)(Unl)(1999)(Gamtec).bin" size="2097152" crc="413dfee2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -21133,7 +21134,7 @@
 		<description>Super Mario 2 (Taiwan) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super mario 2 1998 (unl).bin" size="2097152" crc="f7e1b3e1"/>
+		<rom name="Super Mario 2 (Taiwan)(Unl)(1998)(Gamtec).bin" size="2097152" crc="f7e1b3e1"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -21141,7 +21142,7 @@
 		<description>Super Mario 2 (Taiwan, Alt) (Unl)</description>
 		<year>1998</year>
 		<manufacturer>Gamtec</manufacturer>
-		<rom name="super_mario_2.bin" size="2097152" crc="0da6dc4b"/>
+		<rom name="Super Mario 2 (Taiwan, Alt)(Unl)(1998)(Gamtec).bin" size="2097152" crc="0da6dc4b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -21162,10 +21163,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="smario64h" cloneof="smario64" romof="smario64" sourcefile="megadrive/d_megadrive.cpp">
-		<description>Super Mario World 64 (Hacked Protection)</description>
+		<description>Super Mario World 64 (Hacked Protection) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="super mario world 64 (hacked).bin" size="1048576" crc="a20f98aa"/>
+		<rom name="Super Mario World 64 (Hacked Protection)(Unl)(199x).bin" size="1048576" crc="a20f98aa"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -21173,7 +21174,7 @@
 		<description>Super Mario World 64 (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="super mario world 64 (unl).bin" size="1048576" crc="e7ac4161"/>
+		<rom name="Super Mario World 64 (Unl)(199x).bin" size="1048576" crc="e7ac4161"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -21197,7 +21198,7 @@
 		<description>Super Mario World ~ Super Mario Bros. (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="super mario bros. (unl).bin" size="2097152" crc="9cfa2bd8"/>
+		<rom name="Super Mario Bros. (Unl)(199x).bin" size="2097152" crc="9cfa2bd8"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -21925,7 +21926,7 @@
 		<description>TC 2000 (Argentina) (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="tc2000.bin" size="1048576" crc="cef91bdb"/>
+		<rom name="TC 2000 (Argentina)(Unl)(199x).bin" size="1048576" crc="cef91bdb"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22315,7 +22316,7 @@
 		<description>Tetris (Unl)</description>
 		<year>199?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="tetris.bin" size="524288" crc="eb024ab2"/>
+		<rom name="Tetris (Unl)(199x).bin" size="524288" crc="eb024ab2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -22432,8 +22433,8 @@
 	<game name="tfoxj" cloneof="tfox" romof="tfox" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Thunder Fox (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="thunder fox (jpn).bin" size="1048576" crc="eca6cffa"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Thunder Fox (Japan)(1991)(Taito).bin" size="1048576" crc="eca6cffa"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22441,7 +22442,7 @@
 		<description>Thunder Fox (USA)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="thunder fox (usa).bin" size="1048576" crc="5463f50f"/>
+		<rom name="Thunder Fox (USA)(1991)(Taito).bin" size="1048576" crc="5463f50f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22457,8 +22458,8 @@
 	<game name="tpwres" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Thunder Pro Wrestling Retsuden (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Human</manufacturer>
-		<rom name="mpr-14675.bin" size="524288" crc="24408c73"/>
+		<manufacturer>Human Entertainment</manufacturer>
+		<rom name="Thunder Pro Wrestling Retsuden (Japan)(1992)(Human Entertainment).bin" size="524288" crc="24408c73"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22493,7 +22494,7 @@
 		<description>Tick, The (USA)</description>
 		<year>1994</year>
 		<manufacturer>Fox Interactive</manufacturer>
-		<rom name="tick, the (usa).bin" size="2097152" crc="425132f0"/>
+		<rom name="Tick, The (USA)(1994)(Fox Interactive).bin" size="2097152" crc="425132f0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22508,16 +22509,16 @@
 	<game name="timekill" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Time Killers (Euro)</description>
 		<year>1996</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="time killers (euro).bin" size="2097152" crc="a4f48a1a"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Time Killers (Euro)(1996)(Black Pearl).bin" size="2097152" crc="a4f48a1a"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="timekillu" cloneof="timekill" romof="timekill" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Time Killers (USA)</description>
 		<year>1996</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="time killers (usa).bin" size="2097152" crc="4b5f52ac"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Time Killers (USA)(1996)(Black Pearl).bin" size="2097152" crc="4b5f52ac"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22526,7 +22527,7 @@
 		<description>Time Trax (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Black Pearl Software</manufacturer>
-		<rom name="Time Trax (prototype).bin" size="1048576" crc="dff045eb"/>
+		<rom name="Time Trax (Proto)(1994)(Black Pearl).bin" size="1048576" crc="dff045eb"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22543,7 +22544,7 @@
 		<description>TinHead (USA)</description>
 		<year>1993</year>
 		<manufacturer>Ballistic</manufacturer>
-		<rom name="tinhead (usa).bin" size="1048576" crc="d6724b84"/>
+		<rom name="TinHead (USA)(1993)(Ballistic).bin" size="1048576" crc="d6724b84"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22551,7 +22552,7 @@
 		<description>Tintin au Tibet (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Infogrames</manufacturer>
-		<rom name="tintin au tibet (euro).bin" size="2097152" crc="4243caf3"/>
+		<rom name="Tintin au Tibet (Euro)(1995)(Infogrames).bin" size="2097152" crc="4243caf3"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22559,7 +22560,7 @@
 		<description>Tiny Toon Adventures (Korea)</description>
 		<year>1993</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="tiny toon adventures (kor).bin" size="524288" crc="4ca3a8fb"/>
+		<rom name="Tiny Toon Adventures (Korea)(1993)(Konami).bin" size="524288" crc="4ca3a8fb"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="preliminary"/>
 	</game>
@@ -22567,7 +22568,7 @@
 		<description>Tiny Toon Adventures - Acme All-Stars (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="mpr-17066.bin" size="1048576" crc="1227b2b2"/>
+		<rom name="Tiny Toon Adventures - Acme All-Stars (Euro)(1994)(Konami).bin" size="1048576" crc="1227b2b2"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22584,7 +22585,7 @@
 		<description>Tiny Toon Adventures - Acme All-Stars (USA, Korea)</description>
 		<year>1994</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="tiny toon adventures - acme all-stars (usa, kor).bin" size="1048576" crc="2f9faa1d"/>
+		<rom name="Tiny Toon Adventures - Acme All-Stars (USA, Korea)(1994)(Konami).bin" size="1048576" crc="2f9faa1d"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22592,7 +22593,7 @@
 		<description>Tiny Toon Adventures - Buster's Hidden Treasure (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="mpr-15406.bin" size="524288" crc="d10fba51"/>
+		<rom name="Tiny Toon Adventures - Buster's Hidden Treasure (Euro)(1993)(Konami).bin" size="524288" crc="d10fba51"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22609,7 +22610,7 @@
 		<description>Tiny Toon Adventures - Buster's Hidden Treasure (USA)</description>
 		<year>1993</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="tiny toon adventures - buster's hidden treasure (usa).bin" size="524288" crc="a26d3ae0"/>
+		<rom name="Tiny Toon Adventures - Buster's Hidden Treasure (USA)(1993)(Konami).bin" size="524288" crc="a26d3ae0"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22832,7 +22833,7 @@
 		<description>Top Fighter 2000 MK VIII (Taiwan) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>X Boy</manufacturer>
-		<rom name="top fighter 2000 mk viii (unl).bin" size="2097152" crc="f75519dc"/>
+		<rom name="Top Fighter 2000 MK VIII (Taiwan)(Unl)(1999)(X Boy).bin" size="2097152" crc="f75519dc"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -22840,7 +22841,7 @@
 		<description>Top Fighter 2005 (China) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
-		<rom name="top fighter 2005 (unl).bin" size="2097152" crc="174defe6"/>
+		<rom name="Top Fighter 2005 (China)(Unl)(200x).bin" size="2097152" crc="174defe6"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -23065,7 +23066,7 @@
 		<description>Truco '96 (Argentina) (Unl)</description>
 		<year>1996</year>
 		<manufacturer>Miky</manufacturer>
-		<rom name="truco96.bin" size="1048576" crc="cddbecfc"/>
+		<rom name="Truco '96 (Argentina)(Unl)(1996)(Miky).bin" size="1048576" crc="cddbecfc"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

@@ -71,27 +71,27 @@
 	</game>
 	<game name="addfamc" cloneof="addfam" romof="addfam" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Addams Family, The (Hack, Spanish v1.0)</description>
+		<description>Addams Family, The (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="addams family, the (europe) - castellano v1.0.sms" size="262144" crc="dc3ed8dd"/>
+		<rom name="Addams Family, the T-Spa (2017)(Wave).sms" size="262144" crc="dc3ed8dd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="herolanc" sourcefile="sms/d_sms.cpp">
-		<description>Advanced Dungeons and Dragons - Heroes of the Lance (Euro, Brazil)</description>
+		<description>Advanced Dungeons &amp; Dragons - Heroes of the Lance (Euro, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="heroes of the lance (europe).bin" size="524288" crc="cde13ffb"/>
+		<rom name="AD&amp;D - Heroes of the Lance (Euro, Brazil)(1991)(U.S. Gold).sms" size="524288" crc="cde13ffb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="herolancc" cloneof="herolanc" romof="herolanc" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Advanced Dungeons and Dragons - Heroes of the Lance (Hack, Spanish v1.0)</description>
+		<description>Advanced Dungeons and Dragons - Heroes of the Lance (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="advanced dungeons and dragons - heroes of the lance (euro, bra) - castellano v1.0.sms" size="524288" crc="7b33f65d"/>
+		<rom name="Advanced Dungeons and Dragons - Heroes of the Lance T-Spa (2019)(Wave).sms" size="524288" crc="7b33f65d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -139,7 +139,7 @@
 		<description>Aleste (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aleste (japan).bin" size="131072" crc="d8c4165b"/>
+		<rom name="Aleste (Japan)(1988)(Sega).sms" size="131072" crc="d8c4165b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -148,33 +148,25 @@
 		<description>Aleste II (Hack, GG2SMS Conversion)</description>
 		<year>2014</year>
 		<manufacturer>ccovell, Vingazole</manufacturer>
-		<rom name="Aleste IIgg2sms.sms" size="262144" crc="516d899d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="alexhitw" sourcefile="sms/d_sms.cpp">
-		<description>Alex Kidd - High-Tech World (Euro, USA)</description>
-		<year>1989</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12408.ic1" size="131072" crc="013c0a94"/>
+		<rom name="Aleste II GG2SMS (2014)(ccovell, Vingazole).sms" size="262144" crc="516d899d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alexhitwc" cloneof="alexhitw" romof="alexhitw" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Alex Kidd - High-Tech World (Hack, Spanish v1.0)</description>
+		<description>Alex Kidd - High-Tech World (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="alex kidd - high-tech world (usa, europe, brazil) - castellano v1.0.sms" size="131072" crc="aeb143f2"/>
+		<rom name="Alex Kidd - High-Tech World T-Spa (2017)(Wave).sms" size="131072" crc="aeb143f2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alexlostc" cloneof="alexlost" romof="alexlost" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Alex Kidd - The Lost Stars (Hack, Spanish v1.0)</description>
+		<description>Alex Kidd - The Lost Stars (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="alex kidd - the lost stars (world) - castellano v1.0.sms" size="262144" crc="d3fa9af0"/>
+		<rom name="Alex Kidd - The Lost Stars T-Spa (2018)(Wave).sms" size="262144" crc="d3fa9af0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -182,7 +174,7 @@
 		<description>Alex Kidd - The Lost Stars (World)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11402 w09.ic1" size="262144" crc="c13896d5"/>
+		<rom name="Alex Kidd - The Lost Stars (World)(1988)(Sega).sms" size="262144" crc="c13896d5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -209,7 +201,7 @@
 		<description>Alex Kidd BMX Trial (Hack, Spanish v1.1)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="alex kidd bmx trial (jpn) - castellano v1.1.sms" size="131072" crc="2a5449d4"/>
+		<rom name="Alex Kidd BMX Trial T-Spa v1.1 (2018)(Wave).sms" size="131072" crc="2a5449d4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -217,15 +209,15 @@
 		<description>Alex Kidd BMX Trial (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="alex kidd bmx trial (japan).bin" size="131072" crc="f9dbb533"/>
+		<rom name="Alex Kidd BMX Trial (Japan)(1987)(Sega).sms" size="131072" crc="f9dbb533"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alexkiddb" cloneof="alexkidd" romof="alexkidd" sourcefile="sms/d_sms.cpp">
 		<description>Alex Kidd in Miracle World (Brazil, v1, Pirate)</description>
 		<year>1986</year>
-		<manufacturer>pirate</manufacturer>
-		<rom name="alex kidd in miracle world (b) [hack].bin" size="131072" crc="7545d7c2"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Alex Kidd in Miracle World (Brazil, v1, Pirate)(1986).bin" size="131072" crc="7545d7c2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -233,7 +225,7 @@
 		<description>Alex Kidd in Miracle World (Euro, USA, v0)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="alex kidd in miracle world (usa, europe).bin" size="131072" crc="17a40e29"/>
+		<rom name="Alex Kidd in Miracle World (Euro, USA, v0)(1986)(Sega).sms" size="131072" crc="17a40e29"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -241,16 +233,25 @@
 		<description>Alex Kidd in Miracle World (Euro, USA, v1.1)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="alex kidd in miracle world (usa, europe) (v1.1).bin" size="131072" crc="aed9aac4"/>
+		<rom name="Alex Kidd in Miracle World (Euro, USA, v1.1)(1986)(Sega).sms" size="131072" crc="aed9aac4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alexkiddc" cloneof="alexkidd" romof="alexkidd" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Alex Kidd in Miracle World (Hack, Spanish v1.0)</description>
+		<description>Alex Kidd in Miracle World (Hack, Spanish v1.1)</description>
 		<year>2016</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="alex kidd in miracle world (euro, usa, v1) - castellano v1.1.sms" size="131072" crc="a34e0c37"/>
+		<rom name="Alex Kidd in Miracle World T-Spa v1.1 (2016)(Wave).sms" size="131072" crc="a34e0c37"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="alexkiddee" cloneof="alexkidd" romof="alexkidd" sourcefile="sms/d_sms.cpp">
+		<comment>Hack</comment>
+		<description>Alex Kidd In Miracle World - Extended Edition (Hack, v1.3 Final)</description>
+		<year>2024</year>
+		<manufacturer>Adrian Gauna</manufacturer>
+		<rom name="Alex Kidd In Miracle World - Extended Edition v1.3 Final (2024)(Adrian Gauna).sms" size="524288" crc="1ae81c0b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -268,7 +269,7 @@
 		<description>Alex Kidd in Radaxian Rumble (Hack, v1.5)</description>
 		<year>2015</year>
 		<manufacturer>Alianger</manufacturer>
-		<rom name="Alex Kidd in Radaxian Rumble 1.5.sms" size="524288" crc="02760e17"/>
+		<rom name="Alex Kidd in Radaxian Rumble v1.5 (2015)(Alianger).sms" size="524288" crc="02760e17"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -276,7 +277,7 @@
 		<description>Alex Kidd in Shinobi World (Euro, USA, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="alex kidd in shinobi world (usa, europe).bin" size="262144" crc="d2417ed7"/>
+		<rom name="Alex Kidd in Shinobi World (Euro, USA, Brazil)(1990)(Sega).sms" size="262144" crc="d2417ed7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -285,7 +286,7 @@
 		<description>Alex Kidd in Shinobi World (Hack, Spanish v1.1)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="alex kidd in shinobi world (euro, usa, bra) - castellano v1.1.sms" size="262144" crc="738f1504"/>
+		<rom name="Alex Kidd in Shinobi World T-Spa v1.1 (2017)(Wave).sms" size="262144" crc="738f1504"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -293,7 +294,7 @@
 		<description>Alex Kidd no Miracle World (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10379.ic1" size="131072" crc="08c9ec91"/>
+		<rom name="Alex Kidd no Miracle World (Japan)(1986)(Sega).sms" size="131072" crc="08c9ec91"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -306,11 +307,19 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="alexhitw" sourcefile="sms/d_sms.cpp">
+		<description>Alex Kidd: High-Tech World (Euro, USA)</description>
+		<year>1989</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Alex Kidd - High-Tech World (Euro, USA)(1989)(Sega).sms" size="131072" crc="013c0a94"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="alf" sourcefile="sms/d_sms.cpp">
 		<description>Alf (USA, Brazil)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="alf (usa).bin" size="131072" crc="82038ad4"/>
+		<rom name="Alf (USA, Brazil)(1989)(Sega).sms" size="131072" crc="82038ad4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -318,24 +327,24 @@
 		<description>Alibaba and 40 Thieves (Korea)</description>
 		<year>1989</year>
 		<manufacturer>HiCom</manufacturer>
-		<rom name="alibaba and 40 thieves (kr).sms" size="32768" crc="08bf3de3"/>
+		<rom name="Alibaba and 40 Thieves (Korea)(1989)(HiCom).sms" size="32768" crc="08bf3de3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alien3" sourcefile="sms/d_sms.cpp">
 		<description>Alien 3 (Euro, Brazil)</description>
 		<year>1992</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="alien 3 (europe).bin" size="262144" crc="b618b144"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Alien 3 (Euro, Brazil)(1992)(Arena).sms" size="262144" crc="b618b144"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="alien3c" cloneof="alien3" romof="alien3" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Alien 3 (Hack, Spanish v1.0)</description>
+		<description>Alien 3 (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="Alien 3 (Euro, Bra) - Castellano v1.0.sms" size="262144" crc="97a9a75d"/>
+		<rom name="Alien 3 T-Spa (2017)(Wave).sms" size="262144" crc="97a9a75d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -376,7 +385,7 @@
 		<description>Altered Beast (Euro, USA, Brazil)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12534 t35.ic2" size="262144" crc="bba2fe98"/>
+		<rom name="Altered Beast (Euro, USA, Brazil)(1988)(Sega).sms" size="262144" crc="bba2fe98"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -384,7 +393,7 @@
 		<description>American Baseball (Euro, Brazil)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12555f.ic1" size="262144" crc="7b27202f"/>
+		<rom name="American Baseball (Euro, Brazil)(1989)(Sega).sms" size="262144" crc="7b27202f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -392,7 +401,7 @@
 		<description>American Pro Football (Euro)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="american pro football (europe).bin" size="262144" crc="3727d8b2"/>
+		<rom name="American Pro Football (Euro)(1989)(Sega).sms" size="262144" crc="3727d8b2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -400,7 +409,7 @@
 		<description>Andre Agassi Tennis (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>TecMagik</manufacturer>
-		<rom name="andre agassi tennis (europe).bin" size="262144" crc="f499034d"/>
+		<rom name="Andre Agassi Tennis (Euro, Brazil)(1993)(TecMagik).sms" size="262144" crc="f499034d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -409,6 +418,15 @@
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="anmitsu hime (japan).bin" size="131072" crc="fff63b0b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="antsms" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Ants for Master System (HB)</description>
+		<year>2025</year>
+		<manufacturer>JoppyFurr</manufacturer>
+		<rom name="Ants for Master System (2025)(JoppyFurr).sms" size="196608" crc="c8688be0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -466,7 +484,7 @@
 		<description>Ashura (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10386.ic1" size="131072" crc="ae705699"/>
+		<rom name="Ashura (Japan)(1986)(Sega).sms" size="131072" crc="ae705699"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -474,7 +492,7 @@
 		<description>Assault City (Euro)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="assault city (europe).bin" size="262144" crc="0bd8da96"/>
+		<rom name="Assault City (Euro)(1990)(Sega).sms" size="262144" crc="0bd8da96"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -483,7 +501,7 @@
 		<description>Assault City (Euro, Brazil, Light Phaser version)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="assault city (europe) (light phaser).bin" size="262144" crc="861b6e79"/>
+		<rom name="Assault City (Euro, Brazil, Light Phaser version)(1990)(Sega).sms" size="262144" crc="861b6e79"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -491,7 +509,7 @@
 		<description>Asterix (Euro, Brazil, v0)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14520-f.ic1" size="524288" crc="147e02fa"/>
+		<rom name="Asterix (Euro, Brazil, v0)(1991)(Sega).sms" size="524288" crc="147e02fa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -499,7 +517,7 @@
 		<description>Asterix (Euro, v1.1)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (europe) (en,fr) (v1.1).bin" size="524288" crc="8c9d5be8"/>
+		<rom name="Asterix (Euro, v1.1)(1991)(Sega).sms" size="524288" crc="8c9d5be8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -507,7 +525,7 @@
 		<description>Asterix and the Great Rescue (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix and the great rescue (europe) (en,fr,de,es,it).bin" size="524288" crc="f9b7d26b"/>
+		<rom name="Asterix and the Great Rescue (Euro, Brazil)(1993)(Sega).sms" size="524288" crc="f9b7d26b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -515,7 +533,7 @@
 		<description>Asterix and the Secret Mission (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix and the secret mission (europe) (en,fr,de).bin" size="524288" crc="def9b14e"/>
+		<rom name="Asterix and the Secret Mission (Euro)(1993)(Sega).sms" size="524288" crc="def9b14e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -544,6 +562,14 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="astropit" sourcefile="sms/d_sms.cpp">
+		<description>Astro Warrior &amp; Pit Pot (Euro)</description>
+		<year>1986</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Astro Warrior &amp; Pit Pot (Euro)(1986)(Sega).sms" size="131072" crc="69efd483"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="astrow" sourcefile="sms/d_sms.cpp">
 		<description>Astro Warrior (Japan, USA, Brazil)</description>
 		<year>1986</year>
@@ -552,27 +578,19 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="astropit" sourcefile="sms/d_sms.cpp">
-		<description>Astro Warrior and Pit Pot (Euro)</description>
-		<year>1986</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Astro Warrior and Pit Pot (Euro)(1986)(Sega).sms" size="131072" crc="69efd483"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="smgp2" sourcefile="sms/d_sms.cpp">
 		<description>Ayrton Senna's Super Monaco GP II (Euro, Brazil, Korea)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ayrton senna's super monaco gp ii (europe).bin" size="524288" crc="e890331d"/>
+		<rom name="Ayrton Senna's Super Monaco GP II (Euro, Brazil, Korea)(1992)(Sega).sms" size="524288" crc="e890331d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="aztecadv" sourcefile="sms/d_sms.cpp">
-		<description>Aztec Adventure - The Golden Road to Paradise (Euro, USA)</description>
+		<description>Aztec Adventure: The Golden Road to Paradise (Euro, USA)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11121.ic1" size="131072" crc="ff614eb3"/>
+		<rom name="Aztec Adventure - The Golden Road to Paradise (Euro, USA)(1987)(Sega).sms" size="131072" crc="ff614eb3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -580,16 +598,16 @@
 		<description>Back to the Future Part II (Euro, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>Image Works</manufacturer>
-		<rom name="back to the future part ii (europe).bin" size="262144" crc="e5ff50d8"/>
+		<rom name="Back to the Future Part II (Euro, Brazil)(1990)(Image Works).sms" size="262144" crc="e5ff50d8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="backtof2c" cloneof="backtof2" romof="backtof2" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Back to the Future Part II (Hack, Spanish v1.0)</description>
+		<description>Back to the Future Part II (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="back to the future part ii (euro, bra) - castellano v1.0.sms" size="262144" crc="4146138d"/>
+		<rom name="Back to the Future Part II T-Spa (2018)(Wave).sms" size="262144" crc="4146138d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -597,16 +615,16 @@
 		<description>Back to the Future Part III (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Image Works</manufacturer>
-		<rom name="back to the future part iii (europe).bin" size="262144" crc="2d48c1d3"/>
+		<rom name="Back to the Future Part III (Euro)(1992)(Image Works).sms" size="262144" crc="2d48c1d3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="backtof3c" cloneof="backtof3" romof="backtof3" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Back to the Future Part III (Hack, Spanish v1.0)</description>
+		<description>Back to the Future Part III (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="back to the future part iii (euro) - castellano v1.0.sms" size="262144" crc="423517c4"/>
+		<rom name="Back to the Future Part III T-Spa (2018)(Wave).sms" size="262144" crc="423517c4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -623,16 +641,16 @@
 		<description>Baku Baku Animal (Brazil)</description>
 		<year>1996</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="baku baku animal (brazil).bin" size="262144" crc="35d84dc2"/>
+		<rom name="Baku Baku Animal (Brazil)(1996)(Tec Toy).sms" size="262144" crc="35d84dc2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="bakubakuc" cloneof="bakubaku" romof="bakubaku" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Baku Baku Animal (Hack, Spanish v1.0)</description>
+		<description>Baku Baku Animal (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="baku baku animal (bra) - castellano v1.0.sms" size="262144" crc="131e4852"/>
+		<rom name="Baku Baku Animal T-Spa (2019)(Wave).sms" size="262144" crc="131e4852"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -649,7 +667,7 @@
 		<description>Bank Panic (Euro)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12554.ic1" size="32768" crc="655fb1f4"/>
+		<rom name="Bank Panic (Euro)(1987)(Sega).sms" size="32768" crc="655fb1f4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -657,7 +675,7 @@
 		<description>Bank Panic (Euro, Sega Card)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="Bank Panic (Euro, Sega Card)(1987)(Sega).bin" merge="mpr-12554.ic1" size="32768" crc="655fb1f4"/>
+		<rom name="Bank Panic (Euro, Sega Card)(1987)(Sega).bin" merge="Bank Panic (Euro)(1987)(Sega).sms" size="32768" crc="655fb1f4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -674,7 +692,7 @@
 		<description>Basket Ball Nightmare (Euro, Brazil)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12728.ic1" size="262144" crc="0df8597f"/>
+		<rom name="Basket Ball Nightmare (Euro, Brazil)(1989)(Sega).sms" size="262144" crc="0df8597f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -750,7 +768,7 @@
 		<description>Black Belt (Euro, USA)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="black belt (usa, europe).bin" size="131072" crc="da3a2f57"/>
+		<rom name="Black Belt (Euro, USA)(1986)(Sega).sms" size="131072" crc="da3a2f57"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -759,7 +777,7 @@
 		<description>Blade Eagle (USA, Prototype)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="blade eagle (world) (beta).bin" size="262144" crc="58d5fc48"/>
+		<rom name="Blade Eagle (USA, Proto)(1988)(Sega).sms" size="262144" crc="58d5fc48"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -767,7 +785,7 @@
 		<description>Blade Eagle (World)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11421.ic1" size="262144" crc="8ecd201c"/>
+		<rom name="Blade Eagle (World)(1988)(Sega).sms" size="262144" crc="8ecd201c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -824,10 +842,10 @@
 	</game>
 	<game name="bnzabrosc" cloneof="bnzabros" romof="bnzabros" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Bonanza Bros. (Hack, Spanish v1.0)</description>
+		<description>Bonanza Bros. (Hack, Spanish)</description>
 		<year>2016</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="bonanza bros. (euro, bra) - castellano v1.0.sms" size="262656" crc="a4999f47"/>
+		<rom name="Bonanza Bros. T-Spa (2016)(Wave).sms" size="262656" crc="a4999f47"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -835,7 +853,7 @@
 		<description>Bram Stoker's Dracula (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sony Imagesoft</manufacturer>
-		<rom name="bram stoker's dracula (europe).bin" size="262144" crc="1b10a951"/>
+		<rom name="Bram Stoker's Dracula (Euro)(1993)(Sony Imagesoft).sms" size="262144" crc="1b10a951"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -860,7 +878,7 @@
 		<description>Bubble Bobble (Korea, Clover)</description>
 		<year>1990</year>
 		<manufacturer>Clover</manufacturer>
-		<rom name="bobble bobble [clover] (kr).bin" size="32768" crc="25eb9f80"/>
+		<rom name="Bubble Bobble (Korea)(1990)(Clover).sms" size="32768" crc="25eb9f80"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -868,7 +886,7 @@
 		<description>Bubble Bobble (Korea, YM Soft)</description>
 		<year>1990</year>
 		<manufacturer>YM Soft</manufacturer>
-		<rom name="power boggle boggle (kr).bin" size="32768" crc="6d309ac5"/>
+		<rom name="Bubble Bobble (Korea)(1990)(YM Soft).sms" size="32768" crc="6d309ac5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -947,10 +965,10 @@
 	</game>
 	<game name="casinoc" cloneof="casino" romof="casino" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Casino Games (Hack, Spanish v1.0)</description>
+		<description>Casino Games (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="casino games (euro, usa) - castellano v1.0.sms" size="262144" crc="bfe4457c"/>
+		<rom name="Casino Games T-Spa (2019)(Wave).sms" size="262144" crc="bfe4457c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -981,10 +999,10 @@
 	</game>
 	<game name="castlillc" cloneof="castlill" romof="castlill" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Castle of Illusion Starring Mickey Mouse (Hack, Spanish v1.1)</description>
-		<year>2018</year>
+		<description>Castle of Illusion Starring Mickey Mouse (Hack, Spanish v2.0)</description>
+		<year>2021</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="castle of illusion starring mickey mouse (euro, bra) - castellano v1.1.sms" size="262144" crc="a0941272"/>
+		<rom name="Castle of Illusion Starring Mickey Mouse T-Spa v2.0 (2021)(Wave).sms" size="262144" crc="33bd74e1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1129,10 +1147,10 @@
 	</game>
 	<game name="columnsc" cloneof="columns" romof="columns" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Columns (Hack, Spanish v1.0)</description>
+		<description>Columns (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="columns (euro, usa, bra, kor) - castellano v1.0.sms" size="131072" crc="11deb730"/>
+		<rom name="Columns T-Spa (2019)(Wave).sms" size="131072" crc="11deb730"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1566,7 +1584,7 @@
 		<description>Dynamite Dux (Hack, FM Mod)</description>
 		<year>2018</year>
 		<manufacturer>Sega - fatnick</manufacturer>
-		<rom name="dynamite dux (fm-mod).sms" size="262144" crc="26dfc995"/>
+		<rom name="Dynamite Dux FM Mod (2018)(fatnick).sms" size="262144" crc="26dfc995"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1631,6 +1649,15 @@
 		<year>1996</year>
 		<manufacturer>Tec Toy</manufacturer>
 		<rom name="ecco - the tides of time (brazil).bin" size="524288" crc="7c28703a"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="eggiechuck" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Eggie Chuck (HB, v0.4)</description>
+		<year>2025</year>
+		<manufacturer>willbritton</manufacturer>
+		<rom name="Eggie Chuck v0.4 (2025)(willbritton).sms" size="65536" crc="00727462"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1950,7 +1977,7 @@
 		<description>G-LOC Air Battle (Euro, Brazil, Korea)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="g-loc air battle (europe).bin" size="262144" crc="05cdc24e"/>
+		<rom name="G-LOC Air Battle (Euro, Brazil, Korea)(1991)(Sega).sms" size="262144" crc="05cdc24e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1992,7 +2019,7 @@
 		<description>Galactic Protector (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11385.ic1" size="131072" crc="a6fa42d0"/>
+		<rom name="Galactic Protector (Japan)(1988)(Sega).sms" size="131072" crc="a6fa42d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2007,9 +2034,9 @@
 	</game>
 	<game name="galaxian" sourcefile="sms/d_sms.cpp">
 		<description>Galaxian (Korea)</description>
-		<year>199?</year>
+		<year>198?</year>
 		<manufacturer>HiCom</manufacturer>
-		<rom name="galaxian [kr].bin" size="32768" crc="577ec227"/>
+		<rom name="Galaxian (Korea)(198x)(HiCom).sms" size="32768" crc="577ec227"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2017,7 +2044,7 @@
 		<description>Galaxy Force (Euro, Brazil)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12566a.ic2" size="524288" crc="a4ac35d8"/>
+		<rom name="Galaxy Force (Euro, Brazil)(1989)(Sega).sms" size="524288" crc="a4ac35d8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2025,7 +2052,7 @@
 		<description>Galaxy Force (USA)</description>
 		<year>1989</year>
 		<manufacturer>Activision</manufacturer>
-		<rom name="galaxy force (usa).bin" size="524288" crc="6c827520"/>
+		<rom name="Galaxy Force (USA)(1989)(Activision).sms" size="524288" crc="6c827520"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2033,7 +2060,7 @@
 		<description>Game Box Serie Esportes Radicais (Brazil)</description>
 		<year>1989</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="mpr-18796.ic1" size="262144" crc="1890f407"/>
+		<rom name="Game Box Serie Esportes Radicais (Brazil)(1989)(Tec Toy).sms" size="262144" crc="1890f407"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2041,7 +2068,7 @@
 		<description>Gangcheol RoboCop (Korea)</description>
 		<year>1992</year>
 		<manufacturer>Sieco</manufacturer>
-		<rom name="gangcheol robocop (kr).bin" size="65536" crc="ad522efd"/>
+		<rom name="Gangcheol RoboCop (Korea)(1992)(Sieco).sms" size="65536" crc="ad522efd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2050,7 +2077,7 @@
 		<description>Gangster Town (Euro, USA, Brazil)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11049.ic1" size="131072" crc="5fc74d2a"/>
+		<rom name="Gangster Town (Euro, USA, Brazil)(1987)(Sega).sms" size="131072" crc="5fc74d2a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2067,7 +2094,7 @@
 		<description>Gauntlet (Euro, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="gauntlet (europe).bin" size="131072" crc="d9190956"/>
+		<rom name="Gauntlet (Euro, Brazil)(1990)(U.S. Gold).sms" size="131072" crc="d9190956"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2141,7 +2168,7 @@
 	<game name="ghosthj1" cloneof="ghosth" romof="ghosth" sourcefile="sms/d_sms.cpp">
 		<description>Ghost House (Japan, Pirate?)</description>
 		<year>1986</year>
-		<manufacturer>Sega?</manufacturer>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="Ghost House (Japan, Pirate)(1986).sms" size="32768" crc="dabcc054"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -2175,7 +2202,7 @@
 		<description>Ghouls'n Ghosts (Euro, USA, Brazil)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ghouls'n ghosts (usa, europe).bin" size="262144" crc="7a92eba6"/>
+		<rom name="Ghouls'n Ghosts (Euro, USA, Brazil)(1988)(Sega).sms" size="262144" crc="7a92eba6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2183,7 +2210,7 @@
 		<description>Ghouls'n Ghosts (USA, Demo)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ghouls'n ghosts [demo].bin" size="32768" crc="96ca6902"/>
+		<rom name="Ghouls'n Ghosts (USA, Demo)(1988)(Sega).sms" size="32768" crc="96ca6902"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2191,7 +2218,7 @@
 		<description>Global Defense (Euro, USA)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11274.ic1" size="131072" crc="b746a6f5"/>
+		<rom name="Global Defense (Euro, USA)(1987)(Sega).sms" size="131072" crc="b746a6f5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2200,7 +2227,7 @@
 		<description>Global Defense (Euro, USA, Prototype)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="global defense (usa, europe) (beta).bin" size="131072" crc="91a0fc4e"/>
+		<rom name="Global Defense (Euro, USA, Proto)(1987)(Sega).sms" size="131072" crc="91a0fc4e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2225,7 +2252,7 @@
 		<description>Golden Axe (Euro, USA)</description>
 		<year>1989</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13166.ic1" size="524288" crc="c08132fb"/>
+		<rom name="Golden Axe (Euro, USA)(1989)(Sega).sms" size="524288" crc="c08132fb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2242,7 +2269,7 @@
 		<description>Golden Axe Warrior (Euro, USA, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13664-f.ic1" size="262144" crc="c7ded988"/>
+		<rom name="Golden Axe Warrior (Euro, USA, Brazil)(1990)(Sega).sms" size="262144" crc="c7ded988"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2259,7 +2286,7 @@
 		<description>Golfamania (Euro, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13144.ic1" size="262144" crc="48651325"/>
+		<rom name="Golfamania (Euro, Brazil)(1990)(Sega).sms" size="262144" crc="48651325"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2268,7 +2295,7 @@
 		<description>Golfamania (Prototype)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="golfamania (europe) (beta).bin" size="262144" crc="5dabfdc3"/>
+		<rom name="Golfamania (Proto)(1990)(Sega).sms" size="262144" crc="5dabfdc3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2276,7 +2303,7 @@
 		<description>Golvellius (Euro, USA)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11935f.ic1" size="262144" crc="a51376fe"/>
+		<rom name="Golvellius (Euro, USA)(1988)(Sega).sms" size="262144" crc="a51376fe"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2286,6 +2313,15 @@
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
 		<rom name="golvellius (euro, usa) - castellano v1.0.sms" size="262144" crc="15fae765"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="gommymd" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Gommy Medieval Defender (HB, v1.1)</description>
+		<year>2024-25</year>
+		<manufacturer>RetroWorks</manufacturer>
+		<rom name="Gommy Medieval Defender v1.1 (2025)(RetroWorks).sms" size="49152" crc="b3bdc4bf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2311,7 +2347,7 @@
 		<description>GP Rider (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gp rider (europe).bin" size="524288" crc="ec2da554"/>
+		<rom name="GP Rider (Euro, Brazil)(1993)(Sega).sms" size="524288" crc="ec2da554"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2346,7 +2382,7 @@
 		<description>Great Baseball (Euro, USA, Brazil)</description>
 		<year>1985</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10415 w11.ic1" size="131072" crc="10ed6b57"/>
+		<rom name="Great Baseball (Euro, USA, Brazil)(1985)(Sega).sms" size="131072" crc="10ed6b57"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2359,10 +2395,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="greatbasj1" cloneof="greatbas" romof="greatbas" sourcefile="sms/d_sms.cpp">
-		<description>Great Baseball (Japan, Pirate?)</description>
+		<description>Great Baseball (Japan, Pirate)</description>
 		<year>1985</year>
-		<manufacturer>pirate</manufacturer>
-		<rom name="great baseball (j) [hack].bin" size="32768" crc="c1e699db"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Great Baseball (Japan, Pirate)(1985).sms" size="32768" crc="c1e699db"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2370,7 +2406,7 @@
 		<description>Great Basketball (World)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11073.ic1" size="131072" crc="2ac001eb"/>
+		<rom name="Great Basketball (World)(1987)(Sega).sms" size="131072" crc="2ac001eb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2378,7 +2414,7 @@
 		<description>Great Football (World)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10576.ic1" size="131072" crc="2055825f"/>
+		<rom name="Great Football (World)(1987)(Sega).sms" size="131072" crc="2055825f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2386,7 +2422,7 @@
 		<description>Great Golf (Euro, USA) ~ Masters Golf (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11192 w36.ic1" size="131072" crc="98e4ae4a"/>
+		<rom name="Great Golf (Euro, USA)(1987)(Sega).sms" size="131072" crc="98e4ae4a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2394,7 +2430,7 @@
 		<description>Great Golf (Euro, USA, v1.0)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great golf (ue) (v1.0) [!].bin" size="131072" crc="c6611c84"/>
+		<rom name="Great Golf (Euro, USA, v1.0)(1987)(Sega).sms" size="131072" crc="c6611c84"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2402,15 +2438,15 @@
 		<description>Great Golf (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great golf (japan).bin" size="131072" crc="6586bd1f"/>
+		<rom name="Great Golf (Japan)(1986)(Sega).sms" size="131072" crc="6586bd1f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="greatglk" cloneof="greatglj" romof="greatglj" sourcefile="sms/d_sms.cpp">
 		<description>Great Golf (Korea)</description>
-		<year>19??</year>
-		<manufacturer>Samsung?</manufacturer>
-		<rom name="great golf [jp] (kr).sms" size="131072" crc="5def1bf5"/>
+		<year>198?</year>
+		<manufacturer>Samsung</manufacturer>
+		<rom name="Great Golf (Korea)(198x)(Samsung).sms" size="131072" crc="5def1bf5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2419,7 +2455,7 @@
 		<description>Great Golf (Prototype)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great golf (world) (beta).bin" size="131072" crc="4847bc91"/>
+		<rom name="Great Golf (Proto)(1987)(Sega).sms" size="131072" crc="4847bc91"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2427,7 +2463,7 @@
 		<description>Great Ice Hockey (Japan, USA)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10389.ic1" size="65536" crc="0cb7e21f"/>
+		<rom name="Great Ice Hockey (Japan, USA)(1987)(Sega).sms" size="65536" crc="0cb7e21f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2435,7 +2471,7 @@
 		<description>Great Soccer (Euro)</description>
 		<year>1985</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great soccer (europe).bin" size="32768" crc="0ed170c9"/>
+		<rom name="Great Soccer (Euro)(1985)(Sega).sms" size="32768" crc="0ed170c9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2443,7 +2479,7 @@
 		<description>Great Soccer (Euro, Sega Card)</description>
 		<year>1985</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great soccer (europe).bin" merge="great soccer (europe).bin" size="32768" crc="0ed170c9"/>
+		<rom name="great soccer (europe).bin" merge="Great Soccer (Euro)(1985)(Sega).sms" size="32768" crc="0ed170c9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2459,7 +2495,7 @@
 		<description>Great Soccer (Taiwan)</description>
 		<year>198?</year>
 		<manufacturer>Aaronix</manufacturer>
-		<rom name="great soccer (tw).bin" size="32768" crc="84665648"/>
+		<rom name="Great Soccer (Taiwan)(198x)(Aaronix).sms" size="32768" crc="84665648"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2475,7 +2511,7 @@
 		<description>Great Volleyball (Euro, USA, Brazil)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great volleyball (usa, europe).bin" size="131072" crc="8d43ea95"/>
+		<rom name="Great Volleyball (Euro, USA, Brazil)(1987)(Sega).sms" size="131072" crc="8d43ea95"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2483,7 +2519,7 @@
 		<description>Great Volleyball (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="great volleyball (japan).bin" size="131072" crc="6819b0c0"/>
+		<rom name="Great Volleyball (Japan)(1987)(Sega).sms" size="131072" crc="6819b0c0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2509,7 +2545,7 @@
 		<description>Gun.Smoke (Korea)</description>
 		<year>1990</year>
 		<manufacturer>ProSoft</manufacturer>
-		<rom name="gun.smoke (kr).bin" size="32768" crc="3af7ccad"/>
+		<rom name="Gun.Smoke (Korea)(1990)(ProSoft).sms" size="32768" crc="3af7ccad"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2517,7 +2553,33 @@
 		<description>Haja no Fuuin (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="haja no fuuin (japan).bin" size="262144" crc="b9fdf6d9"/>
+		<rom name="Haja no Fuuin (Japan)(1987)(Sega).sms" size="262144" crc="b9fdf6d9"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="hangonaw" sourcefile="sms/d_sms.cpp">
+		<description>Hang-On &amp; Astro Warrior (USA)</description>
+		<year>1986</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Hang-On &amp; Astro Warrior (USA)(1986)(Sega).sms" size="131072" crc="1c5059f0"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="hangonsh" sourcefile="sms/d_sms.cpp">
+		<comment>Safari Hunt is a Light Phaser game</comment>
+		<description>Hang-On &amp; Safari Hunt (USA)</description>
+		<year>1986</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Hang-On &amp; Safari Hunt (USA)(1986)(Sega).sms" size="131072" crc="e167a561"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="hangonshp" cloneof="hangonsh" romof="hangonsh" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype, Safari Hunt is a Light Phaser game</comment>
+		<description>Hang-On &amp; Safari Hunt (USA, Prototype)</description>
+		<year>1986</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="Hang-On &amp; Safari Hunt (USA, Proto)(1986)(Sega).sms" size="131072" crc="a120b77f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2525,7 +2587,7 @@
 		<description>Hang-On (Euro, Brazil, Australia)</description>
 		<year>1985</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="hang-on (europe).bin" size="32768" crc="071b045e"/>
+		<rom name="Hang-On (Euro, Brazil, Australia)(1985)(Sega).sms" size="32768" crc="071b045e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2533,7 +2595,7 @@
 		<description>Hang-On (Euro, Brazil, Australia, Sega Card)</description>
 		<year>1985</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="hang-on (europe).bin" merge="hang-on (europe).bin" size="32768" crc="071b045e"/>
+		<rom name="hang-on (europe).bin" merge="Hang-On (Euro, Brazil, Australia)(1985)(Sega).sms" size="32768" crc="071b045e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2545,37 +2607,11 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="hangonaw" sourcefile="sms/d_sms.cpp">
-		<description>Hang-On and Astro Warrior (USA)</description>
-		<year>1986</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11125.ic1" size="131072" crc="1c5059f0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="hangonsh" sourcefile="sms/d_sms.cpp">
-		<comment>Safari Hunt is a Light Phaser game</comment>
-		<description>Hang-On and Safari Hunt (USA)</description>
-		<year>1986</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10137 w02.ic1" size="131072" crc="e167a561"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="hangonshp" cloneof="hangonsh" romof="hangonsh" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype, Safari Hunt is a Light Phaser game</comment>
-		<description>Hang-On and Safari Hunt (USA, Prototype)</description>
-		<year>1986</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="hang-on and safari hunt [proto].bin" size="131072" crc="a120b77f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="heavyw" cloneof="georgeko" romof="georgeko" sourcefile="sms/d_sms.cpp">
 		<description>Heavyweight Champ (Euro)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="heavyweight champ (europe).bin" size="262144" crc="fdab876a"/>
+		<rom name="Heavyweight Champ (Euro)(1991)(Sega).sms" size="262144" crc="fdab876a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2597,21 +2633,21 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="highscc" cloneof="highsc" romof="highsc" sourcefile="sms/d_sms.cpp">
+	<game name="highsce" cloneof="highsc" romof="highsc" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>High School! Kimengumi (Hack, Spanish v1.0)</description>
-		<year>2018</year>
-		<manufacturer>Wave</manufacturer>
-		<rom name="high school! kimengumi (jpn) - castellano v1.0.sms" size="131072" crc="f12a3bb5"/>
+		<description>High School! Kimengumi (Hack, English)</description>
+		<year>2005</year>
+		<manufacturer>SMS Power!</manufacturer>
+		<rom name="High School! Kimengumi T-Eng (2005)(SMS Power!).sms" size="131072" crc="8a296a3e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="highsce" cloneof="highsc" romof="highsc" sourcefile="sms/d_sms.cpp">
+	<game name="highscc" cloneof="highsc" romof="highsc" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>High School! Kimengumi (Japan) (Hack, English)</description>
-		<year>2005</year>
-		<manufacturer>SMS Power!</manufacturer>
-		<rom name="high school! kimengumi (t-eng1.00).sms" size="131072" crc="8a296a3e"/>
+		<description>High School! Kimengumi (Hack, Spanish)</description>
+		<year>2018</year>
+		<manufacturer>Wave</manufacturer>
+		<rom name="High School! Kimengumi T-Spa (2018)(Wave).sms" size="131072" crc="f12a3bb5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2619,7 +2655,7 @@
 		<description>High School! Kimengumi (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="high school! kimengumi (japan).bin" size="131072" crc="9eb1aa4f"/>
+		<rom name="High School! Kimengumi (Japan)(1986)(Sega).sms" size="131072" crc="9eb1aa4f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2627,7 +2663,7 @@
 		<description>Hokuto no Ken (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="hokuto no ken (japan).bin" size="131072" crc="24f5fe8c"/>
+		<rom name="Hokuto no Ken (Japan)(1986)(Sega).sms" size="131072" crc="24f5fe8c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2635,7 +2671,7 @@
 		<description>Hokuto no Ken (Taiwan)</description>
 		<year>198?</year>
 		<manufacturer>Aaronix</manufacturer>
-		<rom name="hokuto no ken (tw).bin" size="131072" crc="c4ab363d"/>
+		<rom name="Hokuto no Ken (Taiwan)(198x)(Aaronix).sms" size="131072" crc="c4ab363d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2643,7 +2679,7 @@
 		<description>Home Alone (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="home alone (europe).bin" size="262144" crc="c9dbf936"/>
+		<rom name="Home Alone (Euro)(1993)(Sega).sms" size="262144" crc="c9dbf936"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2750,10 +2786,19 @@
 	</game>
 	<game name="indycrusc" cloneof="indycrus" romof="indycrus" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Indiana Jones and the Last Crusade (Hack, Spanish v1.0)</description>
+		<description>Indiana Jones and the Last Crusade (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="indiana jones and the last crusade (euro, bra) - castellano v1.0.sms" size="262144" crc="e09b0b0e"/>
+		<rom name="Indiana Jones and the Last Crusade T-Spa (2018)(Wave).sms" size="262144" crc="e09b0b0e"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ironman" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Iron Man (HB)</description>
+		<year>2025</year>
+		<manufacturer>old_pirate</manufacturer>
+		<rom name="Iron Man (2025)(old_pirate).sms" size="507904" crc="d2f3fed6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2819,6 +2864,15 @@
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="mpr-13605 t35.ic1" size="262144" crc="0a9089e5"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="jumpjack" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Jumping Jackson (HB, v0.2)</description>
+		<year>2025</year>
+		<manufacturer>slogra</manufacturer>
+		<rom name="Jumping Jackson v0.2 (2025)(slogra).sms" size="180224" crc="4d970e83"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2923,10 +2977,10 @@
 	</game>
 	<game name="krustyfhc" cloneof="krustyfh" romof="krustyfh" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Krusty's Fun House (Hack, Spanish v1.0)</description>
+		<description>Krusty's Fun House (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="krusty's fun house (euro, bra) - castellano v1.0.sms" size="262144" crc="c7565a76"/>
+		<rom name="Krusty's Fun House T-Spa (2019)(Wave).sms" size="262144" crc="c7565a76"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3000,10 +3054,10 @@
 	</game>
 	<game name="legndillc" cloneof="legndill" romof="legndill" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Legend of Illusion Starring Mickey Mouse (Hack, Spanish v1.0)</description>
+		<description>Legend of Illusion Starring Mickey Mouse (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (bra)- castellano v1.0.sms" size="524288" crc="611f2597"/>
+		<rom name="Legend of Illusion Starring Mickey Mouse T-Spa (2017)(Wave).sms" size="524288" crc="611f2597"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3072,7 +3126,7 @@
 		<description>Lord of Sword (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="lord of sword (japan).bin" size="262144" crc="aa7d6f45"/>
+		<rom name="Lord of Sword (Japan)(1988)(Sega).sms" size="262144" crc="aa7d6f45"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3080,7 +3134,7 @@
 		<description>Lord of the Sword (Euro, USA, Brazil)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="lord of the sword (usa, europe).bin" size="262144" crc="e8511b08"/>
+		<rom name="Lord of the Sword (Euro, USA, Brazil)(1988)(Sega).sms" size="262144" crc="e8511b08"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3088,7 +3142,7 @@
 		<description>Loretta no Shouzou - Sherlock Holmes (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10517.ic2" size="131072" crc="323f357f"/>
+		<rom name="Loretta no Shouzou - Sherlock Holmes (Japan)(1987)(Sega).sms" size="131072" crc="323f357f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3105,7 +3159,7 @@
 		<description>Lucky Dime Caper Starring Donald Duck, The (Euro, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14358-f.ic1" size="262144" crc="a1710f13"/>
+		<rom name="Lucky Dime Caper Starring Donald Duck, The (Euro, Brazil)(1991)(Sega).sms" size="262144" crc="a1710f13"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3114,16 +3168,16 @@
 		<description>Lucky Dime Caper Starring Donald Duck, The (Euro, Prototype)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="lucky dime caper starring donald duck, the (europe) (beta).bin" size="262144" crc="7f6d0df6"/>
+		<rom name="Lucky Dime Caper Starring Donald Duck, The (Euro, Proto)(1991)(Sega).sms" size="262144" crc="7f6d0df6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="luckydimc" cloneof="luckydim" romof="luckydim" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Lucky Dime Caper Starring Donald Duck, The (Hack, Spanish v1.0)</description>
+		<description>Lucky Dime Caper Starring Donald Duck, The (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="the lucky dime caper starring donald duck (euro, bra) - castellano v1.0.sms" size="262144" crc="d285aefa"/>
+		<rom name="Lucky Dime Caper Starring Donald Duck, The T-Spa (2017)(Wave).sms" size="262144" crc="d285aefa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3136,11 +3190,20 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="lunarskirmish" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Lunar Skirmish (HB, v57)</description>
+		<year>2025</year>
+		<manufacturer>MikGames</manufacturer>
+		<rom name="Lunar Skirmish v57 (2025)(MikGames).sms" size="409600" crc="22a75492"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="mjsengok" sourcefile="sms/d_sms.cpp">
 		<description>Mahjong Sengoku Jidai (Japan, Hong Kong)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11193.ic1" size="131072" crc="bcfbfc67"/>
+		<rom name="Mahjong Sengoku Jidai (Japan, Hong Kong)(1987)(Sega).sms" size="131072" crc="bcfbfc67"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3149,7 +3212,7 @@
 		<description>Mahjong Sengoku Jidai (Japan, Prototype)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mahjong sengoku jidai (japan) (beta).bin" size="131072" crc="996b2a07"/>
+		<rom name="Mahjong Sengoku Jidai (Japan, Proto)(1987)(Sega).sms" size="131072" crc="996b2a07"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3175,7 +3238,7 @@
 		<description>Makai Retsuden (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10742.ic1" size="131072" crc="ca860451"/>
+		<rom name="Makai Retsuden (Japan)(1987)(Sega).sms" size="131072" crc="ca860451"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3183,7 +3246,7 @@
 		<description>Maou Golvellius (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="maou golvellius (japan).bin" size="262144" crc="bf0411ad"/>
+		<rom name="Maou Golvellius (Japan)(1988)(Sega).sms" size="262144" crc="bf0411ad"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3192,7 +3255,7 @@
 		<description>Maou Golvellius (Japan, Prototype)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="maou golvellius [proto] (jp).bin" size="262144" crc="21a21352"/>
+		<rom name="Maou Golvellius (Japan, Proto)(1988)(Sega).sms" size="262144" crc="21a21352"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3200,7 +3263,7 @@
 		<description>Marble Madness (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="marble madness (europe).bin" size="262144" crc="bf6f3e5f"/>
+		<rom name="Marble Madness (Euro)(1992)(Virgin Interactive).sms" size="262144" crc="bf6f3e5f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3209,7 +3272,7 @@
 		<description>Marksman Shooting and Trap Shooting (USA)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="marksman shooting and trap shooting (usa).bin" size="131072" crc="e8ea842c"/>
+		<rom name="Marksman Shooting and Trap Shooting (USA)(1986)(Sega).sms" size="131072" crc="e8ea842c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3218,7 +3281,7 @@
 		<description>Marksman Shooting and Trap Shooting and Safari Hunt (Euro, Brazil)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10157f.ic2" size="131072" crc="e8215c2e"/>
+		<rom name="Marksman Shooting and Trap Shooting and Safari Hunt (Euro, Brazil)(1986)(Sega).sms" size="131072" crc="e8215c2e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3235,7 +3298,7 @@
 		<description>Master of Darkness (Hack, Italian v1.2)</description>
 		<year>2016</year>
 		<manufacturer>Michele Di Somma</manufacturer>
-		<rom name="Master of Darkness (2016)(T-Ita v1.2)(Michele Di Somma).sms" size="262144" crc="83e3bc8e"/>
+		<rom name="Master of Darkness T-Ita v1.2 (2016)(Michele Di Somma).sms" size="262144" crc="83e3bc8e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3244,7 +3307,7 @@
 		<description>Master of Darkness (Hack, Spanish v1.2)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="Master of Darkness (2018)(T-Spa v1.2)(Wave).sms" size="262144" crc="56aff22c"/>
+		<rom name="Master of Darkness T-Spa v1.2 (2018)(Wave).sms" size="262144" crc="56aff22c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3309,7 +3372,7 @@
 		<description>Mick and Mack as the Global Gladiators (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="mpr-15510-f.ic1" size="262144" crc="b67ceb76"/>
+		<rom name="Mick and Mack as the Global Gladiators (Euro, Brazil)(1993)(Virgin Int.).sms" size="262144" crc="b67ceb76"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3325,7 +3388,7 @@
 		<description>Micro Machines (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="micro machines (europe).bin" size="262144" crc="a577ce46"/>
+		<rom name="Micro Machines (Euro)(1994)(Codemasters).sms" size="262144" crc="a577ce46"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3347,28 +3410,28 @@
 		<driver status="good"/>
 	</game>
 	<game name="miracle" sourcefile="sms/d_sms.cpp">
-		<description>Miracle Warriors - Seal of the Dark Lord (Euro, USA, Brazil)</description>
+		<description>Miracle Warriors: Seal of the Dark Lord (Euro, USA, Brazil)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="miracle warriors - seal of the dark lord (usa, europe).bin" size="262144" crc="0e333b6e"/>
+		<rom name="Miracle Warriors - Seal of the Dark Lord (Euro, USA, Brazil)(1987)(Sega).sms" size="262144" crc="0e333b6e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="miraclec" cloneof="miracle" romof="miracle" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Miracle Warriors - Seal of the Dark Lord (Hack, Spanish v1.0)</description>
+		<description>Miracle Warriors: Seal of the Dark Lord (Hack, Spanish)</description>
 		<year>2020</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="miracle warriors - seal of the dark lord (euro, usa, bra) - castellano v1.0.sms" size="262144" crc="7e3f6a4c"/>
+		<rom name="Miracle Warriors - Seal of the Dark Lord T-Spa (2020)(Wave).sms" size="262144" crc="7e3f6a4c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="miraclep" cloneof="miracle" romof="miracle" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Miracle Warriors - Seal of the Dark Lord (Prototype)</description>
+		<description>Miracle Warriors: Seal of the Dark Lord (Prototype)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="miracle warriors - seal of the dark lord (usa, europe) (beta).bin" size="262144" crc="301a59aa"/>
+		<rom name="Miracle Warriors: Seal of the Dark Lord (Proto)(1987)(Sega).sms" size="262144" crc="301a59aa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3377,7 +3440,7 @@
 		<description>Missile Defense 3-D (Euro, USA, Brazil)</description>
 		<year>19??</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10844 w29.ic1" size="131072" crc="fbe5cfbb"/>
+		<rom name="Missile Defense 3-D (Euro, USA, Brazil)(19xx)(Sega).sms" size="131072" crc="fbe5cfbb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3469,8 +3532,8 @@
 	<game name="mk" sourcefile="sms/d_sms.cpp">
 		<description>Mortal Kombat (Euro, Brazil)</description>
 		<year>1993</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="mpr-15757.ic1" size="524288" crc="302dc686"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Mortal Kombat (Euro, Brazil)(1993)(Arena).sms" size="524288" crc="302dc686"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3478,7 +3541,7 @@
 		<description>Mortal Kombat 3 (Brazil)</description>
 		<year>1996</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="mortal kombat 3 (brazil).bin" size="524288" crc="395ae757"/>
+		<rom name="Mortal Kombat 3 (Brazil)(1996)(Tec Toy).sms" size="524288" crc="395ae757"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3486,7 +3549,7 @@
 		<description>Mortal Kombat II (Euro, Brazil)</description>
 		<year>1994</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mortal kombat ii (europe).bin" size="524288" crc="2663bf18"/>
+		<rom name="Mortal Kombat II (Euro, Brazil)(1994)(Acclaim).sms" size="524288" crc="2663bf18"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3504,6 +3567,15 @@
 		<year>1991</year>
 		<manufacturer>Tengen</manufacturer>
 		<rom name="ms. pac-man (europe).bin" size="131072" crc="3cd816c6"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mspacmancl" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Ms. Pac-Man Classic (HB, v1.02)</description>
+		<year>2024</year>
+		<manufacturer>xfixium</manufacturer>
+		<rom name="Ms. Pac-Man Classic v1.02 (2024)(xfixium).sms" size="81920" crc="a70051a0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3569,7 +3641,7 @@
 		<description>New Boggle Boggle 2 (Korea)</description>
 		<year>1989</year>
 		<manufacturer>Zemina</manufacturer>
-		<rom name="new boggle boggle (kr).bin" size="32768" crc="dbbf4dd1"/>
+		<rom name="New Boggle Boggle 2 (Korea)(1989)(Zemina).sms" size="32768" crc="dbbf4dd1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3660,7 +3732,7 @@
 		<description>Ottifants, The (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ottifants, the (europe) (en,fr,de,es,it).bin" size="262144" crc="82ef2a7d"/>
+		<rom name="Ottifants, The (Euro, Brazil)(1993)(Sega).sms" size="262144" crc="82ef2a7d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3694,6 +3766,15 @@
 		<year>1991</year>
 		<manufacturer>U.S. Gold</manufacturer>
 		<rom name="Out Run Europa (Euro, Brazil)(1991)(U.S. Gold).sms" size="262144" crc="3932adbc"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="pacmansms" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Pac-Man SMS (HB, v0.95)</description>
+		<year>2025</year>
+		<manufacturer>LackofTrack</manufacturer>
+		<rom name="Pac-Man v0.95 (2025)(LackofTrack).sms" size="49152" crc="188bbd11"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3776,7 +3857,7 @@
 		<description>PGA Tour Golf (Euro)</description>
 		<year>1991</year>
 		<manufacturer>Tengen</manufacturer>
-		<rom name="pga tour golf (europe).bin" size="262144" crc="95b9ea95"/>
+		<rom name="PGA Tour Golf (Euro)(1991)(Tengen).sms" size="262144" crc="95b9ea95"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3809,7 +3890,7 @@
 		<description>Phantasy Star (Japan) (Hack, English v2.00)</description>
 		<year>2020</year>
 		<manufacturer>Sega - SMS Power!</manufacturer>
-		<rom name="phantasy star (j) [t-eng2.00].sms" size="524288" crc="a04cf71a"/>
+		<rom name="Phantasy Star (Japan)(T-Eng v2.00)(2020)(SMS Power!).sms" size="524288" crc="a04cf71a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3913,17 +3994,17 @@
 	</game>
 	<game name="predatr2b" cloneof="predatr2" romof="predatr2" sourcefile="sms/d_sms.cpp">
 		<description>Predator 2 (Brazil)</description>
-		<year>1992?</year>
+		<year>199?</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="predator 2 (br).bin" size="262144" crc="2b54c82b"/>
+		<rom name="Predator 2 (Brazil)(199x)(Tec Toy).sms" size="262144" crc="2b54c82b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="predatr2" sourcefile="sms/d_sms.cpp">
 		<description>Predator 2 (Euro)</description>
 		<year>1992</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="predator 2 (europe).bin" size="262144" crc="0047b615"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Predator 2 (Euro)(1992)(Arena).sms" size="262144" crc="0047b615"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3948,7 +4029,7 @@
 		<description>Pro Wrestling (Euro, USA, Brazil)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10154f.ic1" size="131072" crc="fbde42d3"/>
+		<rom name="Pro Wrestling (Euro, USA, Brazil)(1986)(Sega).sms" size="131072" crc="fbde42d3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3956,7 +4037,7 @@
 		<description>Pro Yakyuu Pennant Race, The (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-10749.ic1" size="131072" crc="da9be8f0"/>
+		<rom name="Pro Yakyuu Pennant Race, The (Japan)(1987)(Sega).sms" size="131072" crc="da9be8f0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4133,7 +4214,7 @@
 		<description>Rambo III (Hack, FM Mod)</description>
 		<year>2018</year>
 		<manufacturer>Sega - fatnick</manufacturer>
-		<rom name="Rambo III (FM-Mod)(2018)(fatnick).sms" size="262144" crc="c2073674"/>
+		<rom name="Rambo III FM-Mod (2018)(fatnick).sms" size="262144" crc="c2073674"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4311,7 +4392,7 @@
 		<description>SDI (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11191.ic1" size="131072" crc="1de2c2d0"/>
+		<rom name="SDI (Japan)(1987)(Sega).sms" size="131072" crc="1de2c2d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4319,7 +4400,7 @@
 		<description>Secret Command (Euro)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="secret command (europe).bin" size="131072" crc="00529114"/>
+		<rom name="Secret Command (Euro)(1986)(Sega).sms" size="131072" crc="00529114"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4327,7 +4408,7 @@
 		<description>Sega Chess (Euro, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sega chess (europe).bin" size="262144" crc="a8061aef"/>
+		<rom name="Sega Chess (Euro, Brazil)(1991)(Sega).sms" size="262144" crc="a8061aef"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4336,7 +4417,7 @@
 		<description>Sega Graphic Board (Japan, Prototype v2.0)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="graphic board v2.0.bin" size="32768" crc="276aa542"/>
+		<rom name="Sega Graphic Board (Japan, Proto v2.0)(1987)(Sega).sms" size="32768" crc="276aa542"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4344,7 +4425,7 @@
 		<description>Sega World Tournament Golf (Euro, Brazil, Korea)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sega world tournament golf (europe).bin" size="262144" crc="296879dd"/>
+		<rom name="Sega World Tournament Golf (Euro, Brazil, Korea)(1993)(Sega).sms" size="262144" crc="296879dd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4357,10 +4438,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="seishun1" cloneof="myhero" romof="myhero" sourcefile="sms/d_sms.cpp">
-		<description>Seishun Scandal (Japan, Pirate?)</description>
+		<description>Seishun Scandal (Japan, Pirate)</description>
 		<year>1986</year>
-		<manufacturer>pirate</manufacturer>
-		<rom name="seishyun scandal (j) [hack].bin" size="32768" crc="bcd91d78"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Seishun Scandal (Japan, Pirate)(1986).sms" size="32768" crc="bcd91d78"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4368,7 +4449,7 @@
 		<description>Sensible Soccer (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sony Imagesoft</manufacturer>
-		<rom name="sensible soccer (europe).bin" size="131072" crc="f8176918"/>
+		<rom name="Sensible Soccer (Euro)(1993)(Imagesoft).sms" size="131072" crc="f8176918"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4376,7 +4457,7 @@
 		<description>Shadow Dancer (Euro, Brazil, Korea)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shadow dancer (europe).bin" size="524288" crc="3793c01a"/>
+		<rom name="Shadow Dancer (Euro, Brazil, Korea)(1991)(Sega).sms" size="524288" crc="3793c01a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4401,7 +4482,7 @@
 		<description>Shanghai (Euro, USA)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shanghai (usa, europe).bin" size="131072" crc="aab67ec3"/>
+		<rom name="Shanghai (Euro, USA)(1988)(Sega).sms" size="131072" crc="aab67ec3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4410,7 +4491,7 @@
 		<description>Shanghai (Prototype)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shanghai (usa, europe) (beta).bin" size="131072" crc="d5d25156"/>
+		<rom name="Shanghai (Proto)(1988)(Sega).sms" size="131072" crc="d5d25156"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4444,7 +4525,7 @@
 		<description>Show do Milhao (Brazil, Prototype)</description>
 		<year>2003</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="milhao.bin" size="131072" crc="58423688"/>
+		<rom name="Show do Milhao (Brazil, Proto)(2003)(Tec Toy).sms" size="131072" crc="58423688"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4457,14 +4538,6 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="bartvssm" sourcefile="sms/d_sms.cpp">
-		<description>Simpsons, The - Bart vs. The Space Mutants (Euro, Brazil)</description>
-		<year>1992</year>
-		<manufacturer>Flying Edge</manufacturer>
-		<rom name="simpsons, the - bart vs. the space mutants (europe).bin" size="262144" crc="d1cc08ee"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="bartvssmc" cloneof="bartvssm" romof="bartvssm" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
 		<description>Simpsons, The - Bart vs. The Space Mutants (Hack, Spanish v1.0)</description>
@@ -4474,20 +4547,28 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="bartvsw" sourcefile="sms/d_sms.cpp">
-		<description>Simpsons, The - Bart vs. The World (Euro, Brazil)</description>
-		<year>1993</year>
-		<manufacturer>Flying Edge</manufacturer>
-		<rom name="mpr-15988.ic1" size="262144" crc="f6b2370a"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="bartvswc" cloneof="bartvsw" romof="bartvsw" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
 		<description>Simpsons, The - Bart vs. The World (Hack, Spanish v1.0)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
 		<rom name="the simpsons - bart vs. the world (euro, bra) - castellano v1.0.sms" size="262144" crc="2d0b87cf"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="bartvssm" sourcefile="sms/d_sms.cpp">
+		<description>Simpsons, The: Bart vs. The Space Mutants (Euro, Brazil)</description>
+		<year>1992</year>
+		<manufacturer>Flying Edge</manufacturer>
+		<rom name="Simpsons, The - Bart vs. The Space Mutants (Euro, Brazil)(1992)(Flying Edge).sms" size="262144" crc="d1cc08ee"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="bartvsw" sourcefile="sms/d_sms.cpp">
+		<description>Simpsons, The: Bart vs. The World (Euro, Brazil)</description>
+		<year>1993</year>
+		<manufacturer>Flying Edge</manufacturer>
+		<rom name="Simpsons, The - Bart vs. The World (Euro, Brazil)(1993)(Flying Edge).sms" size="262144" crc="f6b2370a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4530,7 +4611,7 @@
 		<description>Sky Jaguar (Korea)</description>
 		<year>199?</year>
 		<manufacturer>Samsung</manufacturer>
-		<rom name="sky jaguar (kr).bin" size="32768" crc="5b8e65e4"/>
+		<rom name="Sky Jaguar (Korea)(199x)(Samsung).sms" size="32768" crc="5b8e65e4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4639,7 +4720,7 @@
 		<description>Sonic Blast (Brazil)</description>
 		<year>1997</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="mpr-19947-s.u2" size="1048576" crc="96b3f29e"/>
+		<rom name="Sonic Blast (Brazil)(1997)(Tec Toy).sms" size="1048576" crc="96b3f29e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4656,7 +4737,7 @@
 		<description>Sonic The Hedgehog (Euro, USA, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14271-f.ic1" size="262144" crc="b519e833"/>
+		<rom name="Sonic The Hedgehog (Euro, USA, Brazil)(1991)(Sega).sms" size="262144" crc="b519e833"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4665,7 +4746,7 @@
 		<description>Sonic The Hedgehog (Hack, FM Mod v1.02)</description>
 		<year>2014</year>
 		<manufacturer>Valleybell</manufacturer>
-		<rom name="Sonic1SMS_FM_v102.sms" size="262144" crc="7c077b38"/>
+		<rom name="Sonic The Hedgehog FM Mod v1.02 (2014)(Valleybell.sms" size="262144" crc="7c077b38"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4673,7 +4754,7 @@
 		<description>Sonic The Hedgehog 2 (Euro, Brazil, Korea, v1.1)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic the hedgehog 2 (europe) (v1.1).bin" size="524288" crc="d6f2bfca"/>
+		<rom name="Sonic The Hedgehog 2 (Euro, Brazil, Korea, v1.1)(1992)(Sega).sms" size="524288" crc="d6f2bfca"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4681,7 +4762,7 @@
 		<description>Sonic The Hedgehog 2 (Euro, Brazil, v0)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15159.ic1" size="524288" crc="5b3b922c"/>
+		<rom name="Sonic The Hedgehog 2 (Euro, Brazil, v0)(1992)(Sega).sms" size="524288" crc="5b3b922c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4689,7 +4770,7 @@
 		<description>Sonic The Hedgehog Chaos (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15926-f.ic1" size="524288" crc="aedf3bdf"/>
+		<rom name="Sonic The Hedgehog Chaos (Euro, Brazil)(1993)(Sega).sms" size="524288" crc="aedf3bdf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4697,8 +4778,8 @@
 		<comment>Hack, YM2413 FM sound chip supported</comment>
 		<description>Sonic The Hedgehog Improvement (Hack, v1.31) + (FM Mod v1.02)</description>
 		<year>2020</year>
-		<manufacturer>Penta Penguin - Valleybell</manufacturer>
-		<rom name="Sonic_The_Hedgehog_Enhanced1.31_FM1.02.sms" size="262144" crc="850b9554"/>
+		<manufacturer>Penta Penguin, Valleybell</manufacturer>
+		<rom name="Sonic The Hedgehog Improvement (2020)(Penta Penguin, Valleybell).sms" size="262144" crc="850b9554"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4715,7 +4796,7 @@
 		<description>Sonic's Edusoft (Prototype)</description>
 		<year>19??</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic's edusoft (unknown) (proto).bin" size="262144" crc="d9096263"/>
+		<rom name="Sonic's Edusoft (Proto)(19xx)(Sega).sms" size="262144" crc="d9096263"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4733,7 +4814,7 @@
 		<description>Space Gun (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15063.ic1" size="524288" crc="a908cff5"/>
+		<rom name="Space Gun (Euro)(1992)(Sega).sms" size="524288" crc="a908cff5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4741,7 +4822,7 @@
 		<description>Space Harrier (Euro)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11071.ic1" size="262144" crc="ca1d3752"/>
+		<rom name="Space Harrier (Euro)(1986)(Sega).sms" size="262144" crc="ca1d3752"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4749,7 +4830,7 @@
 		<description>Space Harrier (Japan, USA)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="space harrier (japan).bin" size="262144" crc="beddf80e"/>
+		<rom name="Space Harrier (Japan, USA)(1986)(Sega).sms" size="262144" crc="beddf80e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4757,7 +4838,7 @@
 		<description>Space Harrier 3-D (Euro, USA, Brazil)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-11564.ic1" size="262144" crc="6bd5c2bf"/>
+		<rom name="Space Harrier 3-D (Euro, USA, Brazil)(1988)(Sega).sms" size="262144" crc="6bd5c2bf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4765,7 +4846,7 @@
 		<description>Space Harrier 3D (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="space harrier 3d (japan).bin" size="262144" crc="156948f9"/>
+		<rom name="Space Harrier 3D (Japan)(1988)(Sega).sms" size="262144" crc="156948f9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4783,7 +4864,7 @@
 		<description>Speccies 2, The (HB)</description>
 		<year>2020</year>
 		<manufacturer>Tardis Remakes</manufacturer>
-		<rom name="The Speccies 2 (2020)(Tardis Remakes).sms" size="32768" crc="4145d432"/>
+		<rom name="Speccies 2, The (2020)(Tardis Remakes).sms" size="32768" crc="4145d432"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4807,8 +4888,8 @@
 	<game name="speedbl" sourcefile="sms/d_sms.cpp">
 		<description>Speedball (Image Works) (Euro)</description>
 		<year>1990</year>
-		<manufacturer>Image Works</manufacturer>
-		<rom name="speedball (europe) (mirrorsoft).bin" size="131072" crc="a57cad18"/>
+		<manufacturer>Mirrorsoft - Image Works</manufacturer>
+		<rom name="Speedball (Euro)(1990)(Mirrorsoft).sms" size="131072" crc="a57cad18"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4816,7 +4897,7 @@
 		<description>Speedball (Virgin) (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="speedball (europe) (virgin).bin" size="131072" crc="5ccc1a65"/>
+		<rom name="Speedball (Euro)(1992)(Virgin Interactive).sms" size="131072" crc="5ccc1a65"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4824,7 +4905,7 @@
 		<description>Speedball 2 (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="speedball 2 (europe).bin" size="262144" crc="0c7366a0"/>
+		<rom name="Speedball 2 (Euro)(1992)(Virgin Interactive).sms" size="262144" crc="0c7366a0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4832,7 +4913,7 @@
 		<description>SpellCaster (Euro, USA, Brazil)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-12532-t.ic2" size="524288" crc="4752cae7"/>
+		<rom name="SpellCaster (Euro, USA, Brazil)(1988)(Sega).sms" size="524288" crc="4752cae7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4849,7 +4930,7 @@
 		<description>Spider-Man - Return of the Sinister Six (Euro, Brazil)</description>
 		<year>1992</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="spider-man - return of the sinister six (europe).bin" size="262144" crc="ebe45388"/>
+		<rom name="Spider-Man - Return of the Sinister Six (Euro, Brazil)(1992)(Flying Edge).sms" size="262144" crc="ebe45388"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4857,7 +4938,7 @@
 		<description>Spider-Man vs. The Kingpin (Euro, USA, Brazil)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13949 t42.ic1" size="262144" crc="908ff25c"/>
+		<rom name="Spider-Man vs. The Kingpin (Euro, USA, Brazil)(1990)(Sega).sms" size="262144" crc="908ff25c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4865,7 +4946,7 @@
 		<description>Sports Pad Football (USA)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports pad football (usa).bin" size="131072" crc="e42e4998"/>
+		<rom name="Sports Pad Football (USA)(1987)(Sega).sms" size="131072" crc="e42e4998"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4873,7 +4954,7 @@
 		<description>Sports Pad Soccer (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports pad soccer (japan).bin" size="131072" crc="41c948bf"/>
+		<rom name="Sports Pad Soccer (Japan)(1988)(Sega).sms" size="131072" crc="41c948bf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4881,7 +4962,7 @@
 		<description>Spy vs Spy (Euro, USA, Brazil)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="spy vs. spy (usa, europe).bin" size="32768" crc="78d7faab"/>
+		<rom name="Spy vs Spy (Euro, USA, Brazil)(1986)(Sega).sms" size="32768" crc="78d7faab"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4889,7 +4970,7 @@
 		<description>Spy vs Spy (Euro, USA, Brazil, Sega Card)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="spy vs. spy (usa, europe).bin" merge="spy vs. spy (usa, europe).bin" size="32768" crc="78d7faab"/>
+		<rom name="Spy vs Spy (Euro, USA, Brazil, Sega Card)(1986)(Sega).bin" merge="Spy vs Spy (Euro, USA, Brazil)(1986)(Sega).sms" size="32768" crc="78d7faab"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4906,15 +4987,15 @@
 		<description>Spy vs Spy (Japan, MyCard)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="spy vs spy (japan).bin" size="32768" crc="d41b9a08"/>
+		<rom name="Spy vs Spy (Japan, MyCard)(1986)(Sega).bin" size="32768" crc="d41b9a08"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="spyvsspyj1" cloneof="spyvsspy" romof="spyvsspy" sourcefile="sms/d_sms.cpp">
-		<description>Spy vs Spy (Japan, Pirate?)</description>
+		<description>Spy vs Spy (Japan, Pirate)</description>
 		<year>1986</year>
-		<manufacturer>pirate</manufacturer>
-		<rom name="spy vs. spy (j) [hack].bin" size="32768" crc="a71bc542"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Spy vs Spy (Japan, Pirate)(1986).sms" size="32768" crc="a71bc542"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4922,15 +5003,15 @@
 		<description>Spy vs Spy (Korea)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="spy vs spy (japan).bin" size="32768" crc="d41b9a08"/>
+		<rom name="Spy vs Spy (Korea)(1986)(Sega).sms" size="32768" crc="d41b9a08"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="spyvsspytw" cloneof="spyvsspy" romof="spyvsspy" sourcefile="sms/d_sms.cpp">
 		<description>Spy vs Spy (Taiwan)</description>
-		<year>1986?</year>
+		<year>198?</year>
 		<manufacturer>Aaronix</manufacturer>
-		<rom name="spy vs spy (tw).bin" size="32768" crc="689f58a2"/>
+		<rom name="Spy vs Spy (Taiwan)(198x)(Aaronix).sms" size="32768" crc="689f58a2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4938,7 +5019,7 @@
 		<description>Spy vs Spy (USA, Display Unit Sample)</description>
 		<year>1986</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="spy vs. spy (u) (display-unit cart) [!].bin" size="262144" crc="b87e1b2b"/>
+		<rom name="Spy vs Spy (USA, Display Unit Sample)(1986)(Sega).sms" size="262144" crc="b87e1b2b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4954,7 +5035,7 @@
 		<description>Street Fighter II (Brazil)</description>
 		<year>1997</year>
 		<manufacturer>Tec Toy</manufacturer>
-		<rom name="street fighter ii (brazil).bin" size="819200" crc="0f8287ec"/>
+		<rom name="Street Fighter II (Brazil)(1997)(Tec Toy).sms" size="819200" crc="0f8287ec"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4970,7 +5051,7 @@
 		<description>Streets of Rage (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="streets of rage (europe).bin" size="524288" crc="4ab3790f"/>
+		<rom name="Streets of Rage (Euro, Brazil)(1993)(Sega).sms" size="524288" crc="4ab3790f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4978,7 +5059,7 @@
 		<description>Streets of Rage II (Euro, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="streets of rage ii (europe).bin" size="524288" crc="04e9c089"/>
+		<rom name="Streets of Rage II (Euro, Brazil)(1993)(Sega).sms" size="524288" crc="04e9c089"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5088,7 +5169,7 @@
 		<description>Summer Games (Hack, FM Mod)</description>
 		<year>2018</year>
 		<manufacturer>Sega - fatnick</manufacturer>
-		<rom name="Summer Games (FM-Mod)(2018)(fatnick).sms" size="131072" crc="bbae488d"/>
+		<rom name="Summer Games FM Mod (2018)(fatnick).sms" size="131072" crc="bbae488d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5152,7 +5233,7 @@
 		<description>Super Bubble Bobble (Korea)</description>
 		<year>1989</year>
 		<manufacturer>Zemina</manufacturer>
-		<rom name="super bubble bobble (kr).bin" size="32768" crc="22c09cfd"/>
+		<rom name="Super Bubble Bobble (Korea)(1989)(Zemina).sms" size="32768" crc="22c09cfd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5219,7 +5300,7 @@
 		<description>Super Racing (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="Super Racing (Japan)(1988)(Sega).bin" size="262144" crc="7e0ef8cb"/>
+		<rom name="Super Racing (Japan)(1988)(Sega).sms" size="262144" crc="7e0ef8cb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5312,7 +5393,7 @@
 		<description>T2 - The Arcade Game (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Arena Entertainment</manufacturer>
-		<rom name="T2 - The Arcade Game (Euro)(1993)(Arena Ent.).sms" size="524288" crc="93ca8152"/>
+		<rom name="T2 - The Arcade Game (Euro)(1993)(Arena).sms" size="524288" crc="93ca8152"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5409,9 +5490,9 @@
 		<driver status="good"/>
 	</game>
 	<game name="teddyboyj1" cloneof="teddyboy" romof="teddyboy" sourcefile="sms/d_sms.cpp">
-		<description>Teddy Boy Blues (Japan, Pirate?)</description>
+		<description>Teddy Boy Blues (Japan, Pirate)</description>
 		<year>1985</year>
-		<manufacturer>Sega?</manufacturer>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="Teddy Boy Blues (Japan, Pirate)(1985).sms" size="32768" crc="9dfa67ee"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -5451,10 +5532,10 @@
 	</game>
 	<game name="term2c" cloneof="term2" romof="term2" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Terminator 2 - Judgment Day (Hack, Spanish v1.0)</description>
+		<description>Terminator 2 - Judgment Day (Hack, Spanish)</description>
 		<year>2016</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="terminator 2 - judgment day (euro) - castellano v1,0.sms" size="262144" crc="87a3290f"/>
+		<rom name="Terminator 2 - Judgment Day T-Spa (2016)(Wave).sms" size="262144" crc="87a3290f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5476,10 +5557,10 @@
 	</game>
 	<game name="termntrc" cloneof="termntr" romof="termntr" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Terminator, The (Hack, Spanish v1.0)</description>
+		<description>Terminator, The (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="the terminator (euro) - castellano v1,0.sms" size="262144" crc="cea55b21"/>
+		<rom name="Terminator, The T-Spa (2017)(Wave).sms" size="262144" crc="cea55b21"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5623,10 +5704,10 @@
 	</game>
 	<game name="tomjermvc" cloneof="tomjermv" romof="tomjermv" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Tom and Jerry - The Movie (Hack, Spanish v1.0)</description>
+		<description>Tom and Jerry - The Movie (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="tom and jerry - the movie (euro, bra) - castellano v1,0.sms" size="262144" crc="8f549d4a"/>
+		<rom name="Tom and Jerry - The Movie T-Spa (2018)(Wave).sms" size="262144" crc="8f549d4a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5757,6 +5838,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="ultdungesc" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Ultimate Dungeon Escape (HB, v0.9)</description>
+		<year>2025</year>
+		<manufacturer>tibone, Cyrus, Revo</manufacturer>
+		<rom name="Ultimate Dungeon Escape v0.9 (2025)(tibone, Cyrus, Revo).sms" size="32768" crc="c75b7e8b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="ultsoccr" sourcefile="sms/d_sms.cpp">
 		<description>Ultimate Soccer (Euro, Brazil)</description>
 		<year>1993</year>
@@ -5877,6 +5967,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="whereisitxm24" cloneof="whereisite" romof="whereisite" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Where Is It ? XMAS 2024 Edition (HB)</description>
+		<year>2024</year>
+		<manufacturer>Ricco59</manufacturer>
+		<rom name="Where Is It - XMAS 2024 Edition (2024)(Ricco59).sms" size="81920" crc="76109046"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="wimbled" sourcefile="sms/d_sms.cpp">
 		<description>Wimbledon (Euro)</description>
 		<year>1992</year>
@@ -5897,7 +5996,7 @@
 		<comment>Homebrew</comment>
 		<description>Wing Warriors (HB, v1.00 fix)</description>
 		<year>2020-24</year>
-		<manufacturer>Kitmaker</manufacturer>
+		<manufacturer>Kitmaker Entertainment</manufacturer>
 		<rom name="Wing Warriors v1.00 fix (2020-24)(Kitmaker Ent.).sms" size="131072" crc="11d3d834"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -5947,7 +6046,7 @@
 		<description>Wonder Boy (Hack, Spanish v1.0)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="wonder boy (euro, usa, bra, v1) - castellano v1,0.sms" size="131072" crc="ce62c859"/>
+		<rom name="Wonder Boy T-Spa (2018)(Wave).sms" size="131072" crc="ce62c859"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5964,16 +6063,16 @@
 		<description>Wonder Boy III - The Dragon's Trap (Hack, FM Mod)</description>
 		<year>1999</year>
 		<manufacturer>Sega - Bock</manufacturer>
-		<rom name="Wonder Boy III - The Dragon's Trap (FM Mod)(1999)(Bock).sms" size="262144" crc="9442cfff"/>
+		<rom name="Wonder Boy III - The Dragon's Trap FM Mod (1999)(Bock).sms" size="262144" crc="9442cfff"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="wboy3c" cloneof="wboy3" romof="wboy3" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Wonder Boy III - The Dragon's Trap (Hack, Spanish v1.0)</description>
+		<description>Wonder Boy III - The Dragon's Trap (Hack, Spanish)</description>
 		<year>2017</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="wonder boy iii - the dragon's trap (euro, usa, kor) - castellano v1,0.sms" size="262144" crc="fed045bf"/>
+		<rom name="Wonder Boy III - The Dragon's Trap (Hack, Spanish)(2017)(Wave).sms" size="262144" crc="fed045bf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5986,7 +6085,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="wboymlnda" cloneof="wboymlnd" romof="wboymlnd" sourcefile="sms/d_sms.cpp">
-		<description>Wonder Boy in Monster Land (Euro, USA, Hacked?)</description>
+		<description>Wonder Boy in Monster Land (Euro, USA, Hacked)</description>
 		<year>1988</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Wonder Boy in Monster Land (Euro, USA, Hacked)(1988)(Sega).sms" size="262144" crc="7522cf0a"/>
@@ -6021,10 +6120,10 @@
 	</game>
 	<game name="wboymwldc" cloneof="wboymwld" romof="wboymwld" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Wonder Boy in Monster World (Hack, Spanish v1.0)</description>
+		<description>Wonder Boy in Monster World (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="Wonder Boy in Monster World (Euro, Kor) - Castellano v1,0.sms" size="524288" crc="db47ff25"/>
+		<rom name="Wonder Boy in Monster World T-Spa (2018)(Wave).sms" size="524288" crc="db47ff25"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6161,8 +6260,17 @@
 	<game name="xyzolog" sourcefile="sms/d_sms.cpp">
 		<description>Xyzolog (Korea)</description>
 		<year>198?</year>
-		<manufacturer>Taito?</manufacturer>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="Xyzolog (Korea)(198x).sms" size="49152" crc="565c799f"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="yokaininja" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Yokai Ninja (HB, v1.02)</description>
+		<year>2025</year>
+		<manufacturer>Ichigo Bankai, RushJet1</manufacturer>
+		<rom name="Yokai Ninja v1.02 (2025)(Ichigo Bankai, RushJet1).sms" size="262144" crc="f69f4004"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6187,7 +6295,7 @@
 		<description>Ys - The Vanished Omens (Hack, FM Mod v1.2)</description>
 		<year>2009</year>
 		<manufacturer>Sega - SSTranslations</manufacturer>
-		<rom name="Ys - The Vanished Omens v1.2 (FM Mod)(2009)(SSTranslations).sms" size="262144" crc="7ed5dca2"/>
+		<rom name="Ys - The Vanished Omens FM Mod v1.2 (2009)(SSTranslations).sms" size="262144" crc="7ed5dca2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6212,7 +6320,7 @@
 		<description>Zaxxon 3-D (World, Prototype)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="Zaxxon 3-D (World, beta)(1987)(Sega).sms" size="262144" crc="bba74147"/>
+		<rom name="Zaxxon 3-D (World, Proto)(1987)(Sega).sms" size="262144" crc="bba74147"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

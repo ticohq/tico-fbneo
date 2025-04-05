@@ -16,7 +16,7 @@
 		<description>5 in 1 Funpak (USA)</description>
 		<year>1994</year>
 		<manufacturer>Interplay</manufacturer>
-		<rom name="5 in 1 funpak (usa).bin" size="262144" crc="f85a8ce8"/>
+		<rom name="5 in 1 Funpak (USA)(1994)(Interplay).gg" size="262144" crc="f85a8ce8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -24,7 +24,7 @@
 		<description>Aa Harimanada (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aa harimanada (japan).bin" size="524288" crc="1d17d2a0"/>
+		<rom name="Aa Harimanada (Japan)(1993)(Sega).gg" size="524288" crc="1d17d2a0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -32,7 +32,7 @@
 		<description>Addams Family, The (World)</description>
 		<year>1993</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="mpr-16234-f.ic1" size="262144" crc="1d01f999"/>
+		<rom name="Addams Family, The (World)(1993)(Flying Edge).gg" size="262144" crc="1d01f999"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -40,7 +40,7 @@
 		<description>Adventures of Batman and Robin, The (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="adventures of batman and robin, the (usa, europe).bin" size="524288" crc="bb4f23ff"/>
+		<rom name="Adventures of Batman and Robin, The (Euro, USA)(1995)(Sega).gg" size="524288" crc="bb4f23ff"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -48,7 +48,7 @@
 		<description>Aerial Assault (Japan, v1.1)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aerial assault (japan) (v1.1).bin" size="131072" crc="04fe6dde"/>
+		<rom name="Aerial Assault (Japan, v1.1)(1992)(Sega).gg" size="131072" crc="04fe6dde"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -56,7 +56,7 @@
 		<description>Aerial Assault (World, v0)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aerial assault (world).bin" size="131072" crc="3e549b7a"/>
+		<rom name="Aerial Assault (World, v0)(1992)(Sega).gg" size="131072" crc="3e549b7a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -71,8 +71,8 @@
 	<game name="alien3" sourcefile="sms/d_sms.cpp">
 		<description>Alien 3 (Euro, USA)</description>
 		<year>1992</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="alien 3 (usa, europe).bin" size="262144" crc="11a68c08"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Alien 3 (Euro, USA)(1992)(Arena).gg" size="262144" crc="11a68c08"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -80,7 +80,7 @@
 		<description>Alien 3 (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="alien 3 (jp).bin" size="262144" crc="06f6eebb"/>
+		<rom name="Alien 3 (Japan)(1992)(Acclaim).gg" size="262144" crc="06f6eebb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -88,7 +88,7 @@
 		<description>Alien Syndrome (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>SIMS Co. - Sega</manufacturer>
-		<rom name="alien syndrome (usa, europe).bin" size="131072" crc="bb5e10e0"/>
+		<rom name="Alien Syndrome (Euro, USA)(1992)(SIMS Co. - Sega).gg" size="131072" crc="bb5e10e0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -96,7 +96,7 @@
 		<description>Alien Syndrome (Japan)</description>
 		<year>1992</year>
 		<manufacturer>SIMS Co. - Sega</manufacturer>
-		<rom name="alien syndrome (japan).bin" size="131072" crc="ffe4ed47"/>
+		<rom name="Alien Syndrome (Japan)(1992)(SIMS Co. - Sega).gg" size="131072" crc="ffe4ed47"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -104,7 +104,7 @@
 		<description>Andre Agassi Tennis (USA)</description>
 		<year>1993</year>
 		<manufacturer>TecMagik</manufacturer>
-		<rom name="andre agassi tennis (usa).bin" size="262144" crc="46c9fa3e"/>
+		<rom name="Andre Agassi Tennis (USA)(1993)(TecMagik).gg" size="262144" crc="46c9fa3e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -112,7 +112,7 @@
 		<description>Arcade Classics (USA)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="arcade classics (usa).bin" size="262144" crc="3deca813"/>
+		<rom name="Arcade Classics (USA)(1996)(Sega).gg" size="262144" crc="3deca813"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -519,10 +519,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="berlin" sourcefile="sms/d_sms.cpp">
-		<description>Berlin no Kabe - The Berlin Wall (Japan)</description>
+		<description>Berlin no Kabe ~ The Berlin Wall (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Kaneko</manufacturer>
-		<rom name="berlin no kabe (japan).bin" size="262144" crc="325b1797"/>
+		<rom name="Berlin no Kabe - The Berlin Wall (Japan)(1991)(Kaneko).gg" size="262144" crc="325b1797"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -540,7 +540,7 @@
 		<description>Bishoujo Senshi Sailor Moon S (Hack, English v1.1)</description>
 		<year>2019</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="bishoujo senshi sailor moon s (t-eng1.1).gg" size="1048576" crc="a9a6f271"/>
+		<rom name="Bishoujo Senshi Sailor Moon S T-Eng v1.1 (2019)(Supper).gg" size="1048576" crc="a9a6f271"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -548,7 +548,7 @@
 		<description>Bishoujo Senshi Sailor Moon S (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Bandai</manufacturer>
-		<rom name="mpr-17715.ic1" size="524288" crc="fe7374d2"/>
+		<rom name="Bishoujo Senshi Sailor Moon S (Japan)(1995)(Bandai).gg" size="524288" crc="fe7374d2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1111,7 +1111,7 @@
 		<description>Crayon Shin-chan - Taiketsu! Kantamu Panic!! (Hack, English)</description>
 		<year>2018</year>
 		<manufacturer>Psyklax</manufacturer>
-		<rom name="Crayon Shin-Chan - Taiketsu! Tankam Panic!! (T-Eng).gg" size="524288" crc="48c18828"/>
+		<rom name="Crayon Shin-Chan - Taiketsu! Tankam Panic!! T-Eng (2018)(Psyklax).gg" size="524288" crc="48c18828"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1259,7 +1259,7 @@
 		<description>Disney's Aladdin (Euro, USA, Brazil)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aladdin (usa, europe).bin" size="524288" crc="7a41c1dc"/>
+		<rom name="Disney's Aladdin (Euro, USA, Brazil)(1994)(Sega).gg" size="524288" crc="7a41c1dc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1267,7 +1267,7 @@
 		<description>Disney's Aladdin (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aladdin (japan).bin" size="524288" crc="770e95e1"/>
+		<rom name="Disney's Aladdin (Japan)(1994)(Sega).gg" size="524288" crc="770e95e1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1276,7 +1276,7 @@
 		<description>Disney's Aladdin (Prototype, 19931229)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aladdin (prototype - dec 29,  1993).bin" size="524288" crc="5b1f717f"/>
+		<rom name="Disney's Aladdin (Proto, 19931229)(Sega).gg" size="524288" crc="5b1f717f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1285,7 +1285,7 @@
 		<description>Disney's Aladdin (Prototype, 19940111)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aladdin (prototype - jan 11,  1994).bin" size="524288" crc="8a1693ab"/>
+		<rom name="Disney's Aladdin (Proto, 19940111)(Sega).gg" size="524288" crc="8a1693ab"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1294,7 +1294,7 @@
 		<description>Disney's Aladdin (Prototype, 19940113)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="aladdin (prototype - jan 13,  1994).bin" size="524288" crc="75a7f142"/>
+		<rom name="Disney's Aladdin (Prototype, 19940113)(Sega).gg" size="524288" crc="75a7f142"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1708,7 +1708,7 @@
 		<description>F-15 Strike Eagle (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Microprose</manufacturer>
-		<rom name="f-15 strike eagle (usa, europe).bin" size="262144" crc="8bdb0806"/>
+		<rom name="F-15 Strike Eagle (Euro, USA)(1993)(Microprose).gg" size="262144" crc="8bdb0806"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1716,7 +1716,7 @@
 		<description>F1 (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="f1 (usa, europe).bin" size="262144" crc="d0a93e00"/>
+		<rom name="F1 (Euro, USA)(1993)(Domark).gg" size="262144" crc="d0a93e00"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1724,7 +1724,7 @@
 		<description>F1 World Championship Edition (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="f1 - world championship edition (euro).bin" size="262144" crc="107092d0"/>
+		<rom name="F1 World Championship Edition (Euro)(1995)(Domark).gg" size="262144" crc="107092d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1732,7 +1732,7 @@
 		<description>Faceball 2000 (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Riverhill Software</manufacturer>
-		<rom name="faceball 2000 (japan).bin" size="262144" crc="aaf6f87d"/>
+		<rom name="Faceball 2000 (Japan)(1993)(Riverhill).gg" size="262144" crc="aaf6f87d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1740,7 +1740,7 @@
 		<description>Factory Panic (Euro, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14238.ic1" size="131072" crc="59e3be92"/>
+		<rom name="Factory Panic (Euro, Brazil)(1991)(Sega).gg" size="131072" crc="59e3be92"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1748,7 +1748,7 @@
 		<description>Fantastic Dizzy (Euro, SMS Mode)</description>
 		<year>1993</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="fantastic dizzy (europe) (en,fr,de,es,it).bin" size="262144" crc="c888222b"/>
+		<rom name="Fantastic Dizzy (Euro, SMS Mode)(1993)(Codemasters).gg" size="262144" crc="c888222b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1756,7 +1756,7 @@
 		<description>Fantasy Zone Gear (Euro, Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sanritsu</manufacturer>
-		<rom name="fantasy zone gear (japan, europe).bin" size="131072" crc="d69097e8"/>
+		<rom name="Fantasy Zone Gear (Euro, Japan)(1991)(Sanritsu).gg" size="131072" crc="d69097e8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1764,7 +1764,7 @@
 		<description>Fantasy Zone Gear (USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="fantasy zone (us).bin" size="131072" crc="fad007df"/>
+		<rom name="Fantasy Zone Gear (USA)(1991)(Sega).gg" size="131072" crc="fad007df"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1772,7 +1772,7 @@
 		<description>Fatal Fury Special (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="fatal fury special.bin" size="524288" crc="fbd76387"/>
+		<rom name="Fatal Fury Special (Euro)(1994)(Takara).gg" size="524288" crc="fbd76387"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1780,7 +1780,7 @@
 		<description>Fatal Fury Special (USA)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="fatal fury special (usa).bin" size="524288" crc="449787e2"/>
+		<rom name="Fatal Fury Special (USA)(1994)(Takara).gg" size="524288" crc="449787e2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1788,7 +1788,7 @@
 		<description>FIFA International Soccer (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="fifa international soccer (usa, europe).bin" size="524288" crc="e632a3a2"/>
+		<rom name="FIFA International Soccer (Euro, USA)(1994)(Electronic Arts).gg" size="524288" crc="e632a3a2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1796,15 +1796,15 @@
 		<description>FIFA International Soccer (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Electronic Arts Victor</manufacturer>
-		<rom name="fifa international soccer (japan).bin" size="524288" crc="78159325"/>
+		<rom name="FIFA International Soccer (Japan)(1995)(EA Victor).gg" size="524288" crc="78159325"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="fifa96" sourcefile="sms/d_sms.cpp">
 		<description>FIFA Soccer 96 (Euro, USA)</description>
 		<year>1995</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="fifa soccer 96 (usa, europe) (en,fr,de,es).bin" size="524288" crc="c379de95"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="FIFA Soccer 96 (Euro, USA)(1995)(Black Pearl).gg" size="524288" crc="c379de95"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1812,7 +1812,7 @@
 		<description>Foreman for Real (World)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mpr-18216.ic1" size="524288" crc="d46d5685"/>
+		<rom name="Foreman for Real (World)(1995)(Acclaim).gg" size="524288" crc="d46d5685"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1909,7 +1909,7 @@
 		<description>Gamble Panic (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gamble panic (japan).bin" size="524288" crc="09534742"/>
+		<rom name="Gamble Panic (Japan)(1995)(Sega).gg" size="524288" crc="09534742"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1917,7 +1917,7 @@
 		<description>Gambler Jikochuushinha (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gambler jikochuushinha (japan).bin" size="262144" crc="423803a7"/>
+		<rom name="Gambler Jikochuushinha (Japan)(1992)(Sega).gg" size="262144" crc="423803a7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1925,7 +1925,7 @@
 		<description>Ganbare Gorby! (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ganbare gorby! (japan).bin" size="131072" crc="a1f2f4a1"/>
+		<rom name="Ganbare Gorby! (Japan)(1991)(Sega).gg" size="131072" crc="a1f2f4a1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1933,7 +1933,7 @@
 		<description>Garfield - Caught in the Act (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18201-s.ic2" size="1048576" crc="cd53f3af"/>
+		<rom name="Garfield - Caught in the Act (Euro, USA)(1995)(Sega).gg" size="1048576" crc="cd53f3af"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1941,23 +1941,23 @@
 		<description>Garou Densetsu Special (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="mpr-17432.ic1" size="524288" crc="9afb6f33"/>
+		<rom name="Garou Densetsu Special (Japan)(1994)(Takara).gg" size="524288" crc="9afb6f33"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="gearstad" cloneof="batterup" romof="batterup" sourcefile="sms/d_sms.cpp">
 		<description>Gear Stadium (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Namcot</manufacturer>
-		<rom name="gear stadium (japan).bin" size="131072" crc="0e300223"/>
+		<manufacturer>Namco</manufacturer>
+		<rom name="Gear Stadium (Japan)(1991)(Namco).gg" size="131072" crc="0e300223"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="gearstah" sourcefile="sms/d_sms.cpp">
 		<description>Gear Stadium Heiseiban (Japan)</description>
 		<year>1995</year>
-		<manufacturer>Namcot</manufacturer>
-		<rom name="gear stadium heiseiban (japan).bin" size="131072" crc="a0530664"/>
+		<manufacturer>Namco</manufacturer>
+		<rom name="Gear Stadium Heiseiban (Japan)(1995)(Namco).gg" size="131072" crc="a0530664"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1965,7 +1965,7 @@
 		<description>Gear Works (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sony Imagesoft</manufacturer>
-		<rom name="gear works (usa).bin" size="131072" crc="e9a2efb4"/>
+		<rom name="Gear Works (USA)(1994)(Sony Imagesoft).gg" size="131072" crc="e9a2efb4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1973,7 +1973,7 @@
 		<description>George Foreman's KO Boxing (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="george foreman's ko boxing (usa, europe).bin" size="131072" crc="58b44585"/>
+		<rom name="George Foreman's KO Boxing (Euro, USA)(1992)(Flying Edge).gg" size="131072" crc="58b44585"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1981,7 +1981,7 @@
 		<description>GG Aleste (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Compile</manufacturer>
-		<rom name="gg aleste (japan).bin" size="262144" crc="1b80a75b"/>
+		<rom name="GG Aleste (Japan)(1991)(Compile).gg" size="262144" crc="1b80a75b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2401,7 +2401,7 @@
 		<description>Jungle Strike (USA)</description>
 		<year>1995</year>
 		<manufacturer>Black Pearl Software</manufacturer>
-		<rom name="jungle strike (usa).bin" size="524288" crc="d51642b0"/>
+		<rom name="Jungle Strike (USA)(1995)(Black Pearl).gg" size="524288" crc="d51642b0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2409,7 +2409,7 @@
 		<description>Jurassic Park (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15779.ic1" size="524288" crc="bd6f2321"/>
+		<rom name="Jurassic Park (Euro, USA)(1993)(Sega).gg" size="524288" crc="bd6f2321"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2417,7 +2417,7 @@
 		<description>Jurassic Park (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="jurassic park (japan).bin" size="524288" crc="2f536ae3"/>
+		<rom name="Jurassic Park (Japan)(1993)(Sega).gg" size="524288" crc="2f536ae3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2434,7 +2434,7 @@
 		<description>Kaitou Saint Tale (Japan)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="kaitou saint tale (japan).bin" size="524288" crc="937fd52b"/>
+		<rom name="Kaitou Saint Tale (Japan)(1996)(Sega).gg" size="524288" crc="937fd52b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2669,7 +2669,7 @@
 		<description>Lost World, The - Jurassic Park (USA)</description>
 		<year>1997</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-19811-s.ic2" size="1048576" crc="8d1597f5"/>
+		<rom name="Lost World, The - Jurassic Park (USA)(1997)(Sega).gg" size="1048576" crc="8d1597f5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2677,7 +2677,7 @@
 		<description>Lucky Dime Caper, The (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14461 j09.ic1" size="262144" crc="07a7815a"/>
+		<rom name="Lucky Dime Caper, The (Euro, USA)(1991)(Sega).gg" size="262144" crc="07a7815a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2686,7 +2686,7 @@
 		<description>Lunar - Sanposuru Gakuen (Hack, English)</description>
 		<year>2009</year>
 		<manufacturer>Aeon Genesis</manufacturer>
-		<rom name="lunar - sanposuru gakuen (english translation).gg" size="1048576" crc="19f3f168"/>
+		<rom name="Lunar - Sanposuru Gakuen T-Eng (2009)(Aeon Genesis).gg" size="1048576" crc="19f3f168"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2694,7 +2694,7 @@
 		<description>Lunar - Sanposuru Gakuen (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Game Arts</manufacturer>
-		<rom name="lunar - sanposuru gakuen (japan).bin" size="524288" crc="58459edd"/>
+		<rom name="Lunar - Sanposuru Gakuen (Japan)(1995)(Game Arts).gg" size="524288" crc="58459edd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2702,82 +2702,82 @@
 		<description>Madden NFL '95 (USA)</description>
 		<year>1995</year>
 		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="madden nfl '95 (usa).bin" size="524288" crc="75c71ebf"/>
+		<rom name="Madden NFL '95 (USA)(1995)(Electronic Arts).gg" size="524288" crc="75c71ebf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madden96" sourcefile="sms/d_sms.cpp">
 		<description>Madden NFL '96 (Euro, USA)</description>
 		<year>1995</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="madden nfl '96 (usa, europe).bin" size="524288" crc="9f59d302"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Madden NFL '96 (Euro, USA)(1995)(Black Pearl).gg" size="524288" crc="9f59d302"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumna" sourcefile="sms/d_sms.cpp">
-		<description>Madou Monogatari A - Dokidoki Vacation (Japan)</description>
+		<description>Madou Monogatari A: Dokidoki Vacation (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Compile</manufacturer>
-		<rom name="madou monogatari a - dokidoki vacation (japan).bin" size="524288" crc="7ec95282"/>
+		<rom name="Madou Monogatari A - Dokidoki Vacation (Japan)(1995)(Compile).gg" size="524288" crc="7ec95282"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumone" cloneof="madoumon" romof="madoumon" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Madou Monogatari I - 3-Tsu no Madoukyuu (Hack, English)</description>
+		<description>Madou Monogatari I: 3-Tsu no Madoukyuu (Hack, English)</description>
 		<year>2010</year>
 		<manufacturer>SSTranslations</manufacturer>
-		<rom name="madou monogatari i - 3-tsu no madoukyuu (english translation).gg" size="524288" crc="b289011d"/>
+		<rom name="Madou Monogatari I - 3-Tsu no Madoukyuu T-Eng (2010)(SSTranslations).gg" size="524288" crc="b289011d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumon" sourcefile="sms/d_sms.cpp">
-		<description>Madou Monogatari I - 3-Tsu no Madoukyuu (Japan)</description>
+		<description>Madou Monogatari I: 3-Tsu no Madoukyuu (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="madou monogatari i - 3-tsu no madoukyuu (japan).bin" size="524288" crc="00c34d94"/>
+		<rom name="Madou Monogatari I - 3-Tsu no Madoukyuu (Japan)(1993)(Sega).gg" size="524288" crc="00c34d94"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumn2e" cloneof="madoumn2" romof="madoumn2" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Madou Monogatari II - Arle 16-Sai (Hack, English v1.2)</description>
+		<description>Madou Monogatari II: Arle 16-Sai (Hack, English v1.2)</description>
 		<year>2020</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="madou monogatari ii - arle 16-sai (T+Eng1.2).gg" size="1048576" crc="ef7d7c02"/>
+		<rom name="Madou Monogatari II - Arle 16-Sai T-Eng v1.2 (2020)(Supper).gg" size="1048576" crc="ef7d7c02"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumn2" sourcefile="sms/d_sms.cpp">
-		<description>Madou Monogatari II - Arle 16-Sai (Japan)</description>
+		<description>Madou Monogatari II: Arle 16-Sai (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16616.ic1" size="524288" crc="12eb2287"/>
+		<rom name="Madou Monogatari II - Arle 16-Sai (Japan)(1994)(Sega).gg" size="524288" crc="12eb2287"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumn3e" cloneof="madoumn3" romof="madoumn3" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Madou Monogatari III - Kyuukyoku Joou-sama (Hack, English v1.2)</description>
+		<description>Madou Monogatari III: Kyuukyoku Joou-sama (Hack, English v1.2)</description>
 		<year>2020</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="madou monogatari iii - kyuukyoku joou-sama (english translation).gg" size="1048576" crc="e90126c0"/>
+		<rom name="Madou Monogatari III - Kyuukyoku Joou-sama T-Spa v1.2 (2020)(Supper).gg" size="1048576" crc="e90126c0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumn3a" cloneof="madoumn3" romof="madoumn3" sourcefile="sms/d_sms.cpp">
-		<description>Madou Monogatari III - Kyuukyoku Joou-sama (Japan, v1.0)</description>
+		<description>Madou Monogatari III: Kyuukyoku Joou-sama (Japan, v1.0)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="madou monogatari iii - kyuukyoku joou-sama (japan).bin" size="524288" crc="0a634d79"/>
+		<rom name="Madou Monogatari III - Kyuukyoku Joou-sama (Japan, v1.0)(1994)(Sega).gg" size="524288" crc="0a634d79"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="madoumn3" sourcefile="sms/d_sms.cpp">
-		<description>Madou Monogatari III - Kyuukyoku Joou-sama (Japan, v1.1)</description>
+		<description>Madou Monogatari III: Kyuukyoku Joou-sama (Japan, v1.1)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="madou monogatari iii - kyuukyoku joou-sama (japan) (v1.1).bin" size="524288" crc="568f4825"/>
+		<rom name="Madou Monogatari III - Kyuukyoku Joou-sama (Japan, v1.1)(1994)(Sega).gg" size="524288" crc="568f4825"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2794,15 +2794,15 @@
 		<description>Magic Knight Rayearth (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17115.ic1" size="524288" crc="8f82a6b9"/>
+		<rom name="Magic Knight Rayearth (Japan)(1994)(Sega).gg" size="524288" crc="8f82a6b9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="rayeart2" sourcefile="sms/d_sms.cpp">
-		<description>Magic Knight Rayearth 2 - Making of Magic Knight (Japan)</description>
+		<description>Magic Knight Rayearth 2: Making of Magic Knight (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18183-s.ic1" size="524288" crc="1c2c2b04"/>
+		<rom name="Magic Knight Rayearth 2 - Making of Magic Knight (Japan)(1995)(Sega).gg" size="524288" crc="1c2c2b04"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2876,7 +2876,7 @@
 		<description>Mega Man (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="mega man (usa, europe).bin" size="524288" crc="1ace93af"/>
+		<rom name="Mega Man (Euro, USA)(1995)(Capcom).gg" size="524288" crc="1ace93af"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2884,7 +2884,7 @@
 		<description>Megami Tensei Gaiden - Last Bible (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="megami tensei gaiden - last bible (japan).bin" size="524288" crc="2e4ec17b"/>
+		<rom name="Megami Tensei Gaiden - Last Bible (Japan)(1994)(Sega).gg" size="524288" crc="2e4ec17b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2893,7 +2893,7 @@
 		<description>Megami Tensei Gaiden - Last Bible S (Hack, English v1.02)</description>
 		<year>2018</year>
 		<manufacturer>MrRichard999</manufacturer>
-		<rom name="megami tensei gaiden - last bible s (english translation).gg" size="524288" crc="1a1cb7f8"/>
+		<rom name="Megami Tensei Gaiden - Last Bible S T-Eng v1.02 (2018)(MrRichard999).gg" size="524288" crc="1a1cb7f8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2901,7 +2901,7 @@
 		<description>Megami Tensei Gaiden - Last Bible S (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="megami tensei gaiden - last bible s (japan).bin" size="524288" crc="4ec30806"/>
+		<rom name="Megami Tensei Gaiden - Last Bible S (Japan)(1995)(Sega).gg" size="524288" crc="4ec30806"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2909,7 +2909,7 @@
 		<description>Mick and Mack as the Global Gladiators (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="mick and mack as the global gladiators (usa, europe).bin" size="262144" crc="d2b6021e"/>
+		<rom name="Mick and Mack as the Global Gladiators (Euro, USA)(1992)(Virgin Interactive).gg" size="262144" crc="d2b6021e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3008,7 +3008,7 @@
 		<description>Moldorian - Hikari to Yami no Sister (Hack, English v1.1)</description>
 		<year>2019</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="moldorian - hikari to yami no shisutaa (t-eng1.1).gg" size="1048576" crc="7ab0081f"/>
+		<rom name="Moldorian - Hikari to Yami no Sister T-Eng v1.1 (2019)(Supper).gg" size="1048576" crc="7ab0081f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3048,8 +3048,8 @@
 	<game name="mk" sourcefile="sms/d_sms.cpp">
 		<description>Mortal Kombat (Euro, USA, v2.6)</description>
 		<year>1993</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="mpr-15771.ic1" size="524288" crc="07494f2a"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Mortal Kombat (Euro, USA, v2.6)(1993)(Arena).gg" size="524288" crc="07494f2a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3057,7 +3057,7 @@
 		<description>Mortal Kombat (Japan, v3.3)</description>
 		<year>1993</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mortal kombat (japan) (v3.3).bin" size="524288" crc="dbff0461"/>
+		<rom name="Mortal Kombat (Japan, v3.3)(1993)(Acclaim).gg" size="524288" crc="dbff0461"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3065,7 +3065,7 @@
 		<description>Mortal Kombat 3 (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mortal kombat 3 (europe).bin" size="524288" crc="c2be62bb"/>
+		<rom name="Mortal Kombat 3 (Euro)(1995)(Acclaim).gg" size="524288" crc="c2be62bb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3073,7 +3073,7 @@
 		<description>Mortal Kombat II (World)</description>
 		<year>1994</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mortal kombat ii (world).bin" size="524288" crc="4b304e0f"/>
+		<rom name="Mortal Kombat II (World)(1994)(Acclaim).gg" size="524288" crc="4b304e0f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3399,8 +3399,8 @@
 	<game name="nbajam1" cloneof="nbajam" romof="nbajam" sourcefile="sms/d_sms.cpp">
 		<description>NBA Jam (Euro, USA)</description>
 		<year>1993</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="mpr-16421-s.ic1" size="524288" crc="8f17597e"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="NBA Jam (Euro, USA)(1993)(Arena).gg" size="524288" crc="8f17597e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3408,15 +3408,15 @@
 		<description>NBA Jam (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="nba jam (japan).bin" size="524288" crc="a49e9033"/>
+		<rom name="NBA Jam (Japan)(1994)(Acclaim).gg" size="524288" crc="a49e9033"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbajam" sourcefile="sms/d_sms.cpp">
 		<description>NBA Jam (USA, v1.1)</description>
 		<year>1993</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="nba jam (usa) (v1.1).bin" size="524288" crc="820fa4ab"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="NBA Jam (USA, v1.1)(1993)(Arena).gg" size="524288" crc="820fa4ab"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3424,7 +3424,7 @@
 		<description>NBA Jam Tournament Edition (World)</description>
 		<year>1994</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="mpr-17625.ic1" size="524288" crc="86c32e5b"/>
+		<rom name="NBA Jam Tournament Edition (World)(1994)(Acclaim).gg" size="524288" crc="86c32e5b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4096,8 +4096,8 @@
 	<game name="predatr2" sourcefile="sms/d_sms.cpp">
 		<description>Predator 2 (Euro, USA, SMS Mode)</description>
 		<year>1992</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="predator 2 (usa, europe).bin" size="262144" crc="e5f789b9"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Predator 2 (Euro, USA, SMS Mode)(1992)(Arena).gg" size="262144" crc="e5f789b9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4105,7 +4105,7 @@
 		<description>Primal Rage (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Time Warner Interactive</manufacturer>
-		<rom name="mpr-18181.ic1" size="524288" crc="2a34b5c7"/>
+		<rom name="Primal Rage (Euro, USA)(1994)(Time Warner).gg" size="524288" crc="2a34b5c7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4309,7 +4309,7 @@
 		<description>Ristar - The Shooting Star (Prototype, 19940909)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar (prototype - sep 09,  1994).bin" size="524288" crc="a1c214bd"/>
+		<rom name="Ristar - The Shooting Star (Proto, 19940909)(Sega).gg" size="524288" crc="a1c214bd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4318,7 +4318,7 @@
 		<description>Ristar - The Shooting Star (Prototype, 19941019)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar (prototype - oct 19,  1994).bin" size="524288" crc="672d38d5"/>
+		<rom name="Ristar - The Shooting Star (Proto, 19941019)(Sega).gg" size="524288" crc="672d38d5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4327,7 +4327,7 @@
 		<description>Ristar - The Shooting Star (Prototype, 19941026)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar (prototype - oct 26,  1994).bin" size="524288" crc="a302413c"/>
+		<rom name="Ristar - The Shooting Star (Proto, 19941026)(Sega).gg" size="524288" crc="a302413c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4336,7 +4336,7 @@
 		<description>Ristar - The Shooting Star (Prototype, 19941101)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar (prototype - nov 01,  1994).bin" size="524288" crc="44fa6ae6"/>
+		<rom name="Ristar - The Shooting Star (Proto, 19941101)(Sega).gg" size="524288" crc="44fa6ae6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4345,7 +4345,7 @@
 		<description>Ristar - The Shooting Star (Prototype, 19941102)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar (prototype - nov 02,  1994).bin" size="524288" crc="302d2b4b"/>
+		<rom name="Ristar - The Shooting Star (Proto, 19941102)(Sega).gg" size="524288" crc="302d2b4b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4353,7 +4353,7 @@
 		<description>Ristar - The Shooting Star (World)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="ristar - the shooting star (world).bin" size="524288" crc="efe65b3b"/>
+		<rom name="Ristar - The Shooting Star (World)(1995)(Sega).gg" size="524288" crc="efe65b3b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4361,7 +4361,7 @@
 		<description>Road Rash (Euro)</description>
 		<year>1993</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="road rash (eu).bin" size="524288" crc="176505d4"/>
+		<rom name="Road Rash (Euro)(1993)(U.S. Gold).gg" size="524288" crc="176505d4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4369,7 +4369,7 @@
 		<description>Road Rash (USA)</description>
 		<year>1993</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="road rash (usa).bin" size="524288" crc="96045f76"/>
+		<rom name="Road Rash (USA)(1993)(U.S. Gold).gg" size="524288" crc="96045f76"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4377,7 +4377,7 @@
 		<description>RoboCop 3 (World)</description>
 		<year>1993</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="robocop 3 (usa, europe).bin" size="262144" crc="069a0704"/>
+		<rom name="RoboCop 3 (World)(1993)(Flying Edge).gg" size="262144" crc="069a0704"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4385,24 +4385,24 @@
 		<description>RoboCop versus The Terminator (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="mpr-16049.ic1" size="524288" crc="4ab7fa4e"/>
+		<rom name="RoboCop versus The Terminator (Euro, USA)(1993)(Virgin Interactive).gg" size="524288" crc="4ab7fa4e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="royalstne" cloneof="royalstn" romof="royalstn" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
-		<description>Royal Stone - Hirakareshi Toki no Tobira (Hack, English)</description>
+		<description>Royal Stone: Hirakareshi Toki no Tobira (Hack, English)</description>
 		<year>2013</year>
 		<manufacturer>Aeon Genesis</manufacturer>
-		<rom name="royal stone - hirakareshi toki no tobira (english translation).gg" size="524288" crc="e4677b07"/>
+		<rom name="Royal Stone - Hirakareshi Toki no Tobira T-Eng (2013)(Aeon Genesis).gg" size="524288" crc="e4677b07"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="royalstn" sourcefile="sms/d_sms.cpp">
-		<description>Royal Stone - Hirakareshi Toki no Tobira (Japan)</description>
+		<description>Royal Stone: Hirakareshi Toki no Tobira (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="royal stone - hirakareshi toki no tobira (japan).bin" size="524288" crc="445d7cd2"/>
+		<rom name="Royal Stone - Hirakareshi Toki no Tobira (Japan)(1995)(Sega).gg" size="524288" crc="445d7cd2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4410,7 +4410,7 @@
 		<description>Ryuukyuu (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Face</manufacturer>
-		<rom name="mpr-13884.ic1" size="131072" crc="95efd52b"/>
+		<rom name="Ryuukyuu (Japan)(1991)(Face).gg" size="131072" crc="95efd52b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4418,7 +4418,7 @@
 		<description>S.S. Lucifer - Man Overboard! (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="s.s. lucifer - man overboard! (europe).bin" size="262144" crc="d9a7f170"/>
+		<rom name="S.S. Lucifer - Man Overboard! (Euro)(1994)(Codemasters).gg" size="262144" crc="d9a7f170"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4426,7 +4426,7 @@
 		<description>Samurai Shodown (USA)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="samurai shodown (usa).bin" size="524288" crc="98171deb"/>
+		<rom name="Samurai Shodown (USA)(1994)(Takara).gg" size="524288" crc="98171deb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4434,7 +4434,7 @@
 		<description>Samurai Spirits (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Takara</manufacturer>
-		<rom name="samurai spirits (japan).bin" size="524288" crc="93fd73dc"/>
+		<rom name="Samurai Spirits (Japan)(1994)(Takara).gg" size="524288" crc="93fd73dc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5126,7 +5126,7 @@
 		<description>Sports Trivia (Prototype, 19950308)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 08,  1995).bin" size="131072" crc="c38d41c3"/>
+		<rom name="Sports Trivia (Proto, 19950308)(Sega).gg" size="131072" crc="c38d41c3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5135,7 +5135,7 @@
 		<description>Sports Trivia (Prototype, 19950309)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 09,  1995).bin" size="131072" crc="34407fe9"/>
+		<rom name="Sports Trivia (Proto, 19950309)(Sega).gg" size="131072" crc="34407fe9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5144,7 +5144,7 @@
 		<description>Sports Trivia (Prototype, 19950313)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 13,  1995).bin" size="262144" crc="a8d1ac51"/>
+		<rom name="Sports Trivia (Proto, 19950313)(Sega).gg" size="262144" crc="a8d1ac51"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5153,7 +5153,7 @@
 		<description>Sports Trivia (Prototype, 19950316-1MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 16,  1995 - 1meg).bin" size="131072" crc="464f1b51"/>
+		<rom name="Sports Trivia (Proto, 19950316-1MEG)(Sega).gg" size="131072" crc="464f1b51"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5162,7 +5162,7 @@
 		<description>Sports Trivia (Prototype, 19950316-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 16,  1995 - 2meg).bin" size="262144" crc="caf87d8b"/>
+		<rom name="Sports Trivia (Proto, 19950316-2MEG)(Sega).gg" size="262144" crc="caf87d8b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5171,7 +5171,7 @@
 		<description>Sports Trivia (Prototype, 19950317-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 17,  1995 - 2meg).bin" size="262144" crc="43bb6b10"/>
+		<rom name="Sports Trivia (Proto, 19950317-2MEG)(Sega).gg" size="262144" crc="43bb6b10"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5180,7 +5180,7 @@
 		<description>Sports Trivia (Prototype, 19950320-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 20,  1995 - 2meg).bin" size="262144" crc="e7aff566"/>
+		<rom name="Sports Trivia (Proto, 19950320-2MEG)(Sega).gg" size="262144" crc="e7aff566"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5189,7 +5189,7 @@
 		<description>Sports Trivia (Prototype, 19950320-QTEST)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 20,  1995 - qtest).bin" size="262144" crc="a3e57816"/>
+		<rom name="Sports Trivia (Proto, 19950320-QTEST)(Sega).gg" size="262144" crc="a3e57816"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5297,7 +5297,7 @@
 		<description>Sports Trivia (Prototype, 19950403-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 03,  1995 - 2meg).bin" size="262144" crc="3e3d6728"/>
+		<rom name="Sports Trivia (Proto, 19950403-2MEG)(Sega).gg" size="262144" crc="3e3d6728"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5306,7 +5306,7 @@
 		<description>Sports Trivia (Prototype, 19950403-QTEST)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 03,  1995 - qtest).bin" size="262144" crc="c68762e6"/>
+		<rom name="Sports Trivia (Proto, 19950403-QTEST)(Sega).gg" size="262144" crc="c68762e6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5315,7 +5315,7 @@
 		<description>Sports Trivia (Prototype, 19950404-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 04,  1995 - 2meg).bin" size="262144" crc="d61a366f"/>
+		<rom name="Sports Trivia (Proto, 19950404-2MEG)(Sega).gg" size="262144" crc="d61a366f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5324,7 +5324,7 @@
 		<description>Sports Trivia (Prototype, 19950405-2MEG-B)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 05,  1995 - 2meg - b).bin" size="262144" crc="818ec54c"/>
+		<rom name="Sports Trivia (Proto, 19950405-2MEG-B)(Sega).gg" size="262144" crc="818ec54c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5333,7 +5333,7 @@
 		<description>Sports Trivia (Prototype, 19950405-2MEG-C)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 05,  1995 - 2meg - c).bin" size="262144" crc="f88a55f4"/>
+		<rom name="Sports Trivia (Proto, 19950405-2MEG-C)(Sega).gg" size="262144" crc="f88a55f4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5342,7 +5342,7 @@
 		<description>Sports Trivia (Prototype, 19950405-QTEST)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 05,  1995 - qtest).bin" size="262144" crc="93b98f19"/>
+		<rom name="Sports Trivia (Proto, 19950405-QTEST)(Sega).gg" size="262144" crc="93b98f19"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5351,7 +5351,7 @@
 		<description>Sports Trivia (Prototype, 19950406-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 06,  1995 - 2meg).bin" size="262144" crc="cab74070"/>
+		<rom name="Sports Trivia (Proto, 19950406-2MEG)(Sega).gg" size="262144" crc="cab74070"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5360,7 +5360,7 @@
 		<description>Sports Trivia (Prototype, 19950407-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 07,  1995 - 2meg).bin" size="262144" crc="352e8b8c"/>
+		<rom name="Sports Trivia (Proto, 19950407-2MEG)(Sega).gg" size="262144" crc="352e8b8c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5396,7 +5396,7 @@
 		<description>Sports Trivia (Prototype, 19950425-1MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 25,  1995 - 1meg).bin" size="131072" crc="895af58a"/>
+		<rom name="Sports Trivia (Proto, 19950425-1MEG)(Sega).gg" size="131072" crc="895af58a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5405,7 +5405,7 @@
 		<description>Sports Trivia (Prototype, 19950425-QTEST)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 25,  1995 - qtest).bin" size="131072" crc="7524957c"/>
+		<rom name="Sports Trivia (Proto, 19950425-QTEST)(Sega).gg" size="131072" crc="7524957c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5414,7 +5414,7 @@
 		<description>Sports Trivia (Prototype, 19950427-1MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 27,  1995 - 1meg).bin" size="131072" crc="7898919f"/>
+		<rom name="Sports Trivia (Proto, 19950427-1MEG)(Sega).gg" size="131072" crc="7898919f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5432,7 +5432,7 @@
 		<description>Sports Trivia (Prototype, 19950502-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - may 02,  1995 - 2meg).bin" size="262144" crc="15e7e261"/>
+		<rom name="Sports Trivia (Proto, 19950502-2MEG)(Sega).gg" size="262144" crc="15e7e261"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5441,7 +5441,7 @@
 		<description>Sports Trivia (Prototype, 19950504-1MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - may 04,  1995 - 1meg).bin" size="131072" crc="bba4cf7b"/>
+		<rom name="Sports Trivia (Proto, 19950504-1MEG)(Sega).gg" size="131072" crc="bba4cf7b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5449,7 +5449,7 @@
 		<description>Sports Trivia (USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (usa).bin" size="131072" crc="a7af7ca9"/>
+		<rom name="Sports Trivia (USA)(1995)(Sega).gg" size="131072" crc="a7af7ca9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5457,7 +5457,7 @@
 		<description>Sports Trivia - Championship Edition (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia - championship edition (usa, europe).bin" size="262144" crc="5b5de94d"/>
+		<rom name="Sports Trivia - Championship Edition (Euro, USA)(1995)(Sega).gg" size="262144" crc="5b5de94d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5758,7 +5758,7 @@
 		<description>Sylvan Tale (Hack, English)</description>
 		<year>2001</year>
 		<manufacturer>Aeon Genesis</manufacturer>
-		<rom name="sylvan tale (english translation).gg" size="524288" crc="5d803486"/>
+		<rom name="Sylvan Tale T-Eng (2001)(Aeon Genesis).gg" size="524288" crc="5d803486"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5766,23 +5766,23 @@
 		<description>Sylvan Tale (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sylvan tale (japan).bin" size="524288" crc="45ef2062"/>
+		<rom name="Sylvan Tale (Japan)(1995)(Sega).gg" size="524288" crc="45ef2062"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="t2ag" sourcefile="sms/d_sms.cpp">
 		<description>T2 - The Arcade Game (Euro, USA)</description>
 		<year>1993</year>
-		<manufacturer>Arena</manufacturer>
-		<rom name="t2 - the arcade game (usa, europe).bin" size="524288" crc="9479c83a"/>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="T2 - The Arcade Game (Euro, USA)(1993)(Arena).gg" size="524288" crc="9479c83a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="t2agj" cloneof="t2ag" romof="t2ag" sourcefile="sms/d_sms.cpp">
 		<description>T2 - The Arcade Game (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Acclaim</manufacturer>
-		<rom name="t2 - the arcade game (jp).bin" size="524288" crc="0b1ba87f"/>
+		<manufacturer>Acclaim Entertainment</manufacturer>
+		<rom name="T2 - The Arcade Game (Japan)(1993)(Acclaim).gg" size="524288" crc="0b1ba87f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5790,7 +5790,7 @@
 		<description>Tails Adventures (World)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tails adventures (world) (en,ja).bin" size="524288" crc="5bb6e5d6"/>
+		<rom name="Tails Adventures (World)(1995)(Sega).gg" size="524288" crc="5bb6e5d6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5798,7 +5798,7 @@
 		<description>Tails no Skypatrol (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tails no skypatrol (japan).bin" size="262144" crc="88618afa"/>
+		<rom name="Tails no Skypatrol (Japan)(1995)(Sega).gg" size="262144" crc="88618afa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6590,8 +6590,8 @@
 	<game name="zool" sourcefile="sms/d_sms.cpp">
 		<description>Zool (Euro)</description>
 		<year>1994</year>
-		<manufacturer>Gremlin</manufacturer>
-		<rom name="zool (euro).bin" size="262144" crc="23904898"/>
+		<manufacturer>Gremlin Graphics</manufacturer>
+		<rom name="Zool (Euro)(1994)(Gremlin Graphics).gg" size="262144" crc="23904898"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6599,7 +6599,7 @@
 		<description>Zool (USA)</description>
 		<year>1993</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="zool (usa).bin" size="262144" crc="b287c695"/>
+		<rom name="Zool (USA)(1993)(GameTek).gg" size="262144" crc="b287c695"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6607,7 +6607,7 @@
 		<description>Zool no Yume Bouken (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Infocom</manufacturer>
-		<rom name="zool no yume bouken (japan).bin" size="262144" crc="e35ef7ed"/>
+		<rom name="Zool no Yume Bouken (Japan)(1994)(Infocom).gg" size="262144" crc="e35ef7ed"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6615,7 +6615,7 @@
 		<description>Zoop (USA)</description>
 		<year>1995</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="zoop (usa).bin" size="131072" crc="3247ff8b"/>
+		<rom name="Zoop (USA)(1995)(Viacom).gg" size="131072" crc="3247ff8b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6624,7 +6624,7 @@
 		<description>Zoop (USA, Prototype)</description>
 		<year>1995</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="zoop (europe).bin" size="131072" crc="f397f041"/>
+		<rom name="Zoop (USA, Proto)(1995)(Viacom).gg" size="131072" crc="f397f041"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
