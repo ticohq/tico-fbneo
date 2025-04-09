@@ -387,7 +387,7 @@
 		<description>Aaargh! (48K)</description>
 		<year>1989</year>
 		<manufacturer>Binary Design</manufacturer>
-		<rom name="Aaargh! (1989)(Binary Design).tap" size="96865" crc="11417dd7"/>
+		<rom name="Aaargh! 48K (1989)(Binary Design).tap" size="96865" crc="11417dd7"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -407,7 +407,7 @@
 		<description>Abu Simbel Profanation (English) (48K)</description>
 		<year>1987</year>
 		<manufacturer>Gremlin Graphics</manufacturer>
-		<rom name="Abu Simbel Profanation (1987)(Gremlin Graphics Software)[re-release].tap" size="47312" crc="0635946a"/>
+		<rom name="Abu Simbel Profanation EN 48K (1987)(Gremlin Graphics).tap" size="47312" crc="0635946a"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -416,7 +416,7 @@
 		<description>Abu Simbel Profanation (Spanish) (48K)</description>
 		<year>1985</year>
 		<manufacturer>Dinamic Software</manufacturer>
-		<rom name="Abu Simbel Profanation (1985)(Dinamic Software).tap" size="46362" crc="7849893d"/>
+		<rom name="Abu Simbel Profanation ES 48K (1985)(Dinamic Software).tap" size="46362" crc="7849893d"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -458,7 +458,7 @@
 		<description>Ace of Aces (48K)</description>
 		<year>1986</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="Ace of Aces (1986)(U.S. Gold).tap" size="89410" crc="d8b0115b"/>
+		<rom name="Ace of Aces 48K (1986)(U.S. Gold).tap" size="89410" crc="d8b0115b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -497,7 +497,7 @@
 		<description>Action Fighter (128K)</description>
 		<year>1989</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Action Fighter (1989)(Firebird Software)[128K].z80" size="43034" crc="55f30b2a"/>
+		<rom name="Action Fighter 128K (1989)(Firebird).z80" size="43034" crc="55f30b2a"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -872,7 +872,7 @@
 		<description>Agent Orange (48K)</description>
 		<year>1987</year>
 		<manufacturer>Icon Design</manufacturer>
-		<rom name="Agent Orange (1987)(Icon Design).tap" size="43566" crc="112aedd9"/>
+		<rom name="Agent Orange 48K (1987)(Icon Design).tap" size="43566" crc="112aedd9"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -3021,7 +3021,7 @@
 		<description>Black Lamp (128K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Black Lamp (1988)(Firebird Software).tap" size="47656" crc="affec634"/>
+		<rom name="Black Lamp 128K (1988)(Firebird Software).tap" size="47656" crc="affec634"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -3511,7 +3511,7 @@
 		<description>Bombscare (Firebird) (48K)</description>
 		<year>1986</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Bombscare 48K (1986)(Firebird).tap" size="43914" crc="3e70f6fa"/>
+		<rom name="Bombscare 48K (1986)(Firebird Software).tap" size="43914" crc="3e70f6fa"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -3537,6 +3537,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bonsaiquest" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, After controller selection, press ENTER to start game.</comment>
+		<description>Bonsai Quest (128K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>JuanGM</manufacturer>
+		<rom name="Bonsai Quest 128K (2025)(JuanGM).tap" size="68186" crc="14789856"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bootee" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
 		<description>Bootee (48K) (HB)</description>
@@ -3551,7 +3562,7 @@
 		<description>Booty (48K)</description>
 		<year>1984</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Booty 48K (1984)(Firebird).tap" size="45734" crc="a387b4bf"/>
+		<rom name="Booty 48K (1984)(Firebird Software).tap" size="45734" crc="a387b4bf"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -3905,7 +3916,7 @@
 		<description>Bubble Bobble (128K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Bubble Bobble 128K (1987)(Firebird).tap" size="53224" crc="dce45529"/>
+		<rom name="Bubble Bobble 128K (1987)(Firebird Software).tap" size="53224" crc="dce45529"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -3995,7 +4006,7 @@
 		<description>Buccaneer (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Buccaneer 48K (1985)(Firebird).tap" size="49414" crc="9fdacef2"/>
+		<rom name="Buccaneer 48K (1985)(Firebird Software).tap" size="49414" crc="9fdacef2"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -4057,7 +4068,7 @@
 		<description>Buggy Blast (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Buggy Blast 48K (1985)(Firebird).tap" size="48493" crc="23a6eda1"/>
+		<rom name="Buggy Blast 48K (1985)(Firebird Software).tap" size="48493" crc="23a6eda1"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -4874,7 +4885,7 @@
 		<description>Chickin Chase (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Chickin Chase 48K (1985)(Firebird).z80" size="39512" crc="bf5ace62"/>
+		<rom name="Chickin Chase 48K (1985)(Firebird Software).z80" size="39512" crc="bf5ace62"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -5297,7 +5308,7 @@
 		<description>Code Zero (128K) (HB)</description>
 		<year>2017</year>
 		<manufacturer>Paul Jenkinson</manufacturer>
-		<rom name="Code Zero (2017)(Paul Jenkinson).tap" size="39361" crc="eea64720"/>
+		<rom name="Code Zero 128K (2017)(Paul Jenkinson).tap" size="39361" crc="eea64720"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -5742,7 +5753,7 @@
 		<description>Costa Capers (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Costa Capers 48K (1985)(Firebird).z80" size="42187" crc="66258bbc"/>
+		<rom name="Costa Capers 48K (1985)(Firebird Software).z80" size="42187" crc="66258bbc"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -5884,6 +5895,16 @@
 		<rom name="Crazy Blaster 128K (2019)(TFW8b).tap" size="32951" crc="6797d22c"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="crazyburger" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Crazy Burger (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Menyiques</manufacturer>
+		<rom name="Crazy Burger 48K (2025)(Menyiques).tap" size="48105" crc="59bff160"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6653,7 +6674,7 @@
 		<description>Dark Fusion (128K)</description>
 		<year>1988</year>
 		<manufacturer>Gremlin Graphics</manufacturer>
-		<rom name="Dark Fusion (1988)(Gremlin Graphics).tap" size="65624" crc="87c7d4d6"/>
+		<rom name="Dark Fusion 128K (1988)(Gremlin Graphics).tap" size="65624" crc="87c7d4d6"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -6716,7 +6737,7 @@
 		<description>Dark Sceptre (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Dark Sceptre 48K (1987)(Firebird).tap" size="54587" crc="364d1c34"/>
+		<rom name="Dark Sceptre 48K (1987)(Firebird Software).tap" size="54587" crc="364d1c34"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -7792,7 +7813,7 @@
 		<description>Don't Panic! (16K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Don't Panic! 16K (1985)(Firebird).z80" size="15293" crc="75879d60"/>
+		<rom name="Don't Panic! 16K (1985)(Firebird Software).z80" size="15293" crc="75879d60"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8048,7 +8069,7 @@
 		<description>Down to Earth (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Down to Earth 48K (1987)(Firebird).tap" size="52928" crc="12f4183e"/>
+		<rom name="Down to Earth 48K (1987)(Firebird Software).tap" size="52928" crc="12f4183e"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8265,7 +8286,7 @@
 		<description>Druid (48K)</description>
 		<year>1986</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Druid 48K (1986)(Firebird).tap" size="45791" crc="19fb94a7"/>
+		<rom name="Druid 48K (1986)(Firebird Software).tap" size="45791" crc="19fb94a7"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8275,7 +8296,7 @@
 		<description>Druid II - Enlightenment (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Druid II - Enlightenment 48K (1987)(Firebird).tap" size="58884" crc="8a5474aa"/>
+		<rom name="Druid II - Enlightenment 48K (1987)(Firebird Software).tap" size="58884" crc="8a5474aa"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -8492,7 +8513,7 @@
 		<description>E-SWAT (128K)</description>
 		<year>1990</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="E-SWAT (1990)(U.S. Gold).tap" size="213337" crc="721ab30f"/>
+		<rom name="E-SWAT 128K (1990)(U.S. Gold).tap" size="213337" crc="721ab30f"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -8512,7 +8533,7 @@
 		<description>Earthlight (128K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Earthlight 128K (1988)(Firebird).tap" size="61597" crc="063d61f4"/>
+		<rom name="Earthlight 128K (1988)(Firebird Software).tap" size="61597" crc="063d61f4"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -8665,7 +8686,7 @@
 		<description>Elite (128K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Elite 128K (1985)(Firebird).tzx" size="47939" crc="30640fcc"/>
+		<rom name="Elite 128K (1985)(Firebird Software).tzx" size="47939" crc="30640fcc"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -9049,7 +9070,7 @@
 		<description>Exploding Fist+ (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Exploding Fist+ 48K (1988)(Firebird).tap" size="52905" crc="d096a4be"/>
+		<rom name="Exploding Fist+ 48K (1988)(Firebird Software).tap" size="52905" crc="d096a4be"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -9262,7 +9283,7 @@
 		<description>Farmer Jack and the Hedge Monkeys (128K) (HB)</description>
 		<year>2008</year>
 		<manufacturer>Bob Smith</manufacturer>
-		<rom name="Farmer Jack and the Hedge Monkeys (2008)(Bob Smith).tap" size="48405" crc="de828b58"/>
+		<rom name="Farmer Jack and the Hedge Monkeys 128K (2008)(Bob Smith).tap" size="48405" crc="de828b58"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -9273,7 +9294,7 @@
 		<description>Farmer Jack in Harvest Havoc (128K) (HB)</description>
 		<year>2006</year>
 		<manufacturer>Bob Smith</manufacturer>
-		<rom name="Farmer Jack in Harvest Havoc (2006)(Bob Smith).tap" size="39223" crc="936f2345"/>
+		<rom name="Farmer Jack in Harvest Havoc 128K (2006)(Bob Smith).tap" size="39223" crc="936f2345"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -9586,7 +9607,7 @@
 		<description>Flying Shark (128K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Flying Shark 128K (1987)(Firebird).tap" size="36523" crc="634f50aa"/>
+		<rom name="Flying Shark 128K (1987)(Firebird Software).tap" size="36523" crc="634f50aa"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -10163,7 +10184,7 @@
 		<description>G.I. Hero (48K-128K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="G.I. Hero 48K-128K (1988)(Firebird).tzx" size="56299" crc="e16de14e"/>
+		<rom name="G.I. Hero 48K-128K (1988)(Firebird Software).tzx" size="56299" crc="e16de14e"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -10432,7 +10453,7 @@
 		<description>Gerry the Germ Goes Body Poppin (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Gerry the Germ Goes Body Poppin 48K (1985)(Firebird).tap" size="49339" crc="4bf4b0b0"/>
+		<rom name="Gerry the Germ Goes Body Poppin 48K (1985)(Firebird Software).tap" size="49339" crc="4bf4b0b0"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -10968,7 +10989,7 @@
 		<description>Gothik (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Gothik 48K (1987)(Firebird).tap" size="37854" crc="77774db3"/>
+		<rom name="Gothik 48K (1987)(Firebird Software).tap" size="37854" crc="77774db3"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -11202,7 +11223,7 @@
 		<description>Gunstar (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Gunstar 48K (1987)(Firebird).tap" size="47715" crc="23aedf6b"/>
+		<rom name="Gunstar 48K (1987)(Firebird Software).tap" size="47715" crc="23aedf6b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -12293,7 +12314,7 @@
 		<description>I, Ball (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="I, Ball 48K (1987)(Firebird).tap" size="53775" crc="4257b017"/>
+		<rom name="I, Ball 48K (1987)(Firebird Software).tap" size="53775" crc="4257b017"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -12303,7 +12324,7 @@
 		<description>I, Ball II (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="I, Ball II 48K (1987)(Firebird).tap" size="40691" crc="8ddcdfc8"/>
+		<rom name="I, Ball II 48K (1987)(Firebird Software).tap" size="40691" crc="8ddcdfc8"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -12351,7 +12372,7 @@
 		<description>Il Galletto - Chickin Chase (Italian) (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Chickin Chase (1985)(Firebird).tap" size="50446" crc="5762f239"/>
+		<rom name="Chickin Chase 48K (1985)(Firebird Software).tap" size="50446" crc="5762f239"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -12579,7 +12600,7 @@
 		<description>Intensity (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Intensity 48K (1988)(Firebird).tap" size="45643" crc="77a12914"/>
+		<rom name="Intensity 48K (1988)(Firebird Software).tap" size="45643" crc="77a12914"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -12755,10 +12776,10 @@
 	</game>
 	<game name="ishido" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Ishido - The Way of Stones (48K) (HB)</description>
+		<description>Ishido: The Way of Stones (48K) (HB)</description>
 		<year>2015</year>
 		<manufacturer>mZX</manufacturer>
-		<rom name="Ishido - The Way of Stones (2015)(mZX).tap" size="15859" crc="edd612c3"/>
+		<rom name="Ishido - The Way of Stones 48K (2015)(mZX).tap" size="15859" crc="edd612c3"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -13694,7 +13715,7 @@
 		<description>Kinetik (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Kinetik 48K (1987)(Firebird).z80" size="43221" crc="39a23892"/>
+		<rom name="Kinetik 48K (1987)(Firebird Software).z80" size="43221" crc="39a23892"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -13847,7 +13868,7 @@
 		<description>Knightmare 2 ZX (48K) (HB)</description>
 		<year>2015</year>
 		<manufacturer>Climacus</manufacturer>
-		<rom name="Knightmare 2 ZX (2015)(Climacus).tap" size="54725" crc="c0b2638a"/>
+		<rom name="Knightmare 2 ZX 48K (2015)(Climacus).tap" size="54725" crc="c0b2638a"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15147,7 +15168,7 @@
 		<description>Magnetron (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Magnetron 48K (1988)(Firebird).tap" size="48383" crc="f407317e"/>
+		<rom name="Magnetron 48K (1988)(Firebird Software).tap" size="48383" crc="f407317e"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15323,12 +15344,22 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="manula2" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Manula 2, La (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>KrappyGamez</manufacturer>
+		<rom name="Manula 2, La 48K (2025)(KrappyGamez).tap" size="41421" crc="927d92d1"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="manestsib" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
 		<comment>Homebrew</comment>
-		<description>Manula de la Estepa Siberiana, La (Spanish) (48K) (HB)</description>
+		<description>Manula, La - de la Estepa Siberiana (Spanish) (48K) (HB)</description>
 		<year>2024</year>
-		<manufacturer>Krappygamez</manufacturer>
-		<rom name="Manula de la Estepa Siberiana, La ES 48K (2024)(Krappygamez).tap" size="42828" crc="63dccaf9"/>
+		<manufacturer>KrappyGamez</manufacturer>
+		<rom name="Manula, La - de la Estepa Siberiana ES 48K (2024)(KrappyGamez).tap" size="42828" crc="63dccaf9"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -15837,7 +15868,7 @@
 		<description>Merlin (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Merlin 48K (1988)(Firebird).z80" size="41557" crc="a37c1a27"/>
+		<rom name="Merlin 48K (1988)(Firebird Software).z80" size="41557" crc="a37c1a27"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -16994,7 +17025,7 @@
 		<description>Mr. Heli (48K)</description>
 		<year>1989</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Mr Heli 48K (1989)(Firebird).tap" size="126724" crc="bf869699"/>
+		<rom name="Mr Heli 48K (1989)(Firebird Software).tap" size="126724" crc="bf869699"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -17197,7 +17228,7 @@
 		<description>Mystery of the Nile, The (English) (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Mystery of the Nile, The 48K (1987)(Firebird).tap" size="50370" crc="3dad4b2a"/>
+		<rom name="Mystery of the Nile, The 48K (1987)(Firebird Software).tap" size="50370" crc="3dad4b2a"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -17976,7 +18007,7 @@
 		<description>Olli &amp; Lissa - The Ghost of Shilmoore Castle (48K)</description>
 		<year>1986</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Olli &amp; Lissa - The Ghost Of Shilmoore Castle (1986)(Firebird).z80" size="40792" crc="ed38d8ad"/>
+		<rom name="Olli &amp; Lissa - The Ghost Of Shilmoore Castle (1986)(Firebird Software).z80" size="40792" crc="ed38d8ad"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -17985,7 +18016,7 @@
 		<description>Olli &amp; Lissa II - Halloween (48K)</description>
 		<year>1987</year>
 		<manufacturer>Silverbird Software</manufacturer>
-		<rom name="Olli &amp; Lissa II - Halloween (1987)(Firebird).z80" size="42673" crc="99e59116"/>
+		<rom name="Olli &amp; Lissa II - Halloween (1987)(Silverbird Software).z80" size="42673" crc="99e59116"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -18180,7 +18211,7 @@
 		<description>P-47 Thunderbolt (128K)</description>
 		<year>1990</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="P-47 Thunderbolt (1990)(Firebird).z80" size="72894" crc="9efaf7fc"/>
+		<rom name="P-47 Thunderbolt 128K (1990)(Firebird Software).z80" size="72894" crc="9efaf7fc"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -18244,7 +18275,7 @@
 		<description>Pac-Land Recoloured (128K) (Hack)</description>
 		<year>2014</year>
 		<manufacturer>Rafal Miazga</manufacturer>
-		<rom name="Pacland 128K Recoloured (2014)(Rafal Miazga).tap" size="29706" crc="acc409c3"/>
+		<rom name="Pacland 128K Recoloured 128K (2014)(Rafal Miazga).tap" size="29706" crc="acc409c3"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -18474,7 +18505,7 @@
 		<description>Paratroopers (16K)</description>
 		<year>1983</year>
 		<manufacturer>Rabbit</manufacturer>
-		<rom name="Paratroopers (1983)(Rabbit).tap" size="21732" crc="c19b3a5d"/>
+		<rom name="Paratroopers 16K (1983)(Rabbit).tap" size="21732" crc="c19b3a5d"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -18877,7 +18908,7 @@
 		<description>Phileas Fogg's Balloon Battles (48K)</description>
 		<year>1991</year>
 		<manufacturer>Zeppelin Games</manufacturer>
-		<rom name="Phileas Fogg's Balloon Battles (1991)(Zeppelin).tap" size="48594" crc="c311768c"/>
+		<rom name="Phileas Fogg's Balloon Battles 48K (1991)(Zeppelin).tap" size="48594" crc="c311768c"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -19116,7 +19147,7 @@
 		<description>Plot, The (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Plot, The (1988)(Firebird Software).tap" size="44904" crc="1adf1093"/>
+		<rom name="Plot, The 48K (1988)(Firebird Software).tap" size="44904" crc="1adf1093"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -20206,7 +20237,7 @@
 		<description>Rebelstar - 1 Player (48K)</description>
 		<year>1986</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Rebelstar - 1 Player 48K (1986)(Firebird).tap" size="47940" crc="a709f199"/>
+		<rom name="Rebelstar - 1 Player 48K (1986)(Firebird Software).tap" size="47940" crc="a709f199"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -20216,7 +20247,7 @@
 		<description>Rebelstar - 2 Players (48K)</description>
 		<year>1986</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Rebelstar - 2 Players 48K (1986)(Firebird).tap" size="47627" crc="e924d51f"/>
+		<rom name="Rebelstar - 2 Players 48K (1986)(Firebird Software).tap" size="47627" crc="e924d51f"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -20605,7 +20636,7 @@
 		<description>Rick Dangerous (128K)</description>
 		<year>1989</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Rick Dangerous 128K (1989)(Firebird).tap" size="48387" crc="48b1600d"/>
+		<rom name="Rick Dangerous 128K (1989)(Firebird Software).tap" size="48387" crc="48b1600d"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -20978,6 +21009,16 @@
 		<year>1985</year>
 		<manufacturer>Elite Systems</manufacturer>
 		<rom name="Roller Coaster 48K (1985)(Elite Systems).tap" size="49343" crc="bd2b1a0f"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="rollerball" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew, Select '3. Sinclair' to use controller</comment>
+		<description>Rollerball (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Dvader</manufacturer>
+		<rom name="Rollerball 48K (2025)(Dvader).tap" size="18725" crc="f5deee13"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -21447,7 +21488,7 @@
 		<description>Samurai Warrior ~ Usagi Yojimbo (128K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Samurai Warrior - Usagi Yojimbo 128K (1988)(Firebird).tap" size="53473" crc="989e9ffd"/>
+		<rom name="Samurai Warrior - Usagi Yojimbo 128K (1988)(Firebird Software).tap" size="53473" crc="989e9ffd"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -21515,7 +21556,7 @@
 		<description>Savage - Intro (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Savage, The (1988)(Firebird)[intro].z80" size="31023" crc="e606ebf0"/>
+		<rom name="Savage - Intro 48K (1988)(Firebird Software).z80" size="31023" crc="e606ebf0"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -21524,7 +21565,7 @@
 		<description>Savage - Part 1 (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Savage, The (1988)(Firebird)[Part 1 of 3].z80" size="37764" crc="3db88855"/>
+		<rom name="Savage - Part 1 48K (1988)(Firebird Software).z80" size="37764" crc="3db88855"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -21534,7 +21575,7 @@
 		<description>Savage - Part 2 (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Savage, The (1988)(Firebird)[Part 2 of 3].z80" size="39456" crc="4f8ddec1"/>
+		<rom name="Savage - Part 2 48K (1988)(Firebird Software).z80" size="39456" crc="4f8ddec1"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -21544,7 +21585,7 @@
 		<description>Savage - Part 3 (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Savage, The (1988)(Firebird)[Part 3 of 3].z80" size="33909" crc="e994f627"/>
+		<rom name="Savage - Part 3 48K (1988)(Firebird Software).z80" size="33909" crc="e994f627"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -21789,7 +21830,7 @@
 		<description>Sentinel, The (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Sentinel, The (1987)(Firebird).tap" size="45932" crc="c6957a83"/>
+		<rom name="Sentinel, The 48K (1987)(Firebird Software).tap" size="45932" crc="c6957a83"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -22199,7 +22240,7 @@
 		<description>Sidewize (48K)</description>
 		<year>1987</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Sidewize (1987)(Firebird Software).tap" size="41672" crc="db066855"/>
+		<rom name="Sidewize 48K (1987)(Firebird Software).tap" size="41672" crc="db066855"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -22440,6 +22481,16 @@
 		<year>1988</year>
 		<manufacturer>Ubi Soft</manufacturer>
 		<rom name="Skateball (1988)(Ubi Soft).tap" size="49399" crc="e816c833"/>
+		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="skillteam" romof="spectrum" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Skill Team (48K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>David Programa</manufacturer>
+		<rom name="Skill Team 48K (2025)(David Programa).tzx" size="16495" crc="e13f1baa"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -22758,7 +22809,7 @@
 		<description>Soldier of Fortune (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Soldier Of Fortune (1988)(Firebird).z80" size="44543" crc="c3dc26df"/>
+		<rom name="Soldier Of Fortune 48K (1988)(Firebird Software).z80" size="44543" crc="c3dc26df"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -23254,6 +23305,17 @@
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="spidermanco" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Spiderman: La Ciudad a Oscuras (Spanish) (128K) (HB)</description>
+		<year>2025</year>
+		<manufacturer>Carlos Perezgrin</manufacturer>
+		<rom name="Spiderman - La Ciudad a Oscuras ES 128K (2025)(Carlos Perezgrin).tap" size="95374" crc="4b7ce9e2"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="spikeintransylvania" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
 		<description>Spike in Transylvania (128K)</description>
 		<year>1991</year>
@@ -23500,7 +23562,7 @@
 		<description>Star Firebirds (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Star Firebirds (1985)(Firebird).z80" size="34053" crc="e38dec78"/>
+		<rom name="Star Firebirds 48K (1985)(Firebird Software).z80" size="34053" crc="e38dec78"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -24474,7 +24536,7 @@
 		<description>Switchblade (128K)</description>
 		<year>1991</year>
 		<manufacturer>Gremlin Graphics</manufacturer>
-		<rom name="Switchblade (1991)(Gremlin Graphics).tap" size="52937" crc="a050f9d6"/>
+		<rom name="Switchblade 128K (1991)(Gremlin Graphics).tap" size="52937" crc="a050f9d6"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -25267,7 +25329,7 @@
 		<description>Tintin on the Moon (48K)</description>
 		<year>1989</year>
 		<manufacturer>Infogrames</manufacturer>
-		<rom name="Tintin on the Moon (1989)(Infogrames).tap" size="40102" crc="1959b7a0"/>
+		<rom name="Tintin on the Moon 48K (1989)(Infogrames).tap" size="40102" crc="1959b7a0"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -25869,7 +25931,7 @@
 		<description>Turbo Cup Challenge (128K)</description>
 		<year>1989</year>
 		<manufacturer>Loriciels</manufacturer>
-		<rom name="Turbo Cup Challenge (1989)(Loriciels).tap" size="45468" crc="b81e5707"/>
+		<rom name="Turbo Cup Challenge 128K (1989)(Loriciels).tap" size="45468" crc="b81e5707"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -26269,7 +26331,7 @@
 		<description>Vectron (48K)</description>
 		<year>1985</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Vectron 48K (1985)(Firebird).tap" size="49343" crc="ec6217eb"/>
+		<rom name="Vectron 48K (1985)(Firebird Software).tap" size="49343" crc="ec6217eb"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -26365,7 +26427,7 @@
 		<description>Vigilante (48K)</description>
 		<year>1989</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="Vigilante (1989)(U.S. Gold).tap" size="110650" crc="372bf21f"/>
+		<rom name="Vigilante 48K (1989)(U.S. Gold).tap" size="110650" crc="372bf21f"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -26449,7 +26511,7 @@
 		<description>Virus (48K)</description>
 		<year>1988</year>
 		<manufacturer>Firebird Software</manufacturer>
-		<rom name="Virus 48K (1988)(Firebird).tap" size="42183" crc="7a2c590b"/>
+		<rom name="Virus 48K (1988)(Firebird Software).tap" size="42183" crc="7a2c590b"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -27217,8 +27279,8 @@
 		<comment>Homebrew</comment>
 		<description>YAKS - Yet Another Krappy Shooter (16K) (HB)</description>
 		<year>2022</year>
-		<manufacturer>Krappygamez</manufacturer>
-		<rom name="YAKS - Yet Another Krappy Shooter 16K (2022)(Krappygamez).tap" size="13963" crc="2ebe7e38"/>
+		<manufacturer>KrappyGamez</manufacturer>
+		<rom name="YAKS - Yet Another Krappy Shooter 16K (2022)(KrappyGamez).tap" size="13963" crc="2ebe7e38"/>
 		<rom name="spectrum.rom" merge="spectrum.rom" size="16384" crc="ddee531f"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -27485,8 +27547,8 @@
 		<comment>Homebrew</comment>
 		<description>Ziona Quest - Game (128K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>Iamai</manufacturer>
-		<rom name="Ziona Quest - Game 128K (2023)(Iamai).tap" size="57048" crc="8ff580cd"/>
+		<manufacturer>IAMAI Creation</manufacturer>
+		<rom name="Ziona Quest - Game 128K (2023)(IAMAI Creation).tap" size="57048" crc="8ff580cd"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
@@ -27496,8 +27558,19 @@
 		<comment>Homebrew</comment>
 		<description>Ziona Quest - Training (128K) (HB)</description>
 		<year>2023</year>
-		<manufacturer>Iamai</manufacturer>
-		<rom name="Ziona Quest - Training 128K (2023)(Iamai).tap" size="55749" crc="a614eac8"/>
+		<manufacturer>IAMAI Creation</manufacturer>
+		<rom name="Ziona Quest - Training 128K (2023)(IAMAI Creation).tap" size="55749" crc="a614eac8"/>
+		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
+		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
+		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="zquest2p1" romof="spec128" sourcefile="spectrum/d_spectrum.cpp">
+		<comment>Homebrew</comment>
+		<description>Ziona Quest II - Part 1 (128K) (HB, v1.1)</description>
+		<year>2025</year>
+		<manufacturer>IAMAI Creation</manufacturer>
+		<rom name="Ziona Quest II - Part 1 v1.1 128K (2025)(IAMAI Creation).tap" size="56938" crc="650a133a"/>
 		<rom name="zx128_0.rom" merge="zx128_0.rom" size="16384" crc="e76799d2"/>
 		<rom name="zx128_1.rom" merge="zx128_1.rom" size="16384" crc="b96a36be"/>
 		<video type="raster" orientation="horizontal" width="288" height="224" aspectx="4" aspecty="3"/>

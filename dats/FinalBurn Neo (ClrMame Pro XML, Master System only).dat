@@ -2869,10 +2869,10 @@
 	</game>
 	<game name="jumpjack" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Jumping Jackson (HB, v0.2)</description>
+		<description>Jumping Jackson (HB, v0.4)</description>
 		<year>2025</year>
 		<manufacturer>slogra</manufacturer>
-		<rom name="Jumping Jackson v0.2 (2025)(slogra).sms" size="180224" crc="4d970e83"/>
+		<rom name="Jumping Jackson v0.4 (2025)(slogra).sms" size="180224" crc="5475cb7b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

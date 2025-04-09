@@ -1507,6 +1507,23 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="blucryrodte" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Blue Crystal Rod, The (Hack, English)</description>
+		<year>2025</year>
+		<manufacturer>Supper</manufacturer>
+		<rom name="Blue Crystal Rod, The T-Eng (2025)(Supper).sfc" size="3145728" crc="4aaa5806"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="blucryrodj" cloneof="blucryrodte" romof="blucryrodte" sourcefile="snes/d_snes.cpp">
+		<description>Blue Crystal Rod, The (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Namco</manufacturer>
+		<rom name="Blue Crystal Rod, The (J)(1994)(Namco).sfc" size="2097152" crc="efc21f71"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bluesbrosj" cloneof="bluesbros" romof="bluesbros" sourcefile="snes/d_snes.cpp">
 		<description>Blues Brothers, The (Japan)</description>
 		<year>1993</year>
@@ -7045,6 +7062,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="lufiatp" cloneof="lufia" romof="lufia" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Lufia &amp; A Fortaleza da Morte (Hack, Portuguese)</description>
+		<year>2017</year>
+		<manufacturer>Magalicia</manufacturer>
+		<rom name="Lufia &amp; A Fortaleza da Morte PT-BR (2017)(Magalicia).sfc" size="6291456" crc="83af6c9b"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="lufiatde" cloneof="lufia" romof="lufia" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Lufia &amp; Die Schicksalsfestung (Hack, German)</description>
@@ -7914,6 +7940,15 @@
 		<year>2019</year>
 		<manufacturer>RPGONE</manufacturer>
 		<rom name="Miracle Girls T-Eng v1.1 (2019)(RPGONE).sfc" size="1048576" crc="ae72d6fe"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="miragirlsts" cloneof="miragirlste" romof="miragirlste" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Miracle Girls (Hack, Spanish)</description>
+		<year>2024</year>
+		<manufacturer>Full Moon</manufacturer>
+		<rom name="Miracle Girls T-Spa (2024)(Full Moon).sfc" size="1048576" crc="c6bbf5b5"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10301,11 +10336,38 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="secretmanati" cloneof="secretmana" romof="secretmana" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Secret of Mana (Hack, Italian)</description>
+		<year>2001</year>
+		<manufacturer>SadNES cITy</manufacturer>
+		<rom name="Secret of Mana T-Ita (2001)(SadNES cITy).sfc" size="2097152" crc="31114aac"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="secretmanats" cloneof="secretmana" romof="secretmana" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Secret of Mana (Hack, Spanish)</description>
+		<year>2010</year>
+		<manufacturer>Traducciones Magno</manufacturer>
+		<rom name="Secret of Mana T-Spa (2010)(Traducciones Magno).sfc" size="2097152" crc="98e12a2d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="secretmana" sourcefile="snes/d_snes.cpp">
 		<description>Secret of Mana (USA)</description>
 		<year>1993</year>
 		<manufacturer>Squaresoft</manufacturer>
 		<rom name="Secret of Mana (U)(1993)(Squaresoft).sfc" size="2097152" crc="d0176b24"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="secretmanaplus" cloneof="secretmana" romof="secretmana" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Secret of Mana Plus (Hack, v2.04)</description>
+		<year>2024</year>
+		<manufacturer>Tomm</manufacturer>
+		<rom name="Secret of Mana Plus v2.04 (2024)(Tomm).sfc" size="3145728" crc="666371a0"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10348,6 +10410,15 @@
 		<year>1993</year>
 		<manufacturer>Squaresoft</manufacturer>
 		<rom name="Seiken Densetsu 3 (J)(1995)(Squaresoft).sfc" size="4194304" crc="863ed0b8"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="seikdens3ts" cloneof="seikdens3te" romof="seikdens3te" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Seiken Densetsu 3 ~ Secret of Mana 2 (Hack, Spanish)</description>
+		<year>2013</year>
+		<manufacturer>Traducciones Magno</manufacturer>
+		<rom name="Seiken Densetsu 3 T-Spa (2013)(Traducciones Magno).sfc" size="4194304" crc="11b87dea"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
