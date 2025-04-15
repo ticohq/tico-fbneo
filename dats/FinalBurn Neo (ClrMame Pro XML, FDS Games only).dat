@@ -1058,7 +1058,7 @@
 	</game>
 	<game name="linknobouc" cloneof="linknobou" romof="linknobou" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Link no Bouken - The Legend of Zelda II (Rev 1) (Rev 1) (Hack, Spanish)</description>
+		<description>Link no Bouken - The Legend of Zelda II (Rev 1) (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>jackic</manufacturer>
 		<rom name="Link no Bouken - The Legend of Zelda II (Rev 1) T-Spa (2019)(jackic).fds" size="131000" crc="60a26198"/>

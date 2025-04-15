@@ -856,6 +856,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
+	<game name="allhellunl" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>All Hell Unleashed (HB)</description>
+		<year>2025</year>
+		<manufacturer>Fista Productions</manufacturer>
+		<rom name="All Hell Unleashed (2025)(Fista Productions).nes" size="524304" crc="2f78164f"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
 	<game name="almika" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
 		<description>Almika The Star Rider Densetsu Gaiden (HB)</description>
@@ -1151,8 +1160,8 @@
 		<comment>Homebrew</comment>
 		<description>Arm Wrestling Classic, The (HB)</description>
 		<year>2022</year>
-		<manufacturer>Fista Games</manufacturer>
-		<rom name="Arm Wrestling Classic, The (2022)(Fista Games).nes" size="524304" crc="5c62c55a"/>
+		<manufacturer>Fista Productions</manufacturer>
+		<rom name="Arm Wrestling Classic, The (2022)(Fista Productions).nes" size="524304" crc="5c62c55a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -1558,6 +1567,15 @@
 		<year>1986</year>
 		<manufacturer>Victor</manufacturer>
 		<rom name="Banana (Japan)(1986)(Victor).nes" size="49168" crc="5ac41464"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="bananabashdemo" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Banana Bash! - Demo (HB)</description>
+		<year>2025</year>
+		<manufacturer>Work3 Studio</manufacturer>
+		<rom name="Banana Bash! - Demo (2025)(Work3 Studio).nes" size="524304" crc="e08772d4"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -2035,7 +2053,7 @@
 	<game name="biknekiroku" cloneof="crashnboy" romof="crashnboy" sourcefile="nes/d_nes.cpp">
 		<description>Bikkuri Nekketsu Shin Kiroku! - Harukanaru Kin Medal (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Bikkuri Nekketsu Shin Kiroku! - Harukanaru Kin Medal (Japan)(1992)(Technos).nes" size="262160" crc="f5202c9e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -5060,7 +5078,7 @@
 		<description>Double Dragon III - The Sacred Stones (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>asiwish</manufacturer>
-		<rom name="Double Dragon III - The Sacred Stones (T-Chi).nes" size="262160" crc="4b992f63"/>
+		<rom name="Double Dragon III - The Sacred Stones T-Chi (2022)(asiwish).nes" size="262160" crc="4b992f63"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5078,6 +5096,15 @@
 		<year>1991</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
 		<rom name="Double Dragon III - The Sacred Stones (USA)(1991)(Acclaim).nes" size="262160" crc="7a6e0454"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="doubledream" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Double Dream (HB, v0.2.0)</description>
+		<year>2023-25</year>
+		<manufacturer>Magidev</manufacturer>
+		<rom name="Double Dream v0.2.0 (2023-25)(Magidev).nes" size="65552" crc="1f91e4c6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5127,14 +5154,14 @@
 		<description>Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>NOKOH</manufacturer>
-		<rom name="Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (T-Chi).nes" size="483344" crc="d1728e58"/>
+		<rom name="Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai T-Chi (2022)(NOKOH).nes" size="483344" crc="d1728e58"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="downtnekkousorda" sourcefile="nes/d_nes.cpp">
 		<description>Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Downtown - Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)(1990)(Technos).nes" size="262160" crc="e34fc4af"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -5144,14 +5171,14 @@
 		<description>Downtown - Nekketsu Monogatari (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>asiwish</manufacturer>
-		<rom name="Downtown - Nekketsu Monogatari (T-Chi).nes" size="262160" crc="60a9ee52"/>
+		<rom name="Downtown - Nekketsu Monogatari T-Chi (2022)(asiwish).nes" size="262160" crc="60a9ee52"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="downtnekmon" sourcefile="nes/d_nes.cpp">
 		<description>Downtown - Nekketsu Monogatari (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Downtown - Nekketsu Monogatari (Japan)(1989)(Technos).nes" size="262160" crc="f7346e46"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -5159,7 +5186,7 @@
 	<game name="downtspekunkunnojid" sourcefile="nes/d_nes.cpp">
 		<description>Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou! (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Downtown Special - Kunio-kun no Jidaigeki Da yo Zenin Shuugou! (Japan)(1991)(Technos).nes" size="262160" crc="014d63c9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -5450,7 +5477,7 @@
 		<description>Dragon Knife (China) (Unl)</description>
 		<year>1993</year>
 		<manufacturer>Waixing</manufacturer>
-		<rom name="Dragon Knife (Chinese).nes" size="524304" crc="eb5dbb86"/>
+		<rom name="Dragon Knife (China)(Unl)(1993)(Waixing).nes" size="524304" crc="eb5dbb86"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5459,7 +5486,7 @@
 		<description>Dragon Knife (Hack, English)</description>
 		<year>2014</year>
 		<manufacturer>pacnsacdave</manufacturer>
-		<rom name="Dragon Knife (T-Eng).nes" size="524304" crc="142f21a6"/>
+		<rom name="Dragon Knife T-Eng (2014)(pacnsacdave).nes" size="524304" crc="142f21a6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6322,19 +6349,19 @@
 	</game>
 	<game name="famidash" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>Famidash (HB, v1.2)</description>
+		<description>Famidash (HB, v1.2.1)</description>
 		<year>2024</year>
 		<manufacturer>TFDSoft</manufacturer>
-		<rom name="Famidash v1.2 (2024)(TFDSoft).nes" size="786448" crc="708fbee4"/>
+		<rom name="Famidash v1.2.1 (2024)(TFDSoft).nes" size="786448" crc="a94b4cbb"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famidashb" cloneof="famidash" romof="famidash" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>Famidash Side B (HB, v1.2)</description>
+		<description>Famidash - Side B (HB, v1.2.1)</description>
 		<year>2024</year>
 		<manufacturer>TFDSoft</manufacturer>
-		<rom name="Famidash v1.2 Side B (2024)(TFDSoft).nes" size="786448" crc="2f19e44b"/>
+		<rom name="Famidash - Side B v1.2.1 (2024)(TFDSoft).nes" size="786448" crc="6a90da54"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6556,7 +6583,7 @@
 		<description>Fester's Quest (Hack, Chinese)</description>
 		<year>2021</year>
 		<manufacturer>DMG Team</manufacturer>
-		<rom name="Fester's Quest (T-Chi).nes" size="393232" crc="56a5335e"/>
+		<rom name="Fester's Quest T-Chi (2021)(DMG Team).nes" size="393232" crc="56a5335e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6750,7 +6777,7 @@
 		<description>Final Mission (Hack, Chinese)</description>
 		<year>2021</year>
 		<manufacturer>Ni You De Wu Cai Yu</manufacturer>
-		<rom name="Final Mission (T-Chi).nes" size="393232" crc="9e25f63f"/>
+		<rom name="Final Mission T-Chi (2021)(Ni You De Wu Cai Yu).nes" size="393232" crc="9e25f63f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6818,7 +6845,7 @@
 		<description>Fire Emblem - Ankoku Ryuu to Hikari no Tsurugi (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>Han Xue Shi Zhe</manufacturer>
-		<rom name="Fire Emblem - Ankoku Ryuu to Hikari no Tsurugi (T-Chi).nes" size="655376" crc="a3126533"/>
+		<rom name="Fire Emblem - Ankoku Ryuu to Hikari no Tsurugi T-Chi (2022)(Han Xue Shi Zhe).nes" size="655376" crc="a3126533"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6844,7 +6871,7 @@
 		<description>Fire Emblem Gaiden (Hack, Chinese v2.0)</description>
 		<year>2021</year>
 		<manufacturer>Han Xue Shi Zhe</manufacturer>
-		<rom name="Fire Emblem Gaiden (T-Chi, v2.0).nes" size="663568" crc="1df6fb24"/>
+		<rom name="Fire Emblem Gaiden T-Chi v2.0 (2021)(Han Xue Shi Zhe).nes" size="663568" crc="1df6fb24"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6979,7 +7006,7 @@
 		<description>Flintstones, The - The Rescue of Dino &amp; Hoppy (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>HHNM Team</manufacturer>
-		<rom name="Flintstones, The - The Rescue of Dino &amp; Hoppy (T-Chi).nes" size="655376" crc="773ffd89"/>
+		<rom name="Flintstones, The - The Rescue of Dino &amp; Hoppy T-Chi (2022)(HHNM Team).nes" size="655376" crc="773ffd89"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -7573,7 +7600,7 @@
 		<description>Genuine Monkey (China) (Unl)</description>
 		<year>1999</year>
 		<manufacturer>Waixing</manufacturer>
-		<rom name="Genuine Monkey (China).nes" size="524304" crc="c2ad9c76"/>
+		<rom name="Genuine Monkey (China)(Unl)(1999)(Waixing).nes" size="524304" crc="c2ad9c76"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -7582,7 +7609,7 @@
 		<description>Genuine Monkey (Hack, English)</description>
 		<year>2017</year>
 		<manufacturer>pacnsacdave</manufacturer>
-		<rom name="Genuine Monkey (T-Eng).nes" size="524304" crc="66f20682"/>
+		<rom name="Genuine Monkey T-Eng (2017)(pacnsacdave).nes" size="524304" crc="66f20682"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9122,7 +9149,7 @@
 	<game name="ikeikenekhocbu" cloneof="iceicehoccha" romof="iceicehoccha" sourcefile="nes/d_nes.cpp">
 		<description>Ike Ike! Nekketsu Hockey-bu - Subette Koronde Dairantou (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Ike Ike! Nekketsu Hockey-bu - Subette Koronde Dairantou (Japan)(1992)(Technos).nes" size="262160" crc="920be27c"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -10104,7 +10131,7 @@
 		<description>Karate Kid, The (Hack, Spanish)</description>
 		<year>2020</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="karate kid, the (usa) - castellano v1.0.nes" size="65552" crc="99cc2044"/>
+		<rom name="Karate Kid, The T-Spa (2020)(Wave).nes" size="65552" crc="99cc2044"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10121,7 +10148,7 @@
 		<description>Karateka (Hack, Spanish)</description>
 		<year>2020</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="karateka (japan) - castellano v1.0.nes" size="24592" crc="3839edb9"/>
+		<rom name="Karateka T-Spa (2020)(Wave).nes" size="24592" crc="3839edb9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10535,7 +10562,7 @@
 		<description>Krusty's Fun House (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="krusty's fun house (usa) - castellano v1.0.nes" size="393232" crc="b09308d4"/>
+		<rom name="Krusty's Fun House T-Spa (2019)(Wave).nes" size="393232" crc="b09308d4"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10575,8 +10602,8 @@
 	<game name="kuniokunnoneksole" sourcefile="nes/d_nes.cpp">
 		<description>Kunio-kun no Nekketsu Soccer League (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Technos</manufacturer>
-		<rom name="Kunio-kun no Nekketsu Soccer League (Japan).nes" size="262160" crc="9659bca6"/>
+		<manufacturer>Technos Japan</manufacturer>
+		<rom name="Kunio-kun no Nekketsu Soccer League (Japan)(1993)(Technos).nes" size="262160" crc="9659bca6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10789,7 +10816,7 @@
 		<description>Legacy of the Wizard (Hack, Spanish)</description>
 		<year>2020</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="legacy of the wizard (usa) - castellano v1.0.nes" size="196624" crc="e87e3d09"/>
+		<rom name="Legacy of the Wizard T-Spa (2020)(Wave).nes" size="196624" crc="e87e3d09"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10978,9 +11005,9 @@
 	</game>
 	<game name="leidiahuabikaqiuchs" sourcefile="nes/d_nes.cpp">
 		<description>Lei Dian Huang Bi Ka Qiu Chuan Shuo (China)</description>
-		<year>1989?</year>
-		<manufacturer>Nintendo</manufacturer>
-		<rom name="Lei Dian Huang Bi Ka Qiu Chuan Shuo (China).nes" size="2097168" crc="f4ebe9b2"/>
+		<year>199?</year>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Lei Dian Huang Bi Ka Qiu Chuan Shuo (China)(199x).nes" size="2097168" crc="f4ebe9b2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10988,7 +11015,7 @@
 		<description>Lemmings (USA)</description>
 		<year>1992</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Lemmings (USA).nes" size="262160" crc="cb2c08d4"/>
+		<rom name="Lemmings (USA)(1992)(Sunsoft).nes" size="262160" crc="cb2c08d4"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10997,7 +11024,7 @@
 		<description>Lemmings Improvement (Hack, v1.3)</description>
 		<year>2023</year>
 		<manufacturer>Nintendo Lemmings Improvement Team</manufacturer>
-		<rom name="Lemmings Improvement v1.3 (2023)(Nintendo Lemmings Improvement Team).nes.nes" size="262160" crc="97ccd458"/>
+		<rom name="Lemmings Improvement v1.3 (2023)(Nintendo Lemmings Improvement Team).nes" size="262160" crc="97ccd458"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11005,7 +11032,7 @@
 		<description>Lethal Weapon (USA)</description>
 		<year>1993</year>
 		<manufacturer>Ocean</manufacturer>
-		<rom name="Lethal Weapon (USA).nes" size="262160" crc="1dc4915b"/>
+		<rom name="Lethal Weapon (USA)(1993)(Ocean).nes" size="262160" crc="1dc4915b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11013,7 +11040,7 @@
 		<description>Life Force (USA)</description>
 		<year>1988</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="Life Force (USA).nes" size="131088" crc="f7b55696"/>
+		<rom name="Life Force (USA)(1988)(Konami).nes" size="131088" crc="f7b55696"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11030,7 +11057,7 @@
 		<description>Linus Spacehead's Cosmic Crusade (USA)</description>
 		<year>1992</year>
 		<manufacturer>Camerica</manufacturer>
-		<rom name="Linus Spacehead's Cosmic Crusade (USA).nes" size="262160" crc="fffddf99"/>
+		<rom name="Linus Spacehead's Cosmic Crusade (USA)(1992)(Camerica).nes" size="262160" crc="fffddf99"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11038,16 +11065,16 @@
 		<description>Lion King Legend, The (China) (Unl)</description>
 		<year>1996</year>
 		<manufacturer>Waixing</manufacturer>
-		<rom name="Lion King Legend, The (China).nes" size="524304" crc="1309fa69"/>
+		<rom name="Lion King Legend, The (China)(Unl)(1996)(Waixing).nes" size="524304" crc="1309fa69"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="lionkinleg" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Lion King Legend, The (Hack, English) (Unl)</description>
+		<description>Lion King Legend, The (Hack, English)</description>
 		<year>2015</year>
 		<manufacturer>pacnsacdave</manufacturer>
-		<rom name="Lion King Legend, The (T-Eng).nes" size="524304" crc="0f95fc73"/>
+		<rom name="Lion King Legend, The T-Eng (2015)(pacnsacdave).nes" size="524304" crc="0f95fc73"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11055,7 +11082,7 @@
 		<description>Lion King, The (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Games</manufacturer>
-		<rom name="Lion King, The (Europe).nes" size="262160" crc="149e367f"/>
+		<rom name="Lion King, The (Euro)(1994)(Virgin Games).nes" size="262160" crc="149e367f"/>
 		<video type="raster" orientation="horizontal" width="256" height="232" aspectx="256" aspecty="232"/>
 		<driver status="good"/>
 	</game>
@@ -11064,7 +11091,7 @@
 		<description>Lion King, The (Hack, Spanish)</description>
 		<year>2019</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="lion king, the (europe) - castellano v1.0.nes" size="262160" crc="562245ae"/>
+		<rom name="Lion King, The T-Spa (2019)(Wave).nes" size="262160" crc="562245ae"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11330,7 +11357,7 @@
 		<description>Lupin Sansei - Pandora no Isan (Hack, Spanish)</description>
 		<year>2018</year>
 		<manufacturer>jackic</manufacturer>
-		<rom name="lupin sansei - pandora no isan (japan) - castellano v1.0.nes" size="196624" crc="0bb24755"/>
+		<rom name="Lupin Sansei - Pandora no Isan T-Spa (2018)(jackic).nes" size="196624" crc="0bb24755"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11440,7 +11467,7 @@
 		<description>Mafat Conspiracy - Golgo 13 (Hack, Spanish v1.1)</description>
 		<year>2018</year>
 		<manufacturer>Wave</manufacturer>
-		<rom name="mafat conspiracy - golgo 13 (usa) - castellano v1.1.nes" size="262160" crc="b527ad27"/>
+		<rom name="Mafat Conspiracy - Golgo 13 T-Spa v1.1 (2018)(Wave).nes" size="262160" crc="b527ad27"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11529,7 +11556,7 @@
 		<description>Magic of Scheherazade, The (Hack, Spanish v0.99)</description>
 		<year>2019</year>
 		<manufacturer>jackic</manufacturer>
-		<rom name="magic of scheherazade, the (usa) - castellano v0.99.nes" size="262160" crc="9d080895"/>
+		<rom name="Magic of Scheherazade, The T-Spa v0.99 (2019)(jackic).nes" size="262160" crc="9d080895"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12360,6 +12387,15 @@
 		<year>1987</year>
 		<manufacturer>Nintendo</manufacturer>
 		<rom name="Metroid (USA)(1987)(Nintendo).nes" size="131088" crc="a2c89cb9"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="metroidle" cloneof="metroid" romof="metroid" sourcefile="nes/d_nes.cpp">
+		<comment>Hack</comment>
+		<description>Metroid - Linear Edition (Hack)</description>
+		<year>2025</year>
+		<manufacturer>Vermin</manufacturer>
+		<rom name="Metroid - Linear Edition (2025)(Vermin).nes" size="393232" crc="584872d6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -13364,26 +13400,26 @@
 	</game>
 	<game name="nekkekakden" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
-		<description>Nekketsu Kakutou Densetsu (Hack, English)</description>
+		<description>Nekketsu Kakutou Densetsu (Hack, English v0.95)</description>
 		<year>1998</year>
 		<manufacturer>oRdErEDchaos</manufacturer>
-		<rom name="Nekketsu Kakutou Densetsu (T-eng).nes" size="262160" crc="23d650f2"/>
+		<rom name="Nekketsu Kakutou Densetsu T-Eng v0.95 (1998)(oRdErEDchaos).nes" size="262160" crc="23d650f2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="nekkekakdenj" cloneof="nekkekakden" romof="nekkekakden" sourcefile="nes/d_nes.cpp">
 		<description>Nekketsu Kakutou Densetsu (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Technos</manufacturer>
-		<rom name="Nekketsu Kakutou Densetsu (Japan).nes" size="262160" crc="10859c6b"/>
+		<manufacturer>Technos Japan</manufacturer>
+		<rom name="Nekketsu Kakutou Densetsu (Japan)(1992)(Technos).nes" size="262160" crc="10859c6b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="nekkekoukunkun" sourcefile="nes/d_nes.cpp">
 		<description>Nekketsu Kouha Kunio-kun (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Technos</manufacturer>
-		<rom name="Nekketsu Kouha Kunio-kun (Japan).nes" size="131088" crc="94dab06a"/>
+		<manufacturer>Technos Japan</manufacturer>
+		<rom name="Nekketsu Kouha Kunio-kun (Japan)(1987)(Technos).nes" size="131088" crc="94dab06a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -13407,7 +13443,7 @@
 	<game name="nekkestrbasj" cloneof="nekkestrbas" romof="nekkestrbas" sourcefile="nes/d_nes.cpp">
 		<description>Nekketsu! Street Basket - Ganbare Dunk Heroes (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Nekketsu! Street Basket - Ganbare Dunk Heroes (Japan)(1993)(Technos).nes" size="262160" crc="a2952508"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -14455,6 +14491,15 @@
 		<year>1989</year>
 		<manufacturer>Sachen</manufacturer>
 		<rom name="Penguin &amp; Seal, The (Unl)(1989)(Sachen).nes" size="24592" crc="8daf3827"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="pengsokoadv" sourcefile="nes/d_nes.cpp">
+		<comment>Homebrew</comment>
+		<description>Penguin - Sokoban Adventure (HB, v1.1)</description>
+		<year>2024</year>
+		<manufacturer>AJP Games</manufacturer>
+		<rom name="Penguin - Sokoban Adventure v1.1 (2024)(AJP Games).nes" size="65552" crc="d9e2d07b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17982,7 +18027,7 @@
 	<game name="sugorquej" cloneof="sugorque" romof="sugorque" sourcefile="nes/d_nes.cpp">
 		<description>Sugoro Quest - Dice no Senshitachi (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="Sugoro Quest - Dice no Senshitachi (Japan)(1991)(Technos).nes" size="262160" crc="0ac48932"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -20124,7 +20169,7 @@
 	<game name="uschavba" sourcefile="nes/d_nes.cpp">
 		<description>U.S. Championship V'Ball (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Technos</manufacturer>
+		<manufacturer>Technos Japan</manufacturer>
 		<rom name="U.S. Championship V'Ball (Japan)(1989)(Technos).nes" size="262160" crc="0bafbb69"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -20368,7 +20413,7 @@
 		<description>Urusei Yatsura: Lum's Wedding Bell - OVERHAUL (Hack)</description>
 		<year>2022</year>
 		<manufacturer>Rani Baker</manufacturer>
-		<rom name="Urusei Yatsura - Lum No Wedding Bell - OVERHAUL (2022)(Rani Baker).nes" size="65552" crc="1443e638"/>
+		<rom name="Urusei Yatsura - Lum No Wedding Bell - OVERHAUL (2022)(Rani Baker).nes" size="65552" crc="4fa35893"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

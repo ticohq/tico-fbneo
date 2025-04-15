@@ -9924,6 +9924,15 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="rockman7tc" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Rockman 7 - Shukumei no Taiketsu! (Hack, Traditional Chinese v20250406)</description>
+		<year>2025</year>
+		<manufacturer>NOKOH</manufacturer>
+		<rom name="Rockman 7 - Shukumei no Taiketsu! T-Cht v20250406 (2025)(NOKOH).sfc" size="3145728" crc="c1928f06"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="rockman7" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
 		<description>Rockman 7 - Shukumei no Taiketsu! (Japan)</description>
 		<year>1995</year>

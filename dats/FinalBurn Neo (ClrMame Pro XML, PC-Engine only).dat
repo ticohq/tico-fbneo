@@ -2820,6 +2820,15 @@
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="xevioussc" cloneof="xevious" romof="xevious" sourcefile="pce/d_pce.cpp">
+		<comment>Hack</comment>
+		<description>Xevious - Fardraut Densetsu (Hack, Simplified Chinese v1.0)</description>
+		<year>2025</year>
+		<manufacturer>Feiyue Wujin Ankong</manufacturer>
+		<rom name="Xevious - Fardraut Densetsu T-Chs v1.0 (2025)(Feiyue Wujin Ankong).pce" size="262144" crc="dcd579cf"/>
+		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="xevious" sourcefile="pce/d_pce.cpp">
 		<description>Xevious - Fardraut Densetsu (Japan)</description>
 		<year>1990</year>
