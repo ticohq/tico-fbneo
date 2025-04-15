@@ -87,6 +87,7 @@ struct NGCDGAME games[] =
 	{ _T("ssrpg")		, _T("Samurai Shodown RPG / Shinsetsu Samurai Spirits - Bushidohretsuden")		, _T("1997")	, _T("SNK")					, 0x0085 },		//
 	{ _T("ssrpgen")		, _T("Samurai Shodown RPG (English Translation)")			, _T("1997")	, _T("SNK")					, 0x1085 },		//
 	{ _T("ssrpgen11")	, _T("Samurai Shodown RPG (English Translation v1.1)")		, _T("1997")	, _T("SNK")					, 0x3085 },		//
+	{ _T("ssrpgchs")	, _T("Shinsetsu Samurai Spirits - Bushidohretsuden (Simplified Chinese Translation, Public beta)"), _T("2025"), _T("SGGG Team"), 0x4085 },	// custom id
 	{ _T("ssrpgfr")		, _T("Samurai Shodown RPG (French Translation)")			, _T("1997")	, _T("SNK")					, 0x2085 },		//
 	{ _T("samsho3")		, _T("Samurai Shodown 3 / Samurai Spirits 3")				, _T("1995")	, _T("SNK")					, 0x0087 },		//
 	{ _T("stakwin")		, _T("Stakes Winner - GI Kanzen Seiha Heno Machi")			, _T("1995")	, _T("Saurus")				, 0x0088 },		//
@@ -156,9 +157,12 @@ struct NGCDGAME games[] =
 	{ _T("neobombe")	, _T("Neo Bomberman")										, _T("2025")	, _T("Hudson (iq_132 conversion)")	, 0x0093 },		//
 	{ _T("zedblade")	, _T("Zed Blade - Operation Ragnarok")						, _T("2024")	, _T("NMK (iq_132 conversion)")	, 0x0076 },		//
 	{ _T("ctomaday")	, _T("Captain Tomaday")										, _T("2025")	, _T("Visco (iq_132 conversion)")	, 0x0249 },		//
+	{ _T("diggerma")	, _T("Digger Man (Prototype)")								, _T("2025")	, _T("Kyle Hodgetts (iq_132 conversion)")	, 0x1266 },		// it's really 0x0066, but this conflicts with karnovr.
 	{ _T("shinobi")		, _T("Shinobi")												, _T("2024")	, _T("(Hoffman conversion)")	, 0x1337 },		//
 	{ _T("goldnaxe")	, _T("Golden Axe")											, _T("2025")	, _T("(Hoffman conversion)")	, 0x1338 },		//
-	{ _T("cbarrel")		, _T("Captain Barrel")										, _T("2024")	, _T("Ozzy Ouzo)")	, 0x14A1 },		//
+	{ _T("cbarrel")		, _T("Captain Barrel")										, _T("2024")	, _T("Ozzy Ouzo")	, 0x14A1 },		//
+	{ _T("yoyoshkn")	, _T("Yo-Yo Shuriken")										, _T("2023")	, _T("Dr. Ludos")	, 0xdad1 },		//
+	{ _T("flipshot")	, _T("Battle Flip Shot")									, _T("2022")	, _T("Visco (Pixel Heart)")	, 0x247 },		//
 };
 
 static char szVolumeID[64];
@@ -331,6 +335,11 @@ static void NeoCDList_iso9660_CheckDirRecord(void (*pfEntryCallBack)(INT32, TCHA
 				iso9660_ReadOffset((UINT8*)File, fp, lOffset + 33, LEN_FI, sizeof(UINT8));
 				File[LEN_FI] = 0;
 
+				// Digger Man (Prototype), id conflicts with karnovr (0x0066), so we must do alt. check.
+				if (nID == 0x0066 && nDate[0]==125 && nDate[1]==4 && nDate[2]==9) {
+					nID |= 0x1200;
+				}
+
 				// Savage Reign Rev 1
 				if (nID == 0x0059 && nDate[0]==95 && nDate[1]==6 && nDate[2]==20) {
 					nID |= 0x1000;
@@ -361,14 +370,22 @@ static void NeoCDList_iso9660_CheckDirRecord(void (*pfEntryCallBack)(INT32, TCHA
 					nID |= 0x1000;
 				}
 
-				// Samurai Shodown RPG (English Translation)
-				if (nID == 0x0085 && nDate[0]==123 && nDate[1]==11 && nDate[2]==29) {
-					nID |= 0x1000;
-				}
-
-				// Samurai Shodown RPG (English Translation v1.1)
-				if (nID == 0x0085 && nDate[0]==124 && nDate[1]==1 && nDate[2]==26) {
-					nID |= 0x3000;
+				if (nID == 0x0085) {
+					if (nDate[0] == 123 && nDate[1] == 11 && nDate[2] == 29) {
+						// Samurai Shodown RPG (English Translation)
+						nID |= 0x1000;
+					}
+					else
+					if (nDate[0] == 124 && nDate[1] ==  1 && nDate[2] == 26) {
+						// Samurai Shodown RPG (English Translation v1.1)
+						nID |= 0x3000;
+					}
+					else
+					if (nDate[0] == 125 && nDate[1] ==  3 && nDate[2] ==  6) {
+						// Shinsetsu Samurai Spirits - Bushidohretsuden(Simplified Chinese Translation, Public beta)
+						nID |= 0x4000;
+					}
+					else {};
 				}
 
 				// Double Dragon Rev 1
