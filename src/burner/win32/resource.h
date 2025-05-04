@@ -526,6 +526,7 @@
 #define MENU_NOSTRETCH                  	10110
 #define MENU_STRETCH                    	10111
 #define MENU_ASPECT                     	10112
+#define MENU_INTSCALE                     	10113
 #define MENU_BLITTER_1						10121
 #define MENU_BLITTER_2						10122
 #define MENU_BLITTER_3						10123
@@ -726,12 +727,7 @@
 #define MENU_ICONS_BY_GAME					10692
 #define MENU_ICONS_BY_HARDWARE				10693
 
-#define MENU_ICONS_THREAD_1					10694
-#define MENU_ICONS_THREADS_2				10695
-#define MENU_ICONS_THREADS_4				10696
-#define MENU_ICONS_THREADS_8				10697
-#define MENU_ICONS_THREADS_16				10698
-#define MENU_ICONS_THREADS_CORES			10699
+#define MENU_ICONS_REFRESH					10694
 
 #define MENU_RES_ARCADE_VERTICAL			10700
 #define MENU_RES_1_VERTICAL					10701
