@@ -68,22 +68,6 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="alien3" sourcefile="sms/d_sms.cpp">
-		<description>Alien 3 (Euro, USA)</description>
-		<year>1992</year>
-		<manufacturer>Arena Entertainment</manufacturer>
-		<rom name="Alien 3 (Euro, USA)(1992)(Arena).gg" size="262144" crc="11a68c08"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="alien3j" cloneof="alien3" romof="alien3" sourcefile="sms/d_sms.cpp">
-		<description>Alien 3 (Japan)</description>
-		<year>1992</year>
-		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="Alien 3 (Japan)(1992)(Acclaim).gg" size="262144" crc="06f6eebb"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="aliensyn" sourcefile="sms/d_sms.cpp">
 		<description>Alien Syndrome (Euro, USA)</description>
 		<year>1992</year>
@@ -97,6 +81,22 @@
 		<year>1992</year>
 		<manufacturer>SIMS Co. - Sega</manufacturer>
 		<rom name="Alien Syndrome (Japan)(1992)(SIMS Co. - Sega).gg" size="131072" crc="ffe4ed47"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="alien3" sourcefile="sms/d_sms.cpp">
+		<description>Alien3 (Euro, USA)</description>
+		<year>1992</year>
+		<manufacturer>Arena Entertainment</manufacturer>
+		<rom name="Alien 3 (Euro, USA)(1992)(Arena).gg" size="262144" crc="11a68c08"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="alien3j" cloneof="alien3" romof="alien3" sourcefile="sms/d_sms.cpp">
+		<description>Alien3 (Japan)</description>
+		<year>1992</year>
+		<manufacturer>Acclaim Entertainment</manufacturer>
+		<rom name="Alien 3 (Japan)(1992)(Acclaim).gg" size="262144" crc="06f6eebb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -136,7 +136,7 @@
 		<description>Arliel - Crystal Densetsu (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14389.ic1" size="262144" crc="35fa3f68"/>
+		<rom name="Arliel - Crystal Densetsu (Japan)(1991)(Sega).gg" size="262144" crc="35fa3f68"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -144,34 +144,7 @@
 		<description>Asterix and the Great Rescue (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16718.ic1" size="524288" crc="328c5cc8"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="astergrep3" cloneof="astergre" romof="astergre" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Asterix and the Great Rescue (Prototype, 19940125)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (prototype - jan 25,  1994).bin" size="524288" crc="ba45f00f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="astergrep5" cloneof="astergre" romof="astergre" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Asterix and the Great Rescue (Prototype, 19940216)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (prototype - feb 16,  1994).bin" size="524288" crc="1e8d735c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="astergrep4" cloneof="astergre" romof="astergre" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Asterix and the Great Rescue (Prototype, 19940222)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (prototype - feb 22,  1994).bin" size="524288" crc="31bd3d8a"/>
+		<rom name="Asterix and the Great Rescue (Euro)(1993)(Sega).gg" size="524288" crc="328c5cc8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -180,7 +153,7 @@
 		<description>Asterix and the Great Rescue (Prototype, 19940313)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (prototype - mar 13,  1994).bin" size="524288" crc="faf09846"/>
+		<rom name="Asterix and the Great Rescue (Proto, 19940313)(Sega).gg" size="524288" crc="faf09846"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -189,7 +162,7 @@
 		<description>Asterix and the Great Rescue (Prototype, 19940315)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix (prototype - mar 15,  1994).bin" size="524288" crc="66d8eb63"/>
+		<rom name="Asterix and the Great Rescue (Proto, 19940315)(Sega).gg" size="524288" crc="66d8eb63"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -197,7 +170,7 @@
 		<description>Asterix and the Great Rescue (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix and the great rescue (usa).bin" size="524288" crc="78208b40"/>
+		<rom name="Asterix and the Great Rescue (USA)(1994)(Sega).gg" size="524288" crc="78208b40"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -205,7 +178,7 @@
 		<description>Asterix and the Secret Mission (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="asterix and the secret mission (europe) (en,fr,de).bin" size="524288" crc="c01a8051"/>
+		<rom name="Asterix and the Secret Mission (Euro)(1993)(Sega).gg" size="524288" crc="c01a8051"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -344,7 +317,7 @@
 		<description>Beavis and Butt-head (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="beavis and butt-head (europe).bin" size="524288" crc="a6bf865e"/>
+		<rom name="Beavis and Butt-head (Euro, USA)(1994)(Viacom).gg" size="524288" crc="a6bf865e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -353,124 +326,7 @@
 		<description>Beavis and Butt-head (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="beavis and butt-head (usa).bin" size="524288" crc="3858f14f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp17" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940628)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - jun 28,  1994).bin" size="262144" crc="75a7a8ca"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp16" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940715-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - jul 15,  1994 - b).bin" size="262144" crc="fcf47bc9"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp15" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940721)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - jul 21,  1994).bin" size="262144" crc="a279c6bc"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp14" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940722)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - jul 22,  1994).bin" size="262144" crc="ffbf5abe"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp13" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940727)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - jul 27,  1994).bin" size="262144" crc="112b123f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp12" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940801)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 01,  1994).bin" size="262144" crc="882b8f53"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp10" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940811)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 11,  1994).bin" size="262144" crc="50d400b8"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp11" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940811-A)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 11,  1994 - a).bin" size="262144" crc="81a5e68f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp09" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940812)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 12,  1994).bin" size="262144" crc="0e676927"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp08" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940813)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 13,  1994).bin" size="262144" crc="f8f11b2a"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp07" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940814)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 14,  1994).bin" size="262144" crc="d0971f78"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp06" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940819)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 19,  1994).bin" size="262144" crc="177d65ac"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp05" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940820)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 20,  1994).bin" size="262144" crc="f61ac1e8"/>
+		<rom name="Beavis and Butt-head (Proto)(1994)(Viacom).gg" size="524288" crc="3858f14f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -479,16 +335,7 @@
 		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940824)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 24,  1994).bin" size="262144" crc="b73486d6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp03" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940825-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 25,  1994 - b).bin" size="262144" crc="e07b865e"/>
+		<rom name="Berenstain Bears' Camping Adventure, The (Proto, 19940824)(Sega).gg" size="262144" crc="b73486d6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -497,16 +344,7 @@
 		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940826)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 26,  1994).bin" size="262144" crc="167a4af6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="berensp02" cloneof="berens" romof="berens" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Berenstain Bears' Camping Adventure, The (Prototype, 19940826-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears (prototype - aug 26,  1994 - b).bin" size="262144" crc="217b1ef0"/>
+		<rom name="Berenstain Bears' Camping Adventure, The (Proto, 19940826)(Sega).gg" size="262144" crc="167a4af6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -514,7 +352,7 @@
 		<description>Berenstain Bears' Camping Adventure, The (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="berenstain bears' camping adventure, the (usa).bin" size="262144" crc="a4bb9ffb"/>
+		<rom name="Berenstain Bears' Camping Adventure, The (USA)(1994)(Sega).gg" size="262144" crc="a4bb9ffb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -552,48 +390,12 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="bonkersp13" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Bonkers Wax Up! (Prototype, 19941031)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - oct 31,  1994).bin" size="524288" crc="777dfd80"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp12" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Bonkers Wax Up! (Prototype, 19941115)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - nov 15,  1994).bin" size="524288" crc="85510a57"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp11" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Bonkers Wax Up! (Prototype, 19941121)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - nov 21,  1994).bin" size="524288" crc="dab43f8f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp10" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Bonkers Wax Up! (Prototype, 19941123)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - nov 23,  1994).bin" size="524288" crc="1b081950"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="bonkersp09" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>Bonkers Wax Up! (Prototype, 19941126)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - nov 26,  1994).bin" size="524288" crc="eb3f22c2"/>
+		<rom name="Bonkers Wax Up! (Prototype, 19941126)(Sega).gg" size="524288" crc="eb3f22c2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -602,7 +404,7 @@
 		<description>Bonkers Wax Up! (Prototype, 19941129)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - nov 29,  1994).bin" size="524288" crc="ad6a62fa"/>
+		<rom name="Bonkers Wax Up! (Proto, 19941129)(Sega).gg" size="524288" crc="ad6a62fa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -716,7 +518,7 @@
 		<description>Castle of Illusion Starring Mickey Mouse (Euro, USA, SMS Mode)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13704-f.ic1" size="262144" crc="59840fd6"/>
+		<rom name="Castle of Illusion Starring Mickey Mouse (Euro, USA, SMS Mode)(1991)(Sega).gg" size="262144" crc="59840fd6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -724,7 +526,7 @@
 		<description>Chakan (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="chakan (usa, europe).bin" size="262144" crc="dfc7adc8"/>
+		<rom name="Chakan (Euro, USA)/1992)(Sega).gg" size="262144" crc="dfc7adc8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -732,7 +534,7 @@
 		<description>Championship Hockey (Euro)</description>
 		<year>1992</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="championship hockey (euro).bin" size="262144" crc="e21d2a88"/>
+		<rom name="Championship Hockey (Euro)(1992)(U.S. Gold).gg" size="262144" crc="e21d2a88"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -748,196 +550,7 @@
 		<description>Chessmaster, The (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="chessmaster, the (usa, europe).bin" size="131072" crc="da811ba6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop24" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950505)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - may 05,  1995).bin" size="524288" crc="a5fa4eaf"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop23" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950601)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 01,  1995).bin" size="524288" crc="448c6890"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop22" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950605)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 05,  1995).bin" size="524288" crc="af43b940"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop21" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950607)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 07,  1995).bin" size="524288" crc="9b2fd7f3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop20" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950608)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 08,  1995).bin" size="524288" crc="2036d4b7"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop19" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950612)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 12,  1995).bin" size="524288" crc="f2c24745"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop18" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950614)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 14,  1995).bin" size="524288" crc="463a2197"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop17" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950619)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 19,  1995).bin" size="524288" crc="3cdb35b1"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop16" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950620)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 20,  1995).bin" size="524288" crc="bf82cf83"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop15" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950622)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 22,  1995).bin" size="524288" crc="4ac79cec"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop14" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950626)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 26,  1995).bin" size="524288" crc="abe696e5"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop13" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950628)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 28,  1995).bin" size="524288" crc="5cd07aed"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop11" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950629)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 29,  1995).bin" size="524288" crc="e1112763"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop12" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950629-B)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 29,  1995 - b).bin" size="524288" crc="d3614e4e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop10" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950630-B)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jun 30,  1995 - b).bin" size="524288" crc="f68a3581"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop09" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950703)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 03,  1995).bin" size="524288" crc="e3c0ea98"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop08" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950705)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 05,  1995).bin" size="524288" crc="4158e203"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop07" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950707)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 07,  1995).bin" size="524288" crc="e44d1b01"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop06" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950710)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 10,  1995).bin" size="524288" crc="42becef6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop05" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950711)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 11,  1995).bin" size="524288" crc="afe46aa8"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="chicagop04" cloneof="chicago" romof="chicago" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Chicago Syndicate (Prototype, 19950719)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 19,  1995).bin" size="524288" crc="dd5f9327"/>
+		<rom name="Chessmaster, The (Euro, USA)(1991)(Sega).gg" size="131072" crc="da811ba6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -946,7 +559,7 @@
 		<description>Chicago Syndicate (Prototype, 19950720)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 20,  1995).bin" size="524288" crc="b0597a54"/>
+		<rom name="Chicago Syndicate (Proto, 19950720)(Sega).gg" size="524288" crc="b0597a54"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -955,7 +568,7 @@
 		<description>Chicago Syndicate (Prototype, 19950721)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 21,  1995).bin" size="524288" crc="8e149bb8"/>
+		<rom name="Chicago Syndicate (Proto, 19950721)(Sega).gg" size="524288" crc="8e149bb8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -964,7 +577,7 @@
 		<description>Chicago Syndicate (Prototype, 19950721-B)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="chicago syndicate (prototype - jul 21,  1995 - b).bin" size="524288" crc="26ced733"/>
+		<rom name="Chicago Syndicate (Proto, 19950721-B)(Sega).gg" size="524288" crc="26ced733"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -972,7 +585,7 @@
 		<description>Chicago Syndicate (USA, Brazil)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18190-s.ic1" size="524288" crc="6b0fcec3"/>
+		<rom name="Chicago Syndicate (USA, Brazil)(1995)(Sega).gg" size="524288" crc="6b0fcec3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1136,7 +749,7 @@
 		<description>Crystal Warriors (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14633.ic1" size="262144" crc="529c864e"/>
+		<rom name="Crystal Warriors (Euro, USA)(1992)(Sega).gg" size="262144" crc="529c864e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1144,16 +757,16 @@
 		<description>Cutthroat Island (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="cutthroat island (usa, europe).bin" size="524288" crc="6a24e47e"/>
+		<rom name="Cutthroat Island (Euro, USA)(1995)(Sega).gg" size="524288" crc="6a24e47e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="cutthrp" cloneof="cutthr" romof="cutthr" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Cutthroat Island (Prototype 19950916)</description>
+		<description>Cutthroat Island (Prototype)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="cutthroat island [proto].bin" size="524288" crc="6352ef00"/>
+		<rom name="Cutthroat Island (Proto)(1995)(Acclaim).gg" size="524288" crc="6352ef00"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1161,7 +774,7 @@
 		<description>Daffy Duck in Hollywood (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="daffy duck in hollywood (europe) (en,fr,de,es,it).bin" size="524288" crc="aae268fc"/>
+		<rom name="Daffy Duck in Hollywood (Euro)(1994)(Sega).gg" size="524288" crc="aae268fc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1178,7 +791,7 @@
 		<description>Deep Duck Trouble Starring Donald Duck (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="deep duck trouble starring donald duck (usa, europe).bin" size="524288" crc="5a136d7e"/>
+		<rom name="Deep Duck Trouble Starring Donald Duck (Euro, USA)(1994)(Sega).gg" size="524288" crc="5a136d7e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1186,7 +799,7 @@
 		<description>Defenders of Oasis (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="defenders of oasis (usa, europe).bin" size="524288" crc="e2791cc1"/>
+		<rom name="Defenders of Oasis (Euro, USA)(1992)(Sega).gg" size="524288" crc="e2791cc1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1195,7 +808,7 @@
 		<description>Defenders of Oasis (Euro, USA, Prototype)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="defenders of oasis (proto).bin" size="262144" crc="c674eccc"/>
+		<rom name="Defenders of Oasis (Euro, USA, Proto)(1992)(Sega).gg" size="262144" crc="c674eccc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1203,7 +816,7 @@
 		<description>Desert Speedtrap Starring Road Runner and Wile E. Coyote (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16032.ic1" size="262144" crc="ec808026"/>
+		<rom name="Desert Speedtrap Starring Road Runner and Wile E. Coyote (Euro)(1994)(Sega).gg" size="262144" crc="ec808026"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1211,7 +824,7 @@
 		<description>Desert Speedtrap Starring Road Runner and Wile E. Coyote (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="desert speedtrap (usa).bin" size="262144" crc="c2e111ac"/>
+		<rom name="Desert Speedtrap Starring Road Runner and Wile E. Coyote (USA)(1994)(Sega).gg" size="262144" crc="c2e111ac"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1219,15 +832,15 @@
 		<description>Desert Strike (Euro)</description>
 		<year>1992</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="desert strike (eu).bin" size="524288" crc="3e44eca3"/>
+		<rom name="Desert Strike (Euro)(1992)(Domark).gg" size="524288" crc="3e44eca3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="dstrikeu" cloneof="dstrike" romof="dstrike" sourcefile="sms/d_sms.cpp">
-		<description>Desert Strike - Return to the Gulf (USA)</description>
+		<description>Desert Strike: Return to the Gulf (USA)</description>
 		<year>1992</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="desert strike - return to the gulf (usa).bin" size="524288" crc="f6c400da"/>
+		<rom name="Desert Strike - Return to the Gulf (USA)(1992)(Domark).gg" size="524288" crc="f6c400da"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1271,15 +884,6 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="aladdinp3" cloneof="aladdin" romof="aladdin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's Aladdin (Prototype, 19931229)</description>
-		<year>1993</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Disney's Aladdin (Proto, 19931229)(Sega).gg" size="524288" crc="5b1f717f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="aladdinp2" cloneof="aladdin" romof="aladdin" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>Disney's Aladdin (Prototype, 19940111)</description>
@@ -1294,7 +898,7 @@
 		<description>Disney's Aladdin (Prototype, 19940113)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="Disney's Aladdin (Prototype, 19940113)(Sega).gg" size="524288" crc="75a7f142"/>
+		<rom name="Disney's Aladdin (Proto, 19940113)(Sega).gg" size="524288" crc="75a7f142"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1302,7 +906,7 @@
 		<description>Disney's Ariel the Little Mermaid (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15394-f.ic1" size="262144" crc="97e3a18c"/>
+		<rom name="Disney's Ariel the Little Mermaid (Euro, USA)(1991)(Sega).gg" size="262144" crc="97e3a18c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1310,106 +914,49 @@
 		<description>Disney's Bonkers Wax Up! (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (usa, europe).bin" size="524288" crc="bfceba5f"/>
+		<rom name="Disney's Bonkers Wax Up! (Euro, USA)(1995)(Sega).gg" size="524288" crc="bfceba5f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="bonkersp05" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's Bonkers Wax Up! (Prototype, 19941207-C)</description>
+	<game name="lionking" sourcefile="sms/d_sms.cpp">
+		<description>Disney's The Lion King (Euro)</description>
 		<year>1994</year>
+		<manufacturer>Virgin Interactive</manufacturer>
+		<rom name="Lion King, The (Euro)(1994)(Virgin Interactive).gg" size="524288" crc="0cd9c20b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="lionkingj" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
+		<description>Disney's The Lion King (Japan)</description>
+		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 07,  1994 - c).bin" size="524288" crc="edaf25e7"/>
+		<rom name="Lion King, The (Japan)(1995)(Sega).gg" size="524288" crc="c78b8637"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="bonkersp04" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
+	<game name="lionkingp2" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Disney's Bonkers Wax Up! (Prototype, 19941208-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 08,  1994 - b).bin" size="524288" crc="9907a738"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp03" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's Bonkers Wax Up! (Prototype, 19941208-C)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 08,  1994 - c).bin" size="524288" crc="91258adc"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp02" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's Bonkers Wax Up! (Prototype, 19941211)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 11,  1994).bin" size="524288" crc="9a405d0d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="bonkersp01" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's Bonkers Wax Up! (Prototype, 19941212-D)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 12,  1994 - d).bin" size="524288" crc="6d295894"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp9" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940803)</description>
+		<description>Disney's The Lion King (Prototype, 19940817)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 03,  1994).bin" size="514313" crc="aacb7387"/>
+		<rom name="Disney's The Lion King (Proto, 19940817)(Virgin Interactive).gg" size="514538" crc="4214c474"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="lionkingp8" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
+	<game name="lionkingp1" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940811)</description>
+		<description>Disney's The Lion King (Prototype, 19940820)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 11,  1994).bin" size="514450" crc="214c13dc"/>
+		<rom name="Disney's The Lion King (Proto, 19940820)(Virgin Interactive).gg" size="523862" crc="3d0b31a2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="lionkingp7" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940812)</description>
+	<game name="lionkingu" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
+		<description>Disney's The Lion King (USA)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 12,  1994).bin" size="514478" crc="0e80efe0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp6" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940813)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 13,  1994).bin" size="514482" crc="8250c11e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp5" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940814)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 14,  1994).bin" size="514486" crc="eb10a2d4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp4" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Disney's The Lion King (Prototype, 19940816)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 16,  1994).bin" size="514486" crc="c6af9643"/>
+		<rom name="Lion King, The (USA)(1994)(Virgin Interactive).gg" size="524288" crc="9808d7b3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1418,7 +965,7 @@
 		<description>Disneys Bonkers Wax Up! (Prototype, 19941203)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 03,  1994).bin" size="524288" crc="63429025"/>
+		<rom name="Disneys Bonkers Wax Up! (Proto, 19941203)(Sega).gg" size="524288" crc="63429025"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1427,7 +974,7 @@
 		<description>Disneys Bonkers Wax Up! (Prototype, 19941205)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="bonkers wax up! (prototype - dec 05,  1994).bin" size="524288" crc="c2229b6e"/>
+		<rom name="Disneys Bonkers Wax Up! (Proto, 19941205)(Sega).gg" size="524288" crc="c2229b6e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1511,7 +1058,7 @@
 		<description>Dracula's Castle (Japanese) (HB)</description>
 		<year>2021</year>
 		<manufacturer>Habit Soft</manufacturer>
-		<rom name="Dracula's Castle (2021)(Habit Soft).gg" size="262144" crc="0ba12ac9"/>
+		<rom name="Dracula's Castle JP (2021)(Habit Soft).gg" size="262144" crc="0ba12ac9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1559,7 +1106,7 @@
 		<description>Dunk Kids (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17023.ic1" size="524288" crc="77ed48f5"/>
+		<rom name="Dunk Kids (Japan)(1994)(Sega).gg" size="524288" crc="77ed48f5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1567,7 +1114,7 @@
 		<description>Dynamite Headdy (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="dynamite headdy (usa, europe).bin" size="524288" crc="610ff95c"/>
+		<rom name="Dynamite Headdy (Euro, USA)(1994)(Sega).gg" size="524288" crc="610ff95c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1575,34 +1122,16 @@
 		<description>Dynamite Headdy (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="dynamite headdy (japan).bin" size="524288" crc="f6af4b6b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="dheadp3" cloneof="dhead" romof="dhead" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Dynamite Headdy (Prototype, 19940615)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="dynamite headdy (prototype - jun 15,  1994).bin" size="524288" crc="7bf339c0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="dheadp2" cloneof="dhead" romof="dhead" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Dynamite Headdy (Prototype, 19940701)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="dynamite headdy (prototype - jul 01,  1994).bin" size="524288" crc="49389319"/>
+		<rom name="Dynamite Headdy (Japan)(1994)(Sega).gg" size="524288" crc="f6af4b6b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="dheadp1" cloneof="dhead" romof="dhead" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Dynamite Headdy (Prototype, 19940705)</description>
+		<description>Dynamite Headdy (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="dynamite headdy (prototype - jul 05,  1994).bin" size="524288" crc="c7bea89a"/>
+		<rom name="Dynamite Headdy (Proto)(1994)(Sega).gg" size="524288" crc="c7bea89a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1667,7 +1196,7 @@
 		<description>Eternal Legend - Eien no Densetsu (Hack, English)</description>
 		<year>2020</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="eternal legend (t-eng).gg" size="1048576" crc="ab7ab2e3"/>
+		<rom name="Eternal Legend - Eien no Densetsu T-Eng (2020)(Supper).gg" size="1048576" crc="ab7ab2e3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1994,10 +1523,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="ggdora" sourcefile="sms/d_sms.cpp">
-		<description>GG Doraemon - Noranosuke no Yabou (Japan)</description>
+		<description>GG Doraemon: Noranosuke no Yabou (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gg doraemon - noranosuke no yabou (japan).bin" size="262144" crc="9a8b2c16"/>
+		<rom name="GG Doraemon - Noranosuke no Yabou (Japan)(1993)(Sega).gg" size="262144" crc="9a8b2c16"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2005,7 +1534,7 @@
 		<description>GG Portrait - Pai Chen (Japan)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gg portrait - pai chen (japan).bin" size="524288" crc="695cc120"/>
+		<rom name="GG Portrait - Pai Chen (Japan)(1996)(Sega).gg" size="524288" crc="695cc120"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2013,7 +1542,15 @@
 		<description>GG Portrait - Yuuki Akira (Japan)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gg portrait - yuuki akira (japan).bin" size="524288" crc="51159f8f"/>
+		<rom name="GG Portrait - Yuuki Akira (Japan)(1996)(Sega).gg" size="524288" crc="51159f8f"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="shinobi2" sourcefile="sms/d_sms.cpp">
+		<description>GG Shinobi II, The (World)</description>
+		<year>1992</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="GG Shinobi II, The (World)(1992)(Sega).gg" size="262144" crc="6201c694"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2021,7 +1558,7 @@
 		<description>GG Shinobi, The (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shinobi (usa, europe).bin" size="262144" crc="30f1c984"/>
+		<rom name="GG Shinobi, The (Euro, USA)(1991)(Sega).gg" size="262144" crc="30f1c984"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2029,7 +1566,7 @@
 		<description>GG Shinobi, The (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gg shinobi, the (japan).bin" size="262144" crc="83926bd1"/>
+		<rom name="GG Shinobi, The (Japan)(1991)(Sega).gg" size="262144" crc="83926bd1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2047,15 +1584,15 @@
 		<description>Godzilla - Kaijuu Daishingeki (Hack, English v1.1)</description>
 		<year>2019</year>
 		<manufacturer>Supper</manufacturer>
-		<rom name="godzilla - kaijuu daishingeki (english translation).gg" size="1048576" crc="fc0ac103"/>
+		<rom name="Godzilla - Kaijuu Daishingeki T-Eng (2019)(Supper).gg" size="1048576" crc="fc0ac103"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="godzilla" sourcefile="sms/d_sms.cpp">
-		<description>Godzilla - Kaijuu Daishingeki (Japan)</description>
+		<description>Godzilla: Kaijuu Daishingeki (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="godzilla - kaijuu daishingeki (japan).bin" size="524288" crc="4cf97801"/>
+		<rom name="Godzilla - Kaijuu Daishingeki (Japan)(1995)(Sega).gg" size="524288" crc="4cf97801"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2063,7 +1600,7 @@
 		<description>GP Rider (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16367-s.ic1" size="524288" crc="876e9b72"/>
+		<rom name="GP Rider (Euro, USA)(1994)(Sega).gg" size="524288" crc="876e9b72"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2071,16 +1608,16 @@
 		<description>GP Rider (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16589.ic1" size="524288" crc="7a26ec6a"/>
+		<rom name="GP Rider (Japan)(1994)(Sega).gg" size="524288" crc="7a26ec6a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="gpriderp" cloneof="gprider" romof="gprider" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>GP Rider (Prototype, 19940104)</description>
+		<description>GP Rider (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="gp rider (prototype - jan 04,  1994).bin" size="524288" crc="12e4f6db"/>
+		<rom name="GP Rider (Proto)(1994)(Sega).gg" size="524288" crc="12e4f6db"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2088,7 +1625,7 @@
 		<description>Greendog (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="greendog (usa, europe).bin" size="262144" crc="f27925b0"/>
+		<rom name="Greendog (Euro, USA)(1993)(Sega).gg" size="262144" crc="f27925b0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2096,7 +1633,7 @@
 		<description>Griffin (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Riot</manufacturer>
-		<rom name="griffin (japan).bin" size="131072" crc="a93e8b0f"/>
+		<rom name="Griffin (Japan)(1991)(Riot).gg" size="131072" crc="a93e8b0f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2113,7 +1650,7 @@
 		<description>Gunstar Heroes (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17847-f.ic1" size="524288" crc="c3c52767"/>
+		<rom name="Gunstar Heroes (Japan)(1995)(Sega).gg" size="524288" crc="c3c52767"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2312,8 +1849,8 @@
 	<game name="jangpun2" sourcefile="sms/d_sms.cpp">
 		<description>Jang Pung II (Korea, SMS Mode)</description>
 		<year>1993</year>
-		<manufacturer>Unknown</manufacturer>
-		<rom name="jang pung ii (k) [s].bin" size="262144" crc="76c5bdfb"/>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="Jang Pung II (Korea, SMS Mode)(1993).gg" size="262144" crc="76c5bdfb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2321,7 +1858,7 @@
 		<description>Jeopardy! (USA)</description>
 		<year>1993</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="jeopardy! (usa).bin" size="262144" crc="d7820c21"/>
+		<rom name="Jeopardy! (USA)(1993)(GameTek).bin" size="262144" crc="d7820c21"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2329,7 +1866,7 @@
 		<description>Jeopardy! - Sports Edition (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="jeopardy! - sports edition (usa, europe).bin" size="262144" crc="2dd850b7"/>
+		<rom name="Jeopardy! - Sports Edition (Euro, USA)(1994)(GameTek).gg" size="262144" crc="2dd850b7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2337,7 +1874,7 @@
 		<description>Joe Montana's Football (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="joe montana's football (usa, europe).bin" size="262144" crc="2e01ba6c"/>
+		<rom name="Joe Montana's Football (Euro, USA)(1991)(Sega).gg" size="262144" crc="2e01ba6c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2345,7 +1882,7 @@
 		<description>Joe Montana's Football (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14319.ic1" size="262144" crc="4a98678b"/>
+		<rom name="Joe Montana's Football (Japan)(1992)(Sega).gg" size="262144" crc="4a98678b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2353,7 +1890,7 @@
 		<description>Journey from Darkness - Strider Returns (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>U.S. Gold</manufacturer>
-		<rom name="journey from darkness - strider returns (usa, europe).bin" size="262144" crc="1ebfa5ca"/>
+		<rom name="Journey from Darkness - Strider Returns (Euro, USA)(1992)(U.S. Gold).gg" size="262144" crc="1ebfa5ca"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2361,7 +1898,7 @@
 		<description>Judge Dredd (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="judge dredd (usa, europe).bin" size="524288" crc="04d23fc4"/>
+		<rom name="Judge Dredd (USA, Europe)(1995)(Acclaim).gg" size="524288" crc="04d23fc4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2369,7 +1906,7 @@
 		<description>Junction (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Micronet</manufacturer>
-		<rom name="junction (japan).bin" size="131072" crc="a8ef36a7"/>
+		<rom name="Junction (Japan)(1991)(Micronet).gg" size="131072" crc="a8ef36a7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2377,7 +1914,7 @@
 		<description>Junction (USA)</description>
 		<year>1991</year>
 		<manufacturer>Micronet</manufacturer>
-		<rom name="junction (us).bin" size="131072" crc="32abaa02"/>
+		<rom name="Junction (USA)(1991)(Micronet).gg" size="131072" crc="32abaa02"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2385,7 +1922,7 @@
 		<description>Jungle Book, The (Euro)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="jungle book, the (europe).bin" size="262144" crc="90100884"/>
+		<rom name="Jungle Book, The (Euro)(1994)(Virgin Interactive).gg" size="262144" crc="90100884"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2393,7 +1930,7 @@
 		<description>Jungle Book, The (USA)</description>
 		<year>1994</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="jungle book, the (usa).bin" size="262144" crc="30c09f31"/>
+		<rom name="Jungle Book, The (USA)(1994)(Virgin Interactive).gg" size="262144" crc="30c09f31"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2442,7 +1979,7 @@
 		<description>Kawasaki Superbike Challenge (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="kawasaki superbike challenge (usa, europe).bin" size="262144" crc="23f9150a"/>
+		<rom name="Kawasaki Superbike Challenge (Euro, USA)(1995)(Domark).gg" size="262144" crc="23f9150a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2530,43 +2067,7 @@
 		<description>Legend of Illusion Starring Mickey Mouse (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (usa, europe).bin" size="524288" crc="ce5ad8b7"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="legndillp6" cloneof="legndill" romof="legndill" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19940922)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - sep 22,  1994).bin" size="524288" crc="1cc16ad9"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="legndillp4" cloneof="legndill" romof="legndill" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19940930)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - sep 30,  1994).bin" size="524288" crc="63020617"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="legndillp5" cloneof="legndill" romof="legndill" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19940930-SEL)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - sep 30,  1994 - sel).bin" size="524288" crc="a0565a5c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="legndillp3" cloneof="legndill" romof="legndill" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19941011)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - oct 11,  1994).bin" size="524288" crc="f9d4cee9"/>
+		<rom name="Legend of Illusion Starring Mickey Mouse (Euro, USA)(1994)(Sega).gg" size="524288" crc="ce5ad8b7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2575,7 +2076,7 @@
 		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19941014)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - oct 14,  1994).bin" size="524288" crc="670ede92"/>
+		<rom name="Legend of Illusion Starring Mickey Mouse (Proto, 19941014)(Sega).gg" size="524288" crc="670ede92"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2584,7 +2085,7 @@
 		<description>Legend of Illusion Starring Mickey Mouse (Prototype, 19941017)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="legend of illusion starring mickey mouse (prototype - oct 17,  1994).bin" size="524288" crc="de8545af"/>
+		<rom name="Legend of Illusion Starring Mickey Mouse (Proto, 19941017)(Sega).gg" size="524288" crc="de8545af"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2592,7 +2093,7 @@
 		<description>Lemmings (World)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="lemmings (world).bin" size="262144" crc="0fde7baa"/>
+		<rom name="Lemmings (World)(1992)(Sega).gg" size="262144" crc="0fde7baa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2601,7 +2102,7 @@
 		<description>Lemmings (World, Prototype)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="lemmings (world) (beta).bin" size="262144" crc="51548f61"/>
+		<rom name="lLemmings (World, Proto)(1992)(Sega).gg" size="262144" crc="51548f61"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2610,58 +2111,7 @@
 		<description>Lemmings 2 - The Tribes (Euro, Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Psygnosis</manufacturer>
-		<rom name="lemmings 2 - the tribes [proto].bin" size="524288" crc="fbc807e1"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionking" sourcefile="sms/d_sms.cpp">
-		<description>Lion King, The (Euro)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="mpr-17271.ic1" size="524288" crc="0cd9c20b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingj" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<description>Lion King, The (Japan)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="lion king, the (disney's) (jp).bin" size="524288" crc="c78b8637"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp2" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Lion King, The (Prototype, 19940817)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 17,  1994).bin" size="514538" crc="4214c474"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp3" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Lion King, The (Prototype, 19940817-2)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 17,  1994 - 2).bin" size="514618" crc="b65030d0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingp1" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Lion King, The (Prototype, 19940820)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="lion king, the (prototype - aug 20,  1994).bin" size="523862" crc="3d0b31a2"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="lionkingu" cloneof="lionking" romof="lionking" sourcefile="sms/d_sms.cpp">
-		<description>Lion King, The (USA)</description>
-		<year>1994</year>
-		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="mpr-17074.ic1" size="524288" crc="9808d7b3"/>
+		<rom name="Lemmings 2 - The Tribes (Euro, Proto)(1994)(Psygnosis).gg" size="524288" crc="fbc807e1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2949,7 +2399,7 @@
 		<description>Micro Machines (Euro)</description>
 		<year>1993</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="micro machines (europe).bin" size="262144" crc="f7c524f6"/>
+		<rom name="Micro Machines (Euro)(1993)(Codemasters).gg" size="262144" crc="f7c524f6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2957,7 +2407,7 @@
 		<description>Micro Machines 2 - Turbo Tournament (Euro)</description>
 		<year>1995</year>
 		<manufacturer>Codemasters</manufacturer>
-		<rom name="micro machines 2 - turbo tournament (europe).bin" size="524288" crc="dbe8895c"/>
+		<rom name="Micro Machines 2 - Turbo Tournament (Euro)(1995)(Codemasters).gg" size="524288" crc="dbe8895c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2965,16 +2415,16 @@
 		<description>Mighty Morphin Power Rangers (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mighty morphin power rangers (usa, europe).bin" size="524288" crc="9289dfcc"/>
+		<rom name="Mighty Morphin Power Rangers (Euro, USA)(1994)(Sega).gg" size="524288" crc="9289dfcc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="mmprp" cloneof="mmpr" romof="mmpr" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Mighty Morphin Power Rangers (Prototype, 19940716)</description>
+		<description>Mighty Morphin Power Rangers (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mighty morphin power rangers (prototype - jul 16,  1994).bin" size="524288" crc="2887f04a"/>
+		<rom name="Mighty Morphin Power Rangers (Proto)(1994)(Sega).gg" size="524288" crc="2887f04a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2982,16 +2432,16 @@
 		<description>Mighty Morphin Power Rangers - The Movie (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mighty morphin power rangers - the movie (usa, europe).bin" size="524288" crc="b47c19e5"/>
+		<rom name="Mighty Morphin Power Rangers - The Movie (Euro, USA)(1995)(Sega).gg" size="524288" crc="b47c19e5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="mmprtmp" cloneof="mmprtm" romof="mmprtm" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Mighty Morphin Power Rangers - The Movie (Prototype, 19950530)</description>
+		<description>Mighty Morphin Power Rangers - The Movie (Prototype)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mighty morphin power rangers - the movie (prototype - may 30,  1995).bin" size="524288" crc="8c665203"/>
+		<rom name="Mighty Morphin Power Rangers - The Movie (Proto)(1995)(Sega).gg" size="524288" crc="8c665203"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3086,10 +2536,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="nazopuyo1" cloneof="nazopuyo" romof="nazopuyo" sourcefile="sms/d_sms.cpp">
-		<description>Nazo Puyo (Japan, v0)</description>
+		<description>Nazo Puyo (Japan, v1.0)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nazo puyo (japan).bin" size="131072" crc="bcce5fd4"/>
+		<rom name="Nazo Puyo (Japan, v1.0)(1993)(Sega).gg" size="131072" crc="bcce5fd4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3097,7 +2547,7 @@
 		<description>Nazo Puyo (Japan, v1.1)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nazo puyo (japan)(v1.1).bin" size="131072" crc="d8d11f8d"/>
+		<rom name="Nazo Puyo (Japan, v1.1)(1993)(Sega).gg" size="131072" crc="d8d11f8d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3105,7 +2555,7 @@
 		<description>Nazo Puyo 2 (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nazo puyo 2 (japan).bin" size="262144" crc="73939de4"/>
+		<rom name="Nazo Puyo 2 (Japan)(1993)(Sega).gg" size="262144" crc="73939de4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3113,7 +2563,7 @@
 		<description>Nazo Puyo Arle no Roux (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16849.ic1" size="262144" crc="54ab42a4"/>
+		<rom name="Nazo Puyo Arle no Roux (Japan)(1994)(Sega).gg" size="262144" crc="54ab42a4"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3122,269 +2572,79 @@
 		<description>Nazo Puyo Arle no Roux (Japan, Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nazo puyo arle no roux (japan) (development edition).bin" size="262144" crc="4c874466"/>
+		<rom name="Nazo Puyo Arle no Roux (Japan, Proto)(1994)(Sega).gg" size="262144" crc="4c874466"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp08" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final A,  19940228)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final a - feb 28,  1994).bin" size="262144" crc="d15aa940"/>
+		<rom name="NBA Action Starring David Robinson (Final A,  19940228)(Sega).gg" size="262144" crc="d15aa940"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp07" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final B,  19940301)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final b - mar 01,  1994).bin" size="262144" crc="4415c0bb"/>
+		<rom name="NBA Action Starring David Robinson (Final B,  19940301)(Sega).gg" size="262144" crc="4415c0bb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp06" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final C,  19940302)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final c - mar 02,  1994).bin" size="262144" crc="5254577a"/>
+		<rom name="NBA Action Starring David Robinson (Final C,  19940302)(Sega).gg" size="262144" crc="5254577a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp05" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final D,  19940303)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final d - mar 03,  1994).bin" size="262144" crc="75a5bc5d"/>
+		<rom name="NBA Action Starring David Robinson (Final D,  19940303)(Sega).gg" size="262144" crc="75a5bc5d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp04" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final E,  19940304)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final e - mar 04,  1994).bin" size="262144" crc="80c0586c"/>
+		<rom name="NBA Action Starring David Robinson (Final E,  19940304)(Sega).gg" size="262144" crc="80c0586c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp03" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final F,  19940304)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final f - mar 04,  1994).bin" size="262144" crc="a82049df"/>
+		<rom name="NBA Action Starring David Robinson (Final F,  19940304)(Sega).gg" size="262144" crc="a82049df"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp02" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final G,  19940305)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final g - mar 05,  1994).bin" size="262144" crc="e197a0bb"/>
+		<rom name="NBA Action Starring David Robinson (Final G,  19940305)(Sega).gg" size="262144" crc="e197a0bb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="nbaactp01" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
+		<comment>Prototype</comment>
 		<description>NBA Action Starring David Robinson (Final H,  19940308)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (final h - mar 08,  1994).bin" size="262144" crc="c9e98a49"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp30" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19931128)</description>
-		<year>1993</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - nov 28,  1993).bin" size="262144" crc="31084021"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp29" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19931201)</description>
-		<year>1993</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - dec 01,  1993).bin" size="262144" crc="8c089da5"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp28" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940104)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - jan 04,  1994).bin" size="262144" crc="c658b5b3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp27" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940106)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - jan 06,  1994).bin" size="262144" crc="41dabd84"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp26" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940110)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - jan 10,  1994).bin" size="262144" crc="a34b2b4c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp25" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940124)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - jan 24,  1994).bin" size="262144" crc="9824f77d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp24" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940129)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - jan 29,  1994).bin" size="262144" crc="0d6bf79d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp23" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940202)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 02,  1994).bin" size="262144" crc="f9d5500b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp22" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940203)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 03,  1994).bin" size="262144" crc="e2341dce"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp21" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940206)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 06,  1994).bin" size="262144" crc="07649147"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp20" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940208)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 08,  1994).bin" size="262144" crc="5e089fbc"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp19" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940212)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 12,  1994).bin" size="262144" crc="0c0f6b4c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp17" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940217)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 17,  1994).bin" size="262144" crc="c4b3328c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp16" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940220)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 20,  1994).bin" size="262144" crc="91e3026c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp15" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940221)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 21,  1994).bin" size="262144" crc="9265f8c3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp14" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940224)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 24,  1994).bin" size="262144" crc="21a79f63"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp12" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940225)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 25,  1994).bin" size="262144" crc="afc8a69e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp13" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940225-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 25,  1994 - b).bin" size="262144" crc="188a319e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp11" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940226)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 26,  1994).bin" size="262144" crc="6896b65d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp10" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940227)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 27,  1994).bin" size="262144" crc="ab721f11"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp09" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19940228)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 28,  1994).bin" size="262144" crc="82e882d6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nbaactp18" cloneof="nbaact" romof="nbaact" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NBA Action Starring David Robinson (Prototype, 19941215)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nba action starring david robinson (prototype - feb 15,  1994).bin" size="262144" crc="e73b02a4"/>
+		<rom name="NBA Action Starring David Robinson (Final H,  19940308)(Sega).gg" size="262144" crc="c9e98a49"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3392,7 +2652,7 @@
 		<description>NBA Action Starring David Robinson (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nba action (usa).bin" size="262144" crc="19030108"/>
+		<rom name="NBA Action Starring David Robinson (USA)(1994)(Sega).gg" size="262144" crc="19030108"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3428,102 +2688,12 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="nfl95p13" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940808)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - aug 08,  1994).bin" size="524288" crc="8cd96d95"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p11" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940825)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - aug 25,  1994).bin" size="524288" crc="fe140eaa"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p12" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940825-A)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - aug 25,  1994 - a).bin" size="524288" crc="7f769052"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p10" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940826)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - aug 26,  1994).bin" size="524288" crc="f77138dd"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p09" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940831)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - aug 31,  1994).bin" size="524288" crc="a3b046e7"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p08" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940902)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 02,  1994).bin" size="524288" crc="3978387b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p07" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940908)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 08,  1994).bin" size="524288" crc="ff70a26f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p06" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940910)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 10,  1994).bin" size="524288" crc="132db489"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p05" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940911-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 11,  1994 - b).bin" size="524288" crc="c57c6afd"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nfl95p04" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NFL '95 (Prototype, 19940911-C)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 11,  1994 - c).bin" size="524288" crc="088e4b6d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="nfl95p03" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>NFL '95 (Prototype, 19940912)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 12,  1994).bin" size="524288" crc="b38f48b6"/>
+		<rom name="NFL '95 (Proto, 19940912)(Sega).gg" size="524288" crc="b38f48b6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3532,7 +2702,7 @@
 		<description>NFL '95 (Prototype, 19940914)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 14,  1994).bin" size="524288" crc="474a162b"/>
+		<rom name="NFL '95 (Proto, 19940914)(Sega).gg" size="524288" crc="474a162b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3541,7 +2711,7 @@
 		<description>NFL '95 (Prototype, 19940914-F)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (prototype - sep 14,  1994 - f).bin" size="524288" crc="2828cb66"/>
+		<rom name="NFL '95 (Proto, 19940914-F)(Sega).gg" size="524288" crc="2828cb66"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3549,7 +2719,7 @@
 		<description>NFL '95 (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nfl '95 (usa).bin" size="524288" crc="dc5b0407"/>
+		<rom name="NFL '95 (USA)(1994)(Sega).gg" size="524288" crc="dc5b0407"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3557,7 +2727,7 @@
 		<description>NFL Quarterback Club '96 (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="nfl quarterback club '96 (usa, europe).bin" size="524288" crc="c348e53a"/>
+		<rom name="NFL Quarterback Club '96 (Euro, USA)(1995)(Acclaim).gg" size="524288" crc="c348e53a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3565,106 +2735,7 @@
 		<description>NFL Quarterback Club (World)</description>
 		<year>1994</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="nfl quarterback club (world).bin" size="524288" crc="61785ed5"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp17" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19941215)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - dec 15,  1994).bin" size="524288" crc="e583d999"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp16" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19941222)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - dec 22,  1994).bin" size="524288" crc="dfba792a"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp15" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19941229)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - dec 29,  1994).bin" size="524288" crc="e14d071b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp14" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19941231)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - dec 31,  1994).bin" size="524288" crc="8a2b6323"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp13" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950102)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 02,  1995).bin" size="524288" crc="2551f22c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp12" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950103)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 03,  1995).bin" size="524288" crc="ece5633b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp11" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950107)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 07,  1995).bin" size="524288" crc="82504476"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp10" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950111)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 11,  1995).bin" size="524288" crc="49f8b9e4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp09" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950113)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 13,  1995).bin" size="524288" crc="87d8fe13"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp08" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950116)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 16,  1995).bin" size="524288" crc="50dcf5b6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp07" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950120)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 20 ,1995).bin" size="524288" crc="499b06c2"/>
+		<rom name="NFL Quarterback Club (World)(1994)(Acclaim).gg" size="524288" crc="61785ed5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3673,7 +2744,7 @@
 		<description>NHL All-Star Hockey (Prototype, 19950121)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 21,  1995).bin" size="524288" crc="16af7995"/>
+		<rom name="NHL All-Star Hockey (Proto, 19950121)(Sega).gg" size="524288" crc="16af7995"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3682,34 +2753,7 @@
 		<description>NHL All-Star Hockey (Prototype, 19950124)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 24,  1995).bin" size="524288" crc="74be3c4c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp05" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950124-A)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 24,  1995 - a).bin" size="524288" crc="0b1c38f4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp04" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950124-B)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 24,  1995 - b).bin" size="524288" crc="0a4a6830"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="nhlasp03" cloneof="nhlas" romof="nhlas" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>NHL All-Star Hockey (Prototype, 19950124-C)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 24,  1995 - c).bin" size="524288" crc="54f5efb2"/>
+		<rom name="NHL All-Star Hockey (Proto, 19950124)(Sega).gg" size="524288" crc="74be3c4c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3718,7 +2762,7 @@
 		<description>NHL All-Star Hockey (Prototype, 19950125)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (prototype - jan 25,  1995).bin" size="524288" crc="a587b13e"/>
+		<rom name="NHL All-Star Hockey (Proto, 19950125)(Sega).gg" size="524288" crc="a587b13e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3726,7 +2770,7 @@
 		<description>NHL All-Star Hockey (USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="nhl all-star hockey (usa).bin" size="524288" crc="4680c7aa"/>
+		<rom name="NHL All-Star Hockey (USA)(1995)(Sega).gg" size="524288" crc="4680c7aa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3734,7 +2778,7 @@
 		<description>NHL Hockey (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Electronic Arts</manufacturer>
-		<rom name="mpr-17850-s.ic1" size="524288" crc="658713a5"/>
+		<rom name="NHL Hockey (Euro, USA)(1995)(Electronic Arts).gg" size="524288" crc="658713a5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3951,8 +2995,8 @@
 	<game name="pga96" sourcefile="sms/d_sms.cpp">
 		<description>PGA Tour 96 (Euro, USA)</description>
 		<year>1996</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="pga tour 96 (usa, europe).bin" size="524288" crc="542b6d8e"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="PGA Tour 96 (Euro, USA)(1996)(Black Pearl).gg" size="524288" crc="542b6d8e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3960,15 +3004,15 @@
 		<description>PGA Tour Golf (Euro, USA)</description>
 		<year>1991</year>
 		<manufacturer>Tengen</manufacturer>
-		<rom name="mpr-16044.ic1" size="262144" crc="9700bb65"/>
+		<rom name="PGA Tour Golf (Euro, USA)(1991)(Tengen).gg" size="262144" crc="9700bb65"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="pgatour" sourcefile="sms/d_sms.cpp">
 		<description>PGA Tour Golf (USA, v1.1)</description>
 		<year>1994</year>
-		<manufacturer>Electronic Arts?</manufacturer>
-		<rom name="pga tour golf (usa) (v1.1).bin" size="262144" crc="1c77d996"/>
+		<manufacturer>Electronic Arts</manufacturer>
+		<rom name="PGA Tour Golf (USA, v1.1)(1994)(Electronic Arts).gg" size="262144" crc="1c77d996"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3976,7 +3020,7 @@
 		<description>PGA Tour Golf II (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Time Warner Interactive</manufacturer>
-		<rom name="mpr-17319-s.ic1" size="524288" crc="4a8ac851"/>
+		<rom name="PGA Tour Golf II (Euro, USA)(1992)(Time Warner Interactive).gg" size="524288" crc="4a8ac851"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3984,7 +3028,7 @@
 		<description>Phantasy Star Adventure (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="phantasy star adventure (japan).bin" size="131072" crc="1a51579d"/>
+		<rom name="Phantasy Star Adventure (Japan)(1992)(Sega).gg" size="131072" crc="1a51579d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3993,7 +3037,7 @@
 		<description>Phantasy Star Gaiden (Hack, English)</description>
 		<year>1999</year>
 		<manufacturer>Dynamic-Designs, Taskforce</manufacturer>
-		<rom name="phantasy star gaiden (english translation).gg" size="262144" crc="1c98154a"/>
+		<rom name="Phantasy Star Gaiden T-Eng (1999)(Dynamic-Designs, Taskforce).gg" size="262144" crc="1c98154a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4001,7 +3045,7 @@
 		<description>Phantasy Star Gaiden (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="phantasy star gaiden (japan).bin" size="262144" crc="a942514a"/>
+		<rom name="Phantasy Star Gaiden (Japan)(1992)(Sega).gg" size="262144" crc="a942514a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4009,7 +3053,7 @@
 		<description>Phantom 2040 (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Viacom New Media</manufacturer>
-		<rom name="phantom 2040 (usa, europe).bin" size="524288" crc="281b1c3a"/>
+		<rom name="Phantom 2040 (Euro, USA)(1995)(Viacom).gg" size="524288" crc="281b1c3a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4017,7 +3061,7 @@
 		<description>Pinball Dreams (USA)</description>
 		<year>1993</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="pinball dreams (usa).bin" size="131072" crc="635c483a"/>
+		<rom name="Pinball Dreams (USA)(1993)(GameTek).gg" size="131072" crc="635c483a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4243,7 +3287,7 @@
 		<description>Quiz Gear Fight!!, The (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17816.ic1" size="524288" crc="736cdb76"/>
+		<rom name="Quiz Gear Fight!!, The (Japan)(1995)(Sega).gg" size="524288" crc="736cdb76"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4251,24 +3295,24 @@
 		<description>R.B.I. Baseball '94 (USA)</description>
 		<year>1994</year>
 		<manufacturer>Time Warner Interactive</manufacturer>
-		<rom name="mpr-17310-s.ic1" size="524288" crc="6dc3295e"/>
+		<rom name="R.B.I. Baseball '94 (USA)(1994)(Time Warner Interactive).gg" size="524288" crc="6dc3295e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="rcgp" sourcefile="sms/d_sms.cpp">
-		<comment>Game doesn't work</comment>
+		<comment>NB: only intro sequence</comment>
 		<description>R.C. Grand Prix (USA, SMS Mode)</description>
 		<year>1992</year>
 		<manufacturer>Absolute Entertainment</manufacturer>
-		<rom name="r.c. grand prix (usa, europe).bin" size="262144" crc="56201996"/>
+		<rom name="R.C. Grand Prix (USA, SMS Mode)(1992)(Absolute).gg" size="262144" crc="56201996"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="rastan" sourcefile="sms/d_sms.cpp">
 		<description>Rastan Saga (Japan, SMS Mode)</description>
 		<year>1991</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="rastan saga (japan).bin" size="262144" crc="9c76fb3a"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Rastan Saga (Japan, SMS Mode)(1991)(Taito).gg" size="262144" crc="9c76fb3a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4276,7 +3320,7 @@
 		<description>Revenge of Drancon (USA, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="revenge of drancon (usa).bin" size="131072" crc="03e9c607"/>
+		<rom name="Revenge of Drancon (USA, Brazil)(1991)(Sega).gg" size="131072" crc="03e9c607"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4284,7 +3328,7 @@
 		<description>Riddick Bowe Boxing (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Micronet</manufacturer>
-		<rom name="riddick bowe boxing (japan).bin" size="262144" crc="a45fffb7"/>
+		<rom name="Riddick Bowe Boxing (Japan)(1994)(Micronet).gg" size="262144" crc="a45fffb7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4292,7 +3336,7 @@
 		<description>Riddick Bowe Boxing (USA)</description>
 		<year>1993</year>
 		<manufacturer>Extreme Entertainment Group</manufacturer>
-		<rom name="riddick bowe boxing (usa).bin" size="262144" crc="38d8ec56"/>
+		<rom name="Riddick Bowe Boxing (USA)(1993)(Extreme Entertainment Group).gg" size="262144" crc="38d8ec56"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4300,34 +3344,7 @@
 		<description>Rise of the Robots (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Time Warner Interactive</manufacturer>
-		<rom name="rise of the robots (usa, europe).bin" size="524288" crc="100b77b2"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ristarp5" cloneof="ristar" romof="ristar" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Ristar - The Shooting Star (Prototype, 19940909)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Ristar - The Shooting Star (Proto, 19940909)(Sega).gg" size="524288" crc="a1c214bd"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ristarp4" cloneof="ristar" romof="ristar" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Ristar - The Shooting Star (Prototype, 19941019)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Ristar - The Shooting Star (Proto, 19941019)(Sega).gg" size="524288" crc="672d38d5"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="ristarp3" cloneof="ristar" romof="ristar" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Ristar - The Shooting Star (Prototype, 19941026)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Ristar - The Shooting Star (Proto, 19941026)(Sega).gg" size="524288" crc="a302413c"/>
+		<rom name="Rise of the Robots (Euro, USA)(1994)(Time Warner Interactive).gg" size="524288" crc="100b77b2"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4531,7 +3548,7 @@
 		<description>Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shining force gaiden - ensei, jashin no kuni e (japan).bin" size="524288" crc="4d1f4699"/>
+		<rom name="Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)(1992)(Sega).gg" size="524288" crc="4d1f4699"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4540,7 +3557,7 @@
 		<description>Shining Force Gaiden - Final Conflict (Hack, English)</description>
 		<year>2006</year>
 		<manufacturer>Shining Force Central</manufacturer>
-		<rom name="shining force gaiden - final conflict (english translation).gg" size="524288" crc="23bac434"/>
+		<rom name="Shining Force Gaiden - Final Conflict T-Eng (2006)(Shining Force Central).gg" size="524288" crc="23bac434"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4548,7 +3565,7 @@
 		<description>Shining Force Gaiden - Final Conflict (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shining force gaiden - final conflict (japan).bin" size="524288" crc="6019fe5e"/>
+		<rom name="Shining Force Gaiden - Final Conflict (Japan)(1995)(Sega).gg" size="524288" crc="6019fe5e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4556,7 +3573,7 @@
 		<description>Shining Force Gaiden II - Jashin no Kakusei (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15570 j07.u1" size="524288" crc="30374681"/>
+		<rom name="Shining Force Gaiden II - Jashin no Kakusei (Japan)(1993)(Sega).gg" size="524288" crc="30374681"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4564,25 +3581,7 @@
 		<description>Shining Force II - The Sword of Hajya (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shining force ii - the sword of hajya (usa, europe).bin" size="524288" crc="a6ca6fa9"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="shinfrc2p4" cloneof="shinfrc2" romof="shinfrc2" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Shining Force II - The Sword of Hajya (Prototype, 19940427)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="shining force ii (prototype - apr 27,  1994).bin" size="524288" crc="65e5345c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="shinfrc2p3" cloneof="shinfrc2" romof="shinfrc2" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Shining Force II - The Sword of Hajya (Prototype, 19940530)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="shining force ii (prototype - may 30,  1994).bin" size="524288" crc="e97ec011"/>
+		<rom name="Shining Force II - The Sword of Hajya (Euro, USA)(1994)(Sega).gg" size="524288" crc="a6ca6fa9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4591,7 +3590,7 @@
 		<description>Shining Force II - The Sword of Hajya (Prototype, 19940627)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shining force ii (prototype - jun 27,  1994).bin" size="524288" crc="8bfc56c3"/>
+		<rom name="Shining Force II - The Sword of Hajya (Proto, 19940627)(Sega).gg" size="524288" crc="8bfc56c3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4600,7 +3599,7 @@
 		<description>Shining Force II - The Sword of Hajya (Prototype, 19940708)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="shining force ii (prototype - jul 08,  1994).bin" size="524288" crc="80dca91d"/>
+		<rom name="Shining Force II - The Sword of Hajya (Proto, 19940708)(Sega).gg" size="524288" crc="80dca91d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4608,7 +3607,7 @@
 		<description>Side Pocket (USA)</description>
 		<year>1994</year>
 		<manufacturer>Data East</manufacturer>
-		<rom name="side pocket (usa).bin" size="262144" crc="6a603eed"/>
+		<rom name="Side Pocket (USA)(1994)(Data East).gg" size="262144" crc="6a603eed"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4616,7 +3615,7 @@
 		<description>Simpsons, The - Bart vs. The Space Mutants (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="mpr-15229-s.ic1" size="262144" crc="c0009274"/>
+		<rom name="Simpsons, The - Bart vs. The Space Mutants (Euro, USA)(1992)(Flying Edge).gg" size="262144" crc="c0009274"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4624,7 +3623,7 @@
 		<description>Simpsons, The - Bart vs. The World (World)</description>
 		<year>1993</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="mpr-15978.ic1" size="262144" crc="da7bd5c7"/>
+		<rom name="Simpsons, The - Bart vs. The World (World)(1993)(Flying Edge).gg" size="262144" crc="da7bd5c7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4656,7 +3655,7 @@
 		<description>Smash T.V. (World)</description>
 		<year>1992</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="super smash t.v. (world).bin" size="262144" crc="1006e4e3"/>
+		<rom name="Smash T.V. (World)(1992)(Flying Edge).gg" size="262144" crc="1006e4e3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4696,7 +3695,7 @@
 		<description>Sonic and Tails (Japan)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic and tails (japan).bin" size="524288" crc="8ac0dade"/>
+		<rom name="Sonic and Tails (Japan)(1993)(Sega).gg" size="524288" crc="8ac0dade"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4704,7 +3703,7 @@
 		<description>Sonic and Tails (Japan, Jitsuenyou Sample)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic and tails [demo] (jp).bin" size="524288" crc="e0e3fb6a"/>
+		<rom name="Sonic and Tails (Japan, Jitsuenyou Sample)(1993)(Sega).gg" size="524288" crc="e0e3fb6a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4712,7 +3711,7 @@
 		<description>Sonic and Tails 2 (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic and tails 2 (japan).bin" size="524288" crc="496bce64"/>
+		<rom name="Sonic and Tails 2 (Japan)(1994)(Sega).gg" size="524288" crc="496bce64"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4720,69 +3719,33 @@
 		<description>Sonic Blast (Euro, USA) ~ G Sonic (Japan)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-19071-s.ic2" size="1048576" crc="031b9da9"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sonicblsp6" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 611, 19960531, 13.49)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 611 - may 31,  1996, 13.49).bin" size="524288" crc="c09ef45b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sonicblsp5" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 74, 19960717, 09.11)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 74 - jul 17,  1996, 09.11).bin" size="1048576" crc="362b186d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sonicblsp4" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 806, 19960806, 18.37)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 806 - aug 06,  1996, 18.37).bin" size="1048576" crc="19dad067"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sonicblsp3" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 821, 19960822, 09.38)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 821 - aug 22,  1996, 09.38).bin" size="1048576" crc="5eecb549"/>
+		<rom name="Sonic Blast (Euro, USA) - G Sonic (Japan)(1996)(Sega).gg" size="1048576" crc="031b9da9"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonicblsp2" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 827, 19960828, 11.13)</description>
+		<description>Sonic Blast (Prototype 827, 19960828)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 827 - aug 28,  1996, 11.13).bin" size="1048576" crc="e6847ac0"/>
+		<rom name="Sonic Blast (Proto 827, 19960828)(Sega).gg" size="1048576" crc="e6847ac0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonicblsp1" cloneof="sonicbls" romof="sonicbls" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic Blast (Prototype 94, 19960902, 17.47)</description>
+		<description>Sonic Blast (Prototype 94, 19960902)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic blast (prototype 94 - sep 02,  1996, 17.47).bin" size="1048576" crc="2f22a352"/>
+		<rom name="Sonic Blast (Proto 94, 19960902)(Sega).gg" size="1048576" crc="2f22a352"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonicc" sourcefile="sms/d_sms.cpp">
 		<description>Sonic Chaos (Euro, USA, Brazil)</description>
-		<year>199?</year>
+		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15973-f.ic1" size="524288" crc="663f2abb"/>
+		<rom name="Sonic Chaos (Euro, USA, Brazil)(1993)(Sega).gg" size="524288" crc="663f2abb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4790,7 +3753,7 @@
 		<description>Sonic Drift (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic drift (japan).bin" size="524288" crc="68f0a776"/>
+		<rom name="Sonic Drift (Japan)(1994)(Sega).gg" size="524288" crc="68f0a776"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4798,7 +3761,7 @@
 		<description>Sonic Drift (Japan, Demo Sample)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic drift (japan) (sample).bin" size="524288" crc="baac1fc0"/>
+		<rom name="Sonic Drift (Japan, Demo Sample)(1994)(Sega).gg" size="524288" crc="baac1fc0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4806,7 +3769,7 @@
 		<description>Sonic Drift 2 (Japan, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17623.ic1" size="524288" crc="d6e8a305"/>
+		<rom name="Sonic Drift 2 (Japan, USA)(1995)(Sega).gg" size="524288" crc="d6e8a305"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4814,7 +3777,7 @@
 		<description>Sonic Labyrinth (World)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18314-s.ic1" size="524288" crc="5550173b"/>
+		<rom name="Sonic Labyrinth (World)(1995)(Sega).gg" size="524288" crc="5550173b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4822,203 +3785,50 @@
 		<description>Sonic Spinball (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (usa, europe).bin" size="524288" crc="a9210434"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp20" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0307, 19940307, 05.24)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0307 - mar 07,  1994, 05.24).bin" size="524288" crc="3283580d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp19" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 031094, 19940310, 17.41)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 031094 - mar 10,  1994, 17.41).bin" size="524288" crc="1a736612"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp18" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 031194, 19940311, 12.09)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 031194 - mar 11,  1994, 12.09).bin" size="524288" crc="1aed8f62"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp17" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 032194, 19940321, 07.12)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 032194 - mar 21,  1994, 07.12).bin" size="524288" crc="46657b4e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp16" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0328, 19940328, 06.54)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0328 - mar 28,  1994, 06.54).bin" size="524288" crc="1233c3e3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp15" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0329, 19940329, 07.35)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0329 - mar 29,  1994, 07.35).bin" size="524288" crc="aa7aedb0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp14" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0330, 19940330, 06.54)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0330 - mar 30,  1994, 06.54).bin" size="524288" crc="2ca34ab2"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp13" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0405, 19940405, 18.07)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0405 - apr 05,  1994, 18.07).bin" size="524288" crc="09b913d5"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp12" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0412, 19940412, 07.26)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0412 - apr 12,  1994, 07.26).bin" size="524288" crc="f8a432f6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp11" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0413, 19940413, 02.54)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0413 - apr 13,  1994, 02.54).bin" size="524288" crc="1f1abf2c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp10" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0415, 19940415, 17.33)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0415 - apr 15,  1994, 17.33).bin" size="524288" crc="e3b5cd1e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp09" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0421, 19940421, 05.30)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0421 - apr 21,  1994, 05.30).bin" size="524288" crc="bbaecf7c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp08" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0427, 19940427, 04.51)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0427 - apr 27,  1994, 04.51).bin" size="376832" crc="07d32244"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp07" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0429, 19940429, 06.01)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0429 - apr 29,  1994, 06.01).bin" size="524288" crc="30a7d062"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp06" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0430, 19940429, 21.48)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0430 - apr 29,  1994, 21.48).bin" size="524288" crc="221c4ba4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp04" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0505, 19940505, 04.47)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0505 - may 05,  1994, 04.47).bin" size="524288" crc="be76bf30"/>
+		<rom name="Sonic Spinball (Euro, USA)(1993)(Sega).gg" size="524288" crc="a9210434"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sspinp03" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0506, 19940506, 13.04)</description>
+		<description>Sonic Spinball (Prototype 0506, 19940506)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0506 - may 06,  1994, 13.04).bin" size="524288" crc="a4833d27"/>
+		<rom name="Sonic Spinball (Proto 0506, 19940506)(Sega).gg" size="524288" crc="a4833d27"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sspinp02" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0525, 19940525, 13.24)</description>
+		<description>Sonic Spinball (Prototype 0525, 19940525)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0525 - may 25,  1994, 13.24).bin" size="524288" crc="a035fd5c"/>
+		<rom name="Sonic Spinball (Proto 0525, 19940525)(Sega).gg" size="524288" crc="a035fd5c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sspinp01" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 0530, 19940530, 23.25)</description>
+		<description>Sonic Spinball (Prototype 0530, 19940530)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 0530 - may 30,  1994, 23.25).bin" size="524288" crc="6107819d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sspinp05" cloneof="sspin" romof="sspin" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sonic Spinball (Prototype 503B, 19940503, 19.27)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sonic spinball (prototype 503b - may 03,  1994, 19.27).bin" size="524288" crc="e2fe976a"/>
+		<rom name="Sonic Spinball (Proto 0530, 19940530)(Sega).gg" size="524288" crc="6107819d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonic" sourcefile="sms/d_sms.cpp">
-		<description>Sonic The Hedgehog (Euro, Japan, v1)</description>
+		<description>Sonic The Hedgehog (Euro, Japan, v1.1)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-14459a.ic1" size="262144" crc="d163356e"/>
+		<rom name="Sonic The Hedgehog (Euro, Japan, v1.1)(1991)(Sega).gg" size="262144" crc="d163356e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonicj" cloneof="sonic" romof="sonic" sourcefile="sms/d_sms.cpp">
-		<description>Sonic The Hedgehog (USA, Japan, v0)</description>
+		<description>Sonic The Hedgehog (USA, Japan, v1.0)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic the hedgehog (japan).bin" size="262144" crc="3e31cb8c"/>
+		<rom name="Sonic The Hedgehog (USA, Japan, v1.0)(1991)(Sega).gg" size="262144" crc="3e31cb8c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5027,7 +3837,7 @@
 		<description>Sonic The Hedgehog (World, Prototype)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic the hedgehog (world) (proto).bin" size="262144" crc="816c0a1e"/>
+		<rom name="Sonic The Hedgehog (World, Proto)(1991)(Sega).gg" size="262144" crc="816c0a1e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5035,16 +3845,16 @@
 		<description>Sonic The Hedgehog - Triple Trouble (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17075.ic1" size="524288" crc="d23a2a93"/>
+		<rom name="Sonic The Hedgehog - Triple Trouble (Euro, USA)(1994)(Sega).gg" size="524288" crc="d23a2a93"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sonictrip" cloneof="sonictri" romof="sonictri" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>Sonic The Hedgehog - Triple Trouble (Prototype 0808, 19940808, 18.05)</description>
+		<description>Sonic The Hedgehog - Triple Trouble (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sonic the hedgehog - triple trouble (prototype 0808 - aug 08,  1994, 18.05).bin" size="524288" crc="80eb7cfb"/>
+		<rom name="Sonic The Hedgehog - Triple Trouble (Proto)(1994)(Sega).gg" size="524288" crc="80eb7cfb"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5109,42 +3919,15 @@
 		<description>Spirou (Euro, Prototype)</description>
 		<year>1996</year>
 		<manufacturer>Infogrames</manufacturer>
-		<rom name="spirou (europe) (proto).bin" size="524288" crc="ab622adc"/>
+		<rom name="Spirou (Euro, Proto)(1996)(Infogrames).gg" size="524288" crc="ab622adc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="sportill" sourcefile="sms/d_sms.cpp">
 		<description>Sports Illustrated Championship Football and Baseball (Euro, USA)</description>
 		<year>1995</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="sports illustrated championship football and baseball (usa, europe).bin" size="524288" crc="de25e2d8"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sporttrvp12" cloneof="sporttrv" romof="sporttrv" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950308)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950308)(Sega).gg" size="131072" crc="c38d41c3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sporttrvp11" cloneof="sporttrv" romof="sporttrv" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950309)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950309)(Sega).gg" size="131072" crc="34407fe9"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sporttrvp10" cloneof="sporttrv" romof="sporttrv" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950313)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950313)(Sega).gg" size="262144" crc="a8d1ac51"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Sports Illustrated Championship Football and Baseball (Euro, USA)(1995)(Black Pearl).gg" size="524288" crc="de25e2d8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5193,204 +3976,6 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="sprtrvcep24" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950321-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 21,  1995 - 2meg).bin" size="262144" crc="18cf6145"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep23" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950323-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 23,  1995 - 2meg).bin" size="262144" crc="27816c09"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep22" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950323-ALGOTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 23,  1995 - algotest).bin" size="262144" crc="9a8ad5ca"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep21" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950323-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 23,  1995 - qtest).bin" size="262144" crc="acb7e580"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep20" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950327-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 27,  1995 - 2meg).bin" size="262144" crc="517bd817"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep19" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950327-ALGOTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 27,  1995 - algotest).bin" size="262144" crc="511b1d24"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep18" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950329-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 29,  1995 - 2meg).bin" size="262144" crc="e906fbd8"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep17" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950329-ALGOTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 29,  1995 - algotest).bin" size="262144" crc="e80459b3"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep16" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950329-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 29,  1995 - qtest).bin" size="262144" crc="05047357"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep15" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950330-2MEG-D)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 30,  1995 - 2meg - d).bin" size="262144" crc="302b9b36"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep14" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950330-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - mar 30,  1995 - qtest).bin" size="262144" crc="f3f9a87b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep13" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950403-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950403-2MEG)(Sega).gg" size="262144" crc="3e3d6728"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep12" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950403-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950403-QTEST)(Sega).gg" size="262144" crc="c68762e6"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep11" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950404-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950404-2MEG)(Sega).gg" size="262144" crc="d61a366f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep10" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950405-2MEG-B)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950405-2MEG-B)(Sega).gg" size="262144" crc="818ec54c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep09" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950405-2MEG-C)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950405-2MEG-C)(Sega).gg" size="262144" crc="f88a55f4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep08" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950405-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950405-QTEST)(Sega).gg" size="262144" crc="93b98f19"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep07" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950406-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950406-2MEG)(Sega).gg" size="262144" crc="cab74070"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep06" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950407-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Sports Trivia (Proto, 19950407-2MEG)(Sega).gg" size="262144" crc="352e8b8c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep05" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950407-QTEST)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 07,  1995 - qtest).bin" size="262144" crc="961ae378"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep04" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950411-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 11,  1995 - 2meg).bin" size="262144" crc="8bdb184d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="sprtrvcep03" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Sports Trivia (Prototype, 19950412-2MEG)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 12,  1995 - 2meg).bin" size="262144" crc="1e360a20"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="sporttrvp04" cloneof="sprtrvce" romof="sprtrvce" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>Sports Trivia (Prototype, 19950425-1MEG)</description>
@@ -5423,7 +4008,7 @@
 		<description>Sports Trivia (Prototype, 19950428-2MEG)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="sports trivia (prototype - apr 28,  1995 - 2meg).bin" size="262144" crc="26470d2b"/>
+		<rom name="Sports Trivia (Prototype, 19950428-2MEG)(Sega).gg" size="262144" crc="26470d2b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5564,7 +4149,7 @@
 		<description>Super Columns (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (usa, europe).bin" size="131072" crc="8ba43af3"/>
+		<rom name="Super Columns (Euro, USA)(1995)(Sega).gg" size="131072" crc="8ba43af3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5572,52 +4157,7 @@
 		<description>Super Columns (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17865.ic1" size="131072" crc="2a100717"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="supercolp7" cloneof="supercol" romof="supercol" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Super Columns (Prototype, 19941111)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - nov 11,  1994).bin" size="131072" crc="f28f89d1"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="supercolp6" cloneof="supercol" romof="supercol" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Super Columns (Prototype, 19941201)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - dec 01,  1994).bin" size="131072" crc="56cf1d4f"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="supercolp5" cloneof="supercol" romof="supercol" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Super Columns (Prototype, 19941215)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - dec 15,  1994).bin" size="131072" crc="abe92434"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="supercolp4" cloneof="supercol" romof="supercol" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Super Columns (Prototype, 19941221)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - dec 21,  1994).bin" size="131072" crc="81451fc0"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="supercolp3" cloneof="supercol" romof="supercol" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Super Columns (Prototype, 19941226)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - dec 26,  1994).bin" size="131072" crc="5c4c633d"/>
+		<rom name="Super Columns (Japan)(1995)(Sega).gg" size="131072" crc="2a100717"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5626,7 +4166,7 @@
 		<description>Super Columns (Prototype, 19941228)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - dec 28,  1994).bin" size="131072" crc="3d931952"/>
+		<rom name="Super Columns (Proto, 19941228)(Sega).gg" size="131072" crc="3d931952"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5635,7 +4175,7 @@
 		<description>Super Columns (Prototype, 19950106)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="super columns (prototype - jan 06,  1995).bin" size="131072" crc="096f4ff5"/>
+		<rom name="Super Columns (Proto, 19950106)(Sega).gg" size="131072" crc="096f4ff5"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5643,7 +4183,7 @@
 		<description>Super Golf (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sigma Enterprises</manufacturer>
-		<rom name="super golf (japan).bin" size="131072" crc="528cbbce"/>
+		<rom name="Super Golf (Japan)(1991)(Sigma Enterprises).gg" size="131072" crc="528cbbce"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5651,7 +4191,7 @@
 		<description>Super Golf (USA)</description>
 		<year>1991</year>
 		<manufacturer>Sage's Creations</manufacturer>
-		<rom name="super golf (usa).bin" size="131072" crc="e9570f36"/>
+		<rom name="Super Golf (USA)(1991)(Sage's Creations).gg" size="131072" crc="e9570f36"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5675,7 +4215,7 @@
 		<description>Super Monaco GP (Euro, USA, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13771.ic1" size="131072" crc="fcf12547"/>
+		<rom name="Super Monaco GP (Euro, USA, Brazil)(1991)(Sega).gg" size="131072" crc="fcf12547"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5683,7 +4223,7 @@
 		<description>Super Monaco GP (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="super monaco gp (japan).bin" size="131072" crc="4f686c4a"/>
+		<rom name="Super Monaco GP (Japan)(1990)(Sega).gg" size="131072" crc="4f686c4a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5691,15 +4231,15 @@
 		<description>Super Off Road (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Virgin Interactive</manufacturer>
-		<rom name="super off road (usa, europe).bin" size="131072" crc="e8b42b1f"/>
+		<rom name="Super Off Road (Euro, USA)(1992)(Virgin Interactive).gg" size="131072" crc="e8b42b1f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="suprjedi" sourcefile="sms/d_sms.cpp">
 		<description>Super Return of the Jedi (Euro, USA)</description>
 		<year>1995</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="super return of the jedi (usa, europe).bin" size="524288" crc="4a38b6b6"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Super Return of the Jedi (Euro, USA)(1995)(Black Pearl).gg" size="524288" crc="4a38b6b6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5707,7 +4247,7 @@
 		<description>Super Space Invaders (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Domark</manufacturer>
-		<rom name="super space invaders (usa, europe).bin" size="262144" crc="dfe38e24"/>
+		<rom name="Super Space Invaders (Euro, USA)(1992)(Domark).gg" size="262144" crc="dfe38e24"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5822,15 +4362,15 @@
 		<description>Taisen-gata Daisenryaku G (Japan)</description>
 		<year>1991</year>
 		<manufacturer>SystemSoft</manufacturer>
-		<rom name="mpr-14246.ic1" size="262144" crc="7b7717b8"/>
+		<rom name="Taisen-gata Daisenryaku G (Japan)(1991)(SystemSoft).gg" size="262144" crc="7b7717b8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="chasehqj" cloneof="chasehq" romof="chasehq" sourcefile="sms/d_sms.cpp">
 		<description>Taito Chase H.Q. (Japan, SMS Mode)</description>
 		<year>1991</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="taito chase h.q. (japan).bin" size="131072" crc="7bb81e3d"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Taito Chase H.Q. (Japan, SMS Mode)(1991)(Taito).gg" size="131072" crc="7bb81e3d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5838,7 +4378,7 @@
 		<description>Taito Chase H.Q. (USA, SMS Mode)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="chase h.q. [sms-gg].bin" size="131072" crc="c8381def"/>
+		<rom name="Taito Chase H.Q. (USA, SMS Mode)(1991)(Taito).gg" size="131072" crc="c8381def"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5846,7 +4386,7 @@
 		<description>Tale Spin (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tale spin (usa, europe).bin" size="262144" crc="f1732ffe"/>
+		<rom name="Tale Spin (Euro, USA)(1993)(Sega).gg" size="262144" crc="f1732ffe"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5886,106 +4426,7 @@
 		<description>Taz in Escape from Mars (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (usa, europe).bin" size="524288" crc="eebad66b"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp14" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940511)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - may 11,  1994).bin" size="262144" crc="030f396a"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp13" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940810)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 10,  1994).bin" size="524288" crc="92388016"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp12" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940812)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 12,  1994).bin" size="524288" crc="a43fdfad"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp11" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940814)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 14,  1994).bin" size="524288" crc="9267d968"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp10" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940819)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 19,  1994).bin" size="524288" crc="57747640"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp09" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940823)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 23,  1994).bin" size="524288" crc="6cd0fd78"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp08" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940829-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 29,  1994 - b).bin" size="524288" crc="3c03919d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp07" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940830)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - aug 30,  1994).bin" size="524288" crc="09679b89"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp06" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940902)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 02,  1994).bin" size="524288" crc="18913d93"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp05" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940905-B)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 05,  1994 - b).bin" size="524288" crc="d84a631c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tazmarsp04" cloneof="tazmars" romof="tazmars" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Taz in Escape from Mars (Prototype, 19940905-C)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 05,  1994 - c).bin" size="524288" crc="61330a58"/>
+		<rom name="Taz in Escape from Mars (Euro, USA)(1994)(Sega).gg" size="524288" crc="eebad66b"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5994,7 +4435,7 @@
 		<description>Taz in Escape from Mars (Prototype, 19940906-D)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 06,  1994 - d).bin" size="524288" crc="1f040bca"/>
+		<rom name="Taz in Escape from Mars (Proto, 19940906-D)(Sega).gg" size="524288" crc="1f040bca"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6003,7 +4444,7 @@
 		<description>Taz in Escape from Mars (Prototype, 19940909-B)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 09,  1994 - b).bin" size="524288" crc="c867da05"/>
+		<rom name="Taz in Escape from Mars (Proto, 19940909-B)(Sega).gg" size="524288" crc="c867da05"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6012,69 +4453,15 @@
 		<description>Taz in Escape from Mars (Prototype, 19940910)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="taz in escape from mars (prototype - sep 10,  1994).bin" size="524288" crc="faf4bec0"/>
+		<rom name="Taz in Escape from Mars (Proto, 19940910)(Sega).gg" size="524288" crc="faf4bec0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="tazmania" sourcefile="sms/d_sms.cpp">
-		<description>Taz-Mania - The Search for the Lost Seabirds (Euro, USA)</description>
+		<description>Taz-Mania: The Search for the Lost Seabirds (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="epoxy.u1" size="262144" crc="36040c24"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp9" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19941128)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - nov 28,  1994).bin" size="524288" crc="a33b5b92"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp8" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19941205)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - dec 05,  1994).bin" size="524288" crc="3475d48e"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp7" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19941212)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - dec 12,  1994).bin" size="524288" crc="fb9a5885"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp6" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19941226)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - dec 26,  1994).bin" size="524288" crc="e484e41c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp5" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19950117)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - jan 17,  1995).bin" size="524288" crc="ab6dc88c"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="tempojrp4" cloneof="tempojr" romof="tempojr" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>Tempo Jr. (Prototype, 19950120)</description>
-		<year>1995</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - jan 20,  1995).bin" size="524288" crc="96d64b16"/>
+		<rom name="Taz-Mania - The Search for the Lost Seabirds (Euro, USA)(1992)(Sega).gg" size="262144" crc="36040c24"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6083,7 +4470,7 @@
 		<description>Tempo Jr. (Prototype, 19950131)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - jan 31,  1995).bin" size="524288" crc="7afedf36"/>
+		<rom name="Tempo Jr. (Proto, 19950131)(Sega).gg" size="524288" crc="7afedf36"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6092,7 +4479,7 @@
 		<description>Tempo Jr. (Prototype, 19950206)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - feb 06,  1995).bin" size="524288" crc="3ef6551c"/>
+		<rom name="Tempo Jr. (Proto, 19950206)(Sega).gg" size="524288" crc="3ef6551c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6101,7 +4488,7 @@
 		<description>Tempo Jr. (Prototype, 19950215)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="tempo jr. (prototype - feb 15,  1995).bin" size="524288" crc="79e83d67"/>
+		<rom name="Tempo Jr. (Proto, 19950215)(Sega).gg" size="524288" crc="79e83d67"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6109,7 +4496,7 @@
 		<description>Tempo Jr. (World)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17792-s.ic1" size="524288" crc="de466796"/>
+		<rom name="Tempo Jr. (World)(1995)(Sega).gg" size="524288" crc="de466796"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6117,7 +4504,7 @@
 		<description>Tengen World Cup Soccer (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Tengen</manufacturer>
-		<rom name="mpr-15642-f.ic1" size="262144" crc="dd6d2e34"/>
+		<rom name="Tengen World Cup Soccer (Euro, USA)(1993)(Tengen).gg" size="262144" crc="dd6d2e34"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6152,14 +4539,6 @@
 		<year>2022</year>
 		<manufacturer>Armix</manufacturer>
 		<rom name="Tetris4GG v0.9 (2022)(Armix).gg" size="65536" crc="e0654d27"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="shinobi2" sourcefile="sms/d_sms.cpp">
-		<description>The GG Shinobi II (World)</description>
-		<year>1992</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15154-f.ic1" size="262144" crc="6201c694"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6207,15 +4586,15 @@
 		<description>Ultimate Soccer (Euro, Japan, Brazil)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15827.ic1" size="262144" crc="820965a3"/>
+		<rom name="Ultimate Soccer (Euro, Japan, Brazil)(1993)(Sega).gg" size="262144" crc="820965a3"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="ustrike" sourcefile="sms/d_sms.cpp">
 		<description>Urban Strike (Euro, USA)</description>
 		<year>1995</year>
-		<manufacturer>Black Pearl</manufacturer>
-		<rom name="urban strike (usa, europe).bin" size="524288" crc="185e9fc1"/>
+		<manufacturer>Black Pearl Software</manufacturer>
+		<rom name="Urban Strike (Euro, USA)(1995)(Black Pearl).gg" size="524288" crc="185e9fc1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6223,7 +4602,7 @@
 		<description>Vampire - Master of Darkness (USA)</description>
 		<year>1993</year>
 		<manufacturer>SIMS Co. - Sega</manufacturer>
-		<rom name="vampire - master of darkness (usa).bin" size="262144" crc="7ec64025"/>
+		<rom name="Vampire - Master of Darkness (USA)(1993)(SIMS Co. - Sega).gg" size="262144" crc="7ec64025"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6240,7 +4619,7 @@
 		<description>Virtua Fighter Animation (Euro, USA)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18864-s.ic2" size="1048576" crc="d431c452"/>
+		<rom name="Virtua Fighter Animation (Euro, USA)(1996)(Sega).gg" size="1048576" crc="d431c452"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6248,7 +4627,7 @@
 		<description>Virtua Fighter Mini (Japan)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18679-s.ic1" size="1048576" crc="c05657f8"/>
+		<rom name="Virtua Fighter Mini (Japan)(1996)(Sega).gg" size="1048576" crc="c05657f8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6435,113 +4814,50 @@
 		<description>X-Men (USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men (usa).bin" size="524288" crc="567a5ee6"/>
+		<rom name="X-Men (USA)(1994)(Sega).gg" size="524288" crc="567a5ee6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="xmengl" sourcefile="sms/d_sms.cpp">
-		<description>X-Men - Gamemaster's Legacy (Euro, USA)</description>
+		<description>X-Men: Gamemaster's Legacy (Euro, USA)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - gamemaster's legacy (usa, europe).bin" size="524288" crc="c169c344"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenglp2" cloneof="xmengl" romof="xmengl" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Gamemaster's Legacy (Prototype 36, 19940831)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - gamemaster's legacy (prototype 36 - aug 31,  1994).bin" size="524288" crc="271a0a1d"/>
+		<rom name="X-Men - Gamemaster's Legacy (Euro, USA)(1994)(Sega).gg" size="524288" crc="c169c344"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="xmenglp1" cloneof="xmengl" romof="xmengl" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>X-Men - Gamemaster's Legacy (Prototype 51, 19940906)</description>
+		<description>X-Men: Gamemaster's Legacy (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - gamemaster's legacy (prototype 51 - sep 06,  1994).bin" size="524288" crc="a3cf94ba"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenglp3" cloneof="xmengl" romof="xmengl" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Gamemaster's Legacy (Prototype, 19940810)</description>
-		<year>1994</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - gamemaster's legacy (prototype - aug 10,  1994).bin" size="524288" crc="66cc4034"/>
+		<rom name="X-Men - Gamemaster's Legacy (Proto)(1994)(Sega).gg" size="524288" crc="a3cf94ba"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<description>X-Men - Mojo World (Euro, USA)</description>
+		<description>X-Men: Mojo World (Euro, USA)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (usa, europe).bin" size="524288" crc="c2cba9d7"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenmojop7" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960605)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 05,  1996).bin" size="524288" crc="626f9987"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenmojop6" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960613)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 13,  1996).bin" size="524288" crc="c4f3ced4"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenmojop5" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960624)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 24,  1996).bin" size="524288" crc="78001a5d"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenmojop4" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960625)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 25,  1996).bin" size="524288" crc="d4d2f077"/>
-		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="xmenmojop3" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
-		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960627)</description>
-		<year>1996</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 27,  1996).bin" size="524288" crc="425ac73f"/>
+		<rom name="X-Men - Mojo World (Euro, USA)(1996)(Sega).gg" size="524288" crc="c2cba9d7"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="xmenmojop2" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960628)</description>
+		<description>X-Men: Mojo World (Prototype, 19960628)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 28,  1996).bin" size="524288" crc="d44925ea"/>
+		<rom name="X-Men - Mojo World (Proto, 19960628)(Sega).gg" size="524288" crc="d44925ea"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="xmenmojop1" cloneof="xmenmojo" romof="xmenmojo" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
-		<description>X-Men - Mojo World (Prototype, 19960629)</description>
+		<description>X-Men: Mojo World (Prototype, 19960629)</description>
 		<year>1996</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="x-men - mojo world (prototype - jun 29,  1996).bin" size="524288" crc="ba71da19"/>
+		<rom name="X-Men - Mojo World (Proto, 19960629)(Sega).gg" size="524288" crc="ba71da19"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6559,7 +4875,7 @@
 		<description>Yogi Bear in Yogi Bear's Goldrush (Prototype)</description>
 		<year>1994</year>
 		<manufacturer>GameTek</manufacturer>
-		<rom name="yogi bear in yogi bear's goldrush (unknown) (proto).bin" size="262144" crc="e678f264"/>
+		<rom name="Yogi Bear in Yogi Bear's Goldrush (Proto)(1994)(GameTek).gg" size="262144" crc="e678f264"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6567,7 +4883,7 @@
 		<description>Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-16456.ic1" size="524288" crc="88ebbf9e"/>
+		<rom name="Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan)(1994)(Sega).gg" size="524288" crc="88ebbf9e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6575,7 +4891,7 @@
 		<description>Yu Yu Hakusho 2 - Gekitou! Nanakyou no Tatakai (Japan)</description>
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-17084.ic1" size="524288" crc="46ae9159"/>
+		<rom name="Yu Yu Hakusho 2 - Gekitou! Nanakyou no Tatakai (Japan)(1994)(Sega).gg" size="524288" crc="46ae9159"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6583,7 +4899,7 @@
 		<description>Zan Gear (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Wolf Team</manufacturer>
-		<rom name="zan gear (japan).bin" size="131072" crc="141aaf96"/>
+		<rom name="Zan Gear (Japan)(1990)(Wolf Team).gg" size="131072" crc="141aaf96"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

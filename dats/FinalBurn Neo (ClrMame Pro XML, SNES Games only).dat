@@ -10040,7 +10040,7 @@
 		<description>Romancing Sa-Ga 3 (Hack, Simplified Chinese v1.01)</description>
 		<year>2010</year>
 		<manufacturer>Werther Lee</manufacturer>
-		<rom name="Romancing Sa-Ga 3 T-Cht v1.01 (2010)(Werther Lee).sfc" size="4194304" crc="c9a66742"/>
+		<rom name="Romancing Sa-Ga 3 T-Chs v1.01 (2010)(Werther Lee).sfc" size="4194304" crc="c9a66742"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
