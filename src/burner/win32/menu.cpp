@@ -665,6 +665,9 @@ void MenuUpdate()
 	CheckMenuItem(hMenu, MENU_SETCPUCLOCK, nBurnCPUSpeedAdjust != 0x0100 ? MF_CHECKED : MF_UNCHECKED);
 	CreateCPUSpeedItem(nBurnCPUSpeedAdjust != 0x0100);
 
+	if (bVidIntegerScale) {
+		var = MENU_INTSCALE;
+	} else
 	if (bVidFullStretch) {
 		var = MENU_STRETCH;
 	} else {
@@ -674,8 +677,7 @@ void MenuUpdate()
 			var = MENU_NOSTRETCH;
 		}
 	}
-	CheckMenuRadioItem(hMenu, MENU_NOSTRETCH, MENU_ASPECT, var, MF_BYCOMMAND);
-	CheckMenuItem(hMenu, MENU_STRETCH, bVidFullStretch ? MF_CHECKED : MF_UNCHECKED);
+	CheckMenuRadioItem(hMenu, MENU_NOSTRETCH, MENU_INTSCALE, var, MF_BYCOMMAND);
 
 	CheckMenuItem(hMenu, MENU_TRIPLE, bVidTripleBuffer ? MF_CHECKED : MF_UNCHECKED);
 
@@ -1124,17 +1126,6 @@ void MenuUpdate()
 
 	var = (bIconsByHardwares) ? MENU_ICONS_BY_HARDWARE : MENU_ICONS_BY_GAME;
 	CheckMenuRadioItem(hMenu, MENU_ICONS_BY_GAME, MENU_ICONS_BY_HARDWARE, var, MF_BYCOMMAND);
-
-	var = 1U;
-	switch (nIconsThreads) {
-		case 0U:  var = MENU_ICONS_THREADS_CORES;	break;
-		case 1U:  var = MENU_ICONS_THREAD_1;		break;
-		case 2U:  var = MENU_ICONS_THREADS_2;		break;
-		case 4U:  var = MENU_ICONS_THREADS_4;		break;
-		case 8U:  var = MENU_ICONS_THREADS_8;		break;
-		case 16U: var = MENU_ICONS_THREADS_16;		break;
-	}
-	CheckMenuRadioItem(hMenu, MENU_ICONS_THREAD_1, MENU_ICONS_THREADS_CORES, var, MF_BYCOMMAND);
 
 	// Previous games list
 	for (int i = 0; i < SHOW_PREV_GAMES; i++) {

@@ -1638,25 +1638,31 @@ static void OnCommand(HWND /*hDlg*/, int id, HWND /*hwndCtl*/, UINT codeNotify)
 			bDrvSaveAll = !bDrvSaveAll;
 			break;
 
+		case MENU_INTSCALE:
+			bVidCorrectAspect = 1;
+			bVidIntegerScale = 1;
+			bVidFullStretch = 0;
+			POST_INITIALISE_MESSAGE;
+			break;
+
 		case MENU_NOSTRETCH:
 			bVidCorrectAspect = 0;
 			bVidFullStretch = 0;
+			bVidIntegerScale = 0;
 			POST_INITIALISE_MESSAGE;
 			break;
 
 		case MENU_STRETCH:
 			bVidFullStretch = true;
-			if (bVidFullStretch) {
-				bVidCorrectAspect = 0;
-			}
+			bVidCorrectAspect = 0;
+			bVidIntegerScale = 0;
 			POST_INITIALISE_MESSAGE;
 			break;
 
 		case MENU_ASPECT:
 			bVidCorrectAspect = true;
-			if (bVidCorrectAspect) {
-				bVidFullStretch = 0;
-			}
+			bVidFullStretch = 0;
+			bVidIntegerScale = 0;
 			POST_INITIALISE_MESSAGE;
 			break;
 
@@ -2466,138 +2472,48 @@ static void OnCommand(HWND /*hDlg*/, int id, HWND /*hwndCtl*/, UINT codeNotify)
 
 		case MENU_ENABLEICONS: {
 			bEnableIcons = !bEnableIcons;
-			if(!bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-			}
-			if(bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			CreateDrvIconsCache();
 			break;
-		}
-
-		case MENU_ICONS_THREAD_1: {
-			nIconsThreads = 1U;  break;
-		}
-		case MENU_ICONS_THREADS_2: {
-			nIconsThreads = 2U;  break;
-		}
-		case MENU_ICONS_THREADS_4: {
-			nIconsThreads = 4U;  break;
-		}
-		case MENU_ICONS_THREADS_8: {
-			nIconsThreads = 8U;  break;
-		}
-		case MENU_ICONS_THREADS_16: {
-			nIconsThreads = 16U; break;
-		}
-		case MENU_ICONS_THREADS_CORES: {
-			nIconsThreads = 0U;  break;
 		}
 
 		case MENU_ICONS_PARENTSONLY: {
 			bIconsOnlyParents = !bIconsOnlyParents;
-			if(bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			LoadDrvIcons();
 			break;
 		}
 
 		case MENU_ICONS_SIZE_16: {
 			nIconsSize = ICON_16x16;
-			if(bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
-			if(bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			CreateDrvIconsCache();
 			break;
 		}
 
 		case MENU_ICONS_SIZE_24: {
 			nIconsSize = ICON_24x24;
-			if(bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
-			if(bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			CreateDrvIconsCache();
 			break;
 		}
 
 		case MENU_ICONS_SIZE_32: {
 			nIconsSize = ICON_32x32;
-			if(bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
-			if(bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			CreateDrvIconsCache();
 			break;
 		}
 
 		case MENU_ICONS_BY_GAME: {
 			bIconsByHardwares = 0;
-			if (bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
-			if (bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			LoadDrvIcons();
 			break;
 		}
 
 		case MENU_ICONS_BY_HARDWARE: {
 			bIconsByHardwares = 1;
-			if (bEnableIcons && bIconsLoaded) {
-				// unload icons
-				UnloadDrvIcons();
-				bIconsLoaded = 0;
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
-			if (bEnableIcons && !bIconsLoaded) {
-				// load icons
-				LoadDrvIcons();
-				bIconsLoaded = 1;
-			}
+			LoadDrvIcons();
+			break;
+		}
+
+		case MENU_ICONS_REFRESH: {
+			CreateDrvIconsCache();
 			break;
 		}
 
@@ -2627,11 +2543,11 @@ static void OnCommand(HWND /*hDlg*/, int id, HWND /*hwndCtl*/, UINT codeNotify)
 			bRewindEnabled = !bRewindEnabled;
 			StateRewindReInit();
 			break;
-		case MENU_INPUT_REWIND_128MB: nRewindMemory = 128; StateRewindReInit(); break;
-		case MENU_INPUT_REWIND_256MB: nRewindMemory = 256; StateRewindReInit(); break;
-		case MENU_INPUT_REWIND_512MB: nRewindMemory = 512; StateRewindReInit(); break;
-		case MENU_INPUT_REWIND_768MB: nRewindMemory = 768; StateRewindReInit(); break;
-		case MENU_INPUT_REWIND_1GB: nRewindMemory = 1024; StateRewindReInit(); break;
+		case MENU_INPUT_REWIND_128MB: nRewindMemory =  128; StateRewindReInit(); break;
+		case MENU_INPUT_REWIND_256MB: nRewindMemory =  256; StateRewindReInit(); break;
+		case MENU_INPUT_REWIND_512MB: nRewindMemory =  512; StateRewindReInit(); break;
+		case MENU_INPUT_REWIND_768MB: nRewindMemory =  768; StateRewindReInit(); break;
+		case MENU_INPUT_REWIND_1GB:   nRewindMemory = 1024; StateRewindReInit(); break;
 
 		case MENU_PRIORITY_REALTIME: // bad idea, this will freeze the entire system.
 			break;
@@ -2820,11 +2736,11 @@ static void OnCommand(HWND /*hDlg*/, int id, HWND /*hwndCtl*/, UINT codeNotify)
 				VidSAddChatMsg(NULL, 0xFFFFFF, szText, 0xFFBFBF);
 
 				EnableMenuItem(hMenu, MENU_CHEATSEARCH_NOCHANGE, MF_ENABLED | MF_BYCOMMAND);
-				EnableMenuItem(hMenu, MENU_CHEATSEARCH_CHANGE, MF_ENABLED | MF_BYCOMMAND);
+				EnableMenuItem(hMenu, MENU_CHEATSEARCH_CHANGE,   MF_ENABLED | MF_BYCOMMAND);
 				EnableMenuItem(hMenu, MENU_CHEATSEARCH_DECREASE, MF_ENABLED | MF_BYCOMMAND);
 				EnableMenuItem(hMenu, MENU_CHEATSEARCH_INCREASE, MF_ENABLED | MF_BYCOMMAND);
 				EnableMenuItem(hMenu, MENU_CHEATSEARCH_DUMPFILE, MF_ENABLED | MF_BYCOMMAND);
-				EnableMenuItem(hMenu, MENU_CHEATSEARCH_EXIT, MF_ENABLED | MF_BYCOMMAND);
+				EnableMenuItem(hMenu, MENU_CHEATSEARCH_EXIT,     MF_ENABLED | MF_BYCOMMAND);
 			}
 			break;
 		}
@@ -2907,11 +2823,11 @@ static void OnCommand(HWND /*hDlg*/, int id, HWND /*hwndCtl*/, UINT codeNotify)
 			VidSAddChatMsg(NULL, 0xFFFFFF, szText, 0xFFBFBF);
 
 			EnableMenuItem(hMenu, MENU_CHEATSEARCH_NOCHANGE, MF_GRAYED | MF_BYCOMMAND);
-			EnableMenuItem(hMenu, MENU_CHEATSEARCH_CHANGE, MF_GRAYED | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_CHEATSEARCH_CHANGE,   MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_CHEATSEARCH_DECREASE, MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_CHEATSEARCH_INCREASE, MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_CHEATSEARCH_DUMPFILE, MF_GRAYED | MF_BYCOMMAND);
-			EnableMenuItem(hMenu, MENU_CHEATSEARCH_EXIT, MF_GRAYED | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_CHEATSEARCH_EXIT,     MF_GRAYED | MF_BYCOMMAND);
 			break;
 		}
 
