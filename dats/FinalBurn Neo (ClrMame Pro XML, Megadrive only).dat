@@ -6424,6 +6424,15 @@
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="farmingsim" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew</comment>
+		<description>Farming Simulator - 16-Bit Edition (Unl) (HB, v1.2)</description>
+		<year>2025</year>
+		<manufacturer>GIANTS Software</manufacturer>
+		<rom name="Farming Simulator - 16-Bit Edition v1.2 (2025)(GIANTS Software).bin" size="1835008" crc="ef5736a0"/>
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="fastest1" sourcefile="megadrive/d_megadrive.cpp">
 		<description>Fastest 1 (Japan)</description>
 		<year>1991</year>

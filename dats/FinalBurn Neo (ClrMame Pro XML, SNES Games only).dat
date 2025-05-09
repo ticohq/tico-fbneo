@@ -538,7 +538,7 @@
 	<game name="alcahestj" cloneof="alcahestte" romof="alcahestte" sourcefile="snes/d_snes.cpp">
 		<description>Alcahest (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Squaresoft - HAL Lab.</manufacturer>
+		<manufacturer>Squaresoft - HAL Laboratory</manufacturer>
 		<rom name="Alcahest (J)(1993)(Squaresoft).sfc" size="1048576" crc="870427d0"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -1351,6 +1351,14 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="benkeigaiden" sourcefile="snes/d_snes.cpp">
+		<description>Benkei Gaiden - Suna no Shou (Japan)</description>
+		<year>1992</year>
+		<manufacturer>Sunsoft</manufacturer>
+		<rom name="Benkei Gaiden - Suna no Shou (J)(1992)(Sunsoft).sfc" size="1572864" crc="2743017d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bestofbest" sourcefile="snes/d_snes.cpp">
 		<description>Best of the Best - Championship Karate (USA)</description>
 		<year>1992</year>
@@ -1519,8 +1527,8 @@
 	<game name="blucryrodj" cloneof="blucryrodte" romof="blucryrodte" sourcefile="snes/d_snes.cpp">
 		<description>Blue Crystal Rod, The (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Blue Crystal Rod, The (J)(1994)(Namco).sfc" size="2097152" crc="efc21f71"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Blue Crystal Rod, The (J)(1994)(Namcot).sfc" size="2097152" crc="efc21f71"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2469,14 +2477,6 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="cosmogangpzlj" sourcefile="snes/d_snes.cpp">
-		<description>Cosmo Gang - The Puzzle (Japan)</description>
-		<year>1993</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Cosmo Gang - The Puzzle (J)(1993)(Namco).sfc" size="524288" crc="61b26167"/>
-		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="cosmogangpzlh" cloneof="cosmogangpzlj" romof="cosmogangpzlj" sourcefile="snes/d_snes.cpp">
 		<comment>Hack</comment>
 		<description>Cosmo Gang - The Puzzle - Double Rotation (Hack)</description>
@@ -2486,11 +2486,19 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="cosmogangpzlj" sourcefile="snes/d_snes.cpp">
+		<description>Cosmo Gang: The Puzzle (Japan)</description>
+		<year>1993</year>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Cosmo Gang - The Puzzle (J)(1993)(Namcot).sfc" size="524288" crc="61b26167"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="cosmogang" sourcefile="snes/d_snes.cpp">
-		<description>Cosmo Gang - The Video (Japan)</description>
+		<description>Cosmo Gang: The Video (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Cosmo Gang - The Video (J)(1992)(Namco).sfc" size="1048576" crc="a26dc1de"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Cosmo Gang - The Video (J)(1992)(Namcot).sfc" size="1048576" crc="a26dc1de"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5467,8 +5475,8 @@
 	<game name="hellopacman" cloneof="pacman2adv" romof="pacman2adv" sourcefile="snes/d_snes.cpp">
 		<description>Hello! Pac-Man (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Hello! Pac-Man (J)(1994)(Namco).sfc" size="1572864" crc="0318fd8c"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Hello! Pac-Man (J)(1994)(Namcot).sfc" size="1572864" crc="0318fd8c"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5602,7 +5610,7 @@
 		<comment>SA-1 enhancement CPU</comment>
 		<description>Hoshi no Kirby Super Deluxe (Japan)</description>
 		<year>1996</year>
-		<manufacturer>Nintendo - HAL Lab.</manufacturer>
+		<manufacturer>Nintendo - HAL Laboratory</manufacturer>
 		<rom name="Hoshi no Kirby Super Deluxe (J)(1996)(Nintendo).sfc" size="4194304" crc="1f35f230"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -6483,7 +6491,7 @@
 		<comment>SA-1 enhancement CPU</comment>
 		<description>Kirby Super Star (USA)</description>
 		<year>1996</year>
-		<manufacturer>Nintendo - HAL Lab.</manufacturer>
+		<manufacturer>Nintendo - HAL Laboratory</manufacturer>
 		<rom name="Kirby Super Star (U)(1996)(Nintendo).sfc" size="4194304" crc="89d0f7dc"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -6517,7 +6525,7 @@
 		<comment>SA-1 enhancement CPU</comment>
 		<description>Kirby's Fun Pak (Euro)</description>
 		<year>1996</year>
-		<manufacturer>Nintendo - HAL Lab.</manufacturer>
+		<manufacturer>Nintendo - HAL Laboratory</manufacturer>
 		<rom name="Kirby's Fun Pak (E)(1996)(Nintendo).sfc" size="4194304" crc="ce33dcfb"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
@@ -7920,8 +7928,8 @@
 	<game name="militia" cloneof="metmarines" romof="metmarines" sourcefile="snes/d_snes.cpp">
 		<description>Militia (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Militia (J)(1993)(Namco).sfc" size="1572864" crc="96717f64"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Militia (J)(1993)(Namcot).sfc" size="1572864" crc="96717f64"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -8761,8 +8769,8 @@
 	<game name="pacintimej" cloneof="pacintime" romof="pacintime" sourcefile="snes/d_snes.cpp">
 		<description>Pac-In-Time (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Pac-In-Time (J)(1994)(Namco).sfc" size="1048576" crc="bb6b3b1f"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Pac-In-Time (J)(1994)(Namcot).sfc" size="1048576" crc="bb6b3b1f"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -9924,23 +9932,6 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
-	<game name="rockman7tc" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
-		<comment>Hack</comment>
-		<description>Rockman 7 - Shukumei no Taiketsu! (Hack, Traditional Chinese v20250406)</description>
-		<year>2025</year>
-		<manufacturer>NOKOH</manufacturer>
-		<rom name="Rockman 7 - Shukumei no Taiketsu! T-Cht v20250406 (2025)(NOKOH).sfc" size="3145728" crc="c1928f06"/>
-		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
-	<game name="rockman7" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
-		<description>Rockman 7 - Shukumei no Taiketsu! (Japan)</description>
-		<year>1995</year>
-		<manufacturer>Capcom</manufacturer>
-		<rom name="Rockman 7 - Shukumei no Taiketsu! (J)(1995)(Capcom).sfc" size="2097152" crc="31f18dda"/>
-		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
-		<driver status="good"/>
-	</game>
 	<game name="rockman7epte" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
 		<comment>Hack, In title screen press 'Select' button to enable English language</comment>
 		<description>Rockman 7 EP (Hack, English v1.02)</description>
@@ -9956,6 +9947,23 @@
 		<year>2020</year>
 		<manufacturer>Puresable</manufacturer>
 		<rom name="Rockman 7 EP - Japan v1.02 (2020)(Puresable).sfc" size="4194304" crc="5a9fe058"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="rockman7tc" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
+		<comment>Hack</comment>
+		<description>Rockman 7: Shukumei no Taiketsu! (Hack, Trad. Chinese)</description>
+		<year>2025</year>
+		<manufacturer>NOKOH</manufacturer>
+		<rom name="Rockman 7 - Shukumei no Taiketsu! T-Cht v20250406 (2025)(NOKOH).sfc" size="3145728" crc="c1928f06"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="rockman7" cloneof="megaman7" romof="megaman7" sourcefile="snes/d_snes.cpp">
+		<description>Rockman 7: Shukumei no Taiketsu! (Japan)</description>
+		<year>1995</year>
+		<manufacturer>Capcom</manufacturer>
+		<rom name="Rockman 7 - Shukumei no Taiketsu! (J)(1995)(Capcom).sfc" size="2097152" crc="31f18dda"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -10827,8 +10835,8 @@
 	<game name="skymission" cloneof="wings2ah" romof="wings2ah" sourcefile="snes/d_snes.cpp">
 		<description>Sky Mission (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Sky Mission (J)(1992)(Namco).sfc" size="524288" crc="0866a769"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Sky Mission (J)(1992)(Namcot).sfc" size="524288" crc="0866a769"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -12166,16 +12174,16 @@
 	<game name="sfcircuitj" cloneof="sfcircuitte" romof="sfcircuitte" sourcefile="snes/d_snes.cpp">
 		<description>Super Family Circuit (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Super Family Circuit (J)(1994)(Namco).sfc" size="1048576" crc="dc82850e"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Super Family Circuit (J)(1994)(Namcot).sfc" size="1048576" crc="dc82850e"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="supfamista" cloneof="supbatterup" romof="supbatterup" sourcefile="snes/d_snes.cpp">
 		<description>Super Famista (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Super Famista (J)(1992)(Namco).sfc" size="1048576" crc="72d49e26"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Super Famista (J)(1992)(Namcot).sfc" size="1048576" crc="72d49e26"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14203,8 +14211,8 @@
 	<game name="wagparadise" sourcefile="snes/d_snes.cpp">
 		<description>Wagyan Paradise (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Wagyan Paradise (J)(1994)(Namco).sfc" size="1310720" crc="c06e6621"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Wagyan Paradise (J)(1994)(Namcot).sfc" size="1310720" crc="c06e6621"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14655,10 +14663,10 @@
 		<driver status="good"/>
 	</game>
 	<game name="xandra" cloneof="whirlo" romof="whirlo" sourcefile="snes/d_snes.cpp">
-		<description>Xandra no Daibouken - Valkyrie to no Deai (Japan)</description>
+		<description>Xandra no Daibouken: Valkyrie to no Deai (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Xandra no Daibouken - Valkyrie to no Deai (J)(1992)(Namco).sfc" size="1048576" crc="56ec4655"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Xandra no Daibouken - Valkyrie to no Deai (J)(1992)(Namcot).sfc" size="1048576" crc="56ec4655"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14808,32 +14816,32 @@
 	<game name="yuuyuuhak" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Yuu Yuu Hakusho (J)(1993)(Namco).sfc" size="2097152" crc="ec96d517"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Yuu Yuu Hakusho (J)(1993)(Namcot).sfc" size="2097152" crc="ec96d517"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="yuuyuutoku" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho - Tokubetsu Hen (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Yuu Yuu Hakusho - Tokubetsu Hen (J)(1994)(Namco).sfc" size="2097152" crc="535cccac"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Yuu Yuu Hakusho - Tokubetsu Hen (J)(1994)(Namcot).sfc" size="2097152" crc="535cccac"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="yuuyuuhak2j" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho 2 - Kakutou no Shou (Japan)</description>
 		<year>1994</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Yuu Yuu Hakusho 2 - Kakutou no Shou (J)(1994)(Namco).sfc" size="2097152" crc="eef45a93"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Yuu Yuu Hakusho 2 - Kakutou no Shou (J)(1994)(Namcot).sfc" size="2097152" crc="eef45a93"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="yuuyuufin" sourcefile="snes/d_snes.cpp">
 		<description>Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (Japan)</description>
 		<year>1995</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (J)(1995)(Namco).sfc" size="3145728" crc="5617a42e"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Yuu Yuu Hakusho Final - Makai Saikyou Retsuden (J)(1995)(Namcot).sfc" size="3145728" crc="5617a42e"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

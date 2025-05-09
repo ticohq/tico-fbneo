@@ -16,7 +16,7 @@
 		<description>Aero Blasters (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC - Hudson Soft</manufacturer>
-		<rom name="aero blasters (usa).pce" size="524288" crc="b03e0b32"/>
+		<rom name="Aero Blasters (USA)(1990)(NEC - Hudson Soft).pce" size="524288" crc="b03e0b32"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -24,7 +24,7 @@
 		<description>Air Zonk (USA)</description>
 		<year>1992</year>
 		<manufacturer>Hudson Soft</manufacturer>
-		<rom name="air zonk (usa).pce" size="524288" crc="933d5bcc"/>
+		<rom name="Air Zonk (USA)(1992)(Hudson Soft).pce" size="524288" crc="933d5bcc"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -48,7 +48,7 @@
 		<description>Battle Royale (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="battle royale (usa).pce" size="524288" crc="e70b01af"/>
+		<rom name="Battle Royale (USA)(1990)(NEC).pce" size="524288" crc="e70b01af"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -56,7 +56,7 @@
 		<description>Blazing Lazers (USA)</description>
 		<year>1989</year>
 		<manufacturer>NEC - Hudson Soft</manufacturer>
-		<rom name="blazing lazers (usa).pce" size="393216" crc="b4a1b0f6"/>
+		<rom name="Blazing Lazers (USA)(1989)(NEC - Hudson Soft).pce" size="393216" crc="b4a1b0f6"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -362,7 +362,7 @@
 		<description>Klax (USA)</description>
 		<year>1990</year>
 		<manufacturer>Tengen</manufacturer>
-		<rom name="klax (usa).pce" size="262144" crc="0f1b59b4"/>
+		<rom name="Klax (USA)(1990)(Tengen).pce" size="262144" crc="0f1b59b4"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -370,7 +370,7 @@
 		<description>Legend of Hero Tonma (USA)</description>
 		<year>1991</year>
 		<manufacturer>TTI</manufacturer>
-		<rom name="legend of hero tonma (usa).pce" size="524288" crc="3c131486"/>
+		<rom name="Legend of Hero Tonma (USA)(1991)(TTI).pce" size="524288" crc="3c131486"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -450,7 +450,7 @@
 		<description>Ninja Spirit (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC - Irem</manufacturer>
-		<rom name="ninja spirit (usa).pce" size="524288" crc="de8af1c1"/>
+		<rom name="Ninja Spirit (USA)(1990)(NEC - Irem).pce" size="524288" crc="de8af1c1"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -466,7 +466,7 @@
 		<description>Ordyne (USA)</description>
 		<year>1989</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="ordyne (usa).pce" size="524288" crc="e7bf2a74"/>
+		<rom name="Ordyne (USA)(1989)(NEC).pce" size="524288" crc="e7bf2a74"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -474,7 +474,7 @@
 		<description>Pac-Land (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="pac-land (usa).pce" size="262144" crc="d6e30ccd"/>
+		<rom name="Pac-Land (USA)(1990)(NEC).pce" size="262144" crc="d6e30ccd"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -586,16 +586,16 @@
 	<game name="somerass" sourcefile="pce/d_pce.cpp">
 		<description>Somer Assault (USA)</description>
 		<year>1992</year>
-		<manufacturer>Atlus</manufacturer>
-		<rom name="somer assault (usa).pce" size="524288" crc="8fcaf2e9"/>
+		<manufacturer>Atlus Co.</manufacturer>
+		<rom name="Somer Assault (USA)(1992)(Atlus).pce" size="524288" crc="8fcaf2e9"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="wbeach" sourcefile="pce/d_pce.cpp">
-		<description>Sonic Spike - World Championship Beach Volleyball (USA)</description>
+		<description>Sonic Spike: World Championship Beach Volleyball (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="sonic spike - world championship beach volleyball (usa).pce" size="262144" crc="f74e5eb3"/>
+		<rom name="Sonic Spike - World Championship Beach Volleyball (USA)(1990)(NEC).pce" size="262144" crc="f74e5eb3"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -603,7 +603,7 @@
 		<description>Space Harrier (USA)</description>
 		<year>1989</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="space harrier (usa).pce" size="524288" crc="43b05eb8"/>
+		<rom name="Space Harrier (USA)(1989)(NEC).pce" size="524288" crc="43b05eb8"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -611,7 +611,7 @@
 		<description>Splatterhouse (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC - Namco</manufacturer>
-		<rom name="splatterhouse (usa).pce" size="524288" crc="d00ca74f"/>
+		<rom name="Splatterhouse (USA)(1990)(NEC - Namco).pce" size="524288" crc="d00ca74f"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -627,7 +627,7 @@
 		<description>Super Volleyball (USA)</description>
 		<year>1990</year>
 		<manufacturer>NEC</manufacturer>
-		<rom name="super volleyball (usa).pce" size="262144" crc="245040b3"/>
+		<rom name="Super Volleyball (USA)(1990)(NEC).pce" size="262144" crc="245040b3"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -635,7 +635,7 @@
 		<description>Taito Chase H.Q. (USA)</description>
 		<year>1992</year>
 		<manufacturer>TTI</manufacturer>
-		<rom name="taito chase h.q. (usa).pce" size="393216" crc="9298254c"/>
+		<rom name="Taito Chase H.Q. (USA)(1992)(TTI).pce" size="393216" crc="9298254c"/>
 		<video type="raster" orientation="horizontal" width="1024" height="240" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
