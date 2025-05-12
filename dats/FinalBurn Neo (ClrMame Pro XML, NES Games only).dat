@@ -1442,8 +1442,8 @@
 	<game name="babelnotou" sourcefile="nes/d_nes.cpp">
 		<description>Babel no Tou (Japan)</description>
 		<year>1986</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Babel no Tou (Japan)(1986)(Namco).nes" size="65552" crc="154a31b6"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Babel no Tou (Japan)(1986)(Namcot).nes" size="65552" crc="154a31b6"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -1851,8 +1851,8 @@
 	<game name="battlecity" sourcefile="nes/d_nes.cpp">
 		<description>Battle City (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Battle City (Japan)(1985)(Namco).nes" size="24592" crc="f599a07e"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Battle City (Japan)(1985)(Namcot).nes" size="24592" crc="f599a07e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -3221,6 +3221,15 @@
 		<year>2023</year>
 		<manufacturer>Cat Hui Trading</manufacturer>
 		<rom name="Changeable Guardian ESTIQUE (2023)(Cat Hui Trading).nes" size="524304" crc="6944469b"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="cgestiquegf" cloneof="cgestique" romof="cgestique" sourcefile="nes/d_nes.cpp">
+		<comment>Hack, Fix patch by Sharpnull</comment>
+		<description>Changeable Guardian ESTIQUE (USA, Glitch Fixed Version)</description>
+		<year>2023-25</year>
+		<manufacturer>Cat Hui Trading</manufacturer>
+		<rom name="Changeable Guardian Estique (Sharpnull Glitch Fix)(USA)(2023-25)(Cat Hui Trading).nes" size="524304" crc="84b4aa43"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -4675,8 +4684,8 @@
 	<game name="devilmanj" cloneof="devilman" romof="devilman" sourcefile="nes/d_nes.cpp">
 		<description>Devil Man (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Devil Man (Japan)(1989)(Namco).nes" size="262160" crc="c4c1ab20"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Devil Man (Japan)(1989)(Namcot).nes" size="262160" crc="c4c1ab20"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -4725,16 +4734,16 @@
 	<game name="digdug" sourcefile="nes/d_nes.cpp">
 		<description>Dig Dug (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dig Dug (Japan)(1985)(Namco).nes" size="24592" crc="3ae8289a"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dig Dug (Japan)(1985)(Namcot).nes" size="24592" crc="3ae8289a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="digdugii" sourcefile="nes/d_nes.cpp">
 		<description>Dig Dug II (Japan)</description>
 		<year>1986</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dig Dug II (Japan)(1986)(Namco).nes" size="40976" crc="cc904e37"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dig Dug II (Japan)(1986)(Namcot).nes" size="40976" crc="cc904e37"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -4766,8 +4775,8 @@
 	<game name="digitdevmonmegtej" cloneof="digitdevmonmegte" romof="digitdevmonmegte" sourcefile="nes/d_nes.cpp">
 		<description>Digital Devil Monogatari - Megami Tensei (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Digital Devil Monogatari - Megami Tensei (Japan)(1987)(Namco).nes" size="262160" crc="f906acab"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Digital Devil Monogatari - Megami Tensei (Japan)(1987)(Namcot).nes" size="262160" crc="f906acab"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -4810,7 +4819,7 @@
 		<description>Dirty Harry - The War Against Drugs (USA)</description>
 		<year>1990</year>
 		<manufacturer>Mindscape</manufacturer>
-		<rom name="Dirty Harry - The War Against Drugs (USA).nes" size="393232" crc="293952bd"/>
+		<rom name="Dirty Harry - The War Against Drugs (USA)(1990)(Mindscape).nes" size="393232" crc="293952bd"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -4852,7 +4861,7 @@
 		<description>Dizzy The Adventurer (USA)</description>
 		<year>1992</year>
 		<manufacturer>Camerica</manufacturer>
-		<rom name="Dizzy The Adventurer (USA).nes" size="131088" crc="92847456"/>
+		<rom name="Dizzy The Adventurer (USA)(1992)(Camerica).nes" size="131088" crc="92847456"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5460,8 +5469,8 @@
 	<game name="dragonbuster" sourcefile="nes/d_nes.cpp">
 		<description>Dragon Buster (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dragon Buster (Japan)(1987)(Namco).nes" size="163856" crc="abb83b0f"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dragon Buster (Japan)(1987)(Namcot).nes" size="163856" crc="abb83b0f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5486,8 +5495,8 @@
 	<game name="dragobusiij" cloneof="dragobusii" romof="dragobusii" sourcefile="nes/d_nes.cpp">
 		<description>Dragon Buster II - Yami no Fuuin (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dragon Buster II - Yami no Fuuin (Japan)(1989)(Namco).nes" size="196624" crc="fa3c1312"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dragon Buster II - Yami no Fuuin (Japan)(1989)(Namcot).nes" size="196624" crc="fa3c1312"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5537,8 +5546,8 @@
 	<game name="dragninjaj" cloneof="baddudes" romof="baddudes" sourcefile="nes/d_nes.cpp">
 		<description>Dragon Ninja (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco - Data East</manufacturer>
-		<rom name="Dragon Ninja (Japan)(1989)(Namco).nes" size="262160" crc="2cf535ca"/>
+		<manufacturer>Namcot - Data East</manufacturer>
+		<rom name="Dragon Ninja (Japan)(1989)(Namcot).nes" size="262160" crc="2cf535ca"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -5578,21 +5587,21 @@
 	<game name="dragosla4" sourcefile="nes/d_nes.cpp">
 		<description>Dragon Slayer 4 - Drasle Family (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dragon Slayer 4 - Drasle Family (Japan)(1987)(Namco).nes" size="196624" crc="8870a286"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dragon Slayer 4 - Drasle Family (Japan)(1987)(Namcot).nes" size="196624" crc="8870a286"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="dragospiaraden" sourcefile="nes/d_nes.cpp">
-		<description>Dragon Spirit - Aratanaru Densetsu (Japan)</description>
+		<description>Dragon Spirit: Aratanaru Densetsu (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dragon Spirit - Aratanaru Densetsu (Japan)(1989)(Namco).nes" size="262160" crc="28b33380"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dragon Spirit - Aratanaru Densetsu (Japan)(1989)(Namcot).nes" size="262160" crc="28b33380"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="dragospinewleg" sourcefile="nes/d_nes.cpp">
-		<description>Dragon Spirit - The New Legend (USA)</description>
+		<description>Dragon Spirit: The New Legend (USA)</description>
 		<year>1990</year>
 		<manufacturer>Bandai</manufacturer>
 		<rom name="Dragon Spirit - The New Legend (USA)(1990)(Bandai).nes" size="262160" crc="fd719491"/>
@@ -5721,8 +5730,8 @@
 	<game name="druaganotou" sourcefile="nes/d_nes.cpp">
 		<description>Druaga no Tou (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Druaga no Tou (Japan)(1985)(Namco).nes" size="40976" crc="0c045fb9"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Druaga no Tou (Japan)(1985)(Namcot).nes" size="40976" crc="0c045fb9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6021,7 +6030,7 @@
 		<description>Elite (Euro)</description>
 		<year>1991</year>
 		<manufacturer>Imagineer</manufacturer>
-		<rom name="Elite (Europe).nes" size="131088" crc="4cf12d39"/>
+		<rom name="Elite (Euro)(1991)(Imagineer).nes" size="131088" crc="4cf12d39"/>
 		<video type="raster" orientation="horizontal" width="256" height="232" aspectx="256" aspecty="232"/>
 		<driver status="good"/>
 	</game>
@@ -6029,15 +6038,15 @@
 		<description>Elnark no Zaihou (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Towa Chiki</manufacturer>
-		<rom name="Elnark no Zaihou (Japan).nes" size="131088" crc="c759080e"/>
+		<rom name="Elnark no Zaihou (Japan)(1987)(Towa Chiki).nes" size="131088" crc="c759080e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="empircit" sourcefile="nes/d_nes.cpp">
 		<description>Empire City - 1931 (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Toshiba Emi</manufacturer>
-		<rom name="Empire City - 1931 (Japan).nes" size="131088" crc="bd736ec8"/>
+		<manufacturer>Toshiba EMI</manufacturer>
+		<rom name="Empire City - 1931 (Japan)(1987)(Toshiba EMI).nes" size="131088" crc="bd736ec8"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6081,7 +6090,7 @@
 		<description>Erika to Satoru no Yume Bouken (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Namcot</manufacturer>
-		<rom name="Erika to Satoru no Yume Bouken (Japan)(1988)(Namco).nes" size="262160" crc="e9f199aa"/>
+		<rom name="Erika to Satoru no Yume Bouken (Japan)(1988)(Namcot).nes" size="262160" crc="e9f199aa"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6403,16 +6412,16 @@
 	<game name="familyboxing" sourcefile="nes/d_nes.cpp">
 		<description>Family Boxing (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Family Boxing (Japan)(1987)(Namco).nes" size="131088" crc="381b51f3"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Family Boxing (Japan)(1987)(Namcot).nes" size="131088" crc="381b51f3"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="familcir91" sourcefile="nes/d_nes.cpp">
 		<description>Family Circuit '91 (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Family Circuit '91 (Japan)(1991)(Namco).nes" size="655376" crc="cfbb646d"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Family Circuit '91 (Japan)(1991)(Namcot).nes" size="655376" crc="cfbb646d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6428,8 +6437,8 @@
 	<game name="familycircuitj" cloneof="familycircuit" romof="familycircuit" sourcefile="nes/d_nes.cpp">
 		<description>Family Circuit (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Family Circuit (Japan)(1988)(Namco).nes" size="163856" crc="51ce0655"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Family Circuit (Japan)(1988)(Namcot).nes" size="163856" crc="51ce0655"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6453,40 +6462,40 @@
 	<game name="familypinball" sourcefile="nes/d_nes.cpp">
 		<description>Family Pinball (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Family Pinball (Japan)(1989)(Namco).nes" size="196624" crc="0da8a7b2"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Family Pinball (Japan)(1989)(Namcot).nes" size="196624" crc="0da8a7b2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famista89" sourcefile="nes/d_nes.cpp">
 		<description>Famista '89 (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '89 (Japan)(1989)(Namco).nes" size="196624" crc="62b90039"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '89 (Japan)(1989)(Namcot).nes" size="196624" crc="62b90039"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famista90" sourcefile="nes/d_nes.cpp">
 		<description>Famista '90 (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '90 (Japan)(1989)(Namco).nes" size="262160" crc="c942dfe9"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '90 (Japan)(1989)(Namcot).nes" size="262160" crc="c942dfe9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famista91" sourcefile="nes/d_nes.cpp">
 		<description>Famista '91 (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '91 (Japan)(1990)(Namco).nes" size="262160" crc="7195ca38"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '91 (Japan)(1990)(Namcot).nes" size="262160" crc="7195ca38"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famista92" sourcefile="nes/d_nes.cpp">
 		<description>Famista '92 (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '92 (Japan)(1991)(Namco).nes" size="262160" crc="fb6bdb9d"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '92 (Japan)(1991)(Namcot).nes" size="262160" crc="fb6bdb9d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6502,16 +6511,16 @@
 	<game name="famista93" sourcefile="nes/d_nes.cpp">
 		<description>Famista '93 (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '93 (Japan)(1992)(Namco).nes" size="262160" crc="38511037"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '93 (Japan)(1992)(Namcot).nes" size="262160" crc="38511037"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="famista94" sourcefile="nes/d_nes.cpp">
 		<description>Famista '94 (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Famista '94 (Japan)(1993)(Namco).nes" size="262160" crc="d73fc5b1"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Famista '94 (Japan)(1993)(Namcot).nes" size="262160" crc="d73fc5b1"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -6802,8 +6811,8 @@
 	<game name="finallap" sourcefile="nes/d_nes.cpp">
 		<description>Final Lap (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Final Lap (Japan)(1998)(Namco).nes" size="262160" crc="a65568a9"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Final Lap (Japan)(1988)(Namcot).nes" size="262160" crc="a65568a9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -7349,8 +7358,8 @@
 	<game name="galaxian" sourcefile="nes/d_nes.cpp">
 		<description>Galaxian (Japan)</description>
 		<year>1984</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Galaxian (Japan)(1984)(Namco).nes" size="24592" crc="6e4d873b"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Galaxian (Japan)(1984)(Namcot).nes" size="24592" crc="6e4d873b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -8617,8 +8626,8 @@
 	<game name="heisetenbakj" cloneof="heisetenbak" romof="heisetenbak" sourcefile="nes/d_nes.cpp">
 		<description>Heisei Tensai Bakabon (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Heisei Tensai Bakabon (Japan)(1991)(Namco).nes" size="262160" crc="141937d0"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Heisei Tensai Bakabon (Japan)(1991)(Namcot).nes" size="262160" crc="141937d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9611,8 +9620,8 @@
 	<game name="jikuuyuu" sourcefile="nes/d_nes.cpp">
 		<description>Jikuu Yuuden - Debias (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Jikuu Yuuden - Debias (Japan)(1987)(Namco).nes" size="196624" crc="0f40cdc2"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Jikuu Yuuden - Debias (Japan)(1987)(Namcot).nes" size="196624" crc="0f40cdc2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -9940,8 +9949,8 @@
 	<game name="juveiquestj" cloneof="juveiquest" romof="juveiquest" sourcefile="nes/d_nes.cpp">
 		<description>Juvei Quest (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Juvei Quest (Japan)(1991)(Namco).nes" size="524304" crc="2e937d80"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Juvei Quest (Japan)(1991)(Namcot).nes" size="524304" crc="2e937d80"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10380,8 +10389,8 @@
 	<game name="kingofkings" sourcefile="nes/d_nes.cpp">
 		<description>King of Kings (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="King of Kings (Japan)(1988)(Namco).nes" size="262160" crc="f3c8e91e"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="King of Kings (Japan)(1988)(Namcot).nes" size="262160" crc="f3c8e91e"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -10694,7 +10703,7 @@
 	</game>
 	<game name="labbaye" sourcefile="nes/d_nes.cpp">
 		<comment>Homebrew</comment>
-		<description>L'Abbaye des Morts (HB)</description>
+		<description>L'Abbaye des Morts (HB, M5)</description>
 		<year>2021</year>
 		<manufacturer>Broke Studio</manufacturer>
 		<rom name="L'Abbaye des Morts (2021)(Broke Studios).nes" size="131088" crc="a032a1f6"/>
@@ -10758,7 +10767,7 @@
 		<description>Lasalle Ishii no Child's Quest (Japan)</description>
 		<year>1989</year>
 		<manufacturer>Namcot</manufacturer>
-		<rom name="Lasalle Ishii no Child's Quest (Japan)(1989)(Namco).nes" size="196624" crc="c78d14f9"/>
+		<rom name="Lasalle Ishii no Child's Quest (Japan)(1989)(Namcot).nes" size="196624" crc="c78d14f9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11415,8 +11424,8 @@
 	<game name="lupinsanj" cloneof="lupinsan" romof="lupinsan" sourcefile="nes/d_nes.cpp">
 		<description>Lupin Sansei - Pandora no Isan (Japan)</description>
 		<year>1987</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Lupin Sansei - Pandora no Isan (Japan)(1987)(Namco).nes" size="196624" crc="bf2947ba"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Lupin Sansei - Pandora no Isan (Japan)(1987)(Namcot).nes" size="196624" crc="bf2947ba"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11890,8 +11899,8 @@
 	<game name="mappy" sourcefile="nes/d_nes.cpp">
 		<description>Mappy (Japan)</description>
 		<year>1984</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Mappy (Japan)(1984)(Namco).nes" size="24592" crc="3f0e8e0a"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Mappy (Japan)(1984)(Namcot).nes" size="24592" crc="3f0e8e0a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -11916,8 +11925,8 @@
 	<game name="mappykidsj" cloneof="mappykids" romof="mappykids" sourcefile="nes/d_nes.cpp">
 		<description>Mappy Kids (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Mappy Kids (Japan)(1989)(Namco).nes" size="262160" crc="3350c674"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Mappy Kids (Japan)(1989)(Namcot).nes" size="262160" crc="3350c674"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12419,8 +12428,8 @@
 	<game name="metrocross" sourcefile="nes/d_nes.cpp">
 		<description>Metro-Cross (Japan)</description>
 		<year>1986</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Metro-Cross (Japan)(1986)(Namco).nes" size="65552" crc="7bb329f5"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Metro-Cross (Japan)(1986)(Namcot).nes" size="65552" crc="7bb329f5"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12854,7 +12863,7 @@
 		<description>Mississippi Satsujin Jiken (Hack, English)</description>
 		<year>2017</year>
 		<manufacturer>GAFF Translations</manufacturer>
-		<rom name="Mississippi Satsujin Jiken (T-Eng).nes" size="163856" crc="f698e872"/>
+		<rom name="Mississippi Satsujin Jiken T-Eng (2017)(GAFF Translations).nes" size="163856" crc="f698e872"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12862,7 +12871,7 @@
 		<description>Mississippi Satsujin Jiken (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Jaleco</manufacturer>
-		<rom name="Mississippi Satsujin Jiken (Japan).nes" size="163856" crc="5d003ead"/>
+		<rom name="Mississippi Satsujin Jiken (Japan)(1986)(Jaleco).nes" size="163856" crc="5d003ead"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12870,7 +12879,7 @@
 		<description>Mito Koumon - Sekai Manyuu Ki (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Sunsoft</manufacturer>
-		<rom name="Mito Koumon - Sekai Manyuu Ki (Japan).nes" size="262160" crc="5e4a6d59"/>
+		<rom name="Mito Koumon - Sekai Manyuu Ki (Japan)(1988)(Sunsoft).nes" size="262160" crc="5e4a6d59"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12888,24 +12897,24 @@
 		<description>Mitsume ga Tooru (Hack, English)</description>
 		<year>2019</year>
 		<manufacturer>Stardust Crusaders</manufacturer>
-		<rom name="Mitsume ga Tooru (T-Eng).nes" size="262160" crc="c5f60062"/>
+		<rom name="Mitsume ga Tooru T-Eng (2019)(Stardust Crusaders).nes" size="262160" crc="c5f60062"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="mitsumegatooruj" cloneof="mitsumegatooru" romof="mitsumegatooru" sourcefile="nes/d_nes.cpp">
 		<description>Mitsume ga Tooru (Japan)</description>
-		<year>1989?</year>
-		<manufacturer>Nintendo</manufacturer>
-		<rom name="Mitsume ga Tooru (Japan).nes" size="262160" crc="e27ec1ec"/>
+		<year>1992</year>
+		<manufacturer>Tomy Corp.</manufacturer>
+		<rom name="Mitsume ga Tooru (Japan)(1992)(Tomy).nes" size="262160" crc="e27ec1ec"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="moaikun" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
 		<description>Moai-kun (Hack, English)</description>
-		<year>2014</year>
+		<year>2013</year>
 		<manufacturer>Stardust Crusaders</manufacturer>
-		<rom name="Moai-kun T-Eng (2014)(Stardust Crusaders).nes" size="65552" crc="95f8b436"/>
+		<rom name="Moai-kun T-Eng (2013)(Stardust Crusaders).nes" size="65552" crc="95f8b436"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12913,7 +12922,7 @@
 		<description>Moai-kun (Japan)</description>
 		<year>1990</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="Moai-kun (Japan).nes" size="65552" crc="a3a19253"/>
+		<rom name="Moai-kun (Japan)(1990)(Konami).nes" size="65552" crc="a3a19253"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12921,7 +12930,7 @@
 		<description>Moero TwinBee - Cinnamon Hakase o Sukue! (Japan)</description>
 		<year>1986</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="Moero TwinBee - Cinnamon Hakase o Sukue! (Japan).nes" size="131088" crc="ac0a622b"/>
+		<rom name="Moero TwinBee - Cinnamon Hakase o Sukue! (Japan)(1986)(Konami).nes" size="131088" crc="ac0a622b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -12989,7 +12998,7 @@
 		<description>Momotarou Densetsu ~ The Peach Boy Legend (Japan)</description>
 		<year>1987</year>
 		<manufacturer>Hudson Soft</manufacturer>
-		<rom name="Momotarou Densetsu ~ The Peach Boy Legend (J)(1987)(Hudson Soft).nes" size="262160" crc="e4be2f0c"/>
+		<rom name="Momotarou Densetsu ~ The Peach Boy Legend (Japan)(1987)(Hudson Soft).nes" size="262160" crc="e4be2f0c"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -13394,16 +13403,16 @@
 	<game name="namcoclassic" sourcefile="nes/d_nes.cpp">
 		<description>Namco Classic (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Namco Classic (Japan)(1988)(Namco).nes" size="524304" crc="6b7015f3"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Namco Classic (Japan)(1988)(Namcot).nes" size="524304" crc="6b7015f3"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="namcoclassicii" sourcefile="nes/d_nes.cpp">
 		<description>Namco Classic II (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Namco Classic II (Japan)(1992)(Namco).nes" size="524304" crc="4f630a61"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Namco Classic II (Japan)(1992)(Namcot).nes" size="524304" crc="4f630a61"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -14248,8 +14257,8 @@
 	<game name="pacland" sourcefile="nes/d_nes.cpp">
 		<description>Pac-Land (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Pac-Land (Japan)(1985)(Namco).nes" size="40976" crc="6ea63a46"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Pac-Land (Japan)(1985)(Namcot).nes" size="40976" crc="6ea63a46"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -15245,7 +15254,7 @@
 		<description>Qi Wang - Chinese Chess (China, MGC-001)</description>
 		<year>199?</year>
 		<manufacturer>TXC Corp.</manufacturer>
-		<rom name="Qi Wang - Chinese Chess (China, MGC-001).nes" size="98320" crc="5eef4729"/>
+		<rom name="Qi Wang - Chinese Chess (China, MGC-001)(199x)(TXC Corp.).nes" size="98320" crc="5eef4729"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -15336,16 +15345,16 @@
 	<game name="questofkithej" cloneof="questofkithe" romof="questofkithe" sourcefile="nes/d_nes.cpp">
 		<description>Quest of Ki, The (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Quest of Ki, The (Japan)(1988)(Namco).nes" size="196624" crc="ccc47a57"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Quest of Ki, The (Japan)(1988)(Namcot).nes" size="196624" crc="ccc47a57"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="quinty" cloneof="mendelpalace" romof="mendelpalace" sourcefile="nes/d_nes.cpp">
 		<description>Quinty (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Quinty (Japan)(1989)(Namco).nes" size="262160" crc="1e9b49ec"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Quinty (Japan)(1989)(Namcot).nes" size="262160" crc="1e9b49ec"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -16266,7 +16275,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="saintsaitiamahuxi" sourcefile="nes/d_nes.cpp">
-		<description>Saint Saiya - Tian Ma Huan Xiang (China)</description>
+		<description>Saint Saiya - Tian Ma Huan Xiang (China) (Unl)</description>
 		<year>200?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="Saint Saiya - Tian Ma Huan Xiang (China)(200x).nes" size="2097168" crc="31f810f2"/>
@@ -16419,28 +16428,28 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="sangokushi" sourcefile="nes/d_nes.cpp">
-		<description>Sangokushi - Chuugen no Hasha (Japan)</description>
-		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Sangokushi - Chuugen no Hasha (Japan).nes" size="262160" crc="231ec446"/>
-		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
-		<driver status="good"/>
-	</game>
 	<game name="sangokushiiihanouc" cloneof="sangokushiiihanou" romof="sangokushiiihanou" sourcefile="nes/d_nes.cpp">
 		<comment>Hack</comment>
 		<description>Sangokushi II - Haou no Tairiku (Hack, Chinese)</description>
 		<year>2017</year>
-		<manufacturer>Unkown</manufacturer>
+		<manufacturer>&lt;unkown&gt;</manufacturer>
 		<rom name="Sangokushi II - Haou no Tairiku T-Chi (2017).nes" size="524304" crc="611d79ff"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="sangokushiiihanou" sourcefile="nes/d_nes.cpp">
-		<description>Sangokushi II - Haou no Tairiku (Japan)</description>
+		<description>Sangokushi II: Haou no Tairiku (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Sangokushi II - Haou no Tairiku (Japan)(1992)(Namco).nes" size="524304" crc="5c09bcaf"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Sangokushi II - Haou no Tairiku (Japan)(1992)(Namcot).nes" size="524304" crc="5c09bcaf"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="sangokushi" sourcefile="nes/d_nes.cpp">
+		<description>Sangokushi: Chuugen no Hasha (Japan)</description>
+		<year>1988</year>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Sangokushi - Chuugen no Hasha (Japan)(1988)(Namcot).nes" size="262160" crc="231ec446"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17154,7 +17163,7 @@
 	<game name="smashtv" sourcefile="nes/d_nes.cpp">
 		<description>Smash T.V. (USA)</description>
 		<year>1991</year>
-		<manufacturer>Acclaim</manufacturer>
+		<manufacturer>Acclaim Entertainment</manufacturer>
 		<rom name="Smash T.V. (USA)(1991)(Acclaim).nes" size="262160" crc="447a45a0"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -17180,7 +17189,7 @@
 		<description>Snake Rattle n Roll (USA)</description>
 		<year>1990</year>
 		<manufacturer>Nintendo</manufacturer>
-		<rom name="Snake Rattle n Roll (USA).nes" size="65552" crc="558f9a33"/>
+		<rom name="Snake Rattle n Roll (USA)(1990)(Nintendo).nes" size="65552" crc="558f9a33"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17197,7 +17206,7 @@
 		<description>Snake's Revenge (USA)</description>
 		<year>1990</year>
 		<manufacturer>Ultra Games</manufacturer>
-		<rom name="Snake's Revenge (USA).nes" size="262160" crc="255a25fe"/>
+		<rom name="Snake's Revenge (USA)(1990)(Ultra Games).nes" size="262160" crc="255a25fe"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17214,7 +17223,7 @@
 		<description>Snoopy's Silly Sports Spectacular (USA)</description>
 		<year>1990</year>
 		<manufacturer>Kemco</manufacturer>
-		<rom name="Snoopy's Silly Sports Spectacular (USA).nes" size="262160" crc="c5211378"/>
+		<rom name="Snoopy's Silly Sports Spectacular (USA)(1990)(Kemco).nes" size="262160" crc="c5211378"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17310,20 +17319,20 @@
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
-	<game name="solonokagi2" cloneof="firenice" romof="firenice" sourcefile="nes/d_nes.cpp">
-		<description>Solomon no Kagi 2 - Coolmintou Kyuushutsu Sakusen (Japan)</description>
-		<year>1992</year>
-		<manufacturer>Tecmo</manufacturer>
-		<rom name="Solomon no Kagi 2 - Coolmintou Kyuushutsu Sakusen (Jpn)(1992)(Tecmo).nes" size="262160" crc="f033b827"/>
-		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
-		<driver status="good"/>
-	</game>
 	<game name="solonokagi2h" cloneof="firenice" romof="firenice" sourcefile="nes/d_nes.cpp">
 		<comment>Hack, 100 new levels</comment>
 		<description>Solomon no Kagi 2 - Kitsune Attacks! (Hack, v1.6)</description>
 		<year>2022</year>
 		<manufacturer>FoxyShadow</manufacturer>
 		<rom name="Solomon no Kagi 2 - Kitsune Attacks! (Hack, v1.6).nes" size="262160" crc="039d14fd"/>
+		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
+		<driver status="good"/>
+	</game>
+	<game name="solonokagi2" cloneof="firenice" romof="firenice" sourcefile="nes/d_nes.cpp">
+		<description>Solomon no Kagi 2: Coolmintou Kyuushutsu Sakusen (Japan)</description>
+		<year>1992</year>
+		<manufacturer>Tecmo</manufacturer>
+		<rom name="Solomon no Kagi 2 - Coolmintou Kyuushutsu Sakusen (Jpn)(1992)(Tecmo).nes" size="262160" crc="f033b827"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17578,8 +17587,8 @@
 	<game name="splathouj" cloneof="splathou" romof="splathou" sourcefile="nes/d_nes.cpp">
 		<description>Splatter House: Wanpaku Graffiti (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Splatter House - Wanpaku Graffiti (Japan)(1989)(Namco).nes" size="262160" crc="b7eeb48b"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Splatter House - Wanpaku Graffiti (Japan)(1989)(Namcot).nes" size="262160" crc="b7eeb48b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -17739,8 +17748,8 @@
 	<game name="starluster" sourcefile="nes/d_nes.cpp">
 		<description>Star Luster (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Star Luster (Japan)(1985)(Namco).nes" size="40976" crc="d8604b5a"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Star Luster (Japan)(1985)(Namcot).nes" size="40976" crc="d8604b5a"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -18691,8 +18700,8 @@
 	<game name="superxev" sourcefile="nes/d_nes.cpp">
 		<description>Super Xevious - Gump no Nazo (Japan)</description>
 		<year>1986</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Super Xevious - Gump no Nazo (Japan)(1986)(Namco).nes" size="163856" crc="b6c7e249"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Super Xevious - Gump no Nazo (Japan)(1986)(Namcot).nes" size="163856" crc="b6c7e249"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19441,8 +19450,8 @@
 	<game name="tenkabus" sourcefile="nes/d_nes.cpp">
 		<description>Tenkaichi Bushi: Keru Naguuru (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Tenkaichi Bushi - Keru Naguuru (Japan)(1989)(Namco).nes" size="196624" crc="1722c362"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Tenkaichi Bushi - Keru Naguuru (Japan)(1989)(Namcot).nes" size="196624" crc="1722c362"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19827,7 +19836,7 @@
 		<description>Titanic (China) (Unl)</description>
 		<year>2005</year>
 		<manufacturer>Shenzhen Nanjing Technology</manufacturer>
-		<rom name="Titanic (Unl)(Chi)(2005)(Shenzhen Nanjing Technology).nes" size="524304" crc="c63a373f"/>
+		<rom name="Titanic (China)(Unl)(2005)(Shenzhen Nanjing Technology).nes" size="524304" crc="c63a373f"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -19986,8 +19995,8 @@
 	<game name="topstriker" sourcefile="nes/d_nes.cpp">
 		<description>Top Striker (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Top Striker (Japan)(1992)(Namco).nes" size="262160" crc="b1e92643"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Top Striker (Japan)(1992)(Namcot).nes" size="262160" crc="b1e92643"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20071,8 +20080,8 @@
 	<game name="towerdru" sourcefile="nes/d_nes.cpp">
 		<description>Tower of Druaga, The (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Tower of Druaga, The (Japan)(1985)(Namco).nes" size="40976" crc="0c045fb9"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Tower of Druaga, The (Japan)(1985)(Namcot).nes" size="40976" crc="0c045fb9"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20568,8 +20577,8 @@
 	<game name="valkynobouj" cloneof="valkynobou" romof="valkynobou" sourcefile="nes/d_nes.cpp">
 		<description>Valkyrie no Bouken: Toki no Kagi Densetsu (Japan)</description>
 		<year>1986</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Valkyrie no Bouken - Toki no Kagi Densetsu (Japan)(1986)(Namco).nes" size="65552" crc="5915b843"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Valkyrie no Bouken - Toki no Kagi Densetsu (Japan)(1986)(Namcot).nes" size="65552" crc="5915b843"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20714,24 +20723,24 @@
 	<game name="wagyanland" sourcefile="nes/d_nes.cpp">
 		<description>Wagyan Land (Japan)</description>
 		<year>1989</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Wagyan Land (Japan)(1989)(Namco).nes" size="196624" crc="0797e1ae"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Wagyan Land (Japan)(1989)(Namcot).nes" size="196624" crc="0797e1ae"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="wagyanland2" sourcefile="nes/d_nes.cpp">
 		<description>Wagyan Land 2 (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Wagyan Land 2 (Japan)(1990)(Namco).nes" size="393232" crc="8aa76b0b"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Wagyan Land 2 (Japan)(1990)(Namcot).nes" size="393232" crc="8aa76b0b"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
 	<game name="wagyanland3" sourcefile="nes/d_nes.cpp">
 		<description>Wagyan Land 3 (Japan)</description>
 		<year>1992</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Wagyan Land 3 (Japan)(1992)(Namco).nes" size="524304" crc="7aff2388"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Wagyan Land 3 (Japan)(1992)(Namcot).nes" size="524304" crc="7aff2388"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -20893,8 +20902,8 @@
 	<game name="warpman" sourcefile="nes/d_nes.cpp">
 		<description>Warpman (Japan)</description>
 		<year>1985</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Warpman (Japan)(1985)(Namco).nes" size="24592" crc="ef27556d"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Warpman (Japan)(1985)(Namcot).nes" size="24592" crc="ef27556d"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21213,7 +21222,7 @@
 		<description>World of Warcraft - Demon Hunter (China) (Unl)</description>
 		<year>2008</year>
 		<manufacturer>ShenZhen Nanjing Technology</manufacturer>
-		<rom name="World of Warcraft - Demon Hunter (China).nes" size="1048592" crc="c9644f6c"/>
+		<rom name="World of Warcraft - Demon Hunter (China)(Unl)(2008)(ShenZhen Nanjing Technology).nes" size="1048592" crc="c9644f6c"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21222,7 +21231,7 @@
 		<description>World of Warcraft - Demon Hunter (Hack, English)</description>
 		<year>2020</year>
 		<manufacturer>pacnsacdave</manufacturer>
-		<rom name="World of Warcraft - Demon Hunter (T-Eng).nes" size="1048592" crc="45593e64"/>
+		<rom name="World of Warcraft - Demon Hunter T-Eng (2020)(pacnsacdave).nes" size="1048592" crc="45593e64"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21406,8 +21415,8 @@
 	<game name="youkaidouchuuki" sourcefile="nes/d_nes.cpp">
 		<description>Youkai Douchuuki (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Youkai Douchuuki (Japan)(1988)(Namco).nes" size="262160" crc="390210b2"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Youkai Douchuuki (Japan)(1988)(Namcot).nes" size="262160" crc="390210b2"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21641,7 +21650,7 @@
 		<description>Zelda no Densetsu - The Hyrule Fantasy (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>NOKOH</manufacturer>
-		<rom name="Zelda no Densetsu - The Hyrule Fantasy (T-Chi).nes" size="131088" crc="4522aa89"/>
+		<rom name="Zelda no Densetsu - The Hyrule Fantasy T-Chi (2022)(NOKOH).nes" size="131088" crc="4522aa89"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>
@@ -21650,7 +21659,7 @@
 		<description>Zen - Intergalactic Ninja (Hack, Chinese)</description>
 		<year>2022</year>
 		<manufacturer>Ni You De Wu Cai Yu</manufacturer>
-		<rom name="Zen - Intergalactic Ninja (T-Chi).nes" size="524304" crc="b8e36aee"/>
+		<rom name="Zen - Intergalactic Ninja T-Chi (2022)(Ni You De Wu Cai Yu).nes" size="524304" crc="b8e36aee"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
 	</game>

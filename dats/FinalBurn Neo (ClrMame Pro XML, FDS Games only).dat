@@ -321,8 +321,8 @@
 	<game name="digdug" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<description>Dig Dug (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dig Dug (Japan)(1990)(Namco).fds" size="65516" crc="eb126143"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dig Dug (Japan)(1990)(Namcot).fds" size="65516" crc="eb126143"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -330,8 +330,8 @@
 	<game name="digdugii" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<description>Dig Dug II (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Dig Dug II (Japan)(1990)(Namco).fds" size="65516" crc="1b2b1342"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Dig Dug II (Japan)(1990)(Namcot).fds" size="65516" crc="1b2b1342"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -660,8 +660,8 @@
 	<game name="galaga" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<description>Galaga (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Galaga (Japan)(1990)(Namco).fds" size="65516" crc="a9ba7801"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Galaga (Japan)(1990)(Namcot).fds" size="65516" crc="a9ba7801"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -669,8 +669,8 @@
 	<game name="galaxian" romof="fdsbios" sourcefile="nes/d_nes.cpp">
 		<description>Galaxian (Japan)</description>
 		<year>1990</year>
-		<manufacturer>Namco</manufacturer>
-		<rom name="Galaxian (Japan)(1990)(Namco).fds" size="65516" crc="429169f5"/>
+		<manufacturer>Namcot</manufacturer>
+		<rom name="Galaxian (Japan)(1990)(Namcot).fds" size="65516" crc="429169f5"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
@@ -689,7 +689,7 @@
 		<description>Gall Force - Eternal Story (Japan)</description>
 		<year>1986</year>
 		<manufacturer>HAL Laboratory</manufacturer>
-		<rom name="Gall Force - Eternal Story (Japan)(1986)(HAL Lab.).fds" size="131016" crc="51ef74fb"/>
+		<rom name="Gall Force - Eternal Story (Japan)(1986)(HAL Laboratory).fds" size="131016" crc="51ef74fb"/>
 		<rom name="fdsbios.nes" merge="fdsbios.nes" size="8192" crc="5e607dcf"/>
 		<video type="raster" orientation="horizontal" width="256" height="224" aspectx="256" aspecty="224"/>
 		<driver status="good"/>
