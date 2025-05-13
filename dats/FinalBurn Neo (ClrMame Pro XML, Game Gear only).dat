@@ -1658,15 +1658,15 @@
 		<description>Halley Wars (Euro, USA, Brazil)</description>
 		<year>1991</year>
 		<manufacturer>Taito</manufacturer>
-		<rom name="halley wars (usa, europe).bin" size="131072" crc="7e9dea46"/>
+		<rom name="Halley Wars (Euro, USA, Brazil)(1991)(Taito).gg" size="131072" crc="7e9dea46"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="halleywj" cloneof="halleyw" romof="halleyw" sourcefile="sms/d_sms.cpp">
 		<description>Halley Wars (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Taito</manufacturer>
-		<rom name="halley wars (japan).bin" size="131072" crc="def5a5d0"/>
+		<manufacturer>Taito Corp.</manufacturer>
+		<rom name="Halley Wars (Japan)(1991)(Taito).gg" size="131072" crc="def5a5d0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1674,15 +1674,15 @@
 		<description>Head Buster (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Masaya</manufacturer>
-		<rom name="head buster (japan).bin" size="131072" crc="7e689995"/>
+		<rom name="Head Buster (Japan)(1991)(Masaya).gg" size="131072" crc="7e689995"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="heavyw" cloneof="georgeko" romof="georgeko" sourcefile="sms/d_sms.cpp">
 		<description>Heavy Weight Champ (Japan)</description>
 		<year>1991</year>
-		<manufacturer>SIMS</manufacturer>
-		<rom name="heavy weight champ (japan).bin" size="131072" crc="beed9150"/>
+		<manufacturer>SIMS Co.</manufacturer>
+		<rom name="Heavy Weight Champ (Japan)(1991)(SIMS Co.).gg" size="131072" crc="beed9150"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1690,7 +1690,7 @@
 		<description>Home Alone (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="home alone (usa, europe).bin" size="262144" crc="dde29f74"/>
+		<rom name="Home Alone (Euro, USA)(1992)(Sega).gg" size="262144" crc="dde29f74"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1794,7 +1794,7 @@
 		<description>Itchy and Scratchy Game, The (Euro, USA)</description>
 		<year>1995</year>
 		<manufacturer>Acclaim Entertainment</manufacturer>
-		<rom name="itchy and scratchy game, the (usa, europe).bin" size="262144" crc="44e7e2da"/>
+		<rom name="Itchy and Scratchy Game, The (Euro, USA)(1995)(Acclaim).gg" size="262144" crc="44e7e2da"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1994,8 +1994,8 @@
 	<game name="kickrush" cloneof="tengenwc" romof="tengenwc" sourcefile="sms/d_sms.cpp">
 		<description>Kick and Rush (Japan)</description>
 		<year>1993</year>
-		<manufacturer>SIMS</manufacturer>
-		<rom name="kick and rush (japan).bin" size="262144" crc="fd14ce00"/>
+		<manufacturer>SIMS Co.</manufacturer>
+		<rom name="Kick and Rush (Japan)(1993)(SIMS Co.).gg" size="262144" crc="fd14ce00"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2003,7 +2003,7 @@
 		<description>Kinetic Connection (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-13610.ic1" size="131072" crc="4af7f2aa"/>
+		<rom name="Kinetic Connection (Japan)(1991)(Sega).gg" size="131072" crc="4af7f2aa"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2011,7 +2011,7 @@
 		<description>Kishin Douji Zenki (Japan)</description>
 		<year>1995</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-18210.ic1" size="524288" crc="7d622bdd"/>
+		<rom name="Kishin Douji Zenki (Japan)(1995)(Sega).gg" size="524288" crc="7d622bdd"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2019,7 +2019,7 @@
 		<description>Klax (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Tengen</manufacturer>
-		<rom name="mpr-15076-f.ic1" size="131072" crc="9b40fc8e"/>
+		<rom name="Klax (Euro, USA)(1992)(Tengen).gg" size="131072" crc="9b40fc8e"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2027,7 +2027,7 @@
 		<description>Krusty's Fun House (Euro, USA)</description>
 		<year>1992</year>
 		<manufacturer>Flying Edge</manufacturer>
-		<rom name="mpr-15461-f.ic1" size="262144" crc="d01e784f"/>
+		<rom name="Krusty's Fun House (Euro, USA)(1992)(Flying Edge).gg" size="262144" crc="d01e784f"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2035,15 +2035,15 @@
 		<description>Kuni-chan no Game Tengoku (Japan)</description>
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="kuni-chan no game tengoku (japan).bin" size="262144" crc="398f2358"/>
+		<rom name="Kuni-chan no Game Tengoku (Japan)(1991)(Sega).gg" size="262144" crc="398f2358"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
 	<game name="kunichn2" sourcefile="sms/d_sms.cpp">
-		<description>Kuni-chan no Game Tengoku Part 2 (Japan)</description>
+		<description>Kuni-chan no Game Tengoku - Part 2 (Japan)</description>
 		<year>1992</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="kuni-chan no game tengoku part 2 (japan).bin" size="262144" crc="f3774c65"/>
+		<rom name="Kuni-chan no Game Tengoku - Part 2 (Japan)(1992)(Sega).gg" size="262144" crc="f3774c65"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2051,7 +2051,7 @@
 		<description>Land of Illusion Starring Mickey Mouse (Euro, USA)</description>
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="mpr-15486.ic1" size="524288" crc="52dbf3e1"/>
+		<rom name="Land of Illusion Starring Mickey Mouse (Euro, USA)(1993)(Sega).gg" size="524288" crc="52dbf3e1"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2059,7 +2059,7 @@
 		<description>Last Action Hero (USA)</description>
 		<year>1992</year>
 		<manufacturer>Sony Imagesoft</manufacturer>
-		<rom name="last action hero (usa).bin" size="262144" crc="2d367c43"/>
+		<rom name="Last Action Hero (USA)(1992)(Sony Imagesoft).gg" size="262144" crc="2d367c43"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

@@ -3406,6 +3406,22 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="ddragon5" cloneof="ddragon5u" romof="ddragon5u" sourcefile="snes/d_snes.cpp">
+		<description>Double Dragon V - The Shadow Falls (Europe)</description>
+		<year>1994</year>
+		<manufacturer>Tradewest</manufacturer>
+		<rom name="Double Dragon V - The Shadow Falls (E)(1994)(Tradewest).sfc" size="2097152" crc="e80f6b65"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="ddragon5u" sourcefile="snes/d_snes.cpp">
+		<description>Double Dragon V - The Shadow Falls (USA)</description>
+		<year>1994</year>
+		<manufacturer>Tradewest</manufacturer>
+		<rom name="Double Dragon V - The Shadow Falls (U)(1994)(Tradewest).sfc" size="3145728" crc="98a96ae8"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="dragonbls" sourcefile="snes/d_snes.cpp">
 		<description>Dragon - The Bruce Lee Story (USA)</description>
 		<year>1994</year>

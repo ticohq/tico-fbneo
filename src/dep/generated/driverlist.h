@@ -5300,8 +5300,10 @@ DRV		BurnDrvnes_doubldraiiic;
 DRV		BurnDrvnes_doubldraiii;
 DRV		BurnSpecddragon3;
 DRV		BurnDrvDoubled1;
+DRV		BurnDrvsnes_Ddragon5;
 DRV		BurnDrvmd_ddragon5s;
 DRV		BurnDrvmd_ddragon5;
+DRV		BurnDrvsnes_Ddragon5u;
 DRV		BurnDrvnes_doubledream;
 DRV		BurnDrvDdribblep;
 DRV		BurnDrvnes_doubledribble;
@@ -15396,13 +15398,13 @@ DRV		BurnDrvnes_rainbisltaij;
 DRV		BurnDrvRbisland;
 DRV		BurnDrvnes_rainbisltai;
 DRV		BurnDrvRbislande;
-DRV		BurnDrvsms_rbislandb;
-DRV		BurnDrvsms_rbisland;
 DRV		BurnDrvsms_rbislando;
 DRV		BurnDrvmd_rbislands;
 DRV		BurnDrvmd_rbisland;
 DRV		BurnSpecrbisland128;
 DRV		BurnSpecrbisland48;
+DRV		BurnDrvsms_rbislandb;
+DRV		BurnDrvsms_rbisland;
 DRV		BurnDrvRbislando;
 DRV		BurnDrvRallybik;
 DRV		BurnDrvnes_rallybike;
@@ -16140,7 +16142,6 @@ DRV		BurnDrvMSX_soloen;
 DRV		BurnSpecsoloes;
 DRV		BurnDrvMSX_soloes;
 DRV		BurnDrvsnes_Sinkorswim;
-DRV		BurnDrvsms_saposos;
 DRV		BurnDrvSosterm;
 DRV		BurnDrvSpyu;
 DRV		BurnDrvSpy;
@@ -16364,8 +16365,9 @@ DRV		BurnDrvpce_santatlantean;
 DRV		BurnSpecSchristadv;
 DRV		BurnSpecSanxion128;
 DRV		BurnSpecSanxion48;
-DRV		BurnDrvsms_sapomestr;
 DRV		BurnDrvsms_sapoxule;
+DRV		BurnDrvsms_saposos;
+DRV		BurnDrvsms_sapomestr;
 DRV		BurnDrvsercharj;
 DRV		BurnDrvsercharu;
 DRV		BurnDrvsearchar;
@@ -28212,8 +28214,10 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvnes_doubldraiii,	// Double Dragon III - The Sacred Stones (USA)
 	&BurnSpecddragon3,			// Double Dragon III: The Rosetta Stone (128K)
 	&BurnDrvDoubled1,			// Double Dragon One (Demo)
+	&BurnDrvsnes_Ddragon5,		// Double Dragon V - The Shadow Falls (Europe)
 	&BurnDrvmd_ddragon5s,		// Double Dragon V - The Shadow Falls (Hack, Spanish)
 	&BurnDrvmd_ddragon5,		// Double Dragon V - The Shadow Falls (USA)
+	&BurnDrvsnes_Ddragon5u,		// Double Dragon V - The Shadow Falls (USA)
 	&BurnDrvnes_doubledream,	// Double Dream (HB, v0.2.0)
 	&BurnDrvDdribblep,			// Double Dribble (prototype?)
 	&BurnDrvnes_doubledribble,	// Double Dribble (USA)
@@ -32958,7 +32962,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecKnightzx,			// Knightmare 2 ZX (48K) (HB)
 	&BurnDrvMSX_knightm2,		// Knightmare II - The Maze of Galious (Japan)
 	&BurnDrvMSX_knightm2k,		// Knightmare II - The Maze of Galious (Korea) (Unl)
-	&BurnDrvsms_knightm2,		// Knightmare II - The Maze of Galious (Korea)
+	&BurnDrvsms_knightm2,		// Knightmare II: The Maze of Galious (Korea)
 	&BurnDrvMSX_knightm3en,		// Knightmare III - Shalom (Hack, English)
 	&BurnDrvMSX_knightm3sp,		// Knightmare III - Shalom (Hack, Spanish)
 	&BurnDrvMSX_knightm3,		// Knightmare III - Shalom (Japan)
@@ -33182,7 +33186,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvKungfut,			// Kung-Fu Taikun (set 1)
 	&BurnDrvKungfuta,			// Kung-Fu Taikun (set 2)
 	&BurnDrvgg_kunichan,		// Kuni-chan no Game Tengoku (Japan)
-	&BurnDrvgg_kunichn2,		// Kuni-chan no Game Tengoku Part 2 (Japan)
+	&BurnDrvgg_kunichn2,		// Kuni-chan no Game Tengoku - Part 2 (Japan)
 	&BurnDrvmd_knnsf,			// Kunio no Nekketsu School Fighters (HB, Beta v.05b)
 	&BurnDrvnes_kuniokunnoneksole,// Kunio-kun no Nekketsu Soccer League (Japan)
 	&BurnDrvsms_kunkun,			// KunKun & KokoKun (HB)
@@ -36656,7 +36660,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_pacmancol,		// Pac-Man Collection (HB)
 	&BurnDrvpacplus,			// Pac-Man Plus
 	&BurnSpecPacmanrx,			// Pac-Man RX (48K) (HB)
-	&BurnDrvsms_pacmansms,		// Pac-Man SMS (HB, v0.95)
+	&BurnDrvsms_pacmansms,		// Pac-Man SMS (HB)
 	&BurnSpecPmslimers,			// Pac-Man the Curse of the Slimers (48K) (HB, v1.1)
 	&BurnDrvnes_pacmanx,		// Pac-Man Xtreme (Hack)
 	&BurnDrvPacmaniao,			// Pac-Mania (111187 sound program)
@@ -37272,8 +37276,8 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_pitfall,			// Pitfall!
 	&BurnDrvmd_pitfall,			// Pitfall: The Mayan Adventure (Euro)
 	&BurnDrvmd_pitfallu,		// Pitfall: The Mayan Adventure (USA)
-	&BurnDrvsms_pitfightb,		// PitFighter - The Ultimate Challenge (Brazil)
-	&BurnDrvsms_pitfight,		// PitFighter - The Ultimate Challenge (Euro)
+	&BurnDrvsms_pitfightb,		// PitFighter: The Ultimate Challenge (Brazil)
+	&BurnDrvsms_pitfight,		// PitFighter: The Ultimate Challenge (Euro)
 	&BurnSpecPitman,			// Pitman (48K) (HB)
 	&BurnDrvcv_pitman,			// Pitman (HB)
 	&BurnDrvMSX_pitman,			// Pitman (HB)
@@ -38308,13 +38312,13 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvRbisland,			// Rainbow Islands (rev 1)
 	&BurnDrvnes_rainbisltai,	// Rainbow Islands (USA)
 	&BurnDrvRbislande,			// Rainbow Islands - Extra Version
-	&BurnDrvsms_rbislandb,		// Rainbow Islands - The Story of Bubble Bobble 2 (Brazil)
-	&BurnDrvsms_rbisland,		// Rainbow Islands - The Story of Bubble Bobble 2 (Euro)
 	&BurnDrvsms_rbislando,		// Rainbow Islands - The Story of Bubble Bobble 2 (Over the Rainbow + Color Hack)
 	&BurnDrvmd_rbislands,		// Rainbow Islands Extra (Hack, Spanish)
 	&BurnDrvmd_rbisland,		// Rainbow Islands Extra (Japan)
 	&BurnSpecrbisland128,		// Rainbow Islands: The Story of Bubble Bobble 2 (128K)
 	&BurnSpecrbisland48,		// Rainbow Islands: The Story of Bubble Bobble 2 (48K)
+	&BurnDrvsms_rbislandb,		// Rainbow Islands: The Story of Bubble Bobble 2 (Brazil)
+	&BurnDrvsms_rbisland,		// Rainbow Islands: The Story of Bubble Bobble 2 (Euro)
 	&BurnDrvRbislando,			// Rainbow Islands
 	&BurnDrvRallybik,			// Rally Bike (Europe, US) / Dash Yarou (Japan)
 	&BurnDrvnes_rallybike,		// Rally Bike (USA)
@@ -39052,7 +39056,6 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecsoloes,			// S.o.L.o. (Spanish) (128K) (HB)
 	&BurnDrvMSX_soloes,			// S.o.L.o. (Spanish) (HB)
 	&BurnDrvsnes_Sinkorswim,	// S.O.S - Sink or Swim (USA)
-	&BurnDrvsms_saposos,		// S.O.S Lagoa Poluida (Brazil)
 	&BurnDrvSosterm,			// S.O.S.
 	&BurnDrvSpyu,				// S.P.Y. - Special Project Y (US ver. M)
 	&BurnDrvSpy,				// S.P.Y. - Special Project Y (World ver. N)
@@ -39276,8 +39279,9 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecSchristadv,		// Santos' Christmas Adventure (48K) (HB)
 	&BurnSpecSanxion128,		// Sanxion - The Spectrum Remix (128K)
 	&BurnSpecSanxion48,			// Sanxion - The Spectrum Remix (48K)
-	&BurnDrvsms_sapomestr,		// Sapo Xule - O Mestre do Kung Fu (Brazil)
 	&BurnDrvsms_sapoxule,		// Sapo Xule vs. Os Invasores do Brejo (Brazil)
+	&BurnDrvsms_saposos,		// Sapo Xule: S.O.S Lagoa Poluida (Brazil)
+	&BurnDrvsms_sapomestr,		// Sapo Xule:O Mestre do Kung Fu (Brazil)
 	&BurnDrvsercharj,			// SAR - Search And Rescue (Japan version 3)
 	&BurnDrvsercharu,			// SAR - Search And Rescue (US)
 	&BurnDrvsearchar,			// SAR - Search And Rescue (World)
@@ -51082,8 +51086,10 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "nes_doubldraiii", "nes/d_nes.cpp"},
 	{ "spec_ddragon3", "spectrum/d_spectrum.cpp"},
 	{ "doubled1", "neogeo/d_neogeo.cpp"},
+	{ "snes_ddragon5", "snes/d_snes.cpp"},
 	{ "md_ddragon5s", "megadrive/d_megadrive.cpp"},
 	{ "md_ddragon5", "megadrive/d_megadrive.cpp"},
+	{ "snes_ddragon5u", "snes/d_snes.cpp"},
 	{ "nes_doubledream", "nes/d_nes.cpp"},
 	{ "ddribblep", "konami/d_ddribble.cpp"},
 	{ "nes_doubledribble", "nes/d_nes.cpp"},
@@ -61098,13 +61104,13 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "rbisland", "taito/d_taitomisc.cpp"},
 	{ "nes_rainbisltai", "nes/d_nes.cpp"},
 	{ "rbislande", "taito/d_taitomisc.cpp"},
-	{ "sms_rbislandb", "sms/d_sms.cpp"},
-	{ "sms_rbisland", "sms/d_sms.cpp"},
 	{ "sms_rbislando", "sms/d_sms.cpp"},
 	{ "md_rbislands", "megadrive/d_megadrive.cpp"},
 	{ "md_rbisland", "megadrive/d_megadrive.cpp"},
 	{ "spec_rbisland128", "spectrum/d_spectrum.cpp"},
 	{ "spec_rbisland48", "spectrum/d_spectrum.cpp"},
+	{ "sms_rbislandb", "sms/d_sms.cpp"},
+	{ "sms_rbisland", "sms/d_sms.cpp"},
 	{ "rbislando", "taito/d_taitomisc.cpp"},
 	{ "rallybik", "toaplan/d_toaplan1.cpp"},
 	{ "nes_rallybike", "nes/d_nes.cpp"},
@@ -61838,7 +61844,6 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_soloes", "spectrum/d_spectrum.cpp"},
 	{ "msx_soloes", "msx/d_msx.cpp"},
 	{ "snes_sinkorswim", "snes/d_snes.cpp"},
-	{ "sms_saposos", "sms/d_sms.cpp"},
 	{ "sosterm", "pre90s/d_tiamc1.cpp"},
 	{ "spyu", "konami/d_spy.cpp"},
 	{ "spy", "konami/d_spy.cpp"},
@@ -62058,8 +62063,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "spec_schristadv", "spectrum/d_spectrum.cpp"},
 	{ "spec_sanxion128", "spectrum/d_spectrum.cpp"},
 	{ "spec_sanxion48", "spectrum/d_spectrum.cpp"},
-	{ "sms_sapomestr", "sms/d_sms.cpp"},
 	{ "sms_sapoxule", "sms/d_sms.cpp"},
+	{ "sms_saposos", "sms/d_sms.cpp"},
+	{ "sms_sapomestr", "sms/d_sms.cpp"},
 	{ "searcharj", "pre90s/d_snk68.cpp"},
 	{ "searcharu", "pre90s/d_snk68.cpp"},
 	{ "searchar", "pre90s/d_snk68.cpp"},
