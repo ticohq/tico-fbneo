@@ -19922,6 +19922,7 @@ DRV		BurnDrvpce_tatsujin;
 DRV		BurnDrvpce_tatsujinp;
 DRV		BurnDrvTattassa;
 DRV		BurnDrvTattass;
+DRV		BurnDrvTattasso;
 DRV		BurnSpecTaucetise;
 DRV		BurnSpecTauceti;
 DRV		BurnDrvMSX_tawarakn;
@@ -20291,8 +20292,12 @@ DRV		BurnDrvMSX_tetsuman;
 DRV		BurnDrvMSX_tetsumana;
 DRV		BurnDrvnes_tetsuwanatom;
 DRV		BurnDrvsnes_Tetsuwatom;
-DRV		BurnDrvThoop2;
+DRV		BurnDrvThoop2d;
+DRV		BurnDrvThoop2e;
+DRV		BurnDrvThoop2b;
+DRV		BurnDrvThoop2c;
 DRV		BurnDrvThoop2a;
+DRV		BurnDrvThoop2;
 DRV		BurnSpecThanatos128;
 DRV		BurnSpecThanatos48;
 DRV		BurnSpectsfeeling;
@@ -23985,7 +23990,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnSpecAllpresent,		// All Present and Correct (48K) (HB)
 	&BurnSpecAabasket,			// All-American Basketball (48K)
 	&BurnDrvAligators,			// Alligator Hunt (Spain, protected, checksum 2B34128B)
-	&BurnDrvAligatoruna,		// Alligator Hunt (unprotected, checksum 25A83609
+	&BurnDrvAligatoruna,		// Alligator Hunt (unprotected, checksum 25A83609)
 	&BurnDrvAligatorun,			// Alligator Hunt (unprotected, checksum F9C6891D)
 	&BurnDrvAligator,			// Alligator Hunt (World, protected, checksum 2B34128B)
 	&BurnDrvnes_almika,			// Almika The Star Rider Densetsu Gaiden (HB)
@@ -41371,7 +41376,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvcv_squares,			// Squares! (HB)
 	&BurnDrvSquaitsa,			// Squash (Itisa)
 	&BurnDrvSquasha,			// Squash (USA, ver. 1.1, checksum 015b6f8a)
-	&BurnDrvSquash,				// Squash (ver. 1.0, checksum 015aef61)
+	&BurnDrvSquash,				// Squash (World, ver. 1.0, checksum 015aef61)
 	&BurnDrvnes_squashed,		// Squashed (USA, Prototype)
 	&BurnDrvsnes_Squirrel,		// Squirrel (USA) (Unl)
 	&BurnDrvnes_squirchaser,	// Squirrel Chaser (HB)
@@ -43140,6 +43145,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvpce_tatsujinp,		// Tatsujin (Japan, Prototype)
 	&BurnDrvTattassa,			// Tattoo Assassins (Asia prototype, Mar 14 1995)
 	&BurnDrvTattass,			// Tattoo Assassins (US prototype, Mar 14 1995)
+	&BurnDrvTattasso,			// Tattoo Assassins (US prototype, Mar 14 1995, older sound)
 	&BurnSpecTaucetise,			// Tau Ceti - The Special Edition (128K)
 	&BurnSpecTauceti,			// Tau-Ceti (48K)
 	&BurnDrvMSX_tawarakn,		// Tawara-kun (Japan)
@@ -43509,8 +43515,12 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_tetsumana,		// Tetsuman (Japan, Alt)
 	&BurnDrvnes_tetsuwanatom,	// Tetsuwan Atom (Japan)
 	&BurnDrvsnes_Tetsuwatom,	// Tetsuwan Atom (Japan)
-	&BurnDrvThoop2,				// TH Strikes Back (Non North America, Version 1.0, Checksum 020E0867)
-	&BurnDrvThoop2a,			// TH Strikes Back (Non North America, Version 1.0, Checksum 020EB356)
+	&BurnDrvThoop2d,			// TH Strikes Back (non North America, version 1.0, checksum 0206DF91)
+	&BurnDrvThoop2e,			// TH Strikes Back (non North America, version 1.0, checksum 0206DF91, without title)
+	&BurnDrvThoop2b,			// TH Strikes Back (non North America, version 1.0, checksum 020E0867)
+	&BurnDrvThoop2c,			// TH Strikes Back (non North America, version 1.0, checksum 020E154A)
+	&BurnDrvThoop2a,			// TH Strikes Back (non North America, version 1.0, checksum 020EB346)
+	&BurnDrvThoop2,				// TH Strikes Back (non North America, version 1.0, checksum 020EB356)
 	&BurnSpecThanatos128,		// Thanatos (128K)
 	&BurnSpecThanatos48,		// Thanatos (48K)
 	&BurnSpectsfeeling,			// That Sinking Feeling (128K) (HB)
@@ -66192,6 +66202,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "pce_tatsujinp", "pce/d_pce.cpp"},
 	{ "tattassa", "dataeast/d_deco32.cpp"},
 	{ "tattass", "dataeast/d_deco32.cpp"},
+	{ "tattasso", "dataeast/d_deco32.cpp"},
 	{ "spec_taucetise", "spectrum/d_spectrum.cpp"},
 	{ "spec_tauceti", "spectrum/d_spectrum.cpp"},
 	{ "msx_tawarakn", "msx/d_msx.cpp"},
@@ -66561,8 +66572,12 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "msx_tetsumana", "msx/d_msx.cpp"},
 	{ "nes_tetsuwanatom", "nes/d_nes.cpp"},
 	{ "snes_tetsuwatom", "snes/d_snes.cpp"},
-	{ "thoop2", "pst90s/d_thoop2.cpp"},
+	{ "thoop2d", "pst90s/d_thoop2.cpp"},
+	{ "thoop2e", "pst90s/d_thoop2.cpp"},
+	{ "thoop2b", "pst90s/d_thoop2.cpp"},
+	{ "thoop2c", "pst90s/d_thoop2.cpp"},
 	{ "thoop2a", "pst90s/d_thoop2.cpp"},
+	{ "thoop2", "pst90s/d_thoop2.cpp"},
 	{ "spec_thanatos128", "spectrum/d_spectrum.cpp"},
 	{ "spec_thanatos48", "spectrum/d_spectrum.cpp"},
 	{ "spec_tsfeeling", "spectrum/d_spectrum.cpp"},
