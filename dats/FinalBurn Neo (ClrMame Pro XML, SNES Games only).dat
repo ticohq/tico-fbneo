@@ -4614,11 +4614,27 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="f1polepose" cloneof="f1polepos" romof="f1polepos" sourcefile="snes/d_snes.cpp">
+		<description>F1 Pole Position (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Ubi Soft - Human Entertainment</manufacturer>
+		<rom name="F1 Pole Position (E)(1993)(Ubi Soft - Human Entertainment).sfc" size="1048576" crc="e935886a"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="f1polepos" sourcefile="snes/d_snes.cpp">
 		<description>F1 Pole Position (USA)</description>
 		<year>1993</year>
-		<manufacturer>Ubi Soft</manufacturer>
-		<rom name="F1 Pole Position (U)(1993)(Ubi Soft).sfc" size="1048576" crc="b3da1b1d"/>
+		<manufacturer>Ubi Soft - Human Entertainment</manufacturer>
+		<rom name="F1 Pole Position (U)(1993)(Ubi Soft - Human Entertainment).sfc" size="1048576" crc="b3da1b1d"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="f1polepos2" sourcefile="snes/d_snes.cpp">
+		<description>F1 Pole Position 2 (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Ubi Soft - Human Entertainment</manufacturer>
+		<rom name="F1 Pole Position 2 (E)(1993)(Ubi Soft - Human Entertainment).sfc" size="1048576" crc="83fc0f0c"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -6445,6 +6461,30 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="humangpii" cloneof="f1polepos2" romof="f1polepos2" sourcefile="snes/d_snes.cpp">
+		<description>Human Grand Prix II (Japan)</description>
+		<year>1993</year>
+		<manufacturer>Human Entertainment</manufacturer>
+		<rom name="Human Grand Prix II (J)(1993)(Human Entertainment).sfc" size="1048576" crc="a5351db4"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="humangpiii" sourcefile="snes/d_snes.cpp">
+		<description>Human Grand Prix III - F1 Triple Battle (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Human Entertainment</manufacturer>
+		<rom name="Human Grand Prix III - F1 Triple Battle (J)(1994)(Human Entertainment).sfc" size="2097152" crc="9f6d0228"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="humangpiv" sourcefile="snes/d_snes.cpp">
+		<description>Human Grand Prix IV - F1 Dream Battle (Japan)</description>
+		<year>1995</year>
+		<manufacturer>Human Entertainment</manufacturer>
+		<rom name="Human Grand Prix IV - F1 Dream Battle (J)(1995)(Human Entertainment).sfc" size="2097152" crc="47453477"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="humans" sourcefile="snes/d_snes.cpp">
 		<description>Humans, The (Euro)</description>
 		<year>1992</year>
@@ -6458,6 +6498,22 @@
 		<year>1995</year>
 		<manufacturer>Sunsoft</manufacturer>
 		<rom name="Hungry Dinosaurs (E)(1995)(Sunsoft).sfc" size="262144" crc="5c4b2544"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="huntredocte" cloneof="huntredoct" romof="huntredoct" sourcefile="snes/d_snes.cpp">
+		<description>Hunt for Red October, The (Euro)</description>
+		<year>1993</year>
+		<manufacturer>Hi Tech Expressions</manufacturer>
+		<rom name="Hunt for Red October, The (E)(1993)(Hi Tech Expressions).sfc" size="524288" crc="346e153f"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="huntredoctj" cloneof="huntredoct" romof="huntredoct" sourcefile="snes/d_snes.cpp">
+		<description>Hunt for Red October, The (Japan)</description>
+		<year>1993</year>
+		<manufacturer>Hi Tech Expressions</manufacturer>
+		<rom name="Hunt for Red October, The (J)(1993)(Hi Tech Expressions).sfc" size="524288" crc="76065e37"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13304,6 +13360,22 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="streetracere" cloneof="streetracer" romof="streetracer" sourcefile="snes/d_snes.cpp">
+		<description>Street Racer (Euro, Rev .1)</description>
+		<year>1994</year>
+		<manufacturer>Ubi Soft - Vivid Image</manufacturer>
+		<rom name="Street Racer (E, Rev 1)(1994)(Ubi Soft - Vivid Image).sfc" size="1048576" crc="2ae69849"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="streetracerj" cloneof="streetracer" romof="streetracer" sourcefile="snes/d_snes.cpp">
+		<description>Street Racer (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Ubi Soft - Vivid Image</manufacturer>
+		<rom name="Street Racer (J)(1994)(Ubi Soft - Vivid Image).sfc" size="1048576" crc="d1c1f675"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="streetracer" sourcefile="snes/d_snes.cpp">
 		<description>Street Racer (USA)</description>
 		<year>1994</year>
@@ -16180,6 +16252,22 @@
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="trueliese" cloneof="truelies" romof="truelies" sourcefile="snes/d_snes.cpp">
+		<description>True Lies (Euro)</description>
+		<year>1994</year>
+		<manufacturer>Ljn</manufacturer>
+		<rom name="True Lies (E)(1994)(Ljn).sfc" size="2097152" crc="d7099bc2"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="trueliesj" cloneof="truelies" romof="truelies" sourcefile="snes/d_snes.cpp">
+		<description>True Lies (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Ljn</manufacturer>
+		<rom name="True Lies (J)(1994)(Ljn).sfc" size="2097152" crc="6150d3f9"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="truelies" sourcefile="snes/d_snes.cpp">
 		<description>True Lies (USA)</description>
 		<year>1994</year>
@@ -16954,6 +17042,22 @@
 		<year>1993</year>
 		<manufacturer>Imagineer</manufacturer>
 		<rom name="Wolfenstein 3D - The Claw of Eisenfaust (J)(1993)(Imagineer).sfc" size="1048576" crc="cc47b8f9"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="wolverinee" cloneof="wolverine" romof="wolverine" sourcefile="snes/d_snes.cpp">
+		<description>Wolverine - Adamantium Rage (Euro)</description>
+		<year>1994</year>
+		<manufacturer>Ljn</manufacturer>
+		<rom name="Wolverine - Adamantium Rage (E)(1994)(Ljn).sfc" size="2097152" crc="78fc0d86"/>
+		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="wolverinej" cloneof="wolverine" romof="wolverine" sourcefile="snes/d_snes.cpp">
+		<description>Wolverine - Adamantium Rage (Japan)</description>
+		<year>1994</year>
+		<manufacturer>Ljn</manufacturer>
+		<rom name="Wolverine - Adamantium Rage (J)(1994)(Ljn).sfc" size="2097152" crc="d9119d9b"/>
 		<video type="raster" orientation="horizontal" width="512" height="448" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
