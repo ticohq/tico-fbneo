@@ -1371,7 +1371,8 @@ TCHAR* RomdataGetZipName(const TCHAR* pszFileName)
 				pszInfo = _strqtoken(NULL, DELIM_TOKENS_NAME);
 				if (NULL == pszInfo) break;	// No romset specified
 				fclose(fp);
-				TCHAR szRet[100] = { 0 };
+				static TCHAR szRet[100];
+				memset(szRet, 0, sizeof(szRet));
 				return _tcscpy(szRet, pszInfo);
 			}
 		}
@@ -1428,7 +1429,8 @@ TCHAR* RomdataGetDrvName(const TCHAR* pszFileName)
 				pszInfo = _strqtoken(NULL, DELIM_TOKENS_NAME);
 				if (NULL == pszInfo) break;	// No romset specified
 				fclose(fp);
-				TCHAR szRet[100] = { 0 };
+				static TCHAR szRet[100];
+				memset(szRet, 0, sizeof(szRet));
 				return _tcscpy(szRet, pszInfo);
 			}
 		}
@@ -1494,7 +1496,8 @@ TCHAR* RomdataGetFullName(const TCHAR* pszFileName)
 			if ((_T('/') == pszLabel[0]) && (_T('/') == pszLabel[1])) continue;
 
 			if (0 == _tcsicmp(_T("FullName"), pszLabel) || 0 == _tcsicmp(_T("Game"), pszLabel)) {
-				TCHAR szMerger[260] = { 0 };
+				static TCHAR szMerger[260];
+				memset(szMerger, 0, sizeof(szMerger));
 				INT32 nAdd = 0;
 				while (NULL != (pszInfo = _strqtoken(NULL, DELIM_TOKENS_NAME))) {
 					_stprintf(szMerger + nAdd, _T("%s "), pszInfo);
@@ -2160,13 +2163,27 @@ static void RomdataCoverInit()
 	FBADialogBox(hAppInst, MAKEINTRESOURCE(IDD_ROMDATA_COVER_DLG), hRDMgrWnd, (DLGPROC)RomDataCoveProc);
 }
 
-static void RomDataManagerExit()
+void RomDataStateBackup()
+{
+	if (NULL != pDataRomDesc) {
+		memset(szBackupDat, 0, sizeof(szBackupDat));
+		_tcscpy(szBackupDat, szRomdataName);
+		RomDataExit();
+	}
+}
+
+void RomDataStateRestore()
 {
 	if (FileExists(szBackupDat)) {
 		_tcscpy(szRomdataName, szBackupDat);
 		memset(szBackupDat, 0, sizeof(szBackupDat));
 		RomDataInit();
 	}
+}
+
+static void RomDataManagerExit()
+{
+	RomDataStateRestore();
 	RomDataClearList();
 	DestroyHardwareIconList();
 	DeleteObject(hWhiteBGBrush);
@@ -2436,11 +2453,7 @@ static INT_PTR CALLBACK RomDataManagerProc(HWND hDlg, UINT Msg, WPARAM wParam, L
 
 INT32 RomDataManagerInit()
 {
-	if (NULL != pDataRomDesc) {
-		memset(szBackupDat, 0, sizeof(szBackupDat));
-		_tcscpy(szBackupDat, szRomdataName);
-		RomDataExit();
-	}
+	RomDataStateBackup();
 
 	return FBADialogBox(hAppInst, MAKEINTRESOURCE(IDD_ROMDATA_MANAGER), hScrnWnd, (DLGPROC)RomDataManagerProc);
 }
