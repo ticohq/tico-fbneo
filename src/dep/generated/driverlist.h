@@ -18170,6 +18170,9 @@ DRV		BurnDrvCHF_spitfirep;
 DRV		BurnDrvCHF_spitfire;
 DRV		BurnDrvMSX_splash;
 DRV		BurnDrvSplash10;
+DRV		BurnDrvSplash12;
+DRV		BurnDrvSplashkr;
+DRV		BurnDrvSplashna;
 DRV		BurnDrvSplash;
 DRV		BurnSpecSplat;
 DRV		BurnDrvSplat;
@@ -37498,7 +37501,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvpaintrlr,			// Paint Roller (bootleg of Crush Roller)
 	&BurnSpecPb2048p1,			// PaintBall-2048 - 1 Player Version (128K) (HB)
 	&BurnSpecPb2048p2,			// PaintBall-2048 - 2 Players Version (128K) (HB)
-	&BurnDrvPaintlad,			// Painted Lady (Splash) (Ver. 1.3 US)
+	&BurnDrvPaintlad,			// Painted Lady (ver. 1.3, checksum E7BEEEFA, North America)
 	&BurnDrvpainter,			// Painter (hack of Crush Roller)
 	&BurnSpecPainterman128,		// Painter Man (128K) (HB)
 	&BurnSpecPainterman48,		// Painter Man (48K) (HB)
@@ -41570,8 +41573,11 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCHF_spitfirep,		// Spitfire (Prototype)
 	&BurnDrvCHF_spitfire,		// Spitfire
 	&BurnDrvMSX_splash,			// Splash (Euro, Spanish)
-	&BurnDrvSplash10,			// Splash! (Ver. 1.0 World)
-	&BurnDrvSplash,				// Splash! (Ver. 1.2 World)
+	&BurnDrvSplash10,			// Splash! (ver. 1.0, checksum 2FC9AE1D, non North America)
+	&BurnDrvSplash12,			// Splash! (ver. 1.2, checksum 5071804D, non North America)
+	&BurnDrvSplashkr,			// Splash! (ver. 1.3, checksum E7BEEBFA, Korea)
+	&BurnDrvSplashna,			// Splash! (ver. 1.3, checksum E7BEEEFA, North America)
+	&BurnDrvSplash,				// Splash! (ver. 1.3, checksum E7BEF3FA, World)
 	&BurnSpecSplat,				// Splat! (48K)
 	&BurnDrvSplat,				// Splat!
 	&BurnDrvnes_splatood,		// SplatooD (HB, v1.0.6)
@@ -64826,6 +64832,9 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "chf_spitfire", "channelf/d_channelf.cpp"},
 	{ "msx_splash", "msx/d_msx.cpp"},
 	{ "splash10", "pst90s/d_splash.cpp"},
+	{ "splash12", "pst90s/d_splash.cpp"},
+	{ "splashkr", "pst90s/d_splash.cpp"},
+	{ "splashna", "pst90s/d_splash.cpp"},
 	{ "splash", "pst90s/d_splash.cpp"},
 	{ "spec_splat", "spectrum/d_spectrum.cpp"},
 	{ "splat", "pre90s/d_williams.cpp"},
