@@ -1129,7 +1129,7 @@ static bool open_archive()
 					BurnDrvGetRomInfo(&ri, i);
 
 					// If a rom is never needed, let's flag it as skippable
-					if ((ri.nType & BRF_NODUMP) || (ri.nType == 0) || (ri.nLen == 0) || (NULL == pDataRomDesc) && (0 == ri.nCrc))
+					if ((ri.nType & BRF_NODUMP) || (ri.nType == 0) || (ri.nLen == 0) || ((NULL == pDataRomDesc) && (0 == ri.nCrc)))
 					{
 						pRomFind[i].nState = STAT_SKIP;
 						continue;
