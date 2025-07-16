@@ -752,27 +752,15 @@ endif
 
 clean-objs:
 ifeq ($(SPLIT_UP_LINK), 1)
-	$(file  >$@.in,$(OBJS))
-	$(file >>$@.in,$(DEPS))
+	$(file >$@.in,$(OBJS) $(DEPS))
 	xargs rm -f <$@.in
-	rm $@.in
+	rm -f $@.in
 else
-	rm -f $(OBJS)
-	rm -f $(DEPS)
+	rm -f $(OBJS) $(DEPS)
 endif
 
-clean:
-ifeq ($(SPLIT_UP_LINK), 1)
-	$(file  >$@.in,$(OBJS))
-	$(file >>$@.in,$(DEPS))
-	xargs rm -f <$@.in
+clean: clean-objs
 	rm -f $(TARGET)
-	rm $@.in
-else
-	rm -f $(TARGET)
-	rm -f $(OBJS)
-	rm -f $(DEPS)
 	rm -f $(M68KMAKE_EXE)
 	rm -f $(PGM_SPRITE_CREATE_EXE)
 	rm -f $(CTVMAKE_EXE)
-endif
