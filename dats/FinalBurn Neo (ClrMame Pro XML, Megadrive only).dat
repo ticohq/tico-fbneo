@@ -6793,10 +6793,10 @@
 	</game>
 	<game name="ffightmd" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Homebrew, Patreon release</comment>
-		<description>Final Fight MD (HB, v0.83b)</description>
+		<description>Final Fight MD (HB, v0.86b)</description>
 		<year>2025</year>
 		<manufacturer>MXRetroDev - CFX</manufacturer>
-		<rom name="Final Fight MD v0.83b (2025)(MXRetroDev - CFX).bin" size="4063232" crc="cde690d4"/>
+		<rom name="Final Fight MD v0.86b (2025)(MXRetroDev - CFX).bin" size="3932160" crc="791b4d0f"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -13683,7 +13683,7 @@
 		<driver status="good"/>
 	</game>
 	<game name="paprium" sourcefile="megadrive/d_megadrive.cpp">
-		<comment>Homebrew, First boot is a joke!  Hit reset after selecting language.</comment>
+		<comment>Homebrew, NB: at first boot hit 'reset' after selecting language.</comment>
 		<description>Paprium (World) (HB)</description>
 		<year>2020</year>
 		<manufacturer>WaterMelon</manufacturer>
@@ -13740,6 +13740,15 @@
 		<sample name="50 Tension" />
 		<sample name="51 Water" />
 		<sample name="52 Waterfront Beat" />
+		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="papriumini" cloneof="paprium" romof="paprium" sourcefile="megadrive/d_megadrive.cpp">
+		<comment>Homebrew</comment>
+		<description>Paprium Minigame (HB)</description>
+		<year>2025</year>
+		<manufacturer>WaterMelon</manufacturer>
+		<rom name="Paprium Minigame (2020)(WaterMelon).bin" size="524288" crc="57b0ffa4"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -14243,10 +14252,10 @@
 	</game>
 	<game name="psolar" sourcefile="megadrive/d_megadrive.cpp">
 		<comment>Homebrew, 64 Mbit (8MB) cartridge</comment>
-		<description>Pier Solar and the Great Architects (World) (En,Es,Pt) (Rev C) (HB)</description>
+		<description>Pier Solar and the Great Architects (World, Rev C) (HB)</description>
 		<year>2010</year>
 		<manufacturer>WaterMelon</manufacturer>
-		<rom name="Pier Solar and the Great Architects (World)(En,Es,Pt)(Rev C)(2010)(WaterMelon).bin" size="8388608" crc="dfb94f1b"/>
+		<rom name="Pier Solar and the Great Architects (World)(Rev C)(2010)(WaterMelon).bin" size="8388608" crc="dfb94f1b"/>
 		<video type="raster" orientation="horizontal" width="320" height="224" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

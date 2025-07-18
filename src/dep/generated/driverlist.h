@@ -14424,6 +14424,7 @@ DRV		BurnDrvmd_papi;
 DRV		BurnDrvmd_papirmx;
 DRV		BurnDrvnes_papillongals;
 DRV		BurnDrvmd_paprium;
+DRV		BurnDrvmd_papriumini;
 DRV		BurnSpecPapyrus;
 DRV		BurnSpecParachute;
 DRV		BurnDrvMSX_pjoe;
@@ -30637,7 +30638,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvCpsFfightae,		// Final Fight 30th Anniversary Edition (World, hack)
 	&BurnDrvsnes_Ffightguyj,	// Final Fight Guy (Japan)
 	&BurnDrvsnes_Ffightguy,		// Final Fight Guy (USA)
-	&BurnDrvmd_ffightmd,		// Final Fight MD (HB, v0.83b)
+	&BurnDrvmd_ffightmd,		// Final Fight MD (HB, v0.86b)
 	&BurnDrvsnes_Ffight3j,		// Final Fight Tough (Japan)
 	&BurnDrvCpsFfightaec2,		// Final Fight: Anniversary Edition (CPS2 hardware)
 	&BurnDrvCpsFfightaec2ds,	// Final Fight: Anniversary Edition (Deadly Streets, Hack)(CPS2 Hardware)
@@ -33799,7 +33800,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsnes_Jpark2,		// Jurassic Park II - The Chaos Continues (USA)
 	&BurnDrvsnes_Jpark2redux,	// Jurassic Park II - The Chaos Continues Redux (Hack)
 	&BurnSpecJurl,				// Jurl (48K) (HB)
-	&BurnDrvsms_jurl,			// Jurl (HB, v0.5b)
+	&BurnDrvsms_jurl,			// Jurl (HB, v0.9a)
 	&BurnSpecJustagal,			// Just A Gal (48K) (HB)
 	&BurnDrvnes_justbreed,		// Just Breed (Hack, English)
 	&BurnDrvnes_justbreedc,		// Just Breed (Hack, Spanish v2.0)
@@ -38179,6 +38180,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvmd_papirmx,			// Papi Commando Remix MD (HB)
 	&BurnDrvnes_papillongals,	// Papillon Gals (Japan) (Unl)
 	&BurnDrvmd_paprium,			// Paprium (World) (HB)
+	&BurnDrvmd_papriumini,		// Paprium Minigame (HB)
 	&BurnSpecPapyrus,			// Papyrus (48K) (HB)
 	&BurnSpecParachute,			// Parachute (128K) (HB)
 	&BurnDrvMSX_pjoe,			// Parachuteless Joe (HB)
@@ -38513,7 +38515,7 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvMSX_picpuzzle,		// Picture Puzzle (Japan)
 	&BurnDrvMSX_picpuzzle2,		// Picture Puzzle 2nd version (HB)
 	&BurnDrvsnes_Pieces,		// Pieces (USA)
-	&BurnDrvmd_psolar,			// Pier Solar and the Great Architects (World) (En,Es,Pt) (Rev C) (HB)
+	&BurnDrvmd_psolar,			// Pier Solar and the Great Architects (World, Rev C) (HB)
 	&BurnDrvsnes_Pierrelechef,	// Pierre le Chef is... Out to Lunch (Euro)
 	&BurnDrvPigskinb,			// Pigskin 621AD (rev 1.1 6/05/90)
 	&BurnDrvPigskin,			// Pigskin 621AD (rev 1.1K 8/01/90)
@@ -61822,6 +61824,7 @@ static game_sourcefile_entry sourcefile_table[] = {
 	{ "md_papirmx", "megadrive/d_megadrive.cpp"},
 	{ "nes_papillongals", "nes/d_nes.cpp"},
 	{ "md_paprium", "megadrive/d_megadrive.cpp"},
+	{ "md_papriumini", "megadrive/d_megadrive.cpp"},
 	{ "spec_papyrus", "spectrum/d_spectrum.cpp"},
 	{ "spec_parachute", "spectrum/d_spectrum.cpp"},
 	{ "msx_pjoe", "msx/d_msx.cpp"},
