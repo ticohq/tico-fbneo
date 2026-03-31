@@ -35,3 +35,7 @@ src/burner/libretro/m68kmake
 src/burner/libretro/pgmspritecreate
 !gamelist.txt
 !src/dep/generated/
+
+build_tico
+
+*.a
