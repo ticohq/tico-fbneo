@@ -296,7 +296,7 @@ NACPTOOL="$DEVKITPRO/tools/bin/nacptool"
 
 # Create NACP
 NACP_FILE="$BUILD_DIR/fbneo.nacp"
-$NACPTOOL --create "tico FBNeo" "ticoverse.com" "1.0.0" "$NACP_FILE"
+$NACPTOOL --create "tico FBNeo" "ticoverse.com" "1.0.1" "$NACP_FILE"
 
 # Convert ELF to NRO with romfs
 ROMFS_DIR="$BUILD_DIR/romfs"

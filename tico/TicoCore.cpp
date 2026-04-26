@@ -639,8 +639,8 @@ bool TicoCore::InitEGLDualContext()
     glBindTexture(GL_TEXTURE_2D, m_frameTexture);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, fboW, fboH, 0,
                  GL_RGB, GL_UNSIGNED_BYTE, NULL);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
@@ -963,42 +963,10 @@ void TicoCore::RunFrame()
     // Process pending badge texture uploads (must happen on GL thread)
     ProcessPendingBadgeUploads();
 
-    if (m_isRewinding)
-    {
-        if (!m_rewindBuffer.empty())
-        {
-            auto& state = m_rewindBuffer.back();
-            retro_unserialize(state.data(), state.size());
-            m_rewindBuffer.pop_back();
-        }
-        retro_run();
-    }
-    else
-    {
-        m_rewindFrameCounter++;
-        if (m_rewindFrameCounter >= 2) // Save state every 2 frames for smoother rewind
-        {
-            m_rewindFrameCounter = 0;
-            size_t size = retro_serialize_size();
-            if (size > 0 && size < 1024 * 1024 * 15) // Sanity check to not allocate gigabytes (states should be small)
-            {
-                std::vector<uint8_t> state(size);
-                if (retro_serialize(state.data(), size))
-                {
-                    m_rewindBuffer.push_back(std::move(state));
-                    // Keep up to 5 seconds of rewind history (60fps / 2 * 5 = 150 states)
-                    if (m_rewindBuffer.size() > 150)
-                    {
-                        m_rewindBuffer.erase(m_rewindBuffer.begin());
-                    }
-                }
-            }
-        }
-        retro_run();
-        
-        if (m_rcClient && m_gameLoaded) {
-            rc_client_do_frame(m_rcClient);
-        }
+    retro_run();
+
+    if (m_rcClient && m_gameLoaded) {
+        rc_client_do_frame(m_rcClient);
     }
 
     // Unbind core's FBO so subsequent rendering targets the default framebuffer
@@ -1015,8 +983,8 @@ void TicoCore::ResizeFBO(int width, int height)
     glBindTexture(GL_TEXTURE_2D, m_frameTexture);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0,
                  GL_RGB, GL_UNSIGNED_BYTE, NULL);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
@@ -1181,13 +1149,6 @@ void TicoCore::LoadState(const std::string &path)
     if (success)
     {
         tico_debug_log("Loaded state from %s", path.c_str());
-
-        // Clear stale rewind states from before the loadstate.
-        // Old rewind frames reference a completely different emulation context
-        // (different palette, tile RAM, nCurrentFrame, etc.) and will cause
-        // visual corruption (random textures / garbled graphics) if applied.
-        m_rewindBuffer.clear();
-        m_rewindFrameCounter = 0;
     }
     else
     {
@@ -1651,9 +1612,8 @@ void TicoCore::HandleVideoRefresh(const void *data, unsigned width,
         }
     }
 
-    // For HW render, the core renders directly to our FBO
-    // For SW render, convert pixels to RGBA8888 and upload
-    // This matches the proven working approach from LibretroCoreStatic.cpp
+    // For HW render, the core renders directly to our FBO.
+    // For SW render, upload the libretro pixel buffer directly to GL.
     if (!m_hwRender && data)
     {
         if (m_frameTexture == 0)
@@ -1663,77 +1623,52 @@ void TicoCore::HandleVideoRefresh(const void *data, unsigned width,
 
         glBindTexture(GL_TEXTURE_2D, m_frameTexture);
 
-        // Convert pixel data to RGBA8888 (matching LibretroCoreStatic)
-        size_t numPixels = (size_t)width * height;
-        m_videoBuffer.resize(numPixels);
+        GLenum format = GL_RGBA;
+        GLenum type = GL_UNSIGNED_BYTE;
+        int bytesPerPixel = 4;
 
-        const uint8_t *srcBase = static_cast<const uint8_t *>(data);
-        uint32_t *dstBase = m_videoBuffer.data();
-
-        if (m_pixelFormat == RETRO_PIXEL_FORMAT_RGB565) {
-            for (unsigned y = 0; y < height; ++y) {
-                const uint16_t *srcRow =
-                    reinterpret_cast<const uint16_t *>(srcBase + y * pitch);
-                uint32_t *dstRow = dstBase + y * width;
-                for (unsigned x = 0; x < width; ++x) {
-                    uint16_t p = srcRow[x];
-                    uint8_t r = (p >> 11) & 0x1F;
-                    uint8_t g = (p >> 5) & 0x3F;
-                    uint8_t b = (p & 0x1F);
-                    r = (r << 3) | (r >> 2);
-                    g = (g << 2) | (g >> 4);
-                    b = (b << 3) | (b >> 2);
-                    dstRow[x] = (r) | (g << 8) | (b << 16) | (0xFF << 24);
-                }
-            }
+        if (m_pixelFormat == RETRO_PIXEL_FORMAT_0RGB1555) {
+            format = GL_BGRA;
+            type = GL_UNSIGNED_SHORT_1_5_5_5_REV;
+            bytesPerPixel = 2;
         } else if (m_pixelFormat == RETRO_PIXEL_FORMAT_XRGB8888) {
-            for (unsigned y = 0; y < height; ++y) {
-                const uint32_t *srcRow =
-                    reinterpret_cast<const uint32_t *>(srcBase + y * pitch);
-                uint32_t *dstRow = dstBase + y * width;
-                for (unsigned x = 0; x < width; ++x) {
-                    uint32_t p = srcRow[x];
-                    uint8_t r = (p >> 16) & 0xFF;
-                    uint8_t g = (p >> 8) & 0xFF;
-                    uint8_t b = (p) & 0xFF;
-                    dstRow[x] = (r) | (g << 8) | (b << 16) | (0xFF << 24);
-                }
-            }
-        } else { // RETRO_PIXEL_FORMAT_0RGB1555
-            for (unsigned y = 0; y < height; ++y) {
-                const uint16_t *srcRow =
-                    reinterpret_cast<const uint16_t *>(srcBase + y * pitch);
-                uint32_t *dstRow = dstBase + y * width;
-                for (unsigned x = 0; x < width; ++x) {
-                    uint16_t p = srcRow[x];
-                    uint8_t r = (p >> 10) & 0x1F;
-                    uint8_t g = (p >> 5) & 0x1F;
-                    uint8_t b = (p) & 0x1F;
-                    r = (r << 3) | (r >> 2);
-                    g = (g << 3) | (g >> 2);
-                    b = (b << 3) | (b >> 2);
-                    dstRow[x] = (r) | (g << 8) | (b << 16) | (0xFF << 24);
-                }
-            }
+            format = GL_BGRA;
+            type = GL_UNSIGNED_INT_8_8_8_8_REV;
+            bytesPerPixel = 4;
+        } else if (m_pixelFormat == RETRO_PIXEL_FORMAT_RGB565) {
+            format = GL_RGB;
+            type = GL_UNSIGNED_SHORT_5_6_5;
+            bytesPerPixel = 2;
         }
 
-        glPixelStorei(GL_UNPACK_ROW_LENGTH, 0);
+        GLint unpackAlignment = 0;
+        GLint unpackRowLength = 0;
+        glGetIntegerv(GL_UNPACK_ALIGNMENT, &unpackAlignment);
+        glGetIntegerv(GL_UNPACK_ROW_LENGTH, &unpackRowLength);
+        glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
+        glPixelStorei(GL_UNPACK_ROW_LENGTH, static_cast<GLint>(pitch / bytesPerPixel));
 
         if (m_allocTexWidth != (int)width || m_allocTexHeight != (int)height)
         {
             glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0,
-                         GL_RGBA, GL_UNSIGNED_BYTE, m_videoBuffer.data());
+                         format, type, data);
             m_allocTexWidth = width;
             m_allocTexHeight = height;
         }
         else
         {
             glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, width, height,
-                            GL_RGBA, GL_UNSIGNED_BYTE, m_videoBuffer.data());
+                            format, type, data);
         }
 
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+        glPixelStorei(GL_UNPACK_ROW_LENGTH, unpackRowLength);
+        glPixelStorei(GL_UNPACK_ALIGNMENT, unpackAlignment);
+
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_SWIZZLE_A, GL_ONE);
     }
 
     // Apply post-processing shader if pipeline is ready
@@ -2288,8 +2223,8 @@ void TicoCore::ApplyShader(int srcWidth, int srcHeight)
         glBindTexture(GL_TEXTURE_2D, m_shaderTexture);
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, outW, outH, 0,
                      GL_RGBA, GL_UNSIGNED_BYTE, nullptr);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
         glBindTexture(GL_TEXTURE_2D, 0);
@@ -2327,22 +2262,16 @@ void TicoCore::ApplyShader(int srcWidth, int srcHeight)
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, m_frameTexture);
 
-    // For xBRZ/Eagle, use nearest filtering on the source
-    if (m_activeShader == ShaderType::xBRZ || m_activeShader == ShaderType::Eagle) {
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-    }
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
     // Draw fullscreen quad
     glBindVertexArray(m_shaderVAO);
     glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
     glBindVertexArray(0);
 
-    // Restore source texture filtering
-    if (m_activeShader == ShaderType::xBRZ || m_activeShader == ShaderType::Eagle) {
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    }
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
     glUseProgram(0);
 
