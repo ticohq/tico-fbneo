@@ -279,7 +279,7 @@ bool InitWindow()
     }
 
     eglSwapInterval(g_eglDisplay, 0);
-    LOG_INFO("EGL", "VSync disabled (eglSwapInterval=0), using manual frame pacing");
+    LOG_INFO("EGL", "VSync disabled (eglSwapInterval=0) — manual pacing keyed to core fps");
 
     LOG_INFO("HOME", "OpenGL %s initialized", glGetString(GL_VERSION));
 
@@ -906,20 +906,33 @@ int main(int argc, char *argv[])
     }
     else
     {
+#ifdef __SWITCH__
+        // Switch paces to the core's native fps (not a forced 60Hz), so the core
+        // emits its sample rate over real time 1:1 — feed the resampler the raw
+        // rate with no 60/fps stretch, otherwise audio pitch would be wrong.
+        g_audio.SetCoreSampleRate(g_core->GetSampleRate());
+        LOG_INFO("AUDIO", "Configured audio pipeline for %.0f Hz core output (native fps pacing)", g_core->GetSampleRate());
+#else
+        // Host uses vsync (forced ~60Hz), so stretch the audio to match.
         double adjustedSampleRate = g_core->GetSampleRate();
         if (g_core->GetFPS() > 0.0)
             adjustedSampleRate *= (60.0 / g_core->GetFPS());
         g_audio.SetCoreSampleRate(adjustedSampleRate);
-        LOG_INFO("AUDIO", "Configured audio pipeline for %.0f Hz core output (Stretched to match 60Hz)", g_core->GetSampleRate());
+        LOG_INFO("AUDIO", "Configured audio pipeline for %.0f Hz core output (stretched to 60Hz)", g_core->GetSampleRate());
+#endif
         g_core->InitShaderPipeline();
     }
 
     Uint32 lastTime = SDL_GetTicks();
 
 #ifdef __SWITCH__
-    // Manual frame pacing: 19.2 MHz system tick, target ~16.67ms per frame (60fps)
+    // Manual frame pacing keyed to the core's *actual* refresh rate. FBNeo arcade
+    // games run at many rates (CPS ~59.6, others 55-58, some >60), so a hard 60Hz
+    // vsync lock would run them fast/slow. vsync is off (eglSwapInterval=0); this
+    // sleep is the sole governor. Audio is non-blocking, so it never compounds
+    // with the pacing. The measurement includes the swap, so it self-corrects if
+    // the swapchain ever blocks.
     static constexpr uint64_t TICKS_PER_SECOND = 19200000ULL;
-    static constexpr uint64_t FRAME_TICKS = TICKS_PER_SECOND / 60; // ~320000 ticks
     uint64_t frameStart = svcGetSystemTick();
 #endif
 
@@ -949,14 +962,21 @@ int main(int argc, char *argv[])
         Render();
 
 #ifdef __SWITCH__
-        uint64_t frameEnd = svcGetSystemTick();
-        uint64_t elapsedTicks = frameEnd - frameStart;
-        if (elapsedTicks < FRAME_TICKS)
+        // Pace to the core's real frame period, unless fast-forwarding (uncapped).
+        if (!g_audio.IsFastForwarding())
         {
-            uint64_t remainingTicks = FRAME_TICKS - elapsedTicks;
-            int64_t sleepNs = (int64_t)((remainingTicks * 1000000000ULL) / TICKS_PER_SECOND);
-            if (sleepNs > 0)
-                svcSleepThread(sleepNs);
+            double fps = g_core ? g_core->GetFPS() : 60.0;
+            if (fps < 1.0)
+                fps = 60.0;
+            uint64_t frameTicks = (uint64_t)(TICKS_PER_SECOND / fps);
+            uint64_t elapsedTicks = svcGetSystemTick() - frameStart;
+            if (elapsedTicks < frameTicks)
+            {
+                uint64_t remainingTicks = frameTicks - elapsedTicks;
+                int64_t sleepNs = (int64_t)((remainingTicks * 1000000000ULL) / TICKS_PER_SECOND);
+                if (sleepNs > 0)
+                    svcSleepThread(sleepNs);
+            }
         }
 #endif
     }
