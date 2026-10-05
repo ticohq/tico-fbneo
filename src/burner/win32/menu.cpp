@@ -788,7 +788,7 @@ static void CreateCDItems()
 void MenuUpdateVolume()
 {
 	int var = MENU_AUDIO_VOLUME_0 + (nAudVolume / 1000);
-	CheckMenuRadioItem(hMenu, MENU_AUDIO_VOLUME_0, MENU_AUDIO_VOLUME_100, var, MF_BYCOMMAND);
+	CheckMenuRadioItem(hMenu, MENU_AUDIO_VOLUME_0, MENU_AUDIO_VOLUME_200, var, MF_BYCOMMAND);
 }
 
 void MenuUpdateSlowMo()
@@ -1159,6 +1159,10 @@ void MenuUpdate()
 			}
 			CheckMenuRadioItem(hMenu, MENU_DSOUND_NOSOUND, MENU_DSOUND_48000, var, MF_BYCOMMAND);
 			CheckMenuItem(hMenu, MENU_DSOUND_BASS, nAudDSPModule[0] ? MF_CHECKED : MF_UNCHECKED);
+			// DSound isn't able to amp volume above 0db, disable and sanity:
+			if (nAudVolume > 10000) nAudVolume = 10000; // 100%
+			EnableMenuItem(hMenu, MENU_AUDIO_VOLUME_150,			MF_GRAYED  | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_AUDIO_VOLUME_200,			MF_GRAYED  | MF_BYCOMMAND);
 			break;
 		}
 
@@ -1176,6 +1180,9 @@ void MenuUpdate()
 			CheckMenuRadioItem(hMenu, MENU_XAUDIO_NOSOUND, MENU_XAUDIO_48000, var, MF_BYCOMMAND);
 			CheckMenuItem(hMenu, MENU_XAUDIO_BASS, (nAudDSPModule[1] & 1) ? MF_CHECKED : MF_UNCHECKED);
 			CheckMenuItem(hMenu, MENU_XAUDIO_REVERB, (nAudDSPModule[1] & 2) ? MF_CHECKED : MF_UNCHECKED);
+			// XAudio2 is able to amp volume above 0db, enable:
+			EnableMenuItem(hMenu, MENU_AUDIO_VOLUME_150,			MF_ENABLED  | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_AUDIO_VOLUME_200,			MF_ENABLED  | MF_BYCOMMAND);
 			break;
 		}
 	}
@@ -1571,15 +1578,106 @@ void MenuEnableItems()
 		if ((BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK) == HARDWARE_SNK_NEOGEO) {
 			EnableMenuItem(hMenu, MENU_INTERPOLATE_1,				MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_INTERPOLATE_3,				MF_GRAYED | MF_BYCOMMAND);
+		}
 
+		if (HasMemCard()) {
 			if (!kNetGame) {
-				EnableMenuItem(hMenu, MENU_MEMCARD_CREATE,			MF_ENABLED | MF_BYCOMMAND);
-				EnableMenuItem(hMenu, MENU_MEMCARD_SELECT,			MF_ENABLED | MF_BYCOMMAND);
-				if (nMemoryCardStatus & 1) {
-					if (nMemoryCardStatus & 2) {
-						EnableMenuItem(hMenu, MENU_MEMCARD_EJECT,	MF_ENABLED | MF_BYCOMMAND);
-					} else {
-						EnableMenuItem(hMenu, MENU_MEMCARD_INSERT,	MF_ENABLED | MF_BYCOMMAND);
+#ifdef BUILD_PGM2
+				if (IsPGM2WithCards()) {
+					// PGM2 per-slot: dynamically rebuild "Memory Card..." submenu
+					static HMENU hPgm2CardPopup = NULL;
+
+					// Find the Memory Card popup (first time or after menu reset)
+					if (!hPgm2CardPopup || !IsMenu(hPgm2CardPopup)) {
+						hPgm2CardPopup = NULL;
+						HMENU hGameMenu = GetSubMenu(hMenu, 0);
+						if (hGameMenu) {
+							int nItems = GetMenuItemCount(hGameMenu);
+							for (int i = 0; i < nItems && !hPgm2CardPopup; i++) {
+								HMENU hSub = GetSubMenu(hGameMenu, i);
+								if (!hSub) continue;
+								int nSubItems = GetMenuItemCount(hSub);
+								for (int j = 0; j < nSubItems; j++) {
+									UINT nID = GetMenuItemID(hSub, j);
+									if (nID == MENU_MEMCARD_CREATE || nID == MENU_MEMCARD_PGM2_ID(0, 0)) {
+										hPgm2CardPopup = hSub;
+										break;
+									}
+									// Check nested submenus
+									HMENU hSub2 = GetSubMenu(hSub, j);
+									if (hSub2) {
+										int nSub2Items = GetMenuItemCount(hSub2);
+										for (int k = 0; k < nSub2Items; k++) {
+											UINT nID2 = GetMenuItemID(hSub2, k);
+											if (nID2 == MENU_MEMCARD_CREATE || nID2 == MENU_MEMCARD_PGM2_ID(0, 0)) {
+												hPgm2CardPopup = hSub2;
+												break;
+											}
+										}
+									}
+									if (hPgm2CardPopup) break;
+								}
+							}
+						}
+					}
+
+					if (hPgm2CardPopup) {
+						// Clear existing items
+						while (GetMenuItemCount(hPgm2CardPopup) > 0) {
+							DeleteMenu(hPgm2CardPopup, 0, MF_BYPOSITION);
+						}
+
+						// Build per-player submenus
+						TCHAR szBuf[128];
+						for (int s = 0; s < Pgm2MaxCardSlots; s++) {
+							HMENU hSlotMenu = CreatePopupMenu();
+							AppendMenu(hSlotMenu, MF_STRING, MENU_MEMCARD_PGM2_ID(s, 0), FBALoadStringEx(hAppInst, IDS_MEMCARD_CREATE, true));
+							AppendMenu(hSlotMenu, MF_STRING, MENU_MEMCARD_PGM2_ID(s, 1), FBALoadStringEx(hAppInst, IDS_MEMCARD_SELECT, true));
+							AppendMenu(hSlotMenu, MF_STRING, MENU_MEMCARD_PGM2_ID(s, 2), FBALoadStringEx(hAppInst, IDS_MEMCARD_INSERT, true));
+							AppendMenu(hSlotMenu, MF_STRING, MENU_MEMCARD_PGM2_ID(s, 3), FBALoadStringEx(hAppInst, IDS_MEMCARD_EJECT,  true));
+
+							// Enable/disable based on per-slot state
+							if (nPgm2CardStatus[s] & 1) {
+								if (nPgm2CardStatus[s] & 2) {
+									// Inserted: gray Insert, enable Eject
+									EnableMenuItem(hSlotMenu, MENU_MEMCARD_PGM2_ID(s, 2), MF_GRAYED | MF_BYCOMMAND);
+								} else {
+									// File selected but not inserted: enable Insert, gray Eject
+									EnableMenuItem(hSlotMenu, MENU_MEMCARD_PGM2_ID(s, 3), MF_GRAYED | MF_BYCOMMAND);
+								}
+							} else {
+								// No file: gray both Insert and Eject
+								EnableMenuItem(hSlotMenu, MENU_MEMCARD_PGM2_ID(s, 2), MF_GRAYED | MF_BYCOMMAND);
+								EnableMenuItem(hSlotMenu, MENU_MEMCARD_PGM2_ID(s, 3), MF_GRAYED | MF_BYCOMMAND);
+							}
+
+							// Build menu title with card filename if available
+							if (nPgm2CardStatus[s] & 1) {
+								TCHAR* pFileName = _tcsrchr(szPgm2CardFile[s], _T('\\'));
+								if (!pFileName) pFileName = _tcsrchr(szPgm2CardFile[s], _T('/'));
+								if (pFileName) pFileName++; else pFileName = szPgm2CardFile[s];
+								if (nPgm2CardStatus[s] & 2) {
+									_stprintf(szBuf, _T("P%d %s [%s] *"), s + 1, FBALoadStringEx(hAppInst, IDS_MEMCARD, true), pFileName);
+								} else {
+									_stprintf(szBuf, _T("P%d %s [%s]"), s + 1, FBALoadStringEx(hAppInst, IDS_MEMCARD, true), pFileName);
+								}
+							} else {
+								_stprintf(szBuf, _T("P%d %s"), s + 1, FBALoadStringEx(hAppInst, IDS_MEMCARD, true));
+							}
+							AppendMenu(hPgm2CardPopup, MF_POPUP, (UINT_PTR)hSlotMenu, szBuf);
+						}
+					}
+				} else
+#endif
+				{
+					EnableMenuItem(hMenu, MENU_MEMCARD_CREATE,			MF_ENABLED | MF_BYCOMMAND);
+					EnableMenuItem(hMenu, MENU_MEMCARD_SELECT,			MF_ENABLED | MF_BYCOMMAND);
+					if (nMemoryCardStatus & 1) {
+						if (nMemoryCardStatus & 2) {
+							EnableMenuItem(hMenu, MENU_MEMCARD_EJECT,	MF_ENABLED | MF_BYCOMMAND);
+						} else {
+							EnableMenuItem(hMenu, MENU_MEMCARD_INSERT,	MF_ENABLED | MF_BYCOMMAND);
+						}
 					}
 				}
 			}
@@ -1589,7 +1687,7 @@ void MenuEnableItems()
 			EnableMenuItem(hMenu, MENU_LOAD,			MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_ROMDATA,	MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_IPSPATCH,	MF_GRAYED | MF_BYCOMMAND);
-			EnableMenuItem(hMenu, MENU_LOAD_NEOGEOCD,	MF_GRAYED | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_LOAD_CDIMAGE,	MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_ARCHIVE,	MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_ROMDATA_MANAGER,	MF_GRAYED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_STARTNET,		MF_GRAYED | MF_BYCOMMAND);
@@ -1610,7 +1708,7 @@ void MenuEnableItems()
 			EnableMenuItem(hMenu, MENU_LOAD,			MF_ENABLED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_ROMDATA,	MF_ENABLED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_IPSPATCH,	MF_ENABLED | MF_BYCOMMAND);
-			EnableMenuItem(hMenu, MENU_LOAD_NEOGEOCD,	MF_ENABLED | MF_BYCOMMAND);
+			EnableMenuItem(hMenu, MENU_LOAD_CDIMAGE,	MF_ENABLED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_LOAD_ARCHIVE,	MF_ENABLED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_ROMDATA_MANAGER, MF_ENABLED | MF_BYCOMMAND);
 			EnableMenuItem(hMenu, MENU_STARTNET,		MF_ENABLED | MF_BYCOMMAND);
@@ -1697,7 +1795,7 @@ void MenuEnableItems()
 		EnableMenuItem(hMenu, MENU_LOAD,				MF_ENABLED | MF_BYCOMMAND);
 		EnableMenuItem(hMenu, MENU_LOAD_ROMDATA,		MF_ENABLED | MF_BYCOMMAND);
 		EnableMenuItem(hMenu, MENU_LOAD_IPSPATCH,		MF_ENABLED | MF_BYCOMMAND);
-		EnableMenuItem(hMenu, MENU_LOAD_NEOGEOCD,		MF_ENABLED | MF_BYCOMMAND);
+		EnableMenuItem(hMenu, MENU_LOAD_CDIMAGE,		MF_ENABLED | MF_BYCOMMAND);
 		EnableMenuItem(hMenu, MENU_LOAD_ARCHIVE,		MF_ENABLED | MF_BYCOMMAND);
 		EnableMenuItem(hMenu, MENU_ROMDATA_MANAGER,		MF_ENABLED | MF_BYCOMMAND);
 		EnableMenuItem(hMenu, ID_SLOMO_0,				MF_GRAYED  | MF_BYCOMMAND);

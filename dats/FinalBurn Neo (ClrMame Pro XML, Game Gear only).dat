@@ -158,6 +158,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="ascendm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Ascend Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Ascend Mini (2023)(Inufuto).gg" size="16384" crc="0765a5f1"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="astergre" sourcefile="sms/d_sms.cpp">
 		<description>Asterix and the Great Rescue (Euro)</description>
 		<year>1993</year>
@@ -197,6 +206,15 @@
 		<year>1993</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Asterix and the Secret Mission (Euro)(1993)(Sega).gg" size="524288" crc="c01a8051"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="awassm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Awass Micro (HB)</description>
+		<year>2026</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Awass Micro (2026)(Inufuto).gg" size="16384" crc="eb97874d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -340,6 +358,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="battlotm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Battlot Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Battlot Mini (2023)(Inufuto).gg" size="16384" crc="6287b42e"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="beavis" sourcefile="sms/d_sms.cpp">
 		<description>Beavis and Butt-head (Euro, USA)</description>
 		<year>1994</year>
@@ -417,6 +444,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="bcastle" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Black Castle (HB, 20240523)</description>
+		<year>2023-24</year>
+		<manufacturer>toxa</manufacturer>
+		<rom name="Black Castle 20240523 (2023-24)(toxa).gg" size="65536" crc="ee80f563"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="bonkersp09" cloneof="bonkers" romof="bonkers" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>Bonkers Wax Up! (Prototype, 19941126)</description>
@@ -432,6 +468,15 @@
 		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Bonkers Wax Up! (Proto, 19941129)(Sega).gg" size="524288" crc="ad6a62fa"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="bootskellm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Bootskell Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Bootskell Mini (2023)(Inufuto).gg" size="16384" crc="58233b4a"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -555,6 +600,15 @@
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Castle of Illusion Starring Mickey Mouse (Euro, USA, SMS Mode)(1991)(Sega).gg" size="262144" crc="59840fd6"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="cavitm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Cavit Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Cavit Mini (2023)(Inufuto).gg" size="16384" crc="7ec76ec0"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -752,6 +806,15 @@
 		<year>1993</year>
 		<manufacturer>Codemasters</manufacturer>
 		<rom name="Cosmic Spacehead (Euro)(1993)(Codemasters).gg" size="262144" crc="6caa625b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="crackym" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Cracky Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Cracky Mini (2023)(Inufuto).gg" size="16368" crc="f76913ed"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -1399,6 +1462,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="frayte" cloneof="fray" romof="fray" sourcefile="sms/d_sms.cpp">
+		<comment>Hack</comment>
+		<description>Fray: Shugyouhen (Hack, English)</description>
+		<year>2026</year>
+		<manufacturer>BacklogOddy</manufacturer>
+		<rom name="Fray - Shugyou Hen T-Eng (2026)(BacklogOddy).gg" size="262144" crc="3ac4575b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="fray" sourcefile="sms/d_sms.cpp">
 		<description>Fray: Shugyouhen (Japan)</description>
 		<year>1991</year>
@@ -1634,6 +1706,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="gluf" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>GLUF Tesla Frog (HB, v1.2)</description>
+		<year>2026</year>
+		<manufacturer>Tony &amp; Co.</manufacturer>
+		<rom name="GLUF Tesla Frog v1.2 (2026)(Tony &amp; Co.).gg" size="131072" crc="2acb2043"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="godzillae" cloneof="godzilla" romof="godzilla" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
 		<description>Godzilla: Kaijuu Daishingeki (Hack, English v1.1)</description>
@@ -1709,6 +1790,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="guntusm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Guntus Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Guntus Mini (2023)(Inufuto).gg" size="16384" crc="518c4c44"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="halleyw" sourcefile="sms/d_sms.cpp">
 		<description>Halley Wars (Euro, USA, Brazil)</description>
 		<year>1991</year>
@@ -1749,6 +1839,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="hongkong97" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Hong Kong '97 (HB, v0.0.1)</description>
+		<year>2026</year>
+		<manufacturer>SirVH</manufacturer>
+		<rom name="Hong Kong '97 v0.0.1 (2026)(SirVH).gg" size="524288" crc="d2f8b283"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="ddanpei" sourcefile="sms/d_sms.cpp">
 		<description>Honoo no Toukyuuji Dodge Danpei (Japan)</description>
 		<year>1992</year>
@@ -1776,7 +1875,7 @@
 	<game name="hopmanm" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
 		<description>Hopman Mini (HB)</description>
-		<year>2025</year>
+		<year>2023</year>
 		<manufacturer>Inufuto</manufacturer>
 		<rom name="Hopman Mini (2023)(Inufuto).gg" size="16368" crc="84fd672d"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
@@ -2197,6 +2296,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="liftm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Lift Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Lift Mini (2023)(Inufuto).gg" size="10873" crc="e7b92d77"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="lostwrld" sourcefile="sms/d_sms.cpp">
 		<description>Lost World, The - Jurassic Park (USA)</description>
 		<year>1997</year>
@@ -2401,6 +2509,15 @@
 		<year>1993</year>
 		<manufacturer>Sega - SIMS Co.</manufacturer>
 		<rom name="Master of Darkness (Euro)(1993)(Sega - SIMS Co.).gg" size="262144" crc="07d0eb42"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="mazy2m" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Mazy 2 Micro (HB)</description>
+		<year>2025</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Mazy 2 Micro (2025)(Inufuto).gg" size="16384" crc="af6e6cbc"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -2796,6 +2913,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="neurasm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Neuras Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Neuras Mini (2023)(Inufuto).gg" size="16384" crc="a2b97db3"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="nfl95p03" cloneof="nfl95" romof="nfl95" sourcefile="sms/d_sms.cpp">
 		<comment>Prototype</comment>
 		<description>NFL '95 (Prototype, 19940912)</description>
@@ -2951,6 +3077,15 @@
 		<year>1992</year>
 		<manufacturer>U.S. Gold</manufacturer>
 		<rom name="Olympic Gold (Japan, USA, v0, SMS Mode)(1992)(U.S. Gold).gg" size="262144" crc="a2f9c7af"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="osotosm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Osotos Mini (HB)</description>
+		<year>2024</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Osotos Mini (2024)(Inufuto).gg" size="16384" crc="3dca13e6"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3232,8 +3367,8 @@
 	<game name="pstrike2" sourcefile="sms/d_sms.cpp">
 		<description>Power Strike II (Euro) ~ GG Aleste II (Japan)</description>
 		<year>1993</year>
-		<manufacturer>Sega</manufacturer>
-		<rom name="Power Strike II - GG Aleste II (Euro, Japan)(1993)(Sega).gg" size="262144" crc="09de1528"/>
+		<manufacturer>Sega - Compile</manufacturer>
+		<rom name="Power Strike II - GG Aleste II (Euro, Japan)(1993)(Sega - Compile).gg" size="262144" crc="09de1528"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3308,6 +3443,15 @@
 		<year>1991</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="Psychic World (Euro, USA, Brazil)(1991)(Sega).gg" size="131072" crc="73779b22"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="psychicwpt" cloneof="psychicw" romof="psychicw" sourcefile="sms/d_sms.cpp">
+		<comment>Hack</comment>
+		<description>Psychic World (Hack, Portuguese v1.08)</description>
+		<year>2019</year>
+		<manufacturer>Antigeno</manufacturer>
+		<rom name="Psychic World T-Por v1.08 (2019)(Antigeno).gg" size="131072" crc="e8cf96ad"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -3440,6 +3584,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="ringdashgg" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Ring Dash GG (HB)</description>
+		<year>2025</year>
+		<manufacturer>Brig78</manufacturer>
+		<rom name="Ring Dash GG (2025)(Brig78).gg" size="131072" crc="471c09b7"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="riserobo" sourcefile="sms/d_sms.cpp">
 		<description>Rise of the Robots (Euro, USA)</description>
 		<year>1994</year>
@@ -3526,7 +3679,7 @@
 	<game name="ruptusm" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
 		<description>Ruptus Mini (HB)</description>
-		<year>2025</year>
+		<year>2023</year>
 		<manufacturer>Inufuto</manufacturer>
 		<rom name="Ruptus Mini (2023)(Inufuto).gg" size="16384" crc="591350a8"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
@@ -4429,6 +4582,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="swordworkm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>SwordWork Micro (HB)</description>
+		<year>2026</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="SwordWork Micro (2026)(Inufuto).gg" size="16384" crc="b45207a9"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="sylvane" cloneof="sylvan" romof="sylvan" sourcefile="sms/d_sms.cpp">
 		<comment>Hack</comment>
 		<description>Sylvan Tale (Hack, English)</description>
@@ -4547,6 +4709,15 @@
 		<year>1994</year>
 		<manufacturer>GameTek</manufacturer>
 		<rom name="Tarzan - Lord of the Jungle (Euro)(1994)(GameTek).gg" size="262144" crc="ef3afe8b"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="tarzanpt" cloneof="tarzan" romof="tarzan" sourcefile="sms/d_sms.cpp">
+		<comment>Hack</comment>
+		<description>Tarzan: Lord of the Jungle (Hack, Portuguese v1.03)</description>
+		<year>2026</year>
+		<manufacturer>Antigeno</manufacturer>
+		<rom name="Tarzan - Lord of the Jungle T-Por v1.03 (2026)(Antigeno).gg" size="262144" crc="88e1a294"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4671,10 +4842,10 @@
 	</game>
 	<game name="tetris4gg" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Tetris4GG (HB, v0.9)</description>
-		<year>2022</year>
+		<description>Tetris4GG (HB)</description>
+		<year>2026</year>
 		<manufacturer>Armix</manufacturer>
-		<rom name="Tetris4GG v0.9 (2022)(Armix).gg" size="65536" crc="e0654d27"/>
+		<rom name="Tetris4GG (2026)(Armix).gg" size="131072" crc="8ada9c7c"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4718,6 +4889,15 @@
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
+	<game name="uchotosm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Uchotos Micro (HB)</description>
+		<year>2026</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Uchotos Micro (2026)(Inufuto).gg" size="16384" crc="fcb06b02"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
 	<game name="ultsoccr" sourcefile="sms/d_sms.cpp">
 		<description>Ultimate Soccer (Euro, Japan, Brazil)</description>
 		<year>1993</year>
@@ -4744,10 +4924,10 @@
 	</game>
 	<game name="vexed" sourcefile="sms/d_sms.cpp">
 		<comment>Homebrew</comment>
-		<description>Vexed (HB, v1.08)</description>
-		<year>2023</year>
+		<description>Vexed (HB, v1.15)</description>
+		<year>2023-24</year>
 		<manufacturer>Under4Mhz</manufacturer>
-		<rom name="Vexed v1.08 (2023)(Under4Mhz).gg" size="32768" crc="36e8fa84"/>
+		<rom name="Vexed v1.15 (2023-24)(Under4Mhz).gg" size="32768" crc="3c456bbf"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -4854,6 +5034,15 @@
 		<year>1993</year>
 		<manufacturer>Virgin Interactive</manufacturer>
 		<rom name="Wolfchild (Euro)(1993)(Virgin Interactive).gg" size="262144" crc="840a8f8e"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="wolfenstein" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Wolfenstein (HB, v1.16)</description>
+		<year>2023</year>
+		<manufacturer>Under4Mhz</manufacturer>
+		<rom name="Wolfenstein v1.16 (2023)(Under4Mhz).gg" size="524288" crc="c2760884"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>
@@ -5003,6 +5192,15 @@
 		<year>2022</year>
 		<manufacturer>Habit Soft</manufacturer>
 		<rom name="Yakitori Meijin Torigin (2022)(Habit Soft).gg" size="65536" crc="bfb52bb3"/>
+		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
+		<driver status="good"/>
+	</game>
+	<game name="yewdowm" sourcefile="sms/d_sms.cpp">
+		<comment>Homebrew</comment>
+		<description>Yewdow Mini (HB)</description>
+		<year>2023</year>
+		<manufacturer>Inufuto</manufacturer>
+		<rom name="Yewdow Mini (2023)(Inufuto).gg" size="16384" crc="52cb91df"/>
 		<video type="raster" orientation="horizontal" width="256" height="192" aspectx="4" aspecty="3"/>
 		<driver status="good"/>
 	</game>

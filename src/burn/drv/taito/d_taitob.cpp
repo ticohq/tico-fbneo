@@ -1469,8 +1469,10 @@ static struct BurnDIPInfo Rambo3DIPList[]=
 	{0x18, 0x01, 0x08, 0x00, "Trackball"		},
 
 	{0   , 0xfe, 0   ,    2, "Lightgun Mode for Trackball (Hack)" },
-	{0x19, 0x01, 0x01, 0x01, "On"				},
-	{0x19, 0x01, 0x01, 0x00, "Off"				},
+	{0x19, 0x82, 0x01, 0x01, "On"				},
+	{0x18, 0x00, 0x08, 0x08, NULL				},
+	{0x19, 0x82, 0x01, 0x00, "Off"				},
+	{0x18, 0x00, 0x08, 0x08, NULL				},
 
 };
 
@@ -2824,7 +2826,7 @@ static void __fastcall hitice_write_word(UINT32 a, UINT16 d)
 	TC0220IOCHalfWordWrite_Map(0x600000)
 
 	if (a >= 0xb00000 && a <= 0xb7ffff) {
-		*((UINT16*)(DrvPxlRAM + (a & 0x7fffe))) = d;
+		*((UINT16*)(DrvPxlRAM + (a & 0x7fffe))) = BURN_ENDIAN_SWAP_INT16(d);
 		hiticeFramebufferUpdate(a);
 		return;
 	}

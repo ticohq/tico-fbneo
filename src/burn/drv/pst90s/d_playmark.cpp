@@ -228,7 +228,7 @@ static struct BurnInputInfo WbeachvlInputList[] = {
 
 	{"Reset",		       BIT_DIGITAL,	 &DrvReset,			 "reset"	 },
 	{"Service",		       BIT_DIGITAL,	  DrvInputPort0 + 4, "service"	 },
-	{"Dip A",		       BIT_DIPSWITCH, DrvDip + 0,		 "dip"		 },
+	{"Service Mode",       BIT_DIGITAL,   DrvInputPort0 + 5, "diag"      },
 };
 
 STDINPUTINFO(Wbeachvl)
@@ -574,17 +574,6 @@ static struct BurnDIPInfo HrdtimesDIPList[]=
 
 STDDIPINFO(Hrdtimes)
 
-static struct BurnDIPInfo WbeachvlDIPList[]=
-{
-	{0x26, 0xff, 0xff, 0xff, NULL					  },
-
-	{0   , 0xfe, 0   ,    2, "Service Mode"			  },
-	{0x26, 0x01, 0x20, 0x20, "Off"					  },
-	{0x26, 0x01, 0x20, 0x00, "On"					  },
-};
-
-STDDIPINFO(Wbeachvl)
-
 static struct BurnDIPInfo LuckboomhDIPList[]=
 {
 	{0x09, 0xff, 0xff, 0xff, NULL					 },
@@ -689,7 +678,7 @@ static void __fastcall DrvWriteWord(UINT32 a, UINT16 d)
 
 	if ((a & 0xfff800) == 0x780000) {
 		UINT16 *PalRam = (UINT16*)BurnPalRAM;
-		PalRam[(a & 0x7ff) >> 1] = d;
+		PalRam[(a & 0x7ff) >> 1] = BURN_ENDIAN_SWAP_INT16(d);
 		BurnPaletteWrite_RRRRGGGGBBBBRGBx(a & 0x7fe);
 		return;
 	}
@@ -825,7 +814,7 @@ static void __fastcall HotmindWriteWord(UINT32 a, UINT16 d)
 {
 	if ((a & 0xfff800) == 0x280000) {
 		UINT16 *PalRam = (UINT16*)BurnPalRAM;
-		PalRam[(a & 0x7ff) >> 1] = d;
+		PalRam[(a & 0x7ff) >> 1] = BURN_ENDIAN_SWAP_INT16(d);
 		BurnPaletteWrite_RRRRGGGGBBBBRGBx(a & 0x7fe);
 		return;
 	}
@@ -892,6 +881,9 @@ static UINT8 __fastcall WbeachvlReadByte(UINT32 a)
 		case 0x71001b:
 			return DrvInput[4];
 
+		case 0x71001d:
+			return 0; //?
+
 		default:
 			bprintf(PRINT_NORMAL, _T("Read byte -> %06X\n"), a);
 	}
@@ -938,12 +930,22 @@ static void __fastcall WbeachvlWriteWord(UINT32 a, UINT16 d)
 	if ((a & 0xfff000) == 0x780000) {
 		UINT16 *PalRam = (UINT16*)BurnPalRAM;
 		INT32 Offset = (a & 0xfff) >> 1;
-		PalRam[Offset] = d;
+		PalRam[Offset] = BURN_ENDIAN_SWAP_INT16(d);
 		CalcCol(Offset, d);
 		return;
 	}
 
 	switch (a) {
+
+		case 0x441002:
+		case 0x441004:
+		case 0x441006:
+		case 0x441008:
+		case 0x44100a:
+		case 0x44100c:
+		case 0x44100e:
+			return; // ?
+
 		case 0x510000:
 			DrvCharScrollX = d + 2;
 		return;
@@ -971,6 +973,11 @@ static void __fastcall WbeachvlWriteWord(UINT32 a, UINT16 d)
 		return;
 
 		case 0x51000c: // nop
+		return;
+
+		case 0x71001e:
+			// sound command in service mode comes from word write
+            WbeachvlWriteByte(0x71001f, d & 0xff);
 		return;
 
 		default:
@@ -1237,7 +1244,7 @@ static tilemap_callback( tx )
 static tilemap_callback( hm_bg )
 {
 	UINT16 *VideoRam = (UINT16*)DrvBgVideoRAM;
-	INT32 attr = VideoRam[offs];
+	INT32 attr = BURN_ENDIAN_SWAP_INT16(VideoRam[offs]);
 
 	TILE_SET_INFO(2, attr, attr >> 13, 0);
 }
@@ -1250,7 +1257,7 @@ static tilemap_scan( hardtimes )
 static tilemap_callback( hm_fg )
 {
 	UINT16 *VideoRam = (UINT16*)DrvFgVideoRAM;
-	INT32 attr = VideoRam[offs];
+	INT32 attr = BURN_ENDIAN_SWAP_INT16(VideoRam[offs]);
 
 	TILE_SET_INFO(3, attr, attr >> 13, 0);
 }
@@ -1274,8 +1281,8 @@ static tilemap_callback( btb_tx )
 static tilemap_callback( wbv_tx )
 {
 	UINT16 *ram = (UINT16*)DrvTxVideoRAM;
-	INT32 code = ram[2 * offs];
-	INT32 color = ram[2 * offs + 1];
+	INT32 code = BURN_ENDIAN_SWAP_INT16(ram[2 * offs]);
+	INT32 color = BURN_ENDIAN_SWAP_INT16(ram[2 * offs + 1]);
 
 	TILE_SET_INFO(1, code, (color >> 2), 0);
 }
@@ -1283,8 +1290,8 @@ static tilemap_callback( wbv_tx )
 static tilemap_callback( wbv_fg )
 {
 	UINT16 *ram = (UINT16*)DrvFgVideoRAM;
-	INT32 code = ram[2 * offs];
-	INT32 color = ram[2 * offs + 1];
+	INT32 code = BURN_ENDIAN_SWAP_INT16(ram[2 * offs]);
+	INT32 color = BURN_ENDIAN_SWAP_INT16(ram[2 * offs + 1]);
 
 	TILE_SET_INFO(3, code & 0x7fff, color >> 2, (code & 0x8000) ? TILE_FLIPX : 0);
 }
@@ -1292,8 +1299,8 @@ static tilemap_callback( wbv_fg )
 static tilemap_callback( wbv_bg )
 {
 	UINT16 *ram = (UINT16*)DrvBgVideoRAM;
-	INT32 code = ram[2 * offs];
-	INT32 color = ram[2 * offs + 1];
+	INT32 code = BURN_ENDIAN_SWAP_INT16(ram[2 * offs]);
+	INT32 color = BURN_ENDIAN_SWAP_INT16(ram[2 * offs + 1]);
 
 	TILE_SET_INFO(2, code & 0x7fff, color >> 2, (code & 0x8000) ? TILE_FLIPX : 0);
 }
@@ -1769,7 +1776,7 @@ static void bigtwinb_draw_sprites(INT32 xAdjust, INT32 yAdjust)
 
 	for (INT32 offs = 4; offs < 0x400 / 2; offs += 4)
 	{
-		if (SpriteRam[offs + 3 - 4] == 0x2000) // end of list marker
+		if (BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 3 - 4]) == 0x2000) // end of list marker
 		{
 			start_offset = offs - 4;
 			break;
@@ -1778,13 +1785,13 @@ static void bigtwinb_draw_sprites(INT32 xAdjust, INT32 yAdjust)
 
 	for (INT32 offs = start_offset; offs >= 4; offs -= 4)
 	{
-		int sy = SpriteRam[offs + 3 - 4];   // -4? what the... ???
+		int sy = BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 3 - 4]);   // -4? what the... ???
 
 		int flipx = sy & 0x4000;
-		int sx = (SpriteRam[offs + 1] & 0x01ff) - 16 - 7;
+		int sx = (BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 1]) & 0x01ff) - 16 - 7;
 		sy = (256 - 8 - 16 - sy) & 0xff;
-		int code = SpriteRam[offs + 2] >> 4;
-		int color = ((SpriteRam[offs + 1] & 0xf000) >> 12);
+		int code = BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 2]) >> 4;
+		int color = ((BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 1]) & 0xf000) >> 12);
 
 		DrawGfxMaskTile(0, 0, code, sx + xAdjust, sy + yAdjust, flipx, 0, color, 0);
 	}
@@ -1799,7 +1806,7 @@ static void draw_sprites(INT32 codeshift, INT32 ram_size, INT32 xAdjust, INT32 y
 
 	for (INT32 offs = 4; offs < ram_size / 2; offs += 4)
 	{
-		if (SpriteRam[offs + 3 - 4] == 0x2000) // end of list marker
+		if (BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 3 - 4]) == 0x2000) // end of list marker
 		{
 			start_offset = offs - 4;
 			break;
@@ -1808,14 +1815,14 @@ static void draw_sprites(INT32 codeshift, INT32 ram_size, INT32 xAdjust, INT32 y
 
 	for (INT32 offs = start_offset; offs >= 4; offs -= 4)
 	{
-		INT32 sy = SpriteRam[offs + 3 - 4];
+		INT32 sy = BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 3 - 4]);
 
 		INT32 flipx = sy & 0x4000;
-		INT32 sx = (SpriteRam[offs + 1] & 0x01ff) - 16 - 7;
+		INT32 sx = (BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 1]) & 0x01ff) - 16 - 7;
 		sy = (256 - 8 - pGfx->height - sy) & 0xff;
-		INT32 code = SpriteRam[offs + 2] >> codeshift;
-		INT32 color = ((SpriteRam[offs + 1] & 0x3e00) >> 9) / color_divider;
-		INT32 pri = (SpriteRam[offs + 1] & 0x8000) >> 15;
+		INT32 code = BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 2]) >> codeshift;
+		INT32 color = ((BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 1]) & 0x3e00) >> 9) / color_divider;
+		INT32 pri = (BURN_ENDIAN_SWAP_INT16(SpriteRam[offs + 1]) & 0x8000) >> 15;
 
 		if(!pri && (color & 0x0c) == 0x0c)
 			pri = 2;
@@ -1830,7 +1837,7 @@ static void DrvRenderBitmap()
 
 	for (INT32 y = 0, Count = 0; y < 512; y++) {
 		for (INT32 x = 0; x < 512; x++) {
-			INT32 Colour = VideoRam[Count] & 0xff;
+			INT32 Colour = BURN_ENDIAN_SWAP_INT16(VideoRam[Count]) & 0xff;
 
 			if (Colour) {
 				if (DrvBgFullSize) {
@@ -1996,7 +2003,7 @@ static INT32 WbeachvlRender()
 
 		for (INT32 i = 0; i < 256; i++)
 		{
-			GenericTilemapSetScrollRow(1, i+1, rs[i*8]);
+			GenericTilemapSetScrollRow(1, i+1, BURN_ENDIAN_SWAP_INT16(rs[i*8]));
 		}
 	}
 	else
@@ -2176,7 +2183,7 @@ struct BurnDriver BurnDrvBigtwin = {
 };
 
 
-// Big Twin (No Girls Conversion)
+// Big Twin (No Girls Conversion,  set 1)
 
 static struct BurnRomInfo bigtwinbRomDesc[] = {
 	{ "2.u67",							0x20000, 0xf5cdf1a9, 1 | BRF_PRG | BRF_ESS }, //  0 68000 Program Code
@@ -2202,10 +2209,45 @@ STD_ROM_FN(bigtwinb)
 
 struct BurnDriver BurnDrvBigtwinb = {
 	"bigtwinb", "bigtwin", NULL, NULL, "1995",
-	"Big Twin (No Girls Conversion)\0", NULL, "Playmark", "Miscellaneous",
+	"Big Twin (No Girls Conversion, set 1)\0", NULL, "Playmark", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE, 2, HARDWARE_MISC_POST90S, GBF_PUZZLE, 0,
 	NULL, bigtwinbRomInfo, bigtwinbRomName, NULL, NULL, NULL, NULL, BigtwinbInputInfo, BigtwinbDIPInfo,
+	BigtwinbInit, DrvExit, DrvFrame, BigtwinbRender, DrvScan, &BurnRecalc, 0x400,
+	320, 240, 4, 3
+};
+
+
+// Big Twin (No Girls Conversion,  set 2)
+
+static struct BurnRomInfo bigtwincRomDesc[] = {
+	{ "2.u67",							0x20000, 0x0fdfeaef, 1 | BRF_PRG | BRF_ESS }, //  0 68000 Program Code
+	{ "3.u66",							0x20000, 0x67464a4e, 1 | BRF_PRG | BRF_ESS }, //  1
+
+	{ "pic16c57-hs_bigtwin_015.hex",	0x02d4c, 0xc07e9375, 2 | BRF_PRG | BRF_ESS }, //  2 PIC16C57 HEX
+
+	{ "4.u36",							0x40000, 0x99aaeacc, 6 | BRF_GRA },           //  3 Tiles
+	{ "5.u42",							0x40000, 0x5c1dfd72, 6 | BRF_GRA },           //  4
+	{ "6.u39",							0x40000, 0x788f2df6, 6 | BRF_GRA },           //  5
+	{ "7.u45",							0x40000, 0xaedb2e6d, 6 | BRF_GRA },           //  6
+
+	{ "11.u86",							0x20000, 0x2749644d, 4 | BRF_GRA },           //  7 Sprites
+	{ "10.u85",							0x20000, 0x1d1897af, 4 | BRF_GRA },           //  8
+	{ "9.u84",							0x20000, 0x2a03432e, 4 | BRF_GRA },           //  9
+	{ "8.u83",							0x20000, 0x2c980c4c, 4 | BRF_GRA },           // 10
+
+	{ "io13.bin",						0x40000, 0xff6671dc, 5 | BRF_SND },           // 11 Samples
+};
+
+STD_ROM_PICK(bigtwinc)
+STD_ROM_FN(bigtwinc)
+
+struct BurnDriver BurnDrvBigtwinc = {
+	"bigtwinc", "bigtwin", NULL, NULL, "1995",
+	"Big Twin (No Girls Conversion, set 2)\0", NULL, "Playmark", "Miscellaneous",
+	NULL, NULL, NULL, NULL,
+	BDF_GAME_WORKING | BDF_CLONE, 2, HARDWARE_MISC_POST90S, GBF_PUZZLE, 0,
+	NULL, bigtwincRomInfo, bigtwincRomName, NULL, NULL, NULL, NULL, BigtwinbInputInfo, BigtwinbDIPInfo,
 	BigtwinbInit, DrvExit, DrvFrame, BigtwinbRender, DrvScan, &BurnRecalc, 0x400,
 	320, 240, 4, 3
 };
@@ -2289,7 +2331,7 @@ struct BurnDriver BurnDrvExcelsra = {
 };
 
 
-// Hot Mind (Hard Times hardware)
+// Hot Mind (Hard Times hardware, set 1)
 
 static struct BurnRomInfo HotmindRomDesc[] = {
 	{ "21.u67",            				0x20000, 0xe9000f7f, 1 | BRF_ESS | BRF_PRG }, //  0	68000 Program Code
@@ -2323,10 +2365,54 @@ STD_ROM_FN(Hotmind)
 
 struct BurnDriver BurnDrvHotmind = {
 	"hotmind", NULL, NULL, NULL, "1995",
-	"Hot Mind (Hard Times hardware)\0", NULL, "Playmark", "Misc",
+	"Hot Mind (Hard Times hardware, set 1)\0", NULL, "Playmark", "Misc",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING, 2, HARDWARE_MISC_POST90S, GBF_PUZZLE, 0,
 	NULL, HotmindRomInfo, HotmindRomName, NULL, NULL, NULL, NULL, HotmindInputInfo, HotmindDIPInfo,
+	HotmindInit, DrvExit, DrvFrame, HotmindRender, DrvScan, &BurnRecalc, 0x400,
+	320, 224, 4, 3
+};
+
+
+// Hot Mind (Hard Times hardware, set 2)
+// PCB marked Hard Times 28-06-94
+
+static struct BurnRomInfo HotmindcRomDesc[] = {
+	{ "1.u67",            				0x20000, 0x35b0f62d, 1 | BRF_ESS | BRF_PRG }, //  0	68000 Program Code
+	{ "2.u66",            				0x20000, 0x1a27033f, 1 | BRF_ESS | BRF_PRG }, //  1
+
+	{ "hotmind_pic16c57.hex", 			0x02d4c, 0x11957803, 2 | BRF_ESS | BRF_PRG }, //  2	PIC16C57 HEX
+
+	{ "23.u36",            				0x20000, 0xddcf60b9, 6 | BRF_GRA },			  //  3	Tiles
+	{ "27.u42",            				0x20000, 0x413bbcf4, 6 | BRF_GRA },			  //  4
+	{ "24.u39",            				0x20000, 0x4baa5b4c, 6 | BRF_GRA },			  //  5
+	{ "28.u45",            				0x20000, 0x8df34d6a, 6 | BRF_GRA },			  //  6
+
+	{ "26.u86",            				0x20000, 0xff8d3b75, 7 | BRF_GRA },			  //  7	Sprites
+	{ "30.u85",            				0x20000, 0x87a640c7, 7 | BRF_GRA },			  //  8
+	{ "25.u84",            				0x20000, 0xc4fd4445, 7 | BRF_GRA },			  //  9
+	{ "29.u83",           				0x20000, 0x0bebfb53, 7 | BRF_GRA },			  // 10
+
+	{ "20.io13",           				0x40000, 0x0bf3a3e5, 5 | BRF_SND },			  // 11	Samples
+
+	{ "hotmind_pic16c57-hs_io15.hex", 	0x02d4c, 0xf3300d13, 0 | BRF_OPT },			  // 12 PALs
+	{ "palce16v8h-25-pc4_u58.jed",    	0x00b89, 0xba88c1da, 0 | BRF_OPT },			  // 13
+	{ "palce16v8h-25-pc4_u182.jed",   	0x00b89, 0xba88c1da, 0 | BRF_OPT },			  // 14
+	{ "palce16v8h-25-pc4_jamma.jed",  	0x00b89, 0xba88c1da, 0 | BRF_OPT },			  // 15
+	{ "tibpal22v10acnt_u113.jed",     	0x01e84, 0x94106c63, 0 | BRF_OPT },			  // 16
+	{ "tibpal22v10acnt_u183.jed",     	0x01e84, 0x95a446b6, 0 | BRF_OPT },			  // 17
+	{ "tibpal22v10acnt_u211.jed",     	0x01e84, 0x94106c63, 0 | BRF_OPT },			  // 18
+}; 
+
+STD_ROM_PICK(Hotmindc)
+STD_ROM_FN(Hotmindc)
+
+struct BurnDriver BurnDrvHotmindc = {
+	"hotmindc", "hotmind", NULL, NULL, "1995",
+	"Hot Mind (Hard Times hardware, set 2)\0", NULL, "Playmark", "Misc",
+	NULL, NULL, NULL, NULL,
+	BDF_GAME_WORKING | BDF_CLONE, 2, HARDWARE_MISC_POST90S, GBF_PUZZLE, 0,
+	NULL, HotmindcRomInfo, HotmindcRomName, NULL, NULL, NULL, NULL, HotmindInputInfo, HotmindDIPInfo,
 	HotmindInit, DrvExit, DrvFrame, HotmindRender, DrvScan, &BurnRecalc, 0x400,
 	320, 224, 4, 3
 };
@@ -2466,7 +2552,7 @@ struct BurnDriver BurnDrvWbeachvl = {
 	"World Beach Volley (set 1, PIC16C57 audio CPU)\0", NULL, "Playmark", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_HISCORE_SUPPORTED, 4, HARDWARE_MISC_POST90S, GBF_SPORTSMISC, 0,
-	NULL, wbeachvlRomInfo, wbeachvlRomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, WbeachvlDIPInfo,
+	NULL, wbeachvlRomInfo, wbeachvlRomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, NULL,
 	WbeachvlInit, DrvExit, DrvFrame, WbeachvlRender, DrvScan, &BurnRecalc, 0x800,
 	320, 240, 4, 3
 };
@@ -2506,7 +2592,7 @@ struct BurnDriverX BurnDrvWbeachvla = {
 	"World Beach Volley (set 1, S87C751 audio CPU)\0", "No sound, use parent!", "Playmark", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_NOT_WORKING | BDF_CLONE, 4, HARDWARE_MISC_POST90S, GBF_SPORTSMISC, 0,
-	NULL, wbeachvlaRomInfo, wbeachvlaRomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, WbeachvlDIPInfo,
+	NULL, wbeachvlaRomInfo, wbeachvlaRomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, NULL,
 	WbeachvlInit, DrvExit, DrvFrame, WbeachvlRender, DrvScan, &BurnRecalc, 0x800,
 	320, 240, 4, 3
 };
@@ -2544,7 +2630,7 @@ struct BurnDriver BurnDrvWbeachvl2 = {
 	"World Beach Volley (set 2)\0", NULL, "Playmark", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE | BDF_HISCORE_SUPPORTED, 4, HARDWARE_MISC_POST90S, GBF_SPORTSMISC, 0,
-	NULL, wbeachvl2RomInfo, wbeachvl2RomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, WbeachvlDIPInfo,
+	NULL, wbeachvl2RomInfo, wbeachvl2RomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, NULL,
 	WbeachvlInit, DrvExit, DrvFrame, WbeachvlRender, DrvScan, &BurnRecalc, 0x800,
 	320, 240, 4, 3
 };
@@ -2582,7 +2668,7 @@ struct BurnDriver BurnDrvWbeachvl3 = {
 	"World Beach Volley (set 3)\0", NULL, "Playmark", "Miscellaneous",
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE | BDF_HISCORE_SUPPORTED, 4, HARDWARE_MISC_POST90S, GBF_SPORTSMISC, 0,
-	NULL, wbeachvl3RomInfo, wbeachvl3RomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, WbeachvlDIPInfo,
+	NULL, wbeachvl3RomInfo, wbeachvl3RomName, NULL, NULL, NULL, NULL, WbeachvlInputInfo, NULL,
 	WbeachvlInit, DrvExit, DrvFrame, WbeachvlRender, DrvScan, &BurnRecalc, 0x800,
 	320, 240, 4, 3
 };

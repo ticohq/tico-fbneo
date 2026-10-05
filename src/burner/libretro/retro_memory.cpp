@@ -115,6 +115,7 @@ static int StateGetMainRamAcb(BurnArea *pba)
 			return 0;
 		case HARDWARE_NES:
 		case HARDWARE_FDS:
+		case HARDWARE_NVS:
 			if ((strcmp(pba->szName, "CPU Ram") == 0)) {
 				sMemoryDescriptors[nMemoryCount].flags     = RETRO_MEMDESC_SYSTEM_RAM;
 				sMemoryDescriptors[nMemoryCount].ptr       = pba->Data;
@@ -214,15 +215,23 @@ size_t retro_get_memory_size(unsigned id)
 }
 
 // Savestates support
+#define SS_CONTEXT_NUM 5
 static UINT8 *pStateBuffer;
-static UINT32 nStateLen;
-static UINT32 nStateTmpLen;
+static UINT32 nStateLen[SS_CONTEXT_NUM];
+static UINT32 nStateTmpLen[SS_CONTEXT_NUM];
+static UINT32 nTempSize;
+static bool bScanOk;
+static int nSavestateContext = RETRO_SAVESTATE_CONTEXT_NORMAL;
 
 static int StateWriteAcb(BurnArea *pba)
 {
-	nStateTmpLen += pba->nLen;
-	if (nStateTmpLen > nStateLen)
+	nStateTmpLen[nSavestateContext] += pba->nLen;
+	// size is bigger than the buffer we are writing to, abort
+	if (nStateTmpLen[nSavestateContext] > nTempSize)
+	{
+		bScanOk = false;
 		return 1;
+	}
 	memcpy(pStateBuffer, pba->Data, pba->nLen);
 	pStateBuffer += pba->nLen;
 
@@ -231,9 +240,13 @@ static int StateWriteAcb(BurnArea *pba)
 
 static int StateReadAcb(BurnArea *pba)
 {
-	nStateTmpLen += pba->nLen;
-	if (nStateTmpLen > nStateLen)
+	nStateTmpLen[nSavestateContext] += pba->nLen;
+	// size is bigger than the buffer we are loading from, abort
+	if (nStateTmpLen[nSavestateContext] > nTempSize)
+	{
+		bScanOk = false;
 		return 1;
+	}
 	memcpy(pba->Data, pStateBuffer, pba->nLen);
 	pStateBuffer += pba->nLen;
 
@@ -242,9 +255,9 @@ static int StateReadAcb(BurnArea *pba)
 
 static int StateLenAcb(BurnArea *pba)
 {
-	nStateLen += pba->nLen;
+	nStateLen[nSavestateContext] += pba->nLen;
 #ifdef FBNEO_DEBUG
-	HandleMessage(RETRO_LOG_INFO, "state debug: name %s, len %d, total %d\n", pba->szName, pba->nLen, nStateLen);
+	HandleMessage(RETRO_LOG_INFO, "state debug: name %s, len %d, total %d\n", pba->szName, pba->nLen, nStateLen[nSavestateContext]);
 #endif
 
 	return 0;
@@ -252,7 +265,7 @@ static int StateLenAcb(BurnArea *pba)
 
 static INT32 LibretroAreaScan(INT32 nAction)
 {
-	nStateTmpLen = 0;
+	nStateTmpLen[nSavestateContext] = 0;
 
 	// The following value is sometimes used in game logic (xmen6p, ...),
 	// and will lead to various issues if not handled properly.
@@ -262,11 +275,12 @@ static INT32 LibretroAreaScan(INT32 nAction)
 	// including multiple iterations of the same frame through runahead,
 	// but it needs to stay synced between multiple iterations of a given frame
 	SCAN_VAR(nCurrentFrame);
+
+	BurnAreaScan(nAction, 0);
+
 	// We want to serialize this for single-instance runahead, otherwise the counter increases faster
 	if (nAction & ACB_RUNAHEAD)
 		SCAN_VAR(nDiagInputHoldCounter);
-
-	BurnAreaScan(nAction, 0);
 
 	return 0;
 }
@@ -275,9 +289,9 @@ static void TweakScanFlags(INT32 &nAction)
 {
 	// note: due to the fact all hosts would require the same version of hiscore.dat to properly scan the same memory ranges,
 	//       hiscores can't work reliably in a netplay environment, and we should never enable them in that context
+	nSavestateContext = RETRO_SAVESTATE_CONTEXT_NORMAL;
 	if (bLibretroSupportsSavestateContext)
 	{
-		int nSavestateContext = RETRO_SAVESTATE_CONTEXT_NORMAL;
 		environ_cb(RETRO_ENVIRONMENT_GET_SAVESTATE_CONTEXT, &nSavestateContext);
 		// With RETRO_ENVIRONMENT_GET_SAVESTATE_CONTEXT, we can guess accurately
 		switch (nSavestateContext)
@@ -303,6 +317,7 @@ static void TweakScanFlags(INT32 &nAction)
 		kNetGame = nAudioVideoEnable & 4 ? 1 : 0;
 		if (kNetGame == 1)
 		{
+			nSavestateContext = RETRO_SAVESTATE_CONTEXT_ROLLBACK_NETPLAY;
 			EnableHiscores = false;
 			nAction |= ACB_NET_OPT;
 		}
@@ -321,31 +336,12 @@ size_t retro_serialize_size()
 	// Tweaking from context
 	TweakScanFlags(nAction);
 
-	// Store previous size
-	//INT32 nStateLenPrev = nStateLen;
-
 	// Compute size
-	nStateLen = 0;
+	nStateLen[nSavestateContext] = 0;
 	BurnAcb = StateLenAcb;
 	LibretroAreaScan(nAction);
 
-	// cv1k and ngp/ngpc need overallocation
-	switch (BurnDrvGetHardwareCode() & HARDWARE_PUBLIC_MASK)
-	{
-		case HARDWARE_CAVE_CV1000:
-		case HARDWARE_SNK_NGP:
-		case HARDWARE_SNK_NGPC:
-			nStateLen += (128*1024);
-			break;
-	}
-
-	// The frontend doesn't handle it well when different savestates
-	// with different sizes are used concurrently for runahead & rewind,
-	// so we always keep the largest computed size
-	//if (nStateLenPrev > nStateLen)
-	//	nStateLen = nStateLenPrev;
-
-	return nStateLen;
+	return nStateLen[nSavestateContext];
 }
 
 bool retro_serialize(void *data, size_t size)
@@ -368,11 +364,13 @@ bool retro_serialize(void *data, size_t size)
 
 	BurnAcb = StateWriteAcb;
 	pStateBuffer = (UINT8*)data;
+	nTempSize = size;
+	bScanOk = true;
 
 	LibretroAreaScan(nAction);
 
-	// size is bigger than expected
-	if (nStateTmpLen > size)
+	// return false if scan failed
+	if (!bScanOk)
 		return false;
 
 	return true;
@@ -389,19 +387,15 @@ bool retro_unserialize(const void *data, size_t size)
 	// Tweaking from context
 	TweakScanFlags(nAction);
 
-	// second instance runahead never calls retro_serialize_size(),
-	// but to avoid overflows nStateLen is required in this core's savestate logic,
-	// so we use "size" to update nStateLen
-	if (size > nStateLen)
-		nStateLen = size;
-
 	BurnAcb = StateReadAcb;
 	pStateBuffer = (UINT8*)data;
+	nTempSize = size;
+	bScanOk = true;
 
 	LibretroAreaScan(nAction);
 
-	// size is bigger than expected
-	if (nStateTmpLen > size)
+	// return false if scan failed
+	if (!bScanOk)
 		return false;
 
 	// Some driver require to recalc palette after loading savestates

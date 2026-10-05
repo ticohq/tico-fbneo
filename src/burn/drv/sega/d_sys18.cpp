@@ -3463,9 +3463,9 @@ static INT32 LghostInit()
 
 static INT32 Mwalkbl2PatchRom()
 {
-	*((UINT16*)(System16Rom + 0x070212)) = 0x4e71;
-	*((UINT16*)(System16Rom + 0x070116)) = 0x4e71;
-	*((UINT16*)(System16Rom + 0x00314a)) = 0x4642;
+	*((UINT16*)(System16Rom + 0x070212)) = BURN_ENDIAN_SWAP_INT16(0x4e71);
+	*((UINT16*)(System16Rom + 0x070116)) = BURN_ENDIAN_SWAP_INT16(0x4e71);
+	*((UINT16*)(System16Rom + 0x00314a)) = BURN_ENDIAN_SWAP_INT16(0x4642);
 	System16Rom[0x00311a] = 0x3f;
 	System16Rom[0x070103] = 0x00;
 	System16Rom[0x070109] = 0x00;
@@ -3961,7 +3961,7 @@ struct BurnDriver BurnDrvHamaway = {
 	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_PROTOTYPE | BDF_ORIENTATION_VERTICAL | BDF_ORIENTATION_FLIPPED, 2, HARDWARE_SEGA_SYSTEM18 | HARDWARE_SEGA_837_7525, GBF_PUZZLE, 0,
 	NULL, HamawayRomInfo, HamawayRomName, NULL, NULL, NULL, NULL, System18InputInfo, HamawayDIPInfo,
-	HamawayInit, WwallyExit, System18Frame, System18Render, WwallyScan,
+	HamawayInit, System18Exit, System18Frame, System18Render, System18Scan,
 	NULL, 0x1800, 224, 320, 3, 4
 };
 

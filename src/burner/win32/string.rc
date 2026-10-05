@@ -22,6 +22,7 @@ BEGIN
 	IDS_INPUT_ANALOG_ABS		"Absolute"
 	IDS_INPUT_ANALOG_AUTO		"Auto-center"
 	IDS_INPUT_ANALOG_NORMAL		"Normal"
+	IDS_INPUT_DETECT_GAMEPADS	"Re-Detect Controllers"
 
 	IDS_DIP_GROUP				"DIPSwitch group"
 	IDS_DIP_SETTING				"Setting"
@@ -32,6 +33,9 @@ BEGIN
 
 	IDS_MEMCARD_CREATE			"Create new memory card"
 	IDS_MEMCARD_SELECT			"Select new memory card"
+	IDS_MEMCARD_INSERT			"Insert card"
+	IDS_MEMCARD_EJECT			"Eject card"
+	IDS_MEMCARD					"Card"
 
 	IDS_PROGRESS_LOADING		"Loading and initialising %s..."
 	IDS_PROGRESS_LOADING_ONLY	"Loading"
@@ -91,7 +95,7 @@ BEGIN
 	IDS_DISK_TEXT				"Text Files"
 	IDS_DISK_FILE_ROMDATA		"%s RomData Type"
 	IDS_DISK_FILE_IPSPATCH		"%s IPS Type"
-	IDS_DISK_FILE_NEOGEOCD		"%s NeoGeo-CD Type"
+	IDS_DISK_FILE_CDIMAGE		"%s CD image"
 	IDS_DISK_FILE_ARCHIVE		"%s Archive Types"
 
 	IDS_DISK_SAVEREPORT			"Save system information report"
@@ -165,6 +169,7 @@ BEGIN
 	IDS_SEL_CPS3				"CPS-3"
 	IDS_SEL_NEOGEO				"Neo Geo"
 	IDS_SEL_PGM					"PGM"
+	IDS_SEL_PGM2				"PGM2"
 	IDS_SEL_PSIKYO				"Psikyo"
 	IDS_SEL_SEGA				"Sega Arcade"
 	IDS_SEL_TAITO				"Taito"
@@ -198,8 +203,10 @@ BEGIN
 	IDS_SEL_NES                 "NES"
 	IDS_SEL_FDS                 "FDS"
 	IDS_SEL_SNES				"SNES"
+	IDS_SEL_GBA                 "GBA"
 	IDS_SEL_NGP                 "Neo Geo Pocket"
 	IDS_SEL_CHANNELF            "Fairchild Channel F"
+	IDS_SEL_ASTROHOME           "Bally Astrocade"
 	IDS_SEL_SPECTRUM			"ZX Spectrum"
 	IDS_SEL_MIDWAY				"Midway"
 	IDS_SEL_CAPCOM_GRP			"Capcom"
@@ -256,7 +263,7 @@ BEGIN
 	
 	IDS_SUPPORTPATH_TITLE		"%s%sEdit support file paths"
 
-	IDS_NGCD_DIAG_TITLE			"%s%sNeo Geo CDZ%sSelect Game"
+	IDS_NGCD_DIAG_TITLE			"%s%sCD Image Library%sSelect Game"
 	IDS_NGCD_TITLE				"Title"
 	IDS_NGCD_NGCDID				"NGCD-ID"
 
@@ -277,6 +284,8 @@ BEGIN
 
 	IDS_NUMDIAL_NUM_FRAMES		"Number of Frames"
 	IDS_NUMDIAL_FILTER_SHARP	"Select desired filter sharpness"
+
+	IDS_SCANNING_IMGS			"Scanning CD Images..."
 
 	IDS_SCANNING_ROMS			"Scanning ROMs..."
 
@@ -397,6 +406,9 @@ BEGIN
 	IDS_ERR_CDEMU_INI_FAIL		"Couldn't initialise CD emulation."
 	IDS_ERR_DRIVER_NOT_EXIST	"Driver does not exist."
 	IDS_ERR_ROMSET_DUPLICATE	"Romset has duplicate names with drivers in the driver list."
+	IDS_ERR_CD_IMAGE			"CD image:\n\n"
+	IDS_ERR_CD_IMAGE_FILE		"CD image: %s\n\n"
+	IDS_ERR_CD_IMAGE_IDENTIFY	"Unable to identify the CD image.\n\n%s"
 	
 	IDS_ERR_MACRO_NOT_MAPPING	"Double-click the macro to change its mapping first"
 

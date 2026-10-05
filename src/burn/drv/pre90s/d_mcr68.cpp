@@ -904,7 +904,7 @@ static tilemap_callback( bg )
 {
 	UINT16 *vram = (UINT16*)DrvVidRAM;
 
-	UINT16 attr = (vram[offs * 2] & 0xff) | (vram[offs * 2 + 1] << 8);
+	UINT16 attr = (BURN_ENDIAN_SWAP_INT16(vram[offs * 2]) & 0xff) | (BURN_ENDIAN_SWAP_INT16(vram[offs * 2 + 1]) << 8);
 	UINT16 code = (attr & 0x3ff) | ((attr & 0xc000) >> 4);
 	UINT16 color = ((attr >> 12) & 3) ^ 3;
 	UINT32 flags = TILE_FLIPYX(attr >> 10) | TILE_GROUP(attr >> 15);
@@ -1272,9 +1272,9 @@ static void DrvPaletteUpdate()
 
 	for (INT32 i = 0; i < 0x80/2; i++)
 	{
-		UINT8 r = pal3bit(p[i] >> 6);
-		UINT8 g = pal3bit(p[i] >> 0);
-		UINT8 b = pal3bit(p[i] >> 3);
+		UINT8 r = pal3bit(BURN_ENDIAN_SWAP_INT16(p[i]) >> 6);
+		UINT8 g = pal3bit(BURN_ENDIAN_SWAP_INT16(p[i]) >> 0);
+		UINT8 b = pal3bit(BURN_ENDIAN_SWAP_INT16(p[i]) >> 3);
 
 		DrvPalette[i] = BurnHighCol(r, g, b, 0);
 	}
@@ -1291,16 +1291,16 @@ static void draw_sprites(INT32 priority)
 
 	for (INT32 offs = spriteram_size / 2 - 4; offs >= 0; offs -= 4)
 	{
-		INT32 flags = ram[offs + 1] & 0xff;
-		INT32 code = (ram[offs + 2] & 0xff) + 256 * ((flags >> 3) & 0x01) + 512 * ((flags >> 6) & 0x03);
+		INT32 flags = BURN_ENDIAN_SWAP_INT16(ram[offs + 1]) & 0xff;
+		INT32 code = (BURN_ENDIAN_SWAP_INT16(ram[offs + 2]) & 0xff) + 256 * ((flags >> 3) & 0x01) + 512 * ((flags >> 6) & 0x03);
 
 		if (code == 0 || ((flags >> 2) & 1) != priority) continue;
 
 		INT32 color = ~flags & 0x03;
 		INT32 flipx = flags & 0x10;
 		INT32 flipy = flags & 0x20;
-		INT32 sx = (ram[offs + 3] & 0xff) * 2 + sprite_xoffset;
-		INT32 sy = (241 - (ram[offs] & 0xff)) * 2;
+		INT32 sx = (BURN_ENDIAN_SWAP_INT16(ram[offs + 3]) & 0xff) * 2 + sprite_xoffset;
+		INT32 sy = (241 - (BURN_ENDIAN_SWAP_INT16(ram[offs]) & 0xff)) * 2;
 
 		if (sx > 0x1f0) sx -= 0x200;
 
@@ -1904,7 +1904,7 @@ static struct BurnRomInfo archrivlRomDesc[] = {
 	{ "pls153.11j",					0x000eb, 0x761c3b56, 0 | BRF_OPT },           // 13 PLDs
 	{ "pls153.12j",					0x000eb, 0x48eed036, 0 | BRF_OPT },           // 14
 	{ "pls153.14h",					0x000eb, 0xd4203273, 0 | BRF_OPT },           // 15
-	{ "pal12h6.14e",				0x00034, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 16
+	{ "pal12h6.14e",				0x00034, 0xa42d769e, 0 | BRF_OPT },           // 16
 	{ "pal16r4a.14k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 17
 	{ "pal16r4a.2k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 18
 	{ "pal16r6a.15e",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 19
@@ -1978,7 +1978,7 @@ static struct BurnRomInfo archrivlaRomDesc[] = {
 	{ "pls153.11j",					0x000eb, 0x761c3b56, 0 | BRF_OPT },           // 13 PLDs
 	{ "pls153.12j",					0x000eb, 0x48eed036, 0 | BRF_OPT },           // 14
 	{ "pls153.14h",					0x000eb, 0xd4203273, 0 | BRF_OPT },           // 15
-	{ "pal12h6.14e",				0x00034, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 16
+	{ "pal12h6.14e",				0x00034, 0xa42d769e, 0 | BRF_OPT },           // 16
 	{ "pal16r4a.14k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 17
 	{ "pal16r4a.2k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 18
 	{ "pal16r6a.15e",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 19
@@ -2026,7 +2026,7 @@ static struct BurnRomInfo archrivlbRomDesc[] = {
 	{ "pls153.11j",					0x000eb, 0x761c3b56, 0 | BRF_OPT },           // 13 PLDs
 	{ "pls153.12j",					0x000eb, 0x48eed036, 0 | BRF_OPT },           // 14
 	{ "pls153.14h",					0x000eb, 0xd4203273, 0 | BRF_OPT },           // 15
-	{ "pal12h6.14e",				0x00034, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 16
+	{ "pal12h6.14e",				0x00034, 0xa42d769e, 0 | BRF_OPT },           // 16
 	{ "pal16r4a.14k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 17
 	{ "pal16r4a.2k",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 18
 	{ "pal16r6a.15e",				0x00104, 0x00000000, 0 | BRF_NODUMP | BRF_OPT },           // 19

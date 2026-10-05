@@ -1757,8 +1757,11 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 	}
 
 	// Hot Rod
+	// Road Blasters
 	if ((parentrom && strcmp(parentrom, "hotrod") == 0) ||
-		(drvname && strcmp(drvname, "hotrod") == 0)
+		(drvname && strcmp(drvname, "hotrod") == 0) ||
+		(parentrom && strcmp(parentrom, "roadblst") == 0) ||
+		(drvname && strcmp(drvname, "roadblst") == 0)
 	) {
 		if (strcmp("Accelerator", description) == 0) {
 			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R2, RETRO_DEVICE_INDEX_ANALOG_BUTTON, description);
@@ -1872,6 +1875,18 @@ static INT32 GameInpSpecialOne(struct GameInp* pgi, INT32 nPlayer, char* szb, ch
 		}
 		if (strcmp("Aim Analog", description) == 0) {
 			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_Y, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+	}
+
+	// Tron
+	if ((parentrom && strcmp(parentrom, "tron") == 0) ||
+		(drvname && strcmp(drvname, "tron") == 0)
+	) {
+		if (strcmp("Dial", description) == 0) {
+			GameInpAnalog2RetroInpAnalog(pgi, nPlayer, RETRO_DEVICE_ID_ANALOG_X, RETRO_DEVICE_INDEX_ANALOG_RIGHT, description);
+		}
+		if (strcmp("Button 1", description) == 0) {
+			GameInpDigital2RetroInpKey(pgi, nPlayer, RETRO_DEVICE_ID_JOYPAD_R, description);
 		}
 	}
 
