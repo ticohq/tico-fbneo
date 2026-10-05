@@ -1,0 +1,76 @@
+{
+  "id": "fbneo",
+  "name": "FinalBurn Neo",
+  "nro": "tico-fbneo.nro",
+  "launch": "\"{nro}\" \"{slug}\" \"{rom}\" \"{title}\"",
+  "settings": "config/modules/fbneo/settings.json",
+  "config_file": "fbneo.jsonc",
+  "is_libretro": true,
+  "achievements": true,
+  "list_label": "FBNeo (Arcade)",
+  "systems": [
+    {
+      "slug": "fbneo",
+      "title": "FinalBurn Neo",
+      "short_title": "FBNeo",
+      "extensions": [
+        ".zip",
+        ".7z",
+        ".cmd"
+      ],
+      "ignore": {
+        "names": [
+          "neogeo",
+          "neocdz",
+          "qsound",
+          "pgm",
+          "skns",
+          "isgsm",
+          "decocass",
+          "cchip",
+          "taito_en",
+          "taito_f3",
+          "namcoc69",
+          "namcoc70",
+          "namcoc75",
+          "kaneko16",
+          "igs017",
+          "igs022",
+          "igs025",
+          "midssio",
+          "nmk004",
+          "ym2151",
+          "ym2203",
+          "ym2413",
+          "ym2608",
+          "ym2610",
+          "ym2612",
+          "ym3812",
+          "ymf262",
+          "bubsys",
+          "msm5205",
+          "okim6295",
+          "seibu_sound",
+          "atarijsa",
+          "atarijsa2",
+          "atarijsa3",
+          "k054539",
+          "k053260",
+          "eeprom",
+          "cps3"
+        ]
+      },
+      "title_rules": {
+        "articles": "keep"
+      },
+      "games_file": "fbneo.json",
+      "retroachievements_id": 27,
+      "colors": {
+        "start": "E65A3C",
+        "end": "E6A04F",
+        "start_dark": "A8422C",
+        "end_dark": "A87439"
+      }
+    }
+  ]
+}

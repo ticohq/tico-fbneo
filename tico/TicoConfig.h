@@ -5,12 +5,34 @@
 #include <string>
 
 namespace TicoConfig {
-    constexpr const char* TEST_ROM = "sdmc:/tico/roms/fbneo/rom.sfc";
+    constexpr const char* TEST_ROM = "sdmc:/tico/roms/fbneo/rom.zip";
 
     constexpr const char* FONT_PATH = "romfs:/fonts/font.ttf";
-    constexpr const char* SYSTEM_PATH = "sdmc:/tico/system/fbneo/";
-    constexpr const char* SAVES_PATH = "sdmc:/tico/saves/fbneo/";
-    constexpr const char* STATES_PATH = "sdmc:/tico/states/fbneo/";
+
+    // Current console slug (fbneo, from argv[1])
+    inline std::string CURRENT_SLUG = "fbneo";
+
+    /// @brief Set the console being booted (fbneo)
+    inline void SetSlug(const std::string& slug) {
+        if (!slug.empty())
+            CURRENT_SLUG = slug;
+    }
+
+    /// Content directories, with a trailing slash. Tico's per-module Paths tab
+    /// stores custom roots as tico_{system,saves,states}_path in fbneo.jsonc;
+    /// empty or missing keys fall back to sdmc:/tico/<kind>/. Like tico's own
+    /// {saves}/{states}/{system}, the console slug is appended to the root.
+    std::string SystemPath();
+    std::string SavesPath();
+    std::string StatesPath();
+
+    /// Create a directory and any missing parents.
+    void MakeDirs(const std::string& path);
+
+    /// @brief Map console slug to RetroAchievements console ID
+    inline int GetRcConsoleId() {
+        return 7; // RC_CONSOLE_NINTENDO
+    }
 
     constexpr int WINDOW_WIDTH = 1280;
     constexpr int WINDOW_HEIGHT = 720;

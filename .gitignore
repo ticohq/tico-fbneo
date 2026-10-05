@@ -39,3 +39,12 @@ src/burner/libretro/pgmspritecreate
 build_tico
 
 *.a
+build_glslang_nx/
+build_desktop/
+/shaders
+/cache/
+tico/config/
+/imgui.ini
+
+# prebuilt libusbhsfs + read-only NTFS (usbntfs), see tico/deps/usbhsfs
+!tico/deps/usbhsfs/lib/*.a
