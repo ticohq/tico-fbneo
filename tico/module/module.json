@@ -5,6 +5,7 @@
   "launch": "\"{nro}\" \"{slug}\" \"{rom}\" \"{title}\"",
   "settings": "config/modules/fbneo/settings.json",
   "config_file": "fbneo.jsonc",
+  "system_dir": "fbneo",
   "is_libretro": true,
   "achievements": true,
   "list_label": "FBNeo (Arcade)",
