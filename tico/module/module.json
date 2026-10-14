@@ -12,6 +12,7 @@
   "systems": [
     {
       "slug": "fbneo",
+      "naming": "arcade",
       "title": "FinalBurn Neo",
       "short_title": "FBNeo",
       "extensions": [
