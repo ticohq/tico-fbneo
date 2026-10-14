@@ -65,7 +65,7 @@
       "title_rules": {
         "articles": "keep"
       },
-      "games_file": "fbneo.json",
+      "games_file": "fbneo.dat",
       "retroachievements_id": 27,
       "colors": {
         "start": "E65A3C",
