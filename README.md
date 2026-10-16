@@ -26,6 +26,17 @@ It adds:
 
 ----------
 
+## Credits
+
+This fork is built on top of the libretro port of FinalBurn Neo.
+All core emulation work belongs to the FinalBurn Neo team and its contributors.
+
+- **Official FinalBurn Neo repository** — https://github.com/finalburnneo/FBNeo
+- **FinalBurn Neo website** — https://neo-source.com
+- **libretro FinalBurn Neo** — https://github.com/libretro/FBNeo
+
+----------
+
 ## A Note
 
 A lot of work in this scene disappears over time — not because it lacked value, but because it was never shared.
