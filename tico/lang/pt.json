@@ -164,5 +164,6 @@
     "settings_fbneo_value_top_right": "Superior direito",
     "settings_fbneo_value_unlimited": "Ilimitado",
     "settings_fbneo_value_up": "Cima",
-    "settings_fbneo_vertical_mode": "Modo vertical"
+    "settings_fbneo_vertical_mode": "Modo vertical",
+    "emulator_quick_menu_tip": "Aperte {plus} e {minus} juntos para abrir o menu rápido"
 }

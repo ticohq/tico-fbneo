@@ -141,5 +141,6 @@
     "settings_fbneo_tab_neogeo": "Neo Geo",
     "settings_fbneo_tab_system": "System",
     "settings_fbneo_tab_video": "Video",
-    "settings_fbneo_vertical_mode": "Vertical mode"
+    "settings_fbneo_vertical_mode": "Vertical mode",
+    "emulator_quick_menu_tip": "Press {plus} and {minus} together to open the quick menu"
 }

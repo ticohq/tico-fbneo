@@ -163,5 +163,6 @@
     "settings_fbneo_value_top_right": "Сверху справа",
     "settings_fbneo_value_unlimited": "Без ограничений",
     "settings_fbneo_value_up": "Вверх",
-    "settings_fbneo_vertical_mode": "Вертикальный режим"
+    "settings_fbneo_vertical_mode": "Вертикальный режим",
+    "emulator_quick_menu_tip": "Нажмите {plus} и {minus} вместе, чтобы открыть быстрое меню"
 }

@@ -163,5 +163,6 @@
     "settings_fbneo_value_top_right": "Oben rechts",
     "settings_fbneo_value_unlimited": "Unbegrenzt",
     "settings_fbneo_value_up": "Oben",
-    "settings_fbneo_vertical_mode": "Vertikalmodus"
+    "settings_fbneo_vertical_mode": "Vertikalmodus",
+    "emulator_quick_menu_tip": "Drücke {plus} und {minus} gleichzeitig, um das Schnellmenü zu öffnen"
 }
